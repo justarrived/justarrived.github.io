@@ -22,14 +22,14 @@ if [ -z "$branch" ] || [ "$branch" != "master" ]; then
 fi
 
 exe_cmd "jekyll build"
-if [ ! -d '_site' ];then
-  echo "not content to be published"
+if [ ! -d '_site' ]; then
+  echo "missing _site directory (no content to publish)"
   exit
 fi
 
 exe_cmd "git checkout $branch"
 error_code=$?
-if [ $error_code != 0 ];then
+if [ $error_code != 0 ]; then
   echo 'Switch branch fail.'
   exit
 else
