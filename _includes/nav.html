@@ -2,13 +2,38 @@
 	<div id="inner-header" class="wrap cf">
 
 		<a href="/" rel="nofollow">
-			<div class="header__logo">Just Arrived</div>
+			<div class="header__logo">{% t global.app_name %}</div>
 		</a>
 
 		<div class="header__btns">
 			<div class="lang-options">
-				<a href="/"><span class="lang-en">English</span></a>
-				<a href="/ar"><span class="lang-ar">Arabic</span></a>
+				{% capture en_root %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+				{% capture sv_root %}{{ site.baseurl_root }}/sv{{ page.url }}{% endcapture %}
+				{% capture ar_root %}{{ site.baseurl_root }}/ar{{ page.url }}{% endcapture %}
+
+				{% if site.lang == "en" %}
+					<a href="{{ sv_root }}">
+						<span class="lang-sv">{% t global.swedish %}</span>
+					</a>
+					<a href="{{ ar_root }}">
+						<span class="lang-ar">{% t global.arabic %}</span>
+					</a>
+				{% elsif site.lang == "sv" %}
+					<a href="{{ en_root }}">
+						<span class="lang-en">{% t global.english %}</span>
+					</a>
+					<a href="{{ ar_root }}">
+						<span class="lang-ar">{% t global.arabic %}</span>
+					</a>
+				{% elsif site.lang == "ar" %}
+					<a href="{{ sv_root }}">
+						<span class="lang-sv">{% t global.swedish %}</span>
+					</a>
+					<a href="{{ en_root }}">
+						<span class="lang-en">{% t global.english %}</span>
+					</a>
+				{% endif %}
+
 			</div>
 			<a href="#" class="primary-btn cd-popup-trigger-signin">I want a job</a>
 			<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>

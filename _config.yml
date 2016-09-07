@@ -30,3 +30,11 @@ markdown: kramdown
 sass:
     sass_dir: assets/sass
     style: compressed
+
+# Plugins
+gems:
+  - jekyll-multiple-languages-plugin
+
+# I18n
+languages: ["en", "sv", "ar"]
+exclude_from_localizations: ["assets"]

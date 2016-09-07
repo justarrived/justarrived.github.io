@@ -38,7 +38,7 @@
         // Translation via https://github.com/designorant
         'pl': {
             'submit': 'Wysyłanie...',
-            0: 'Email z potwierdzeniem został wysłany',
+            0: 'Email z potwierdzeniem został wysłany',
             1: 'Proszę podać adres email',
             2: 'Adres email musi zawierać jeden znak @',
             3: 'Część adresu z domeną jest niepoprawna (część po znaku @: )',
@@ -64,15 +64,6 @@
             3: 'La partie domaine de l\'adresse e-mail n\'est pas valide (la partie après le @:)',
             4: 'La partie nom d\'utilisateur de l\'adresse email n\'est pas valide (la partie avant le signe @:)',
             5: 'Cette adresse e-mail semble faux ou non valides. S\'il vous plaît entrer une adresse email valide'
-        },
-        'en_custom': {
-            'submit': 'Enregistrement en cours...',
-            0: 'zero',
-            1: 'one',
-            2: 'two',
-            3: 'three',
-            4: 'four',
-            5: 'five'
         }
     };
 })(jQuery);
