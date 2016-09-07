@@ -1,0 +1,286 @@
+.module {
+  @extend %clearfix;
+  position: relative;
+  & a {
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.module--padding {
+  padding: 2em 0;
+  @include tablet-small {
+    padding: 3em 0;
+  }
+  @include tablet {
+    padding: 5em 0;
+    &.section--hero {
+      padding: 8em 0;
+    }
+  }
+}
+
+.module--white {
+  color: #fff;
+  & p, & ul, & ol {
+    color: rgba(255,255,255,0.8);
+  }
+}
+
+.module--primary {
+  color: #fff;
+  & p, & ul, & ol {
+    color: rgba(255,255,255,0.9);
+  }
+}
+
+.module--black {
+  color: $charcoal-medium;
+  & p, & ul, & ol {
+    color: $stone-dark;
+  }
+}
+
+.module--black-bg {
+  background: $charcoal-medium;
+  & a {
+    // color: $cerise;
+  }
+}
+
+.module--charcoal-bg {
+  background: $charcoal;
+}
+
+.module--white-bg {
+  background: #fff;
+}
+
+.module--gray-bg {
+  background: $light-gray;
+}
+
+.module--primary-bg {
+  background: $cerise;
+}
+
+.module--secondary-bg {
+  background: $bluesea;
+}
+
+.module-content--padding {
+  padding: 2em 1em;
+  @include tablet-small {
+    padding: 2em;
+  }
+}
+
+.module-content--centered {
+  @include tablet {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
+
+.module-content--left {
+  @include tablet {
+    float: left;
+    width: 52%;
+    .page-template-tpl-homepage-ar & {
+      float: right;
+    }
+  }
+}
+
+.module-content--left-last {
+  @include tablet {
+    float: left;
+    padding-left: 3em;
+    width: 100%;
+    max-width: 620px;
+  }
+}
+
+.module-content--right {
+  @include tablet {
+    float: right;
+    width: 40%;
+    .page-template-tpl-homepage-ar & {
+      float: left;
+    }
+  }
+}
+
+.module--bg-cover {
+  background-size: cover;
+  background-position: 50%;
+  & .wrap {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.module__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.module__overlay--black {
+  background: $charcoal-medium;
+  opacity: 0.8;
+}
+
+.module__overlay--light-black {
+  background: rgba(0,0,0,0.1);
+}
+
+.module__overlay--secondary {
+  background: $bluesea;
+  opacity: 0.8;
+}
+
+.module--txt {
+  width: 92%;
+  margin: 0 auto;
+  padding: 2em 0 1em;
+  @include desktop-small {
+    padding: 5em 2em;
+    width: 50%;
+  }
+  @include desktop {
+    width: 35%;
+  }
+  &.module--txt-right {
+    @include desktop-small {
+      float: right;
+    }
+  }
+  &.module--txt-left {
+    @include desktop-small {
+      float: left;
+    }
+  }
+}
+
+.module--img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 280px;
+  @include desktop-small {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+  }
+  @include desktop {
+      position: absolute;
+      width: 65%;
+      height: 100%;
+  }
+  &.module--img-left {
+    @include desktop-small {
+      left: 0;
+    }
+  }
+  &.module--img-right {
+    @include desktop-small {
+      right: 0;
+    }
+  }
+}
+
+// .module--img {
+//   float: left;
+//   width: 100%;
+//   min-height: 280px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   @include mobile {
+//     min-height: 470px;
+//   }
+// }
+
+.module--fig {
+  margin: 0 auto;
+  padding: 2em 4%;
+  clear: both;
+  width: auto;
+
+  @include tablet-small {
+    padding: 3em 12%;
+  }
+
+  @include tablet {
+    width: 420px;
+    padding: 2em;
+    top: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+  }
+}
+
+.module--txt-c {
+  @include tablet {
+    text-align: center;
+  }
+}
+
+.module--txt-l {
+  text-align: left;
+}
+
+.module--txt-r {
+  text-align: right;
+}
+
+.columns {
+  @extend %clearfix;
+  margin: 0 auto;
+}
+
+.column-1-2 {
+  @include tablet {
+    width: 50%;
+    padding: 0 1em;
+    float: left;
+  }
+  .page-template-tpl-homepage-ar & {
+    @include tablet {
+      float: right;
+    }
+  }
+}
+
+.column-1-3 {
+  @extend %clearfix;
+  clear: both;
+  @include tablet {
+    clear: none;
+    width: 33.3%;
+    padding: 0 1em;
+    float: left;
+  }
+}
+
+.module-banner {
+  text-align: center;
+  padding: 0.4em 0;
+  color: #fff;
+  background: $cerise;
+  & a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.page-template-tpl-homepage-ar {
+  & .module-banner {
+    direction: rtl;
+  }
+}

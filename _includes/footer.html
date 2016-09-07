@@ -1,0 +1,55 @@
+<footer class="footer module-padding" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+  <div id="inner-footer" class="">
+
+  	<nav role="navigation">
+      <!-- TODO: Replace this PHP/Wordpress function -->
+  		<?php wp_nav_menu(array(
+  			'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
+  			'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
+  			'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
+  			'menu_class' => 'nav footer-nav cf',            // adding custom nav class
+  			'theme_location' => 'footer-links',             // where it's located in the theme
+  			'before' => '',                                 // before the menu
+  			'after' => '',                                  // after the menu
+  			'link_before' => '',                            // before each link
+  			'link_after' => '',                             // after each link
+  			'depth' => 0,                                   // limit the depth of the nav
+  			'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
+  		)); ?>
+  	</nav>
+
+  	<p class="source-org copyright">
+      <!-- TODO: Update the current year function! -->
+  		<span>&copy; <?php echo date('Y'); ?> Just Arrived</span>
+  		<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
+  					<a href="https://twitter.com/JustArrivedSE" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a></p>
+
+  </div>
+</footer>
+
+<!-- TODO: Make sure to include all the script that used to be included by the below PHP function -->
+<?php // all js scripts are loaded in library/bones.php ?>
+<?php wp_footer(); ?>
+
+<script type="text/javascript">
+	_linkedin_data_partner_id = "17815";
+	</script><script type="text/javascript">
+	(function(){var s = document.getElementsByTagName("script")[0];
+	var b = document.createElement("script");
+	b.type = "text/javascript";b.async = true;
+	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+	s.parentNode.insertBefore(b, s);})();
+</script>
+
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
+a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
+t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
+s.parentNode.insertBefore(t,s))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nvete');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->

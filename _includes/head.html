@@ -1,0 +1,56 @@
+<head>
+	<meta charset="utf-8">
+
+	<?php // force Internet Explorer to use the latest rendering engine available ?>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="Helping new arrivals in Sweden to enter the labour market">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link rel="apple-touch-icon" href="{{ "/assets/images/apple-touch-icon.png"  | prepend: site.baseurl }}">
+	<link rel="icon" href="/favicon.png">
+	<!--[if IE]>
+		<link rel="shortcut icon" href="/favicon.ico">
+	<![endif]-->
+	<meta name="msapplication-TileColor" content="#f01d4f">
+	<meta name="msapplication-TileImage" content="{{ "/assets/images/win8-tile-icon.png" | prepend: site.baseurl }}">
+	<meta name="theme-color" content="#121212">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/a891d007d4.js"></script>
+
+	<link rel="stylesheet" href="{{ "/assets/sass/main.css" | prepend: site.baseurl }}">
+
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	 ga('create', 'UA-70777714-1', 'auto');
+	 ga('send', 'pageview');
+
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+	fbq('init', '1166436026729850');
+	fbq('track', "PageView");
+	fbq('track', 'CompleteRegistration');</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1166436026729850&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+
+</head>

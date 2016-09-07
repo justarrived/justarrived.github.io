@@ -1,0 +1,514 @@
+.section--hero {
+	text-align: center;
+	& .table {
+		min-height: 250px;
+		@include tablet {
+			min-height: 300px;
+		}
+		@include desktop {
+			min-height: 340px;
+		}
+	}
+	& h1 {
+		text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		@include desktop {
+			width: 580px;
+			margin: 0 auto 0.6em;
+		}
+	}
+	& .wrap {
+		margin: 0 auto;
+		padding: 0 5%;
+		width: auto;
+		@include desktop {
+			float: right;
+		}
+		@include desktop-large {
+			padding: 0;
+			margin: 0;
+			float: right;
+			margin-right: 13%;
+		}
+	}
+	& .module__overlay {
+		background: transparentize($charcoal-medium, 0.4);
+		@include desktop {
+			background: transparentize($charcoal-medium, 0.9);
+		}
+	}
+	@include desktop {
+		background-color: $cerise;
+	}
+}
+
+.section--hero__social-media {
+	margin-top: 3em;
+	text-align: center;
+	&:before {
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 30px;
+		height: 1px;
+		border-top: 2px solid #fff;
+    	padding-top: 1em;
+	}
+	& span {
+		display: none;
+	}
+	& a {
+		color: #fff;
+		display: inline-block;
+		margin: 0 0.5em 1em;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	@include tablet {
+		& a, & span {
+			margin: 0 0.5em 0;
+			display: inline-block;
+		}
+	}
+}
+
+.section--introduction {
+	& .columns {
+		@include desktop {
+			width: 768px;
+		}
+	}
+	& .primary-btn {
+		margin-top: 1em;
+	}
+	& h2 {
+		.page-template-tpl-homepage-ar & {
+			max-width: 768px;
+			margin: 0 auto;
+    		@include tablet {
+    			padding: 0 16px;
+    		}
+		}
+	}
+}
+
+.company-cta-paragraph {
+	@include tablet {
+		margin-top: 2em;
+	}
+}
+
+.section--how-to,
+.section--say-hej,
+.section--introduction {
+	& h2 {
+		max-width: 560px;
+		margin: 0 auto;
+	}
+	& .columns {
+		margin-top: 1.5em;
+		@include tablet {
+			margin-top: 2em;
+		}
+	}
+	& .icon {
+		padding: 1em 0 1em 50px;
+		background-position: left 50%;
+		@include tablet {
+			padding: 0;
+			padding-top: 50px;
+			background-position: 50% top;
+		}
+	}
+}
+
+.section--how-to {
+	& h2 {
+		.page-template-tpl-homepage-ar & {
+			max-width: 1040px;
+		    margin: 0 auto;
+		    padding: 0 16px;
+		}
+	}
+}
+
+.icon {
+	background-repeat: no-repeat;
+	& p {
+		margin: 0;
+	}
+}
+
+.icon--tick {
+	background-image: url(../images/icons/ic-tick-pink.png);
+	background-size: 35px 35px;
+}
+
+.icon--pen {
+	background-image: url(../images/icons/ic-pen-pink.png);
+	background-size: 28px 31px;
+}
+
+.icon--profile {
+	background-image: url(../images/icons/ic-profile-pink.png);
+	background-size: 30px 32px;
+}
+
+.section--product {
+	& .wrap {
+		max-width: 768px;
+	}
+}
+
+.product-image {
+	width: 270px;
+	margin: 0 auto 2em;
+	& img {
+		@include tablet {
+			float: right;
+		}
+	}
+	@include tablet {
+		float: left;
+		width: 38%;
+	}
+}
+
+.product-summary {
+
+	@include tablet {
+		position: absolute;
+		left: 50%;
+		top: 7%;
+		width: 50%;
+	}
+}
+
+.section--change {
+	& .wrap {
+		@include tablet-small-down {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	&.module--padding {
+		@include tablet-small-down {
+			padding-top: 0;
+		}
+	}
+}
+
+.module--meet-team-text {
+	& p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.section--meet-team {
+	text-align: center;
+	min-height: 280px;
+	background-position: 50% 50%;
+	max-width: 1024px;
+    margin: 0 auto;
+	@include tablet {
+		min-height: 420px;
+	}
+	@include desktop {
+		border: 6px solid #FFFFFF;
+    	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	}
+}
+
+.section--joinus {
+	& .wrap {
+		max-width: 700px;
+	}
+	& .contribute-btn {
+		margin-top: 1em;
+	}
+}
+
+.module--checklist {
+	@include tablet-small {
+		padding-top: 1.5em;
+	}
+	& h4 {
+		color: $bluesea;
+		margin-bottom: 1em;
+	}
+	& li {
+		margin-bottom: 0.6em;
+	}
+}
+
+.checklist {
+	& li {
+		position: relative;
+		padding-left: 24px;
+		&:before {
+			background: url(../images/icons/ic-complete.png) no-repeat left center;
+			width: 16px; height: 13px;
+			background-size: 32px 13px;
+			content: "";
+			display: inline-block;
+		    position: relative;
+		    top: 4px;
+		    margin-left: -24px;
+		    float: left;
+		}
+		&.incomplete {
+			&:before {
+				background-position: -16px 0;
+			}
+		}
+		& .completed-by {
+			display: block;
+			font-size: 0.7em;
+			color: lighten($stone-dark, 20%);
+			& a {
+				color: inherit;
+				text-decoration: none;
+				&:hover {
+					color: $stone-dark;
+				}
+			}
+		}
+	}
+	.page-template-tpl-homepage-ar & {
+		& li {
+			padding-left: 0;
+			padding-right: 24px;
+			&:before {
+				float: right;
+				margin-right: -24px;
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.section--say-hej {
+	text-align: center;
+	& .module-content {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	& .profile-pic {
+		float: left;
+		width: 70px;
+		height: 70px;
+		@include mobile {
+			width: 100px;
+			height: 100px;
+		}
+		@include tablet {
+			float: none;
+			width: 140px;
+			height: 140px;
+		}
+	}
+	& .columns--inline {
+		display: inline-block;
+		@include tablet {
+			display: block;
+		}
+
+	}
+	& .column-1-3 {
+		margin-bottom: 2em;
+		& p {
+			font-size: 80%;
+			margin: 0 0 0 1em;
+			float: left;
+			text-align: left;
+			.page-template-tpl-homepage-ar & {
+				text-align: initial;
+			}
+			@include mobile-small {
+				font-size: 90%;
+			}
+			@include tablet {
+				font-size: 100%;
+				text-align: center;
+				float: none;
+				margin: 0.5em 0 0;
+				.page-template-tpl-homepage-ar & {
+					text-align: initial;
+				}
+			}
+		}
+	}
+	& strong {
+		color: #fff;
+		font-size: 1.2em;
+	}
+}
+
+.profile-pic {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	&.profile-pic--no-border {
+		border: 0;
+	}
+}
+
+.signup-form,
+.promo-form {
+	@extend %clearfix;
+	position: relative;
+	margin: 1.2em auto 0;
+	& input[type="checkbox"],
+	& input[type="radio"] {
+		margin-right: 0.5em;
+	}
+}
+
+.signup-form {
+	font-size: 14px;
+	margin: 0.6em auto 0;
+}
+
+.form-col {
+	@include tablet-small {
+		width: 50%;
+		float: left;
+		padding: 0 0.5em;
+	}
+	& label {
+		font-size: 14px;
+	}
+}
+
+.form-col--full-width {
+	width: 100%;
+	& input {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.form-col--submit-btn {
+	width: 100%;
+    margin-top: 1em;
+}
+
+.input-group {
+	@include tablet {
+		padding: 0 0.5em;
+	}
+	& p {
+		font-size: 14px;
+		margin: 0 0 8px 0;
+		padding: 0;
+		color: $charcoal-medium;
+		font-weight: normal;
+	}
+	& .input-group-content {
+		clear: both;
+		margin-top: 8px;
+	    border: 1px dashed #D1D5DC;
+	    padding: 16px;
+	    font-size: 0;
+	    margin-bottom: 16px;
+	}
+	& ul {
+		margin: 0;
+	}
+	& li {
+		display: inline-block;
+	    width: auto;
+	    margin: 0 0 0.6em 0;
+	    font-size: 14px;
+	    width: 100%;
+	    vertical-align: top;
+	    @include tablet-small {
+	    	margin: 0 0 0.6em 0;
+	    	width: 32%;
+	    }
+	    &:last-child {
+	    	margin-bottom: 0;
+	    }
+	}
+}
+
+.section--companies {
+	border-top: 1px solid #efefef;
+	& .wrap {
+		max-width: 768px;
+	}
+}
+
+.companies {
+	@extend %clearfix;
+	font-size: 0;
+	margin-top: 24px;
+}
+
+.company {
+	display: inline-block;
+	width: 50%;
+	padding: 30px 15px;
+	@include mobile {
+		width: 33%;
+		padding: 10px;
+	}
+	@include tablet {
+		width: 25%;
+	}
+	& img {
+		width: 100%;
+		display: block;
+	}
+}
+
+.section--signup-popup {
+	padding: 2em 1em 2em;
+	& .bordered {
+		&:before {
+			@include tablet {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		.page-template-tpl-homepage-ar & {
+			text-align: center;
+		}
+	}
+}
+
+.form-response {
+	font-size: 14px;
+	clear: both;
+}
+
+.error-message {
+	color: $cerise;
+	&:before {
+		background: url(../images/icons/info.png) no-repeat left center;
+		background-size: 18px 18px;
+		width: 18px;
+		height: 18px;
+		content: "";
+		display: inline-block;
+	    margin-right: 6px;
+	    position: relative;
+	    top: 4px;
+	}
+}
+
+.success-message {
+	color: $success;
+	&:before {
+		background: url(../images/icons/ic-complete.png) no-repeat left center;
+		width: 16px;
+		height: 13px;
+		background-size: 32px 13px;
+		content: "";
+		display: inline-block;
+	    margin-right: 6px;
+	    position: relative;
+	    top: 2px;
+	}
+}

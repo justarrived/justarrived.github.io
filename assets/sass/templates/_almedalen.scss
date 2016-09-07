@@ -1,0 +1,239 @@
+.page-template-tpl-almadalen {
+	height: 100%;
+	width: 100%;
+	background: $charcoal-medium;
+
+	& .input-group li {
+		@include tablet-small {
+			width: 49%;
+		}
+	}
+}
+
+.almedalen-logo {
+	background: url(../assets/images/logos/justarrived-almedalen.png) no-repeat center center;
+	width: 100%;
+	height: 111px;
+	padding: 4em 0;
+	background-size: 296px 77px;
+	@include mobile {
+		padding: 4em 0;
+	}
+	@include tablet {
+		padding: 6em 0;
+		background-size: 411px 107px;
+	}
+}
+
+.almedalen-content-container {
+	top: auto;
+	width: 100%;
+	max-width: 650px;
+    margin: 0 auto;
+    @include desktop {
+    	max-width: 1200px;
+    }
+    & h1 {
+		font-size: 32px;
+	}
+	& .module--txt-c {
+	  text-align: center;
+	}
+	& .bordered {
+		&:before {
+			margin: 0 auto 0.6em;
+		}
+	}
+}
+
+.almedalen-signup,
+.almedalen-copy {
+	height: 100%;
+	padding: 10% 6%;
+	@include tablet-small {
+		padding: 8% 10%;
+	}
+	@include desktop {
+		float: left;
+		width: 50%;
+		padding: 4% 5%;
+	}
+}
+
+.almedalen-wrapper {
+	padding: 0 6%;
+	@include tablet-small {
+		padding: 0 10%;
+	}
+	@include tablet {
+		padding: 0 1%;
+	}
+}
+
+.almedalen-signup {
+	left: 0;
+	background: #fff;
+	& .section--signup-popup {
+		padding: 0;
+	}
+
+	& .module-content--centered {
+		max-width: auto;
+	}
+}
+
+.almedalen-copy {
+	right: 0;
+	color: #fff;
+	background: $stone-dark;
+	& h1 {
+		color: #fff;
+	}
+}
+
+.social-list {
+	margin-top: 36px;
+	font-size: 0;
+	& a {
+		color: $stone-light;
+		text-decoration: none;
+	}
+}
+
+.social-list__link {
+	font-size: 24px;
+	display: inline-block;
+	margin-right: 0.8em;
+}
+
+.social-list__text-link {
+	font-size: 16px;
+    margin-right: 0;
+    float: right;
+    position: relative;
+    top: 5px;
+    @include mobile {
+    	font-size: 18px;
+    	float: none;
+    	top: auto;
+    	margin-left: 2em;
+    }
+}
+
+.facebook-link {
+	&:hover {
+		color: $charcoal;
+	}
+}
+
+.twitter-link {
+	&:hover {
+		color: $charcoal;
+	}
+}
+
+.instagram-link {
+	&:hover {
+		color: $charcoal;
+	}
+}
+
+.justarrived-link {
+	&:hover {
+		color: $charcoal;
+	}
+}
+
+.almedalen-sponsors,
+.almedalen-profiles {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 4em;
+}
+
+.almedalen-sponsors {
+	border-bottom: 1px dashed darken($stone-dark, 15%);
+    padding-bottom: 2em;
+}
+
+.almedalen-sponsors__logos {
+	text-align: center;
+	margin: 2em auto 0;
+	max-width: 940px;
+	@include tablet {
+		margin: 0 auto;
+	}
+}
+
+.almedalen-sponsors__logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5% 2em;
+    width: 33%;
+	@include mobile {
+		width: auto;
+		margin: 0 2em 2em;
+	}
+	& img {
+		width: 100%;
+		max-width: 120px;
+		@include tablet {
+			max-width: 150px;
+		}
+	}
+	&.logo--eins {
+		& img {
+			max-width: 115px;
+		}
+	}
+	&.logo--ryska {
+		& img {
+			max-width: 74px;
+			@include mobile {
+				max-width: 80px;
+			}
+		}
+	}
+	&.logo--fotografiska {
+		& img {
+			max-width: 100px;
+		}
+	}
+	&.logo--nova {
+		& img {
+			max-width: 110px;
+		}
+	}
+}
+
+.almedalen-profiles__profiles {
+	font-size: 0;
+	margin: 32px auto 0;
+	width: 100%;
+	max-width: 900px;
+}
+
+.almedalen-profiles__profile {
+	display: inline-block;
+	margin: 0 4% 2%;
+	text-align: center;
+	width: 25%;
+	font-size: 14px;
+	color: #fff;
+	@include tablet-small {
+		margin: 0 2% 2%;
+		width: 21%;
+		font-size: 16px;
+	}
+	& img {
+		width: 100%;
+		max-width: 170px;
+	}
+}
+
+.number-of-spaces {
+	text-align: center;
+	font-size: 18px;
+	color: $cerise !important;
+}

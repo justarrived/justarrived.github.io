@@ -1,0 +1,130 @@
+.header {
+  background-color: $header-bg;
+  padding: 12px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.header__logo {
+  background: url(../images/justarrived-logo.png) no-repeat;
+  background-size: 219px 42px;
+  width: 219px;
+  height: 42px;
+  margin: 0 auto 1em;
+  text-indent: -9999em;
+
+  @include desktop-small {
+    float: left;
+    margin: 0;
+  }
+}
+
+.header__btns {
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5em;
+  & > a {
+    margin: 0 0.3em 1em;
+  }
+  & .transparent-btn {
+    padding: 0;
+  }
+  @include desktop-small {
+    float: right;
+    clear: none;
+    width: auto;
+    position: relative;
+    top: 4px;
+    margin-bottom: 0;
+    & > a {
+      margin: 0 0 0 0.6em;
+    }
+  }
+}
+
+// .lang-dropdown {
+//   opacity: 0;
+//   visibility: hidden;
+//   position: absolute;
+//   background: #fff;
+//   width: 130px;
+//   text-align: left;
+//   right: 0;
+//   border-radius: 4px;
+//   color: $charcoal;
+//   &.is-visible {
+//     opacity: 1;
+//     visibility: visible;
+//   }
+//   & ul {
+//     margin: 0.4em 0;
+//   }
+//   & li {
+//     padding: 0.1em 1em;
+//     &:hover {
+//       background: $stone;
+//     }
+//   }
+// }
+
+.lang-options {
+  font-size: 14px;
+  margin: 0 0 1em 0;
+  @include desktop-small {
+    display: inline-block;
+    margin: 0 1em 0 0;
+  }
+  & a {
+    text-decoration: none;
+    outline: 0;
+  }
+  & span {
+    color: $stone-dark;
+    cursor: pointer;
+    padding: 0.5em;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.page-template-tpl-homepage {
+  & .lang-en {
+    color: #fff;
+    cursor: default;
+  }
+}
+
+.page-template-tpl-homepage-ar {
+  & .lang-ar {
+    color: #fff;
+    cursor: default;
+  }
+  & .bordered {
+    &:before {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &.bordered--centered {
+      &:before {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  & .module--txt,
+  & .module--txt-l,
+  & .module--txt-c {
+    text-align: initial;
+    direction: rtl;
+  }
+  & .product-summary {
+    direction: rtl;
+  }
+  & .module-content {
+    direction: rtl;
+  }
+}

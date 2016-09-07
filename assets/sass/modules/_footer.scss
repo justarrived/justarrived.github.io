@@ -1,0 +1,37 @@
+.footer {
+	clear: both;
+	padding: 2em 1em;
+	color: $stone-dark;
+	text-align: center;
+
+	& a {
+		text-decoration: none;
+		color: $stone-dark;
+		&:last-child {
+			margin-right: 0;
+			padding: 0;
+			border: 0;
+		}
+	}
+
+	& span {
+
+	}
+
+	& a, & span {
+		margin: 0; padding: 0;
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 0.5em;
+
+		@include mobile-small {
+			border-right: 1px solid #d2d2d2;
+			margin-bottom: 0;
+			width: auto;
+			margin-right: 1em;
+			padding-right: 1em;
+			display: inline-block;
+		}
+	}
+}
