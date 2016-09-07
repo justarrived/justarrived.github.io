@@ -16,4 +16,6 @@ script/server
 
 ## Deploy
 
-No instructions yet...
+```
+script/deploy
+```
