@@ -1,37 +1,13 @@
 <footer class="footer module-padding" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
   <div id="inner-footer" class="">
-
   	<p class="source-org copyright">
-  		<span>&copy; {{ site.time | date: '%y' }} Just Arrived</span>
-  		<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
-  					<a href="https://twitter.com/JustArrivedSE" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a></p>
-
+      <span>&copy; {{ site.time | date: '%Y' }} {% t global.app_name %}</span>
+	    <a href="https://www.facebook.com/JustArrivedSE/" title="{% t global.facebook %}" target="_blank" rel="noopener noreferrer" >
+        <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
+      </a>
+	    <a href="https://twitter.com/JustArrivedSE" title="{% t global.twitter %}" target="_blank" rel="noopener noreferrer" >
+        <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
+      </a>
+    </p>
   </div>
 </footer>
-
-<!-- TODO: Make sure to include all the script that used to be included by the below PHP function -->
-<?php // all js scripts are loaded in library/bones.php ?>
-<?php wp_footer(); ?>
-
-<script type="text/javascript">
-	_linkedin_data_partner_id = "17815";
-	</script><script type="text/javascript">
-	(function(){var s = document.getElementsByTagName("script")[0];
-	var b = document.createElement("script");
-	b.type = "text/javascript";b.async = true;
-	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-	s.parentNode.insertBefore(b, s);})();
-</script>
-
-
-<!-- Twitter universal website tag code -->
-<script>
-!function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
-a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
-t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
-s.parentNode.insertBefore(t,s))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','nvete');
-twq('track','PageView');
-</script>
-<!-- End Twitter universal website tag code -->

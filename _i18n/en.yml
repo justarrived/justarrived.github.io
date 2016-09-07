@@ -3,3 +3,14 @@ global:
   swedish: Svenska
   english: English
   arabic: العربية
+  facebook: Facebook
+  twitter: Twitter
+
+nav:
+  job_signup: I want a job
+  promo_code_signin: Sign in with promo code
+
+top_banner:
+  title: We give new arrivals in Sweden the chance to enter the job market
+  subtitle: Are you a new arrival? Apply to qualify and gain access to the Just Arrived app.
+  signup_for_job: Sign up to find a job
