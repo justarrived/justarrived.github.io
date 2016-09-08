@@ -51,8 +51,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
+  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
 companies_engage:
   title: Just Arrived gör det enkelt för företag att engagera eller anställa en nyanländ.
   responsibility_description: Vi betalar de skatter, sociala avgifter och försäkringar
@@ -123,7 +123,7 @@ our_product:
       jobb
     forth: och den nyanläde verifierar att jobbet är genomfört och att faktura skickas
     fifth: får de fulla faktura beloppet (efter skatt och andra administrativa kostnader)
-    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
+    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
   title: Säg hej
   enquiries: Generella frågor
