@@ -24,6 +24,8 @@ script/deploy
 
 ## Translation
 
+:warning: In order to manage translations you need to have the Transifex client installed and configured.
+
 __Push translations__, push source language to Transifex.
 
 ```
