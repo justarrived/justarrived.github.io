@@ -21,3 +21,57 @@ top_banner:
   subtitle: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just
     Arriveds app.
   signup_for_job: Registrera dig för att hitta jobb
+promo_code:
+  title: Skriv in din promo kod
+  submit: Ta mig till applikationen
+  placeholder: Promo kod
+signup_modal:
+  title: Registrera dig till beta:n
+  interested:
+    title: Jag är intresserad av...
+    post_jobs: Lägga upp jobb
+    find_jobs: Hitta jobb
+    help: Hjälpa till
+    donate: Donera
+    know: Veta mer
+be_the_change:
+  title: Var med och förändra
+  description_emphasis: Nu har svenska bolag möjlighet att vara med och förändra.
+companies_opportunity:
+  title: Jobb möjligheter för nyanlända
+  cta: Jag vill lägga upp ett jobb
+contribute:
+  title: Bidra till projektet
+  cta: Jag vill bidra
+enablers:
+  title: Bidrag från
+parners:
+  title: Partners och hjältar
+join_us:
+  title: Gå med
+  cta: Jag vill hjälpa till
+  checklist:
+    title: Checklista
+    contribution_by: Bidrag av
+    first: Bygga landningssida
+    second: Översätta landingssida
+    third: Redovisningsstöd
+    fifth: Optimera applikationen för datorer
+    sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
+meet_the_team:
+  title: Teamet
+our_product:
+  title: Vår produkt
+  feature_list:
+    swedish_company: Svenska företag
+    new_arrival: Nyanländ
+    first: lägg upp jobb (mellan 1 timme och 6 månader) på applikationen utan kostnad
+    second: kan registrera ett digital CV och söka jobb*
+    third: kan välja kandidat baserat på deras digitala CV och recensioner från tidigare
+      jobb
+    forth: och den nyanläde verifierar att jobbet är genomfört och att faktura skickas
+    fifth: får de fulla faktura beloppet (efter skatt och andra administrativa kostnader)
+    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
+say_hej:
+  title: Säg hej
+  enquiries: Generella frågor
