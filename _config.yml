@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://justarrived.se" # the base hostname & protocol for your site
 twitter_username: justarrivedse
 github_username:  justarrived
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/"]
 
 # Build settings
 markdown: kramdown
@@ -37,4 +38,4 @@ gems:
 
 # I18n
 languages: ["en", "sv", "ar"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "favicon.ico"]
