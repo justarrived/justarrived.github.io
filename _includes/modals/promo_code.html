@@ -7,17 +7,16 @@
     module--txt-c
     module--black
     ">
-        <h2 class="bordered bordered--secondary">Enter your promo code</h2>
-        <p class="module--txt-l">We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing
-          the platform please click on sign up and register your interest there. Thank you!</p>
+        <h2 class="bordered bordered--secondary">{% t promo_code.title %}</h2>
+        <p class="module--txt-l">{% t promo_code.description %}</p>
         <form class="promo-form" onsubmit="return submitPromoCode()">
           <div class="form-col form-col--full-width">
-            <input type="password" placeholder="Promo code" id="promo-code-input" value="" />
+            <input type="password" placeholder="{% t promo_code.placeholder %}" id="promo-code-input" value="" />
           </div>
           <div class="form-response" id="promo-error"></div>
           <div class="form-response" id="promo-success"></div>
           <div class="form-col form-col--submit-btn">
-            <input type="submit" value="Take me to the app" class="border-btn btn-large border-btn--blue">
+            <input type="submit" value="{% t promo_code.submit %}" class="border-btn btn-large border-btn--blue">
           </div>
         </form>
       </div>
