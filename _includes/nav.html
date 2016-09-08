@@ -7,9 +7,9 @@
 
 		<div class="header__btns">
 			<div class="lang-options">
-				{% capture en_root %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-				{% capture sv_root %}{{ site.baseurl_root }}/sv{{ page.url }}{% endcapture %}
-				{% capture ar_root %}{{ site.baseurl_root }}/ar{{ page.url }}{% endcapture %}
+				{% capture en_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
+				{% capture sv_root %}{{ site.github.url }}/sv{{ page.url }}{% endcapture %}
+				{% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
 
 				{% if site.lang == "en" %}
 					<a href="{{ sv_root }}">
