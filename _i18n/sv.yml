@@ -1,3 +1,4 @@
+---
 global:
   app_name: Just Arrived
   swedish: Svenska
@@ -5,12 +6,18 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
-
+form:
+  email: Email adress
+  name: Namn
+  phone: Telefon nummer
+  company: Företag
+  city: Stad
+  submit: Spara
 nav:
   job_signup: Jag vill söka jobb
   promo_code_signin: Logga in med promo kod
-
 top_banner:
   title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
-  subtitle: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just Arriveds app.
+  subtitle: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just
+    Arriveds app.
   signup_for_job: Registrera dig för att hitta jobb

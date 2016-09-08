@@ -21,3 +21,17 @@ script/server
 ```
 script/deploy
 ```
+
+## Translation
+
+__Push translations__, push source language to Transifex.
+
+```
+script/push-translations
+```
+
+__Pull translations__, pull translated content from Transifex.
+
+```
+script/pull-translations
+```

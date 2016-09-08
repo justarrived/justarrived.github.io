@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+
+require 'yaml'
+
+puts '=== Pulling from Transifex ==='
+puts `tx pull -a -f`
+puts '=== Transifex Done ==='
+
+root_path = "#{__dir__}/.."
+i18n_path = "#{root_path}/_i18n"
+
+available_locales = YAML.load_file("#{root_path}/_config.yml").fetch('languages')
+
+available_locales.each do |locale|
+  next if locale == 'en' # the source locale is not pulled from Transifex..
+
+  puts "Fixing locale: #{locale}"
+
+  tx_locale_path = "#{i18n_path}/tx_#{locale}.yml"
+  i18n_hash = YAML.load_file(tx_locale_path)
+  yaml_string = i18n_hash.fetch(locale).to_yaml
+  File.write("#{i18n_path}/#{locale}.yml", yaml_string)
+  File.delete(tx_locale_path)
+end
+
+puts 'done'

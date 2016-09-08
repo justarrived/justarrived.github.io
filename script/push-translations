@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+root_path = "#{__dir__}/.."
+i18n_path = "#{root_path}/_i18n"
+
+i18n_hash = YAML.load_file("#{i18n_path}/en.yml")
+
+tx_source_lang_path = "#{i18n_path}/tx_en.yml"
+
+yaml_string = { 'en' => i18n_hash }.to_yaml
+File.write(tx_source_lang_path, yaml_string)
+
+puts '=== Pushing to Transifex ==='
+puts `tx push -s`
+puts '=== Transifex Done ==='
+
+puts 'Cleaning up..'
+File.delete(tx_source_lang_path)
+puts 'Done'
