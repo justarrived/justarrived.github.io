@@ -15,18 +15,25 @@ form:
   submit: Spara
 nav:
   job_signup: Jag vill söka jobb
-  promo_code_signin: Logga in med promo kod
+  promo_code_signin: Logga in med promokod
 top_banner:
   title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
   subtitle: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just
     Arriveds app.
   signup_for_job: Registrera dig för att hitta jobb
 promo_code:
-  title: Skriv in din promo kod
+  title: Skriv in din promokod
+  description: Vi testar just nu plattformen (maj - september) med en exklusiv grupp
+    företag och nyanlända som har blivit tilldelade en promokod som ger tillgång till
+    plattformen. Om du inte har en promokod men är intresserad av att använda plattformen,
+    registrera gärna ditt intresse. Tack!
   submit: Ta mig till applikationen
-  placeholder: Promo kod
+  placeholder: Promokod
 signup_modal:
   title: Registrera dig till beta:n
+  description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända.
+    Om du är intresserad av att använda plattformen efter vår officiella lansering,
+    fyll gärna i formuläret så hör vi av oss!
   interested:
     title: Jag är intresserad av...
     post_jobs: Lägga upp jobb
@@ -36,9 +43,36 @@ signup_modal:
     know: Veta mer
 be_the_change:
   title: Var med och förändra
+  description_start: Under 2015 ansökte fler än 160,000 personer om asyl i Sverige.
+    De är personer som du och jag, med samma behov och önskningar. Men statistik visar
+    att det tar många år för de flesta nyanlända att få ett jobb och försörja sig
+    själva i Sverige.*
   description_emphasis: Nu har svenska bolag möjlighet att vara med och förändra.
+  description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
+    till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
+    enkla uppgifter och jobb.
+  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
+companies_engage:
+  title: Just Arrived gör det enkelt för företag att engagera eller anställa en nyanländ.
+  responsibility_description: Vi betalar de skatter, sociala avgifter och försäkringar
+    som hör ihop med en anställning.
+  low_administration_description: Vi minskar företags administrativa arbete genom
+    att ta fullt arbetsgivaransvar.
+  effective_description: Vår databas är ett effektivt sätt att lokalisera potentiella
+    nya anställda.
 companies_opportunity:
   title: Jobb möjligheter för nyanlända
+  first_paragraph: Vi för samman nyanlända immigranter med svenska företag som behöver
+    hjälp i de dagliga aktiviteterna. Vår digitala plattform gör det möjligt för företag
+    att annonsera ut enkla uppgifter och tjänster, och att matcha dem med nyanlända
+    som letar efter arbete.
+  second_paragraph: Just Arrived översätter jobb till nyanländas lokalspråk. Vi tillåter
+    företag och nyanlända att recensera varandra, så att nyanlända kan använda det,
+    som referens, för framtida anställningar. Just Arrived tar arbetsgivaransvar för
+    alla nyanlända som jobbar genom plattformen.
+  emphasis: Representerar du ett företag som är intresserat av att lägga upp ett jobb?
+    Fyll i formuläret nedan så återkommer vi snart.
   cta: Jag vill lägga upp ett jobb
 contribute:
   title: Bidra till projektet
@@ -49,6 +83,12 @@ parners:
   title: Partners och hjältar
 join_us:
   title: Gå med
+  first_paragraph: Just Arrived är drivet av ett team av frivilliga som vill göra
+    skillnad. Om du tror att du på något sätt kan hjälpa till, registrera ditt intresse
+    nedan.
+  second_paragraph: Vi letar just nu efter programmerare (AngularJs, Ruby on Rails),
+    översättare och sponsorer. Om du är utvecklare, får du jättegärna bidra till våra
+    GitHub repon.
   cta: Jag vill hjälpa till
   checklist:
     title: Checklista
@@ -56,12 +96,24 @@ join_us:
     first: Bygga landningssida
     second: Översätta landingssida
     third: Redovisningsstöd
+    forth: Utveckling av säljmaterial
     fifth: Optimera applikationen för datorer
     sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
 meet_the_team:
   title: Teamet
+  description: Vi är en grupp av 150 volontärer som har jobbat kvällar och helger
+    sedan 2015 för att göra Just Arrived möjligt. Vi representerar en mängd kompetenser,
+    bakgrunder och organisationer, men alla delar det gemensamma målet att göra det
+    lättare för nyanlända att få ett jobb och chansen att integreras i det svenska
+    samhället. Vi letar alltid efter fler passionerade individer, oavsett ifall de
+    representerar sig själva eller en organisation. För nuvarande behov, se sektionen
+    Gå med nedan.
 our_product:
   title: Vår produkt
+  description: 'Just Arrived är en digital platform som matchar nyanlända i Sverige
+    med potentiella jobb hos Svenska bolag. Det här åstadkoms med hjälp av ett intuitivt
+    webbgränssnitt tillgänglig på en mängd enheter och har stöd för ett flertal språk.
+    Applikationen fungerar så här: '
   feature_list:
     swedish_company: Svenska företag
     new_arrival: Nyanländ
