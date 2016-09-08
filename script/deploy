@@ -4,28 +4,18 @@ IFS=$'\n\t'
 
 cd "$(dirname "$0")/.."
 
-# Original from: https://github.com/liaohuqiu/work-anywhere/blob/master/tools/publish-gh-pages.sh
-
 function exe_cmd() {
   echo $1
   eval $1
 }
-
-if [ $# -lt 1 ]; then
-  echo "Usage: sh $0 [ gh-pages | master ]"
-  exit
-fi
-
-branch=$1
-if [ -z "$branch" ] || [ "$branch" != "master" ]; then
-  branch='gh-pages'
-fi
 
 exe_cmd "bundle exec jekyll build"
 if [ ! -d '_site' ]; then
   echo "missing _site directory (no content to publish)"
   exit
 fi
+
+branch=master
 
 exe_cmd "git checkout $branch"
 error_code=$?
