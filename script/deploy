@@ -27,6 +27,7 @@ else
   exe_cmd "cp -r _site/* ."
   exe_cmd "rm -rf _site/"
   exe_cmd "touch .nojekyll"
-  exe_cmd "git commit -a -m 'compile'"
+  exe_cmd "git add --all :/"
+  exe_cmd "git commit -m 'compile'"
   exe_cmd "git push origin master"
 fi
