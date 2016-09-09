@@ -1,0 +1,29 @@
+<div class="form-col">
+  <label>{% t form.job_hours %} <span class="asterisk">*</span></label>
+  <input type="number" value="" name="job_hours" class="required" id="job_hours" required>
+</div>
+
+<div class="form-col">
+  <label>{% t form.job_no_of_people %} <span class="asterisk">*</span></label>
+  <input type="number" value="" name="job_no_of_people" class="required" id="job_no_of_people" required>
+</div>
+
+<div class="form-col">
+  <label>{% t form.job_start_date %} <span class="asterisk">*</span></label>
+  <input type="text" value="" name="job_start_date" class="required" id="job_start_date" required>
+</div>
+
+<div class="form-col">
+  <label>{% t form.job_end_date %} <span class="asterisk">*</span></label>
+  <input type="text" value="" name="job_end_date" class="required" id="job_end_date" required>
+</div>
+
+<div class="form-col form-col--full-width">
+  <label>{% t form.salary %} <span class="asterisk">*</span></label>
+  <input type="number" min="140" max="250" placeholder="{% t form.placeholder.salary %}" value="" name="salary" class="required" id="salary" required>
+</div>
+
+<div class="form-col form-col--full-width">
+  <label>{% t form.job_description %} <span class="asterisk">*</span></label>
+  <textarea name="job_description" rows="8" cols="40" class="required" id="job_description" required></textarea>
+</div>

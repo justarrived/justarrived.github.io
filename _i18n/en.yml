@@ -13,6 +13,29 @@ form:
   company: Company
   city: City
   submit: Submit
+  company_name: Company name
+  company_org_number: Company org. number
+  company_logo_link: Company logo link
+  address: Address
+  ssn: Personnummer
+  languages: Languages
+  competencies: Competencies
+  job_description: Description
+  salary: Salary
+  job_start_date: Start date
+  job_end_date: End date
+  job_hours: Hours
+  job_no_of_people: Number of people
+  placeholder:
+    salary: 'Choose between: 147/161/175 kr/h'
+    competencies: 'Example: MS Office experience, Economic background or None'
+    languages: 'Example: Swedish or English'
+    ssn: Needed for invoicing purposes
+  sections:
+    company: Company
+    employee: Employee
+    contact: Contact
+    job: Job
 
 nav:
   job_signup: I want a job
@@ -67,7 +90,7 @@ contribute:
 enablers:
   title: Enablers
 
-parners:
+partners:
   title: Partners and Champions
 
 join_us:
@@ -105,3 +128,11 @@ our_product:
 say_hej:
   title: Say hej
   enquiries: General enquiries
+
+company_form:
+  title: Register company
+  description: Fill in the details about the job, so we can publish it on our platform.
+
+job_form:
+  title: Create new job
+  description: Fill in the details about the job, so we can publish it on our platform.

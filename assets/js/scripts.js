@@ -621,13 +621,11 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-
   //open signup popup
   $('.cd-popup-trigger-signin').on('click', function(event){
     event.preventDefault();
     $('.cd-popup-signin').addClass('is-visible');
   });
-  
 
   //open promo popup
   $('.cd-popup-trigger-promo').on('click', function(event){
@@ -641,7 +639,7 @@ jQuery(document).ready(function($) {
     hello.value = "";
     hi.innerHTML = "";
   });
-  
+
   //close popup
   $('.cd-popup').on('click', function(event){
     if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
@@ -649,7 +647,7 @@ jQuery(document).ready(function($) {
       $(this).removeClass('is-visible');
     };
 
-    
+
   });
 
   //close popup when clicking the esc keyboard button
@@ -701,14 +699,14 @@ function submitPromoCode() {
     };
 
     var successFunction = function (data) {
-      setTimeout(function(){ 
+      setTimeout(function(){
         location.href = appURL + '/#/?promo_code=' + promoCode;
       }, 2000);
-      
+
       // Add successMessage to DOM...
       console.log("Hurray! Correct promo code, you're gonna be taken to the app!");
 
-      
+
       var node = document.getElementById("promo-success");
       node.innerHTML = "<span class=\"success-message\">" + "Great, we'll redirect you to the app now" + "</span>";
 
@@ -733,5 +731,3 @@ function submitPromoCode() {
 
     return false;
   }
-
-

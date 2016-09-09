@@ -25,6 +25,10 @@ twitter_username: justarrivedse
 github_username:  justarrived
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/"]
 
+# "App" settings
+submission_email: jacob@justarrived.se
+submission_redirect_url: 'http://justarrived.se/submit-thanks.html'
+
 # Build settings
 markdown: kramdown
 # theme: minima

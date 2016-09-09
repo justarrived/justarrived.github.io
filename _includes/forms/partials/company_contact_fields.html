@@ -1,0 +1,20 @@
+<div class="form-col">
+  <label for="name">{% t form.name %} <span class="asterisk">*</span>
+  </label>
+  <input type="text" value="" maxlength="80" name="name" class="required" id="name" required>
+</div>
+
+<div class="form-col">
+  <label>{% t form.email %} <span class="asterisk">*</span></label>
+  <input type="email" value="" name="email" class="required email" id="email" required>
+</div>
+
+<div class="form-col size1of2">
+  <label for="phone">{% t form.phone %}</label>
+  <input type="number" maxlength="40" name="phone" class="" value="" id="phone">
+</div>
+
+<div class="form-col">
+  <label>{% t form.ssn %} <span class="asterisk">*</span></label>
+  <input type="text" value="" placeholder="{% t form.placeholder.ssn %}" name="ssn" class="required" id="ssn" required>
+</div>
