@@ -3,8 +3,8 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="Helping new arrivals in Sweden to enter the labour market">
+	<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
 
 	<meta name="HandheldFriendly" content="True">

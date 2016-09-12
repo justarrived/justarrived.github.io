@@ -4,7 +4,7 @@
 {% include head.html %}
 
 {% capture locale_direction %}{% if site.rtl_languages contains site.lang %}rtl{% else %}ltr{% endif %}{% endcapture %}
-<body class="{{ site.lang }}-locale {{ locale_direction }}-locale-direction">
+<body class="{{ site.lang }}-locale {{ locale_direction }}-locale-direction" itemscope="" itemtype="http://schema.org/WebPage">
 
   <div id="container">
     {% include nav.html %}
