@@ -31,3 +31,5 @@ else
   exe_cmd "git commit -m 'compile'"
   exe_cmd "git push origin master"
 fi
+
+echo 'deployed'
