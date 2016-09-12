@@ -175,7 +175,6 @@
 }
 
 .product-summary {
-
 	@include tablet {
 		position: absolute;
 		left: 50%;
@@ -290,7 +289,7 @@
 .section--say-hej {
 	text-align: center;
 	& .module-content {
-		max-width: 768px;
+		max-width: 900px;
 		margin: 0 auto;
 	}
 	& .profile-pic {
@@ -332,6 +331,9 @@
 				text-align: center;
 				float: none;
 				margin: 0.5em 0 0;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
 				.page-template-tpl-homepage-ar & {
 					text-align: initial;
 				}
