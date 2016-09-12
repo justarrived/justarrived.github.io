@@ -48,12 +48,12 @@ top_banner:
 
 promo_code:
   title: Enter your promo code
-  description: We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing the platform please click on sign up and register your interest there. Thank you!
+  description: We are currently testing the platform with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing the platform please click on sign up and register your interest there. Thank you!
   submit: Take me to the app
   placeholder: Promo code
 
 signup_modal:
-  title: Sign up to for beta
+  title: Sign up for the beta
   description: We are currently testing the platform with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch, please fill in the form and we will get back to you!
   interested:
     title: I'm interested in...

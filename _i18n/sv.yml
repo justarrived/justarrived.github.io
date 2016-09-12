@@ -13,6 +13,29 @@ form:
   company: Företag
   city: Stad
   submit: Spara
+  company_name: Företagsnamn
+  company_org_number: Organisationsnummer
+  company_logo_link: Företagslogga
+  address: Adress
+  ssn: Personnummer
+  languages: Språk
+  competencies: Kompetenser
+  job_description: Beskrivning
+  salary: Lön
+  job_start_date: Startdatum
+  job_end_date: Slutdatum
+  job_hours: Timmar
+  job_no_of_people: Antal personer
+  placeholder:
+    salary: 'Välj mellan: 147/161/175 kr/h'
+    competencies: 'Exempel: MS Office erfarenhet, Ekonomiskbakgrund eller Ingen'
+    languages: 'Exempel: Svenska eller engelska'
+    ssn: Behövs av fakturaskäl
+  sections:
+    company: Företag
+    employee: Anställd
+    contact: Kontakt
+    job: Jobb
 nav:
   job_signup: Jag vill söka jobb
   promo_code_signin: Logga in med promokod
@@ -23,10 +46,10 @@ top_banner:
   signup_for_job: Registrera dig för att hitta jobb
 promo_code:
   title: Skriv in din promokod
-  description: Vi testar just nu plattformen (maj - september) med en exklusiv grupp
-    företag och nyanlända som har blivit tilldelade en promokod som ger tillgång till
-    plattformen. Om du inte har en promokod men är intresserad av att använda plattformen,
-    registrera gärna ditt intresse. Tack!
+  description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända
+    som har blivit tilldelade en promokod som ger tillgång till plattformen. Om du
+    inte har en promokod men är intresserad av att använda plattformen, registrera
+    gärna ditt intresse. Tack!
   submit: Ta mig till applikationen
   placeholder: Promokod
 signup_modal:
@@ -79,7 +102,7 @@ contribute:
   cta: Jag vill bidra
 enablers:
   title: Bidrag från
-parners:
+partners:
   title: Partners och hjältar
 join_us:
   title: Gå med
@@ -127,3 +150,9 @@ our_product:
 say_hej:
   title: Säg hej
   enquiries: Generella frågor
+company_form:
+  title: Registrera företag
+  description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
+job_form:
+  title: Skapa nytt jobb
+  description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
