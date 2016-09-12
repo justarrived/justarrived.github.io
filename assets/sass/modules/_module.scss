@@ -89,7 +89,7 @@
   @include tablet {
     float: left;
     width: 52%;
-    .page-template-tpl-homepage-ar & {
+    .rtl-locale-direction & {
       float: right;
     }
   }
@@ -108,7 +108,7 @@
   @include tablet {
     float: right;
     width: 40%;
-    .page-template-tpl-homepage-ar & {
+    .rtl-locale-direction & {
       float: left;
     }
   }
@@ -249,7 +249,7 @@
     padding: 0 1em;
     float: left;
   }
-  .page-template-tpl-homepage-ar & {
+  .rtl-locale-direction & {
     @include tablet {
       float: right;
     }
@@ -279,7 +279,7 @@
   }
 }
 
-.page-template-tpl-homepage-ar {
+.rtl-locale-direction {
   & .module-banner {
     direction: rtl;
   }

@@ -1,15 +1,3 @@
-.page-template-tpl-almadalen {
-	height: 100%;
-	width: 100%;
-	background: $charcoal-medium;
-
-	& .input-group li {
-		@include tablet-small {
-			width: 49%;
-		}
-	}
-}
-
 .almedalen-logo {
 	background: url(../assets/images/logos/justarrived-almedalen.png) no-repeat center center;
 	width: 100%;

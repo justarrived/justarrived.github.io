@@ -41,5 +41,8 @@ gems:
   - jekyll-multiple-languages-plugin
 
 # I18n
+rtl_languages: ["ar"]
+
+# I18n plugin: jekyll-multiple-languages-plugin
 languages: ["en", "sv", "ar"]
 exclude_from_localizations: ["assets", "favicon.ico"]

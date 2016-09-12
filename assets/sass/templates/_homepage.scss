@@ -82,7 +82,7 @@
 		margin-top: 1em;
 	}
 	& h2 {
-		.page-template-tpl-homepage-ar & {
+		.rtl-locale-direction & {
 			max-width: 768px;
 			margin: 0 auto;
     		@include tablet {
@@ -124,7 +124,7 @@
 
 .section--how-to {
 	& h2 {
-		.page-template-tpl-homepage-ar & {
+		.rtl-locale-direction & {
 			max-width: 1040px;
 		    margin: 0 auto;
 		    padding: 0 16px;
@@ -273,7 +273,7 @@
 			}
 		}
 	}
-	.page-template-tpl-homepage-ar & {
+	.rtl-locale-direction & {
 		& li {
 			padding-left: 0;
 			padding-right: 24px;
@@ -320,7 +320,7 @@
 			margin: 0 0 0 1em;
 			float: left;
 			text-align: left;
-			.page-template-tpl-homepage-ar & {
+			.rtl-locale-direction & {
 				text-align: initial;
 			}
 			@include mobile-small {
@@ -334,7 +334,7 @@
 				white-space: nowrap;
 				overflow: hidden;
 				text-overflow: ellipsis;
-				.page-template-tpl-homepage-ar & {
+				.rtl-locale-direction & {
 					text-align: initial;
 				}
 			}
@@ -474,7 +474,7 @@
 				margin-right: auto;
 			}
 		}
-		.page-template-tpl-homepage-ar & {
+		.rtl-locale-direction & {
 			text-align: center;
 		}
 	}

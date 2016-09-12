@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="{{ site.lang }}">
 
 {% include head.html %}
 
-<body>
+{% capture locale_direction %}{% if site.rtl_languages contains site.lang %}rtl{% else %}ltr{% endif %}{% endcapture %}
+<body class="{{ site.lang }}-locale {{ locale_direction }}-locale-direction">
 
   <div id="container">
     {% include nav.html %}

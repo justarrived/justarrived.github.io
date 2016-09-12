@@ -90,18 +90,28 @@
   }
 }
 
-.page-template-tpl-homepage {
+.en-locale {
   & .lang-en {
     color: #fff;
     cursor: default;
   }
 }
 
-.page-template-tpl-homepage-ar {
+.ar-locale {
   & .lang-ar {
     color: #fff;
     cursor: default;
   }
+}
+
+.sv-locale {
+  & .lang-sv {
+    color: #fff;
+    cursor: default;
+  }
+}
+
+.rtl-locale-direction {
   & .bordered {
     &:before {
       margin-left: 0;
