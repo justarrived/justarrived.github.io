@@ -42,9 +42,9 @@ nav:
   promo_code_signin: Sign in with promo code
 
 top_banner:
-  title: We give new arrivals in Sweden the chance to enter the job market
-  subtitle: Are you a new arrival? Apply to qualify and gain access to the Just Arrived app.
-  signup_for_job: Sign up to find a job
+  title: We give new arrivals in Sweden a chance to enter the labor market
+  subtitle: Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.
+  signup_for_job: I want to post a job
 
 promo_code:
   title: Enter your promo code
@@ -53,7 +53,7 @@ promo_code:
   placeholder: Promo code
 
 signup_modal:
-  title: Sign up for the beta
+  title: Indicate Interest
   description: We are currently testing the platform with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch, please fill in the form and we will get back to you!
   interested:
     title: I'm interested in...
@@ -69,6 +69,7 @@ be_the_change:
   description_emphasis: Now, Swedish companies have the opportunity to make a difference.
   description_end: Just Arrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.
   description_asterix: '* After ten years, only 60% of all immigrants have a job by which they can support themselves. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
+  cta: I want to post a job
 
 companies_engage:
   title: Just Arrived makes it simple for companies to engage or employ a new arrival.
@@ -80,8 +81,8 @@ companies_opportunity:
   title: Job opportunities for new arrivals
   first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
   second_paragraph: Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.
-  emphasis: Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.
-  cta: I want to post a job
+  emphasis: Are you a new arrival? Apply to qualify and gain access to the Just Arrived app.
+  cta: Sign up to find a job
 
 contribute:
   title: Contribute to the project

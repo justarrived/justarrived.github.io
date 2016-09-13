@@ -1,5 +1,6 @@
 .section--hero {
 	text-align: center;
+	background-position: left center;
 	& .table {
 		min-height: 250px;
 		@include tablet {
@@ -9,12 +10,20 @@
 			min-height: 340px;
 		}
 	}
+	& .btn-large {
+		margin-top: 1em;
+	}
 	& h1 {
 		text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 		@include desktop {
 			width: 580px;
 			margin: 0 auto 0.6em;
 		}
+	}
+	& p {
+		max-width: 400px;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 	& .wrap {
 		margin: 0 auto;
@@ -31,13 +40,14 @@
 		}
 	}
 	& .module__overlay {
-		background: transparentize($charcoal-medium, 0.4);
+		background: transparentize($charcoal-medium, 0.3);
 		@include desktop {
 			background: transparentize($charcoal-medium, 0.9);
 		}
 	}
 	@include desktop {
 		background-color: $cerise;
+
 	}
 }
 
@@ -94,6 +104,8 @@
 
 .company-cta-paragraph {
 	@include tablet {
+		float: left;
+		width: 100%;
 		margin-top: 2em;
 	}
 }
@@ -195,6 +207,9 @@
 			padding-top: 0;
 		}
 	}
+	& .btn-large {
+		margin: 1em 0;
+	}
 }
 
 .module--meet-team-text {
@@ -289,7 +304,7 @@
 .section--say-hej {
 	text-align: center;
 	& .module-content {
-		max-width: 900px;
+		max-width: 768px;
 		margin: 0 auto;
 	}
 	& .profile-pic {
@@ -327,7 +342,7 @@
 				font-size: 90%;
 			}
 			@include tablet {
-				font-size: 100%;
+				font-size: 14px;
 				text-align: center;
 				float: none;
 				margin: 0.5em 0 0;
