@@ -12,35 +12,39 @@
   height: 42px;
   margin: 0 auto 1em;
   text-indent: -9999em;
-
   @include desktop-small {
+    margin: 0 auto 1em;
+  }
+  @include desktop-l {
     float: left;
     margin: 0;
   }
 }
 
 .header__btns {
-  float: left;
   clear: both;
   width: 100%;
   text-align: center;
   margin-bottom: 0.5em;
+  width: 100%;
   & > a {
     margin: 0 0.3em 1em;
   }
   & .transparent-btn {
     padding: 0;
   }
-  @include desktop-small {
-    float: right;
+  @include tablet {
     clear: none;
     width: auto;
     position: relative;
     top: 4px;
-    margin-bottom: 0;
     & > a {
       margin: 0 0 0 0.6em;
     }
+  }
+  @include desktop-l {
+    float: right;
+    margin-bottom: 0;
   }
 }
 
@@ -72,7 +76,7 @@
 .lang-options {
   font-size: 14px;
   margin: 0 0 1em 0;
-  @include desktop-small {
+  @include tablet {
     display: inline-block;
     margin: 0 1em 0 0;
   }

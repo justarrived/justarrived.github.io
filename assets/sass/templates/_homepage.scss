@@ -1,5 +1,6 @@
 .section--hero {
 	text-align: center;
+	background-position: left center;
 	& .table {
 		min-height: 250px;
 		@include tablet {
@@ -9,12 +10,20 @@
 			min-height: 340px;
 		}
 	}
+	& .btn-large {
+		margin-top: 1em;
+	}
 	& h1 {
 		text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 		@include desktop {
 			width: 580px;
 			margin: 0 auto 0.6em;
 		}
+	}
+	& p {
+		max-width: 400px;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 	& .wrap {
 		margin: 0 auto;
@@ -31,13 +40,14 @@
 		}
 	}
 	& .module__overlay {
-		background: transparentize($charcoal-medium, 0.4);
+		background: transparentize($charcoal-medium, 0.3);
 		@include desktop {
 			background: transparentize($charcoal-medium, 0.9);
 		}
 	}
 	@include desktop {
 		background-color: $cerise;
+
 	}
 }
 
@@ -194,6 +204,9 @@
 		@include tablet-small-down {
 			padding-top: 0;
 		}
+	}
+	& .btn-large {
+		margin: 1em 0;
 	}
 }
 
