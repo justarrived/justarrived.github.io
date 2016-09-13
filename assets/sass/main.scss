@@ -40,3 +40,11 @@ $on-laptop:        800px;
 
 // Import site styles
 @import "style";
+
+// Force formatted numbers to be displayed left-to-right
+.rtl-locale-direction {
+  & .formatted-number {
+    direction: ltr;
+    unicode-bidi: embed;
+  }
+}
