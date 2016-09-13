@@ -116,13 +116,11 @@ our_product:
   title: Our Product
   description: 'Just Arrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:'
   feature_list:
-    swedish_company: Swedish company
-    new_arrival: New Arrival
-    first: posts an assigment (from 1 hour to 6 months) on the application without cost
-    second: 'can register a digital CV and apply for the assigment*'
-    third: can choose a candidate based on their digital CV and reviews from other assignments
-    forth: and New Arrival verify that the job is perfomed and an invoice is sent
-    fifth: recieves the full amount invoiced (after deduction of taxes and other administrative costs)
+    first: Swedish company posts an assigment (from 1 hour to 6 months) on the application without cost
+    second: 'New Arrival can register a digital CV and apply for the assigment*'
+    third: Swedish company can choose a candidate based on their digital CV and reviews from other assignments
+    forth: Swedish company and New Arrival verify that the job is perfomed and an invoice is sent
+    fifth: New Arrival recieves the full amount invoiced (after deduction of taxes and other administrative costs)
     asterix: '* Requires AT-UND, personal identity number or co-ordination number and access to bank account.'
 
 say_hej:

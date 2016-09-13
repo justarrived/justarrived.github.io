@@ -53,7 +53,7 @@ promo_code:
   submit: Ta mig till applikationen
   placeholder: Promokod
 signup_modal:
-  title: Registrera dig till beta:n
+  title: Registrera dig för vår beta
   description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända.
     Om du är intresserad av att använda plattformen efter vår officiella lansering,
     fyll gärna i formuläret så hör vi av oss!
@@ -138,14 +138,15 @@ our_product:
     webbgränssnitt tillgänglig på en mängd enheter och har stöd för ett flertal språk.
     Applikationen fungerar så här: '
   feature_list:
-    swedish_company: Svenska företag
-    new_arrival: Nyanländ
-    first: lägg upp jobb (mellan 1 timme och 6 månader) på applikationen utan kostnad
-    second: kan registrera ett digital CV och söka jobb*
-    third: kan välja kandidat baserat på deras digitala CV och recensioner från tidigare
-      jobb
-    forth: och den nyanläde verifierar att jobbet är genomfört och att faktura skickas
-    fifth: får de fulla faktura beloppet (efter skatt och andra administrativa kostnader)
+    first: Svenska företag lägger upp jobb (mellan 1 timme och 6 månader) på applikationen
+      utan kostnad
+    second: Nyanlända kan registrera ett digital CV och söka jobb*
+    third: Svenska företag kan välja kandidat baserat på deras digitala CV och recensioner
+      från tidigare jobb
+    forth: Svenska företag och den nyanläde verifierar att jobbet är genomfört och
+      att faktura skickas
+    fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
+      kostnader)
     asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
   title: Säg hej
