@@ -4,32 +4,33 @@ IFS=$'\n\t'
 
 cd "$(dirname "$0")/.."
 
-function exe_cmd() {
-  echo $1
-  eval $1
-}
+source script/_common
 
-exe_cmd "bundle exec jekyll build"
+main_branch=dev
+release_branch=master
+
+__git-current-branch-or-exit $main_branch
+__continue-prompt "Have you run '$ git pull origin $main_branch' (is your code up to date)?"
+
+__exe_cmd "bundle exec jekyll build"
 if [ ! -d '_site' ]; then
-  echo "missing _site directory (no content to publish)"
-  exit
+  echo "Jekyll build failed. Missing _site directory (no content to publish)"
+  exit 1
 fi
 
-branch=master
-
-exe_cmd "git checkout $branch"
+__exe_cmd "git checkout $release_branch"
 error_code=$?
 if [ $error_code != 0 ]; then
   echo 'Switch branch fail.'
   exit
 else
   ls | grep -v _site | xargs rm -rf
-  exe_cmd "cp -r _site/* ."
-  exe_cmd "rm -rf _site/"
-  exe_cmd "touch .nojekyll"
-  exe_cmd "git add --all :/"
-  exe_cmd "git commit -m 'compile'"
-  exe_cmd "git push origin master"
+  __exe_cmd "cp -r _site/* ."
+  __exe_cmd "rm -rf _site/"
+  __exe_cmd "touch .nojekyll"
+  __exe_cmd "git add --all :/"
+  __exe_cmd "git commit -m 'compile'"
+  __exe_cmd "git push -f origin master"
 fi
 
-echo 'deployed'
+echo 'deployed: http://justarrived.se'

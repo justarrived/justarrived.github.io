@@ -1,0 +1,43 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+# git utils
+__git-current-branch() {
+  echo "$(git rev-parse --abbrev-ref HEAD)"
+}
+
+__git-current-branch-or-exit() {
+  local current_branch="$(__git-current-branch)"
+  if [[ $current_branch != "dev" ]]; then
+    echo "You have to be on the 'dev' branch"
+    exit 1
+  fi
+}
+
+# bash utils
+function __exe_cmd() {
+  echo $1
+  eval $1
+}
+
+__continue-prompt() {
+  while true; do
+    local yn="$(__prompt-for-result "$1 [y\n]")"
+    case $yn in
+      [Yy]* ) echo "Resuming.."; break;;
+      [Nn]* ) echo "Aborted."; exit 1; break;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+}
+
+__prompt-for-result() {
+  if [[ $SHELL == "/bin/zsh" ]]; then
+    local p_res=""
+    vared -p "$1" p_res
+  else
+    read -p  "$1" p_res
+  fi
+  echo $p_res
+}
