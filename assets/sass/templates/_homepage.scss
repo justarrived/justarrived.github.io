@@ -104,6 +104,8 @@
 
 .company-cta-paragraph {
 	@include tablet {
+		float: left;
+		width: 100%;
 		margin-top: 2em;
 	}
 }
