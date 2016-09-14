@@ -1,6 +1,5 @@
 (function(window) {
-  // JA_API_URL = 'https://api.justarrived.se/api/v1';
-  JA_API_URL = 'http://localhost:3000/api/v1';
+  JA_API_URL = 'https://api.justarrived.se/api/v1';
   HOURLY_PAYS_ENDPOINT = JA_API_URL + '/hourly-pays';
 
   function createInputList(options) {

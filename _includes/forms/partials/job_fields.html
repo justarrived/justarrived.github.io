@@ -25,17 +25,18 @@
         {% t form.salary %} <span class="asterisk">*</span>
       </p>
 
-      <ul id="js-input-list-target"></ul>
+      <ul id="js-hourly-salary-input-target"></ul>
 
-      <!-- START: HTML TEMPLATE -->
-      <div id="js-hourly-salary-input-template" style="display:none;">
-        <input type="radio" value="%val%" name="salary" id="salary-value-%val%" required>
-        <label for="salary-value-%val%">%val% SEK/h</label>
-      </div>
-      <!-- END: HTML TEMPLATE -->
     </div>
   </div>
 </div>
+
+<!-- START: HTML TEMPLATE -->
+<div id="js-hourly-salary-input-template" style="display:none;">
+  <input type="radio" value="%val%" name="salary" id="salary-value-%val%" required>
+  <label for="salary-value-%val%">%val% SEK/h</label>
+</div>
+<!-- END: HTML TEMPLATE -->
 
 <div class="form-col form-col--full-width">
   <label>{% t form.job_description %} <span class="asterisk">*</span></label>
@@ -44,7 +45,7 @@
 
 <script type="text/javascript">
   createHourlyPaysInputList({
-    targetSelector: '#js-input-list-target',
+    targetSelector: '#js-hourly-salary-input-target',
     inputTemplate: '#js-hourly-salary-input-template'
   });
 </script>
