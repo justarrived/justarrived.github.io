@@ -22,8 +22,11 @@
     getHourlyPays(function(hourlyPays) {
       for (var i = 0; i < hourlyPays.length; i++) {
         var hourlyPay = hourlyPays[i].attributes;
-        var value = hourlyPay['rate-excluding-vat'];
-        var inputHTML = templateHTML.replace(/%val%/g, value);
+        var exVATValue = hourlyPay['rate-excluding-vat'];
+        var grossValue = hourlyPay['gross-salary'];
+        var inputHTML = templateHTML.replace(/%val%/g, exVATValue);
+        inputHTML = inputHTML.replace(/%grossval%/g, grossValue);
+
         inputList.push('<li>' + inputHTML + '</li>');
       }
 
