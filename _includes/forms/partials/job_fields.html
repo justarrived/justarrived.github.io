@@ -1,11 +1,11 @@
 <div class="form-col">
   <label>{% t form.job_hours %} <span class="asterisk">*</span></label>
-  <input type="number" value="" name="job_hours" class="required" id="job_hours" required>
+  <input type="number" value="" placeholder="1...&#x221e;" name="job_hours" class="required" id="job_hours" required>
 </div>
 
 <div class="form-col">
   <label>{% t form.job_no_of_people %} <span class="asterisk">*</span></label>
-  <input type="number" value="" name="job_no_of_people" class="required" id="job_no_of_people" required>
+  <input type="number" value="" placeholder="" name="job_no_of_people" class="required" id="job_no_of_people" required>
 </div>
 
 <div class="form-col">
@@ -19,11 +19,33 @@
 </div>
 
 <div class="form-col form-col--full-width">
-  <label>{% t form.salary %} <span class="asterisk">*</span></label>
-  <input type="number" min="140" max="250" placeholder="{% t form.placeholder.salary %}" value="" name="salary" class="required" id="salary" required>
+  <div class="input-group">
+    <div class="input-group-content">
+      <p>
+        {% t form.salary %} <span class="asterisk">*</span>
+      </p>
+
+      <ul id="js-hourly-salary-input-target"></ul>
+
+    </div>
+  </div>
 </div>
+
+<!-- START: HTML TEMPLATE -->
+<div id="js-hourly-salary-input-template" style="display:none;">
+  <input type="radio" value="%val%" name="salary" id="salary-value-%val%" required>
+  <label for="salary-value-%val%">%val% SEK/h</label>
+</div>
+<!-- END: HTML TEMPLATE -->
 
 <div class="form-col form-col--full-width">
   <label>{% t form.job_description %} <span class="asterisk">*</span></label>
   <textarea name="job_description" rows="8" cols="40" class="required" id="job_description" required></textarea>
 </div>
+
+<script type="text/javascript">
+  createHourlyPaysInputList({
+    targetSelector: '#js-hourly-salary-input-target',
+    inputTemplate: '#js-hourly-salary-input-template'
+  });
+</script>
