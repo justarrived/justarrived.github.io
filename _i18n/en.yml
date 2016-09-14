@@ -27,7 +27,6 @@ form:
   job_hours: Hours
   job_no_of_people: Number of people
   placeholder:
-    salary: 'Choose between: 147/161/175 kr/h'
     competencies: 'Example: MS Office experience, Economic background or None'
     languages: 'Example: Swedish or English'
     ssn: Needed for invoicing purposes
