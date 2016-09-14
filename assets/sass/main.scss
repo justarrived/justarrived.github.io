@@ -48,3 +48,10 @@ $on-laptop:        800px;
     unicode-bidi: embed;
   }
 }
+
+table.boring-table {
+	td {
+		padding: 15px;
+		border: 1px solid #101010;
+	}
+}
