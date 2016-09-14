@@ -1,0 +1,57 @@
+---
+layout: default
+title: Hourly pay calculator
+description: Hourly pay calculator
+---
+
+<div class="hourly-pay-calculator-page">
+  <div id="content">
+    <section class="
+    section--introduction
+    module
+    module--padding
+    module--black
+    module--white-bg
+    ">
+      <div class="
+    module-content
+    module-content--centered
+    module--black
+    ">
+        <h2 class="bordered bordered--primary module--txt-c">Pay Calculator</h2>
+
+        <form action="/hourly-pays" method="GET" class="js-pay-calculator-form" onsubmit="payCalculatorFormSubmit(); return false;">
+          <div class="form-col form-col--full-width">
+            <label for="gross_salary">Gross Salary <span class="asterisk">*</span></label>
+            <input type="text" value="" name="gross_salary" class="required" id="gross_salary" required>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="clear">
+            <input type="submit" value="{% t form.submit %}" name="submit" class="button border-btn btn-large border-btn--pink">
+          </div>
+
+          <div id="js-hourly-pay-result" style="display:none;">
+            <br><br><br>
+
+            <table class="boring-table">
+              <tr>
+                <td>Gross</td>
+                <td>Net</td>
+                <td>Excluding VAT</td>
+                <td>Including VAT</td>
+              </tr>
+              <tr>
+                <td id='js-gross-salary-result'></td>
+                <td id='js-net-salary-result'></td>
+                <td id='js-ex-vat-result'></td>
+                <td id='js-inc-vat-result'></td>
+              </tr>
+            </table>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</div>
