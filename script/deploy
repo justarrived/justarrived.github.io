@@ -30,7 +30,8 @@ else
   __exe_cmd "touch .nojekyll"
   __exe_cmd "git add --all :/"
   __exe_cmd "git commit -m 'compile'"
-  __exe_cmd "git push -f origin master"
+  __exe_cmd "git push -f origin $release_branch"
+  __exe_cmd "git checkout $main_branch"
 fi
 
 echo 'deployed: http://justarrived.se'
