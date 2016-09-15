@@ -621,6 +621,10 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
+	if (location.search.indexOf('message=thanks') !== -1) {
+		$('.thank-you-flash-notice').show();
+	}
+
   //open signup popup
   $('.cd-popup-trigger-signin').on('click', function(event){
     event.preventDefault();

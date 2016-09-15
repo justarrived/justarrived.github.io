@@ -5,6 +5,7 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  thank_you: Thank you!
 
 form:
   email: Email Address
