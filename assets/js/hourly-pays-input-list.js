@@ -1,6 +1,6 @@
 (function(window) {
   JA_API_URL = 'https://api.justarrived.se/api/v1';
-  HOURLY_PAYS_ENDPOINT = JA_API_URL + '/hourly-pays?sort=-gross-salary';
+  HOURLY_PAYS_ENDPOINT = JA_API_URL + '/hourly-pays?sort=gross-salary';
 
   function createInputList(options) {
     var opts = {
