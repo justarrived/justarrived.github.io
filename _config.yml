@@ -16,14 +16,12 @@
 title: Just Arrived
 email: hej@justarrived.se
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Helping new arrivals in Sweden enter the labour market.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://justarrived.se" # the base hostname & protocol for your site
 twitter_username: justarrivedse
 github_username:  justarrived
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/"]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/", "CNAME"]
 
 # "App" settings
 submission_email: 'anna.hornmark+company-forms@justarrived.se'
@@ -45,4 +43,4 @@ rtl_languages: ["ar"]
 
 # I18n plugin: jekyll-multiple-languages-plugin
 languages: ["en", "sv", "ar"]
-exclude_from_localizations: ["assets", "favicon.ico"]
+exclude_from_localizations: ["assets", "favicon.ico", "_posts"]

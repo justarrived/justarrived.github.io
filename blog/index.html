@@ -1,0 +1,60 @@
+---
+layout: post
+title: Blog
+description: Our blog
+excerpt_separator: More...
+---
+
+<div class="blog-page">
+
+  <header class="post-header">
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <div class="post-excerpt-list">
+
+    {% for post in site.posts limit: 5 %}
+      <article class="post-content">
+        <h2>
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div>
+          <!-- {{ post.excerpt | strip_html }} -->
+          {{ post.content | truncate: 300 }}
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">More...</a>
+        </div>
+      </article>
+    {% endfor %}
+
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+     {% endfor %}
+  </ul>
+
+  <div class="blog-categories-container">
+    <h3>By categories</h3>
+    <ul class="blog-categories-links blog-categories-medium">
+      {% for category in site.categories limit: 4 %}
+        <li class="blog-categories-item"><a class="blog-categories-title" name="{{ category | first }}"><strong>{{ category | first }}</strong></a>
+          <ul>
+          {% for posts in category %}
+            {% for post in posts limit: 3 %}
+              <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
+            {% endfor %}
+          {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
