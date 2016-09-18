@@ -1,0 +1,12 @@
+{
+  "name": "justarrived",
+  "version": "1.0.0",
+  "description": "Just Arrived",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}
