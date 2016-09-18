@@ -11,8 +11,16 @@ module.exports = function(grunt) {
           dest: 'assets/minified/images' // Destination path prefix
         }]
       }
+    },
+    uglify: {
+    my_target: {
+      files: {
+        'assets/minified/js/scripts.min.js': 'assets/js/**/*.js'
+      }
     }
+  }
   });
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.registerTask('default', ['imagemin']);
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.registerTask('default', ['imagemin', 'uglify']);
 }
