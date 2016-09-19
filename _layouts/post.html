@@ -24,6 +24,10 @@ module--white-bg
             </header>
 
             <article class="post-content">
+              {% if post.list_cover %}
+                <div class="post-list-cover" style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});"></div>
+              {% endif %}
+
               {{ content }}
             </article>
 
