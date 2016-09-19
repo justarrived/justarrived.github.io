@@ -1,0 +1,69 @@
+---
+layout: post
+title: Blog
+description: Our blog
+excerpt_separator: More...
+paginate: true
+---
+
+<div class="blog-page">
+
+  <header class="post-header">
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <div class="post-excerpt-list">
+
+    {% for post in paginator.posts %}
+      <article class="post-content">
+        {% if post.list_cover %}
+          <div class="post-list-cover" style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});"></div>
+        {% endif %}
+
+        <h2>
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div>
+          <!-- {{ post.excerpt | strip_html }} -->
+          {{ post.content | truncate: 300 }}
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">More...</a>
+        </div>
+      </article>
+    {% endfor %}
+
+  </div>
+
+  <!-- Pagination links -->
+  <div class="post-pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %} |
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> |
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+
+  <div class="blog-categories-container">
+    <h3>By tags</h3>
+    <ul class="blog-categories-links blog-categories-medium">
+      {% for tag in site.tags limit: 8 %}
+        <li class="blog-categories-item"><a class="blog-categories-title" name="{{ tag | first }}"><strong>{{ tag | first }}</strong></a>
+          <ul>
+          {% for posts in tag %}
+            {% for post in posts limit: 4 %}
+              <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
+            {% endfor %}
+          {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
