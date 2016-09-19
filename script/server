@@ -4,4 +4,6 @@ IFS=$'\n\t'
 
 cd "$(dirname "$0")/.."
 
+script/bootstrap
+
 bundle exec jekyll serve --watch

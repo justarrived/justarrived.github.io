@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://justarrived.se" # the base hostname & protocol for your site
 twitter_username: justarrivedse
 github_username:  justarrived
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/"]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/", "Gruntfile.js", "package.json", "node_modules/"]
 
 # "App" settings
 submission_email: 'anna.hornmark+company-forms@justarrived.se'
