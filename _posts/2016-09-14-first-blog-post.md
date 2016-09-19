@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Welcome to the Just Arrived blog
-date:   2016-09-14 10:57:42 +0100
+title: Welcome to the Just Arrived blog
+date: '2016-09-14 10:57:42 +0100'
 published: true
 categories: blog engineering hacks
 ---
@@ -13,6 +13,9 @@ Sea te augue erant zril, ad eam aeterno volumus. An fuisset nominavi mea, vix te
 Sint option ad per, scaevola forensibus quo no. His ne enim laoreet intellegebat, sit ignota facete definitiones ad, illum definiebas per ei. An pro impedit placerat inciderint, ne qui cibo albucius erroribus. Ea summo oportere eos, exerci nominavi pro te, vis ea omnes fabellas. Affert tritani no duo, blandit detracto ne pro, his et facete detracto conceptam. Veniam corpora disputando sea an. Eu vim senserit consectetuer, id salutandi voluptaria vel.
 
 ![My helpful screenshot]({{ "/assets/images/logos/hero.png" | prepend: site.github.url }})
+
+![Troll]({{site.baseurl}}/_posts/Screen Shot 2016-09-15 at 09.59.40.png)
+
 
 Autem exerci eum id, duo etiam liber liberavisse in, justo suavitate ut ius. Tation inermis quo id. Case feugiat cu mea. Eam dicta error eleifend ea, copiosae petentium id eos, augue verear mandamus ex per.
 
