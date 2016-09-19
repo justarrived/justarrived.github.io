@@ -33,6 +33,8 @@
 
   .blog-categories-item {
     min-height: 200px;
+    // Prevent column break within an sub-list element
+    display: inline-block;
   }
 
   li {

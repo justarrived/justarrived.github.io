@@ -37,6 +37,13 @@ sass:
 # Plugins
 gems:
   - jekyll-multiple-languages-plugin
+  - octopress-paginate
+
+# octopress-paginate config
+pagination:
+  limit: false
+  per_page: 3
+  title_suffix: " (page :num)"
 
 # I18n
 rtl_languages: ["ar"]
