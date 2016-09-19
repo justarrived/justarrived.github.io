@@ -1,7 +1,13 @@
 {
   "name": "justarrived",
   "version": "1.0.0",
-  "description": "Just Arrived",
+  "private": true,
+  "authors": [
+    "David McCracken",
+    "Tobias Tikka",
+    "Jacob Burenstam"
+  ],
+  "description": "Just Arrived website",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-imagemin": "^1.0.1",

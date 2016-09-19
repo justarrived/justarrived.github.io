@@ -4,4 +4,4 @@ IFS=$'\n\t'
 
 cd "$(dirname "$0")/.."
 
-bundle install
+script/bootstrap
