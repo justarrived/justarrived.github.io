@@ -688,8 +688,7 @@ function submitPromoCode() {
     var appURL = 'https://app.justarrived.se';
 
     // Live URL
-    // var url = 'https://api.justarrived.se/api/v1/promo-codes/validate';
-		var url = 'http://localhost:3000/api/v1/promo-codes/validate';
+    var url = 'https://api.justarrived.se/api/v1/promo-codes/validate';
     var payload = {
       data: {
         attributes: {
