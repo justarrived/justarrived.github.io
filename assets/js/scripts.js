@@ -685,15 +685,10 @@ jQuery(document).ready(function($) {
 
 function submitPromoCode() {
     var promoCode = jQuery('#promo-code-input').val();
-    // var appURL = 'http://app.justarrived.se';
     var appURL = 'https://app.justarrived.se';
 
     // Live URL
-    // var url = 'https://just-match-api.herokuapp.com/api/v1/promo-codes/validate';
-    //
-    // Straging URL
     var url = 'https://api.justarrived.se/api/v1/promo-codes/validate';
-    // var url = 'https://just-match-mccracken.herokuapp.com/api/v1/promo-codes/validate';
     var payload = {
       data: {
         attributes: {
@@ -707,10 +702,6 @@ function submitPromoCode() {
         location.href = appURL + '/#/?promo_code=' + promoCode;
       }, 2000);
 
-      // Add successMessage to DOM...
-      console.log("Hurray! Correct promo code, you're gonna be taken to the app!");
-
-
       var node = document.getElementById("promo-success");
       node.innerHTML = "<span class=\"success-message\">" + "Great, we'll redirect you to the app now" + "</span>";
 
@@ -720,18 +711,20 @@ function submitPromoCode() {
 
     var failFunction = function (data) {
       var errorMessage = 'Promo code ' + data.responseJSON.errors[0].detail;
-      // Add errorMessage to DOM...
-      console.log(errorMessage);
       var node = document.getElementById("promo-error");
-      node.innerHTML = "<span class=\"error-message\">" + "Sorry, we couldn't find that promo code" + "</span>";
+      node.innerHTML = "<span class=\"error-message\">" + "Sorry, " + errorMessage + "</span>";
     };
 
     jQuery.ajax({
       type: 'POST',
       url: url,
       data: payload,
-      dataType: 'json'
-    }).success(successFunction).fail(failFunction);
+      dataType: 'json',
+			statusCode: {
+				200: successFunction,
+			  422: failFunction
+		  }
+    });
 
     return false;
   }

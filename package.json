@@ -1,0 +1,19 @@
+{
+  "name": "justarrived",
+  "version": "1.0.0",
+  "private": true,
+  "authors": [
+    "David McCracken",
+    "Tobias Tikka",
+    "Jacob Burenstam"
+  ],
+  "description": "Just Arrived website",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}
