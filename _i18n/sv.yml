@@ -157,3 +157,7 @@ company_form:
 job_form:
   title: Skapa nytt jobb
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
+about_cookies:
+  title: Om cookies
+  description: Vi använder cookies av tekniska skäl, för att underlätta användningen av våra tjänster och för att ge dig som användare relevant information när du besöker vår webbplats. Om du har några frågor hör av dig till hej@justarrived.se.
+  more_info_link: Mer information

@@ -147,3 +147,8 @@ company_register_submit:
 job_submit_thanks:
   title: Thank you!
   description: Your job information has been submitted and will shortly be online on our platform. Please contact support@justarrived.se if you have any questions.
+
+about_cookies:
+  title: About cookies
+  description: By using the justarrived.se website, you agree to the use of cookies by us and third parties to enhance your experience. If you have any questions feel free to contact us at hej@justarrived.se.
+  more_info_link: More about our cookies

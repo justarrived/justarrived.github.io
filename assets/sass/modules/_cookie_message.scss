@@ -1,0 +1,56 @@
+.cookie-message {
+  text-align: center;
+  background: $bluesea;
+  color: $white;
+  padding: 20px 32px;
+  width: 100%;
+
+  .cookie-message-inner {
+    margin: 0 auto;
+  }
+
+  .text {
+    margin: auto;
+  }
+
+  .read-more {
+    display: block;
+    margin: 15px 0;
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .button {
+    margin: 0;
+  }
+
+	@include tablet {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    max-width: $max-site-width;
+
+    .cookie-message-inner {
+      display: flex;
+    }
+
+    .read-more {
+      display: inline;
+      margin: 0;
+    }
+
+    .cookies-button {
+      margin: auto;
+    }
+
+    .button {
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
+// > 640px viewport

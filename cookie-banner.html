@@ -1,0 +1,23 @@
+---
+layout: none
+---
+
+<div class="cookie-message">
+  <div class="cookie-message-inner">
+    <!-- We need the selector #mesasge otherwise CookieDisclaimer will thow errors trying to insert content to a non-existing element -->
+    <div id="message"></div>
+
+    <p class="text">
+      {% t about_cookies.description %}
+
+      {% if site.lang == 'en' %}
+        <a class="read-more" href="/about-cookies">{% t about_cookies.more_info_link %}</a>
+      {% else %}
+        <a class="read-more" href="/{{ site.lang }}/about-cookies">{% t about_cookies.more_info_link %}</a>
+      {% endif %}
+    </p>
+    <div class="cookies-button">
+      <button type="button" class="border-btn" id="close">Acceptera</button>
+    </div>
+  </div>
+</div>
