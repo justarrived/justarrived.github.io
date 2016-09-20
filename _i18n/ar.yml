@@ -6,12 +6,13 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  thank_you: شكراً جزيلاً
 form:
   email: البريد الالكتروني *
   name: الاسم *
   phone: رقم الهاتف
   company: الشركة
-  city: موقع
+  city: 'مدينة '
   sections:
     company: الشركة
 nav:
@@ -19,6 +20,8 @@ nav:
   promo_code_signin: تسجيل الدخول مع الرمز الترويجي
 top_banner:
   title: نساعد الوافدين الجدد في السويد للدخول إلى سوق العمل
+  subtitle: هل انتم شركة مهتمة في نشر وظيفة شاغرة؟ إملأ الاستمارة وسوف نقوم بالإتصال
+    بكم لاحقاً
   signup_for_job: تسجيل الدخول
 promo_code:
   title: أدخل الشفرة الترويجية
@@ -48,6 +51,7 @@ be_the_change:
     بالإندماج والدمج المجتمعي من خلال الإستعانة بأعمال ووظائف بسيطة.'
   description_asterix: 'بعد عشر سنوات فقط 60% من المهاجرين حصلوا على عمل مكنهم من
     إعانة أنفسهم. *المصدر: http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda'
+  cta: تسجيل الدخول
 companies_engage:
   title: '"Just Arrived" تسهل على الشركات جذب وتوظيف الوافدين الجدد.'
   responsibility_description: نقوم بدفع الضرائب والتكاليف الإجتماعية والتأمينات المتعلقة
@@ -66,7 +70,8 @@ companies_opportunity:
     وذلك يساهم في توفير المزيد من المعلومات والمرجعيات التي تساعد الوافد الجديد في
     الحصول على المزيد من فرص العمل. Just Arrived تأخذ على عاتقها مسؤولية الوافد الجديد
     في سوق العمل.
-  cta: تسجيل الدخول
+  emphasis: " هل أنت من القادمين الجُدد؟ قدم طلبك لكي تتمكن الى الإنضمام إلى برنامج
+    القادمين الجُدد"
 contribute:
   title: للمساهمة في المشروع
   cta: للمساهمة في المشروع
