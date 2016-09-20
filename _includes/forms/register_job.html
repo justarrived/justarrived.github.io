@@ -13,7 +13,7 @@ module--black
     <h2 class="bordered bordered--primary module--txt-c">{% t job_form.title %}</h2>
     <p>{% t job_form.description %}</p>
 
-    <form action="https://formspree.io/{{ site.submission_email }}" method="POST" class="signup-form">
+    <form action="https://formspree.io/{{ site.job_submission_email }}" method="POST" class="signup-form">
       <div class="form-col form-col--full-width">
         <label for="company_name">{% t form.company_name %} <span class="asterisk">*</span></label>
         <input type="text" value="" name="company_name" class="required" id="company_name" required>

@@ -13,7 +13,7 @@ module--black
     <h2 class="bordered bordered--primary module--txt-c">{% t company_form.title %}</h2>
     <p>{% t company_form.description %}</p>
 
-    <form action="https://formspree.io/{{ site.submission_email }}" method="POST" class="signup-form">
+    <form action="https://formspree.io/{{ site.job_submission_email }}" method="POST" class="signup-form">
       <h3>{% t form.sections.company %}</h3>
       {% include forms/partials/company_fields.html %}
 

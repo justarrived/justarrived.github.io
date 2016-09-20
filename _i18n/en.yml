@@ -135,3 +135,15 @@ company_form:
 job_form:
   title: Create new job
   description: Fill in the details about the job, so we can publish it on our platform.
+
+register_submit:
+  title: Thank you for registering!
+  description: We're working really hard to try to help as many as we can. We will contact you when we have something for you, please note that this may take a while.
+
+company_register_submit:
+  title: Thank you for registering!
+  description: We will contact you as soon as we possibly can. We'll talk soon! Please contact support@justarrived.se if you have any questions.
+
+job_submit_thanks:
+  title: Thank you!
+  description: Your job information has been submitted and will shortly be online on our platform. Please contact support@justarrived.se if you have any questions.
