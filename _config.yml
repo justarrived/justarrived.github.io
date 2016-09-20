@@ -29,6 +29,8 @@ job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'
 
 company_submission_redirect_url: http://justarrived.se/thanks/company-register-submit
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 # theme: minima
