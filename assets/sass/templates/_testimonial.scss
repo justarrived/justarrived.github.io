@@ -1,0 +1,29 @@
+.section--testimonial {
+	& .wrap {
+		max-width: 750px;
+	}
+
+  .profile-circle {
+    margin-top: 20px; // Magic number to align the circle with the quote next to it
+
+    height: 100px;
+    width: 100px;
+    background-color: $meta-gray;
+    border-radius: 500px;
+    margin: 0 auto;
+  }
+
+  .testimonial-body {
+    font-size: 1.2rem;
+  }
+
+  .body-divider {
+    margin: 40px 34px;
+  }
+
+  .testimonial-meta-author {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
