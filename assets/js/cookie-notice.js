@@ -10,6 +10,7 @@ if (locale !== 'en') {
 
 CookieDisclaimer.init({
   name: 'JustArrivedCookieAccept',
-  message: '',
-  template: templateName
+  message: false,
+  template: templateName,
+  duration: 365 // Save the accept for a year
 });

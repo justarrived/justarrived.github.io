@@ -1,3 +1,7 @@
+// Using slightly modifed version of https://github.com/jonnyhaynes/cookie-disclaimer
+// This includes the changes in:
+//   https://github.com/jonnyhaynes/cookie-disclaimer/pull/3 (optional message)
+//   https://github.com/jonnyhaynes/cookie-disclaimer/pull/5 (custom cookie expiry)
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['exports'], factory);
@@ -37,7 +41,8 @@
     var settings = {
       name: 'cookies_accepted',
       template: 'cookie-banner.html',
-      message: 'Our website uses cookies to monitor traffic on our website and ensure that we can provide our customers with the best online experience possible. Please read our <a href="/cookies">cookie policy</a> to view more details on the cookies we use.'
+      message: 'Our website uses cookies to monitor traffic on our website and ensure that we can provide our customers with the best online experience possible. Please read our <a href="/cookies">cookie policy</a> to view more details on the cookies we use.',
+      duration: 30
     };
 
     var bodyClass = 'has-cookie-banner';
@@ -129,7 +134,7 @@
      * @param     {number} [duration] – the duration of the cookie
      *
      * ```js
-     *   createCookie('cookies_accepted', 'true', 1800);
+     *   createCookie('cookies_accepted', 'true', 30);
      * ```
      */
     function createCookie(name, value, duration) {
@@ -225,8 +230,8 @@
           // 2. Prepend to the body
           document.body.insertBefore(el, document.body.firstChild);
 
-          // 3. Add message
-          document.getElementById('message').innerHTML = settings.message;
+          // 3. Add message if present
+          if (settings.message) document.getElementById('message').innerHTML = settings.message;
 
           // 4. Add class to body
           if (document.body.classList) document.body.classList.add(bodyClass);else if (!hasClass(document.body, bodyClass)) document.body.className += ' ' + bodyClass;
@@ -235,7 +240,7 @@
           document.getElementById('close').onclick = function () {
 
             // 1. On click create the cookie
-            createCookie(settings.name, true, 1800);
+            createCookie(settings.name, true, settings.duration);
 
             // 2. Remove the banner
             var banner = document.getElementById('cookie-banner');
