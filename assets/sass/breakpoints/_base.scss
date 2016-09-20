@@ -36,7 +36,7 @@ body {
 	@include desktop-small {
 		width: 90%;
 		margin: 0 auto;
-		max-width: 1480px;
+		max-width: $max-site-width;
 	}
 }
 
