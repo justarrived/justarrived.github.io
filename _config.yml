@@ -25,7 +25,9 @@ exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "s
 
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
-job_submission_redirect_url: 'http://justarrived.se/job-submit-thanks'
+job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'
+
+company_submission_redirect_url: http://justarrived.se/thanks/company-register-submit
 
 # Build settings
 markdown: kramdown

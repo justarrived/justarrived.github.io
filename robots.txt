@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /register-submit-thanks
-Disallow: /company-register-submit-thanks
-Disallow: /register-job
-Disallow: /register-company
-Disallow: /job-submit-thanks
-Disallow: /pay-calculator
+Disallow: /thanks/*
+Disallow: /tools/*
+Disallow: /register/*
