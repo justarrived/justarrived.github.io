@@ -5,6 +5,9 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  linkedin: LinkedIN
+  instagram: Instagram
+  youtube: Youtube
   thank_you: Thank you!
 
 form:
@@ -175,3 +178,19 @@ contribute_page:
 vasbyhem_testimonial:
   first_body: Just Arrived tar bort trösklarna för att jobba med nyanlända.
   second_body: Det viktiga är att göra och inte bara prata om att göra.
+
+footer:
+  get_started:
+    title: Get started
+    login: Login
+    candidate_registration: Candidate registration
+    post_job: Post job
+  about_us:
+    title: About us
+    about: About Just Arrived
+    faq: FAQ
+    team: The team
+  follow_us:
+    title: Follow us
+  contact_us:
+    title: Contact

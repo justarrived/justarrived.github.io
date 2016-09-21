@@ -25,12 +25,12 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: #efefef;
+	background-color: $body-bg-color;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
 
-#container {
+.container {
 	height: 100%;
 	position: relative;
 	@include desktop-small {

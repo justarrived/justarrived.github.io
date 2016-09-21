@@ -22,6 +22,7 @@ url: "http://justarrived.se" # the base hostname & protocol for your site
 twitter_username: justarrivedse
 github_username:  justarrived
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/", "CNAME", "Gruntfile.js", "package.json", "node_modules/", "npm-shrinkwrap.json"]
+permalink: pretty
 
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
@@ -29,7 +30,7 @@ job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'
 
 company_submission_redirect_url: http://justarrived.se/thanks/company-register-submit
 
-permalink: pretty
+contact_email: hej@justarrived.se
 
 # Build settings
 markdown: kramdown
