@@ -196,6 +196,10 @@ footer:
     title: Contact
 
 faq:
+  links:
+    general_faq: General FAQ
+    arriver_faq: Arriver FAQ
+    company_faq: Company FAQ
   general:
     what:
       question: What is JustArrived?
