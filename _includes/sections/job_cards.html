@@ -1,0 +1,24 @@
+<script type="text/javascript">
+  // JAJobs.createCards('#js-job-cards', '#js-job-cards-template');
+</script>
+
+<!-- START: HTML TEMPLATE -->
+<div id="js-job-cards-template" style="display:none;">
+  <div class="job-cards">
+    <div class="job-header">
+      <img src="http://placehold.it/50x50" alt="%job_company%" />
+      <h3 class="job-company">%job_company%</h3>
+    </div>
+    <h5 class="job-title">%job_category%</h5>
+    <span class="job-amount pull-right">%job_amount% SEK</span>
+    <p class="job-summary">
+      STOCKHOLM |
+      <span class="job-hours">%job_hours%H</span> |
+      <span class="job-hourly-pay">%job_hourly_pay% SEK</span>
+    </p>
+    <p class="job-description">%job_description%</p>
+  </div>
+</div>
+<!-- END: HTML TEMPLATE -->
+
+<div id="js-job-cards"></div>
