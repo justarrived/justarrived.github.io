@@ -2,20 +2,25 @@
   JA_API_URL = 'https://api.justarrived.se/api/v1';
   HOURLY_PAYS_ENDPOINT = JA_API_URL + '/hourly-pays?sort=gross-salary';
 
+  function getHourlyPays(callback) {
+    $.getJSON(HOURLY_PAYS_ENDPOINT, function(response) {
+      callback(response.data);
+    });
+  }
+
   function createInputList(options) {
     var opts = {
       targetSelector: options.targetSelector,
       inputTemplate: options.inputTemplate,
     };
 
-    function getHourlyPays(callback) {
-      $.getJSON(HOURLY_PAYS_ENDPOINT, function(response) {
-        callback(response.data);
-      });
-    }
-
     var $inputListTarget = $(opts.targetSelector);
     var $inputTemplate = $(opts.inputTemplate);
+
+    if ($inputListTarget === null || $inputTemplate === null) {
+      return;
+    }
+
     var templateHTML = $inputTemplate.html().toString();
     var inputList = [];
 
@@ -34,5 +39,7 @@
     });
   }
 
-  window.createHourlyPaysInputList = createInputList;
+  window.HourlyPaysInput = {
+    createInputList: createInputList
+  }
 })(window);
