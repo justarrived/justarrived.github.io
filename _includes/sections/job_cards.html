@@ -4,10 +4,10 @@
 
 <!-- START: HTML TEMPLATE -->
 <div id="js-job-cards-template" style="display:none;">
-  <div class="job-cards">
+  <div class="job-card">
     <div class="job-header">
       <img src="http://placehold.it/50x50" alt="%job_company%" />
-      <h3 class="job-company">%job_company%</h3>
+      <h4 class="job-company">%job_company%</h4>
     </div>
     <h5 class="job-title">%job_category%</h5>
     <span class="job-amount pull-right">%job_amount% SEK</span>
@@ -21,4 +21,6 @@
 </div>
 <!-- END: HTML TEMPLATE -->
 
-<div id="js-job-cards"></div>
+<div class="job-cards-wrapper">
+  <div id="js-job-cards" class="job-cards-container"></div>
+</div>
