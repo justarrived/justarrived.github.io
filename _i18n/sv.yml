@@ -6,6 +6,7 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  thank_you: Tack!
 form:
   email: Email adress
   name: Namn
@@ -27,7 +28,6 @@ form:
   job_hours: Timmar
   job_no_of_people: Antal personer
   placeholder:
-    salary: 'Välj mellan: 147/161/175 kr/h'
     competencies: 'Exempel: MS Office erfarenhet, Ekonomiskbakgrund eller Ingen'
     languages: 'Exempel: Svenska eller engelska'
     ssn: Behövs av fakturaskäl
@@ -41,19 +41,19 @@ nav:
   promo_code_signin: Logga in med promokod
 top_banner:
   title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
-  subtitle: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just
-    Arriveds app.
-  signup_for_job: Registrera dig för att hitta jobb
+  subtitle: Är du intreserad av att lägga upp ett jobb? Fyll i formuläret så kontaktar
+    vi dig snart.
+  signup_for_job: Jag vill lägga upp ett jobb
 promo_code:
   title: Skriv in din promokod
   description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända
     som har blivit tilldelade en promokod som ger tillgång till plattformen. Om du
     inte har en promokod men är intresserad av att använda plattformen, registrera
     gärna ditt intresse. Tack!
-  submit: Ta mig till applikationen
+  submit: Ta mig till tjänsten
   placeholder: Promokod
 signup_modal:
-  title: Registrera dig för vår beta
+  title: Indikera intresse
   description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända.
     Om du är intresserad av att använda plattformen efter vår officiella lansering,
     fyll gärna i formuläret så hör vi av oss!
@@ -76,6 +76,7 @@ be_the_change:
     enkla uppgifter och jobb.
   description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
     med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
+  cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived gör det enkelt för företag att engagera eller anställa en nyanländ.
   responsibility_description: Vi betalar de skatter, sociala avgifter och försäkringar
@@ -94,9 +95,9 @@ job_opportunities:
     företag och nyanlända att recensera varandra, så att nyanlända kan använda det,
     som referens, för framtida anställningar. Just Arrived tar arbetsgivaransvar för
     alla nyanlända som jobbar genom plattformen.
-  emphasis: Representerar du ett företag som är intresserat av att lägga upp ett jobb?
-    Fyll i formuläret nedan så återkommer vi snart.
-  cta: Jag vill lägga upp ett jobb
+  emphasis: Är du nyanländ? Ansök om att få tillgång till Just Arrived's digitala
+    tjänst.
+  cta: Registrera för att hitta ett jobb
 contribute:
   title: Bidra till projektet
   cta: Jag vill bidra
