@@ -17,7 +17,7 @@
     var $inputListTarget = $(opts.targetSelector);
     var $inputTemplate = $(opts.inputTemplate);
 
-    if ($inputListTarget === null || $inputTemplate === null) {
+    if ($inputListTarget.length === 0 || $inputTemplate.length === 0) {
       return;
     }
 
