@@ -194,3 +194,80 @@ footer:
     title: Follow us
   contact_us:
     title: Contact
+
+faq:
+  general:
+    what:
+      question: What is JustArrived?
+      answer: JustArrived is a service created to help people who have immigrated to Sweden to quickly find a job. It’s a digital marketplace enabling businesses to easily hire newly arrived immigrants.
+    who:
+      question: Who are JustArrived?
+      answer: The Just Arrived organisation is governed by a non-profit foundation working to promote the integration of newly arrived immigrants into the Swedish society. The project is set up as a pro bono initiative and has been made possible through a number of engaged organisations and individuals providing their resources. The following organisations and individuals have been involved with the initiative; Universum, Nova, Wintrgarden, Antrop, Caroline He, Yuliya Bilinskaya, Jansson&Norin, Cygni, Jacob Burenstam, Bond Street, FrilansFinans, Stockholms Skrivarbyrå, Mattias Bengtsson.
+    how:
+      question: How does it work?
+      answer: It’s really simple. <br><br> 1. The Employer posts a job vacancy following our ready-made template (1 -2 minutes).<br><br> 2. The employee applies for the job (>1minute.)<br><br> 3. The employer reviews and chooses an applicant (1-3 minutes).<br><br> 4. The employee confirms he or she will do the job (>1min). <br><br>5. Both parties confirm the work has been carried out (>1min).
+    cost:
+      question: How much does it cost?
+      answer: The service is free of charge. We don’t charge to connect jobseekers and employers – the money billed is paid out to the employee once we have paid social fees, insurances and third-party fees (>5%).
+    wages:
+      question: How do you set wages?
+      answer: Salaries are set according to recommendations from trade unions. We believe it’s important to offer a reasonable compensation for the jobs we facilitate.
+    taxes:
+      question: Do you pay taxes and social fees for the employees?
+      answer: Yes, we pay employer fees and insurance for all of our contractors.
+  arriver:
+    what:
+      question: What do I need to get a job?
+      answer: You need a valid personal identity number/co-ordination number, a work permit and access to a bank account.
+    bank_account:
+      question: Do I need my own bank account in order to apply for a job?
+      answer: No, you don’t. However, you do need access to a bank account as we do not pay in cash.
+    job_accept:
+      question: Why do I need to "accept" a job offer when I've already applied for the job?
+      answer: We ask you to accept an offer to make sure you will be carrying out the work.
+    job_reschedule:
+      question: How do I reschedule if I am unable to carry out an assignment?
+      answer: If you are unable to do the job at the agreed time and have already confirmed the assignment you will need to contact the employer to change time and/or date. We recommend you follow the agreement that was confirmed with the employer.
+    job_refuse:
+      question: Can I refuse a job that I’ve already accepted?
+      answer: If you have confirmed an assignment but wish to decline the offer you need to contact your employer as well as support@justarrived.se in order for us to cancel your agreement.
+    job_confirm:
+      question: Why do I have to "Confirm" once the work is completed?
+      answer: You need to confirm the work has been completed in order for us to know the work is done. As soon as both parties have confirmed this we can send an invoice and start processing payments.
+    job_overtime:
+      question: What do I do if it took longer than stated in the ad to carry out the job?
+      answer: We recommend you only work the hours stated in the original ad. If you require additional time to complete the job we recommend you speak with your employer in order to solve the matter. We are looking into adding more hours as a function in the app.
+    someone_else:
+      question: Can I send someone else to do the job for me?
+      answer: No. By confirming an assignment you are entering into an agreement with your employer. This agreement together with our terms and conditions govern insurance policies as well as payment of social fees for you as a contractor. This means you cannot let somebody else perform the work for you.
+    get_paid:
+      question: When will I get paid?
+      answer: It takes from 10 to 40 days for your wages to be paid out once both parties have confirmed the work has been completed.
+  company:
+    private_person:
+      question: Can I create a job ad as a private individual?
+      answer: You will need a corporate identity number in order to use the service. This is because we aim to give the contractors the possibility to connect with potential future employers.
+    job_types:
+      question: What type of jobs can I create?
+      answer: JustArrived supports job ads for close to 2000 occupations (see full list here). Due to insurance policy you are not allowed to post ads for professions such as tattoo artists, surgeons, messengers etc.
+    job_description:
+      question: Can I edit the work description if conditions change?
+      answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
+    contact_arriver:
+      question: How do I communicate with candidates before I've hired someone?
+      answer: You can chat via the app with contractors who have applied for your job placement. The chat supports translation through Google Translate.
+    reschedule:
+      question: How do I reschedule if I'm prevented from offering the job at the stated time?
+      answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
+    cancel_job:
+      question: How do I close an ad if I find the job isn't needed anymore?
+      answer: You can remove an ad by emailing support@justarrived.se anytime up until you have accepted a contractor.
+    confirm_invoice:
+      question: Why do I have to "Confirm" when the work is completed?
+      answer: By confirming the work is completed you are letting us know the job has been carried out. As soon as both parties have confirmed we will send an invoice and start processing payments.
+    job_guarantee:
+      question: How do you guarantee the job will be carried out?
+      answer: This service requires trust and mutual respect between contractor and employer. The service uses a ratings system ensuring quality and promoting an incentive to perform well. Should any conflicts arise regarding the quality of work we are at hand to deal with this.
+    cost:
+      question: How do I pay for the service?
+      answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.

@@ -1,4 +1,12 @@
 ---
-layout: default
+layout: post
 title: FAQ
 ---
+
+
+<div>
+  {% for item in site.translations[site.lang]['faq']['general'] %}
+    <h3 id="{{ item[1]['question'] | slugify }}">{{ item[1]['question'] }}</h3>
+    <p>{{ item[1]['answer'] }}</p>
+  {% endfor %}
+</div>
