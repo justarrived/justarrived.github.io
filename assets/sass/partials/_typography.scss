@@ -91,7 +91,7 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p, ul, ol {
-  font-size: 14px;
+  font-size: $base-font-size;
   margin: 0 0 1em;
   -ms-word-wrap: break-word;
   word-break: break-word; //non-standart css for webkit

@@ -1,66 +1,67 @@
-<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<div class="container">
+  <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+    <section class="
+      module--padding
+      module--txt-img
+      module--white
+      module--charcoal-bg">
 
-  <section class="
-    module--padding
-    module--txt-img
-    module--white
-    module--charcoal-bg">
+      <div class="wrap">
+        <div class="footer-col">
+          <h3>{% t footer.get_started.title %}</h3>
+          <ul class="footer-link-list">
+            <li><a href="https://app.justarrived.se">{% t footer.get_started.login %}</a></li>
+            <li><a href="#">{% t footer.get_started.candidate_registration %}</a></li>
+            <li><a href="#">{% t footer.get_started.post_job %}</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>{% t footer.about_us.title %}</h3>
+          <ul class="footer-link-list">
+            <li><a href="#">{% t footer.about_us.about %}</a></li>
+            <li><a href="#">{% t footer.about_us.faq %}</a></li>
+            <li><a href="#">{% t footer.about_us.team %}</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Follow us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul class="footer-link-list">
+            <li><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></li>
+            <li><a href="#">Just Arrived</a></li>
+            <li>
+              <a href="https://www.google.se/maps/place/Jakobsbergsgatan,+Stockholm/@59.3347538,18.0672701,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d5c60feb307:0x77037862d63a6d77!8m2!3d59.3347511!4d18.0694588?hl=en">
+                Jakobsbergsgatan 22 <br>111 44 Stockholm
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <div class="wrap">
-      <div class="footer-col">
-        <h3>{% t footer.get_started.title %}</h3>
-        <ul class="footer-link-list">
-          <li><a href="https://app.justarrived.se">{% t footer.get_started.login %}</a></li>
-          <li><a href="#">{% t footer.get_started.candidate_registration %}</a></li>
-          <li><a href="#">{% t footer.get_started.post_job %}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>{% t footer.about_us.title %}</h3>
-        <ul class="footer-link-list">
-          <li><a href="#">{% t footer.about_us.about %}</a></li>
-          <li><a href="#">{% t footer.about_us.faq %}</a></li>
-          <li><a href="#">{% t footer.about_us.team %}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Follow us</h3>
-        <ul class="footer-link-list">
-          <li><a href="#">{% t global.facebook %}</a></li>
-          <li><a href="#">{% t global.twitter %}</a></li>
-          <li><a href="#">{% t global.instagram %}</a></li>
-          <li><a href="#">{% t global.linkedin %}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Contact</h3>
-        <ul class="footer-link-list">
-          <li><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></li>
-          <li><a href="#">Just Arrived</a></li>
-          <li>
-            <a href="https://www.google.se/maps/place/Jakobsbergsgatan,+Stockholm/@59.3347538,18.0672701,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d5c60feb307:0x77037862d63a6d77!8m2!3d59.3347511!4d18.0694588?hl=en">
-              Jakobsbergsgatan 22 <br>111 44 Stockholm
-            </a>
-          </li>
-        </ul>
+    <div class="copy-footer module--dark-gray-bg">
+      <div id="inner-footer">
+        <p class="source-org copyright">
+          <span>&copy; {{ site.time | date: '%Y' }} {% t global.app_name %}</span>
+          <a href="https://www.facebook.com/JustArrivedSE/" title="{% t global.facebook %}" target="_blank" rel="noopener noreferrer" >
+            <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
+          </a>
+          <a href="https://twitter.com/JustArrivedSE" title="{% t global.twitter %}" target="_blank" rel="noopener noreferrer" >
+            <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
+          </a>
+        </p>
       </div>
     </div>
-  </section>
-
-  <div class="copy-footer module--dark-gray-bg">
-    <div id="inner-footer">
-      <p class="source-org copyright">
-        <span>&copy; {{ site.time | date: '%Y' }} {% t global.app_name %}</span>
-        <a href="https://www.facebook.com/JustArrivedSE/" title="{% t global.facebook %}" target="_blank" rel="noopener noreferrer" >
-          <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
-        </a>
-        <a href="https://twitter.com/JustArrivedSE" title="{% t global.twitter %}" target="_blank" rel="noopener noreferrer" >
-          <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
+  </footer>
+</div>
 
 {% include modals/signup.html %}
 {% include modals/promo_code.html %}

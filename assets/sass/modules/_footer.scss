@@ -1,11 +1,18 @@
 .footer {
+  & a {
+    color: $stone-dark;
+    text-decoration: none;
+  }
+
   .footer-link-list {
     li {
       padding: 4px 0;
     }
+  }
+
+  .social-links {
     & a {
-      color: $stone-dark;
-      text-decoration: none;
+      padding: 5px;
     }
   }
 
