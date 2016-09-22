@@ -4,7 +4,7 @@
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
   // var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
   var filterParam = '';
-  var sortParam = 'sort=filled';
+  var sortParam = '&sort=-featured,filled,-job-date';
 
   JA_API_URL = 'https://api.justarrived.se/api/v1';
   JOBS_ENDPOINT = JA_API_URL + path + pageParam + filterParam + sortParam;
@@ -15,63 +15,71 @@
     });
   }
 
+  function truncate(string, maxLength) {
+    var result = '';
+    if (string.length > maxLength) {
+      result = string.substring(0, maxLength - 3) + '...';
+    }
+
+    return result;
+  }
+
   function formatTemplate(template, name, value) {
     var regex = new RegExp(name, 'g');
     return template.replace(regex, value);
   }
 
-  function getCompanyName(includedData, id) {
-    var name;
+  function getIncludedResource(type, id, includedData) {
+    var attributes;
     includedData.forEach(function(resource) {
-      if (resource.type === 'companies' && resource.id === id) {
-        name = resource.attributes.name;
+      if (resource.type === type && resource.id === id) {
+        attributes = resource.attributes;
       }
     });
-    return name;
+    return attributes;
+  }
+
+  function getCompanyName(includedData, id) {
+    return getIncludedResource('companies', id, includedData);
   }
 
   function getCategoryName(includedData, id) {
-    var name;
-    includedData.forEach(function(resource) {
-      if (resource.type === 'categories' && resource.id === id) {
-        name = resource.attributes.name;
-      }
-    });
-    return name;
+    return getIncludedResource('categories', id, includedData);
   }
 
   function getHourlyPayValue(includedData, id) {
-    var value;
-    includedData.forEach(function(resource) {
-      if (resource.type === 'hourly-pays' && resource.id === id) {
-        value = resource.attributes['rate-excluding-vat'];
-      }
-    });
-    return value;
+    return getIncludedResource('hourly-pays', id, includedData);
+  }
+
+  function relationId(type, data) {
+    return data.relationships[type].data.id;
   }
 
   function formatJobTemplate(template, jobData, includedData) {
     var innerHTML = '';
     var jobAtrs = jobData.attributes;
 
-    var companyId = jobData.relationships.company.data.id;
-    var categoryId = jobData.relationships.category.data.id;
-    var hourlyPayId = jobData.relationships['hourly-pay'].data.id;
+    var companyId = relationId('company', jobData);
+    var categoryId = relationId('category', jobData);
+    var hourlyPayId = relationId('hourly-pay', jobData);
 
     var company = getCompanyName(includedData, companyId);
     var category = getCategoryName(includedData, categoryId);
     var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
+    var rateExVAT = Math.round(hourlyPay['rate-including-vat']);
 
     var hours = jobAtrs.hours;
-    var amount = hours * hourlyPay;
+    var amount = hours * rateExVAT;
     var maxDescriptionLength = 30;
-    var description = (jobAtrs['short-description'] || jobAtrs['description']).substring(0, maxDescriptionLength);
+    var description = (jobAtrs['short-description'] || jobAtrs['description']);
+    // description = truncate(description, maxDescriptionLength);
 
-    innerHTML = formatTemplate(template, '%job_company%', company);
-    innerHTML = formatTemplate(innerHTML, '%job_category%', category);
+    innerHTML = formatTemplate(template, '%job_company%', company.name);
+    innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
+    innerHTML = formatTemplate(innerHTML, '%job_category%', category.name);
     innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
-    innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', hourlyPay);
+    innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', rateExVAT);
     return formatTemplate(innerHTML, '%job_description%', description);
   }
 

@@ -70,3 +70,13 @@ table.boring-table {
 .pull-left {
   float: left;
 }
+
+// One line justify
+.full-justify {
+  text-align: justify;
+}
+.full-justify:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
