@@ -24,14 +24,19 @@
 .nav-links {
   margin-top: 10px;
   margin-left: 15px;
+  text-align: center;
 
   .nav-left {
-    float: left;
-    margin-left: 15px;
+    @include tablet {
+      float: left;
+      margin-left: 15px;
+    }
   }
 
   .nav-right {
-    float: right;
+    @include tablet {
+      float: right;
+    }
   }
 }
 
@@ -97,6 +102,7 @@
   & a {
     text-decoration: none;
     outline: 0;
+    white-space: nowrap;
   }
   & span {
     color: $stone-dark;
