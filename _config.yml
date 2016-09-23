@@ -24,6 +24,11 @@ github_username:  justarrived
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/", "CNAME", "Gruntfile.js", "package.json", "node_modules/", "npm-shrinkwrap.json"]
 permalink: pretty
 
+facebook_url: https://www.facebook.com/JustArrivedSE
+twitter_url: https://twitter.com/justarrivedse
+instagram_url: https://www.instagram.com/justarrivedse/
+linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
+
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
 job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'
