@@ -21,10 +21,25 @@
   }
 }
 
+.nav-links {
+  margin-top: 10px;
+  margin-left: 15px;
+
+  .nav-left {
+    float: left;
+    margin-left: 15px;
+  }
+
+  .nav-right {
+    float: right;
+  }
+}
+
 .header__btns {
   clear: both;
   width: 100%;
   text-align: center;
+  margin-top: 5px;
   margin-bottom: 0.5em;
   width: 100%;
   & > a {
@@ -37,7 +52,6 @@
     clear: none;
     width: auto;
     position: relative;
-    top: 4px;
     & > a {
       margin: 0 0 0 0.6em;
     }
@@ -73,7 +87,7 @@
 //   }
 // }
 
-.lang-options {
+.lang-options, .nav-right {
   font-size: 14px;
   margin: 0 0 1em 0;
   @include tablet {

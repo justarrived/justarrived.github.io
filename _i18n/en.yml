@@ -43,6 +43,11 @@ form:
 nav:
   job_signup: I want a job
   promo_code_signin: Sign in with promo code
+  about_us: About us
+  companies: Companies
+  arrivers: Arrivers
+  blog: Blog
+  faq: FAQ
 
 top_banner:
   title: We give new arrivals in Sweden a chance to enter the labor market
