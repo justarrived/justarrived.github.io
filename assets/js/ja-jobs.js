@@ -6,9 +6,7 @@
   var filterParam = '';
   var sortParam = '&sort=-featured,filled,-job-date';
 
-  // TODO: Uncomment
-  // var baseURL = 'https://api.justarrived.se/api/v1';
-  var baseURL = 'https://just-match-api-sandbox.herokuapp.com/api/v1';
+  var baseURL = 'https://api.justarrived.se/api/v1';
   JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam;
 
   function getJobs(callback) {
