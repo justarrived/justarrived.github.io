@@ -1,9 +1,8 @@
 .footer {
   & a {
-    color: $stone-dark;
-    text-decoration: none;
+    color: $white;
     &:hover {
-      color: $white;
+      color: $bluesky;
     }
   }
 

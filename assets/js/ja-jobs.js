@@ -1,5 +1,5 @@
 (function(window) {
-  var numberOfJobs = 3;
+  var numberOfJobs = 4;
   var path = '/jobs?include=company,category,hourly-pay'
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
   // var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';

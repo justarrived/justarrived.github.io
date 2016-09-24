@@ -162,3 +162,12 @@
     direction: rtl;
   }
 }
+
+.nav-right {
+  & span {
+    color: $white;
+    &:hover {
+      color: $bluesky;
+    }
+  }
+}
