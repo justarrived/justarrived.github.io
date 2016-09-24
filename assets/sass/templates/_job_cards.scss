@@ -8,22 +8,19 @@
   // Optimal settings:
   //   min-width: 240px;
   //   max-width: 300px;
-  width: 240px;
+  // width: 240px;
   padding: 15px;
   margin: 10px 5px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 
-  @include desktop {
-    width: 300px;
-  }
+  width: 300px;
 
   @include tablet {
     display: inline-block;
   }
 
   .job-header {
-    display: inline-block;
-    vertical-align: middle;
+    text-align: left;
     & img {
       display: inline-block;
       width: 50px;
@@ -44,7 +41,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-left: 0;
-    width: 195px;
+    // width: 195px;
     margin-bottom: 10px;
     /* With header-image
       margin-left: 10px;
@@ -62,16 +59,18 @@
   }
 
   .job-title {
+    margin-left: -25px; // This magic number is needed due to text-align: center on the parent ul element
+    text-align: left;
     font-weight: 700;
     font-size: 0.7rem;
     color: #000;
-    width: 125px;
+    // width: 125px;
     overflow-x: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    @include desktop {
+    // @include desktop {
       width: 185px;
-    }
+    // }
   }
 
   .job-summary {
@@ -80,6 +79,7 @@
   }
 
   .job-description {
+    text-align: left;
     font-size: 0.8rem;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -101,6 +101,7 @@
 }
 
 .job-cards-list {
+  text-align: center;
   @include tablet-small {
     columns: 2;
   }

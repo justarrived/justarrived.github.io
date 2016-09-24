@@ -280,6 +280,3 @@ faq:
     cost:
       question: How do I pay for the service?
       answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.
-
-job_cards:
-  title: Featured jobs
