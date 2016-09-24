@@ -40,7 +40,7 @@
 
   .job-company {
     vertical-align: top;
-    color: #000;
+    color: $black;
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-left: 0;
@@ -100,53 +100,11 @@
   }
 }
 
-// .job-card img {
-//   display: inline-block;
-//   width: 50px;
-// }
-//
-// .job-card .job-header {
-//   display: inline-block;
-//   vertical-align: middle;
-// }
-//
-// .job-card .job-company {
-//   vertical-align: top;
-//   margin-top: 10px;
-//   margin-left: 10px;
-//   color: #000;
-//   text-overflow: ellipsis;
-//   white-space: nowrap;
-//   width: 145px;
-//   overflow-x: hidden;
-// }
-//
-// .job-card .job-title {
-//   font-weight: 700;
-//   color: #000;
-// }
-//
-// .job-card .job-title, .job-card .job-company {
-//   display: inline-block;
-// }
-//
-// .job-card .job-summary,
-// .job-card .job-company,
-// .job-card .job-title {
-//   margin-bottom: 0;
-// }
-//
-// .job-card .job-summary {
-//   font-size: 14px;
-//   text-align: justify;
-// }
-//
-// .job-card .job-description {
-//   margin-top: 5px;
-//   margin-bottom: 5px;
-// }
-//
-// .job-card .job-amount {
-//   color: #e5007d;
-//   margin-right: 15px;
-// }
+.job-cards-list {
+  @include tablet-small {
+    columns: 2;
+  }
+  & li {
+    display: inline-block;
+  }
+}

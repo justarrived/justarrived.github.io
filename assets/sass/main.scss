@@ -80,3 +80,12 @@ table.boring-table {
   display: inline-block;
   width: 100%;
 }
+
+.section-bar {
+  text-align: center;
+  width: 25px;
+  height: 2px;
+  background-color: $cerise;
+  outline: $cerise;
+  border-color: $cerise;
+}

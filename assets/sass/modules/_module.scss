@@ -18,8 +18,18 @@
   @include tablet {
     padding: 5em 0;
     &.section--hero {
-      padding: 8em 0;
+      // padding: 8em 0;
     }
+  }
+}
+
+.module--padding-half {
+  padding: 1em 0;
+  @include tablet-small {
+    padding: 1.5em 0;
+  }
+  @include tablet {
+    padding: 2.5em 0;
   }
 }
 

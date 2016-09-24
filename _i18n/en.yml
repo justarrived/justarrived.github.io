@@ -51,7 +51,7 @@ nav:
 
 top_banner:
   title: We give new arrivals in Sweden a chance to enter the labor market
-  subtitle: Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.
+  subtitle: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work. Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.
   signup_for_job: Post job
   arriver_cta: I want a job
 
@@ -280,3 +280,6 @@ faq:
     cost:
       question: How do I pay for the service?
       answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.
+
+job_cards:
+  title: Featured jobs

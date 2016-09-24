@@ -1,0 +1,16 @@
+.section--cta-bar {
+  & .wrap {
+    max-width: 700px;
+  }
+  & .module-content {
+    text-align: center;
+    margin-top: 20px;
+    @include tablet {
+      margin-top: 0;
+    }
+  }
+  & .text {
+    color: $black;
+    height: 50px;
+  }
+}
