@@ -128,6 +128,26 @@
   }
 }
 
+.module-content--left-half {
+  @include tablet {
+    float: left;
+    width: 50%;
+    .rtl-locale-direction & {
+      float: right;
+    }
+  }
+}
+
+.module-content--right-half {
+  @include tablet {
+    float: right;
+    width: 50%;
+    .rtl-locale-direction & {
+      float: left;
+    }
+  }
+}
+
 .module--bg-cover {
   background-size: cover;
   background-position: 50%;
