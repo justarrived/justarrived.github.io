@@ -8,9 +8,17 @@
 
     height: 135px;
     width: 135px;
-    background-color: $meta-gray;
+    background-image: url(../images/profile-pictures/sara-brandt.jpg);
+    background-size: cover;
     border-radius: 500px;
     margin: 0 auto;
+  }
+
+  .testimonial-quote-icon {
+    font-size: 100px;
+    float: left;
+    line-height: 80px;
+    margin-right: 10px;
   }
 
   .testimonial-body {
