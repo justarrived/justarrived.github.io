@@ -12,8 +12,10 @@ global:
   company_faq: Company FAQ
   arriver_faq: Arriver FAQ
   contact_us: Contact us
-  example_company_jobs: Example jobs
-  example_arriver_jobs: Example jobs
+  example_jobs: Some of our current jobs
+  example_company_jobs: Some of our current jobs
+  example_arriver_jobs: Some of our current jobs
+  more_company_info: Company info
 
 form:
   email: Email Address
@@ -49,6 +51,7 @@ nav:
   job_signup: I want a job
   promo_code_signin: Sign in with promo code
   about_us: About us
+  login: Login
   companies: For Companies
   arrivers: For Arrivers
   blog: Blog
@@ -69,13 +72,6 @@ promo_code:
 signup_modal:
   title: Indicate Interest
   description: We are currently testing the platform with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch, please fill in the form and we will get back to you!
-  interested:
-    title: I'm interested in...
-    post_jobs: Posting jobs
-    find_jobs: Finding jobs
-    help: Helping out
-    donate: Donating
-    know: Knowning more
 
 be_the_change:
   title: Be the Change
@@ -107,6 +103,7 @@ enablers:
 
 partners:
   title: Partners and Champions
+  cta: More about us
 
 join_us:
   title: Join us
@@ -297,17 +294,26 @@ top_banner_company:
   subtitle: Our arrivers will...
 
 
-companies_howto:
+company_howto:
   title: How it works
   first:
-    title: title
-    body: body
+    title: Apply
+    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
+    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
+    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
+    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
+    cta: Apply
   second:
-    title: title
-    body: body
+    title: On the platform
+    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
+    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
+    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
+    cta: Login
   third:
-    title: title
-    body: body
+    title: Invoice
+    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
+    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
+    cta: Login
 
 companies_offer:
   flexibility:
@@ -381,7 +387,6 @@ arriver_howto:
     first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
     second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
     third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
-    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
     cta: Login
 
 arriver_faq_nudge:

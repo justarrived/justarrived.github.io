@@ -67,10 +67,10 @@
     var company = getCompanyName(includedData, companyId);
     var category = getCategoryName(includedData, categoryId);
     var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
-    var rateExVAT = Math.round(hourlyPay['rate-including-vat']);
+    var grossSalary = Math.round(hourlyPay['gross-salary']);
 
     var hours = jobAtrs.hours;
-    var amount = hours * rateExVAT;
+    var amount = hours * grossSalary;
     var maxDescriptionLength = 30;
     var description = (jobAtrs['short-description'] || jobAtrs['description']);
     // description = truncate(description, maxDescriptionLength);
@@ -80,7 +80,7 @@
     innerHTML = formatTemplate(innerHTML, '%job_category%', category.name);
     innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
-    innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', rateExVAT);
+    innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', grossSalary);
     return formatTemplate(innerHTML, '%job_description%', description);
   }
 

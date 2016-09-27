@@ -7,14 +7,44 @@ description: We give new arrivals in Sweden a chance to enter the labor market
 <div class="home">
   <div id="content">
     {% include sections/top_banner.html %}
+    <!-- {% include sections/in_the_press.html %} -->
     {% include sections/cta_bar.html %}
-    {% include sections/vasbyhem_testimonial.html %}
-    {% include sections/job_cards.html %}
+    {% capture job_cards_title %}{% t global.example_jobs %}{% endcapture %}
+    {% include sections/job_cards.html title=job_cards_title %}
+    {% capture quote_body %}{% t vasbyhem_testimonial.first_body %}{% endcapture %}
+    {%
+      include sections/testimonial.html
+      background="blue"
+      author="Sara Brandt, Väsbyhem"
+      profile_image_class="sara-brandt"
+      body=quote_body
+    %}
+
+    <!-- <section class="
+      module
+      module--padding
+      module--white
+      module--secondary-bg">
+      <div class="wrap">
+        <div class="
+        module-content
+        module-content--centered
+        module--txt-c
+        ">
+          <h2 class="bordered bordered--white">{% t company_faq_nudge.title %}</h2>
+          <p>
+            <a href="/company/" class="border-btn btn-large border-btn--white border-btn--white-blue">
+              {% t global.more_company_info %}
+            </a>
+            <a href="#" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
+              {% t global.contact_us %}
+            </a>
+          </p>
+        </div>
+      </div>
+    </section> -->
+
     {% include sections/companies_engage.html %}
-    {% include sections/job_opportunities.html %}
-    {% include sections/say_hej.html %}
-    {% include sections/join_us.html %}
-    {% include sections/contribute.html %}
     {% include sections/partners.html %}
   </div>
 </div>

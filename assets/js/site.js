@@ -13,10 +13,15 @@
     window.JAJobs.createCards(target, template);
   }
 
+  function matchHeight() {
+    $('.js-match-height').matchHeight();
+  }
+
   var Site = {
     init: function() {
       initHourlyPay();
       initJobCards();
+      matchHeight();
     }
   }
 

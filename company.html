@@ -3,15 +3,23 @@ layout: default
 ---
 
 {% include sections/top_banner_company.html %}
-{% include sections/company_howto.html %}
+{% include sections/company/howto.html %}
 {% include sections/company_why_us.html %}
 {% include sections/company_what_we_offer.html %}
-{% include sections/vasbyhem_testimonial.html %}
+
+{% capture quote_body %}{% t vasbyhem_testimonial.first_body %}{% endcapture %}
+{%
+  include sections/testimonial.html
+  background="blue"
+  author="Sara Brandt, Väsbyhem"
+  profile_image_class="sara-brandt"
+  body=quote_body
+%}
 {% include sections/company_task_examples.html %}
 {% include sections/geo_availability.html %}
 
 
-<section class="
+<!-- <section class="
   module
   module--padding
   module--white
@@ -33,7 +41,7 @@ layout: default
       </p>
     </div>
   </div>
-</section>
+</section> -->
 
 {% capture job_cards_title %}{% t global.example_company_jobs %}{% endcapture %}
 {% include sections/job_cards.html title=job_cards_title %}
