@@ -1,6 +1,9 @@
 .job-cards-container {
   margin: 0 auto;
   max-width: 960px;
+  .title {
+    text-align: center;
+  }
 }
 
 .job-card {
@@ -104,6 +107,9 @@
   text-align: center;
   @include tablet-small {
     columns: 2;
+    column-gap: 0;
+    max-width: 635px;
+    margin: 0 auto;
   }
   & li {
     display: inline-block;

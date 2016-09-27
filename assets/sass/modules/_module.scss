@@ -301,6 +301,17 @@
   }
 }
 
+.column-1-4 {
+  @extend %clearfix;
+  clear: both;
+  @include tablet {
+    clear: none;
+    width: 25%;
+    padding: 0 1em;
+    float: left;
+  }
+}
+
 .module-banner {
   text-align: center;
   padding: 0.4em 0;
@@ -317,4 +328,16 @@
   & .module-banner {
     direction: rtl;
   }
+}
+
+.column-secondary {
+  background-color: $bluesky;
+}
+
+.column-primary {
+  background-color: $cerise;
+}
+
+.column-charcoal {
+  background-color: $charcoal;
 }

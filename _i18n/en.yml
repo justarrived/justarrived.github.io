@@ -9,6 +9,9 @@ global:
   instagram: Instagram
   youtube: Youtube
   thank_you: Thank you!
+  company_faq: Company FAQ
+  contact_us: Contat us
+  example_jobs: Example jobs
 
 form:
   email: Email Address
@@ -44,8 +47,8 @@ nav:
   job_signup: I want a job
   promo_code_signin: Sign in with promo code
   about_us: About us
-  companies: Companies
-  arrivers: Arrivers
+  companies: For Companies
+  arrivers: For Arrivers
   blog: Blog
   faq: FAQ
 
@@ -286,3 +289,70 @@ cta_bar:
   company_cta_link_text: Company information
   arriver_cta_text: Find out what we can do for you as an arriver
   arriver_cta_link_text: Arriver information
+
+top_banner_company:
+  title: Do well and do good
+  subtitle: Our arrivers will...
+
+
+companies_howto:
+  title: How it works
+  first:
+    title: title
+    body: body
+  second:
+    title: title
+    body: body
+  third:
+    title: title
+    body: body
+
+companies_offer:
+  flexibility:
+    title: Flexibility
+    body: Vi anpassar våra tjänster efter dina behov och önskemål. Vi tar fram rätt kandidat för rätt uppdrag och ser till att de uppfyller era krav.
+  speed:
+    title: Speed
+    body: Har du brådskande behov? Vi kan få ut en kandidat till dig på under 36 timmar.
+  simple:
+    title: Simple
+    body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda.
+
+companies_why_us:
+  administration: Vi sköter all administration = ingen byråkrati
+  responsibility: Vi tar arbetsgivaransvaret
+  validation: We validate all candidates
+  service: Personal service at its best
+
+company_what_we_offer:
+  title: What we offer
+  description: ''
+  feature_list:
+    flexibility:
+      title: Flexibility
+      body: Vi anpassar våra tjänster efter dina behov och önskemål. Vi tar fram rätt kandidat för rätt uppdrag och ser till att de uppfyller era krav.
+    speed:
+      title: Speed
+      body: Har du brådskande behov? Vi kan få ut en kandidat till dig på under 36 timmar.
+    simplicity:
+      title: Simplicity
+      body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda/
+    sustainability:
+      title: Sustainability
+      body: Ett samarbete med Just Arrived leder till ökad integration i samhället.
+    prices:
+      title: Prices
+      body: Anlita en av våra kandidater från 149 SEK per timme från så lite som fyra timmar och uppåt.
+
+company_tasks:
+  title: This is how companies use or service
+  first_paragraph: Companies usilize our service for a wide range of different jobs. Qualified and unqualififed..
+  second_paragraph: Don't hesistate to contact us to learn more about what we at Just Arrived can do for your company.
+  cta_body: Other needs? Givetvis funkar det med Just Arrived.
+  cta: Contact us
+
+company_faq_nudge:
+  title: Want to learn more?
+
+company_contact_us:
+  title: Contact us

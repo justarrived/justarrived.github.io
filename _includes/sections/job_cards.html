@@ -27,6 +27,10 @@
   <div class="section-divider"></div>
   <div class="job-cards-wrapper">
     <div class="job-cards-container">
+      {% if include.title %}
+        <h2 class="title bordered bordered--secondary bordered--center">{{ include.title }}</h2>
+      {% endif %}
+
       <ul id="js-job-cards" class="job-cards-list">
       </ul>
     </div>

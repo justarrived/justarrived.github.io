@@ -2,7 +2,38 @@
 layout: default
 ---
 
-{% include sections/company_banner.html %}
-{% include sections/companies_engage.html %}
-{% include sections/be_the_change.html %}
+{% include sections/top_banner_company.html %}
+{% include sections/company_howto.html %}
+{% include sections/company_why_us.html %}
+{% include sections/company_what_we_offer.html %}
 {% include sections/vasbyhem_testimonial.html %}
+{% include sections/company_task_examples.html %}
+{% include sections/geo_availability.html %}
+
+
+<section class="
+  module
+  module--padding
+  module--white
+  module--secondary-bg">
+  <div class="wrap">
+    <div class="
+    module-content
+    module-content--centered
+    module--txt-c
+    ">
+      <h2 class="bordered bordered--white">{% t company_faq_nudge.title %}</h2>
+      <p>
+        <a href="/faq/#company" class="border-btn btn-large border-btn--white border-btn--white-blue">
+          {% t global.company_faq %}
+        </a>
+        <a href="/faq/#company" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
+          {% t global.contact_us %}
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{% include sections/job_cards.html title=global.example_jobs %}
+{% include sections/company_contact_us.html %}
