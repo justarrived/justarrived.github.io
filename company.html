@@ -27,7 +27,7 @@ layout: default
         <a href="/faq/#company" class="border-btn btn-large border-btn--white border-btn--white-blue">
           {% t global.company_faq %}
         </a>
-        <a href="/faq/#company" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
+        <a href="#" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
           {% t global.contact_us %}
         </a>
       </p>
@@ -35,5 +35,6 @@ layout: default
   </div>
 </section>
 
-{% include sections/job_cards.html title=global.example_jobs %}
+{% capture job_cards_title %}{% t global.example_company_jobs %}{% endcapture %}
+{% include sections/job_cards.html title=job_cards_title %}
 {% include sections/company_contact_us.html %}

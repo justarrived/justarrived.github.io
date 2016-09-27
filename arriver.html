@@ -2,5 +2,32 @@
 layout: default
 ---
 
-{% include sections/job_opportunities.html %}
-{% include sections/arriver_banner.html %}
+{% include sections/arriver/top_banner.html %}
+{% include sections/arriver/howto.html %}
+{% include sections/arriver/testimonial.html %}
+{% include sections/geo_availability.html %}
+
+<section class="
+  module
+  module--padding
+  module--white
+  module--secondary-bg">
+  <div class="wrap">
+    <div class="
+    module-content
+    module-content--centered
+    module--txt-c
+    ">
+      <h2 class="bordered bordered--white">{% t arriver_faq_nudge.title %}</h2>
+      <p>
+        <a href="/faq/#arriver" class="border-btn btn-large border-btn--white border-btn--white-blue">
+          {% t global.arriver_faq %}
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{% capture job_cards_title %}{% t global.example_arriver_jobs %}{% endcapture %}
+{% include sections/job_cards.html title=job_cards_title %}
+{% include sections/arriver/contact_us.html %}

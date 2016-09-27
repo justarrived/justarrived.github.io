@@ -330,8 +330,12 @@
   }
 }
 
+.column--padding {
+  padding: 2em;
+}
+
 .column-secondary {
-  background-color: $bluesky;
+  background-color: $bluesea;
 }
 
 .column-primary {
@@ -340,4 +344,17 @@
 
 .column-charcoal {
   background-color: $charcoal;
+}
+
+.module-arriver-howto {
+  & .checklist {
+    padding: 0 2em;
+    padding-bottom: 1em;
+    max-width: 450px;
+    margin: 0 auto;
+
+    & li:before {
+      margin-left: -30px; // Margin between icons and list-items
+    }
+  }
 }

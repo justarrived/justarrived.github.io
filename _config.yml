@@ -29,6 +29,8 @@ twitter_url: https://twitter.com/justarrivedse
 instagram_url: https://www.instagram.com/justarrivedse/
 linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
 
+app_signin_link: https://app.justarrived.se/#/user/signin
+
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
 job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'

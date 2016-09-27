@@ -10,8 +10,10 @@ global:
   youtube: Youtube
   thank_you: Thank you!
   company_faq: Company FAQ
-  contact_us: Contat us
-  example_jobs: Example jobs
+  arriver_faq: Arriver FAQ
+  contact_us: Contact us
+  example_company_jobs: Example jobs
+  example_arriver_jobs: Example jobs
 
 form:
   email: Email Address
@@ -38,7 +40,7 @@ form:
     languages: 'Example: Swedish or English'
     ssn: Needed for invoicing purposes
   sections:
-    company: Company
+    company: bCompany
     employee: Employee
     contact: Contact
     job: Job
@@ -355,4 +357,32 @@ company_faq_nudge:
   title: Want to learn more?
 
 company_contact_us:
-  title: Contact us
+  title: Want to talk to someone?
+
+arriver_contact_us:
+  title: Still got questions?
+  subtitle: Psst.. check out our FAQ
+
+top_banner_arriver:
+  title: Get the experience you need to enter the Swedish job market
+  subtitle: Just Arrived can help you get into the Swedish job market by providing an efficient and easy to use service.
+  cta: I want a job
+
+arriver_howto:
+  apply:
+    title: Apply
+    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
+    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
+    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
+    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
+    cta: Apply
+  platform:
+    title: On the platform
+    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
+    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
+    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
+    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
+    cta: Login
+
+arriver_faq_nudge:
+  title: Want to learn more?

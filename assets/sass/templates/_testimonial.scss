@@ -8,10 +8,13 @@
 
     height: 135px;
     width: 135px;
-    background-image: url(../images/profile-pictures/sara-brandt.jpg);
     background-size: cover;
     border-radius: 500px;
     margin: 0 auto;
+  }
+
+  .sara-brandt {
+    background-image: url(../images/profile-pictures/sara-brandt.jpg);
   }
 
   .testimonial-quote-icon {
