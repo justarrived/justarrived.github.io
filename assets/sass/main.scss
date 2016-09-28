@@ -89,3 +89,19 @@ table.boring-table {
   outline: $cerise;
   border-color: $cerise;
 }
+
+
+// Mobile helpers
+.hidden-tablet {
+  display: inherit !important;
+  @include tablet {
+    display: none !important;
+  }
+}
+
+.visible-tablet {
+  display: none !important;
+  @include tablet {
+    display: inherit !important;
+  }
+}

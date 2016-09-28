@@ -12,9 +12,9 @@ global:
   company_faq: Company FAQ
   arriver_faq: Arriver FAQ
   contact_us: Contact us
-  example_jobs: Some of our current jobs
-  example_company_jobs: Some of our current jobs
-  example_arriver_jobs: Some of our current jobs
+  example_jobs: A selection of our current jobs
+  example_company_jobs: A selection of our current jobs
+  example_arriver_jobs: A selection of our current jobs
   more_company_info: Company info
 
 form:
@@ -391,3 +391,6 @@ arriver_howto:
 
 arriver_faq_nudge:
   title: Want to learn more?
+
+our_customers:
+  title: Trusted by
