@@ -9,6 +9,9 @@
 
 
 .section--our-customers {
+  & .title {
+    text-align: center;
+  }
   & .company-logo {
     max-width: 200px;
   }

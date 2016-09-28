@@ -300,25 +300,24 @@ top_banner_company:
 
 
 company_howto:
-  title: How it works
+  cta: Register interest
   first:
-    title: Apply
-    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
-    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
-    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
-    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
-    cta: Apply
+    title: Register
+    first: Register your interest.
+    second: Fill out your company information.
+    third: We will get in touch with you and together we will create your customized job post.
   second:
-    title: On the platform
-    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
-    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
-    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
-    cta: Login
+    title: Just Arrived Matches
+    first: A matching process is initiated.
+    second: We conduct the interviews with potential candidates.
+    third: You can further choose to conduct interviews.
+    forth: You choose the candidate you want to proceed with.
   third:
-    title: Invoice
-    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
-    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
-    cta: Login
+    title: Together We Fulfill
+    first: The chosen candidate will start at set date.
+    second: An invoice will be sent out once job has ended.
+    third: We handle the salary, social fees, taxes, and insurance.
+    forth: You provide the candidate with valuable feedback.
 
 companies_offer:
   flexibility:
@@ -332,30 +331,32 @@ companies_offer:
     body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda.
 
 companies_why_us:
-  administration: Vi sköter all administration = ingen byråkrati
-  responsibility: Vi tar arbetsgivaransvaret
-  validation: We validate all candidates
-  service: Personal service at its best
+  administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
+  responsibility: We take the employment responsibility for the candidates.
+  validation: All candidates have gone through the Just Arrived onboarding process to ensure quality.
+  service: We are flexible, secure and personal. We provide personal service.
 
 company_what_we_offer:
   title: What we offer
-  description: ''
+  signoff:
+    title: 'And best of all:'
+    body: You are part of the solution for sustainable integration.
   feature_list:
     flexibility:
-      title: Flexibility
-      body: Vi anpassar våra tjänster efter dina behov och önskemål. Vi tar fram rätt kandidat för rätt uppdrag och ser till att de uppfyller era krav.
+      title: We Are Flexible
+      body: Our services are tailored for your needs. We provide the right candidate for the right position and together we ensure that our services live up to your demands.
     speed:
-      title: Speed
-      body: Har du brådskande behov? Vi kan få ut en kandidat till dig på under 36 timmar.
+      title: We Are Fast
+      body: Is there an urgency? Do you rapidily fill out a position? We can provide you with the right candidate within 36 hours.
     simplicity:
-      title: Simplicity
-      body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda/
+      title: It's Simple
+      body: We handle all administration and take the employment responsibility. Taxes, social fees, and insurance are handled by us. We only bother you with the invoice.
     sustainability:
-      title: Sustainability
-      body: Ett samarbete med Just Arrived leder till ökad integration i samhället.
+      title: It's Secure
+      body: We want you as a company to only think about your needs. Regulations and legal is taken care by us.
     prices:
-      title: Prices
-      body: Anlita en av våra kandidater från 149 SEK per timme från så lite som fyra timmar och uppåt.
+      title: And the Price is..
+      body: Hire someone for as low as 149 SEK per hour. Starting at a minumum of 4 hours.
 
 company_tasks:
   title: This is how companies use or service
@@ -383,7 +384,7 @@ arriver_howto:
   apply:
     title: How to apply
     first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
-    second: When/how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
+    second: When and how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
     third: An interview will be conducted.
     cta: Apply
   requirements:
