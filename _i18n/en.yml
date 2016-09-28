@@ -301,17 +301,6 @@ company_howto:
     third: We take care of salary, social fees, taxes and insurance.
     forth: Rate and provide valuable feedback to the candidate.
 
-companies_offer:
-  flexibility:
-    title: Flexibility
-    body: Vi anpassar våra tjänster efter dina behov och önskemål. Vi tar fram rätt kandidat för rätt uppdrag och ser till att de uppfyller era krav.
-  speed:
-    title: Speed
-    body: Har du brådskande behov? Vi kan få ut en kandidat till dig på under 36 timmar.
-  simple:
-    title: Simple
-    body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda.
-
 companies_why_us:
   title: This Is Just Arrived
   administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
