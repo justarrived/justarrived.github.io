@@ -16,6 +16,8 @@ global:
   example_company_jobs: A selection of our current jobs
   example_arriver_jobs: A selection of our current jobs
   more_company_info: Company info
+  apply: Apply
+  or: or
 
 form:
   email: Email Address
@@ -293,8 +295,8 @@ cta_bar:
   arriver_cta_link_text: Find out
 
 top_banner_company:
-  title: Do well and do good
-  subtitle: Our arrivers will...
+  subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
+  subsubtitle: Why not hire through Just Arrived?
 
 
 company_howto:
@@ -399,7 +401,7 @@ arriver_faq_nudge:
   title: Want to learn more?
 
 our_customers:
-  title: Trusted by
+  title: Backed by
 
 arriver_signup_modal:
   title: Apply to Just Arrived

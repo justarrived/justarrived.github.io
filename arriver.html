@@ -4,24 +4,29 @@ layout: default
 
 {% include sections/arriver/top_banner.html %}
 {% include sections/arriver/howto.html %}
-{% include sections/arriver/testimonial.html %}
+<!-- {% include sections/arriver/testimonial.html %} -->
 {% include sections/geo_availability.html %}
 
 <section class="
   module
   module--padding
-  module--white
-  module--secondary-bg">
+  module--black
+  module--gray-bg
+  module--txt-c">
   <div class="wrap">
     <div class="
     module-content
     module-content--centered
     module--txt-c
     ">
-      <h2 class="bordered bordered--white">{% t arriver_faq_nudge.title %}</h2>
+      <h2 class="bordered bordered--primary">{% t arriver_faq_nudge.title %}</h2>
       <p>
-        <a href="/faq/#arriver" class="border-btn btn-large border-btn--white border-btn--white-blue">
+        <a href="/faq/#arriver" class="border-btn btn-large border-btn--pink">
           {% t global.arriver_faq %}
+        </a> <br>
+        {% t global.or %} <br>
+        <a href="#" class="cd-popup-trigger-arriver-signup border-btn btn-large border-btn--pink">
+          {% t global.apply %}
         </a>
       </p>
     </div>

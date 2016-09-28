@@ -22,8 +22,15 @@
 	}
 	& p {
 		max-width: 400px;
-	    margin-left: auto;
-	    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	& p.hero-text-wide {
+		max-width: 650px;
+	}
+
+	& p.hero-text-l {
+		font-size: 1.2rem;
 	}
 	& .wrap {
 		margin: 0 auto;
