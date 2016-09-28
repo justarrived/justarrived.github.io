@@ -44,7 +44,7 @@ form:
     languages: 'Example: Swedish or English'
     ssn: Needed for invoicing purposes
   sections:
-    company: bCompany
+    company: Company
     employee: Employee
     contact: Contact
     job: Job
