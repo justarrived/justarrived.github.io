@@ -376,18 +376,17 @@ top_banner_arriver:
 
 arriver_howto:
   apply:
-    title: Apply
+    title: How to apply
     first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
     second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
     third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
     forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
     cta: Apply
-  platform:
-    title: On the platform
+  requirements:
+    title: Requirements
     first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
     second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
     third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
-    cta: Login
 
 arriver_faq_nudge:
   title: Want to learn more?
