@@ -157,8 +157,12 @@
   }
 }
 
-.module--bg-pink {
+.section--hero.module--bg-pink, .module--bg-pink {
   background-color: $cerise;
+}
+
+.section--hero.module--bg-charcoal, .module--bg-charcoal {
+  background-color: $charcoal;
 }
 
 .module__overlay {
