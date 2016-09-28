@@ -386,7 +386,7 @@ arriver_howto:
     cta: Apply
   requirements:
     title: Requirements
-    first: You have a work permit
+    first: You have a work permit (or AT-UND)
     second: Bank account
     third: Personal id number or a coordination number
   service:
