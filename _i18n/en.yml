@@ -62,7 +62,7 @@ nav:
 top_banner:
   title: We Give New Arrivals in Sweden a Chance to Enter the Labor Market
   subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
-  signup_for_job: Post job
+  signup_for_job: Post Job
   arriver_cta: I want a job
 
 promo_code:
@@ -168,8 +168,7 @@ about_cookies:
   more_info_link: More about our cookies
 
 vasbyhem_testimonial:
-  first_body: Just Arrived tar bort trösklarna för att jobba med nyanlända.
-  second_body: Det viktiga är att göra och inte bara prata om att göra.
+  first_body: Just Arrived removes all barriers working with new arrivals.
 
 footer:
   get_started:
@@ -277,6 +276,7 @@ cta_bar:
   arriver_cta_link_text: Find out
 
 top_banner_company:
+  title: Simple. Fast. Secure.
   subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
   subsubtitle: Why not hire through Just Arrived?
 
@@ -284,18 +284,18 @@ top_banner_company:
 company_howto:
   cta: Register interest
   first:
-    title: Register
+    title: 1. Register
     first: Register your interest.
     second: Fill out your company information.
     third: We will get in touch with you and together we will create your customized job post.
   second:
-    title: Just Arrived Matches
+    title: 2. Just Arrived Matches
     first: A matching process is initiated.
     second: We conduct the interviews with potential candidates.
     third: You can further choose to conduct interviews.
     forth: You choose the candidate you want to proceed with.
   third:
-    title: Together We Fulfill
+    title: 3. Together We Fulfill
     first: The chosen candidate will start at set date.
     second: An invoice will be sent out once job has ended.
     third: We handle the salary, social fees, taxes, and insurance.
@@ -313,13 +313,14 @@ companies_offer:
     body: Vi sköter all administration och tar arbetsgivaransvaret. En faktura skickas ut efter att ett uppdrag är utförd. Vi ser till att skatter, sociala avgifter och försäkringar är betalda.
 
 companies_why_us:
+  title: This Is Just Arrived
   administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
   responsibility: We take the employment responsibility for the candidates.
   validation: All candidates have gone through the Just Arrived onboarding process to ensure quality.
   service: We are flexible, secure and personal. We provide personal service.
 
 company_what_we_offer:
-  title: What We Offer
+  title: Our Offering
   signoff:
     title: 'And best of all:'
     body: You are part of the solution for sustainable integration.
@@ -371,13 +372,13 @@ arriver_howto:
     cta: Apply
   requirements:
     title: Requirements
-    first: You have a work permit (or AT-UND)
+    first: Work permit (or AT-UND)
     second: Bank account
     third: Personal id number or a coordination number
   service:
-    title: Service
+    title: Our Service
     first: You get access to the Just Arrived service
-    second: Register and create your profile and start applying for jobs!
+    second: Create your profile and start applying for jobs!
 
 
 arriver_faq_nudge:
