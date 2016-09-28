@@ -9,7 +9,7 @@ source script/_common
 main_branch='site-restructure'
 release_branch=master
 
-__git-current-branch-or-exit $main_branch
+# __git-current-branch-or-exit $main_branch
 __continue-prompt "Have you run '$ git pull origin $main_branch' (is your code up to date)?"
 
 __exe_cmd "bundle exec jekyll build"
