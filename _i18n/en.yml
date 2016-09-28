@@ -292,14 +292,14 @@ company_howto:
     title: 2. Just Arrived Matches
     first: A matching process is initiated.
     second: We conduct the interviews with potential candidates.
-    third: You can further choose to conduct interviews.
+    third: You can chose to conduct further interviews.
     forth: You choose the candidate you want to proceed with.
   third:
     title: 3. Together We Fulfill
-    first: The chosen candidate will start at set date.
-    second: An invoice will be sent out once job has ended.
-    third: We handle the salary, social fees, taxes, and insurance.
-    forth: You provide the candidate with valuable feedback.
+    first: The chosen candidate will start at the set date.
+    second: An invoice will be sent once the job has been completed.
+    third: We take care of salary, social fees, taxes and insurance.
+    forth: Rate and provide valuable feedback to the candidate.
 
 companies_offer:
   flexibility:
@@ -359,24 +359,24 @@ arriver_contact_us:
   subtitle: Psst.. check out our FAQ
 
 top_banner_arriver:
-  title: Get the Experience You Need to Enter the Swedish Job Market
-  subtitle: Just Arrived can help you get into the Swedish job market by providing an efficient and easy to use service.
+  title: Get the Experience You Need to Enter the Swedish Labor Market
+  subtitle: Just Arrived can help you get into the Swedish labour market by providing an efficient and easy to use service.
   cta: I want a job
 
 arriver_howto:
   apply:
-    title: How to Apply
+    title: 2. Apply
     first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
     second: When and how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
     third: An interview will be conducted.
     cta: Apply
   requirements:
-    title: Requirements
+    title: 1. Fulfill Requirements
     first: Work permit (or AT-UND)
     second: Bank account
     third: Personal id number or a coordination number
   service:
-    title: Our Service
+    title: 3. Enter the Labor Market
     first: You get access to the Just Arrived service
     second: Create your profile and start applying for jobs!
 
