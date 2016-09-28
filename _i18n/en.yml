@@ -60,13 +60,13 @@ nav:
   faq: FAQ
 
 top_banner:
-  title: We give new arrivals in Sweden a chance to enter the labor market
+  title: We Give New Arrivals in Sweden a Chance to Enter the Labor Market
   subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
   signup_for_job: Post job
   arriver_cta: I want a job
 
 promo_code:
-  title: Enter your promo code
+  title: Enter Your Promo Code
   description: We are currently testing the platform with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing the platform please click on sign up and register your interest there. Thank you!
   submit: Take me to the app
   placeholder: Promo code
@@ -84,21 +84,21 @@ be_the_change:
   cta: I want to post a job
 
 companies_engage:
-  title: Just Arrived makes it simple for companies to engage or employ a new arrival.
+  title: Just Arrived Makes It Simple for Companies to Engage or Employ a New Arrival.
   responsibility_description: We pay the taxes, social fees and insurance associated with hiring a new employee.
   low_administration_description: We lower companies' administrative burden by taking full employment responsibility.
   effective_description: Our database is an effective way to locate potential new employees.
   cta: Find out more
 
 job_opportunities:
-  title: Job opportunities for new arrivals
+  title: Job Opportunities for New Arrivals
   first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
   second_paragraph: Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.
   emphasis: Are you a new arrival? Apply to qualify and gain access to Just Arrived.
   cta: Sign up to find a job
 
 contribute:
-  title: Contribute to the project
+  title: Contribute to the Project
   cta: I would like to contribute
 
 enablers:
@@ -109,7 +109,7 @@ partners:
   cta: More about us
 
 join_us:
-  title: Join us
+  title: Join Us
   first_paragraph: Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.
   second_paragraph: We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.
   cta: I want to post a job
@@ -139,15 +139,15 @@ our_product:
     asterix: '* Requires AT-UND, personal identity number or co-ordination number and access to bank account.'
 
 say_hej:
-  title: Say hej
+  title: Say Hej
   enquiries: General enquiries
 
 company_form:
-  title: Register company
+  title: Register Company
   description: Fill in the details about the job, so we can publish it on our platform.
 
 job_form:
-  title: Create new job
+  title: Create New Job
   description: Fill in the details about the job, so we can publish it on our platform.
 
 register_submit:
@@ -155,35 +155,17 @@ register_submit:
   description: We're working really hard to try to help as many as we can. We will contact you when we have something for you, please note that this may take a while.
 
 company_register_submit:
-  title: Thank you for registering!
+  title: Thank You for Registering!
   description: We will contact you as soon as we possibly can. We'll talk soon! Please contact support@justarrived.se if you have any questions.
 
 job_submit_thanks:
-  title: Thank you!
+  title: Thank You!
   description: Your information has been submitted and will shortly be online on our platform. Please contact support@justarrived.se if you have any questions.
 
 about_cookies:
-  title: About cookies
+  title: About Cookies
   description: By using the justarrived.se website, you agree to the use of cookies by us and third parties to enhance your experience. If you have any questions feel free to contact us at hej@justarrived.se.
   more_info_link: More about our cookies
-
-company_page:
-  title: Company title
-  first_paragraph: Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.
-  second_paragraph: We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.
-  cta: Request more information
-
-arriver_page:
-  title: Arriver title
-  first_paragraph: Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.
-  second_paragraph: We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.
-  cta: Sign up to find a job
-
-contribute_page:
-  title: Contribute to Just Arrived
-  first_paragraph: Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.
-  second_paragraph: We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.
-  cta: I would like to contribute
 
 vasbyhem_testimonial:
   first_body: Just Arrived tar bort trösklarna för att jobba med nyanlända.
@@ -191,17 +173,17 @@ vasbyhem_testimonial:
 
 footer:
   get_started:
-    title: Get started
+    title: Get Started
     login: Login
     candidate_registration: Arriver registration
     post_job: Post job
   about_us:
-    title: About us
+    title: About Us
     about: About Just Arrived
     faq: FAQ
-    team: The team
+    team: The Team
   follow_us:
-    title: Follow us
+    title: Follow Us
   contact_us:
     title: Contact
 
@@ -287,10 +269,10 @@ faq:
       answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.
 
 cta_bar:
-  company_title: For companies
+  company_title: For Companies
   company_cta_text: Want to know how easy it is to hire through Just Arrived?
   company_cta_link_text: 'Yes'
-  arriver_title: For arrivers
+  arriver_title: For Arrivers
   arriver_cta_text: What can Just Arrived do for you who are looking for a job in Sweden?
   arriver_cta_link_text: Find out
 
@@ -337,7 +319,7 @@ companies_why_us:
   service: We are flexible, secure and personal. We provide personal service.
 
 company_what_we_offer:
-  title: What we offer
+  title: What We Offer
   signoff:
     title: 'And best of all:'
     body: You are part of the solution for sustainable integration.
@@ -359,30 +341,30 @@ company_what_we_offer:
       body: Hire someone for as low as 149 SEK per hour. Starting at a minumum of 4 hours.
 
 company_tasks:
-  title: This is how companies use or service
+  title: This Is How Companies Use or Service
   first_paragraph: Companies usilize our service for a wide range of different jobs. Qualified and unqualififed..
   second_paragraph: Don't hesistate to contact us to learn more about what we at Just Arrived can do for your company.
   cta_body: Other needs? Givetvis funkar det med Just Arrived.
   cta: Contact us
 
 company_faq_nudge:
-  title: Want to learn more?
+  title: Want to Learn More?
 
 company_contact_us:
-  title: Contact us
+  title: Contact Us
 
 arriver_contact_us:
-  title: Still got questions?
+  title: Still Got Questions?
   subtitle: Psst.. check out our FAQ
 
 top_banner_arriver:
-  title: Get the experience you need to enter the Swedish job market
+  title: Get the Experience You Need to Enter the Swedish Job Market
   subtitle: Just Arrived can help you get into the Swedish job market by providing an efficient and easy to use service.
   cta: I want a job
 
 arriver_howto:
   apply:
-    title: How to apply
+    title: How to Apply
     first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
     second: When and how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
     third: An interview will be conducted.
@@ -399,10 +381,10 @@ arriver_howto:
 
 
 arriver_faq_nudge:
-  title: Want to learn more?
+  title: Want to Learn More?
 
 our_customers:
-  title: Backed by
+  title: Backed By
 
 arriver_signup_modal:
   title: Apply to Just Arrived
