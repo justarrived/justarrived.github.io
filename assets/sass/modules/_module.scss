@@ -157,6 +157,10 @@
   }
 }
 
+.module--bg-pink {
+  background-color: $cerise;
+}
+
 .module__overlay {
   position: absolute;
   width: 100%;
@@ -346,12 +350,15 @@
   background-color: $charcoal;
 }
 
-.module-arriver-howto {
+.module-howto {
   & .checklist {
-    padding: 0 2em;
     padding-bottom: 1em;
     max-width: 450px;
-    margin: 0 auto;
+
+    @include tablet {
+      padding: 0 2em;
+      margin: 0 auto;
+    }
 
     & li:before {
       margin-left: -30px; // Margin between icons and list-items

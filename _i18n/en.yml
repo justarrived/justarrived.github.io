@@ -364,7 +364,7 @@ company_faq_nudge:
   title: Want to learn more?
 
 company_contact_us:
-  title: Want to talk to someone?
+  title: Contact us
 
 arriver_contact_us:
   title: Still got questions?
@@ -394,3 +394,9 @@ arriver_faq_nudge:
 
 our_customers:
   title: Trusted by
+
+arriver_signup_modal:
+  title: Apply to Just Arrived
+  description: 'This registration will take a couple of minutes. Its purpose is to give us all the information we need to be able to know how best to help you on your way into the Swedish labor market. Please fill out the information the best you can. Start by choosing one of the following:'
+  cta_no_reg: Asylum seeker
+  cta_reg: Permanent resident

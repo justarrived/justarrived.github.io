@@ -31,6 +31,9 @@ linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
 
 app_signin_link: https://app.justarrived.se/#/user/signin
 
+wintrgarden_signup_no_reg: https://stage.wgtrm.com/dc/#justarrived.nrpt1
+wintrgarden_signup_reg: https://stage.wgtrm.com/dc/#justarrived.rpt1
+
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
 job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'

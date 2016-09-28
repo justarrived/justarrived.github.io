@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% include sections/top_banner_company.html %}
+{% include sections/company/top_banner.html %}
 {% include sections/our_customers.html %}
 {% include sections/company/howto.html %}
-{% include sections/company_why_us.html %}
-{% include sections/company_what_we_offer.html %}
+{% include sections/company/why_us.html %}
+{% include sections/company/what_we_offer.html %}
 
 {% capture quote_body %}{% t vasbyhem_testimonial.first_body %}{% endcapture %}
 {%
@@ -16,7 +16,7 @@ layout: default
   profile_image_class="sara-brandt"
   body=quote_body
 %}
-{% include sections/company_task_examples.html %}
+{% include sections/company/task_examples.html %}
 {% include sections/geo_availability.html %}
 
 
@@ -46,4 +46,4 @@ layout: default
 
 {% capture job_cards_title %}{% t global.example_company_jobs %}{% endcapture %}
 {% include sections/job_cards.html title=job_cards_title %}
-{% include sections/company_contact_us.html %}
+{% include sections/company/contact_us.html %}
