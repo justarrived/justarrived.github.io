@@ -2,20 +2,38 @@
 <div id="js-job-cards-template" style="display:none;">
   <li>
     <div class="job-card">
-      <div class="job-header">
-        <h4 class="job-company">%job_company%</h4>
+        <div class="job-header">
+        <h4>%job_name%</h4>
+        </div>
+      <div class="company-name">
+        <span>%job_company%</span>
       </div>
-      <h5 class="job-title">%job_category%</h5>
-      <span class="job-amount pull-right">%job_amount% SEK</span>
-      <p class="job-summary full-justify">
-        <span class="job-city">%job_city%</span> |
-        <span class="job-hours">%job_hours%H</span> |
-        <span class="job-hourly-pay">%job_hourly_pay% SEK/H</span>
-      </p>
-      <p class="job-description">%job_description%</p>
-    </div>
+      <span class="emphasize-title city-name">%job_city%</span>
+      <span class="job-description">%job_description%</span>
+
+       <div class="job-meta-info">
+        <hr>
+        <div class="total-amount">
+          <span class="emphasize-title">Total gross salary:</span>
+          <span class="amount">%job_amount%</span>
+          <span class="currency">SEK</span>
+
+           <div class="details">
+            <span>1 person</span> |
+            <span>%job_hours% {% t form.job_hours %}</span> |
+            <span>%job_hourly_pay% SEK/H</span>
+          </div>
+        </div>
+      </div>
+    </div>  
   </li>
 </div>
+
+
+      
+
+
+
 <!-- END: HTML TEMPLATE -->
 
 <section class="

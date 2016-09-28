@@ -1,119 +1,100 @@
-.job-cards-container {
-  margin: 0 auto;
-  max-width: 960px;
-  .title {
+$job-card-width: 280px;
+$job-card-padding: 15px;
+
+  .job-cards-container {
+    margin: 0 auto;
+    max-width: $job-card-width*4+60;
     text-align: center;
   }
-}
 
-.job-card {
-  height: 150px;
-  // Optimal settings:
-  //   min-width: 240px;
-  //   max-width: 300px;
-  // width: 240px;
-  padding: 15px;
-  margin: 10px 5px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  .job-card {
+    // Optimal settings:
+    //   min-width: 240px;
+    //   max-width: 300px;
+  text-align: left;
+  height: 370px;
+  width: $job-card-width;
+  padding: $job-card-padding;
+    margin: 10px 5px;
+  position: relative;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 
-  overflow-x: scroll;
-  overflow-y: hidden;
+  vertical-align: top;
 
-  width: 300px;
-
-  @include tablet {
-    display: inline-block;
-  }
-
-  .job-header {
-    text-align: left;
-    & img {
+    @include tablet {
       display: inline-block;
-      width: 50px;
     }
-  }
 
-  .job-summary, .job-company, .job-title {
-    margin-bottom: 0;
-  }
+    .job-header {
+    h4 {
+      font-size: 20px;
+      line-height: 23px;
+      color: $black;
+      }
+    }
 
-  .job-title, .job-company {
-    display: inline-block;
-  }
+  .company-name {
+    max-width: $job-card-width;
+    position: absolute;
+    top: 7.5em;
 
-  .job-company {
-    vertical-align: top;
+    span {
+      color: $dark-hot-pink;
+      font-weight: bold;
+      letter-spacing: normal;
+      }
+    }
+
+  .emphasize-title {
+      text-transform: uppercase;
+    display: block;
+    }
+
+  .city-name {
+    position: absolute;
+    top: 9.5em;
+    }
+
+  .company-name, .emphasize-title {
+    font-size: 12px;
+    }
+
+    .job-description {
+    font-size: 14px;
     color: $black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-left: 0;
-    // width: 195px;
-    margin-bottom: 10px;
-    /* With header-image
-      margin-left: 10px;
-      width: 145px;
-    */
-    overflow-x: hidden;
-    @include desktop {
-      width: 250px;
-      // width: 200px; // With header-image
+    position: absolute;
+    top: 10em;
     }
-  }
 
-  .job-city {
-    text-transform: uppercase;
-  }
+  .job-meta-info {
+    position: absolute;
+    top: 13em;
 
-  .job-title {
-    margin-left: -25px; // This magic number is needed due to text-align: center on the parent ul element
-    text-align: left;
-    font-weight: 700;
-    font-size: 0.7rem;
-    color: #000;
-    // width: 125px;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    // @include desktop {
-      width: 185px;
-    // }
-  }
-
-  .job-summary {
-    font-size: 0.9rem;
-    line-height: 0.9rem;
-  }
-
-  .job-description {
-    text-align: left;
-    font-size: 0.8rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 200px;
-    overflow-x: hidden;
-    @include desktop {
-      width: 255px;
+    hr {
+      width: $job-card-width - 2*$job-card-padding;
+      border: 1px solid $gray;
     }
-  }
 
-  .job-amount {
-    color: #e5007d;
-    // margin-right: 15px;
-    font-size: 1rem;
-    margin-top: -2px;
+    .total-amount {
+      .amount {
+        color: $dark-hot-pink;
+        font-size: 48px;
+        margin-right: 5px;
+      }
+      .currency {
+        font-size: 24px;
+      }
+
+      .details {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
   }
 }
 
 .job-cards-list {
-  text-align: center;
-  @include tablet-small {
-    columns: 2;
-    column-gap: 0;
-    max-width: 635px;
-    margin: 0 auto;
-  }
   & li {
     display: inline-block;
   }
