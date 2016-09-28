@@ -285,10 +285,12 @@ faq:
       answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.
 
 cta_bar:
-  company_cta_text: Find out what we can do for you as a company
-  company_cta_link_text: Company information
-  arriver_cta_text: Find out what we can do for you as an arriver
-  arriver_cta_link_text: Arriver information
+  company_title: For companies
+  company_cta_text: Want to know how easy it is to hire through Just Arrived?
+  company_cta_link_text: 'Yes'
+  arriver_title: For arrivers
+  arriver_cta_text: What can Just Arrived do for you who are looking for a job in Sweden?
+  arriver_cta_link_text: Find out
 
 top_banner_company:
   title: Do well and do good
@@ -378,16 +380,20 @@ top_banner_arriver:
 arriver_howto:
   apply:
     title: How to apply
-    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
-    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
-    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
-    forth: Om du efter en intervju får tillgång/access till Just Arrived service så är det fritt fram att skapa en profil och söka jobb!
+    first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
+    second: When/how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
+    third: An interview will be conducted.
     cta: Apply
   requirements:
     title: Requirements
-    first: Registrera dig och fyll i vårt formulär. Detta kan vem som helst göra.
-    second: Se själv till att du har arbetstillstånd, bankkonto och personnummer/samordningsnummer.
-    third: Du blir kallad till en kort valideringsintervju hos Just Arrived. När/hur du blir kallad till intervju beror på; vilken stad du bor i, hur många och vilken typ av jobb vi får in på plattformen.
+    first: You have a work permit
+    second: Bank account
+    third: Personal id number or a coordination number
+  service:
+    title: Service
+    first: You get access to the Just Arrived service
+    second: Register and create your profile and start applying for jobs!
+
 
 arriver_faq_nudge:
   title: Want to learn more?

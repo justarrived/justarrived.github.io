@@ -351,11 +351,17 @@
 }
 
 .module-howto {
+  & .howto-cta {
+    @include desktop {
+      margin-top: 1em;
+    }
+  }
+
   & .checklist {
     padding-bottom: 1em;
     max-width: 450px;
 
-    @include tablet {
+    @include desktop {
       padding: 0 2em;
       margin: 0 auto;
     }
