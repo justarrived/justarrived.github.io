@@ -59,7 +59,7 @@ nav:
 
 top_banner:
   title: We give new arrivals in Sweden a chance to enter the labor market
-  subtitle: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
+  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
   signup_for_job: Post job
   arriver_cta: I want a job
 
@@ -86,6 +86,7 @@ companies_engage:
   responsibility_description: We pay the taxes, social fees and insurance associated with hiring a new employee.
   low_administration_description: We lower companies' administrative burden by taking full employment responsibility.
   effective_description: Our database is an effective way to locate potential new employees.
+  cta: Find out more
 
 job_opportunities:
   title: Job opportunities for new arrivals
