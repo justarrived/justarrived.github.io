@@ -1,4 +1,15 @@
 .section--testimonial {
+  .module-content--right {
+    @include tablet {
+      width: 25%;
+    }
+  }
+  .module-content--left {
+    @include tablet {
+      width: 73%;
+    }
+  }
+
 	& .wrap {
 		max-width: 750px;
 	}
@@ -18,13 +29,14 @@
   }
 
   .testimonial-quote-icon {
-    font-style: italic;
     font-size: 100px;
     float: left;
     line-height: 40px;
   }
 
   .testimonial-body {
+    margin-top: 20px; // Magic margin: vertically middle aligns the quote body with the profile image
+    font-style: italic;
     text-align: right;
     font-size: 1.2rem;
   }
