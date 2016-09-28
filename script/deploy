@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 
 source script/_common
 
-main_branch=site-restructure
+main_branch='site-restructure'
 release_branch=master
 
 __git-current-branch-or-exit $main_branch
