@@ -269,8 +269,8 @@ faq:
 
 cta_bar:
   company_title: For Companies
-  company_cta_text: Want to know how easy it is to hire through Just Arrived?
-  company_cta_link_text: 'Yes'
+  company_cta_text: Learn how easy it is to hire through Just Arrived
+  company_cta_link_text: Get Started
   arriver_title: For Arrivers
   arriver_cta_text: What can Just Arrived do for you who are looking for a job in Sweden?
   arriver_cta_link_text: Find out
@@ -360,7 +360,7 @@ arriver_contact_us:
 
 top_banner_arriver:
   title: Get the Experience You Need to Enter the Swedish Labor Market
-  subtitle: Just Arrived can help you get into the Swedish labour market by providing an efficient and easy to use service.
+  subtitle: By matching you with Swedish companies Just Arrived helps you get the credentials you need to enter the Swedish labor market.
   cta: I want a job
 
 arriver_howto:
