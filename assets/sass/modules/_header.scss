@@ -21,10 +21,30 @@
   }
 }
 
+.nav-links {
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: center;
+
+  .nav-left {
+    @include tablet {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+
+  .nav-right {
+    @include tablet {
+      float: right;
+    }
+  }
+}
+
 .header__btns {
   clear: both;
   width: 100%;
   text-align: center;
+  margin-top: 5px;
   margin-bottom: 0.5em;
   width: 100%;
   & > a {
@@ -37,7 +57,6 @@
     clear: none;
     width: auto;
     position: relative;
-    top: 4px;
     & > a {
       margin: 0 0 0 0.6em;
     }
@@ -73,7 +92,7 @@
 //   }
 // }
 
-.lang-options {
+.lang-options, .nav-right {
   font-size: 14px;
   margin: 0 0 1em 0;
   @include tablet {
@@ -83,6 +102,7 @@
   & a {
     text-decoration: none;
     outline: 0;
+    white-space: nowrap;
   }
   & span {
     color: $stone-dark;
@@ -140,5 +160,14 @@
   }
   & .module-content {
     direction: rtl;
+  }
+}
+
+.nav-right {
+  & span {
+    color: $white;
+    &:hover {
+      color: $bluesky;
+    }
   }
 }

@@ -1,16 +1,60 @@
-<footer class="footer module-padding" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-  <div id="inner-footer" class="">
-  	<p class="source-org copyright">
-      <span>&copy; {{ site.time | date: '%Y' }} {% t global.app_name %}</span>
-	    <a href="https://www.facebook.com/JustArrivedSE/" title="{% t global.facebook %}" target="_blank" rel="noopener noreferrer" >
-        <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
-      </a>
-	    <a href="https://twitter.com/JustArrivedSE" title="{% t global.twitter %}" target="_blank" rel="noopener noreferrer" >
-        <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
-      </a>
-    </p>
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+  <section class="
+    module--padding
+    module--txt-img
+    module--white
+    module--charcoal-bg">
+
+    <div class="wrap">
+      <div class="footer-col">
+        <h3>{% t footer.get_started.title %}</h3>
+        <ul class="footer-link-list">
+          <li><a href="{{ site.app_signin_link }}">{% t footer.get_started.login %}</a></li>
+          <li><a href="#" class="cd-popup-trigger-arriver-signup">{% t footer.get_started.candidate_registration %}</a></li>
+          <li><a href="#" class="cd-popup-trigger-signin">{% t footer.get_started.post_job %}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>{% t footer.about_us.title %}</h3>
+        <ul class="footer-link-list">
+          <li><a href="/about-us/">{% t footer.about_us.about %}</a></li>
+          <li><a href="/faq/">{% t footer.about_us.faq %}</a></li>
+          <li><a href="/about-us/">{% t footer.about_us.team %}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>{% t footer.follow_us.title %}</h3>
+        <div class="social-links">
+          <a href="{{site.facebook_url}}"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+          <a href="{{site.twitter_url}}"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          <a href="{{site.instagram_url}}"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+          <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>{% t footer.follow_us.contact %}</h3>
+        <ul class="footer-link-list">
+          <li><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></li>
+          <li>Just Arrived</li>
+          <li>
+            <a href="https://www.google.se/maps/place/Jakobsbergsgatan,+Stockholm/@59.3347538,18.0672701,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d5c60feb307:0x77037862d63a6d77!8m2!3d59.3347511!4d18.0694588?hl=en">
+              Jakobsbergsgatan 22 <br>111 44 Stockholm
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="copy-footer module--dark-gray-bg">
+    <div id="inner-footer">
+      <p class="source-org copyright">
+        <span>&copy; {{ site.time | date: '%Y' }} {% t global.app_name %}</span>
+      </p>
+    </div>
   </div>
 </footer>
 
 {% include modals/signup.html %}
 {% include modals/promo_code.html %}
+{% include modals/arriver_signup.html %}

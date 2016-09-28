@@ -22,8 +22,15 @@
 	}
 	& p {
 		max-width: 400px;
-	    margin-left: auto;
-	    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	& p.hero-text-wide {
+		max-width: 650px;
+	}
+
+	& p.hero-text-l {
+		font-size: 1.2rem;
 	}
 	& .wrap {
 		margin: 0 auto;
@@ -163,6 +170,11 @@
 
 .icon--profile {
 	background-image: url(../images/icons/ic-profile-pink.png);
+	background-size: 30px 32px;
+}
+
+.icon--info {
+	background-image: url(../images/icons/ic-info-pink.png);
 	background-size: 30px 32px;
 }
 
@@ -342,7 +354,7 @@
 				font-size: 90%;
 			}
 			@include tablet {
-				font-size: 14px;
+				font-size: $base-font-size;
 				text-align: center;
 				float: none;
 				margin: 0.5em 0 0;
@@ -383,7 +395,7 @@
 }
 
 .signup-form {
-	font-size: 14px;
+	font-size: $base-font-size;
 	margin: 0.6em auto 0;
 }
 
@@ -394,7 +406,7 @@
 		padding: 0 0.5em;
 	}
 	& label {
-		font-size: 14px;
+		font-size: $base-font-size;
 	}
 }
 
@@ -416,7 +428,7 @@
 		padding: 0 0.5em;
 	}
 	& p {
-		font-size: 14px;
+		font-size: $base-font-size;
 		margin: 0 0 8px 0;
 		padding: 0;
 		color: $charcoal-medium;
@@ -437,7 +449,7 @@
 		display: inline-block;
 	    width: auto;
 	    margin: 0 0 0.6em 0;
-	    font-size: 14px;
+	    font-size: $base-font-size;
 	    width: 100%;
 	    vertical-align: top;
 	    @include tablet-small {
@@ -496,7 +508,7 @@
 }
 
 .form-response {
-	font-size: 14px;
+	font-size: $base-font-size;
 	clear: both;
 }
 

@@ -84,14 +84,14 @@ $museo-reg-ita:         "museo-reg-ita", "Helvetica Neue", Helvetica, Arial, san
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
-$lato:              'Lato', $sans-serif;
+// $lato:              'Lato', $sans-serif;
 
 /*
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p, ul, ol {
-  font-size: 14px;
+  font-size: $base-font-size;
   margin: 0 0 1em;
   -ms-word-wrap: break-word;
   word-break: break-word; //non-standart css for webkit

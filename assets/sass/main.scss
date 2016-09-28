@@ -62,3 +62,46 @@ table.boring-table {
 .full-width {
   width: 100%;
 }
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+// One line justify
+.full-justify {
+  text-align: justify;
+}
+.full-justify:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.section-bar {
+  text-align: center;
+  width: 25px;
+  height: 2px;
+  background-color: $cerise;
+  outline: $cerise;
+  border-color: $cerise;
+}
+
+
+// Mobile helpers
+.hidden-tablet {
+  display: inherit !important;
+  @include tablet {
+    display: none !important;
+  }
+}
+
+.visible-tablet {
+  display: none !important;
+  @include tablet {
+    display: inherit !important;
+  }
+}

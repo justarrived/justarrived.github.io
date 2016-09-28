@@ -5,7 +5,19 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  linkedin: LinkedIN
+  instagram: Instagram
+  youtube: Youtube
   thank_you: Thank you!
+  company_faq: Company FAQ
+  arriver_faq: Arriver FAQ
+  contact_us: Contact us
+  example_jobs: A selection of our current jobs
+  example_company_jobs: A selection of our current jobs
+  example_arriver_jobs: A selection of our current jobs
+  more_company_info: Company info
+  apply: Apply
+  or: or
 
 form:
   email: Email Address
@@ -40,28 +52,28 @@ form:
 nav:
   job_signup: I want a job
   promo_code_signin: Sign in with promo code
+  about_us: About us
+  login: Login
+  companies: For Companies
+  arrivers: For Arrivers
+  blog: Blog
+  faq: FAQ
 
 top_banner:
-  title: We give new arrivals in Sweden a chance to enter the labor market
-  subtitle: Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.
-  signup_for_job: I want to post a job
+  title: We Give New Arrivals in Sweden a Chance to Enter the Labor Market
+  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
+  signup_for_job: Get Started
+  arriver_cta: I want a job
 
 promo_code:
-  title: Enter your promo code
-  description: We are currently testing the platform with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing the platform please click on sign up and register your interest there. Thank you!
+  title: Enter Your Promo Code
+  description: If you've received a promo code, please provide it here.
   submit: Take me to the app
   placeholder: Promo code
 
 signup_modal:
   title: Indicate Interest
-  description: We are currently testing the platform with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch, please fill in the form and we will get back to you!
-  interested:
-    title: I'm interested in...
-    post_jobs: Posting jobs
-    find_jobs: Finding jobs
-    help: Helping out
-    donate: Donating
-    know: Knowning more
+  description: We're currently available in Stockholm, Gothenburg and Malmö. Please fill out the form to register your company's interest to learn more about what we can do for you. Thank you!
 
 be_the_change:
   title: Be the Change
@@ -72,20 +84,21 @@ be_the_change:
   cta: I want to post a job
 
 companies_engage:
-  title: Just Arrived makes it simple for companies to engage or employ a new arrival.
+  title: Just Arrived Makes It Simple for Companies to Engage or Employ a New Arrival.
   responsibility_description: We pay the taxes, social fees and insurance associated with hiring a new employee.
   low_administration_description: We lower companies' administrative burden by taking full employment responsibility.
   effective_description: Our database is an effective way to locate potential new employees.
+  cta: Find out more
 
-companies_opportunity:
-  title: Job opportunities for new arrivals
+job_opportunities:
+  title: Job Opportunities for New Arrivals
   first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
   second_paragraph: Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.
   emphasis: Are you a new arrival? Apply to qualify and gain access to Just Arrived.
   cta: Sign up to find a job
 
 contribute:
-  title: Contribute to the project
+  title: Contribute to the Project
   cta: I would like to contribute
 
 enablers:
@@ -93,12 +106,13 @@ enablers:
 
 partners:
   title: Partners and Champions
+  cta: More about us
 
 join_us:
-  title: Join us
+  title: Join Us
   first_paragraph: Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.
   second_paragraph: We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.
-  cta: I would like to help out
+  cta: I want to post a job
   checklist:
     title: Checklist
     contribution_by: Contribution by
@@ -125,15 +139,15 @@ our_product:
     asterix: '* Requires AT-UND, personal identity number or co-ordination number and access to bank account.'
 
 say_hej:
-  title: Say hej
+  title: Say Hej
   enquiries: General enquiries
 
 company_form:
-  title: Register company
+  title: Register Company
   description: Fill in the details about the job, so we can publish it on our platform.
 
 job_form:
-  title: Create new job
+  title: Create New Job
   description: Fill in the details about the job, so we can publish it on our platform.
 
 register_submit:
@@ -141,14 +155,229 @@ register_submit:
   description: We're working really hard to try to help as many as we can. We will contact you when we have something for you, please note that this may take a while.
 
 company_register_submit:
-  title: Thank you for registering!
+  title: Thank You for Registering!
   description: We will contact you as soon as we possibly can. We'll talk soon! Please contact support@justarrived.se if you have any questions.
 
 job_submit_thanks:
-  title: Thank you!
-  description: Your job information has been submitted and will shortly be online on our platform. Please contact support@justarrived.se if you have any questions.
+  title: Thank You!
+  description: Your information has been submitted and will shortly be online on our platform. Please contact support@justarrived.se if you have any questions.
 
 about_cookies:
-  title: About cookies
+  title: About Cookies
   description: By using the justarrived.se website, you agree to the use of cookies by us and third parties to enhance your experience. If you have any questions feel free to contact us at hej@justarrived.se.
   more_info_link: More about our cookies
+
+vasbyhem_testimonial:
+  first_body: Just Arrived removes all barriers working with new arrivals.
+
+footer:
+  get_started:
+    title: Get Started
+    login: Login
+    candidate_registration: Arriver registration
+    post_job: Post job
+  about_us:
+    title: About Us
+    about: About Just Arrived
+    faq: FAQ
+    team: The Team
+  follow_us:
+    title: Follow Us
+  contact_us:
+    title: Contact
+
+faq:
+  links:
+    general_faq: General FAQ
+    arriver_faq: Arriver FAQ
+    company_faq: Company FAQ
+  general:
+    what:
+      question: What is JustArrived?
+      answer: JustArrived is a service created to help people who have immigrated to Sweden to quickly find a job. It’s a digital marketplace enabling businesses to easily hire newly arrived immigrants.
+    who:
+      question: Who are JustArrived?
+      answer: The Just Arrived organisation is governed by a non-profit foundation working to promote the integration of newly arrived immigrants into the Swedish society. The project is set up as a pro bono initiative and has been made possible through a number of engaged organisations and individuals providing their resources. The following organisations and individuals have been involved with the initiative; Universum, Nova, Wintrgarden, Antrop, Caroline He, Yuliya Bilinskaya, Jansson&Norin, Cygni, Bond Street, FrilansFinans, Stockholms Skrivarbyrå, Mattias Bengtsson.
+    how:
+      question: How does it work?
+      answer: It’s really simple. <br><br> 1. The Employer posts a job vacancy following our ready-made template (1 -2 minutes).<br><br> 2. The employee applies for the job (>1minute.)<br><br> 3. The employer reviews and chooses an applicant (1-3 minutes).<br><br> 4. The employee confirms he or she will do the job (>1min). <br><br>5. Both parties confirm the work has been carried out (>1min).
+    cost:
+      question: How much does it cost?
+      answer: The service is free of charge. We don’t charge to connect jobseekers and employers – the money billed is paid out to the employee once we have paid social fees, insurances and third-party fees (>5%).
+    wages:
+      question: How do you set wages?
+      answer: Salaries are set according to recommendations from trade unions. We believe it’s important to offer a reasonable compensation for the jobs we facilitate.
+    taxes:
+      question: Do you pay taxes and social fees for the employees?
+      answer: Yes, we pay employer fees and insurance for all of our contractors.
+  arriver:
+    what:
+      question: What do I need to get a job?
+      answer: You need a valid personal identity number/co-ordination number, a work permit and access to a bank account.
+    bank_account:
+      question: Do I need my own bank account in order to apply for a job?
+      answer: No, you don’t. However, you do need access to a bank account as we do not pay in cash.
+    job_accept:
+      question: Why do I need to "accept" a job offer when I've already applied for the job?
+      answer: We ask you to accept an offer to make sure you will be carrying out the work.
+    job_reschedule:
+      question: How do I reschedule if I am unable to carry out an assignment?
+      answer: If you are unable to do the job at the agreed time and have already confirmed the assignment you will need to contact the employer to change time and/or date. We recommend you follow the agreement that was confirmed with the employer.
+    job_refuse:
+      question: Can I refuse a job that I’ve already accepted?
+      answer: If you have confirmed an assignment but wish to decline the offer you need to contact your employer as well as support@justarrived.se in order for us to cancel your agreement.
+    job_confirm:
+      question: Why do I have to "Confirm" once the work is completed?
+      answer: You need to confirm the work has been completed in order for us to know the work is done. As soon as both parties have confirmed this we can send an invoice and start processing payments.
+    job_overtime:
+      question: What do I do if it took longer than stated in the ad to carry out the job?
+      answer: We recommend you only work the hours stated in the original ad. If you require additional time to complete the job we recommend you speak with your employer in order to solve the matter. We are looking into adding more hours as a function in the app.
+    someone_else:
+      question: Can I send someone else to do the job for me?
+      answer: No. By confirming an assignment you are entering into an agreement with your employer. This agreement together with our terms and conditions govern insurance policies as well as payment of social fees for you as a contractor. This means you cannot let somebody else perform the work for you.
+    get_paid:
+      question: When will I get paid?
+      answer: It takes from 10 to 40 days for your wages to be paid out once both parties have confirmed the work has been completed.
+  company:
+    private_person:
+      question: Can I create a job ad as a private individual?
+      answer: You will need a corporate identity number in order to use the service. This is because we aim to give the contractors the possibility to connect with potential future employers.
+    job_types:
+      question: What type of jobs can I create?
+      answer: JustArrived supports job ads for close to 2000 occupations (see full list here). Due to insurance policy you are not allowed to post ads for professions such as tattoo artists, surgeons, messengers etc.
+    job_description:
+      question: Can I edit the work description if conditions change?
+      answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
+    contact_arriver:
+      question: How do I communicate with candidates before I've hired someone?
+      answer: You can chat via the app with contractors who have applied for your job placement. The chat supports translation through Google Translate.
+    reschedule:
+      question: How do I reschedule if I'm prevented from offering the job at the stated time?
+      answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
+    cancel_job:
+      question: How do I close an ad if I find the job isn't needed anymore?
+      answer: You can remove an ad by emailing support@justarrived.se anytime up until you have accepted a contractor.
+    confirm_invoice:
+      question: Why do I have to "Confirm" when the work is completed?
+      answer: By confirming the work is completed you are letting us know the job has been carried out. As soon as both parties have confirmed we will send an invoice and start processing payments.
+    job_guarantee:
+      question: How do you guarantee the job will be carried out?
+      answer: This service requires trust and mutual respect between contractor and employer. The service uses a ratings system ensuring quality and promoting an incentive to perform well. Should any conflicts arise regarding the quality of work we are at hand to deal with this.
+    cost:
+      question: How do I pay for the service?
+      answer: We will bill the employer for the job performed. The invoice is sent to the email address used to register the ad, using the job title as reference. It is not possible to pay via credit card or Swish.
+
+cta_bar:
+  company_title: For Companies
+  company_cta_text: Learn how easy it is to hire through Just Arrived
+  company_cta_link_text: Get Started
+  arriver_title: For Arrivers
+  arriver_cta_text: What can Just Arrived do for you who are looking for a job in Sweden?
+  arriver_cta_link_text: Find out
+
+top_banner_company:
+  title: We Match You With New Arrivals Who Are Eager to Work
+  subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
+  subsubtitle: Why not hire through Just Arrived?
+
+
+company_howto:
+  cta: Register interest
+  first:
+    title: 1. Register
+    first: Register your interest.
+    second: Fill out your company information.
+    third: We will get in touch with you and together we will create your customized job post.
+  second:
+    title: 2. Just Arrived Matches
+    first: A matching process is initiated.
+    second: We conduct the interviews with potential candidates.
+    third: You can chose to conduct further interviews.
+    forth: You choose the candidate you want to proceed with.
+  third:
+    title: 3. Together We Fulfill
+    first: The chosen candidate will start at the set date.
+    second: An invoice will be sent once the job has been completed.
+    third: We take care of salary, social fees, taxes and insurance.
+    forth: Rate and provide valuable feedback to the candidate.
+
+companies_why_us:
+  title: This Is Just Arrived
+  administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
+  responsibility: We take the employment responsibility for the candidates.
+  validation: All candidates have gone through the Just Arrived onboarding process to ensure quality.
+  service: We are flexible, secure and personal. We provide personal service.
+
+company_what_we_offer:
+  title: Our Offering
+  signoff:
+    title: 'And best of all:'
+    body: You are part of the solution for sustainable integration.
+  feature_list:
+    flexibility:
+      title: We Are Flexible
+      body: Our services are tailored for your needs. We provide the right candidate for the right position and together we ensure that our services live up to your demands.
+    speed:
+      title: We Are Fast
+      body: Is there an urgency? Do you rapidily fill out a position? We can provide you with the right candidate within 36 hours.
+    simplicity:
+      title: It's Simple
+      body: We handle all administration and take the employment responsibility. Taxes, social fees, and insurance are handled by us. We only bother you with the invoice.
+    sustainability:
+      title: It's Secure
+      body: We want you as a company to only think about your needs. Regulations and legal is taken care by us.
+    prices:
+      title: And the Price is..
+      body: Hire someone for as low as 149 SEK per hour. Starting at a minumum of 4 hours.
+
+company_tasks:
+  title: This Is How Companies Use or Service
+  first_paragraph: Companies usilize our service for a wide range of different jobs. Qualified and unqualififed..
+  second_paragraph: Don't hesistate to contact us to learn more about what we at Just Arrived can do for your company.
+  cta_body: Other needs? Givetvis funkar det med Just Arrived.
+  cta: Contact us
+
+company_faq_nudge:
+  title: Want to Learn More?
+
+company_contact_us:
+  title: Contact Us
+
+arriver_contact_us:
+  title: Still Got Questions?
+  subtitle: Psst.. check out our FAQ
+
+top_banner_arriver:
+  title: Get the Experience You Need to Enter the Swedish Labor Market
+  subtitle: By matching you with Swedish companies Just Arrived helps you get the credentials you need to enter the Swedish labor market.
+  cta: I want a job
+
+arriver_howto:
+  apply:
+    title: 2. Apply
+    first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
+    second: When and how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
+    third: An interview will be conducted.
+    cta: Apply
+  requirements:
+    title: 1. Fulfill Requirements
+    first: Work permit (or AT-UND)
+    second: Bank account
+    third: Personal id number or a coordination number
+  service:
+    title: 3. Enter the Labor Market
+    first: You get access to the Just Arrived service
+    second: Create your profile and start applying for jobs!
+
+
+arriver_faq_nudge:
+  title: Want to Learn More?
+
+our_customers:
+  title: Backed By
+
+arriver_signup_modal:
+  title: Apply to Just Arrived
+  description: 'This registration will take a couple of minutes. Its purpose is to give us all the information we need to be able to know how best to help you on your way into the Swedish labor market. Please fill out the information the best you can. Start by choosing one of the following:'
+  cta_no_reg: Asylum seeker
+  cta_reg: Permanent resident

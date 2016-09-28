@@ -1,0 +1,54 @@
+.section--testimonial {
+  .module-content--right {
+    @include tablet {
+      width: 25%;
+    }
+  }
+  .module-content--left {
+    @include tablet {
+      width: 73%;
+    }
+  }
+
+	& .wrap {
+		max-width: 750px;
+	}
+
+  .profile-circle {
+    margin-top: 20px; // Magic number to align the circle with the quote next to it
+
+    height: 135px;
+    width: 135px;
+    background-size: cover;
+    border-radius: 500px;
+    margin: 0 auto;
+  }
+
+  .sara-brandt {
+    background-image: url(../images/profile-pictures/sara-brandt.jpg);
+  }
+
+  .testimonial-quote-icon {
+    font-size: 100px;
+    float: left;
+    line-height: 40px;
+  }
+
+  .testimonial-body {
+    margin-top: 20px; // Magic margin: vertically middle aligns the quote body with the profile image
+    font-style: italic;
+    text-align: right;
+    font-size: 1.2rem;
+  }
+
+  .body-divider {
+    margin: 40px 34px;
+  }
+
+  .testimonial-meta-author {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+}

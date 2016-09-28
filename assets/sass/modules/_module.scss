@@ -18,8 +18,18 @@
   @include tablet {
     padding: 5em 0;
     &.section--hero {
-      padding: 8em 0;
+      // padding: 8em 0;
     }
+  }
+}
+
+.module--padding-half {
+  padding: 1em 0;
+  @include tablet-small {
+    padding: 1.5em 0;
+  }
+  @include tablet {
+    padding: 2.5em 0;
   }
 }
 
@@ -61,6 +71,10 @@
 
 .module--gray-bg {
   background: $light-gray;
+}
+
+.module--dark-gray-bg {
+  background: $body-bg-color;
 }
 
 .module--primary-bg {
@@ -114,6 +128,26 @@
   }
 }
 
+.module-content--left-half {
+  @include tablet {
+    float: left;
+    width: 50%;
+    .rtl-locale-direction & {
+      float: right;
+    }
+  }
+}
+
+.module-content--right-half {
+  @include tablet {
+    float: right;
+    width: 50%;
+    .rtl-locale-direction & {
+      float: left;
+    }
+  }
+}
+
 .module--bg-cover {
   background-size: cover;
   background-position: 50%;
@@ -121,6 +155,14 @@
     position: relative;
     z-index: 1;
   }
+}
+
+.section--hero.module--bg-pink, .module--bg-pink {
+  background-color: $cerise;
+}
+
+.section--hero.module--bg-charcoal, .module--bg-charcoal {
+  background-color: $charcoal;
 }
 
 .module__overlay {
@@ -267,6 +309,17 @@
   }
 }
 
+.column-1-4 {
+  @extend %clearfix;
+  clear: both;
+  @include tablet {
+    clear: none;
+    width: 25%;
+    padding: 0 1em;
+    float: left;
+  }
+}
+
 .module-banner {
   text-align: center;
   padding: 0.4em 0;
@@ -283,4 +336,52 @@
   & .module-banner {
     direction: rtl;
   }
+}
+
+.column--padding {
+  padding: 2em;
+}
+
+.column-secondary {
+  background-color: $bluesea;
+}
+
+.column-primary {
+  background-color: $cerise;
+}
+
+.column-charcoal {
+  background-color: $charcoal;
+}
+
+.module-howto {
+  & .howto-cta {
+    @include desktop {
+      margin-top: 1em;
+    }
+  }
+
+  & .checklist {
+    padding-bottom: 1em;
+    max-width: 450px;
+
+    @include desktop {
+      padding: 0 2em;
+      margin: 0 auto;
+    }
+
+    & li:before {
+      margin-left: -30px; // Margin between icons and list-items
+    }
+  }
+}
+
+.module--what-we-offer {
+  & strong {
+    font-weight: 700;
+  }
+}
+
+.module-content--border-right {
+  border-right: 1px solid $stone;
 }

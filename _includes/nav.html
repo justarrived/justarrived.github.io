@@ -5,26 +5,40 @@
 			<div class="header__logo">{% t global.app_name %}</div>
 		</a>
 
-		<div class="header__btns">
-			<div class="lang-options">
-				{% capture en_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
-				{% capture sv_root %}{{ site.github.url }}/sv{{ page.url }}{% endcapture %}
-				{% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
+    <div class="nav-links">
+      <div class="nav-left">
+        <div class="lang-options">
+          {% capture en_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
+          {% capture sv_root %}{{ site.github.url }}/sv{{ page.url }}{% endcapture %}
+          {% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
 
-        <a href="{{ en_root }}">
-          <span class="lang-en">{% t global.english %}</span>
-        </a>
-				<a href="{{ sv_root }}">
-					<span class="lang-sv">{% t global.swedish %}</span>
-				</a>
-				<a href="{{ ar_root }}">
-					<span class="lang-ar">{% t global.arabic %}</span>
-				</a>
+          <a href="{{ en_root }}">
+            <span class="lang-en">{% t global.english %}</span>
+          </a>
+          <a href="{{ sv_root }}">
+            <span class="lang-sv">{% t global.swedish %}</span>
+          </a>
+          <a href="{{ ar_root }}">
+            <span class="lang-ar">{% t global.arabic %}</span>
+          </a>
+        </div>
+      </div>
 
-			</div>
-			<a href="#" class="primary-btn cd-popup-trigger-signin">{% t nav.job_signup %}</a>
-			<a href="#" class="border-btn cd-popup-trigger-promo">{% t nav.promo_code_signin %}</a>
-		</div>
+      <div class="nav-right">
+        <a href="/company/"><span>{% t nav.companies %}</span></a>
+        <a href="/arriver/"><span>{% t nav.arrivers %}</span></a>
+        <a href="/faq/"><span>{% t nav.faq %}</span></a>
+        <a href="/about-us/"><span>{% t nav.about_us %}</span></a>
+        <a href="/blog/"><span>{% t nav.blog %}</span></a>
+        <a href="{{ site.app_signin_link }}"><span>{% t nav.login %}</span></a>
+      </div>
+    </div>
+
+		<!-- <div class="header__btns">
+      <a href="{{ site.app_signin_link }}" class="border-btn pull-right"><span>{% t nav.login %}</span></a>
+       <a href="/arriver/" class="primary-btn">{% t nav.job_signup %}</a>
+      <a href="#" class="border-btn cd-popup-trigger-promo">{% t nav.promo_code_signin %}</a>
+		</div> -->
 
 	</div>
 </header>

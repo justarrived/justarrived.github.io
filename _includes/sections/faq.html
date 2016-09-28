@@ -1,0 +1,6 @@
+<div class="faq-section">
+  {% for item in site.translations[site.lang]['faq'][include.type] %}
+    <h3 id="{{ item[1]['question'] | slugify }}">{{ item[1]['question'] }}</h3>
+    <p>{{ item[1]['answer'] }}</p>
+  {% endfor %}
+</div>

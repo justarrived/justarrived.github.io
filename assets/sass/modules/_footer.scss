@@ -1,37 +1,78 @@
 .footer {
-	clear: both;
-	padding: 2em 1em;
-	color: $stone-dark;
-	text-align: center;
+  & a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      color: $bluesky;
+      text-decoration: underline;
+    }
+  }
 
-	& a {
-		text-decoration: none;
-		color: $stone-dark;
-		&:last-child {
-			margin-right: 0;
-			padding: 0;
-			border: 0;
-		}
-	}
+  .footer-link-list {
+    li {
+      padding: 4px 0;
+    }
+  }
 
-	& span {
+  .social-links {
+    & a {
+      padding: 5px;
+    }
+  }
 
-	}
+  .copy-footer {
+    clear: both;
+    padding: 2em 1em;
+    color: $stone-dark;
+    text-align: center;
 
-	& a, & span {
-		margin: 0; padding: 0;
-		display: block;
-		width: 100%;
-		text-align: left;
-		margin-bottom: 0.5em;
+    & p {
+      color: $stone-dark;
+    }
 
-		@include mobile-small {
-			border-right: 1px solid #d2d2d2;
-			margin-bottom: 0;
-			width: auto;
-			margin-right: 1em;
-			padding-right: 1em;
-			display: inline-block;
-		}
-	}
+    & a {
+      text-decoration: none;
+      color: $stone-dark;
+      &:last-child {
+        margin-right: 0;
+        padding: 0;
+        border: 0;
+      }
+    }
+
+    & span {
+
+    }
+
+    & a, & span {
+      margin: 0; padding: 0;
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 0.5em;
+
+      @include mobile-small {
+        margin-bottom: 0;
+        width: auto;
+        margin-right: 1em;
+        padding-right: 1em;
+        display: inline-block;
+      }
+    }
+  }
+
+  .footer-col {
+    text-align: left;
+    @include tablet-small {
+      width: 50%;
+      float: left;
+      padding: 0 0.5em;
+    }
+
+    @include tablet {
+      width: 25%;
+      float: left;
+      padding: 0 0.5em;
+    }
+  }
 }
