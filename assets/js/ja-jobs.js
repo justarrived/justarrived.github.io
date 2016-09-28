@@ -16,15 +16,6 @@
     });
   }
 
-  function truncate(string, maxLength) {
-    var result = '';
-    if (string.length > maxLength) {
-      result = string.substring(0, maxLength - 3) + '...';
-    }
-
-    return result;
-  }
-
   function formatTemplate(template, name, value) {
     var regex = new RegExp(name, 'g');
     return template.replace(regex, value);
