@@ -33,11 +33,6 @@ __continue-prompt() {
 }
 
 __prompt-for-result() {
-  if [[ $SHELL == "/bin/zsh" ]]; then
-    local p_res=""
-    vared -p "$1" p_res
-  else
-    read -p  "$1" p_res
-  fi
+  read -p  "$1" p_res
   echo $p_res
 }

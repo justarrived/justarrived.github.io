@@ -30,6 +30,9 @@ $job-card-padding: 15px;
       font-size: 20px;
       line-height: 23px;
       color: $black;
+
+      //Constrain the hight and number of rows
+      @include giveMeEllipsis(22px, 3);
       }
     }
 
