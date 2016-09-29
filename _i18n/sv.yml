@@ -6,7 +6,19 @@ global:
   arabic: العربية
   facebook: Facebook
   twitter: Twitter
+  linkedin: LinkedIN
+  instagram: Instagram
+  youtube: Youtube
   thank_you: Tack!
+  company_faq: FöretagsFAQ
+  arriver_faq: Nyanlända FAQ
+  contact_us: Kontakta oss
+  example_jobs: Ett urval av våra nuvarande jobb
+  example_company_jobs: Ett urval av våra nuvarande jobb
+  example_arriver_jobs: Ett urval av våra nuvarande jobb
+  more_company_info: Företagsinfo
+  apply: Ansök
+  or: eller
 form:
   email: Email adress
   name: Namn
@@ -39,31 +51,29 @@ form:
 nav:
   job_signup: Jag vill söka jobb
   promo_code_signin: Logga in med promokod
+  about_us: Om oss
+  login: Logga in
+  companies: För Företag
+  arrivers: För Nyanlända
+  blog: Blogg
+  faq: FAQ
 top_banner:
-  title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
-  subtitle: Är du intreserad av att lägga upp ett jobb? Fyll i formuläret så kontaktar
-    vi dig snart.
-  signup_for_job: Jag vill lägga upp ett jobb
+  title: Vi Ger Nyanlända i Sverige en Chans att Komma in på Arbetsmarknaden
+  subtitle: Vi sammanför nyanlända med svenska företag. Våran digitala plattform gör
+    det enkelt för företag att lägga upp enkla uppdrag och tjänster som sedan matchas
+    med nyanlända som söker jobb.
+  signup_for_job: Sätt igång
+  arriver_cta: Jag Vill Jobba
 promo_code:
-  title: Skriv in din promokod
-  description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända
-    som har blivit tilldelade en promokod som ger tillgång till plattformen. Om du
-    inte har en promokod men är intresserad av att använda plattformen, registrera
-    gärna ditt intresse. Tack!
+  title: Skriv din promokod
+  description: Om du har fått en promokod, var vänlig skriv den här
   submit: Ta mig till tjänsten
   placeholder: Promokod
 signup_modal:
   title: Indikera intresse
-  description: Vi testar just nu plattformen med en exklusiv grupp företag och nyanlända.
-    Om du är intresserad av att använda plattformen efter vår officiella lansering,
-    fyll gärna i formuläret så hör vi av oss!
-  interested:
-    title: Jag är intresserad av...
-    post_jobs: Lägga upp jobb
-    find_jobs: Hitta jobb
-    help: Hjälpa till
-    donate: Donera
-    know: Veta mer
+  description: Vi är för tillfället tillgängliga i Stockholm, Göteborg och Malmö.
+    Var vänlig fyll i formuläret för att registrera ditt företags intresse och få
+    veta mer om vad vi kan göra för dig. Tack!
 be_the_change:
   title: Var med och förändra
   description_start: Under 2015 ansökte fler än 160,000 personer om asyl i Sverige.
@@ -78,26 +88,26 @@ be_the_change:
     med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
   cta: Jag vill lägga upp ett jobb
 companies_engage:
-  title: Just Arrived gör det enkelt för företag att engagera eller anställa en nyanländ.
+  title: Just Arrived Gör Det Enkelt För Företag Att Engagera Eller Anställa en Nyanländ
   responsibility_description: Vi betalar de skatter, sociala avgifter och försäkringar
     som hör ihop med en anställning.
   low_administration_description: Vi minskar företags administrativa arbete genom
     att ta fullt arbetsgivaransvar.
   effective_description: Vår databas är ett effektivt sätt att lokalisera potentiella
     nya anställda.
+  cta: Läs mer
 job_opportunities:
-  title: Jobbmöjligheter för nyanlända
-  first_paragraph: Vi för samman nyanlända immigranter med svenska företag som behöver
-    hjälp i de dagliga aktiviteterna. Vår digitala plattform gör det möjligt för företag
-    att annonsera ut enkla uppgifter och tjänster, och att matcha dem med nyanlända
-    som letar efter arbete.
-  second_paragraph: Just Arrived översätter jobb till nyanländas lokalspråk. Vi tillåter
-    företag och nyanlända att recensera varandra, så att nyanlända kan använda det,
-    som referens, för framtida anställningar. Just Arrived tar arbetsgivaransvar för
-    alla nyanlända som jobbar genom plattformen.
-  emphasis: Är du nyanländ? Ansök om att få tillgång till Just Arrived's digitala
-    tjänst.
-  cta: Registrera för att hitta ett jobb
+  title: Jobbtillfällen för Nyanlända
+  first_paragraph: Vi sammanför nyanlända med svenska företag som behöver hjälp med
+    dagliga aktiviteter. Vår digitala plattform gör det enkelt för företag att lägga
+    upp enkla uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
+  second_paragraph: Just Arrived översätter uppdrag till de nyanländas lokala språk.
+    Vi tillåter företaget och den nyanlända att recensera varandra, vilket ger references
+    som gör det möjligt för nyanlända att få ytterligare anställningar. Just Arrived
+    tar arbetsgivaransvar för alla de som får jobb via plattformen.
+  emphasis: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till just
+    Arrived.
+  cta: Registrera dig för att hitta ett jobb
 contribute:
   title: Bidra till projektet
   cta: Jag vill bidra
@@ -105,6 +115,7 @@ enablers:
   title: Bidrag från
 partners:
   title: Partners och hjältar
+  cta: Mer om oss
 join_us:
   title: Gå med
   first_paragraph: Just Arrived är drivet av ett team av frivilliga som vill göra
@@ -113,7 +124,7 @@ join_us:
   second_paragraph: Vi letar just nu efter programmerare (AngularJs, Ruby on Rails),
     översättare och sponsorer. Om du är utvecklare, får du jättegärna bidra till våra
     GitHub repon.
-  cta: Jag vill hjälpa till
+  cta: Jag vill lägga upp ett jobb
   checklist:
     title: Checklista
     contribution_by: Bidrag av
@@ -150,15 +161,247 @@ our_product:
       kostnader)
     asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
-  title: Säg hej
+  title: Säg Hej
   enquiries: Generella frågor
 company_form:
-  title: Registrera företag
+  title: Registrera Företag
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
 job_form:
-  title: Skapa nytt jobb
+  title: Skapa Nytt Jobb
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
+register_submit:
+  title: Tack för din registrering!
+  description: Vi jobbar riktigt hårt för att hjälpa så många vi kan. Vi kommer kontakta
+    dig när vi har något till dig, var vänlig att notera att det här kan ta ett tag.
+company_register_submit:
+  title: Tack för att du Registrerat dig!
+  description: Vi kommer kontakta dig så snart vi kan. Vi hörs snart! Var vänlig kontakta
+    support@justarrived.se om du har några frågor.
+job_submit_thanks:
+  title: Tack!
+  description: Din information har lämnats in och kommer inom kort vara online på
+    vår plattform. Var vänlig kontakta support@justarrived.se om du har några frågor.
 about_cookies:
-  title: Om cookies
-  description: Vi använder cookies av tekniska skäl, för att underlätta användningen av våra tjänster och för att ge dig som användare relevant information när du besöker vår webbplats. Om du har några frågor hör av dig till hej@justarrived.se.
-  more_info_link: Mer information
+  title: Om Cookies
+  description: Vi använder cookies av tekniska skäl, för att underlätta användningen
+    av våra tjänster och för att ge dig som användare relevant information när du
+    besöker vår webbplats. Om du har några frågor hör av dig till hej@justarrived.se.
+  more_info_link: Mer om våra cookies
+vasbyhem_testimonial:
+  first_body: Just Arrived tar bort alla trösklar för att jobba med nyanlända.
+footer:
+  get_started:
+    title: Sätt igång
+    login: Logga in
+    candidate_registration: Arriver registrering
+    post_job: Lägg upp jobb
+  about_us:
+    title: Om oss
+    about: Om Just Arrived
+    faq: FAQ
+    team: Teamet
+  follow_us:
+    title: Följ oss
+  contact_us:
+    title: Kontakt
+faq:
+  links:
+    general_faq: Generell FAQ
+    arriver_faq: FAQ för nyanlända
+    company_faq: FAQ för företag
+  general:
+    what:
+      question: Vad är Just Arrived?
+      answer: Just Arrived är en tjänst skapad för att hjälpa människor som har kommit
+        till Sveriga att snabbt hitta arbete. Det är en digital marknadsplats som
+        gör det möjligt för företag att enkelt anställa nyanlända.
+    who:
+      question: Vilka är Just Arrived?
+      answer: Organisationen Just Arrived styrs av en icke vinstdrivande stiftelse
+        som arbetar för att främja integrerandet av nyanlända in i det svenska samhället.
+        Projektet har satts upp som ett pro bono initiativ och har gjorts möjligt
+        genom ett antal engagerade organisationer och individer som har bidragit med
+        sina resurser. De följande organisationerna och personerna har arbetat med
+        initiativet; Universum, Nove, Wintrgarden, Antrop, Caroline He, Yuliya Bilinskaya,
+        Jansson&Norin, Cygni, Bond Street, FrilansFinans, Stockholms Skrivarbyrå,
+        Mattias Bengtsson.
+    how:
+      question: Hur fungerar det?
+      answer: Det är riktigt enkelt. <br><br> 1. Uppdragsgivaren lägger upp ett jobb
+        genom att fylla i ett enkelt formulär (1-2 minuter). <br><br> 2. Uppdragstagaren
+        ansöker om jobbet (mindre än 1 minut). <br><br> 3. Uppdragsgivaren kollar
+        igenom och väljer en ansökande (1-3 minuter). <br><br> 4. Uppdragstagaren
+        bekräftar att hen kommer utföra uppdraget (mindre än 1 minut). <br><br> 5.
+        Båda parter bekräftar att uppdraget har utförts (mindre än 1 minut).
+    cost:
+      question: Hur mycket kostar det?
+      answer: Tjänsten är gratis. Vi tar inte betalt för att föra samman arbetssökande
+        och arbetsgivare - de fakturerade pengarna betalas ut till uppdragstagaren
+        när vi har betalt sociala avgifter, försäkringar och tredjepartsavgifter (mindre
+        än 5%).
+    wages:
+      question: Hur sätter ni lönenivåer?
+      answer: Lönerna är enligt fackliga rekommendationer. För oss är det självklart
+        med en rimlig kompensation för uppdragen vi förmedlar.
+    taxes:
+      question: Betalar ni skatt och socialaavgifter för anställda?
+      answer: Ja, vi betalar alltid arbetsgivaravgifter och försäkringar.
+  arriver:
+    what:
+      question: Vad behöver jag för att skaffa ett jobb?
+      answer: Du behöver ett gilltigt person- eller samordningsnummer, arbetstillstånd
+        (eller AT-UND) och tillgång till ett bankkonto.
+    bank_account:
+      question: Behöver jag ett eget bankkonto för att söka uppdrag?
+      answer: Nej, det behöver du inte. Däremot behöver du tillgång till ett bankkonto
+        eftersom vi inte kan betala med kontanter.
+    job_accept:
+      question: Varför behöver jag "acceptera" ett uppdragserbjudande när jag redan
+        har sökt ett uppdrag?
+      answer: Vi frågar dig om att acceptera ett uppdragserbjudande för att försäkra
+        oss om att du kan utföra uppdraget.
+    job_reschedule:
+      question: Hur kan jag boka om ett uppdrag ifall jag inte längre kan utföra det?
+      answer: "Om du inte kan utföra ett uppdrag vid utsatt tid och du redan har accepterat
+        uppdraget behöver du kontakta uppdragsgivaren för att ändra tid eller datum.
+        Vi rekommenderar dig att följa \t\növerenskommelsen med uppdragsgivaren."
+    job_refuse:
+      question: Kan jag tacka nej till ett jobb jag redan jar accepterat?
+      answer: Om du redan konfirmerat ett uppdrag och sedan vill avböja erbjudandet
+        så måste du kontakta uppdragsgivaren och kontakta support@justarrived.se.
+    job_confirm:
+      question: Varför behöver jag "Konfirmera" ett uppdrag efter att det är utfört?
+    someone_else:
+      question: Kan jag skicka någon annan för att utföra uppdraget åt mig?
+    get_paid:
+      question: När får jag betalt?
+      answer: Det tar mellan 10 och 40 dagar för din lön att bli utbetalad efter att
+        uppdragsgivaren har konfirmerat att uppdraget har blivit utfört.
+  company:
+    private_person:
+      question: Kan jag skapa uppdrag som privatperson?
+      answer: Du behöver ett organisationsnummer för att kunna använda våra tjänster.
+        Det är för att vi vill ge våra användare möjligheten att komma i kontakt med
+        potentiellt framtida arbetsgivare.
+    job_types:
+      question: Vad för typ av uppdrag kan jag skapa?
+    cancel_job:
+      answer: Du kan när som helst ta bort en annons genom att maila support@justarrived.se
+        fram till du har accepterat en kandidat.
+    confirm_invoice:
+      question: Varför måste jag "Konfirmera" att ett jobb har utförts?
+    job_guarantee:
+      question: Hur kan ni garantera att jobbet kommer utföras?
+    cost:
+      answer: Vi kommer fakturera uppdragsgivaren för det utförda uppdraget. Fakturan
+        skickas till den emailadress som användes när jobbannonsen registrerades,
+        och använder updragstiteln som referens. Det är inte möjligt att betala med
+        kort eller Swish.
+cta_bar:
+  company_title: För företag
+  company_cta_text: Lär dig hur enkelt det är att anställa genom Just Arrived
+  company_cta_link_text: Sätt igång
+  arriver_title: För nyanlända
+  arriver_cta_text: Vad kan Just Arrived göra för dig som letar jobb i Sverige?
+  arriver_cta_link_text: Läs mer
+top_banner_company:
+  title: Vi matchar dig med nyanlända som vill jobba
+  subtitle: Är det stressigt på kontoret med många uppgifter som inte är en del av
+    ditt (eller andras) jobb? Är du i behov av assistans, hjälp till event eller någon
+    som kan hjälpa er?
+  subsubtitle: Varför inte anställa genom Just Arrived?
+company_howto:
+  cta: Anmäl intresse
+  first:
+    title: 1. Registrera
+    first: Registrera ditt intresse.
+    second: Fyll i er företeagsinformation
+    third: Vi kontaktar dig och tillsammans skapar vi ett skräddarsytt jobb.
+  second:
+    title: 2. Just Arrived matchar
+    first: En matchningsprocess initieras.
+    second: Vi utför intervjuer med potentiella kandidater.
+    third: Du kan välja att genomföra ytterligare intervjuer.
+    forth: Du kan välja den kandidat du vill fortsätta med.
+  third:
+    title: 3. Tillsammans slutför vi
+    first: Den utvalda kandidaten startar på överenskommet startdatum.
+    second: En faktura skickas när jobbet har genomförts.
+    third: Vi tar hand om löner, sociala avgifter, skatt och försäkringar.
+    forth: Rejta och ge värdefull feedback till kandidaten.
+companies_why_us:
+  title: Det här är Just Arrived
+  administration: Vi tar hand om all byråkrati och administration, för att göra det
+    enkelt för dig att anställa.
+  responsibility: Vi tar arbetsgivaransvar för kandidaterna.
+  validation: 'För att försäkra en lyckad matchning går alla kandidater igenom Just
+    Arriveds antagningsprocess. '
+  service: Vi är flexibla, responsiva och personliga.
+company_what_we_offer:
+  title: Vår erbjudande
+  signoff:
+    title: 'Och bäst av allt:'
+    body: Du blir en del av lösningen för en hållbar integration.
+  feature_list:
+    flexibility:
+      title: Vi är flexibla
+      body: Vi tillhandahåller rätt kandidat för rätt position och skräddarsyr våran
+        tjänst efter era behov.
+    speed:
+      title: Vi är snabba
+      body: Är det bråttom? Behöver du snabbt fylla en position? Vi kan tillhanda
+        hålla rätt kandidat på 36 timmar.
+    simplicity:
+      title: Enkelt
+      body: Vi tar hand om all administration och arbetsgivaransvar. Skatt, socialaavgifter
+        och försärkingar tas om hand av oss. Vi skickar bara en faktura till er.
+    sustainability:
+      title: Säkert
+      body: Vi vill att ni som bolag bara ska behöva tänka på era behov. Administration,
+        lagar och regler tar vi hand om.
+    prices:
+      title: Pris
+      body: Anställ någon från 149 SEK i timmen. Beställningen måste minst vara 4
+        timmar.
+company_faq_nudge:
+  title: Vill du veta mer?
+company_contact_us:
+  title: Kontakta oss
+arriver_contact_us:
+  title: Har du fortfarande frågor?
+  subtitle: Psst.. kolla vår FAQ
+top_banner_arriver:
+  title: Få erfarenheten du behöver för att komma in på den svenska arbetsmarknaden.
+  subtitle: Genom att matcha dig med svenska företag kan Just arrived hjälpa dig få
+    de referenser du behöver för att komma in på den svenska arbetsmarknaden.
+  cta: Jag vill söka jobb
+arriver_howto:
+  apply:
+    title: 2. Ansök
+    first: Registrera dig och fyll i vårt formulär för att ansöka till Just Arrived.
+      Det tar ett par minuter och registreringen är öppen för alla.
+    second: 'När och hur du blir kontaktad beror på: Vilken stad du bor i, hur många
+      och vilka typer av jobb som är tillgängliga i närheten.'
+    third: En intervju kommer genomföras.
+    cta: Ansök
+  requirements:
+    title: 1. Uppfyll kraven
+    first: Jobbtillstånd (eller AT-UND)
+    second: Bankkonto
+    third: Personnummer eller samordningsnummer
+  service:
+    title: 3. Kom in på arbetsmarknaden
+    first: Du får tillgång till Just Arriveds tjänst
+    second: Skapa en profil och börja söka jobb!
+arriver_faq_nudge:
+  title: Vill du veta mer?
+our_customers:
+  title: Backade av
+arriver_signup_modal:
+  title: Ansök till Just Arrived
+  description: 'Registreringen kommer ta några minter. Syfter är att ge oss all den
+    information vi behöver för att bäst kunna hjälpa dig in i den svenska arbetsmarknaden.
+    Var god fyll i all information så gott du kan. Börja med att välja ett av följande
+    alternativ:'
+  cta_no_reg: Asylsökande
+  cta_reg: Uppehållstillstånd
