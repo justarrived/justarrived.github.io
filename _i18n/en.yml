@@ -61,7 +61,7 @@ nav:
 
 top_banner:
   title: We Give New Arrivals in Sweden a Chance to Enter the Labor Market
-  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
+  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with new arrivals looking for work.
   signup_for_job: Get Started
   arriver_cta: I want a job
 
@@ -92,7 +92,7 @@ companies_engage:
 
 job_opportunities:
   title: Job Opportunities for New Arrivals
-  first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.
+  first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services and match them with new arrivals looking for work.
   second_paragraph: Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.
   emphasis: Are you a new arrival? Apply to qualify and gain access to Just Arrived.
   cta: Sign up to find a job
@@ -193,27 +193,27 @@ faq:
     company_faq: Company FAQ
   general:
     what:
-      question: What is JustArrived?
-      answer: JustArrived is a service created to help people who have immigrated to Sweden to quickly find a job. It’s a digital marketplace enabling businesses to easily hire newly arrived immigrants.
+      question: What is Just Arrived?
+      answer: Just Arrived is a service created to help people who have immigrated to Sweden to quickly find a job. It’s a digital marketplace enabling businesses to easily hire newly arrived immigrants.
     who:
-      question: Who are JustArrived?
+      question: Who are Just Arrived?
       answer: The Just Arrived organisation is governed by a non-profit foundation working to promote the integration of newly arrived immigrants into the Swedish society. The project is set up as a pro bono initiative and has been made possible through a number of engaged organisations and individuals providing their resources. The following organisations and individuals have been involved with the initiative; Universum, Nova, Wintrgarden, Antrop, Caroline He, Yuliya Bilinskaya, Jansson&Norin, Cygni, Bond Street, FrilansFinans, Stockholms Skrivarbyrå, Mattias Bengtsson.
     how:
       question: How does it work?
-      answer: It’s really simple. <br><br> 1. The Employer posts a job vacancy following our ready-made template (1 -2 minutes).<br><br> 2. The employee applies for the job (>1minute.)<br><br> 3. The employer reviews and chooses an applicant (1-3 minutes).<br><br> 4. The employee confirms he or she will do the job (>1min). <br><br>5. Both parties confirm the work has been carried out (>1min).
+      answer: It's really simple. <br><br> 1. The Employer posts a job vacancy by filling out a simple form (1-2 minutes).<br><br> 2. The employee applies for the job (less than a 1 minute).<br><br> 3. The employer reviews and chooses an applicant (1-3 minutes).<br><br> 4. The employee confirms he or she will do the job (less than a 1 minute). <br><br>5. Both parties confirm the work has been carried out (less than a 1 minute).
     cost:
       question: How much does it cost?
-      answer: The service is free of charge. We don’t charge to connect jobseekers and employers – the money billed is paid out to the employee once we have paid social fees, insurances and third-party fees (>5%).
+      answer: The service is free of charge. We don’t charge to connect jobseekers and employers – the money billed is paid out to the employee once we have paid social fees, insurances and third-party fees (less than 5%).
     wages:
       question: How do you set wages?
-      answer: Salaries are set according to recommendations from trade unions. We believe it’s important to offer a reasonable compensation for the jobs we facilitate.
+      answer: Salaries are set according to recommendations from unions. We believe it’s important to offer a reasonable compensation for the jobs we facilitate.
     taxes:
       question: Do you pay taxes and social fees for the employees?
       answer: Yes, we pay employer fees and insurance for all of our contractors.
   arriver:
     what:
       question: What do I need to get a job?
-      answer: You need a valid personal identity number/co-ordination number, a work permit and access to a bank account.
+      answer: You need a valid personal identity number/co-ordination number, a work permit (or AT-UND) and access to a bank account.
     bank_account:
       question: Do I need my own bank account in order to apply for a job?
       answer: No, you don’t. However, you do need access to a bank account as we do not pay in cash.
@@ -228,7 +228,7 @@ faq:
       answer: If you have confirmed an assignment but wish to decline the offer you need to contact your employer as well as support@justarrived.se in order for us to cancel your agreement.
     job_confirm:
       question: Why do I have to "Confirm" once the work is completed?
-      answer: You need to confirm the work has been completed in order for us to know the work is done. As soon as both parties have confirmed this we can send an invoice and start processing payments.
+      answer: You need to confirm the work has been completed in order for us to know the work is done. As soon as the employer have confirmed this we can send an invoice and start processing payments.
     job_overtime:
       question: What do I do if it took longer than stated in the ad to carry out the job?
       answer: We recommend you only work the hours stated in the original ad. If you require additional time to complete the job we recommend you speak with your employer in order to solve the matter. We are looking into adding more hours as a function in the app.
@@ -237,14 +237,14 @@ faq:
       answer: No. By confirming an assignment you are entering into an agreement with your employer. This agreement together with our terms and conditions govern insurance policies as well as payment of social fees for you as a contractor. This means you cannot let somebody else perform the work for you.
     get_paid:
       question: When will I get paid?
-      answer: It takes from 10 to 40 days for your wages to be paid out once both parties have confirmed the work has been completed.
+      answer: It takes from 10 to 40 days for your wages to be paid out once the employer have confirmed the work has been completed.
   company:
     private_person:
       question: Can I create a job ad as a private individual?
       answer: You will need a corporate identity number in order to use the service. This is because we aim to give the contractors the possibility to connect with potential future employers.
     job_types:
       question: What type of jobs can I create?
-      answer: JustArrived supports job ads for close to 2000 occupations (see full list here). Due to insurance policy you are not allowed to post ads for professions such as tattoo artists, surgeons, messengers etc.
+      answer: Just Arrived supports job ads for over to 8000 occupations. Due to insurance policy you are not allowed to post ads for professions such as tattoo artists, surgeons, messengers etc.
     job_description:
       question: Can I edit the work description if conditions change?
       answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
@@ -259,7 +259,7 @@ faq:
       answer: You can remove an ad by emailing support@justarrived.se anytime up until you have accepted a contractor.
     confirm_invoice:
       question: Why do I have to "Confirm" when the work is completed?
-      answer: By confirming the work is completed you are letting us know the job has been carried out. As soon as both parties have confirmed we will send an invoice and start processing payments.
+      answer: By confirming the work is completed you are letting us know the job has been carried out and we will then send you an invoice.
     job_guarantee:
       question: How do you guarantee the job will be carried out?
       answer: This service requires trust and mutual respect between contractor and employer. The service uses a ratings system ensuring quality and promoting an incentive to perform well. Should any conflicts arise regarding the quality of work we are at hand to deal with this.
@@ -306,7 +306,7 @@ companies_why_us:
   administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
   responsibility: We take the employment responsibility for the candidates.
   validation: All candidates have gone through the Just Arrived onboarding process to ensure quality.
-  service: We are flexible, secure and personal.
+  service: We are flexible, responsive and personal.
 
 company_what_we_offer:
   title: Our Offering
@@ -316,26 +316,19 @@ company_what_we_offer:
   feature_list:
     flexibility:
       title: We Are Flexible
-      body: Our services are tailored for your needs. We provide the right candidate for the right position and together we ensure that our services live up to your demands.
+      body: We provide the right candidate for the right position and we tailor our services for your needs.
     speed:
       title: We Are Fast
       body: Is there an urgency? Do you rapidily fill out a position? We can provide you with the right candidate within 36 hours.
     simplicity:
       title: It's Simple
-      body: We handle all administration and take the employment responsibility. Taxes, social fees, and insurance are handled by us. We only bother you with the invoice.
+      body: We handle all administration and take the employment responsibility. Taxes, social fees and insurance are handled by us. We only bother you with the invoice.
     sustainability:
       title: It's Secure
       body: We want you as a company to only think about your needs. Regulations and legal is taken care by us.
     prices:
       title: And the Price is..
       body: Hire someone for as low as 149 SEK per hour. Starting at a minumum of 4 hours.
-
-company_tasks:
-  title: This Is How Companies Use or Service
-  first_paragraph: Companies usilize our service for a wide range of different jobs. Qualified and unqualififed..
-  second_paragraph: Don't hesistate to contact us to learn more about what we at Just Arrived can do for your company.
-  cta_body: Other needs? Givetvis funkar det med Just Arrived.
-  cta: Contact us
 
 company_faq_nudge:
   title: Want to Learn More?
@@ -355,7 +348,7 @@ top_banner_arriver:
 arriver_howto:
   apply:
     title: 2. Apply
-    first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes, and is open for anyone to do.
+    first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes and is open for anyone to do.
     second: When and how you get contacted depends on; In what city you live, how many and what type of jobs we have available at the moment.
     third: An interview will be conducted.
     cta: Apply
