@@ -71,6 +71,16 @@ probably best not to use it. I mean, were you going to anyway? */
 }
 
 
+@mixin giveMeEllipsis($line-height, $number-of-rows) {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: $number-of-rows;        /* number of lines to show */
+   line-height: $line-height;                  /* fallback */
+   max-height: $line-height * $number-of-rows; /* fallback */
+}
+
 /*********************
 MEDIA QUERIES
 *********************/
