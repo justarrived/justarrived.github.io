@@ -1,3 +1,11 @@
+---
+layout: post
+title: A story from our Community Meetup
+tags:
+  - meetup
+  - community
+---
+
 ## A story from our Community Meetup
 
 During Wednesday evening, [Antrop](http://antrop.se/ "Antrop - Design Agency") welcomed Just Arrived together with the community of contributors for a launch of the new website. The office was transformed into a friendly venue with snacks, refreshments and great mingle. The thought was to allow our community to, in each own’s phase be able to catch up with one another.
