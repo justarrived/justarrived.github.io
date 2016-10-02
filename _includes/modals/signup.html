@@ -9,7 +9,7 @@
         <h2 class="bordered bordered--primary module--txt-c">{% t signup_modal.title %}</h2>
         <p>{% t signup_modal.description %}</p>
         <div id="mc_embed_signup">
-          <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
+          <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form js-company-signup-form">
 
             <input type=hidden name="oid" value="00D58000000cNvl">
             <input type=hidden name="retURL" value="{{ site.company_submission_redirect_url }}" id="salesforce_retURL">
@@ -38,16 +38,16 @@
                 <input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required>
               </div>
               <div class="form-col mc-field-group size1of2">
-                <label for="mce-PHONE">{% t form.phone %}</label>
-                <input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE">
+                <label for="mce-PHONE">{% t form.phone %} <span class="asterisk">*</span></label>
+                <input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE" required>
               </div>
               <div class="form-col mc-field-group">
-                <label for="mce-COMPANY">{% t form.company %}</label>
-                <input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY">
+                <label for="mce-COMPANY">{% t form.company %} <span class="asterisk">*</span></label>
+                <input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required>
               </div>
               <div class="form-col form-col--full-width mc-field-group">
-                <label for="mce-CITY">{% t form.city %}</label>
-                <input type="text" value="" name="00N580000088gDR" class="" id="mce-CITY">
+                <label for="mce-CITY">{% t form.city %} <span class="asterisk">*</span></label>
+                <input type="text" value="" name="00N580000088gDR" class="" id="mce-CITY" required>
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
