@@ -6,16 +6,19 @@ cd "$(dirname "$0")/.."
 
 which bundle 2>&1 >/dev/null || {
   echo -e '\n== Please install bundle and then run the script again =='
+  echo -e '  $ gem install bundler'
   exit 1
 }
 
 which npm 2>&1 >/dev/null || {
   echo -e '\n== Please install npm and then run the script again =='
+  echo -e '  See https://nodejs.org/en/'
   exit 1
 }
 
 which grunt 2>&1 >/dev/null || {
   echo -e '\n== Installing grunt-cli =='
+  echo -e '  $ npm install -g grunt-cli'
   npm install -g grunt-cli
 }
 

@@ -25,18 +25,18 @@
       </div>
 
       <div class="nav-right">
-        <a href="/company/"><span>{% t nav.companies %}</span></a>
-        <a href="/arriver/"><span>{% t nav.arrivers %}</span></a>
-        <a href="/faq/"><span>{% t nav.faq %}</span></a>
-        <a href="/about-us/"><span>{% t nav.about_us %}</span></a>
-        <a href="/blog/"><span>{% t nav.blog %}</span></a>
+        <a href="{{ "/company/" | prepend: site.baseurl }}"><span>{% t nav.companies %}</span></a>
+        <a href="{{ "/arriver/" | prepend: site.baseurl }}"><span>{% t nav.arrivers %}</span></a>
+        <a href="{{ "/faq/" | prepend: site.baseurl }}"><span>{% t nav.faq %}</span></a>
+        <a href="{{ "/about-us/" | prepend: site.baseurl }}"><span>{% t nav.about_us %}</span></a>
+        <a href="{{ "/blog/" | prepend: site.baseurl }}"><span>{% t nav.blog %}</span></a>
         <a href="{{ site.app_signin_link }}"><span>{% t nav.login %}</span></a>
       </div>
     </div>
 
 		<!-- <div class="header__btns">
       <a href="{{ site.app_signin_link }}" class="border-btn pull-right"><span>{% t nav.login %}</span></a>
-       <a href="/arriver/" class="primary-btn">{% t nav.job_signup %}</a>
+       <a href="{{ "/arriver/" | prepend: site.baseurl }}" class="primary-btn">{% t nav.job_signup %}</a>
       <a href="#" class="border-btn cd-popup-trigger-promo">{% t nav.promo_code_signin %}</a>
 		</div> -->
 

@@ -7,11 +7,7 @@ layout: none
     <p class="text">
       {% t about_cookies.description %}
 
-      {% if site.lang == 'en' %}
-        <a class="read-more" href="/about-cookies">{% t about_cookies.more_info_link %}</a>
-      {% else %}
-        <a class="read-more" href="/{{ site.lang }}/about-cookies">{% t about_cookies.more_info_link %}</a>
-      {% endif %}
+      <a class="read-more" href="{{ "/about-cookies/" | prepend: site.baseurl }}">{% t about_cookies.more_info_link %}</a>
     </p>
     <div class="cookies-button">
       <button type="button" class="border-btn" id="close">{% t about_cookies.accept_btn_text %}</button>

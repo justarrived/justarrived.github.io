@@ -21,7 +21,7 @@ layout: default
     ">
       <h2 class="bordered bordered--primary">{% t arriver_faq_nudge.title %}</h2>
       <p>
-        <a href="/faq/#arriver" class="border-btn btn-large border-btn--pink">
+        <a href="{{ "/faq/#arriver" | prepend: site.baseurl }}" class="border-btn btn-large border-btn--pink">
           {% t global.arriver_faq %}
         </a> <br>
         {% t global.or %} <br>
