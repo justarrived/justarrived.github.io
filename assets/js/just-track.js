@@ -11,7 +11,13 @@
     return value;
   }
 
-  function trackNewcomerSignup() {
+  function trackNewcomerSignupDone() {
+    if ($('.js-newcomer-register-submit-thanks').length > 0) {
+      analytics.track('Newcomer finished Wintrgarden signup', {});
+    }
+  }
+
+  function trackNewcomerSignupStart() {
     var trackNewcomer = function(selector, regType) {
      $(document).on('click', selector, function() {
        analytics.track('Newcomer start Wintrgarden signup', {
@@ -49,7 +55,8 @@
   var JustTrack = {
     init: function() {
       trackCompanySignup();
-      trackNewcomerSignup();
+      trackNewcomerSignupStart();
+      trackNewcomerSignupDone();
     }
   };
 
