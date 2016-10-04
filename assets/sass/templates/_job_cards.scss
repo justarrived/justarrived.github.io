@@ -1,83 +1,71 @@
 $job-card-width: 280px;
 $job-card-padding: 15px;
 
-  .job-cards-container {
-    margin: 0 auto;
-    max-width: $job-card-width*4+60;
-    text-align: center;
-  }
+.job-cards-container {
+  margin: 0 auto;
+  max-width: $job-card-width*4+60;
+  text-align: center;
+}
 
-  .job-card {
-    // Optimal settings:
-    //   min-width: 240px;
-    //   max-width: 300px;
+.job-card {
+  // Optimal settings:
+  //   min-width: 240px;
+  //   max-width: 300px;
   text-align: left;
   height: 370px;
   width: $job-card-width;
   padding: $job-card-padding;
-    margin: 10px 5px;
+  margin: 10px 5px;
   position: relative;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   vertical-align: top;
-
-    @include tablet {
-      display: inline-block;
-    }
-
-    .job-header {
+  @include tablet {
+    display: inline-block;
+  }
+  .job-header {
     h4 {
       font-size: 20px;
       line-height: 23px;
       color: $black;
-
       //Constrain the hight and number of rows
       @include giveMeEllipsis(22px, 3);
-      }
     }
-
+  }
   .company-name {
     max-width: $job-card-width;
     position: absolute;
     top: 7.5em;
-
     span {
       color: $dark-hot-pink;
       font-weight: bold;
       letter-spacing: normal;
-      }
     }
-
+  }
   .emphasize-title {
-      text-transform: uppercase;
+    text-transform: uppercase;
     display: block;
-    }
-
+  }
   .city-name {
     position: absolute;
     top: 9.5em;
-    }
-
-  .company-name, .emphasize-title {
+  }
+  .company-name,
+  .emphasize-title {
     font-size: 12px;
-    }
-
-    .job-description {
+  }
+  .job-description {
     font-size: 14px;
     color: $black;
     position: absolute;
     top: 10em;
-    }
-
+  }
   .job-meta-info {
     position: absolute;
     top: 13em;
-
     hr {
       width: $job-card-width - 2*$job-card-padding;
       border: 1px solid $gray;
     }
-
     .total-amount {
       .amount {
         color: $dark-hot-pink;
@@ -87,7 +75,6 @@ $job-card-padding: 15px;
       .currency {
         font-size: 24px;
       }
-
       .details {
         font-weight: bold;
         text-transform: uppercase;
