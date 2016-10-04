@@ -274,6 +274,13 @@
   }
 }
 
+.module--txt-weak-c {
+  text-align: left;
+  @include tablet {
+    text-align: center;
+  }
+}
+
 .module--txt-c {
   text-align: center;
 }

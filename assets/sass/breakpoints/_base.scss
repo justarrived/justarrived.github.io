@@ -241,6 +241,13 @@ h5, .h5 {
 			margin: 0 auto 0.6em;
 		}
 	}
+	&.bordered--weak-centered {
+		@include tablet {
+			&:before {
+				margin: 0 auto 0.6em;
+			}
+		}
+	}
 	&.bordered--left {
 		&:before {
 			margin: 0 0 0.6em;
