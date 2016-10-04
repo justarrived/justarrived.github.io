@@ -55,6 +55,13 @@
 	}
 }
 
+.section--hero-flat {
+	& .wrap {
+		float: none;
+		margin: 0 auto;
+	}
+}
+
 .section--hero__social-media {
 	margin-top: 3em;
 	text-align: center;
