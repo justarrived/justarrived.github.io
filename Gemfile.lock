@@ -146,7 +146,7 @@ DEPENDENCIES
   octopress-paginate (~> 1.1)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.0.0p648
 
 BUNDLED WITH
-   1.13.1
+   1.13.2

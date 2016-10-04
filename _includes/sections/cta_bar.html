@@ -7,14 +7,18 @@
   module--txt-c">
 
   <div class="module-content module-content--left-half module-content--border-right">
-    <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.company_title %}</h3>
-    <p class="text">{% t cta_bar.company_cta_text %}</p>
+    <div class="cta-container equal-height">
+      <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.company_title %}</h3>
+      <p class="text">{% t cta_bar.company_cta_text %}</p>
+    </div>
     <a href="{{ "/company/" | prepend: site.baseurl }}" class="primary-btn btn-large">{% t cta_bar.company_cta_link_text %}</a>
   </div>
 
   <div class="module-content module-content--right-half">
-    <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.arriver_title %}</h3>
-    <p class="text">{% t cta_bar.arriver_cta_text %}</p>
+    <div class="cta-container equal-height">
+      <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.arriver_title %}</h3>
+      <p class="text">{% t cta_bar.arriver_cta_text %}</p>
+    </div>
     <a href="{{ "/arriver/" | prepend: site.baseurl }}" class="primary-btn btn-large">{% t cta_bar.arriver_cta_link_text %}</a>
   </div>
 

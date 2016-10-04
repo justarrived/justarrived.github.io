@@ -1,4 +1,9 @@
 .footer {
+  font-size: 14px;
+  & h3 {
+    margin-bottom:5px;
+    font-size: 1.2em;
+  }
   & a {
     color: $white;
     text-decoration: none;
@@ -62,6 +67,7 @@
   }
 
   .footer-col {
+    margin-bottom: 25px;
     text-align: left;
     @include tablet-small {
       width: 50%;
@@ -73,6 +79,10 @@
       width: 25%;
       float: left;
       padding: 0 0.5em;
+    }
+
+    .fa {
+      font-size: 1.8em;
     }
   }
 }

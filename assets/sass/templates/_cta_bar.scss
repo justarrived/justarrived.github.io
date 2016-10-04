@@ -4,16 +4,34 @@
   }
   & .module-content {
     text-align: center;
-    margin-top: 20px;
+//    margin-top: 20px;
     @include tablet {
       margin-top: 0;
     }
   }
   & .text {
     color: $black;
-    height: 50px;
     font-size: 1.2rem;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    @include tablet {
+      padding-bottom: 15px;
+    }
+  }
+
+  .module-content {
+    &:last-child {
+      border-top: 1px solid $stone;
+      padding-top: 30px;
+      margin-top: 35px;
+      margin-bottom: 0px;
+      @include tablet {
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
   }
 }

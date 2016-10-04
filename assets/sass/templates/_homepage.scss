@@ -1,6 +1,7 @@
 .section--hero {
 	text-align: center;
 	background-position: left center;
+	background-color: $cerise;
 	& .table {
 		min-height: 250px;
 		@include tablet {
@@ -21,7 +22,7 @@
 		}
 	}
 	& p {
-		max-width: 400px;
+		max-width: 480px;
     margin-left: auto;
     margin-right: auto;
 	}
@@ -47,14 +48,10 @@
 		}
 	}
 	& .module__overlay {
-		background: transparentize($charcoal-medium, 0.3);
+		background: transparentize($dark-cerise, 0.3);
 		@include desktop {
-			background: transparentize($charcoal-medium, 0.9);
+			background: transparentize($dark-cerise, 0.9);
 		}
-	}
-	@include desktop {
-		background-color: $cerise;
-
 	}
 }
 

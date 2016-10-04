@@ -8,21 +8,18 @@
   {% else %}
     module--black
     module--gray-bg
-    module--txt-c
   {% endif %}">
   <div class="wrap">
+    <div class="module-content module-content--right">
+      <div class="profile-circle {{ include.profile_image_class }}"></div>
+    </div>
+
     <div class="module-content module-content--left">
       <p class="testimonial-body">
         <span class="testimonial-quote-icon">"</span>
         {{ include.body }}
       </p>
-      <p>
-        <p class="testimonial-meta-author">{{ include.author }}</p>
-      </p>
-    </div>
-
-    <div class="module-content module-content--right">
-      <div class="profile-circle {{ include.profile_image_class }}"></div>
+      <p class="testimonial-meta-author">{{ include.author }}</p>
     </div>
   </div>
 </section>
