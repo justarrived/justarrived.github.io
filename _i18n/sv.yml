@@ -11,11 +11,11 @@ global:
   youtube: Youtube
   thank_you: Tack!
   company_faq: FöretagsFAQ
-  arriver_faq: Nyanlända FAQ
+  newcomer_faq: Nyanlända FAQ
   contact_us: Kontakta oss
   example_jobs: Ett urval av våra nuvarande jobb
   example_company_jobs: Ett urval av våra nuvarande jobb
-  example_arriver_jobs: Ett urval av våra nuvarande jobb
+  example_newcomer_jobs: Ett urval av våra nuvarande jobb
   more_company_info: Företagsinfo
   apply: Ansök
   or: eller
@@ -54,7 +54,7 @@ nav:
   about_us: Om oss
   login: Logga in
   companies: För Företag
-  arrivers: För Nyanlända
+  newcomers: För Nyanlända
   blog: Blogg
   faq: FAQ
 top_banner:
@@ -63,7 +63,7 @@ top_banner:
     det enkelt för företag att lägga upp enkla uppdrag och tjänster som sedan matchas
     med nyanlända som söker jobb.
   signup_for_job: Sätt igång
-  arriver_cta: Jag Vill Jobba
+  newcomer_cta: Jag Vill Jobba
 promo_code:
   title: Skriv din promokod
   description: Om du har fått en promokod, var vänlig skriv den här
@@ -194,7 +194,7 @@ footer:
   get_started:
     title: Sätt igång
     login: Logga in
-    candidate_registration: Arriver registrering
+    candidate_registration: Newcomer registrering
     post_job: Lägg upp jobb
   about_us:
     title: Om oss
@@ -208,7 +208,7 @@ footer:
 faq:
   links:
     general_faq: Generell FAQ
-    arriver_faq: FAQ för nyanlända
+    newcomer_faq: FAQ för nyanlända
     company_faq: FAQ för företag
   general:
     what:
@@ -247,7 +247,7 @@ faq:
     taxes:
       question: Betalar ni skatt och socialaavgifter för anställda?
       answer: Ja, vi betalar alltid arbetsgivaravgifter och försäkringar.
-  arriver:
+  newcomer:
     what:
       question: Vad behöver jag för att skaffa ett jobb?
       answer: Du behöver ett gilltigt person- eller samordningsnummer, arbetstillstånd
@@ -302,9 +302,9 @@ cta_bar:
   company_title: För företag
   company_cta_text: Lär dig hur enkelt det är att anställa genom Just Arrived
   company_cta_link_text: Sätt igång
-  arriver_title: För nyanlända
-  arriver_cta_text: Vad kan Just Arrived göra för dig som letar jobb i Sverige?
-  arriver_cta_link_text: Läs mer
+  newcomer_title: För nyanlända
+  newcomer_cta_text: Vad kan Just Arrived göra för dig som letar jobb i Sverige?
+  newcomer_cta_link_text: Läs mer
 top_banner_company:
   title: Vi matchar dig med nyanlända som vill jobba
   subtitle: Är det stressigt på kontoret med många uppgifter som inte är en del av
@@ -368,15 +368,15 @@ company_faq_nudge:
   title: Vill du veta mer?
 company_contact_us:
   title: Kontakta oss
-arriver_contact_us:
+newcomer_contact_us:
   title: Har du fortfarande frågor?
   subtitle: Psst.. kolla vår FAQ
-top_banner_arriver:
+top_banner_newcomer:
   title: Få erfarenheten du behöver för att komma in på den svenska arbetsmarknaden.
-  subtitle: Genom att matcha dig med svenska företag kan Just arrived hjälpa dig få
+  subtitle: Genom att matcha dig med svenska företag kan Just Arrived hjälpa dig få
     de referenser du behöver för att komma in på den svenska arbetsmarknaden.
   cta: Jag vill söka jobb
-arriver_howto:
+newcomer_howto:
   apply:
     title: 2. Ansök
     first: Registrera dig och fyll i vårt formulär för att ansöka till Just Arrived.
@@ -394,11 +394,11 @@ arriver_howto:
     title: 3. Kom in på arbetsmarknaden
     first: Du får tillgång till Just Arriveds tjänst
     second: Skapa en profil och börja söka jobb!
-arriver_faq_nudge:
+newcomer_faq_nudge:
   title: Vill du veta mer?
 our_customers:
   title: Backade av
-arriver_signup_modal:
+newcomer_signup_modal:
   title: Ansök till Just Arrived
   description: 'Registreringen kommer ta några minter. Syfter är att ge oss all den
     information vi behöver för att bäst kunna hjälpa dig in i den svenska arbetsmarknaden.

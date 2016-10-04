@@ -10,7 +10,7 @@
         <h3>{% t footer.get_started.title %}</h3>
         <ul class="footer-link-list">
           <li><a href="{{ site.app_signin_link }}">{% t footer.get_started.login %}</a></li>
-          <li><a href="#" class="cd-popup-trigger-arriver-signup">{% t footer.get_started.candidate_registration %}</a></li>
+          <li><a href="#" class="cd-popup-trigger-newcomer-signup">{% t footer.get_started.candidate_registration %}</a></li>
           <li><a href="#" class="cd-popup-trigger-signin">{% t footer.get_started.post_job %}</a></li>
         </ul>
       </div>
@@ -25,10 +25,10 @@
       <div class="footer-col">
         <h3>{% t footer.follow_us.title %}</h3>
         <div class="social-links">
-          <a href="{{site.facebook_url}}"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-          <a href="{{site.twitter_url}}"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-          <a href="{{site.instagram_url}}"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-          <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <a href="{{site.facebook_url}}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="{{site.twitter_url}}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a href="{{site.instagram_url}}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="footer-col">
@@ -57,4 +57,4 @@
 
 {% include modals/signup.html %}
 {% include modals/promo_code.html %}
-{% include modals/arriver_signup.html %}
+{% include modals/newcomer_signup.html %}

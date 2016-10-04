@@ -37,8 +37,11 @@
   .testimonial-body {
     margin-top: 20px; // Magic margin: vertically middle aligns the quote body with the profile image
     font-style: italic;
-    text-align: right;
+    text-align: center;
     font-size: 1.2rem;
+    @include tablet {
+    text-align: right;
+    }
   }
 
   .body-divider {
@@ -46,9 +49,11 @@
   }
 
   .testimonial-meta-author {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    @include tablet {
     text-align: right;
-    margin-top: 30px;
-    font-size: 1.1rem;
-    font-style: italic;
+    }
   }
 }
