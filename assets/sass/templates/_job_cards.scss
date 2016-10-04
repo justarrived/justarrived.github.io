@@ -3,14 +3,11 @@ $job-card-padding: 15px;
 
 .job-cards-container {
   margin: 0 auto;
-  max-width: $job-card-width*4+60;
+  max-width: $job-card-width * 4 + 60;
   text-align: center;
 }
 
 .job-card {
-  // Optimal settings:
-  //   min-width: 240px;
-  //   max-width: 300px;
   text-align: left;
   height: 370px;
   width: $job-card-width;
@@ -63,7 +60,7 @@ $job-card-padding: 15px;
     position: absolute;
     top: 13em;
     hr {
-      width: $job-card-width - 2*$job-card-padding;
+      width: $job-card-width - 2 * $job-card-padding;
       border: 1px solid $gray;
     }
     .total-amount {
