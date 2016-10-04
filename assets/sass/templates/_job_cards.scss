@@ -1,15 +1,29 @@
 $job-card-width: 280px;
+$job-card-desktop-width: 240px;
+$job-card-tablet-width: 212px;
 $job-card-padding: 15px;
+
+.job-cards-list {
+  & li {
+    display: inline-block;
+  }
+}
 
 .job-cards-container {
   margin: 0 auto;
   max-width: $job-card-width * 4 + 60;
   text-align: center;
+
+  @media (min-width: 768px) and (max-width: 1125px) {
+    .job-cards-list li:last-child .job-card {
+      display: none;
+    }
+  }
 }
 
 .job-card {
   text-align: left;
-  height: 370px;
+  height: 350px;
   width: $job-card-width;
   padding: $job-card-padding;
   margin: 10px 5px;
@@ -18,6 +32,15 @@ $job-card-padding: 15px;
   vertical-align: top;
   @include tablet {
     display: inline-block;
+    width: $job-card-tablet-width;
+    .job-header {
+      h4 {
+        font-size: 18px;
+      }
+    }
+  }
+  @include desktop {
+    width: $job-card-desktop-width;
   }
   .job-header {
     h4 {
@@ -29,9 +52,18 @@ $job-card-padding: 15px;
     }
   }
   .company-name {
-    max-width: $job-card-width;
+    max-width: $job-card-width - 30px;
     position: absolute;
     top: 7.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    @include tablet {
+      max-width: $job-card-tablet-width - 30px;
+    }
+    @include desktop {
+      max-width: $job-card-desktop-width - 30px;
+    }
     span {
       color: $dark-hot-pink;
       font-weight: bold;
@@ -55,6 +87,7 @@ $job-card-padding: 15px;
     color: $black;
     position: absolute;
     top: 10em;
+    margin-right: 10px;
   }
   .job-meta-info {
     position: absolute;
@@ -62,6 +95,12 @@ $job-card-padding: 15px;
     hr {
       width: $job-card-width - 2 * $job-card-padding;
       border: 1px solid $gray;
+      @include tablet {
+        width: $job-card-tablet-width - 2 * $job-card-padding;
+      }
+      @include desktop {
+        width: $job-card-desktop-width - 2 * $job-card-padding;
+      }
     }
     .total-amount {
       .amount {
@@ -76,13 +115,13 @@ $job-card-padding: 15px;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 12px;
+        @include tablet {
+          font-size: 11px;
+        }
+        @include desktop {
+          font-size: 12px;
+        }
       }
     }
-  }
-}
-
-.job-cards-list {
-  & li {
-    display: inline-block;
   }
 }
