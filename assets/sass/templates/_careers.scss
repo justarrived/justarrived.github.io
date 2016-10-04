@@ -1,0 +1,19 @@
+.section--career-hero {
+  & h1 {
+    font-size: 4em;
+    margin-top: 25px;
+  }
+}
+
+.module--careers {
+  max-width: 786px;
+  margin: 0 auto;
+  ul {
+    padding: 0 20px;
+    list-style: disc;
+  }
+  h3, h4, h5 {
+    margin-top: 32px;
+    margin-bottom: 5px;
+  }
+}

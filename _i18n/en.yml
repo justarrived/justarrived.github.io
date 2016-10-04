@@ -129,6 +129,7 @@ join_us:
 meet_the_team:
   title: Meet the Team
   description: We're a group of 150 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for Newcomers to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.
+  careers_link_text: We're hiring
 
 our_product:
   title: Our Product
@@ -385,3 +386,6 @@ hourly_pay_calculator:
   net_salary: Net Salary
   rate_excluding_vat: Excluding VAT
   rate_including_vat: Including VAT
+
+careers:
+  title: Careers
