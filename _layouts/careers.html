@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+{% include head.html %}
+
+{% capture locale_direction %}{% if site.rtl_languages contains site.lang %}rtl{% else %}ltr{% endif %}{% endcapture %}
+<body data-lang="{{ site.lang }}" class="{{ site.lang }}-locale {{ locale_direction }}-locale-direction" itemscope="" itemtype="http://schema.org/WebPage">
+
+  <div class="container">
+    {% include nav.html %}
+
+    {% include sections/careers_top_banner.html %}
+
+    <div id="content">
+      <section class="
+        module--careers
+        module
+        module--white-bg
+        module--padding
+        module--black">
+        <div class="wrap">
+          <div class="module-content">
+            {{ content }}
+          </div>
+        </div>
+      </section>
+    </div>
+
+    {% include footer.html %}
+  </div>
+
+{% include bottom.html %}
+
+</body>
+
+</html>
