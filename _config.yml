@@ -16,7 +16,7 @@
 title: Just Arrived
 email: hej@justarrived.se
 description: > # this means to ignore newlines until "baseurl:"
-  Helping new arrivals in Sweden enter the labor market.
+  Helping newcomers in Sweden enter the labor market.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://justarrived.se" # the base hostname & protocol for your site
 twitter_username: justarrivedse

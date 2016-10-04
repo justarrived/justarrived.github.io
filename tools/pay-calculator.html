@@ -18,11 +18,11 @@ description: Hourly pay calculator
     module-content--centered
     module--black
     ">
-        <h2 class="bordered bordered--primary bordered--centered module--txt-c">Pay Calculator</h2>
+        <h2 class="bordered bordered--primary bordered--centered module--txt-c">{% t hourly_pay_calculator.title %}</h2>
 
         <form action="/hourly-pays" method="GET" class="js-pay-calculator-form" onsubmit="payCalculatorFormSubmit(); return false;">
           <div class="form-col form-col--full-width">
-            <label for="gross_salary">Gross Salary <span class="asterisk">*</span></label>
+            <label for="gross_salary">{% t hourly_pay_calculator.gross_salary %} <span class="asterisk">*</span></label>
             <input type="number" value="" name="gross_salary" class="required" id="gross_salary" required>
           </div>
 
@@ -36,10 +36,10 @@ description: Hourly pay calculator
 
             <table class="boring-table full-width">
               <tr>
-                <td>Gross</td>
-                <td>Net</td>
-                <td>Excluding VAT</td>
-                <td>Including VAT</td>
+                <td>{% t hourly_pay_calculator.gross_salary %}</td>
+                <td>{% t hourly_pay_calculator.net_salary %}</td>
+                <td>{% t hourly_pay_calculator.rate_excluding_vat %}</td>
+                <td>{% t hourly_pay_calculator.rate_including_vat %}</td>
               </tr>
               <tr>
                 <td id='js-gross-salary-result'></td>

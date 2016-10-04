@@ -605,10 +605,10 @@ var timeToWaitForLast = 100;
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-	// Open arriver signup popup
-	$('.cd-popup-trigger-arriver-signup').on('click', function(event){
+	// Open newcomer signup popup
+	$('.cd-popup-trigger-newcomer-signup').on('click', function(event){
     event.preventDefault();
-    $('.cd-popup-arriver-signup').addClass('is-visible');
+    $('.cd-popup-newcomer-signup').addClass('is-visible');
   });
 
   //open signup popup
