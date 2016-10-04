@@ -10,11 +10,11 @@ global:
   youtube: Youtube
   thank_you: Thank you!
   company_faq: Company FAQ
-  arriver_faq: Arriver FAQ
+  newcomer_faq: Newcomer FAQ
   contact_us: Contact us
   example_jobs: A selection of our current jobs
   example_company_jobs: A selection of our current jobs
-  example_arriver_jobs: A selection of our current jobs
+  example_newcomer_jobs: A selection of our current jobs
   more_company_info: Company info
   apply: Apply
   or: or
@@ -58,15 +58,15 @@ nav:
   about_us: About us
   login: Login
   companies: For Companies
-  arrivers: For Arrivers
+  newcomers: For Newcomers
   blog: Blog
   faq: FAQ
 
 top_banner:
-  title: We Give New Arrivals in Sweden a Chance to Enter the Labor Market
-  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with new arrivals looking for work.
+  title: We Give Newcomers in Sweden a Chance to Enter the Labor Market
+  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
   signup_for_job: Get Started
-  arriver_cta: I want a job
+  newcomer_cta: I want a job
 
 promo_code:
   title: Enter Your Promo Code
@@ -80,7 +80,7 @@ signup_modal:
 
 be_the_change:
   title: Be the Change
-  description_start: 'In 2015, more than 160,000 people applied for asylum in Sweden. These are people like you and me, with the same needs and desires. However, statistics show that it takes many years for most new arrivals to get a job and support themselves in Sweden.*'
+  description_start: 'In 2015, more than 160,000 people applied for asylum in Sweden. These are people like you and me, with the same needs and desires. However, statistics show that it takes many years for most newcomers to get a job and support themselves in Sweden.*'
   description_emphasis: Now, Swedish companies have the opportunity to make a difference.
   description_end: Just Arrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.
   description_asterix: '* After ten years, only 60% of all immigrants have a job by which they can support themselves. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
@@ -94,10 +94,10 @@ companies_engage:
   cta: Find out more
 
 job_opportunities:
-  title: Job Opportunities for New Arrivals
-  first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services and match them with new arrivals looking for work.
+  title: Job Opportunities for Newcomers
+  first_paragraph: We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
   second_paragraph: Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.
-  emphasis: Are you a new arrival? Apply to qualify and gain access to Just Arrived.
+  emphasis: Are you a newcomer? Apply to qualify and gain access to Just Arrived.
   cta: Sign up to find a job
 
 contribute:
@@ -128,11 +128,11 @@ join_us:
 
 meet_the_team:
   title: Meet the Team
-  description: We're a group of 150 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.
+  description: We're a group of 150 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for Newcomers to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.
 
 our_product:
   title: Our Product
-  description: 'Just Arrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:'
+  description: 'Just Arrived is a digital application that matches Newcomers in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:'
   feature_list:
     first: Swedish company posts an assigment (from 1 hour to 6 months) on the application without cost
     second: 'New Arrival can register a digital CV and apply for the assigment*'
@@ -172,13 +172,13 @@ about_cookies:
   accept_btn_text: OK
 
 vasbyhem_testimonial:
-  first_body: Just Arrived removes all barriers working with new arrivals.
+  first_body: Just Arrived removes all barriers working with newcomers.
 
 footer:
   get_started:
     title: Get Started
     login: Login
-    candidate_registration: Arriver registration
+    candidate_registration: Newcomer registration
     post_job: Post job
   about_us:
     title: About Us
@@ -193,7 +193,7 @@ footer:
 faq:
   links:
     general_faq: General FAQ
-    arriver_faq: Arriver FAQ
+    newcomer_faq: Newcomer FAQ
     company_faq: Company FAQ
   general:
     what:
@@ -214,7 +214,7 @@ faq:
     taxes:
       question: Do you pay taxes and social fees for the employees?
       answer: Yes, we pay employer fees and insurance for all of our contractors.
-  arriver:
+  newcomer:
     what:
       question: What do I need to get a job?
       answer: You need a valid personal identity number/co-ordination number, a work permit (or AT-UND) and access to a bank account.
@@ -252,7 +252,7 @@ faq:
     job_description:
       question: Can I edit the work description if conditions change?
       answer: You cannot change your ad once it is posted. If you wish to make minor changes such as time or address we recommend you communicate this directly to the contractor. If you wish to change types of job or number of hours we recommend you remove the ad and create a new one.
-    contact_arriver:
+    contact_newcomer:
       question: How do I communicate with candidates before I've hired someone?
       answer: You can chat via the app with contractors who have applied for your job placement. The chat supports translation through Google Translate.
     reschedule:
@@ -275,12 +275,12 @@ cta_bar:
   company_title: For Companies
   company_cta_text: Learn how easy it is to hire through Just Arrived
   company_cta_link_text: Get Started
-  arriver_title: For Arrivers
-  arriver_cta_text: Find out how Just Arrived can help you get a job in Sweden
-  arriver_cta_link_text: Read more
+  newcomer_title: For Newcomers
+  newcomer_cta_text: Find out how Just Arrived can help you get a job in Sweden
+  newcomer_cta_link_text: Read more
 
 top_banner_company:
-  title: We Match You With New Arrivals Who Are Eager to Work
+  title: We Match You With Newcomers Who Are Eager to Work
   subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
   subsubtitle: Why not hire through Just Arrived?
 
@@ -340,16 +340,16 @@ company_faq_nudge:
 company_contact_us:
   title: Contact Us
 
-arriver_contact_us:
+newcomer_contact_us:
   title: Still Got Questions?
   subtitle: Psst.. check out our FAQ
 
-top_banner_arriver:
+top_banner_newcomer:
   title: Get the Experience You Need to Enter the Swedish Labor Market
   subtitle: By matching you with Swedish companies Just Arrived helps you get the credentials you need to enter the Swedish labor market.
   cta: I want a job
 
-arriver_howto:
+newcomer_howto:
   apply:
     title: 2. Apply
     first: Register and fill out our form to apply to Just Arrived. This will take a couple of minutes and is open for anyone to do.
@@ -367,14 +367,21 @@ arriver_howto:
     second: Create your profile and start applying for jobs!
 
 
-arriver_faq_nudge:
+newcomer_faq_nudge:
   title: Want to Learn More?
 
 our_customers:
   title: Backed By
 
-arriver_signup_modal:
+newcomer_signup_modal:
   title: Apply to Just Arrived
   description: 'This registration will take a couple of minutes. Its purpose is to give us all the information we need to be able to know how best to help you on your way into the Swedish labor market. Please fill out the information the best you can. Start by choosing one of the following:'
   cta_no_reg: Asylum seeker
   cta_reg: Recidence permit
+
+hourly_pay_calculator:
+  title: Hourly pay calculator
+  gross_salary: Gross Salary
+  net_salary: Net Salary
+  rate_excluding_vat: Excluding VAT
+  rate_including_vat: Including VAT
