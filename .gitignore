@@ -10,3 +10,5 @@ tmp/
 # Ignore locale folders
 ar/
 sv/
+
+Gemfile.lock
