@@ -37,3 +37,17 @@ __Pull translations__, pull translated content from Transifex.
 ```
 script/pull-translations
 ```
+
+## Event tracking
+
+There is a very simple way of adding tracking events to elements on the page.
+
+__Example__:
+
+```html
+<a href="#"
+  data-track="click"
+  data-track-label="Newcomer reg. popup">
+```
+
+`click` is the default value for `data-track` unless something else is explicitly set.

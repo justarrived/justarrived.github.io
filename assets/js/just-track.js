@@ -52,11 +52,29 @@
     });
   }
 
+  function initTrackOfDOMElements() {
+    $('[data-track]').each(function() {
+      var $element = $(this);
+      var eventName = $element.attr('data-track') || 'click';
+      var label = $element.attr('data-track-label');
+
+      if (label) {
+        // Add event listener to element
+        $(document).on(eventName, function() {
+          analytics.track(label, {});
+        });
+      } else {
+        console.error('[just-track] data-track-label can *not* be blank!')
+      }
+    });
+  }
+
   var JustTrack = {
     init: function() {
       trackCompanySignup();
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
+      initTrackOfDOMElements();
     }
   };
 
