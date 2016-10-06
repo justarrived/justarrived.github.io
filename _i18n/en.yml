@@ -379,7 +379,7 @@ newcomer_signup_modal:
   title: Apply to Just Arrived
   description: 'This registration will take a couple of minutes. Its purpose is to give us all the information we need to be able to know how best to help you on your way into the Swedish labor market. Please fill out the information the best you can. Start by choosing one of the following:'
   cta_no_reg: I am an asylum seeker
-  cta_reg: I have a recidence permit
+  cta_reg: I have a residence permit
 
 hourly_pay_calculator:
   title: Hourly pay calculator
