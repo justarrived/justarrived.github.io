@@ -11,8 +11,24 @@
           <h1>{% t top_banner.title %}</h1>
           <p>{% t top_banner.subtitle %}</p>
           <div class="section--hero__social-media">
-            <a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" rel="noopener noreferrer" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}</a>
-            <a href="https://twitter.com/JustArrivedSE" title="Twitter" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}</a>
+            <a href="https://www.facebook.com/JustArrivedSE/"
+              title="Facebook"
+              rel="noopener noreferrer"
+              target="_blank"
+              data-track="click"
+              data-track-label="Top banner Facebook click">
+              <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
+            </a>
+
+            <a href="https://twitter.com/JustArrivedSE"
+              title="Twitter"
+              rel="noopener noreferrer"
+              target="_blank"
+              data-track="click"
+              data-track-label="Top banner Twitter click">
+              <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
+            </a>
+
           </div>
         </div>
       </div>
