@@ -7,14 +7,12 @@ tags:
 
 This post will, hopefully, be one of many posts about what its like to be an engineering/developer at Just Arrived.
 
-There are many things that makes Just Arrived unique as a startup. One of those things is that we need to support multiple language, even right-to-left languages, from the start, while most other companies can defer that complexity to much much later (if ever!).
+There are many things that make Just Arrived unique as a startup. One of those things is that we need to support multiple languages, even right-to-left languages, from the start, while most other companies can defer that complexity to much much later (if ever!).
 
-This is a short story about one of the many challenges building multi-lingual applications, with right-to-left support.
-
-I've been developing for the web for more than 5 years and i recently learnt something that I've never encountered before, namely the css property `unicode-bidi` (heard of it before??).
+I've been developing for the web for more than 5 years and I recently encountered something new, namely the css property `unicode-bidi` (heard of it before?).
 
 Recently we did a major upgrade of our website. We moved justarrived.se from Wordpress to Jekyll as well as restructured and rewrote a lot of the content for the site.
-One, seemingly small, thing that we designed was a "contact us" section where the names, roles, email and phone numbers for each of our team members where to be displayed. It got built real fast and everything seemed to have worked up until we tested the site in Arabic.
+One, seemingly small, thing that we did was to design a "contact us" section where the names, roles, email and phone numbers for each of our team members where to be displayed. It got built real fast and everything seemed to have worked up until we tested the site in Arabic.
 
 > Huston we have a problem...
 
@@ -37,4 +35,4 @@ The solution was to add (we use SASS):
 
 You can read more about `unicode-bidi` [over at w3schools](http://www.w3schools.com/cssref/pr_text_unicode-bidi.asp).
 
-Just one of those things that really tells you how mature the web has become and one of the unique challenges we at Just Arrived face on a day to day basis.
+Just one of those things that you usually don't have to think about when building websites and applications. This is just one example of what unique challenges we at Just Arrived face on a day to day basis.
