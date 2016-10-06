@@ -48,4 +48,4 @@ __Are you ready to take on this challenge?__
 
 For more info contact our CEO, Andreas König - [andreas@justarrived.se](mailto:andreas@justarrived.se).
 
-<a href="https://wgtrm.com/dc/#justarrived.am3" class="primary-btn">Apply Here</a>
+<a href="https://wgtrm.com/dc/#justarrived.jaam1" class="primary-btn">Apply Here</a>
