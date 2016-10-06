@@ -11,7 +11,7 @@ global:
   youtube: Youtube
   thank_you: Tack!
   company_faq: FöretagsFAQ
-  newcomer_faq: Nyanlända FAQ
+  newcomer_faq: FAQ för nyanlända
   contact_us: Kontakta oss
   example_jobs: Ett urval av våra nuvarande jobb
   example_company_jobs: Ett urval av våra nuvarande jobb
@@ -40,6 +40,9 @@ form:
   job_end_date: Slutdatum
   job_hours: Timmar
   job_no_of_people: Antal personer
+  company_fields:
+    accept_frilans_finans_start: Jag accepterar Frilans Finans
+    accept_frilans_finans_end: villkor
   placeholder:
     competencies: 'Exempel: MS Office erfarenhet, Ekonomiskbakgrund eller Ingen'
     languages: 'Exempel: Svenska eller engelska'
@@ -55,16 +58,16 @@ nav:
   about_us: Om oss
   login: Logga in
   companies: För Företag
-  newcomers: För Nyanlända
+  newcomers: För nyanlända
   blog: Blogg
   faq: FAQ
 top_banner:
-  title: Vi Ger Nyanlända i Sverige en Chans att Komma in på Arbetsmarknaden
-  subtitle: Vi sammanför nyanlända med svenska företag. Våran digitala plattform gör
-    det enkelt för företag att lägga upp enkla uppdrag och tjänster som sedan matchas
-    med nyanlända som söker jobb.
+  title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
+  subtitle: Vi sammanför nyanlända med svenska företag som behöver hjälp med dagliga
+    aktiviteter. Vår digitala plattform gör det enkelt för företag att lägga upp enkla
+    uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
   signup_for_job: Sätt igång
-  newcomer_cta: Jag Vill Jobba
+  newcomer_cta: Jag vill söka jobb
 promo_code:
   title: Skriv din promokod
   description: Om du har fått en promokod, var vänlig skriv den här
@@ -98,7 +101,7 @@ companies_engage:
     nya anställda.
   cta: Läs mer
 job_opportunities:
-  title: Jobbtillfällen för Nyanlända
+  title: Jobbmöjligheter för nyanlända
   first_paragraph: Vi sammanför nyanlända med svenska företag som behöver hjälp med
     dagliga aktiviteter. Vår digitala plattform gör det enkelt för företag att lägga
     upp enkla uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
@@ -106,7 +109,7 @@ job_opportunities:
     Vi tillåter företaget och den nyanlända att recensera varandra, vilket ger references
     som gör det möjligt för nyanlända att få ytterligare anställningar. Just Arrived
     tar arbetsgivaransvar för alla de som får jobb via plattformen.
-  emphasis: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till just
+  emphasis: Är du nyanländ? Ansök för att kvalificera dig och få tillgång till Just
     Arrived.
   cta: Registrera dig för att hitta ett jobb
 contribute:
@@ -144,6 +147,7 @@ meet_the_team:
     samhället. Vi letar alltid efter fler passionerade individer, oavsett ifall de
     representerar sig själva eller en organisation. För nuvarande behov, se sektionen
     Gå med nedan.
+  careers_link_text: Vi söker medarbetare
 our_product:
   title: Vår produkt
   description: 'Just Arrived är en digital platform som matchar nyanlända i Sverige
@@ -195,7 +199,7 @@ footer:
   get_started:
     title: Sätt igång
     login: Logga in
-    candidate_registration: Newcomer registrering
+    candidate_registration: Registrering för nyanlända
     post_job: Lägg upp jobb
   about_us:
     title: Om oss
@@ -213,12 +217,12 @@ faq:
     company_faq: FAQ för företag
   general:
     what:
-      question: Vad är Just Arrived?
-      answer: Just Arrived är en tjänst skapad för att hjälpa människor som har kommit
-        till Sveriga att snabbt hitta arbete. Det är en digital marknadsplats som
-        gör det möjligt för företag att enkelt anställa nyanlända.
-    who:
       question: Vilka är Just Arrived?
+      answer: Just Arrived är en tjänst skapad för att hjälpa människor som har immigrerat
+        till Sverige att snabbt hitta ett jobb. Tjänsten är en digital marknadsplats
+        som gör det enkelt för företag att anställa nyanlända.
+    who:
+      question: Vilka ligger bakom Just Arrived?
       answer: Organisationen Just Arrived styrs av en icke vinstdrivande stiftelse
         som arbetar för att främja integrerandet av nyanlända in i det svenska samhället.
         Projektet har satts upp som ett pro bono initiativ och har gjorts möjligt
@@ -250,31 +254,43 @@ faq:
       answer: Ja, vi betalar alltid arbetsgivaravgifter och försäkringar.
   newcomer:
     what:
-      question: Vad behöver jag för att skaffa ett jobb?
-      answer: Du behöver ett gilltigt person- eller samordningsnummer, arbetstillstånd
+      question: Vad behöver jag för att få ett jobb?
+      answer: Du behöver ett giltigt person- eller samordningsnummer, ett jobbtillstånd
         (eller AT-UND) och tillgång till ett bankkonto.
     bank_account:
-      question: Behöver jag ett eget bankkonto för att söka uppdrag?
+      question: Behöver jag mitt eget bankkonto för att kunna söka ett jobb?
       answer: Nej, det behöver du inte. Däremot behöver du tillgång till ett bankkonto
-        eftersom vi inte kan betala med kontanter.
+        eftersom vi inte kan betala ut kontanter.
     job_accept:
-      question: Varför behöver jag "acceptera" ett uppdragserbjudande när jag redan
-        har sökt ett uppdrag?
-      answer: Vi frågar dig om att acceptera ett uppdragserbjudande för att försäkra
-        oss om att du kan utföra uppdraget.
+      question: Varför måste jag "acceptera" ett jobberbjudande efter att jag redan
+        sökt ett jobb?
+      answer: Vi frågar om en konfirmation av jobbet för att försäkra oss att du verkligen
+        kommer utföra jobbet.
     job_reschedule:
-      question: Hur kan jag boka om ett uppdrag ifall jag inte längre kan utföra det?
-      answer: "Om du inte kan utföra ett uppdrag vid utsatt tid och du redan har accepterat
-        uppdraget behöver du kontakta uppdragsgivaren för att ändra tid eller datum.
-        Vi rekommenderar dig att följa \t\növerenskommelsen med uppdragsgivaren."
+      question: Kan jag boka om ifall jag inte kan genomföra uppdraget?
+      answer: Om du redan konfirmerat ett jobb och sedan inte kan utföra jobbet på
+        bestämt datum, så måste du kontakta din arbetsgivare för att ändra start-
+        eller sluttid. Vi rekommenderar dig dock att utföra jobbet efter det ni bestämde
+        vid konfirmationstillfället.
     job_refuse:
       question: Kan jag tacka nej till ett jobb jag redan jar accepterat?
       answer: Om du redan konfirmerat ett uppdrag och sedan vill avböja erbjudandet
         så måste du kontakta uppdragsgivaren och kontakta support@justarrived.se.
     job_confirm:
       question: Varför behöver jag "Konfirmera" ett uppdrag efter att det är utfört?
+      answer: Du måste konfirmera att jobbet har blivit genomfört så vi kan veta att
+        jobbet är klart. Så fort arbetsgivaren har konfirmerat kan vi skicka en faktura
+        och börja arbeta med din utbetalning.
+    job_overtime:
+      question: Vad händer om det tog längre tid att utföra jobbet än vad som tidigare
+        var bestämt?
+      answer: 'Vi rekommenderar dig att bara jobba de timmarna '
     someone_else:
       question: Kan jag skicka någon annan för att utföra uppdraget åt mig?
+      answer: Nej.  Genom att konfirmera ett uppdrag så går du in i ett avtal med
+        din arbetsgivare. Avtalet innehåller våra villkor, försäkringar och betalning
+        till dig som utförare. Det innebär alltså att du inte kan be någon annan utföra
+        jobbet åt dig.
     get_paid:
       question: När får jag betalt?
       answer: Det tar mellan 10 och 40 dagar för din lön att bli utbetalad efter att
@@ -287,14 +303,43 @@ faq:
         potentiellt framtida arbetsgivare.
     job_types:
       question: Vad för typ av uppdrag kan jag skapa?
+      answer: Just Arrived kan hantera jobb över 8000 olika kategorier. Pga. försäkringsskäl
+        som finns det vissa jobb som vi inte kan tillåta, t.ex tatuerare, kirurg etc.
+    job_description:
+      question: 'Kan jag ändra jobbbeskrivningen om något förändras? '
+      answer: Du kan inte uppdatera jobbet efter att du har lagt upp det. Ifall du
+        vill göra mindre förändringar som t.ex start- och slutdatum eller adressen,
+        så rekommenderar vi dig att prata direkt med utföraren. Ifall du vill ändra
+        antalet timmar jobbet innefattar så måste du ta bort jobbet och sedan skapa
+        ett nytt.
+    contact_newcomer:
+      question: Hur kommunicerar jag med kandidaterna innan jag har anställt någon?
+      answer: Du kan chatta med kandidaterna i applikationen som har sökt till jobbet.
+        Chatten stödjer översättningar med hjälp av Google Translate.
+    reschedule:
+      question: Hur bokar jag om ifall jag inte skulle kunna komma till jobbet vid
+        utsatt tid?
+      answer: Du kan inte uppdatera jobbet efter att du har lagt upp det. Ifall du
+        vill göra mindre förändringar som t.ex start- och slutdatum eller adressen,
+        så rekommenderar vi dig att prata direkt med utföraren. Ifall du vill ändra
+        antalet timmar jobbet innefattar så måste du ta bort jobbet och sedan skapa
+        ett nytt.
     cancel_job:
+      question: Hur tar jag bort ett jobb ifall det inte längre behövs?
       answer: Du kan när som helst ta bort en annons genom att maila support@justarrived.se
         fram till du har accepterat en kandidat.
     confirm_invoice:
       question: Varför måste jag "Konfirmera" att ett jobb har utförts?
+      answer: Genom att konfirmera att jobbet har blivit utfört så låter du oss veta
+        att allt har gått bra och vi kommer då skicka ut en faktura.
     job_guarantee:
       question: Hur kan ni garantera att jobbet kommer utföras?
+      answer: Tjänsten kräver tillit och respekt mellan utförare och arbetsgivare.
+        Tjänsten använder ett omdömessystem för att försäkra kvalitén. Skulle det
+        mot förmodan uppstå en konflikt angående kvalitén av ett utfört jobb så kontakta
+        oss så hjälper vi till.
     cost:
+      question: Hur betalar jag för tjänsten?
       answer: Vi kommer fakturera uppdragsgivaren för det utförda uppdraget. Fakturan
         skickas till den emailadress som användes när jobbannonsen registrerades,
         och använder updragstiteln som referens. Det är inte möjligt att betala med
@@ -374,7 +419,7 @@ newcomer_contact_us:
   subtitle: Psst.. kolla vår FAQ
 top_banner_newcomer:
   title: Få erfarenheten du behöver för att komma in på den svenska arbetsmarknaden.
-  subtitle: Genom att matcha dig med svenska företag kan Just Arrived hjälpa dig få
+  subtitle: Genom att matcha dig med svenska företag kan Just arrived hjälpa dig få
     de referenser du behöver för att komma in på den svenska arbetsmarknaden.
   cta: Jag vill söka jobb
 newcomer_howto:
@@ -407,3 +452,11 @@ newcomer_signup_modal:
     alternativ:'
   cta_no_reg: Asylsökande
   cta_reg: Uppehållstillstånd
+hourly_pay_calculator:
+  title: Beräkna timlön
+  gross_salary: bruttolön
+  net_salary: Nettolön
+  rate_excluding_vat: Exclusive moms
+  rate_including_vat: Inclusive moms
+careers:
+  title: Jobb hos oss
