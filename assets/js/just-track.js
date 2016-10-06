@@ -52,6 +52,18 @@
     });
   }
 
+  function trackNewcomerRegPopupOpen() {
+    $('.cd-popup-trigger-newcomer-signup').on('click', function() {
+      analytics.track('Newcomer reg popup open');
+    });
+  }
+
+  function trackCompanyRegPopupOpen() {
+    $('.cd-popup-trigger-signin').on('click', function() {
+      analytics.track('Company reg popup open');
+    });
+  }
+
   function initTrackOfDOMElements() {
     $('[data-track]').each(function() {
       var $element = $(this);
@@ -74,6 +86,8 @@
       trackCompanySignup();
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
+      trackNewcomerRegPopupOpen();
+      trackCompanyRegPopupOpen();
       initTrackOfDOMElements();
     }
   };
