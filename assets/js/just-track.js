@@ -13,7 +13,9 @@
 
   function trackNewcomerSignupDone() {
     if ($('.js-newcomer-register-submit-thanks').length > 0) {
-      analytics.track('Newcomer finished Wintrgarden signup', {});
+      analytics.track('Newcomer finished Wintrgarden signup', {
+        locale: CURRENT_LOCALE
+      });
     }
   }
 
@@ -22,7 +24,8 @@
      $(document).on('click', selector, function() {
        analytics.track('Newcomer start Wintrgarden signup', {
          reg_type: regType,
-         signup_url: location.href
+         signup_url: location.href,
+         locale: CURRENT_LOCALE
        });
      });
     };
@@ -47,20 +50,25 @@
         phone: phone,
         company: company,
         city: city,
-        signup_url: location.href
+        signup_url: location.href,
+        locale: CURRENT_LOCALE
       });
     });
   }
 
   function trackNewcomerRegPopupOpen() {
     $('.cd-popup-trigger-newcomer-signup').on('click', function() {
-      analytics.track('Newcomer reg popup open');
+      analytics.track('Newcomer reg popup open', {
+        locale: CURRENT_LOCALE
+      });
     });
   }
 
   function trackCompanyRegPopupOpen() {
     $('.cd-popup-trigger-signin').on('click', function() {
-      analytics.track('Company reg popup open');
+      analytics.track('Company reg popup open', {
+        locale: CURRENT_LOCALE
+      });
     });
   }
 
@@ -73,7 +81,9 @@
       if (label) {
         // Add event listener to element
         $(document).on(eventName, function() {
-          analytics.track(label, {});
+          analytics.track(label, {
+            locale: CURRENT_LOCALE
+          });
         });
       } else {
         console.error('[just-track] data-track-label can *not* be blank!')
