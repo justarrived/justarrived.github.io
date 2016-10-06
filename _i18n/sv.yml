@@ -21,6 +21,7 @@ global:
   or: eller
 form:
   email: Email adress
+  company_email: Jobbmail
   name: Namn
   phone: Telefon nummer
   company: Företag
