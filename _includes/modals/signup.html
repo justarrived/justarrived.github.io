@@ -53,7 +53,21 @@
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
               </div>
-              <input type="hidden" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0">
+              <div class="mc-field-group input-group">
+                <div class="input-group-content">
+                  <p>{% t form.company_fields.intrested_in %} <span class="asterisk">*</span></p>
+                  <ul>
+                    <li>
+                      <input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0">
+                      <label for="mce-MMERGE5-0">{% t form.company_fields.posting_jobs %}</label>
+                    </li>
+                    <li>
+                      <input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4">
+                      <label for="mce-MMERGE5-4">{% t form.company_fields.knowning_more %}</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <!-- prevent bot signups -->
               <div style="position: absolute; left: -5000px;" aria-hidden="true">
                 <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">

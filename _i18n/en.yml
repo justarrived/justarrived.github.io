@@ -43,6 +43,9 @@ form:
   company_fields:
     accept_frilans_finans_start: I accept Frilans Finans
     accept_frilans_finans_end: terms of agreement
+    intrested_in: I'm interested in...
+    posting_jobs: Posting jobs
+    knowning_more: Knowning more
   placeholder:
     competencies: 'Example: MS Office experience, Economic background or None'
     languages: 'Example: Swedish or English'
