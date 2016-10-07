@@ -29,7 +29,8 @@ We are now looking for you who want to be working with one of the most interesti
 #### Also, we find the following as good properties:
 
 *  Excellent written and oral communication skills
-*  Fluent Swedish and English, Arabic and Persian (Farsi, Dari) are meriting
+*  Fluent Swedish and English
+*  Any knowledge of Arabic, Persian, Farsi or Dari are meriting
 
 
 #### Personality
