@@ -28,6 +28,7 @@ facebook_url: https://www.facebook.com/JustArrivedSE
 twitter_url: https://twitter.com/justarrivedse
 instagram_url: https://www.instagram.com/justarrivedse/
 linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
+github_urlL: https://github.com/justarrived
 
 app_signin_link: https://app.justarrived.se/#/user/signin
 
@@ -70,3 +71,12 @@ rtl_languages: ["ar"]
 # I18n plugin: jekyll-multiple-languages-plugin
 languages: ["en", "sv", "ar"]
 exclude_from_localizations: ["assets", "favicon.ico", "_posts"]
+
+# Blog
+authors:
+  buren:
+    display_name: Jacob Burenstam
+    email: jacob@justarrived.se
+    web: http://jacobburenstam.com/
+    twitter: jacobburenstam
+    github: buren
