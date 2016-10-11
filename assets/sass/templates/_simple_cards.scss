@@ -63,15 +63,19 @@
     }
     @include desktop {
       border-right: 1px solid rgba(0, 0, 0, 0.15);
-      &:last-child {
-        border-right: none;
-      }
-
       clear: none;
       width: 25%;
       padding: 0 1em;
       float: left;
+      &:last-child {
+        border-right: none;
+      }
       .rtl-locale-direction & {
+        border-right: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.15);
+        &:last-child {
+          border-left: none;
+        }
         float: right;
       }
     }
