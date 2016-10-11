@@ -46,6 +46,7 @@ contact_email: hej@justarrived.se
 # analytic keys
 segment_key: Im5TEqG2121n8lVHvgwNAW9yQ42j69Nd
 fb_key: 1166436026729850
+hotjar_site_id: 307094
 
 # Build settings
 markdown: kramdown
