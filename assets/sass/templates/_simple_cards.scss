@@ -42,6 +42,9 @@
     & .card-title {
       font-size: 1.25rem;
       margin-bottom: 10px;
+      .rtl-locale-direction & {
+        text-align: right;
+      }
     }
     & .card-content {
       font-size: 0.88rem;
