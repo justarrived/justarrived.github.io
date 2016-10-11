@@ -236,6 +236,11 @@ h5, .h5 {
 	    	margin: 0 auto 0.6em;
 	    }
 	}
+	&.bordered--centered-strong {
+		&:before {
+			margin: 0 auto 0.6em;
+		}
+	}
 	&.bordered--centered {
 		&:before {
 			margin: 0 auto 0.6em;

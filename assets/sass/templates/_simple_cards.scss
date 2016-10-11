@@ -2,6 +2,10 @@
   max-width: 280px;
   margin: 0 auto;
 
+  .rtl-locale-direction & {
+    text-align: center;
+  }
+
   @include tablet-small {
     max-width: 100%;
     max-width: 690px;
