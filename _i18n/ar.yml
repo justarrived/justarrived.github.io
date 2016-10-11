@@ -427,6 +427,7 @@ newcomer_howto:
     first: ستتمكن من الحصول على خدمات Just Arrived
     second: قم بانشاء ملفك الشخصي وتقدم للوظائف!
 newcomer_howto_section:
+  title: كيف تعمل
   apply_cta: التقدم
   register:
     title: 1. التسحيل
