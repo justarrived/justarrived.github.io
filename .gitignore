@@ -11,4 +11,7 @@ tmp/
 ar/
 sv/
 
+!_i18n/ar
+!_i18n/sv
+
 Gemfile.lock
