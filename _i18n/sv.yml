@@ -43,6 +43,9 @@ form:
   company_fields:
     accept_frilans_finans_start: Jag accepterar Frilans Finans
     accept_frilans_finans_end: villkor
+    intrested_in: Jag är intresserad av...
+    posting_jobs: Lägga upp jobb
+    knowning_more: Veta mer
   placeholder:
     competencies: 'Exempel: MS Office erfarenhet, Ekonomiskbakgrund eller Ingen'
     languages: 'Exempel: Svenska eller engelska'
@@ -88,8 +91,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
+  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
   cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived Gör Det Enkelt För Företag Att Engagera Eller Anställa en Nyanländ
@@ -164,7 +167,7 @@ our_product:
       att faktura skickas
     fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
       kostnader)
-    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
+    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
   title: Säg Hej
   enquiries: Generella frågor
@@ -441,6 +444,27 @@ newcomer_howto:
     title: 3. Kom in på arbetsmarknaden
     first: Du får tillgång till Just Arriveds tjänst
     second: Skapa en profil och börja söka jobb!
+newcomer_howto_section:
+  apply_cta: Ansök
+  register:
+    title: 1. Registrera
+    body: Du kommer till formuläret genom att trycka på knappen <a href="#" class="cd-popup-trigger-newcomer-signup">Ansök</a>.
+      Registreringen tar ett par minuter och är öppen för alla nyanlända och asylsökande.
+      Du kommer även att få nyhets-uppdateringar från Just Arrived till din email.
+  requirements:
+    title: 2. Uppfyllt kraven
+    body: Efter att du har registrerat dig behöver du uppfylla kraven för att komma
+      vidare. Läs mer om kraven. Om du behöver uppdatera din ansökan gör du det enklast
+      genom att maila till support@justarrived.se.
+  interview:
+    title: 3. Kallad till intervju
+    body: När kraven är uppfyllda är nästa steg att bli kallad till en intervju. När
+      och hur du blir kontaktad beror på vilken stad du bor i samt hur många och vilka
+      typer av jobb som är tillgängliga i ditt område.
+  access:
+    title: 4. Tillgång till tjänsten
+    body: Om du passar Just Arrived's profil får du efter en intervju tillgång till
+      tjänsten, kan skapa en profil och söka all våra tillgängliga jobb.
 newcomer_faq_nudge:
   title: Vill du veta mer?
 our_customers:
@@ -460,4 +484,4 @@ hourly_pay_calculator:
   rate_excluding_vat: Exclusive moms
   rate_including_vat: Inclusive moms
 careers:
-  title: Jobb hos oss
+  title: Jobba hos oss
