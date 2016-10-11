@@ -170,6 +170,10 @@ and it will create a button dependant on those variables.
   // line-height: 2.3;
 }
 
+.btn-wide {
+  width: 220px;
+}
+
 .transparent-btn.transparent-btn--pink-txt {
   color: $cerise;
   border: 1px solid $cerise;

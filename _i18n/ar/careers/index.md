@@ -1,8 +1,3 @@
----
-layout: careers
-title: Careers
----
-
 ## Account Manager
 
 #### Come join the devoted Just Arrived-team

@@ -1,0 +1,112 @@
+.simple-card {
+  max-width: 280px;
+  margin: 0 auto;
+
+  .rtl-locale-direction & {
+    text-align: center;
+  }
+
+  @include tablet-small {
+    max-width: 100%;
+    max-width: 690px;
+  }
+
+  & .large-icon {
+    max-width: 150px;
+    height: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    img {
+      max-height: 100%;
+    }
+    @include tablet-small {
+      padding: 10px;
+    }
+    @include desktop {
+    }
+  }
+
+  & .card-body {
+    width: 100%;
+    @include tablet-small {
+      text-align: left;
+      padding: 15px;
+      padding-right: 30px;
+    }
+    @include desktop {
+      text-align: center;
+    }
+    & .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      .rtl-locale-direction & {
+        text-align: right;
+      }
+    }
+    & .card-content {
+      font-size: 0.88rem;
+      text-align: justify;
+    }
+  }
+}
+
+.simple-card-container {
+  & .column-1-4 {
+    @extend %clearfix;
+    clear: both;
+    @include tablet {
+      clear: both;
+      width: 100%;
+    }
+    @include desktop {
+      border-right: 1px solid rgba(0, 0, 0, 0.15);
+      &:last-child {
+        border-right: none;
+      }
+
+      clear: none;
+      width: 25%;
+      padding: 0 1em;
+      float: left;
+      .rtl-locale-direction & {
+        float: right;
+      }
+    }
+  }
+}
+
+.col {
+  flex: 1;
+}
+
+.flex-grid-twos {
+  display: block;
+  justify-content: space-between;
+  @include tablet-small {
+    display: flex;
+  }
+  @include desktop {
+    display: block;
+  }
+}
+
+.flex-grid-twos .first-col {
+  @include tablet-small {
+    width: 30%;
+  }
+  @include desktop {
+    width: 100%;
+  }
+}
+
+.flex-grid-twos .second-col {
+  @include tablet-small {
+    width: 70%;
+  }
+  @include desktop {
+    width: 100%;
+  }
+}
