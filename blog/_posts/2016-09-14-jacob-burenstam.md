@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Jacob Burenstam
+author: buren
 tags:
   - meet the team
 ---
