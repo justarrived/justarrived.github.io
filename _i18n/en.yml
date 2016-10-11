@@ -372,6 +372,21 @@ newcomer_howto:
     first: You get access to the Just Arrived service
     second: Create your profile and start applying for jobs!
 
+newcomer_howto_section:
+  title: How it Works
+  apply_cta: Apply
+  register:
+    title: 1. Register
+    body: '<a href="#" class="cd-popup-trigger-newcomer-signup">Register here</a> or by clicking the "Apply" button. The registration form takes a few minutes to complete and is open for all newcomers and asylum seekers. You will also receive news and updates from Just Arrived after registration. Please note that this is an application, and does not give you automatic access to Just Arrived’s service.'
+  requirements:
+    title: 2. Requirements
+    body: 'When the registration is done you will need to make sure you have all the relevant documents to be able to apply for jobs through Just Arrived’s service. You can update your application at anytime by sending an email to support@justarrived.se.'
+  interview:
+    title: 3. Interview
+    body: 'When you have fulfilled the requirements, the next step is a short interview. When and how you will be contacted for an interview depends on where you live and what kinds of jobs are available in your area.'
+  access:
+    title: 4. Access
+    body: If you pass the interview you will get access to our service. There you can create a profile and apply for all the jobs that are available at Just Arrived.
 
 newcomer_faq_nudge:
   title: Want to Learn More?

@@ -1,0 +1,66 @@
+<section class="
+  module
+  module--padding
+  module--black
+  module--gray-bg
+  module--txt-c">
+
+  <div class="module-content module--txt-c">
+    <h2 class="bordered bordered--centered bordered--secondary">{% t newcomer_howto_section.title %}</h2>
+
+    <div class="columns simple-card-container">
+
+      <div class="column-1-4 equal-height">
+        <div class="simple-card flex-grid-twos">
+          <div class="large-icon first-col">
+            <img src="{{ "/assets/images/icons/how-to-register.png" || prepend: site.github.url }}" alt="">
+          </div>
+          <div class="card-body second-col">
+            <h3 class="card-title">{% t newcomer_howto_section.register.title %}</h3>
+            <p class="card-content">{% t newcomer_howto_section.register.body %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-4 equal-height">
+        <div class="simple-card flex-grid-twos">
+          <div class="large-icon first-col">
+            <img src="{{ "/assets/images/icons/how-to-requirements.png" || prepend: site.github.url }}" alt="">
+          </div>
+          <div class="card-body second-col">
+            <h3 class="card-title">{% t newcomer_howto_section.requirements.title %}</h3>
+            <p class="card-content">{% t newcomer_howto_section.requirements.body %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-4 equal-height">
+        <div class="simple-card flex-grid-twos">
+          <div class="large-icon first-col">
+            <img src="{{ "/assets/images/icons/how-to-interview.png" || prepend: site.github.url }}" alt="">
+          </div>
+          <div class="card-body second-col">
+            <h3 class="card-title">{% t newcomer_howto_section.interview.title %}</h3>
+            <p class="card-content">{% t newcomer_howto_section.interview.body %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-4 equal-height">
+        <div class="simple-card flex-grid-twos">
+          <div class="large-icon first-col">
+            <img src="{{ "/assets/images/icons/how-to-access.png" || prepend: site.github.url }}" alt="">
+          </div>
+          <div class="card-body second-col">
+            <h3 class="card-title">{% t newcomer_howto_section.access.title %}</h3>
+            <p class="card-content">{% t newcomer_howto_section.access.body %}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+    <p>
+      <a href="#" class="cd-popup-trigger-newcomer-signup primary-btn btn-large btn-wide">{% t newcomer_howto_section.apply_cta %}</a>
+    </p>
+
+  </div>
+</section>
