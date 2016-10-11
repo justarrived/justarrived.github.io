@@ -445,6 +445,7 @@ newcomer_howto:
     first: Du får tillgång till Just Arriveds tjänst
     second: Skapa en profil och börja söka jobb!
 newcomer_howto_section:
+  title: Hur funkar det
   apply_cta: Ansök
   register:
     title: 1. Registrera
