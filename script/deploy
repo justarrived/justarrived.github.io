@@ -6,11 +6,24 @@ cd "$(dirname "$0")/.."
 
 source script/_common
 
+SLACK_DEPLOY_HOOK_URL=${JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL:-}
+
+post_to_slack() {
+  if [[ ! -z $SLACK_DEPLOY_HOOK_URL ]]; then
+    local url=$SLACK_DEPLOY_HOOK_URL
+    local data='{"text": "A new version of <http://justarrived.se|justarrived.se> has been deployed.", "channel": "#website", "username": "just-bot", "icon_emoji": ":shipit:"}'
+
+    echo 'Posting deploy to Slack..'
+    curl -X POST -H 'Content-type: application/json' --data $data $url &
+  else
+    echo '[WARNING] JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL not set! Please set in order to post to Slack on deploy.'
+  fi
+}
+
 main_branch=dev
 release_branch=master
 
 __git-current-branch-or-exit $main_branch
-__continue-prompt "Have you run '$ git pull origin $main_branch' (is your code up to date)?"
 
 __exe_cmd "bundle exec jekyll build"
 if [ ! -d '_site' ]; then
@@ -31,7 +44,7 @@ else
   __exe_cmd "git add --all :/"
   __exe_cmd "git commit -m 'compile'"
   __exe_cmd "git push -f origin $release_branch"
+  post_to_slack
   __exe_cmd "git checkout $main_branch"
 fi
-
 echo 'deployed: http://justarrived.se'
