@@ -6,17 +6,15 @@ cd "$(dirname "$0")/.."
 
 source script/_common
 
-SLACK_DEPLOY_HOOK_URL=${JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL:-}
-
 post_to_slack() {
-  if [[ ! -z $SLACK_DEPLOY_HOOK_URL ]]; then
-    local url=$SLACK_DEPLOY_HOOK_URL
+  local slack_webhook_url=${JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL:-}
+  if [[ -z $slack_webhook_url ]]; then
+    echo '[WARNING] JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL not set! Please set in order to post to Slack on deploy.'
+  else
     local data='{"text": "A new version of <http://justarrived.se|justarrived.se> has been deployed.", "channel": "#website", "username": "just-bot", "icon_emoji": ":shipit:"}'
 
     echo 'Posting deploy to Slack..'
-    curl -X POST -H 'Content-type: application/json' --data $data $url &
-  else
-    echo '[WARNING] JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL not set! Please set in order to post to Slack on deploy.'
+    curl -X POST -H 'Content-type: application/json' --data $data $slack_webhook_url &
   fi
 }
 
