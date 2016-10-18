@@ -1,56 +1,85 @@
-<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-	<div id="inner-header" class="wrap cf">
+<nav class="header">
+	<a href="{{ "/" | prepend: site.baseurl }}" rel="nofollow" data-track="click" data-track-label="Nav logo click">
+		<div class="header__logo">{% t global.app_name %}</div>
+	</a>
 
-		<a href="{{ "/" | prepend: site.baseurl }}" rel="nofollow" data-track="click" data-track-label="Nav logo click">
-			<div class="header__logo">{% t global.app_name %}</div>
+	<div class="lang-options">
+		{% capture en_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
+		{% capture sv_root %}{{ site.github.url }}/sv{{ page.url }}{% endcapture %}
+		{% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
+
+		<a href="{{ en_root }}" data-track="click" data-track-label="Language switch (en)">
+			<span class="lang-en">{% t global.english %}</span>
 		</a>
-
-    <div class="nav-links">
-      <div class="nav-left">
-        <div class="lang-options">
-          {% capture en_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
-          {% capture sv_root %}{{ site.github.url }}/sv{{ page.url }}{% endcapture %}
-          {% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
-
-          <a href="{{ en_root }}" data-track="click" data-track-label="Language switch (en)">
-            <span class="lang-en">{% t global.english %}</span>
-          </a>
-          <a href="{{ sv_root }}" data-track="click" data-track-label="Language switch (sv)">
-            <span class="lang-sv">{% t global.swedish %}</span>
-          </a>
-          <a href="{{ ar_root }}" data-track="click" data-track-label="Language switch (ar)">
-            <span class="lang-ar">{% t global.arabic %}</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="nav-right">
-        <a href="{{ "/company/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to company page">
-          <span>{% t nav.companies %}</span>
-        </a>
-        <a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
-          <span>{% t nav.newcomers %}</span>
-        </a>
-        <a href="{{ "/faq/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to FAQ page">
-          <span>{% t nav.faq %}</span>
-        </a>
-        <a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
-          <span>{% t nav.about_us %}</span>
-        </a>
-        <a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
-          <span>{% t nav.blog %}</span>
-        </a>
-        <a href="{{ site.app_signin_link }}" data-track="click" data-track-label="Nav to app login">
-          <span>{% t nav.login %}</span>
-        </a>
-      </div>
-    </div>
-
-		<!-- <div class="header__btns">
-      <a href="{{ site.app_signin_link }}" class="border-btn pull-right"><span>{% t nav.login %}</span></a>
-       <a href="{{ "/newcomer/" | prepend: site.baseurl }}" class="primary-btn">{% t nav.job_signup %}</a>
-      <a href="#" class="border-btn cd-popup-trigger-promo">{% t nav.promo_code_signin %}</a>
-		</div> -->
-
+		<a href="{{ sv_root }}" data-track="click" data-track-label="Language switch (sv)">
+			<span class="lang-sv">{% t global.swedish %}</span>
+		</a>
+		<a href="{{ ar_root }}" data-track="click" data-track-label="Language switch (ar)">
+			<span class="lang-ar">{% t global.arabic %}</span>
+		</a>
 	</div>
-</header>
+
+	<ul class="topnav">
+		<li class="hamburger-icon">
+			<a href="javascript:void(0);" onclick="toggleHamburger()">&#9776;</a>
+		</li>
+
+		<li>
+			<a href="{{ site.app_signin_link }}" data-track="click" data-track-label="Nav to app login">
+				<span>{% t nav.login %}</span>
+			</a>
+		</li>
+		<li class="about-us">
+			<a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
+				<span>{% t nav.about_us %}</span>
+			</a>
+		</li>
+		<li class="blog">
+			<a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
+				<span>{% t nav.blog %}</span>
+			</a>
+		</li>
+		<li>
+			<a href="{{ "/company/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to company page">
+				<span>{% t nav.companies %}</span>
+			</a>
+		</li>
+		<li>
+			<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
+				<span>{% t nav.newcomers %}</span>
+			</a>
+		</li>
+	</ul>
+
+	<!-- HAMBURGER DROPDOWN -->
+
+	<div class="hide" id="responsive-header">
+    <ul>
+			<li>
+				<a href="{{ site.app_signin_link }}" data-track="click" data-track-label="Nav to app login">
+					<span>{% t nav.login %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
+					<span>{% t nav.about_us %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
+					<span>{% t nav.blog %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ "/company/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to company page">
+					<span>{% t nav.companies %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
+					<span>{% t nav.newcomers %}</span>
+				</a>
+			</li>
+    </ul>
+  </div>
+</nav>
