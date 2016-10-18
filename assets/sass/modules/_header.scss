@@ -1,173 +1,126 @@
 .header {
-  background-color: $header-bg;
-  padding: 12px 0;
-  z-index: 1;
-  position: relative;
-}
+  padding: 0.5em 0;
+  background-color: #222531;
+  display: inline-block;
+  width: 100%;
 
-.header__logo {
-  background: url(../images/justarrived-logo.png) no-repeat;
-  background-size: 219px 42px;
-  width: 219px;
-  height: 42px;
-  margin: 0 auto 1em;
-  text-indent: -9999em;
-  @include desktop-small {
-    margin: 0 auto 1em;
-  }
-  @include desktop-l {
+  .header__logo {
+    background: url(../images/justarrived-logo.png) no-repeat;
+    background-size: 219px 42px;
+    width: 219px;
+    height: 42px;
     float: left;
-    margin: 0;
-  }
-}
-
-.nav-links {
-  margin-top: 10px;
-  margin-left: 15px;
-  text-align: center;
-
-  .nav-left {
-    @include tablet {
-      float: left;
-      margin-left: 15px;
-    }
+    text-indent: -9999em;
+    margin-left: 1em;
   }
 
-  .nav-right {
-    @include tablet {
-      float: right;
-    }
-  }
-}
-
-.header__btns {
-  clear: both;
-  width: 100%;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 0.5em;
-  width: 100%;
-  & > a {
-    margin: 0 0.3em 1em;
-  }
-  & .transparent-btn {
-    padding: 0;
-  }
-  @include tablet {
-    clear: none;
-    width: auto;
-    position: relative;
-    & > a {
-      margin: 0 0 0 0.6em;
-    }
-  }
-  @include desktop-l {
-    float: right;
-    margin-bottom: 0;
-  }
-}
-
-// .lang-dropdown {
-//   opacity: 0;
-//   visibility: hidden;
-//   position: absolute;
-//   background: #fff;
-//   width: 130px;
-//   text-align: left;
-//   right: 0;
-//   border-radius: 4px;
-//   color: $charcoal;
-//   &.is-visible {
-//     opacity: 1;
-//     visibility: visible;
-//   }
-//   & ul {
-//     margin: 0.4em 0;
-//   }
-//   & li {
-//     padding: 0.1em 1em;
-//     &:hover {
-//       background: $stone;
-//     }
-//   }
-// }
-
-.lang-options, .nav-right {
-  font-size: 14px;
-  margin: 0 0 1em 0;
-  @include tablet {
+  .lang-options {
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 1.2em;
+    margin-left: 1em;
     display: inline-block;
-    margin: 0 1em 0 0;
-  }
-  & a {
-    text-decoration: none;
-    outline: 0;
-    white-space: nowrap;
-  }
-  & span {
-    color: $stone-dark;
-    cursor: pointer;
-    padding: 0.5em;
-    &:hover {
-      color: #fff;
+
+    & a {
+      text-decoration: none;
+      outline: 0;
+      white-space: nowrap;
     }
-  }
-}
 
-.en-locale {
-  & .lang-en {
-    color: #fff;
-    cursor: default;
-  }
-}
-
-.ar-locale {
-  & .lang-ar {
-    color: #fff;
-    cursor: default;
-  }
-}
-
-.sv-locale {
-  & .lang-sv {
-    color: #fff;
-    cursor: default;
-  }
-}
-
-.rtl-locale-direction {
-  & .bordered {
-    &:before {
-      margin-left: 0;
-      margin-right: 0;
-    }
-    &.bordered--centered {
-      &:before {
-        margin-left: 0;
-        margin-right: 0;
+    & span {
+      color: $stone-dark;
+      cursor: pointer;
+      padding: 0.5em;
+      &:hover {
+        color: #fff;
       }
     }
   }
 
-  & .module--txt,
-  & .module--txt-l,
-  & .module--txt-c {
-    text-align: initial;
-    direction: rtl;
+  /* Remove margins and padding from the list, and add a black background color */
+  .topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 2em;
+    overflow: hidden;
   }
-  & .product-summary {
-    direction: rtl;
-  }
-  & .module-content {
-    direction: rtl;
-  }
-}
 
-.nav-right {
-  & span {
-    color: $white;
-    &:hover {
-      color: $bluesky;
+  .responsive, .topnav {
+    /* Float the list items side by side */
+    & li {
+      float: right;
+
+      /* Style the links inside the list items */
+      & a {
+        display: inline-block;
+        outline: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 12px;
+      }
+
+      /* Change background color of links on hover */
+      & a:hover {
+        background-color: #383f4e;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  /* Hide the list item that contains the link that should open and close the topnav on small screens */
+  .hamburger-icon {display: none;}
+
+  .hide, .responsive {display: none;}
+
+  @media screen and (max-width:1000px) {
+    .about-us, .blog {
+      display: none;
+    }
+  }
+
+  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+  @media screen and (max-width:740px) {
+    .topnav li {display: none;}
+    .topnav li.hamburger-icon {
+      float: right;
+      display: inline-block;
+    }
+    .header__logo {
+      transform: scale(0.8);
+      margin-right: 0;
+      padding-left: 0;
+    }
+
+    .responsive {
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+      margin-left: 1em;
+    }
+
+    .responsive li {
+      float: none;
+      // display: block;
+      clear: both;
+    }
+    .responsive li a {
+      max-width: 260px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .lang-options {
+      clear: both;
+      position: relative;
+      bottom: 0.5em;
+      left: 0.6em;
     }
   }
 }
