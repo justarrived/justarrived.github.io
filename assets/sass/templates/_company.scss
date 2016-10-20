@@ -38,13 +38,18 @@
 }
 
 .company-register-button {
-
 	display: none;
 	@include tablet {
 		display: inline-block;
 		position: absolute;
-		bottom: 1em;
+		bottom: 2em;
 		left: 50%;
 		margin-left: -6.5em;
+	}
+}
+
+.column-company {
+	@include tablet {
+		height: 25em;
 	}
 }
