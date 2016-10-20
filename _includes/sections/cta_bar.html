@@ -8,19 +8,6 @@
 
   <div class="module-content module-content--left-half module-content--border-right">
     <div class="cta-container equal-height">
-      <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.company_title %}</h3>
-      <p class="text">{% t cta_bar.company_cta_text %}</p>
-    </div>
-    <a href="{{ "/company/" | prepend: site.baseurl }}"
-      class="primary-btn btn-large"
-      data-track="click"
-      data-track-label="Goto company page click (cta bar)">
-      {% t cta_bar.company_cta_link_text %}
-    </a>
-  </div>
-
-  <div class="module-content module-content--right-half">
-    <div class="cta-container equal-height">
       <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.newcomer_title %}</h3>
       <p class="text">{% t cta_bar.newcomer_cta_text %}</p>
     </div>
@@ -29,6 +16,19 @@
       data-track="click"
       data-track-label="Goto newcomer page click (cta bar)">
       {% t cta_bar.newcomer_cta_link_text %}
+    </a>
+  </div>
+
+  <div class="module-content module-content--right-half">
+    <div class="cta-container equal-height">
+      <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.company_title %}</h3>
+      <p class="text">{% t cta_bar.company_cta_text %}</p>
+    </div>
+    <a href="{{ "/company/" | prepend: site.baseurl }}"
+      class="primary-btn btn-large"
+      data-track="click"
+      data-track-label="Goto company page click (cta bar)">
+      {% t cta_bar.company_cta_link_text %}
     </a>
   </div>
 
