@@ -47,8 +47,7 @@ $on-laptop:        800px;
 // Force formatted numbers to be displayed left-to-right
 .rtl-locale-direction {
   & .formatted-number {
-    direction: ltr;
-    unicode-bidi: embed;
+    unicode-bidi: plaintext;
   }
 }
 

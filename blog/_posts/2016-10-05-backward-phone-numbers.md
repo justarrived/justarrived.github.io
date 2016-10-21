@@ -26,13 +26,12 @@ The solution was to add (we use SASS):
 ```CSS
 .rtl-locale-direction {
   & .formatted-number {
-    direction: ltr;
-    unicode-bidi: embed;
+    unicode-bidi: plaintext;
   }
 }
 ```
 
-`.rtl-locale-direction` is the class we set when the a right-to-left language is used, so we can add custom styling. Here is the [commit](https://github.com/justarrived/justarrived.github.io/commit/038c6ce88dfae17812c15cb87d14913b6534dd47#diff-bd1150aed1e0fcd87989c84873d5912cR48) that fixed phone numbers being backwards.
+`.rtl-locale-direction` is the class we set when the a right-to-left language is used, so we can add custom styling on right-to-left locales. That selector has `direction: rtl` set, so we need to override it with `unicode-bidi: plaintext`.
 
 You can read more about `unicode-bidi` [over at w3schools](http://www.w3schools.com/cssref/pr_text_unicode-bidi.asp).
 
