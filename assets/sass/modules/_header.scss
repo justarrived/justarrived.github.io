@@ -3,6 +3,7 @@
   background-color: #222531;
   display: inline-block;
   width: 100%;
+  margin-bottom: -7px;
 
   .header__logo {
     background: url(../images/justarrived-logo.png) no-repeat;
@@ -79,19 +80,20 @@
 
   .hide, .responsive {display: none;}
 
-  @media screen and (max-width:1000px) {
-    .about-us, .blog {
-      display: none;
-    }
-  }
-
   /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-  @media screen and (max-width:740px) {
-    .topnav li {display: none;}
-    .topnav li.hamburger-icon {
-      float: right;
-      display: inline-block;
+  @media screen and (max-width:1000px) {
+
+    .topnav {
+      & li {
+        display: none;
+      }
+
+      .show-on-tablet, .hamburger-icon {
+        float: right;
+        display: inline-block;
+      }
     }
+
     .header__logo {
       transform: scale(0.8);
       margin-right: 0;
@@ -115,11 +117,19 @@
     }
   }
 
+  @media screen and (max-width:740px) {
+    .topnav {
+      .show-on-tablet {
+        display: none;
+      }
+    }
+  }
+
   @media screen and (max-width:500px) {
     .lang-options {
       clear: both;
       position: relative;
-      bottom: 0.5em;
+      bottom: 0.7em;
       left: 0.6em;
     }
   }

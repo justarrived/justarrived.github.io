@@ -29,22 +29,22 @@
 				<span>{% t nav.login %}</span>
 			</a>
 		</li>
-		<li class="about-us">
+		<li>
 			<a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
 				<span>{% t nav.about_us %}</span>
 			</a>
 		</li>
-		<li class="blog">
+		<li>
 			<a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
 				<span>{% t nav.blog %}</span>
 			</a>
 		</li>
-		<li>
+		<li class="show-on-tablet">
 			<a href="{{ "/company/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to company page">
 				<span>{% t nav.companies %}</span>
 			</a>
 		</li>
-		<li>
+		<li class="show-on-tablet">
 			<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
 				<span>{% t nav.newcomers %}</span>
 			</a>
@@ -56,18 +56,8 @@
 	<div class="hide" id="responsive-header">
     <ul>
 			<li>
-				<a href="{{ site.app_signin_link }}" data-track="click" data-track-label="Nav to app login">
-					<span>{% t nav.login %}</span>
-				</a>
-			</li>
-			<li>
-				<a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
-					<span>{% t nav.about_us %}</span>
-				</a>
-			</li>
-			<li>
-				<a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
-					<span>{% t nav.blog %}</span>
+				<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
+					<span>{% t nav.newcomers %}</span>
 				</a>
 			</li>
 			<li>
@@ -76,8 +66,18 @@
 				</a>
 			</li>
 			<li>
-				<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to newcomers page">
-					<span>{% t nav.newcomers %}</span>
+				<a href="{{ "/blog/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to blog page">
+					<span>{% t nav.blog %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ "/about-us/" | prepend: site.baseurl }}" data-track="click" data-track-label="Nav to about us page">
+					<span>{% t nav.about_us %}</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ site.app_signin_link }}" data-track="click" data-track-label="Nav to app login">
+					<span>{% t nav.login %}</span>
 				</a>
 			</li>
     </ul>
