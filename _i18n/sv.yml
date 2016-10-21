@@ -172,6 +172,7 @@ say_hej:
   title: Säg Hej
   enquiries: Generella frågor
 company_form:
+  job_form_link_name: Redan registrerat ditt företag? Registrera ett nytt jobb.
   title: Registrera Företag
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
 job_form:

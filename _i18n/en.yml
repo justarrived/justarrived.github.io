@@ -151,6 +151,7 @@ say_hej:
   enquiries: General enquiries
 
 company_form:
+  job_form_link_name: Already a registered company? Register a new job.
   title: Register Company
   description: Fill in the details about the job, so we can publish it on our platform.
 
