@@ -44,6 +44,7 @@
       margin-bottom: 10px;
       .rtl-locale-direction & {
         text-align: right;
+        direction: rtl;
       }
     }
     & .card-content {
