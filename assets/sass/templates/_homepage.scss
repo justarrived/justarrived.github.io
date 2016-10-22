@@ -106,9 +106,9 @@
 		.rtl-locale-direction & {
 			max-width: 768px;
 			margin: 0 auto;
-    		@include tablet {
-    			padding: 0 16px;
-    		}
+			@include tablet {
+				// padding: 0 16px;
+			}
 		}
 	}
 }
