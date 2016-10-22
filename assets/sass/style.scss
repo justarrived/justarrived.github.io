@@ -79,6 +79,9 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 // styles in base.scss
 @import "breakpoints/base";
 
+// Language direction ltr/rtl
+@import "modules/language_direction";
+
 // Templates
 @import "templates/careers";
 @import "templates/homepage";

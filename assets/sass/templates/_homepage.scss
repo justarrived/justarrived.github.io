@@ -353,6 +353,7 @@
 			float: left;
 			text-align: left;
 			.rtl-locale-direction & {
+				text-align: center;
 			}
 			@include mobile-small {
 				font-size: 90%;
@@ -366,6 +367,7 @@
 				overflow: hidden;
 				text-overflow: ellipsis;
 				.rtl-locale-direction & {
+					text-align: center;
 				}
 			}
 		}
