@@ -1,0 +1,24 @@
+*[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+*[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+bdo[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+bdo[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.rtl-locale-direction {
+  direction: rtl;
+  unicode-bidi: embed;
+}
