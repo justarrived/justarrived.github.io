@@ -27,6 +27,9 @@
       text-decoration: none;
       outline: 0;
       white-space: nowrap;
+      & .inactive {
+        color: $white;
+      }
     }
 
     & span {
