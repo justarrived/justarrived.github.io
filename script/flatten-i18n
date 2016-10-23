@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+require 'csv'
+
+yaml_string = File.read('_i18n/en.yml')
+yml = YAML.load(yaml_string)
+translations = {}
+
+def process_hash!(translations, current_key, hash)
+  hash.each do |new_key, value|
+    combined_key = [current_key, new_key].delete_if { |k| k.strip.empty? }.join('.')
+    if value.is_a?(Hash)
+      process_hash!(translations, combined_key, value)
+    else
+      translations[combined_key] = value
+    end
+  end
+end
+
+process_hash!(translations, '', yml)
+
+csv_string = CSV.generate(col_sep: ';') do |csv|
+  csv << ['key', 'text']
+  translations.map { |key, text| csv << [key, text] }
+end
+
+puts csv_string
