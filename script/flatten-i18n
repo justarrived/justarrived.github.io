@@ -2,8 +2,18 @@
 
 require 'yaml'
 require 'csv'
+require 'optparse'
 
-yaml_string = File.read('_i18n/en.yml')
+locale = 'en'
+OptionParser.new do |opts|
+  opts.banner = 'Usage: flatten-i18n [options]'
+
+  opts.on('--locale=lang_code', String, 'Locale code') do |value|
+    locale = value
+  end
+end.parse!
+
+yaml_string = File.read("_i18n/#{locale}.yml")
 yml = YAML.load(yaml_string)
 translations = {}
 
