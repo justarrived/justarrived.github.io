@@ -10,8 +10,10 @@ tmp/
 # Ignore locale folders
 ar/
 sv/
+en/
 
 !_i18n/ar
 !_i18n/sv
+!_i18n/en
 
 Gemfile.lock
