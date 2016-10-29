@@ -70,7 +70,7 @@ pagination:
 rtl_languages: ["ar"]
 
 # I18n plugin: jekyll-multiple-languages-plugin
-languages: ["en", "sv", "ar"]
+languages: ["sv", "en", "ar"]
 exclude_from_localizations: ["assets", "favicon.ico", "_posts"]
 
 # Blog
