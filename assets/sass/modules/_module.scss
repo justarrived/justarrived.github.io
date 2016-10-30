@@ -299,6 +299,7 @@
 
 .columns {
   @extend %clearfix;
+  display: flex;
   margin: 0 auto;
 }
 
