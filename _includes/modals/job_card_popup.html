@@ -1,0 +1,37 @@
+<div class="cd-popup cd-popup-job-card-popup">
+  <div class="cd-popup-container">
+    <section class="section--signup-popup">
+      <div class="
+        module-content
+        module-content--centered
+        module--txt-c
+        module--black
+        ">
+        <h2 class="bordered bordered--primary bordered--centered">{% t job_card_popup.title %}</h2>
+        <p>{% t job_card_popup.subtitle %}</p>
+        <br>
+        <h3>{% t job_card_popup.looking_for_work_title %}</h3>
+        <p>
+          {% t job_card_popup.looking_for_work_subtitle %} <br>
+          <br>
+          <a href="#" class="primary-btn btn-large cd-popup-trigger-newcomer-signup">{% t job_card_popup.looking_for_work_cta %}</a>
+        </p>
+        <br>
+        <h3>{% t job_card_popup.company_title %}</h3>
+        <p>
+          <a href="#" class="primary-btn btn-large cd-popup-trigger-signin">{% t job_card_popup.company_cta %}</a>
+        </p>
+        <br>
+        <h3>{% t job_card_popup.already_member %}</h3>
+        <p>
+          <a href="{{ site.app_signin_link }}" class="border-btn btn-large border-btn--pink" data-track="click" data-track-label="Job card popup app login">
+    				{% t job_card_popup.login_cta %}
+    			</a>
+        </p>
+      </div>
+      <a href="#0" class="cd-popup-close img-replace"></a>
+    </section>
+  </div>
+  <!-- cd-popup-container -->
+</div>
+<!-- cd-popup -->
