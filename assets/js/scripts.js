@@ -605,49 +605,6 @@ var timeToWaitForLast = 100;
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-	// Open newcomer signup popup
-	$('.cd-popup-trigger-newcomer-signup').on('click', function(event){
-    event.preventDefault();
-    $('.cd-popup-newcomer-signup').addClass('is-visible');
-  });
-
-  //open signup popup
-  $('.cd-popup-trigger-signin').on('click', function(event){
-    event.preventDefault();
-    $('.cd-popup-signin').addClass('is-visible');
-  });
-
-  //open promo popup
-  $('.cd-popup-trigger-promo').on('click', function(event){
-    event.preventDefault();
-    $('.cd-popup-promo').addClass('is-visible');
-
-    // Remove previously entered promo code when
-    // reopening the popup
-    var hello = document.getElementById("promo-code-input");
-    var hi = document.getElementById("promo-error");
-    hello.value = "";
-    hi.innerHTML = "";
-  });
-
-  //close popup
-  $('.cd-popup').on('click', function(event){
-    if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
-      event.preventDefault();
-      $(this).removeClass('is-visible');
-    };
-
-
-  });
-
-  //close popup when clicking the esc keyboard button
-  $(document).keyup(function(event){
-    if(event.which=='27'){
-      $('.cd-popup').removeClass('is-visible');
-    }
-  });
-
-
   // language
   $('.lang-options span').on('click', function(event){
     $('.lang-options span').removeClass('current-lang');

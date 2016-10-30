@@ -20,6 +20,7 @@
   var Site = {
     init: function() {
       JustTrack.init();
+      Popups.init();
       initHourlyPay();
       initJobCards();
       matchHeight();

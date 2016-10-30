@@ -91,6 +91,14 @@
     });
   }
 
+  function trackJobCardClick() {
+    $(document).on('click', '.job-card', function() {
+      analytics.track('Job card click', {
+        locale: CURRENT_LOCALE
+      });
+    });
+  }
+
   var JustTrack = {
     init: function() {
       trackCompanySignup();
@@ -99,6 +107,7 @@
       trackNewcomerRegPopupOpen();
       trackCompanyRegPopupOpen();
       initTrackOfDOMElements();
+      trackJobCardClick();
     }
   };
 
