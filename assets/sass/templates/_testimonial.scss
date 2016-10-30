@@ -32,6 +32,9 @@
     font-size: 100px;
     float: left;
     line-height: 40px;
+    .rtl-locale-direction & {
+      float: right;
+    }
   }
 
   .testimonial-body {
@@ -39,6 +42,9 @@
     font-style: italic;
     text-align: center;
     font-size: 1.2rem;
+    .rtl-locale-direction & {
+      text-align: left;
+    }
     @include tablet {
     text-align: right;
     }
@@ -52,6 +58,9 @@
     text-align: center;
     font-size: 0.9rem;
     font-weight: 600;
+    .rtl-locale-direction & {
+      text-align: left;
+    }
     @include tablet {
     text-align: right;
     }
