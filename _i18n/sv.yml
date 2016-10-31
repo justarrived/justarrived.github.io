@@ -91,8 +91,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
+  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
   cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived Gör Det Enkelt För Företag Att Engagera Eller Anställa en Nyanländ
@@ -167,7 +167,7 @@ our_product:
       att faktura skickas
     fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
       kostnader)
-    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
+    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
 say_hej:
   title: Säg Hej
   enquiries: Generella frågor
@@ -457,9 +457,8 @@ newcomer_howto_section:
   requirements:
     title: 2. Förbered dina handlingar
     body: Efter att du har registrerat dig behöver du se till att du har alla relevanta
-      handlingar för att kunna söka jobb via Just Arrived. Läs mer om förutsättningarna
-      här. Om du behöver uppdatera din ansökan gör du det enklast genom att maila
-      till support@justarrived.se.
+      handlingar för att kunna söka jobb via Just Arrived. Om du behöver uppdatera
+      din ansökan gör du det enklast genom att maila till support@justarrived.se.
   interview:
     title: 3. Gå på intervju
     body: När du uppnått förutsättningarna för att söka jobb är nästa steg att bli
@@ -492,12 +491,12 @@ careers:
   title: Jobba hos oss
 job_card_popup:
   title: Vad roligt att du är intresserad av våra jobbtillfällen!
-  subtitle: För att läsa mer, ansöka till ett jobb eller lägga upp jobb behöver du
-    vara medlem.
-  already_member: Redan medlem?
+  subtitle: För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du
+    ha ett konto.
+  already_member: Har du redan ett konto?
   login_cta: Logga in
   looking_for_work_title: Söker du jobb?
-  looking_for_work_subtitle: Ansök om ett medlemskap genom att registrera din ansökan.
+  looking_for_work_subtitle: Ansök om ett konto genom att registrera din ansökan nedan.
   looking_for_work_cta: Registrera ansökan
   company_title: Representerar du ett företag?
   company_subtitle: För att ta reda på mer om hur du lägger upp ett jobb kan du kontakta
