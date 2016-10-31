@@ -299,8 +299,11 @@
 
 .columns {
   @extend %clearfix;
-  display: flex;
   margin: 0 auto;
+  display: block;
+  @include tablet {
+    display: flex;
+  }
 }
 
 .column-1-2 {
