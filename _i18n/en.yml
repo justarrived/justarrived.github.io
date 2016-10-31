@@ -413,11 +413,11 @@ careers:
 
 job_card_popup:
   title: We're happy to see that you're interested in or job opportunities!
-  subtitle: To read more and apply to a job or post a job you need to be a member.
-  already_member: Already a member?
+  subtitle: To read more and apply to a job or post a job you need to have an account.
+  already_member: Already have an account?
   login_cta: Login
   looking_for_work_title: Looking for work?
-  looking_for_work_subtitle: Apply for a membership by registering your application below.
+  looking_for_work_subtitle: Apply for an account by registering your application below.
   looking_for_work_cta: Register application
   company_title: Are you representing a company?
   company_subtitle: To find out more about to to post jobs contact us.
