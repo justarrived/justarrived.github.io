@@ -426,6 +426,7 @@ job_card_popup:
 press:
   title: Press
   full_style_guide_link: Read our style guide in more detail here (english only).
+  press_pack_zip: Press pack (zip)
   logos:
     title: Logos
     on_dark: Logos on dark

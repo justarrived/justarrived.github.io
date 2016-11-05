@@ -504,6 +504,7 @@ job_card_popup:
 press:
   title: Press
   full_style_guide_link: Se hela vår style guide (på engelska).
+  press_pack_zip: Presspaket (zip)
   logos:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
