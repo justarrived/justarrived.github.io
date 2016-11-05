@@ -35,6 +35,8 @@ app_signin_link: https://app.justarrived.se/#/user/signin
 wintrgarden_signup_no_reg: https://wgtrm.com/dc/#justarrived.jaas1
 wintrgarden_signup_reg: https://wgtrm.com/dc/#justarrived.jar2
 
+full_style_guide_url: https://app.frontify.com/d/qbRkBYTExyiX/just-arrived-style-guide#/basics/brand-logo
+
 # "App" settings
 job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
 job_submission_redirect_url: 'http://justarrived.se/thanks/job-submit'
