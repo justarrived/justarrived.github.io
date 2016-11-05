@@ -192,6 +192,7 @@ footer:
     faq: FAQ
     careers: Careers
     team: The Team
+    press: Press
   follow_us:
     title: Follow Us
   contact_us:
@@ -422,3 +423,11 @@ job_card_popup:
   company_title: Are you representing a company?
   company_subtitle: To find out more about how to post jobs contact us.
   company_cta: Contact us
+
+press:
+  title: Press
+  full_style_guide_link: Read our style guide in more detail here (english only).
+  press_pack_zip: Press pack (zip)
+  logos:
+    title: Logos
+    on_dark: Logos on dark
