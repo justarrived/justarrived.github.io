@@ -501,7 +501,7 @@
 }
 
 .section--signup-popup {
-	padding: 2em 1em 2em;
+	padding: 3em 4.4em 2em;
 	& .bordered {
 		&:before {
 			@include tablet {
@@ -512,6 +512,21 @@
 		.rtl-locale-direction & {
 			text-align: center;
 		}
+	}
+
+	.btn-large {
+		width: 200px;
+		padding: 0.15em 0em;
+		margin-bottom: 0.5em;
+	}
+
+	h2 {
+		font-weight: bold;
+	}
+
+	h3 {
+		margin-bottom: 0.4em;
+		font-size: 1.3em;
 	}
 }
 
