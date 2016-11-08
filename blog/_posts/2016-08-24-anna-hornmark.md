@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Anna Hörnmark
+locale: en
 tags:
   - meet the team
 ---

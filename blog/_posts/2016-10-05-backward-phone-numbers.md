@@ -2,6 +2,7 @@
 layout: post
 title: Backward phone numbers
 author: buren
+locale: en
 tags:
   - engineering
 ---

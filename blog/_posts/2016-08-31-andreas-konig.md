@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Andreas König
+locale: en
 tags:
   - meet the team
 ---

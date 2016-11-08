@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Per Clingweld
+locale: en
 tags:
   - meet the team
 ---

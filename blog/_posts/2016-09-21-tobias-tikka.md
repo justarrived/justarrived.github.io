@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Tobias Tikka
+locale: en
 tags:
   - meet the team
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A story from our Community Meetup
+locale: en
 tags:
   - meetup
   - community

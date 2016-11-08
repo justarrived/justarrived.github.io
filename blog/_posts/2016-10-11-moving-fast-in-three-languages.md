@@ -2,6 +2,7 @@
 layout: post
 title: 1x3x3x3 - 1 feature, 3 people, 3 hours, 3 languages
 author: buren
+locale: en
 tags:
   - engineering
 ---

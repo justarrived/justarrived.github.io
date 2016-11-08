@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Jesper Sundström
+locale: en
 tags:
   - meet the team
 ---
