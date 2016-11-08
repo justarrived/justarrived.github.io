@@ -29,7 +29,7 @@ module--white-bg
           {% endif %}
         </header>
 
-        <article class="post-content">
+        <article class="post-content" lang="{{ post.locale }}">
           {% if post.list_cover %}
             <div class="post-list-cover" style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});"></div>
           {% endif %}
