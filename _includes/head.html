@@ -10,7 +10,12 @@
 
 	<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+	{% if page.canonical_url == nil %}
+	{% capture canonical %}{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}{% endcapture %}
+	{% else %}
+	{% assign canonical = page.canonical_url %}
+	{% endif %}
+	<link rel="canonical" href="{{ canonical }}">
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">

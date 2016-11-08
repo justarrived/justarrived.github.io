@@ -1,8 +1,14 @@
 # Just Arrived - Website
 
-Just Arrived website (http://justarrived.se) built using Jekyll.
+Just Arrived website, http://justarrived.se, built using Jekyll.
 
 :warning: The development of this project should be against the `dev` branch. `master` is strictly a release branch.
+
+* [Install](#install)
+* [Develop](#develop)
+* [Translation](#translation)
+* [Event tracking](#event-tracking)
+* [Blog posts](#blog-posts)
 
 ## Install
 
@@ -51,3 +57,17 @@ __Example__:
 ```
 
 `click` is the default value for `data-track` unless something else is explicitly set.
+
+
+## Blog posts
+
+_front matter_:
+
+```YAML
+---
+layout: post
+title: Title of blog post
+locale: sv
+canonical_url: http://example.com
+---
+```
