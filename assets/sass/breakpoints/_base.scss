@@ -34,7 +34,6 @@ body {
 	height: 100%;
 	position: relative;
 	@include desktop-small {
-		width: 90%;
 		margin: 0 auto;
 		max-width: $max-site-width;
 	}
