@@ -13,7 +13,9 @@
     text-align: center;
   }
   & .company-logo {
-    max-width: 200px;
+		position: relative;
+		top: 1em;
+    max-width: 130px;
   }
   & ul {
     color: $black;
@@ -51,5 +53,13 @@
 .column-company {
 	@include tablet {
 		height: 25em;
+	}
+}
+
+@media (max-width: 1050px) {
+	.visible-tablet {
+		position: relative;
+		top: 1.3em;
+		font-size: 10px;
 	}
 }
