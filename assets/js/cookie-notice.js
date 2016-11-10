@@ -4,7 +4,7 @@ var locale = body.getAttribute('data-lang');
 // var message = document.getElementById('cookie-banner-message').innerHTML;
 var templateName = 'cookie-banner';
 // en locale has no path prefix
-if (locale !== 'en') {
+if (locale !== 'sv') {
   templateName = '/' + locale + '/' + templateName;
 }
 
