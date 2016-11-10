@@ -31,6 +31,7 @@ form:
   company_org_number: Organisationsnummer
   company_logo_link: Företagslogga
   address: Adress
+  zip: Postnummer
   ssn: Personnummer
   languages: Språk
   competencies: Kompetenser
