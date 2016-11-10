@@ -16,7 +16,7 @@ global:
   example_company_jobs: A Selection of Our Current Jobs
   example_newcomer_jobs: A Selection of Our Current Jobs
   more_company_info: Company info
-  apply: Apply
+  apply: Register application
   or: or
 
 form:

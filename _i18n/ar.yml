@@ -17,7 +17,7 @@ global:
   example_company_jobs: مختارات من وظائفنا الحالية
   example_newcomer_jobs: مختارات من وظائفنا الحالية
   more_company_info: معلومات عن الشركة
-  apply: التقدم
+  apply: سجل طلبك
   or: أو
 form:
   email: البريد الالكتروني *

@@ -17,7 +17,7 @@ global:
   example_company_jobs: Ett urval av våra nuvarande jobb
   example_newcomer_jobs: Ett urval av våra nuvarande jobb
   more_company_info: Företagsinfo
-  apply: Ansök
+  apply: Registrera ansökan
   or: eller
 form:
   email: Email adress
