@@ -31,7 +31,8 @@ form:
   company_org_number: Company org. number
   company_logo_link: Company logo link
   address: Address
-  ssn: Personnummer
+  zip: ZIP
+  ssn: Social Security Number (Personnummer)
   languages: Languages
   competencies: Competencies
   job_description: Description
