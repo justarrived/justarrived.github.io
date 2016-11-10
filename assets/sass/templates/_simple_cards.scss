@@ -34,7 +34,6 @@
     @include tablet-small {
       text-align: left;
       padding: 15px;
-      padding-right: 30px;
     }
     @include desktop {
       text-align: center;
@@ -63,7 +62,7 @@
       width: 100%;
     }
     @include desktop {
-      border-right: 1px solid rgba(0, 0, 0, 0.15);
+      border-right: 1px solid rgba(0, 0, 0, 0.06);
       clear: none;
       width: 25%;
       padding: 0 1em;
@@ -73,7 +72,7 @@
       }
       .rtl-locale-direction & {
         border-right: none;
-        border-left: 1px solid rgba(0, 0, 0, 0.15);
+        border-left: 1px solid rgba(0, 0, 0, 0.06);
         &:last-child {
           border-left: none;
         }
