@@ -72,6 +72,7 @@ pagination:
 
 # I18n
 rtl_languages: ["ar"]
+default_language: 'sv'
 
 # I18n plugin: jekyll-multiple-languages-plugin
 languages: ["sv", "en", "ar"]
