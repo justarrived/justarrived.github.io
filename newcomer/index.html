@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% include sections/newcomer/top_banner.html %}
+{% include sections/newcomer/howto_cards.html %}
+<!-- {% include sections/newcomer/testimonial.html %} -->
+{% include sections/geo_availability.html %}
+
+<section class="
+  section-newcomer-cta
+  module
+  module--padding
+  module--black
+  module--gray-bg
+  module--txt-c">
+  <div class="wrap">
+    <div class="
+    module-content
+    module-content--centered
+    module--txt-c
+    ">
+      <h2 class="bordered bordered--primary bordered--centered">{% t newcomer_faq_nudge.title %}</h2>
+      <p>
+        <a href="{{ "/faq/#newcomer" | prepend: site.baseurl }}" class="border-btn btn-large border-btn--pink">
+          {% t global.newcomer_faq %}
+        </a> <br>
+        {% t global.or %} <br>
+        <a href="#" class="cd-popup-trigger-newcomer-signup border-btn btn-large border-btn--pink">
+          {% t global.apply %}
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{% include sections/newcomer/contact_us.html %}
