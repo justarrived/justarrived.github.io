@@ -17,6 +17,12 @@
     $('.js-match-height').matchHeight();
   }
 
+  function UTMBuilderFormInit() {
+    $('.js-utm-builder-form input').keyup(function(event) {
+      utmBuilerFormSubmit();
+    });
+  }
+
   var Site = {
     init: function() {
       JustTrack.init();
@@ -25,6 +31,8 @@
       initHourlyPay();
       initJobCards();
       matchHeight();
+
+      UTMBuilderFormInit();
     }
   }
 
