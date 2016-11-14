@@ -109,3 +109,13 @@ table.boring-table {
 .section-newcomer-cta {
   border-top: 1px solid $section-bg-color;
 }
+
+
+@keyframes animatedBackground {
+	from { background-color: transparent; }
+	to { background-color: rgba(256, 256, 256, 0.6); }
+}
+
+.animated-background {
+	animation: animatedBackground 1s cubic-bezier(0.18, 0.89, 0.32, 1.28) 4;
+}
