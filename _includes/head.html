@@ -7,6 +7,7 @@
 	<script type="text/javascript">
 		CURRENT_LOCALE = '{{ site.lang }}';
 		DEFAULT_LOCALE = '{{ site.default_language }}';
+		AVAILABLE_LOCALES =  {{ site.languages | join: '", "' | prepend: '["' | append: '"]' }};
 	</script>
 
 	<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
