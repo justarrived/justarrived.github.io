@@ -21,7 +21,7 @@ global:
 
 form:
   email: Email Address
-  company_email: Company Email Address
+  company_email: Company Email
   name: Name
   phone: Phone number
   company: Company
