@@ -21,6 +21,7 @@
     init: function() {
       JustTrack.init();
       Popups.init();
+      JustI18n.init();
       initHourlyPay();
       initJobCards();
       matchHeight();
