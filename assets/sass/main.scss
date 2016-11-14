@@ -111,6 +111,10 @@ table.boring-table {
 }
 
 
+.discrete-link {
+  text-decoration: none;
+}
+
 @keyframes animatedBackground {
 	from { background-color: transparent; }
 	to { background-color: rgba(256, 256, 256, 0.6); }
