@@ -1,0 +1,107 @@
+---
+layout: default
+title: Hourly pay calculator
+description: Hourly pay calculator
+---
+
+<div class="hourly-pay-calculator-page">
+  <div id="content">
+    <section class="
+    section--introduction
+    module
+    module--padding
+    module--black
+    module--white-bg
+    ">
+      <div class="
+    module-content
+    module-content--centered
+    module--black
+    ">
+        <h2 class="bordered bordered--primary bordered--centered">Link builder (for Google Analytics)</h2>
+        <br><br>
+
+        <p>
+          There are a total of five parameters you can add to your URLs: <code>utm_source</code>, <code>utm_medium</code>, <code>utm_campaign</code>, <code>utm_term</code>, <code>utm_content</code>.
+        </p>
+        <p>
+          For example, you could set the parameter <code>utm_source</code> as newsletter to identify traffic that come from a newsletter. You could then combine it with the parameter <code>utm_campaign</code> set to june to identify that this was the campaign in the month of June.
+        </p>
+
+        <h3 id="builder-form">Builder form</h3>
+
+
+        <form action="/" method="GET" class="js-utm-builder-form" onsubmit="utmBuilerFormSubmit(); return false;">
+          <div class="form-col form-col--full-width">
+            <p><strong>Start by adding the link you want to track.</strong></p>
+            <label for="website"> Website <span class="asterisk">*</span></label>
+            <input type="url" value="" name="url" class="required" id="url" required>
+            <em>The full website URL (e.g. <code>https://www.example.com</code>)</em>
+            <hr>
+          </div>
+
+          <div class="form-col form-col--full-width">
+            <p>
+              Next identify the advertiser, site, publication, etc. that is sending traffic.
+            </p>
+            <label for="campaign_source"> Campaign Source <span class="asterisk">*</span></label>
+            <input type="text" value="" name="campaign_source" class="required" id="campaign_source" required>
+            <em>The referrer: (e.g. <code>google</code>, <code>newsletter</code>, <code>justarrived_blog</code>)</em>
+            <hr>
+          </div>
+
+          <div class="form-col form-col--full-width">
+            <p>
+              The advertising or marketing medium:
+            </p>
+            <label for="campaign_medium"> Campaign Medium <span class="asterisk">*</span></label>
+            <input type="text" value="" name="campaign_medium" class="required" id="campaign_medium" required>
+            <em>Marketing medium: (e.g. <code>cpc</code>, <code>banner</code>, <code>email</code>, <code>newsletter</code>, <code>QR_code</code>)</em>
+          </div>
+
+          <!-- <div class="form-col form-col--full-width">
+            <p>
+              The individual campaign name:
+            </p>
+            <label for="campaign_name"> Campaign Name</label>
+            <input type="text" value="" name="campaign_name" class="" id="campaign_name">
+            <em>Product, promo code, or slogan (e.g. <code>spring_sale</code>)</em>
+            <hr>
+          </div>
+
+          <div class="form-col form-col--full-width">
+            <p>
+              Identify paid search keywords. If you're manually tagging paid keyword campaigns, you should also use utm_term to specify the keyword.
+            </p>
+            <label for="campaign_term"> Campaign Term</label>
+            <input type="text" value="" name="campaign_term" class="" id="campaign_term">
+            <em>Identify the paid keywords</em>
+            <hr>
+          </div>
+
+          <div class="form-col form-col--full-width">
+            <p>
+              Used to differentiate similar content, or links within the same ad. For example, if you have two call-to-action links within the same email message, you can use utm_content and set different values for each so you can tell which version is more effective.
+            </p>
+            <label for="campaign_content"> Campaign Content</label>
+            <input type="text" value="" name="campaign_content" class="" id="campaign_content">
+            <em>Use to differentiate ads</em>
+          </div> -->
+
+          <div class="clear">
+            <input type="submit" value="Build" name="submit" class="button border-btn btn-large border-btn--pink">
+          </div>
+
+          <div id="utm-result-area" style="background-color: #eee; padding: 10px; margin-top: 30px;">
+            <p>
+              <strong>Result:</strong>
+            </p>
+            <div id="utm-result"></div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </div>
+</div>
