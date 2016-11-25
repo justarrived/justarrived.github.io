@@ -380,7 +380,7 @@ newcomer_howto_section:
   apply_cta: Apply
   register:
     title: 1. Register
-    body: '<a href="#" class="cd-popup-trigger-newcomer-signup">Register here</a> or by clicking the "Apply" button. The registration form takes a few minutes to complete and is open for all newcomers and asylum seekers. You will also receive news and updates from Just Arrived after registration. Please note that this is an application, and does not give you automatic access to Just Arrived’s service.'
+    body: '<a href="#" class="cd-popup-trigger-newcomer-signup">Apply</a> or by clicking the "Apply" button. The registration form takes a few minutes to complete and is open for all newcomers and asylum seekers. You will also receive news and updates from Just Arrived after registration. Please note that this is an application, and does not give you automatic access to Just Arrived’s service.'
   requirements:
     title: 2. Requirements
     body: 'When the registration is done you will need to make sure you have all the relevant documents to be able to apply for jobs through Just Arrived’s service. You can update your application at anytime by sending an email to support@justarrived.se.'

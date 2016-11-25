@@ -452,8 +452,7 @@ newcomer_howto_section:
   apply_cta: Ansök
   register:
     title: 1. Registrera din ansökan
-    body: Du kommer till formuläret genom att trycka på knappen <a href="#" class="cd-popup-trigger-newcomer-signup">Registrera
-      ansökan</a>. Registreringen tar ett par minuter och är öppen för alla nyanlända
+    body: Du kommer till formuläret genom att trycka på knappen <a href="#" class="cd-popup-trigger-newcomer-signup">Ansök</a>. Registreringen tar ett par minuter och är öppen för alla nyanlända
       och asylsökande. Du kommer även att få nyhets-uppdateringar från Just Arrived
       till din email.
   requirements:
