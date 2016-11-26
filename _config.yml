@@ -86,3 +86,12 @@ authors:
     web: http://jacobburenstam.com/
     twitter: jacobburenstam
     github: buren
+
+analytics:
+  categories:
+    social: Social Media
+    navigation: Navigation
+    registration: Registration
+    cta: CTA
+    language: Language
+    company: Company
