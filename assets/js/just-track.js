@@ -16,16 +16,12 @@
   @ param label       The label you want to use to describe the event
   */
   function gaTracking(category, action, label) {
-
-    console.log('Category: ' + category +'\n');
-    console.log('Action: ' + action +'\n');
-    console.log('Label: ' + label +'\n');
-    // ga('send', {
-    //   hitType: 'event',
-    //   eventCategory: category,
-    //   eventAction: action,
-    //   eventLabel: label
-    // });
+    ga('send', {
+      hitType: 'event',
+      eventCategory: category,
+      eventAction: action,
+      eventLabel: label
+    });
   }
 
   function findValueWithName(array, name) {
