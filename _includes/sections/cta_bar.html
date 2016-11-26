@@ -14,7 +14,8 @@
     <a href="{{ "/newcomer/" | prepend: site.baseurl }}"
       class="primary-btn btn-large"
       data-track="click"
-      data-track-label="Goto newcomer page click (cta bar)">
+      data-track-label="Goto newcomer page click (cta bar)"
+      category="{{site.analytics.categories.cta}}">
       {% t cta_bar.newcomer_cta_link_text %}
     </a>
   </div>
@@ -27,7 +28,8 @@
     <a href="{{ "/company/" | prepend: site.baseurl }}"
       class="primary-btn btn-large"
       data-track="click"
-      data-track-label="Goto company page click (cta bar)">
+      data-track-label="Goto company page click (cta bar)"
+      category="{{site.analytics.categories.cta}}">
       {% t cta_bar.company_cta_link_text %}
     </a>
   </div>
