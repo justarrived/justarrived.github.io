@@ -510,3 +510,7 @@ press:
   logos:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
+xmas:
+  top_banner:
+    title: It's that time of the of the year
+  intro_section: Let's make this year count
