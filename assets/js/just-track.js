@@ -1,10 +1,8 @@
 ---
 ---
-
 /*In order to access variables from _config.yml we are allowing this here,
 * this so we only specigy the categories in one location.
 */
-
 
 (function(window) {
 
@@ -21,8 +19,6 @@
   @ param label       The label you want to use to describe the event
   */
   function gaTracking(category, action, label) {
-    console.log("test");
-
     ga('send', {
       hitType: 'event',
       eventCategory: category,
