@@ -30,7 +30,7 @@ body {
   	-moz-osx-font-smoothing: grayscale;
 }
 
-.container {
+.wrapper-container {
 	height: 100%;
 	position: relative;
 	@include desktop-small {
