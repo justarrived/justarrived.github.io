@@ -3,13 +3,13 @@
   {% capture en_root %}{{ site.github.url }}/en{{ page.url }}{% endcapture %}
   {% capture ar_root %}{{ site.github.url }}/ar{{ page.url }}{% endcapture %}
 
-  <a href="{{ sv_root }}" data-track="click" data-track-label="Language switch (sv)" category="{{site.analytics.categories.language}}">
+  <a href="{{ sv_root }}" data-action="click" data-action-label="Language switch (sv)" category="{{site.analytics.categories.language}}">
     <span class="lang-sv {% if site.lang != "sv" %}inactive{% endif %}">{% t global.swedish %}</span>
   </a>
-  <a href="{{ en_root }}" data-track="click" data-track-label="Language switch (en)" category="{{site.analytics.categories.language}}">
+  <a href="{{ en_root }}" data-action="click" data-action-label="Language switch (en)" category="{{site.analytics.categories.language}}">
     <span class="lang-en {% if site.lang != "en" %}inactive{% endif %}">{% t global.english %}</span>
   </a>
-  <a href="{{ ar_root }}" data-track="click" data-track-label="Language switch (ar)" category="{{site.analytics.categories.language}}">
+  <a href="{{ ar_root }}" data-action="click" data-action-label="Language switch (ar)" category="{{site.analytics.categories.language}}">
     <span class="lang-ar {% if site.lang != "ar" %}inactive{% endif %}">{% t global.arabic %}</span>
   </a>
   <div class="pulsate-element"></div>

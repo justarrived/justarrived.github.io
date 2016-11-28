@@ -1,5 +1,8 @@
 ---
 ---
+/*In order to access variables from _config.yml we are allowing this here,
+* this so we only specigy the categories in one location.
+*/
 
 (function(window) {
 
@@ -16,16 +19,12 @@
   @ param label       The label you want to use to describe the event
   */
   function gaTracking(category, action, label) {
-
-    console.log('Category: ' + category +'\n');
-    console.log('Action: ' + action +'\n');
-    console.log('Label: ' + label +'\n');
-    // ga('send', {
-    //   hitType: 'event',
-    //   eventCategory: category,
-    //   eventAction: action,
-    //   eventLabel: label
-    // });
+    ga('send', {
+      hitType: 'event',
+      eventCategory: category,
+      eventAction: action,
+      eventLabel: label
+    });
   }
 
   function findValueWithName(array, name) {
@@ -87,11 +86,11 @@
   }
 
   function initTrackOfDOMElements() {
-    $('[data-track]').each(function() {
+    $('[data-action]').each(function() {
       var $element = $(this);
       var category =  $element.attr('category');
-      var action = $element.attr('data-track') || 'click';
-      var label = $element.attr('data-track-label');
+      var action = $element.attr('data-action') || 'click';
+      var label = $element.attr('data-action-label');
 
       if (!category) {
         console.error('[just-track] category can *not* be blank!');
@@ -105,7 +104,7 @@
           );
         });
       } else {
-        console.error('[just-track] data-track-label can *not* be blank!')
+        console.error('[just-track] data-action-label can *not* be blank!')
       }
     });
   }

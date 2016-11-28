@@ -29,6 +29,7 @@ twitter_url: https://twitter.com/justarrivedse
 instagram_url: https://www.instagram.com/justarrivedse/
 linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
 github_url: https://github.com/justarrived
+ja_facebook_group_url: https://www.facebook.com/groups/1757408264512193/
 
 app_signin_link: https://app.justarrived.se/#/user/signin
 
@@ -49,6 +50,16 @@ contact_email: hej@justarrived.se
 segment_key: Im5TEqG2121n8lVHvgwNAW9yQ42j69Nd
 fb_key: 1166436026729850
 hotjar_site_id: 307094
+analytics:
+  ga_key: UA-70777714-1
+  categories:
+    social: Social Media
+    navigation: Navigation
+    registration: Registration
+    cta: CTA
+    language: Language
+    company: Company
+
 
 google_site_verification: 0rBZYZXWRw45Ksm_sbK7h5HbTgw7bOpDwOVK9GxvISU
 
@@ -86,12 +97,3 @@ authors:
     web: http://jacobburenstam.com/
     twitter: jacobburenstam
     github: buren
-
-analytics:
-  categories:
-    social: Social Media
-    navigation: Navigation
-    registration: Registration
-    cta: CTA
-    language: Language
-    company: Company
