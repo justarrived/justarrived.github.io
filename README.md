@@ -52,11 +52,11 @@ __Example__:
 
 ```html
 <a href="#"
-  data-track="click"
-  data-track-label="Newcomer reg. popup">
+  data-action="click"
+  data-action-label="Newcomer reg. popup">
 ```
 
-`click` is the default value for `data-track` unless something else is explicitly set.
+`click` is the default value for `data-action` unless something else is explicitly set.
 
 
 ## Blog posts
