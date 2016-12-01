@@ -1,7 +1,6 @@
 .section--hero {
 	text-align: center;
 	background-position: left center;
-	background-color: $cerise;
 	& .table {
 		min-height: 250px;
 		@include tablet {
