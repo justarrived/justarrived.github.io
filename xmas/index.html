@@ -8,10 +8,15 @@ layout: default
     {% include xmas/xmas_banner.html %}
 
     <section class="intro-section">
-      <h2 class="primary-color">Let's make this year count!</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam diam non lectus volutpat, placerat euismod sem viverra. Cras et risus quis lacus sollicitudin fringilla. Nulla facilisi. Nulla facilisi. Duis id odio ultrices, interdum massa et, commodo nibh. Donec eget sollicitudin tortor. Curabitur tempor massa quis nulla commodo facilisis.
+        {% t xmas.company_section.body %}
       </p>
+      <div class="how-it-works">
+        <h2 class="primary-color">{% t xmas.how_it_works_section.title %}</h2>
+        <p>
+          {% t xmas.how_it_works_section.body %}
+        </p>
+      </div>
     </section>
     <section class="enfotin-images">
       <h2 class="secondary-color">#enfotin</h2>
@@ -31,7 +36,7 @@ layout: default
     <section class="supporters">
       <h2 class="secondary-color">Latest supporters</h2>
       <ul>
-        <li><span class="primary-color supporter-name">Be the first one to register!</span></li>
+        <li><span class="primary-color supporter-name">Var den första att registrera!</span></li>
       </ul>
     </section>
     {% include xmas/register_section.html %}

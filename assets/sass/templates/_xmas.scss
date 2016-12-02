@@ -22,6 +22,18 @@
   h2 {
     font-size: 48px;
     margin-bottom: 1em;
+
+    @media(max-width: 500px) {
+      font-size: 36px;
+    }
+  }
+
+  .intro-section {
+    padding-top: 8em;
+    .how-it-works {
+      padding-top: 4em;
+      padding-bottom: 8em;
+    }
   }
 
   .primary-color {
@@ -103,6 +115,7 @@
 
   .register {
     padding: 7em 0;
+    height: 600px;
   }
 
   .counter {
@@ -127,7 +140,7 @@
       }
 
       @media (max-width: 600px) {
-        bottom: 7.7em;
+        bottom: 7.9em;
       }
     }
   }
