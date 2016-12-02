@@ -1,4 +1,7 @@
 .xmas {
+
+  $mobile: 500px;
+
   text-align: center;
 
   .header-bg {
@@ -17,13 +20,18 @@
   .hero-title {
     max-width: 650px;
     color: white;
+
+    @media(max-width: $mobile) {
+      max-width: 400px;
+      font-size: 48px;
+    }
   }
 
   h2 {
     font-size: 48px;
     margin-bottom: 1em;
 
-    @media(max-width: 500px) {
+    @media(max-width: $mobile) {
       font-size: 36px;
     }
   }
