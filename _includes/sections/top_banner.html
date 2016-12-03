@@ -3,6 +3,7 @@
   module
   module--padding
   module--white
+  module--bg-pink
   module--bg-cover" style="background-image: url({{ "/assets/images/bgs/smiles.png" | prepend: site.github.url }});">
   <div class="table">
     <div class="table-cell">
@@ -15,8 +16,9 @@
               title="Facebook"
               rel="noopener noreferrer"
               target="_blank"
-              data-track="click"
-              data-track-label="Top banner Facebook click">
+              data-action="click"
+              data-action-label="Top banner Facebook click"
+              category="{{ site.analytics.categories.social }}">
               <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; {% t global.facebook %}
             </a>
 
@@ -24,8 +26,9 @@
               title="Twitter"
               rel="noopener noreferrer"
               target="_blank"
-              data-track="click"
-              data-track-label="Top banner Twitter click">
+              data-action="click"
+              data-action-label="Top banner Twitter click"
+              category="{{ site.analytics.categories.social }}">
               <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; {% t global.twitter %}
             </a>
 

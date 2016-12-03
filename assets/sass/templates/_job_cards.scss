@@ -24,6 +24,7 @@ $job-card-padding: 15px;
 .job-card {
   text-align: left;
   height: 350px;
+  cursor: pointer;
   width: $job-card-width;
   padding: $job-card-padding;
   margin: 10px 5px;

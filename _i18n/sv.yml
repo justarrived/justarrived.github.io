@@ -222,86 +222,77 @@ faq:
     general_faq: Generell FAQ
     newcomer_faq: FAQ för nyanlända
     company_faq: FAQ för företag
-  general:
-    what:
-      question: Vilka är Just Arrived?
-      answer: Just Arrived är en tjänst skapad för att hjälpa människor som har immigrerat
-        till Sverige att snabbt hitta ett jobb. Tjänsten är en digital marknadsplats
-        som gör det enkelt för företag att anställa nyanlända.
-    who:
-      question: Vilka ligger bakom Just Arrived?
-      answer: Organisationen Just Arrived styrs av en icke vinstdrivande stiftelse
-        som arbetar för att främja integrerandet av nyanlända in i det svenska samhället.
-        Projektet har satts upp som ett pro bono initiativ och har gjorts möjligt
-        genom ett antal engagerade organisationer och individer som har bidragit med
-        sina resurser. De följande organisationerna och personerna har arbetat med
-        initiativet; Universum, Nove, Wintrgarden, Antrop, Caroline He, Yuliya Bilinskaya,
-        Jansson&Norin, Cygni, Bond Street, FrilansFinans, Stockholms Skrivarbyrå,
-        Mattias Bengtsson.
-    how:
-      question: Hur fungerar det?
-      answer: Det är riktigt enkelt. <br><br> 1. Uppdragsgivaren lägger upp ett jobb
-        genom att fylla i ett enkelt formulär (1-2 minuter). <br><br> 2. Uppdragstagaren
-        ansöker om jobbet (mindre än 1 minut). <br><br> 3. Uppdragsgivaren kollar
-        igenom och väljer en ansökande (1-3 minuter). <br><br> 4. Uppdragstagaren
-        bekräftar att hen kommer utföra uppdraget (mindre än 1 minut). <br><br> 5.
-        Båda parter bekräftar att uppdraget har utförts (mindre än 1 minut).
-    cost:
-      question: Hur mycket kostar det?
-      answer: Tjänsten är gratis. Vi tar inte betalt för att föra samman arbetssökande
-        och arbetsgivare - de fakturerade pengarna betalas ut till uppdragstagaren
-        när vi har betalt sociala avgifter, försäkringar och tredjepartsavgifter (mindre
-        än 5%).
-    wages:
-      question: Hur sätter ni lönenivåer?
-      answer: Lönerna är enligt fackliga rekommendationer. För oss är det självklart
-        med en rimlig kompensation för uppdragen vi förmedlar.
-    taxes:
-      question: Betalar ni skatt och socialaavgifter för anställda?
-      answer: Ja, vi betalar alltid arbetsgivaravgifter och försäkringar.
   newcomer:
     what:
-      question: Vad behöver jag för att få ett jobb?
-      answer: Du behöver ett giltigt person- eller samordningsnummer, ett jobbtillstånd
-        (eller AT-UND) och tillgång till ett bankkonto.
+      question: Vad behöver jag för att få ett jobb via Just Arrived?
+      answer: <b>Har du uppehållstillstånd</b> är det enda du behöver ett svenskt bankkonto.
+        <br><b>Om du är asylsökande</b> behöver du AT-UND på punkt 7 på ditt LMA-kort, ett samordningsnummer från Skatteverket samt tillgång till ett svenskt bankkonto.
+        <br><b>Om du är medborgare</b> inom EU behöver du ett samordningsnummer eller svenskt personnummer och tillgång till ett bankkonto.
+    at_und:
+      question: Vad är AT-UND?
+      answer: AT-UND är ett undantag från lagen som säger att du måste ha ett arbetstillstånd för att arbeta i Sverige. Alla som söker asyl i Sverige, och har identifierat sig hos Migrationsverket ska ha fått AT-UND. Om du är osäker, titta på ditt LMA-kort. AT-UND ska stå under punkt 7.
+    coordination_number:
+      question: Vad är ett samordningsnummer?
+      answer: Samordningsnumret får du från Skatteverket. Detta är ett tillfälligt personnummer, som är ditt födelsedatum plus fyra siffror. Detta nummer står INTE på ditt LMA-kort. Att få ett samordningsnummer kan vara svårt. Man behöver ett anställningskontrakt för att få det från Skatteverket. Just Arrived kan i nuläget tyvärr inte hjälpa till med detta eftersom vi inte är arbetsgivare, utan endast förmedlar jobb.
     bank_account:
       question: Behöver jag mitt eget bankkonto för att kunna söka ett jobb?
-      answer: Nej, det behöver du inte. Däremot behöver du tillgång till ett bankkonto
-        eftersom vi inte kan betala ut kontanter.
-    job_accept:
-      question: Varför måste jag "acceptera" ett jobberbjudande efter att jag redan
-        sökt ett jobb?
-      answer: Vi frågar om en konfirmation av jobbet för att försäkra oss att du verkligen
-        kommer utföra jobbet.
-    job_reschedule:
-      question: Kan jag boka om ifall jag inte kan genomföra uppdraget?
-      answer: Om du redan konfirmerat ett jobb och sedan inte kan utföra jobbet på
-        bestämt datum, så måste du kontakta din arbetsgivare för att ändra start-
-        eller sluttid. Vi rekommenderar dig dock att utföra jobbet efter det ni bestämde
-        vid konfirmationstillfället.
-    job_refuse:
-      question: Kan jag tacka nej till ett jobb jag redan jar accepterat?
-      answer: Om du redan konfirmerat ett uppdrag och sedan vill avböja erbjudandet
-        så måste du kontakta uppdragsgivaren och kontakta support@justarrived.se.
-    job_confirm:
-      question: Varför behöver jag "Konfirmera" ett uppdrag efter att det är utfört?
-      answer: Du måste konfirmera att jobbet har blivit genomfört så vi kan veta att
-        jobbet är klart. Så fort arbetsgivaren har konfirmerat kan vi skicka en faktura
-        och börja arbeta med din utbetalning.
-    job_overtime:
-      question: Vad händer om det tog längre tid att utföra jobbet än vad som tidigare
-        var bestämt?
-      answer: 'Vi rekommenderar dig att bara jobba de timmarna '
-    someone_else:
-      question: Kan jag skicka någon annan för att utföra uppdraget åt mig?
-      answer: Nej.  Genom att konfirmera ett uppdrag så går du in i ett avtal med
-        din arbetsgivare. Avtalet innehåller våra villkor, försäkringar och betalning
-        till dig som utförare. Det innebär alltså att du inte kan be någon annan utföra
-        jobbet åt dig.
-    get_paid:
-      question: När får jag betalt?
-      answer: Det tar mellan 10 och 40 dagar för din lön att bli utbetalad efter att
-        uppdragsgivaren har konfirmerat att uppdraget har blivit utfört.
+      answer: Du måste ha tillgång till ett bankkonto eftersom vi inte kan betala ut kontanter, men det behöver inte stå i ditt eget namn. Det kan tillhöra till exempel en familjemedlem.
+    get_account:
+      question: Hur kan jag få ett bankkonto?
+      answer: Att skaffa ett bankkonto som asylsökande kan vara svårt. Kraven skiljer mellan olika banker. De banker där det är enklast kräver följande underlag<br>
+        <ol>
+          <li>1 - Adress </li>
+          <li>2 - LMA-kort </li>
+          <li>3 - Kopia av legitimation godkänd av Migrationsverket </li>
+          <li>4 - Intyg från Skatteverket om samordningsnummer.</li>
+        </ol>
+    language_requirements:
+      question: Behöver jag kunna prata svenska eller engelska?
+      answer: Du behöver inte kunna svenska eller engelska för att få söka jobb via Just Arrived. Men det varierar mellan olika jobb vad som krävs i språkkunskaper.
+    type_of_job:
+      question: Vilken typ av jobb kan jag få via Just Arrived?
+      answer: Vi förmedlar i dagsläget olika sorters uppdrag. För att jobba via oss är det bra om man är flexibel. Gemensamt är att alla våra jobb är enklare uppdrag, som inte kräver högre utbildning eller erfarenhet. De flesta av våra jobb ryms inom något av följande områden<br>
+        <br><b>Facility</b><br>
+        <ul>
+          <li>Bygghjälp</li>
+          <li>Måleri</li>
+          <li>Lokalvård</li>
+          <li>Möbelmontering</li>
+        </ul>
+        <b>Support</b><br>
+        <ul>
+          <li>Kontor & administration</li>
+          <li>Produktion</li>
+          <li>Design</li>
+        </ul>
+        <b>Event</b><br>
+        <ul>
+          <li>Distribution</li>
+          <li>Montering</li>
+          <li>Värdar & guider</li>
+        </ul>
+        <b>Service</b><br>
+        <ul>
+          <li>Matlagning</li>
+          <li>Diskning</li>
+          <li>Servering</li>
+          <li>Hotell</li>
+        </ul>
+        <b>Commerce</b><br>
+        <ul>
+          <li>Butiksjobb</li>
+          <li>Lagerarbete</li>
+          <li>Inventering</li>
+        </ul>
+    how_much_job:
+      question: Hur mycket jobb kan jag få via Just Arrived?
+      answer: Vi förmedlar allt från ett par timmars uppdrag till deltidsjobb. Många börjar med en dag, men om man gör ett bra intryck finns chansen att företaget anställer dig oftare. Detta är upp till dig!
+    salary_levels:
+      question: Vilka lönenivåer har Just Arrived?
+      answer: Våra löner följer fackliga rekommendationer. För oss är det självklart att ge rimliga kompensationer.
+    migrationsverket:
+      question: Vad händer med min ersättning från Migrationsverket/Försäkringskassan om jag jobbar?
+      answer: Ersättningen kommer påverkas, och du kan behöva börja betala för ditt boende via Migrationsverket om du tjänar tillräckligt mycket pengar. Hur ersättningen från Försäkringskassan påverkas är en individuell bedömning från din handläggare. Vid en anställning får du isåfall uppgifter att ge till din handläggare som kan ge ett exakt svar.
   company:
     private_person:
       question: Kan jag skapa uppdrag som privatperson?
@@ -452,8 +443,7 @@ newcomer_howto_section:
   apply_cta: Ansök
   register:
     title: 1. Registrera din ansökan
-    body: Du kommer till formuläret genom att trycka på knappen <a href="#" class="cd-popup-trigger-newcomer-signup">Registrera
-      ansökan</a>. Registreringen tar ett par minuter och är öppen för alla nyanlända
+    body: Du kommer till formuläret genom att trycka på knappen <a href="#" class="cd-popup-trigger-newcomer-signup">Ansök</a>. Registreringen tar ett par minuter och är öppen för alla nyanlända
       och asylsökande. Du kommer även att få nyhets-uppdateringar från Just Arrived
       till din email.
   requirements:
@@ -511,3 +501,19 @@ press:
   logos:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
+xmas:
+  top_banner:
+    title: Just Arriveds julkampanj
+  company_section:
+    title: Välkommen hit och god jul!
+    body: Kul att du vill hjälpa oss att sänka trösklarna för nyanlända att komma in på arbetsmarknaden! Du är med och skapar riktig integration och ett mer sammansatt samhälle. <br><br> Det här är vår Decemberutmaning - hjälp nyanlända att få in en fot på arbetsmarknaden! Signa upp nedan så kontaktar vi dig under det nya året. Stort tack för ditt engagemang.
+  how_it_works_section:
+    title: Så här funkar det
+    body: "Just nu finns det X nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb."
+  register_section:
+    title: Vad väntar du på?
+    body: "Just nu finns det X nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb.
+
+      Gör så här: Kopiera statusen nedan, berätta vilket företag du vill ska registerara sig hos oss och tagga med #enfotin.
+
+      Tillsammans kan vi ge fler nyanlända en fot in."

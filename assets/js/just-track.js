@@ -1,4 +1,32 @@
+---
+---
+/*In order to access variables from _config.yml we are allowing this here,
+* this so we only specigy the categories in one location.
+*/
+
 (function(window) {
+
+  /* Google Analytics Categories */
+  var registrationCategory = '{{site.analytics.categories.registration}}';
+  var companyCategory = '{{site.analytics.categories.company}}';
+
+  /**
+  * Convenience function for tracking using Google Analytics
+  * Since we only post events this function can be used for all tracking at this point.
+  *
+  @ param category    The category to post the event under
+  @ param action      Action (type of click) that was performed
+  @ param label       The label you want to use to describe the event
+  */
+  function gaTracking(category, action, label) {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: category,
+      eventAction: action,
+      eventLabel: label
+    });
+  }
+
   function findValueWithName(array, name) {
     var value;
 
@@ -13,89 +41,77 @@
 
   function trackNewcomerSignupDone() {
     if ($('.js-newcomer-register-submit-thanks').length > 0) {
-      analytics.track('Newcomer finished Wintrgarden signup', {
-        locale: CURRENT_LOCALE
-      });
+      gaTracking(registrationCategory,
+                'finished registration',
+                'Newcomer finished Wintrgarden signup');
     }
   }
 
   function trackNewcomerSignupStart() {
-    var trackNewcomer = function(selector, regType) {
-     $(document).on('click', selector, function() {
-       analytics.track('Newcomer start Wintrgarden signup', {
-         reg_type: regType,
-         signup_url: location.href,
-         locale: CURRENT_LOCALE
-       });
-     });
-    };
+    var trackNewcomer = function(selector, eventLabel) {
+      $(document).on('click', selector, function() {
+        gaTracking(registrationCategory,
+                   'started',
+                   eventLabel);
+      });
+    }
 
-    trackNewcomer('.js-wintrgarden-signup-no-reg', 'No reg.');
-    trackNewcomer('.js-wintrgarden-signup-reg', 'Reg.');
+    var newcomerStart = 'Newcomer start Wintrgarden signup';
+    trackNewcomer('.js-wintrgarden-signup-no-reg', newcomerStart + ' - No reg.');
+    trackNewcomer('.js-wintrgarden-signup-reg', newcomerStart + ' - Reg.');
   }
 
   function trackCompanySignup() {
     $('.js-company-signup-form').submit(function() {
-      var formData = $(this).serializeArray();
-
-      var email = findValueWithName(formData, 'email');
-      var phone = findValueWithName(formData, 'phone');
-      var name = findValueWithName(formData, 'last_name');
-      var company = findValueWithName(formData, 'company');
-      var city = findValueWithName(formData, '00N580000088gDR');
-
-      analytics.track('Company Interest Sign Up', {
-        name: name,
-        email: email,
-        phone: phone,
-        company: company,
-        city: city,
-        signup_url: location.href,
-        locale: CURRENT_LOCALE
-      });
+      gaTracking(companyCategory, 'submit', 'Company Interest Sign Up');
     });
   }
 
   function trackNewcomerRegPopupOpen() {
     $('.cd-popup-trigger-newcomer-signup').on('click', function() {
-      analytics.track('Newcomer reg popup open', {
-        locale: CURRENT_LOCALE
-      });
+      gaTracking(
+        registrationCategory,
+        'click',
+        'Newcomer reg popup open');
     });
   }
 
   function trackCompanyRegPopupOpen() {
     $('.cd-popup-trigger-signin').on('click', function() {
-      analytics.track('Company reg popup open', {
-        locale: CURRENT_LOCALE
-      });
+      gaTracking(
+        registrationCategory,
+        'click',
+        'Company reg popup open');
     });
   }
 
   function initTrackOfDOMElements() {
-    $('[data-track]').each(function() {
+    $('[data-action]').each(function() {
       var $element = $(this);
-      var eventName = $element.attr('data-track') || 'click';
-      var label = $element.attr('data-track-label');
+      var category =  $element.attr('category');
+      var action = $element.attr('data-action') || 'click';
+      var label = $element.attr('data-action-label');
 
-      if (label) {
+      if (!category) {
+        console.error('[just-track] category can *not* be blank!');
+      } else if (label) {
         // Add event listener to element
-        $(document).on(eventName, function() {
-          analytics.track(label, {
-            locale: CURRENT_LOCALE
-          });
+        $element.on(action, function() {
+          gaTracking(
+            category,
+            action,
+            label
+          );
         });
       } else {
-        console.error('[just-track] data-track-label can *not* be blank!')
+        console.error('[just-track] data-action-label can *not* be blank!')
       }
     });
   }
 
   function trackJobCardClick() {
     $(document).on('click', '.job-card', function() {
-      analytics.track('Job card click', {
-        locale: CURRENT_LOCALE
-      });
+      gaTracking(registrationCategory, 'click', 'Click job card from start page');
     });
   }
 
