@@ -11,8 +11,20 @@
   JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam;
 
   function getJobs(callback) {
-    $.getJSON(JOBS_ENDPOINT, function(response) {
-      callback(response.data, response.included);
+  $.ajax({
+      url: JOBS_ENDPOINT,
+      type: 'GET',
+      dataType: 'json',
+      success: function(response) {
+        callback(response.data, response.included);
+      },
+      error: function() {
+        console.error('ja-jobs.js: API Request failed!');
+      },
+      beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-API-LOCALE', CURRENT_LOCALE);
+        xhr.setRequestHeader('Content-Type', 'application/vnd.api+json');
+      }
     });
   }
 
@@ -62,14 +74,16 @@
 
     var hours = jobAtrs.hours;
     var amount = hours * grossSalary;
-    var maxDescriptionLength = 30;
-    var description = (jobAtrs['short-description'] || jobAtrs['description']);
+    var maxDescriptionLength = 100;
+    var shortDesc = jobAtrs['translated-text']['short-description'] || jobAtrs['short-description'];
+    var description = shortDesc || (jobAtrs['translated-text']['description'] || jobAtrs['description']);
+    var name = jobAtrs['translated-text'].name || jobAtrs.name;
     // description = truncate(description, maxDescriptionLength);
 
     innerHTML = formatTemplate(template, '%job_company%', company.name);
     innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
     innerHTML = formatTemplate(innerHTML, '%job_category%', category.name);
-    innerHTML = formatTemplate(innerHTML, '%job_name%', jobAtrs.name);
+    innerHTML = formatTemplate(innerHTML, '%job_name%', name);
     innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
     innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', grossSalary);
