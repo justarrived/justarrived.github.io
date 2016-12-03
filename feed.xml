@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Just Arrived</title>
+    <description>Helping newcomers in Sweden enter the labor market.
+</description>
+    <link>http://justarrived.se//link>
+    <atom:link href="http://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Dec 2016 16:17:20 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Dec 2016 16:17:20 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Väsbyhem hjälper och får hjälp av nyanlända</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/zaher-foto-johan-falk.jpg&quot; alt=&quot;Zaher&quot; /&gt;
+&lt;em&gt;Foto: Johan Falk&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Väsbyhem har sedan i våras ett samarbete med organisationen Just Arrived. Just Arrived har tagit fram en webapplikation som underlättar för nyanlända och företag att få kontakt med varandra.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just Arriveds projekt handlar om att göra det enklare för nyanlända att snabbare komma i arbete, bygga nätverk och skapa sig ett CV. Man har i projektet även hittat ett sätt att lösa arbetsrättsliga hinder för arbetsgivaren genom ett samarbete med Frilans Finans som tar hand om alla skatter, sociala avgifter och försäkringar.&lt;/p&gt;
+
+&lt;p&gt;Samarbetet med Just Arrived uppfattas från Väsbyhems sida som mycket lyckat och uppskattat av både den egna personalen och de arbetssökande vi tagit emot.&lt;/p&gt;
+
+&lt;p&gt;– Att företag som Väsbyhem inser värdet av att engagera de nyanlända personer som kommer hit är det som gör hela skillnaden för dessa individer. Vi är mycket stolta över att kunna erbjuda en hållbar tjänst som skapar affärsnytta, som i sin tur leder till ökad integration, säger Andreas König, grundare och VD Just Arrived.&lt;/p&gt;
+
+&lt;p&gt;Den första att bli erbjuden jobbuppdrag hos Väsbyhem under sommaren var Zaher, som kom till Sverige från Syrien i augusti 2015. Sedan dess har det hunnit bli flera uppdrag av olika karaktär, allt från att vara ute på fältet till kontorsarbete och han har snabbt blivit en i gänget.&lt;/p&gt;
+
+&lt;p&gt;– Samarbetet med Just Arrived fungerar jättebra! För mig som förvaltare på Väsbyhem, så är det ett mycket smidigt sätt att få snabb hjälp vid uppkomna behov inom vår verksamhet. Det är samtidigt otroligt givande att få bidra till att skapa bryggor mellan arbetsmarknaden och nyanlända, säger Daniel Aronson på Väsbyhem.&lt;/p&gt;
+
+&lt;p&gt;– Fokus på integration och att få fler personer i arbete har hög prioritet i Upplands Väsby kommun. Därför är det glädjande att Väsbyhem i samarbete med den ideella organisationen Just Arrived kliver fram ytterligare och tar ett ännu större ansvar än tidigare, säger Mathias Bohman (S) kommunstyrelsens ordförande.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.sabo.se/aktuellt/nyheter_m/2016/nov/Sidor/Vasbyhem-hjalper-och-far-hjalp-av-nyanlanda.aspx&quot;&gt;Läs orginalet på SABO.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://justarrived.se/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>1x3x3x3 - 1 feature, 3 people, 3 hours, 3 languages</title>
+        <description>&lt;p&gt;&lt;strong&gt;3 people, 3 hours, 3 languages. A collaboration story.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Today I had the pleasure of working remotely with Emma Långstöm (of Antrop) and Ahmed Kaddoura launching a new “howto” section on our public website. We were able to deploy the new section in less than three hours of work in three languages (Arabic, English and Swedish).&lt;/p&gt;
+
+&lt;p&gt;It all started at 15:46 today when Emma uploaded a few screenshots, icons and copy to our community Slack channel (#website), of a new “howto” section that would make it clear how our process works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/1x3x3x3/emma-slack-response.png&quot; alt=&quot;Emma Slack&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few of us started iterating on the copy using Google docs. Meanwhile Emma gave a shout out to Ahmed, who is absolutely awesome and have been helping us with the site, and asked if he could provide an arabic translation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/1x3x3x3/ahmed-slack-response.png&quot; alt=&quot;Ahmed Slack Response&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Awesome!&lt;/p&gt;
+
+&lt;p&gt;We kept iterating on the copy a but more and finally ended up with something that we could live with.
+I exposed my local development environment using &lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok&lt;/a&gt;, so everybody could give feedback as I developed the section.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/1x3x3x3/design-conversation.png&quot; alt=&quot;Slack Conversation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Roughly an hour later and many, &lt;em&gt;small&lt;/em&gt;, iterations later, we had something that looked pretty enough.&lt;/p&gt;
+
+&lt;p&gt;Ahmed and I then spent the next hour or so tweaking the right-to-left version of the section and made sure it looked good on all devices.&lt;/p&gt;
+
+&lt;p&gt;Here is the final result:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Desktop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/1x3x3x3/desktop-en.png&quot; alt=&quot;Desktop screenshot English&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/1x3x3x3/desktop-ar.png&quot; alt=&quot;Desktop screenshot Arabic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tablet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/1x3x3x3/tablet-en.png&quot; alt=&quot;Tablet screenshot English&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/1x3x3x3/tablet-ar.png&quot; alt=&quot;Tablet screenshot Arabic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you Ahmed and Emma! A real pleasure to work with you :)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/10/11/moving-fast-in-three-languages/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/10/11/moving-fast-in-three-languages/</guid>
+        
+        <category>engineering</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Backward phone numbers</title>
+        <description>&lt;p&gt;This post will, hopefully, be one of many posts about what its like to be an engineer/developer at Just Arrived.&lt;/p&gt;
+
+&lt;p&gt;There are many things that make Just Arrived unique as a startup. One of those things is that we need to support multiple languages, even right-to-left languages, from the start, while most other companies can defer that complexity to much much later (if ever!).&lt;/p&gt;
+
+&lt;p&gt;I’ve been developing for the web for more than 5 years and I recently encountered something new, namely the css property &lt;code class=&quot;highlighter-rouge&quot;&gt;unicode-bidi&lt;/code&gt; (heard of it before?).&lt;/p&gt;
+
+&lt;p&gt;Recently we did a major upgrade of our website. We moved &lt;a href=&quot;http://justarrived.se&quot;&gt;justarrived.se&lt;/a&gt; from Wordpress to Jekyll as well as restructured and rewrote a lot of the content for the site.
+One, seemingly small, thing that we did was to design a “contact us” section where the names, roles, email and phone numbers for each of our team members where to be displayed. It got built real fast and everything seemed to have worked up until we tested the site in Arabic.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Houston we have a problem…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The problems was that phone numbers where displayed backwards! So &lt;code class=&quot;highlighter-rouge&quot;&gt;+46 73 500 0001&lt;/code&gt; was displayed as &lt;code class=&quot;highlighter-rouge&quot;&gt;0001 500 73 46+&lt;/code&gt;. Not really what we were after…&lt;/p&gt;
+
+&lt;p&gt;The solution turned out to be real simple and it was a CSS property that I’ve never heard of before.&lt;/p&gt;
+
+&lt;p&gt;The solution was to add (we use SASS):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-CSS&quot;&gt;.rtl-locale-direction {
+  &amp;amp; .formatted-number {
+    unicode-bidi: plaintext;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.rtl-locale-direction&lt;/code&gt; is the class we set when the a right-to-left language is used, so we can add custom styling on right-to-left locales. That selector has &lt;code class=&quot;highlighter-rouge&quot;&gt;direction: rtl&lt;/code&gt; set, so we need to override it with &lt;code class=&quot;highlighter-rouge&quot;&gt;unicode-bidi: plaintext&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read more about &lt;code class=&quot;highlighter-rouge&quot;&gt;unicode-bidi&lt;/code&gt; &lt;a href=&quot;http://www.w3schools.com/cssref/pr_text_unicode-bidi.asp&quot;&gt;over at w3schools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just one of those things that you usually don’t have to think about when building websites and applications. This is just one example of what unique challenges we at Just Arrived face on a day to day basis.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/10/05/backward-phone-numbers/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/10/05/backward-phone-numbers/</guid>
+        
+        <category>engineering</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>A story from our Community Meetup</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/team-picture.jpg&quot; alt=&quot;The team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During Wednesday evening, &lt;a href=&quot;http://antrop.se/&quot; title=&quot;Antrop - Design Agency&quot;&gt;Antrop&lt;/a&gt; welcomed Just Arrived together with the community of contributors for a launch of the new website. The office was transformed into a friendly venue with snacks, refreshments and great mingle. The thought was to allow our community to, in each own’s phase be able to catch up with one another.&lt;/p&gt;
+
+&lt;p&gt;After a while when everyone had food in their stomachs, and drinks in their hands, the attention was awarded to Anna who guided us through the evening. During the program she walked through the journey of Just Arrived and how it has transformed since our last meetup on May 23rd. Great news succeeded each other, which gave Jacob our CTO, the confidence to agree to do a live deployment of our new website (the one you are currently visiting) ;)&lt;/p&gt;
+
+&lt;p&gt;The website launch together with the rest of the evening turned out to be as successful as we were hoping. The joyful evening gave us the extra energy, making the cleaning afterwards seem like a walk in the park with the smile on everyone’s face!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/09/29/a-story-from-our-community-meetup/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/29/a-story-from-our-community-meetup/</guid>
+        
+        <category>meetup</category>
+        
+        <category>community</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Tobias Tikka</title>
+        <description>&lt;p&gt;My name is Tobias and I am 24 years old. After 5 years in Gothenburg at Chalmers University of Technology I finally ended up in beautiful Stockholm, and now after two weeks living here I have started referring to it as home. A few years back while working as a volunteer in South Africa helping children in their education, I realized that I wanted my work life to fill a purpose for other people just as much as for my own, which makes me extra motivated for being a part of the Just Arrived team!&lt;/p&gt;
+
+&lt;p&gt;Besides my studies within business design I have been working in the field of software engineering the last couple of years, both at Spotify as a client developer and at Norris Cotton Cancer Center in Los Angeles where I developed a bioinformatics tool to help finding the relationships between DNA methylation and cancer. I love the mix of concrete facts and logic that product development involves in combination with the strategic aspects that the business landscape will demand from you and your product.&lt;/p&gt;
+
+&lt;p&gt;The reason why I want to be a part of the Just Arrived team is because I believe that this initiative is a great way to make a positive impact in the Swedish society. Since the service is provided through a technical platform this aligns well with my big interest for software development. The fact that the Just Arrived team consists of high-performing individuals who I can learn from and have fun together with makes me even more motivated to work here!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/tobias-tikka.jpg&quot; alt=&quot;Tobias Tikka&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/09/21/tobias-tikka/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/21/tobias-tikka/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Jacob Burenstam</title>
+        <description>&lt;p&gt;I’m Jacob Burenstam, grew up in Stockholm, spent almost seven years in Lund and Malmö, before returning to Stockholm in January this year. I studied Computer Science at the Faculty of Engineering in Lund for three years and have since then worked with technology.
+I’m one of the co-founders and currently CTO &amp;amp; CPO of Just Arrived. Its has been an amazing journey from the initial idea to where we are now and I’m really excited about our future. It has been an absolute pleasure working with so many awesome contributors, both individuals and companies, that have made this possible.&lt;/p&gt;
+
+&lt;p&gt;My main focus now is to make sure the product runs smoothly and together with our amazing team, including Antrop (!), make sure the product gets better and better.
+Ever since I learnt how to code I’ve been looking for ways to contribute to the larger community.
+To quote Aaron Swartz: “..being a…programmer is like having super powers, and it would be a shame if Superman just used his powers to make himself rich”.&lt;/p&gt;
+
+&lt;p&gt;My very first software project, outside of school, was for a charity a friend of mine was starting up. It’s actually where my passion started for building things and it’s also how I learnt to build things for the web.
+We’re constantly looking for passionate and driven contributors, so if you want to contribute don’t hesitate to reach out to us!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/jacob-burenstam.jpg&quot; alt=&quot;Jacob Burenstam&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/09/14/jacob-burenstam/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/14/jacob-burenstam/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Per Clingweld</title>
+        <description>&lt;p&gt;My name is Per Clingweld. I’m 27 years old and passionate about innovation and urban development, but more specifically realising peoples’ true potential. I have a BSc in Architecture and Engineering and an MSc in Management and Economics of Innovation from Chalmers University of Technology in Gothenburg. I’m an entrepreneur at heart and see an opportunity to be creative whenever I run into a problem - small or large. I’ve started a few companies and non-profits and worked with everything from web design to commercial real estate development.&lt;/p&gt;
+
+&lt;p&gt;I’ve been part of the Just Arrived journey from the idea stage in October last year. I could potentially be described as the catalyst who brought it from an email to a project and connected the right people to get it started. Through my employer Nova I have been working pro-bono with the project throughout the year. Once I was offered the role as CMO in the core team, after our great success at political week Almedalen, I simply couldn’t say no! As CMO, I’m responsible for shaping the communication and relationships that make people and organisations aware of our brand and what we do. Our website and social media have been important channels so far and the next step will be to start creating events that educate on the matter.&lt;/p&gt;
+
+&lt;p&gt;So why do I do what I do? Well, over the past few years I’ve been part of growing the startup community in Sweden, following the creativity and tremendous speed at which ideas are being realised thanks to design and technology. Right now, 33 investments are being made in Swedish startups every month compared to only 3 a few years ago, proving that this little country in the north has become a melting pot for innovation. At the same time, through my key role in the top talent network Nova, I realize how many talented individuals are just waiting to contribute with their skills, social capital and time to do good. I am a big fan for building financially sustainable companies and products, strategically designed to make an impact. Up until today, the Just Arrived project has had more than 150 contributors from 25 different organisations, making it the coolest project I’ve ever been part of. This form of collaboration enabled by technology, and also how we’ve teamed up with other initiatives within the space, makes me very hopeful for the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/per-clingweld.jpg&quot; alt=&quot;Per Clingweld&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/09/06/per-clingweld/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/06/per-clingweld/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Andreas König</title>
+        <description>&lt;p&gt;My name is Andreas König and am 29 years old. People say I am driven and action oriented, perhaps that’s why I’m here. I have a bachelor’s degree in Media &amp;amp; Communication and Master in Entrepreneurship and Business Design from Chalmers University of Technology. Besides that, I have several years of experience from sales and project management.&lt;/p&gt;
+
+&lt;p&gt;In september 2015 I started looking into the viability of the idea that eventually would become to be the Just Arrived app. Together with over 150 pro-bono contributors, representing 30 different companies, we over 8 months built the concept and product that is now running in closed beta. Today I am Co-Founder and CEO of Just Arrived. My main focus right now is supporting the team in getting new jobs on the platform and making sure we help newcomers get connected to those jobs. I am also constantly looking into new ways of developing our value proposition and organization. As soon as we are up and running with sales, I will move over to nurturing and activating the amazing pro-bono community that are supporting our cause.&lt;/p&gt;
+
+&lt;p&gt;There are several reasons why I decided to invest the early days of my career in Just Arrived. 1) I get to work with real issues and make a tangible impact. 2) I get to work with new technological solutions. 3) I get to be part of developing the platform economy. Hope it all makes sense to you as much as it does to me!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/andreas-konig.jpg&quot; alt=&quot;Andreas König&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/08/31/andreas-konig/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/31/andreas-konig/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Anna Hörnmark</title>
+        <description>&lt;p&gt;I grew up in a big family in Jönköping, and after living in both Gothenburg and Malmö I ended up in Stockholm. Coming from a smaller city it takes a while, but Stockholm is becoming home, and I love it! I worked for several years as a store manager within retail and during the last three years I have studied Arabic and Middle Eastern &amp;amp; North Africa studies at Stockholms universitet.&lt;/p&gt;
+
+&lt;p&gt;As Operations Manager at Just Arrived my main responsibility is being the contact for newcomers looking for work, to answer all questions through our support channel. And first and foremost it is to build a social and work related network of motivated people who, by doing great work for companies through us, will get references and credentials to help them further on into Swedish labour market and Swedish society.&lt;/p&gt;
+
+&lt;p&gt;When I grew up the simple motto “No one can do everything, but everyone can do something” was beaten into my brain. And I guess this is me trying to do something. During my studies, the last three years I watched the situation with immigrants in Sweden develop rapidly. My understanding of some of the cultures that are enriching Sweden grew next to my wish to contribute, and when I was given a chance to join the highly driven and motivated team at Just Arrived I didn’t hesitate. We want to do something to help make at least one step into Swedish society easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/anna-hornmark.jpg&quot; alt=&quot;Anna Hörnmark&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/08/24/anna-hornmark/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/24/anna-hornmark/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Jesper Sundström</title>
+        <description>&lt;p&gt;I am a restless 22-year-old student currently studying business at Lund University. Coming home to Stockholm for the summer from the vibrant student life I knew I had do find some exciting project to keep myself motivated. Luckily I happened to end up in the small and talented team of Just Arrived!&lt;/p&gt;
+
+&lt;p&gt;I have had the opportunity to join the Just Arrived team during this very exciting period of product testing and taking the service to the market. Working with promoting the concept of Just Arrived and attract our first amazing pilot companies. It has been great to see the mindset in these companies and I know that that we together can keep inspiring more to follow.&lt;/p&gt;
+
+&lt;p&gt;I am a very business-oriented individual that thrives when I can contribute with, and also develop my competence in long-term strategic thinking to progress projects and businesses. Being able to align this with helping people is incredible and this is why I enjoy working with Just Arrived. We have addressed a well-known problem where society seems to be stuck in old ways of operating and found a solution where entrepreneurial thinking and energy is the engine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/jesper-sundstrom.jpg&quot; alt=&quot;Jesper Sundström&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://justarrived.se/blog/2016/08/08/jesper-sundstrom/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/08/jesper-sundstrom/</guid>
+        
+        <category>meet the team</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

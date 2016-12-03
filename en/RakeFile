@@ -1,0 +1,44 @@
+task default: :console
+
+def prompt_input(text)
+  puts "#{text}: "
+  print '> '
+  $stdin.gets.chomp.strip
+end
+
+task :new_post do
+  filename = prompt_input('Filename').gsub(/ /, '-').downcase
+  yyyy_mm_dd = Time.new.strftime('%Y-%m-%d')
+  filepath = "blog/_posts/#{yyyy_mm_dd}-#{filename}.md"
+  if File.exists?(filepath)
+    puts "File '#{filepath}' already exists! Please chose another name."
+    exit 1
+  end
+
+  title = prompt_input('Title of post')
+  tags = prompt_input('Tags (comma separated)').split(',').map(&:strip)
+
+  lines = []
+  lines << '---'
+  lines << 'layout: post'
+  lines << "title: #{title}"
+  lines << "draft: false"
+
+  if tags.any?
+    lines << "tags:"
+    tags.each { |tag| lines << "  - #{tag}" }
+  end
+  lines << '---'
+  lines << ''
+
+  File.write(filepath, lines.join("\n"))
+  puts "Now you can add post content to #{filepath}"
+end
+
+task :console do
+  require 'irb'
+  require 'irb/completion'
+  puts 'Ruby console started..'
+  ARGV.clear
+  IRB.start
+end
