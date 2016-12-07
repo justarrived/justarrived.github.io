@@ -8,6 +8,7 @@
 
   /* Google Analytics Categories */
   var companyCategory = '{{site.analytics.categories.company}}';
+  var xmasCategory = '{{site.analytics.categories.xmas}}';
   var newcomerCategory = '{{site.analytics.categories.newcomer}}';
   var ctaCategory = '{{site.analytics.categories.cta}}';
 
@@ -86,6 +87,15 @@
     });
   }
 
+  function trackXmasRegPopupOpen() {
+    $('.cd-popup-trigger-xmas').on('click', function() {
+      gaTracking(
+        xmasCategory,
+        'click',
+        'Christmas popup open');
+    });
+  }
+
   function initTrackOfDOMElements() {
     $('[data-action]').each(function() {
       var $element = $(this);
@@ -122,6 +132,7 @@
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
       trackNewcomerRegPopupOpen();
+      trackXmasRegPopupOpen();
       trackCompanyRegPopupOpen();
       initTrackOfDOMElements();
       trackJobCardClick();
