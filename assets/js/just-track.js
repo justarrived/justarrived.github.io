@@ -9,6 +9,7 @@
   /* Google Analytics Categories */
   var registrationCategory = '{{site.analytics.categories.registration}}';
   var companyCategory = '{{site.analytics.categories.company}}';
+  var xmasCategory = '{{site.analytics.categories.xmas}}';
 
   /**
   * Convenience function for tracking using Google Analytics
@@ -85,6 +86,15 @@
     });
   }
 
+  function trackXmasRegPopupOpen() {
+    $('.cd-popup-trigger-xmas').on('click', function() {
+      gaTracking(
+        xmasCategory,
+        'click',
+        'Christmas popup open');
+    });
+  }
+
   function initTrackOfDOMElements() {
     $('[data-action]').each(function() {
       var $element = $(this);
@@ -121,6 +131,7 @@
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
       trackNewcomerRegPopupOpen();
+      trackXmasRegPopupOpen();
       trackCompanyRegPopupOpen();
       initTrackOfDOMElements();
       trackJobCardClick();
