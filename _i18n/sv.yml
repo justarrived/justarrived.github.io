@@ -502,6 +502,9 @@ press:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
 xmas:
+  startpage:
+    description: Under december månad har vi i Just Arrived en julkampanj där vi utmanar dig att göra verklig skillnad.
+    more_info_link: Ta mig till kampanjsidan!
   top_banner:
     title: Just Arriveds julkampanj
   company_section:
