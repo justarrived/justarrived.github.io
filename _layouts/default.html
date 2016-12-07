@@ -5,7 +5,6 @@
 
 {% capture locale_direction %}{% if site.rtl_languages contains site.lang %}rtl{% else %}ltr{% endif %}{% endcapture %}
 <body data-lang="{{ site.lang }}" class="{{ site.lang }}-locale {{ locale_direction }}-locale-direction" dir="{{ locale_direction }}" itemscope="" itemtype="http://schema.org/WebPage">
-  {% include xmas/xmas_startpage_banner.html %}
   <div class="container">
     {% include nav.html %}
 
