@@ -64,7 +64,7 @@
 
   function trackCompanySignup() {
     $('.js-company-signup-form').submit(function() {
-      gaTracking(companyCategory, 'submit', 'Company has submitted interst for JA');
+      gaTracking(companyCategory, 'submit', 'Company has submitted interest for JA');
     });
   }
 
