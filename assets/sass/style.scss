@@ -41,6 +41,19 @@ the whole project.
 // the grid
 @import "partials/grid";
 
+
+// Libs
+/* Bootstrap - variables to regulate grid */
+$enable-flex:						true;
+$enable-grid-classes:		true;
+
+@import "libs/bootstrap-grid/_variables.scss";
+@import "libs/bootstrap-grid/_mixins.scss";
+@import "libs/bootstrap-grid/_normalize.scss";
+@import "libs/bootstrap-grid/_reboot.scss";
+@import "libs/bootstrap-grid/_grid.scss";
+
+
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
