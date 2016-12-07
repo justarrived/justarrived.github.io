@@ -5,9 +5,8 @@ IFS=$'\n\t'
 cd "$(dirname "$0")/.."
 
 which bundle 2>&1 >/dev/null || {
-  echo -e '\n== Please install bundle and then run the script again =='
-  echo -e '  $ gem install bundler'
-  exit 1
+  echo -e '\n== Installing bundler =='
+  gem install bundler --conservative
 }
 
 which npm 2>&1 >/dev/null || {

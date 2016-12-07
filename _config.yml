@@ -55,9 +55,9 @@ analytics:
   categories:
     social: Social Media
     navigation: Navigation
-    registration: Registration
     cta: CTA
     language: Language
+    newcomer: Newcomer
     company: Company
     xmas: Christmas
 

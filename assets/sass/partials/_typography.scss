@@ -48,37 +48,28 @@ I've edited it a bit, but it's a nice starting point.
 */
 
 @font-face {
-    font-family: 'museo-reg';
-    src: url('../fonts/museo/MuseoSans_500-webfont.eot');
-    src: url('../fonts/museo/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/museo/MuseoSans_500-webfont.woff2') format('woff2'),
-         url('../fonts/museo/MuseoSans_500-webfont.woff') format('woff'),
-         url('../fonts/museo/MuseoSans_500-webfont.ttf') format('truetype'),
-         url('../fonts/museo/MuseoSans_500-webfont.svg#museo_sans500') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'museo';
+  src: url('../fonts/museo/museo-300.otf') format("opentype");
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: 'museo-reg-ita';
-    src: url('../fonts/museo/MuseoSans_500_Italic-webfont.eot');
-    src: url('../fonts/museo/MuseoSans_500_Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/museo/MuseoSans_500_Italic-webfont.woff2') format('woff2'),
-         url('../fonts/museo/MuseoSans_500_Italic-webfont.woff') format('woff'),
-         url('../fonts/museo/MuseoSans_500_Italic-webfont.ttf') format('truetype'),
-         url('../fonts/museo/MuseoSans_500_Italic-webfont.svg#museo_sans500_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'museo';
+    src: url('../fonts/museo/museo-500.otf') format("opentype");
+    font-weight: 500;
+}
 
+@font-face {
+    font-family: 'museo';
+    src: url('../fonts/museo/museo-700.otf') format("opentype");
+    font-weight: 700;
 }
 
 
 // font stacks
 $sans-serif:        "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
-
-$museo-reg:             "museo-reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$museo-reg-ita:         "museo-reg-ita", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$museo:             "museo", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /*
  i imported this one in the functions file so bones would look sweet.

@@ -27,11 +27,31 @@
       <div class="footer-col">
         <h3>{% t footer.follow_us.title %}</h3>
         <div class="social-links">
-          <a href="{{site.facebook_url}}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="{{site.twitter_url}}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-          <a href="{{site.instagram_url}}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="{{site.github_url}}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a
+            href="{{site.facebook_url}}"
+            data-action="click"
+            data-action-label="Footer Facebook click"
+            category="{{ site.analytics.categories.social }}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a
+            href="{{site.twitter_url}}"
+            data-action="click"
+            data-action-label="Footer Twitter click"
+            category="{{ site.analytics.categories.social }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a
+            href="{{site.instagram_url}}"
+            data-action="click"
+            data-action-label="Footer Instagram click"
+            category="{{ site.analytics.categories.social }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a
+            href="{{site.linkedin_url}}"
+            data-action="click"
+            data-action-label="Footer LinkedIn click"
+            category="{{ site.analytics.categories.social }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a
+            href="{{site.github_url}}"
+            data-action="click"
+            data-action-label="Footer Github click"
+            category="{{ site.analytics.categories.social }}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="footer-col">
