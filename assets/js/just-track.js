@@ -7,8 +7,9 @@
 (function(window) {
 
   /* Google Analytics Categories */
-  var registrationCategory = '{{site.analytics.categories.registration}}';
   var companyCategory = '{{site.analytics.categories.company}}';
+  var newcomerCategory = '{{site.analytics.categories.newcomer}}';
+  var ctaCategory = '{{site.analytics.categories.cta}}';
 
   /**
   * Convenience function for tracking using Google Analytics
@@ -41,47 +42,47 @@
 
   function trackNewcomerSignupDone() {
     if ($('.js-newcomer-register-submit-thanks').length > 0) {
-      gaTracking(registrationCategory,
-                'finished registration',
-                'Newcomer finished Wintrgarden signup');
+      gaTracking(newcomerCategory,
+                'click',
+                'Wintrgarden - Finished signup');
     }
   }
 
   function trackNewcomerSignupStart() {
     var trackNewcomer = function(selector, eventLabel) {
       $(document).on('click', selector, function() {
-        gaTracking(registrationCategory,
+        gaTracking(newcomerCategory,
                    'started',
                    eventLabel);
       });
     }
 
-    var newcomerStart = 'Newcomer start Wintrgarden signup';
-    trackNewcomer('.js-wintrgarden-signup-no-reg', newcomerStart + ' - No reg.');
-    trackNewcomer('.js-wintrgarden-signup-reg', newcomerStart + ' - Reg.');
+    var newcomerStart = 'Wintrgarden - Started signup';
+    trackNewcomer('.js-wintrgarden-signup-no-reg', newcomerStart + ' (No reg.)');
+    trackNewcomer('.js-wintrgarden-signup-reg', newcomerStart + ' (Reg.)');
   }
 
   function trackCompanySignup() {
     $('.js-company-signup-form').submit(function() {
-      gaTracking(companyCategory, 'submit', 'Company Interest Sign Up');
+      gaTracking(companyCategory, 'submit', 'Company has submitted interst for JA');
     });
   }
 
   function trackNewcomerRegPopupOpen() {
     $('.cd-popup-trigger-newcomer-signup').on('click', function() {
       gaTracking(
-        registrationCategory,
+        newcomerCategory,
         'click',
-        'Newcomer reg popup open');
+        'Registration popup open');
     });
   }
 
   function trackCompanyRegPopupOpen() {
     $('.cd-popup-trigger-signin').on('click', function() {
       gaTracking(
-        registrationCategory,
+        companyCategory,
         'click',
-        'Company reg popup open');
+        'Registration popup open');
     });
   }
 
@@ -111,7 +112,7 @@
 
   function trackJobCardClick() {
     $(document).on('click', '.job-card', function() {
-      gaTracking(registrationCategory, 'click', 'Click job card from start page');
+      gaTracking(ctaCategory, 'click', 'Job card on startpage clicked');
     });
   }
 
