@@ -67,14 +67,14 @@
     background-color: #D8E6F7;
 
     .pics {
-      margin: 0 auto;
-      max-width: 1100px;
+      text-align: left;
 
       .hashtag-pic {
-        width: 200px;
-        height: 200px;
-        margin: 0.5em 0.5em;
-        border-radius: 2.5%;
+        max-width: 25%;
+        margin: -3px -2px;
+        @media (max-width: 700px) {
+          max-width: 50%;
+        }
       }
 
       @media (max-width: 700px) {
