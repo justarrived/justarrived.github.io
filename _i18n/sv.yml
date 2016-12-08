@@ -502,6 +502,19 @@ press:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
 xmas:
+  form:
+    title: Intresseanmälan
+    first_name: Förnamn
+    last_name: Efternamn
+    email: Email
+    company: Företag
+    role: 'Title/position'
+    city: Stad
+  counter:
+    registrered: registrerade
+  latest_supporters:
+    title: Senaste supporters
+    empty_notice: Var den första att registrera!
   startpage:
     description: Under december månad har vi i Just Arrived en julkampanj där vi utmanar dig att göra verklig skillnad.
     more_info_link: Ta mig till kampanjsidan!
@@ -515,3 +528,7 @@ xmas:
     body: "Just nu finns det tusentals nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb."
   register_section:
     title: Vad väntar du på?
+    cta: Registrera nu
+  thanks:
+    title: Tack!
+    description: 'Tack för att du vill bidra till att nyanlända ska få #enfotin på arbetsmarknaden! Vi hör av oss i början av det nya året för att föra samtalet vidare.'

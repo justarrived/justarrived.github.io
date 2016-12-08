@@ -4,13 +4,13 @@
   module--padding
   module--white
   module--bg-cover" style="background-image: url({{ "/assets/images/xmas/register-section.png" | prepend: site.github.url }});">
-  <div class="table">
+  <div id="xmas-register" class="table">
     <div class="table-cell">
       <div class="wrap">
         <div class="module-content">
           <h2>{% t xmas.register_section.title %}</h2>
           <button class="cd-popup-trigger-xmas register-button" id="button">
-            Registrera nu
+            {% t xmas.register_section.cta %}
           </button>
         </div>
       </div>

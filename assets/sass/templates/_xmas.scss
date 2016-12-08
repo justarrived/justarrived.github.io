@@ -101,6 +101,14 @@
 
     .supporter-name {
       font-weight: bold;
+      color: $cerise;
+      a {
+        color: $cerise;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
@@ -129,7 +137,9 @@
   .counter {
     padding: 14em 0;
     margin: 0 auto;
-
+    .counter-summary {
+      font-size: 18px;
+    }
     .counter-diamond-image {
       width: 450px;
       position: relative;

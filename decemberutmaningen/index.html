@@ -34,18 +34,24 @@ layout: default
       </div>
     </section>
     <section class="supporters">
-      <h2 class="secondary-color">Senaste supporters</h2>
-      <ul>
-        <li><span class="primary-color supporter-name">Var den första att registrera!</span></li>
+      <h2 class="secondary-color">{% t xmas.latest_supporters.title %}</h2>
+      <ul class="js-supporter-list">
+        <li>
+          <span class="primary-color supporter-name">
+            <a href="#xmas-register">{% t xmas.latest_supporters.empty_notice %}</a>
+          </span>
+        </li>
       </ul>
     </section>
     {% include xmas/register_section.html %}
     <section class="counter">
       <div class="counter-diamond">
         <img class="counter-diamond-image" src="/assets/images/xmas/counter_blue.png" alt="counter" />
-        <span class="counter-number">0</span>
+        <span class="counter-number js-current-count">0</span>
       </div>
-      <p style="font-size:18px;"><span class="primary-color">0</span>/150 registrerade</p>
+      <p class="counter-summary">
+        <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
+      </p>
     </section>
   </div>
 </div>
