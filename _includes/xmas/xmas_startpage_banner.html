@@ -1,10 +1,11 @@
 <div class="container" id="xmas-banner">
-  <div class="cookie-message">
+  <div class="cookie-message" style="padding: 5px 20px;width:100%;background: #fff;color: #101010;">
     <div class="cookie-message-inner">
       <p class="text">
         {% t xmas.startpage.description %}
-        <br>
-        <a class="read-more xmas-campaign-click" href="{{ "/xmas/" | prepend: site.baseurl }}">{% t xmas_startpage.more_info_link %}</a>
+        <a class="read-more xmas-campaign-click" href="{{ "/decemberutmaningen/" | prepend: site.baseurl }}">
+          {% t xmas.startpage.more_info_link %}
+        </a>
       </p>
     </div>
   </div>

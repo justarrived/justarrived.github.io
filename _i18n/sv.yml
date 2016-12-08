@@ -514,7 +514,6 @@ xmas:
     registrered: registrerade
   latest_supporters:
     title: Senaste supporters
-    empty_notice: Var den första att registrera!
   startpage:
     description: Under december månad har vi i Just Arrived en julkampanj där vi utmanar dig att göra verklig skillnad.
     more_info_link: Ta mig till kampanjsidan!
