@@ -87,7 +87,7 @@ default_language: 'sv'
 
 # I18n plugin: jekyll-multiple-languages-plugin
 languages: ["sv", "en", "ar"]
-exclude_from_localizations: ["assets", "favicon.ico", "_posts"]
+exclude_from_localizations: ["assets", "favicon.ico", "_posts", "ar/", "sv/", "en/"]
 
 # Blog
 authors:
