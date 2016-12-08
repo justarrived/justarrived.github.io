@@ -28,7 +28,7 @@
 <script type="text/javascript">
   function getXmasPoller() {
     var opts = {
-      id: 'testing-ja-xmas1',
+      id: '{{xmas_poller_id}}',
       points: true
     };
     return new Poller(opts);
@@ -59,7 +59,8 @@
     var company = document.getElementById('company').value;
     var role = document.getElementById('role').value;
 
-    var fullName = firstName + ' ' + lastName + ' ' + role + ', ' + company;
+    // TODO: Have only first & last name bold
+    var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
 
     var xmasPoll = getXmasPoller();
     xmasPoll.submit({x: fullName, y: 1}, function() {
