@@ -17,6 +17,12 @@
       openPopup('.cd-popup-signin');
     });
 
+    //open xmas popup
+    $('.cd-popup-trigger-xmas').on('click', function(event){
+      event.preventDefault();
+      openPopup('.cd-popup-xmas');
+    });
+
     //open job card popup
     $(document).on('click', '.cd-popup-trigger-job-card', function(event){
       event.preventDefault();

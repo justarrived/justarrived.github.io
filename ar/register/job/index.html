@@ -80,9 +80,22 @@
 
 
 <body data-lang="ar" class="ar-locale rtl-locale-direction" dir="rtl" itemscope="" itemtype="http://schema.org/WebPage">
-
   <div class="container">
-    <nav class="header">
+    <div class="container" id="xmas-banner">
+  <div class="cookie-message" style="padding: 5px 20px;width:100%;background: #fff;color: #101010;">
+    <div class="cookie-message-inner">
+      <p class="text">
+        Under december månad har vi i Just Arrived en julkampanj där vi utmanar dig att göra verklig skillnad.
+        <a class="read-more xmas-campaign-click" href="/ar/decemberutmaningen/">
+          Ta mig till kampanjsidan!
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<nav class="header">
 	<a href="/ar/" rel="nofollow" data-action="click" data-action-label="Nav logo click" category="Navigation">
 		<div class="header__logo">Just Arrived</div>
 	</a>
@@ -284,11 +297,31 @@ module--black
       <div class="footer-col">
         <h3>تابعنا</h3>
         <div class="social-links">
-          <a href="https://www.facebook.com/JustArrivedSE"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/justarrivedse"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/justarrivedse/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/company/just-arrived-sweden"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="https://github.com/justarrived"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a
+            href="https://www.facebook.com/JustArrivedSE"
+            data-action="click"
+            data-action-label="Footer Facebook click"
+            category="Social Media"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a
+            href="https://twitter.com/justarrivedse"
+            data-action="click"
+            data-action-label="Footer Twitter click"
+            category="Social Media"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a
+            href="https://www.instagram.com/justarrivedse/"
+            data-action="click"
+            data-action-label="Footer Instagram click"
+            category="Social Media"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a
+            href="https://www.linkedin.com/company/just-arrived-sweden"
+            data-action="click"
+            data-action-label="Footer LinkedIn click"
+            category="Social Media"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a
+            href="https://github.com/justarrived"
+            data-action="click"
+            data-action-label="Footer Github click"
+            category="Social Media"><i class="fa fa-github-square" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="footer-col">
@@ -478,7 +511,7 @@ module--black
         <br>
         <h3>هل أنت عضو؟</h3>
         <p>
-          <a href="https://app.justarrived.se/#/user/signin" class="border-btn btn-large border-btn--pink" data-action="click" data-action-label="Job card popup app login" category="Registration">
+          <a href="https://app.justarrived.se/#/user/signin" class="border-btn btn-large border-btn--pink" data-action="click" data-action-label="Navigated to App Login" category="Newcomer">
             تسجيل الدخول
           </a>
         </p>
@@ -528,6 +561,59 @@ module--black
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
+</script>
+
+<script type="text/javascript">
+  PollerConfig = { url: 'https://throwawaypoll.herokuapp.com' };
+</script>
+<script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
+<script type="text/javascript">
+  function getXmasPoller() {
+    var opts = {
+      id: 'testing-ja-xmas1',
+      points: true
+    };
+    return new Poller(opts);
+  }
+
+  function updateXmasSupporters() {
+    var xmasPoll = getXmasPoller();
+
+    xmasPoll.result(function(result) {
+      var submitCount = result.length;
+      var counterElements = document.querySelectorAll('.js-current-count');
+      for (var i = 0; i < counterElements.length; i++) {
+        counterElements[i].innerText = submitCount;
+      }
+
+      var supporterList = [];
+      for (var i = 0; i < result.length; i++) {
+        var name = result[i][0];
+        supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
+      }
+      $('.js-supporter-list').append(supporterList.join(''));
+    });
+  }
+
+  function submitXmas() {
+    var firstName = document.getElementById('first_name').value;
+    var lastName = document.getElementById('last_name').value;
+    var company = document.getElementById('company').value;
+    var role = document.getElementById('role').value;
+
+    var fullName = firstName + ' ' + lastName + ' ' + role + ', ' + company;
+
+    var xmasPoll = getXmasPoller();
+    xmasPoll.submit({x: fullName, y: 1}, function() {
+      updateXmasSupporters();
+    });
+
+    // Let the form be submitted
+    return true;
+  }
+
+  // MAIN
+  updateXmasSupporters();
 </script>
 
 <script type="text/javascript">
