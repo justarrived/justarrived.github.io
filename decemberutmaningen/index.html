@@ -8,7 +8,7 @@ layout: default
     {% include xmas/xmas_banner.html %}
 
     <section class="intro-section text-left">
-      <p>{% t xmas.company_section.body %}</p>
+      <p><strong>{% t xmas.company_section.body %}</strong></p>
       <p>{% t xmas.company_section.body1 %}</p>
       <p>{% t xmas.company_section.body2 %}</p>
       <p>{% t xmas.company_section.body3 %}</p>
@@ -19,18 +19,12 @@ layout: default
 
         <div clas="how-it-works-steps">
           <p>
-            <strong>1. {% t xmas.how_it_works_section.first.title %}</strong> - {% t xmas.how_it_works_section.first.body %} <br>
-            <strong>2. {% t xmas.how_it_works_section.second.title %}</strong> - {% t xmas.how_it_works_section.second.body %} <br>
+            <strong><a href="#xmas-register">1. {% t xmas.how_it_works_section.first.title %}</strong></a> - {% t xmas.how_it_works_section.first.body %} <br><br>
+            <strong>2. {% t xmas.how_it_works_section.second.title %}</strong> - {% t xmas.how_it_works_section.second.body %} <br><br>
             <strong>3. {% t xmas.how_it_works_section.third.title %}</strong> - {% t xmas.how_it_works_section.third.body %}
           </p>
         </div>
       </div>
-    </section>
-
-    <section class="about-section text-left">
-      <h2 class="primary-color text-center">{% t xmas.about.title %}</h1>
-      <p>{% t xmas.about.body %}</p>
-      <p>{% t xmas.about.learn_more %}</p>
     </section>
 
     <section class="enfotin-images">
@@ -87,6 +81,12 @@ layout: default
       <p class="counter-summary">
         <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
       </p>
+    </section>
+
+    <section class="about-section text-left">
+      <h2 class="primary-color text-center">{% t xmas.about.title %}</h1>
+      <p>{% t xmas.about.body %}</p>
+      <p>{% t xmas.about.learn_more %}</p>
     </section>
   </div>
 </div>
