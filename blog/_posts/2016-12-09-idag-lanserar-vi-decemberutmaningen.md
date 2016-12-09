@@ -33,6 +33,7 @@ När du signat upp - utmana dina branschkollegor att göra detsamma genom att po
 >
 > Jag utmanar härmed @personX @personY och @personZ att lägga upp en bild på sin fot, utmana varsitt företag, och därefter skicka vidare Decemberutmaningen.
 
+
 ### Bidra som privatperson
 
 Just nu finns det tusentals motiverade nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb.

@@ -527,16 +527,31 @@ xmas:
   top_banner:
     title: Just Arriveds Xmas Campaign
   company_section:
-    title: Välkommen hit och god jul!
     title: Welcome and Merry Xmas!
-    body: Kul att du vill hjälpa oss att sänka trösklarna för nyanlända att komma in på arbetsmarknaden! Du är med och skapar riktig integration och ett mer sammansatt samhälle. <br><br> Det här är vår Decemberutmaning - hjälp nyanlända att få in en fot på arbetsmarknaden! Signa upp nedan så kontaktar vi dig under det nya året. Stort tack för ditt engagemang.
+    body: Thank you for helping us to lower the thresholds for newcomers to enter the Swedish labour market.
+    body1: "Today Sweden has thousands of newcomers who are driven and motivated to get a foot in the Swedish labour market. The challenges are many but we're determined to, together with you, make sure that many more get #enfotin."
+    body2: "We have at Just Arrived built a service that makes this process trivial. For each company that users the service more newcomers get #enfotin."
+    body3: "This is our December-challenge for you - helping newcomers to get #enfotin."
   how_it_works_section:
-    title: Så här funkar det
-    body: "Just nu finns det tusentals nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb."
+    title: How it works
+    body: "Right now there are thousands of newcomers just waiting to get a job. We have a solution to the problem. For every company that registers with us, more newcomers get a job. Simple huh? No we're launcing the December-challenge where we want your help to challenge companies to signup in order to provide more job opportunities for newcomers."
+    first:
+      title: Registrer
+      body: You provide the name and contact details for you and your company.
+    second:
+      title: Confirmation
+      body: You will get a thank you and your name will appear under the "Latest supporters" section on this page.
+    third:
+      title: We'll be in touch
+      body: "We will contact you in the beginning of next year, to talk more about how we together can help newcomers get #enfotin."
   register_section:
-    title: Vad väntar du på?
-    cta: Registrera nu
+    title: What are you waiting for?
+    cta: Register now
   thanks:
-    title: Tack!
-    description: 'Tack för att du vill bidra till att nyanlända ska få #enfotin på arbetsmarknaden! Vi hör av oss i början av det nya året för att föra samtalet vidare.'
-    back_to_campaign: Tillbaka till kampanjssidan
+    title: Thank you!
+    description: 'Thank you for your part in giving newcomers #enfotin to the Swedish labour market. We will be in touch in the beginning of the new year to talk more.'
+    back_to_campaign: Back to the campaign page
+  about:
+    title: About Just Arrived
+    body: Just Arrived is a non-profit company and digital service that match newcomers and companies that need help. We provide the validation, matching and take care of all the paperwork so you don't have to administrate anything. Also we take full employer responsibilities.
+    learn_more: Question or feedback? <br> Read our <a href="/en/faq">FAQ</a> or contact our CEO Andreas König, <a href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>.
