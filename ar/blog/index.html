@@ -81,7 +81,7 @@
 
 <body data-lang="ar" class="ar-locale rtl-locale-direction" dir="rtl" itemscope="" itemtype="http://schema.org/WebPage">
   <div class="container">
-    <div class="container" id="xmas-banner">
+    <!-- <div class="container" id="xmas-banner">
   <div class="cookie-message" style="padding: 5px 20px;width:100%;background: #fff;color: #101010;">
     <div class="cookie-message-inner">
       <p class="text">
@@ -93,7 +93,7 @@
     </div>
   </div>
 </div>
-
+ -->
 
 <nav class="header">
 	<a href="/ar/" rel="nofollow" data-action="click" data-action-label="Nav logo click" category="Navigation">
@@ -677,7 +677,7 @@ Foto: Johan Falk
 <script type="text/javascript">
   function getXmasPoller() {
     var opts = {
-      id: 'testing-ja-xmas1',
+      id: '',
       points: true
     };
     return new Poller(opts);
@@ -708,7 +708,8 @@ Foto: Johan Falk
     var company = document.getElementById('company').value;
     var role = document.getElementById('role').value;
 
-    var fullName = firstName + ' ' + lastName + ' ' + role + ', ' + company;
+    // TODO: Have only first & last name bold
+    var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
 
     var xmasPoll = getXmasPoller();
     xmasPoll.submit({x: fullName, y: 1}, function() {
