@@ -4,10 +4,10 @@
     <title>Just Arrived</title>
     <description>Helping newcomers in Sweden enter the labor market.
 </description>
-    <link>http://localhost:4000//link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Dec 2016 10:40:07 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Dec 2016 10:40:07 +0100</lastBuildDate>
+    <link>http://justarrived.se//link>
+    <atom:link href="http://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Dec 2016 10:46:20 +0100</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2016 10:46:20 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -32,8 +32,8 @@
 &lt;p&gt;&lt;a href=&quot;http://www.sabo.se/aktuellt/nyheter_m/2016/nov/Sidor/Vasbyhem-hjalper-och-far-hjalp-av-nyanlanda.aspx&quot;&gt;Läs orginalet på SABO.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</guid>
+        <link>http://justarrived.se/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/</guid>
         
         
         <category>blog</category>
@@ -80,8 +80,8 @@ I exposed my local development environment using &lt;a href=&quot;https://ngrok.
 &lt;p&gt;Thank you Ahmed and Emma! A real pleasure to work with you :)&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/10/11/moving-fast-in-three-languages/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/10/11/moving-fast-in-three-languages/</guid>
+        <link>http://justarrived.se/blog/2016/10/11/moving-fast-in-three-languages/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/10/11/moving-fast-in-three-languages/</guid>
         
         <category>engineering</category>
         
@@ -125,8 +125,8 @@ One, seemingly small, thing that we did was to design a “contact us” section
 &lt;p&gt;Just one of those things that you usually don’t have to think about when building websites and applications. This is just one example of what unique challenges we at Just Arrived face on a day to day basis.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/10/05/backward-phone-numbers/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/10/05/backward-phone-numbers/</guid>
+        <link>http://justarrived.se/blog/2016/10/05/backward-phone-numbers/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/10/05/backward-phone-numbers/</guid>
         
         <category>engineering</category>
         
@@ -146,8 +146,8 @@ One, seemingly small, thing that we did was to design a “contact us” section
 &lt;p&gt;The website launch together with the rest of the evening turned out to be as successful as we were hoping. The joyful evening gave us the extra energy, making the cleaning afterwards seem like a walk in the park with the smile on everyone’s face!&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/09/29/a-story-from-our-community-meetup/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/29/a-story-from-our-community-meetup/</guid>
+        <link>http://justarrived.se/blog/2016/09/29/a-story-from-our-community-meetup/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/29/a-story-from-our-community-meetup/</guid>
         
         <category>meetup</category>
         
@@ -169,8 +169,8 @@ One, seemingly small, thing that we did was to design a “contact us” section
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/tobias-tikka.jpg&quot; alt=&quot;Tobias Tikka&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/09/21/tobias-tikka/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/21/tobias-tikka/</guid>
+        <link>http://justarrived.se/blog/2016/09/21/tobias-tikka/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/21/tobias-tikka/</guid>
         
         <category>meet the team</category>
         
@@ -194,8 +194,8 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/jacob-burenstam.jpg&quot; alt=&quot;Jacob Burenstam&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/09/14/jacob-burenstam/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/14/jacob-burenstam/</guid>
+        <link>http://justarrived.se/blog/2016/09/14/jacob-burenstam/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/14/jacob-burenstam/</guid>
         
         <category>meet the team</category>
         
@@ -215,8 +215,8 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/per-clingweld.jpg&quot; alt=&quot;Per Clingweld&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/09/06/per-clingweld/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/06/per-clingweld/</guid>
+        <link>http://justarrived.se/blog/2016/09/06/per-clingweld/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/09/06/per-clingweld/</guid>
         
         <category>meet the team</category>
         
@@ -236,8 +236,8 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/andreas-konig.jpg&quot; alt=&quot;Andreas König&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/08/31/andreas-konig/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/31/andreas-konig/</guid>
+        <link>http://justarrived.se/blog/2016/08/31/andreas-konig/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/31/andreas-konig/</guid>
         
         <category>meet the team</category>
         
@@ -257,8 +257,8 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/anna-hornmark.jpg&quot; alt=&quot;Anna Hörnmark&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/08/24/anna-hornmark/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/24/anna-hornmark/</guid>
+        <link>http://justarrived.se/blog/2016/08/24/anna-hornmark/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/24/anna-hornmark/</guid>
         
         <category>meet the team</category>
         
@@ -278,8 +278,8 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/jesper-sundstrom.jpg&quot; alt=&quot;Jesper Sundström&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2016/08/08/jesper-sundstrom/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/08/jesper-sundstrom/</guid>
+        <link>http://justarrived.se/blog/2016/08/08/jesper-sundstrom/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/08/jesper-sundstrom/</guid>
         
         <category>meet the team</category>
         
