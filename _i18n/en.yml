@@ -457,3 +457,36 @@ press:
   logos:
     title: Logos
     on_dark: Logos on dark
+
+xmas:
+  form:
+    title: Register interest
+    first_name: First name
+    last_name: Last name
+    email: Email
+    company: Company
+    role: Role
+    city: City
+  counter:
+    registrered: registered
+  latest_supporters:
+    title: Latest supporters
+  startpage:
+    description: During December we running a xmas campaign where we challenge you to really make a difference.
+    more_info_link: Take me to the campaign page!
+  top_banner:
+    title: Just Arriveds Xmas Campaign
+  company_section:
+    title: Välkommen hit och god jul!
+    title: Welcome and Merry Xmas!
+    body: Kul att du vill hjälpa oss att sänka trösklarna för nyanlända att komma in på arbetsmarknaden! Du är med och skapar riktig integration och ett mer sammansatt samhälle. <br><br> Det här är vår Decemberutmaning - hjälp nyanlända att få in en fot på arbetsmarknaden! Signa upp nedan så kontaktar vi dig under det nya året. Stort tack för ditt engagemang.
+  how_it_works_section:
+    title: Så här funkar det
+    body: "Just nu finns det tusentals nyanlända som bara väntar på att få ett jobb. Vi har en lösning på problemet. Ju fler företag som registrerar sig hos oss, desto fler nyanlända får ett jobb. Enkelt va? Nu startar vi Decemberutmaningen där vi vill ha er hjälp med att uppmana företag att signa upp sig så att fler får jobb."
+  register_section:
+    title: Vad väntar du på?
+    cta: Registrera nu
+  thanks:
+    title: Tack!
+    description: 'Tack för att du vill bidra till att nyanlända ska få #enfotin på arbetsmarknaden! Vi hör av oss i början av det nya året för att föra samtalet vidare.'
+    back_to_campaign: Tillbaka till kampanjssidan
