@@ -267,15 +267,11 @@ module--white-bg
   <p>Jag utmanar härmed @personX @personY och @personZ att lägga upp en bild på sin fot, utmana varsitt företag, och därefter skicka vidare Decemberutmaningen.</p>
 </blockquote>
 
-<p>http://justarrived.se/decemberutmaningen</p>
-
 <p>Tillsammans kan vi ge fler nyanlända en fot in!</p>
 
 <p>Med värme,</p>
 
-<p>Andreas König
-VD
-Just Arrived</p>
+<p>Andreas König, VD Just Arrived</p>
 
         </article>
 
@@ -612,6 +608,16 @@ Just Arrived</p>
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
+
+      var calculateFillHeight = function(count) {
+        var percentFilled = (count / 150) * 100;
+        var fillHeight = (percentFilled * 2.65) + 24;
+        if (fillHeight > 285) {
+          fillHeight = 285;
+        }
+        return fillHeight;
+      }
+      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
     });
   }
 

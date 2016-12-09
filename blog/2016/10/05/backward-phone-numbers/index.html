@@ -600,6 +600,16 @@ One, seemingly small, thing that we did was to design a “contact us” section
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
+
+      var calculateFillHeight = function(count) {
+        var percentFilled = (count / 150) * 100;
+        var fillHeight = (percentFilled * 2.65) + 24;
+        if (fillHeight > 285) {
+          fillHeight = 285;
+        }
+        return fillHeight;
+      }
+      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
     });
   }
 
