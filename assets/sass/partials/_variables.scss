@@ -50,6 +50,67 @@ $section-bg-color:     #efefef;
 JUSTARRIVED COLORS
 *********************/
 
+/*JA CERISE*/
+$cerise50:			#FCE0EF;
+$cerise100:			#F7B3D8;
+$cerise200:			#F280BE;
+$cerise300:			#ED4DA4;
+$cerise400:			#E92C93;
+$cerise500:			#E5007D; //main cerise
+$cerise600:			#CE0070;
+$cerise700:			#BE0068;
+
+/*JA BLUE*/
+$blue50:			#E0EDFA;
+$blue100:			#B3D2F2;
+$blue200:			#80B4E9;
+$blue300:			#4D96E0;
+$blue400:			#2C84DC;
+$blue500:			#0069D2; //main blue
+$blue600:			#005EBD;
+$blue700:			#0057AF;
+
+/*JA GRAYSCALE*/
+$white:			  #FFFFFF;
+$gray25:			#F6F6F6;
+$gray50:			#E7E8E9;
+$gray100:			#C4C6CA;
+$gray200:			#9C9FA7;
+$gray300:			#747983;
+$gray400:			#565C68;
+$gray500:			#383F4E; //main gray
+$gray600:			#E0EDFA;
+$gray700:			#222531;
+$black:			  #000000;
+
+/*JA WEB FONT/ICON COLORS*/
+
+//Light text (on dark backgrounds)
+$primary-light:			  #FFFFFF;
+$secondary-light:			rgba(255, 255, 255, 0.7);
+$disabled-light:			rgba(255, 255, 255, 0.5);
+$hero-light:			    rgba(255, 255, 255, 0.88);
+$text-shadow:			    0 1px 3px rgba(0,0,0,0.2);
+
+//Dark text (on light backgrounds)
+$primary-dark:			  rgba(0, 0, 0, 0.88);
+$secondary-dark:			rgba(0, 0, 0, 0.6);
+$disabled-dark:			  rgba(0, 0, 0, 0.4);
+
+//Dividers
+$divider-light:			  rgba(255, 255, 255, 0.12);
+$divider-dark:			  rgba(0, 0, 0, 0.12);
+
+//Icons
+$icon-dark-active:		rgba(0, 0, 0, 0.6);
+$icon-dark-inactive:	rgba(0, 0, 0, 0.4);
+
+$icon-light-active:		rgba(255, 255, 255, 1);
+$icon-light-inactive:	rgba(255, 255, 255 0.5);
+
+
+//---------other------------------------------------
+
 $cerise:			#e5007d;
 $dark-cerise: rgba(195,16,108,0.85);
 $bluesky:			#57c8e7;
