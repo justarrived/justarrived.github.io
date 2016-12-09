@@ -37,7 +37,7 @@ description: Link builder helper for Google Analytics UTM custom campaigns.
               <p><strong>Start by adding the link you want to track.</strong></p>
               <label for="website"> Website <span class="asterisk">*</span></label>
               <input type="url" value="" name="url" class="required" id="url" required>
-              <em>The full website URL (e.g. <code>https://www.example.com</code>)</em>
+              <em>The full website URL (e.g. <code>http://justarrived.se/</code>)</em>
               <hr>
             </div>
 
@@ -60,7 +60,18 @@ description: Link builder helper for Google Analytics UTM custom campaigns.
               <em>Marketing medium: (e.g. <code>cpc</code>, <code>banner</code>, <code>email</code>, <code>newsletter</code>, <code>QR_code</code>)</em>
             </div>
 
-            <!-- <div class="form-col form-col--full-width">
+            <div class="clear"></div>
+            <div id="utm-result-area" style="background-color: #eee; padding: 10px; margin-top: 30px;">
+              <p>
+                <strong>Result:</strong>
+              </p>
+              <div class="js-utm-result"></div>
+            </div>
+
+            <hr>
+            <h2><em>Note:</em> The below inputs are optional.</h2>
+
+            <div class="form-col form-col--full-width">
               <p>
                 The individual campaign name:
               </p>
@@ -87,7 +98,7 @@ description: Link builder helper for Google Analytics UTM custom campaigns.
               <label for="campaign_content"> Campaign Content</label>
               <input type="text" value="" name="campaign_content" class="" id="campaign_content">
               <em>Use to differentiate ads</em>
-            </div> -->
+            </div>
 
             <div class="clear">
               <input type="submit" value="Build" name="submit" class="button border-btn btn-large border-btn--pink">
@@ -97,7 +108,7 @@ description: Link builder helper for Google Analytics UTM custom campaigns.
               <p>
                 <strong>Result:</strong>
               </p>
-              <div id="utm-result"></div>
+              <div class="js-utm-result"></div>
             </div>
 
           </form>
