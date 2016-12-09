@@ -7,16 +7,30 @@ layout: default
 
     {% include xmas/xmas_banner.html %}
 
-    <section class="intro-section">
-      <p>
-        {% t xmas.company_section.body %}
-      </p>
-      <div class="how-it-works">
-        <h2 class="primary-color">{% t xmas.how_it_works_section.title %}</h2>
-        <p>
-          {% t xmas.how_it_works_section.body %}
-        </p>
+    <section class="intro-section text-left">
+      <p>{% t xmas.company_section.body %}</p>
+      <p>{% t xmas.company_section.body1 %}</p>
+      <p>{% t xmas.company_section.body2 %}</p>
+      <p>{% t xmas.company_section.body3 %}</p>
+
+      <div class="how-it-works text-left">
+        <h2 class="primary-color text-center">{% t xmas.how_it_works_section.title %}</h2>
+        <p>{% t xmas.how_it_works_section.body %}</p>
+
+        <div clas="how-it-works-steps">
+          <p>
+            <strong>1. {% t xmas.how_it_works_section.first.title %}</strong> - {% t xmas.how_it_works_section.first.body %} <br>
+            <strong>2. {% t xmas.how_it_works_section.second.title %}</strong> - {% t xmas.how_it_works_section.second.body %} <br>
+            <strong>3. {% t xmas.how_it_works_section.third.title %}</strong> - {% t xmas.how_it_works_section.third.body %}
+          </p>
+        </div>
       </div>
+    </section>
+
+    <section class="about-section text-left">
+      <h2 class="primary-color text-center">{% t xmas.about.title %}</h1>
+      <p>{% t xmas.about.body %}</p>
+      <p>{% t xmas.about.learn_more %}</p>
     </section>
 
     <section class="enfotin-images">
