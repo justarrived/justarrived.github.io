@@ -76,4 +76,23 @@
   </script>
   <!-- END Hotjar Tracking Code for http://justarrived.se -->
 
+  <script type="text/javascript">
+    /**
+    * Convenience function for tracking using Google Analytics
+    * Since we only post events this function can be used for all tracking at this point.
+    *
+    @ param category    The category to post the event under
+    @ param action      Action (type of click) that was performed
+    @ param label       The label you want to use to describe the event
+    */
+    function gaTrack(category, action, label) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: category,
+        eventAction: action,
+        eventLabel: label
+      });
+    }
+  </script>
+
 </head>

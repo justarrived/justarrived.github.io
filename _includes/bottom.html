@@ -26,6 +26,9 @@
 </script>
 <script charset="utf-8" src="{{ "/assets/js/xmas/poller.js" || prepend: site.github.url }}" ></script>
 <script type="text/javascript">
+  ALLREADY_SUBMITTED_XMAS_COUNT = {{site.xmas_already_submitted_count}};
+  GA_XMAS_CATEGORY = '{{site.analytics.categories.xmas}}';
+
   function getXmasPoller() {
     var opts = {
       id: '{{site.xmas_poller_id}}',
@@ -35,13 +38,13 @@
   }
 
   function updateXmasSupporters() {
-    var xmasPoll = getXmasPoller();
+    gaTrack(GA_XMAS_CATEGORY, 'submit', 'submit supporter form');
 
-    xmasPoll.result(function(result) {
+    getXmasPoller().result(function(result) {
       var submitCount = result.length;
       var counterElements = document.querySelectorAll('.js-current-count');
       for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = submitCount;
+        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
       }
 
       var supporterList = [];
@@ -49,7 +52,7 @@
         var name = result[i][0];
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }
-      $('.js-supporter-list').append(supporterList.join(''));
+      $('.js-supporter-list').prepend(supporterList.join(''));
     });
   }
 
@@ -59,11 +62,9 @@
     var company = document.getElementById('company').value;
     var role = document.getElementById('role').value;
 
-    // TODO: Have only first & last name bold
     var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
 
-    var xmasPoll = getXmasPoller();
-    xmasPoll.submit({x: fullName, y: 1}, function() {
+    getXmasPoller().submit({x: fullName, y: 1}, function() {
       updateXmasSupporters();
     });
 
