@@ -59,11 +59,15 @@
       margin-top: 2em;
       padding-top: 2em;
       padding-bottom: 2em;
+      p {
+        width: 75%;
+      }
     }
     .how-it-works {
       margin-top: 6em;
       padding-top: 6em;
       padding-bottom: 6em;
+      padding: 6em;
       background-color: #D8E6F7;
       .how-it-works-steps {
         text-align: left;
@@ -85,13 +89,13 @@
     font-size: 18px;
     width: 50%;
     min-width: 250px;
+    @media(max-width: $mobile) {
+      width: 75%;
+    }
   }
 
   section {
     padding: 5em 0;
-    @media (max-width: $mobile) {
-      padding: 5em 1em;
-    }
   }
 
   .enfotin-images {
@@ -122,7 +126,8 @@
   }
 
   .supporters {
-
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     li {
       margin: 0 auto;
       padding: 1em 0;
