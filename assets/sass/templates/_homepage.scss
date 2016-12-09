@@ -501,6 +501,10 @@
 
 .section--signup-popup {
 	padding: 3em 4.4em 2em;
+  @media(max-width: 500px) {
+    padding: 3em 2.4em 2em;
+  }
+
 	& .bordered {
 		&:before {
 			@include tablet {
