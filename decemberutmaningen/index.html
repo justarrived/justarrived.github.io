@@ -7,6 +7,24 @@ layout: default
 
     {% include xmas/xmas_banner.html %}
 
+    <section class="counter">
+      <div class="counter-bg" style="height: 300px;background-image: url(/assets/images/xmas/counter_transparent.png)">
+        <p class="counter-summary">
+          <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
+        </p>
+      </div>
+    </section>
+
+    <section class="counter">
+      <div class="counter-diamond">
+        <img class="counter-diamond-image" src="" alt="counter" />
+        <span class="counter-number js-current-count">0</span>
+      </div>
+      <p class="counter-summary">
+        <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
+      </p>
+    </section>
+
     <section class="intro-section text-left">
       <p><strong>{% t xmas.company_section.body %}</strong></p>
       <p>{% t xmas.company_section.body1 %}</p>
