@@ -75,6 +75,25 @@
   </script>
   <!-- END Hotjar Tracking Code for http://justarrived.se -->
 
+  <script type="text/javascript">
+    /**
+    * Convenience function for tracking using Google Analytics
+    * Since we only post events this function can be used for all tracking at this point.
+    *
+    @ param category    The category to post the event under
+    @ param action      Action (type of click) that was performed
+    @ param label       The label you want to use to describe the event
+    */
+    function gaTrack(category, action, label) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: category,
+        eventAction: action,
+        eventLabel: label
+      });
+    }
+  </script>
+
 </head>
 
 
@@ -528,6 +547,9 @@ module--white-bg
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
+  ALLREADY_SUBMITTED_XMAS_COUNT = 6;
+  GA_XMAS_CATEGORY = 'Christmas';
+
   function getXmasPoller() {
     var opts = {
       id: 'rc0-xmas-campaign',
@@ -537,13 +559,13 @@ module--white-bg
   }
 
   function updateXmasSupporters() {
-    var xmasPoll = getXmasPoller();
+    gaTrack(GA_XMAS_CATEGORY, 'submit', 'submit supporter form');
 
-    xmasPoll.result(function(result) {
+    getXmasPoller().result(function(result) {
       var submitCount = result.length;
       var counterElements = document.querySelectorAll('.js-current-count');
       for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = submitCount;
+        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
       }
 
       var supporterList = [];
@@ -551,7 +573,7 @@ module--white-bg
         var name = result[i][0];
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }
-      $('.js-supporter-list').append(supporterList.join(''));
+      $('.js-supporter-list').prepend(supporterList.join(''));
     });
   }
 
@@ -561,11 +583,9 @@ module--white-bg
     var company = document.getElementById('company').value;
     var role = document.getElementById('role').value;
 
-    // TODO: Have only first & last name bold
     var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
 
-    var xmasPoll = getXmasPoller();
-    xmasPoll.submit({x: fullName, y: 1}, function() {
+    getXmasPoller().submit({x: fullName, y: 1}, function() {
       updateXmasSupporters();
     });
 
