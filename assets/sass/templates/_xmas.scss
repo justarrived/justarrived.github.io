@@ -171,6 +171,30 @@
   }
 
   .counter {
+    .counter-bg-ring {
+      // background: url(/assets/images/xmas/counter_transparent.png);
+      // background-color: #106ccf;
+      background: url(/assets/images/xmas/counter_blue.png);
+      background-repeat: no-repeat;
+      background-size: 300px 330px;
+      height: 350px;
+      width: 300px;
+      background-position: center;
+      display: inline-block;
+    }
+    .counter-number-large {
+      padding-top: 96px;
+      font-size: 100px;
+      color: white;
+      text-shadow: 2px 2px #000;
+    }
+    .counter-summary {
+      padding-top: 10px;
+    }
+  }
+
+  // OLD counter
+  .counter {
     padding: 8em 0;
     margin: 0 auto;
     .counter-summary {
