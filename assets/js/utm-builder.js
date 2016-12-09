@@ -20,32 +20,50 @@
     ].join('');
   }
 
-  function buildUTMHref(website, campaignSource, campaignMedium) {
+  function buildUTMHref(website, source, medium, campaign, term, content) {
     var searchParts = [
-      'utm_source=' + campaignSource,
-      'utm_medium=' + campaignMedium
+      'utm_source=' + source,
+      'utm_medium=' + medium
     ];
+
+    if (campaign) {
+      searchParts.push('utm_campaign=' + campaign);
+    }
+    if (term) {
+      searchParts.push('utm_term=' + term);
+    }
+    if (content) {
+      searchParts.push('utm_content=' + content);
+    }
+
     return insertSearchPartsToHref(website, searchParts);
   }
 
   function utmBuilerFormSubmit() {
     var $form = $('.js-utm-builder-form');
-    var $resultArea = $('#utm-result');
+    var $resultArea = $('.js-utm-result');
 
     var $url = $('#url');
     var $campaignSource = $('#campaign_source');
     var $campaignMedium = $('#campaign_medium');
 
     // Optional
-    // var $campaignName = $('#campaign_name');
-    // var $campaignTerm = $('#campaign_term');
-    // var $campaignContent = $('#campaign_content');
+    var $campaignName = $('#campaign_name');
+    var $campaignTerm = $('#campaign_term');
+    var $campaignContent = $('#campaign_content');
 
     var website = $url.val();
     if (website.indexOf('http:') === -1 && website.indexOf('https:') === -1) {
       website = 'http://' + website;
     }
-    var href = buildUTMHref(website, $campaignSource.val(), $campaignMedium.val());
+    var href = buildUTMHref(
+      website,
+      $campaignSource.val(),
+      $campaignMedium.val(),
+      $campaignName.val(),
+      $campaignTerm.val(),
+      $campaignContent.val()
+    );
     $resultArea.html('<code>' + href + '</code>');
 
     return false;
