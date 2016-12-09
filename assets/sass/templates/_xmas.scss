@@ -1,8 +1,10 @@
 .xmas {
-
   $mobile: 500px;
-
   text-align: center;
+
+  p, ul, ol {
+    word-break: break-all;
+  }
 
   .header-bg {
     background-image: url('/assets/images/xmas/new-banner.png');
@@ -65,6 +67,9 @@
 
   section {
     padding: 5em 0;
+    @media (max-width: $mobile) {
+      padding: 5em 1em;
+    }
   }
 
   .enfotin-images {
@@ -94,7 +99,7 @@
     li {
       margin: 0 auto;
       padding: 1em 0;
-      font-size: 18px;
+      font-size: 16px;
       border-bottom: 1px solid #DDDDE0;
       max-width: 600px;
 
@@ -139,7 +144,7 @@
   }
 
   .counter {
-    padding: 14em 0;
+    padding: 8em 0;
     margin: 0 auto;
     .counter-summary {
       font-size: 18px;
@@ -153,16 +158,16 @@
       position: absolute;
       left: 0em;
       width: 100%;
-      bottom: 5.8em;
+      bottom: 5.2em;
       text-shadow: 2px 2px #000;
       color: white;
 
       @media (max-width: 770px) {
-        bottom: 6.8em;
+        bottom: 7.0em;
       }
 
       @media (max-width: 600px) {
-        bottom: 7.9em;
+        bottom: 8.0em;
       }
     }
   }
