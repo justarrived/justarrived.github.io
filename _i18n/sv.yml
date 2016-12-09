@@ -20,6 +20,7 @@ global:
   apply: Registrera ansökan
   or: eller
 form:
+  submit: Skicka
   email: Email adress
   company_email: Företagsemail
   name: Namn

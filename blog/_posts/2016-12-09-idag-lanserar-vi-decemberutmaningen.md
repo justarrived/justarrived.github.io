@@ -45,14 +45,10 @@ _Gör så här_: Kopiera statusen nedan, berätta vilket företag du vill ska re
 >
 > Jag utmanar härmed @personX @personY och @personZ att lägga upp en bild på sin fot, utmana varsitt företag, och därefter skicka vidare Decemberutmaningen.
 
-http://justarrived.se/decemberutmaningen
-
 Tillsammans kan vi ge fler nyanlända en fot in!
 
 
 Med värme,
 
 
-Andreas König
-VD
-Just Arrived
+Andreas König, VD Just Arrived

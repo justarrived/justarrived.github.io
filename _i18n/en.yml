@@ -20,6 +20,7 @@ global:
   or: or
 
 form:
+  submit: Submit
   email: Email Address
   company_email: Company Email
   name: Name
