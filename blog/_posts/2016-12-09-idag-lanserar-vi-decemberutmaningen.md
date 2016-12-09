@@ -7,7 +7,7 @@ tags:
   - decemberutmaningen
 ---
 
-![Idag lanserar vi Decemberutmaningen]({{ "/assets/images/blog/xmas/xmas_hero_four.png" | prepend: site.github.url }})
+![Idag lanserar vi Decemberutmaningen]({{ "/assets/images/blog/xmas/enfotin.png" | prepend: site.github.url }})
 
 
 Du vet väl om att trösklarna för många nyanlända att komma in på arbetsmarknaden är orimligt höga? Och att vi kan skapa integration på riktigt om vi sänker dem?
