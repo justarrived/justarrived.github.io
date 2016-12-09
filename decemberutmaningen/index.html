@@ -7,24 +7,6 @@ layout: default
 
     {% include xmas/xmas_banner.html %}
 
-    <section class="counter">
-      <div class="counter-bg" style="height: 300px;background: url(/assets/images/xmas/counter_transparent.png);background-repeat: no-repeat;background-size: 300px 100px;">
-        <p class="counter-summary">
-          <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
-        </p>
-      </div>
-    </section>
-
-    <section class="counter">
-      <div class="counter-diamond">
-        <img class="counter-diamond-image" src="" alt="counter" />
-        <span class="counter-number js-current-count">0</span>
-      </div>
-      <p class="counter-summary">
-        <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
-      </p>
-    </section>
-
     <section class="intro-section text-left">
       <p><strong>{% t xmas.company_section.body %}</strong></p>
       <p>{% t xmas.company_section.body1 %}</p>
@@ -91,7 +73,8 @@ layout: default
 
     {% include xmas/register_section.html %}
 
-    <section class="counter">
+    <!-- OLD COUNTER -->
+    <!-- <section class="counter">
       <div class="counter-diamond">
         <img class="counter-diamond-image" src="/assets/images/xmas/counter_blue.png" alt="counter" />
         <span class="counter-number js-current-count">0</span>
@@ -99,6 +82,14 @@ layout: default
       <p class="counter-summary">
         <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
       </p>
+    </section> -->
+    <section class="counter">
+      <div class="counter-bg-ring">
+        <p class="counter-number-large js-current-count">0</p>
+        <p class="counter-summary">
+          <span class="primary-color js-current-count">0</span>/150 {% t xmas.counter.registrered %}
+        </p>
+      </div>
     </section>
 
     <section class="about-section text-left">
