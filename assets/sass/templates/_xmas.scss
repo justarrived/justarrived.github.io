@@ -9,7 +9,7 @@
     width: 100%;
     height: auto;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 500px;
   }
 
@@ -21,9 +21,10 @@
     max-width: 650px;
     color: white;
 
-    @media(max-width: $mobile) {
+    @media(max-width: 650px) {
       max-width: 400px;
-      font-size: 48px;
+      font-size: 38px;
+      margin-top: -230px;
     }
   }
 
@@ -38,6 +39,9 @@
 
   .intro-section {
     padding-top: 8em;
+    @media(max-width: 650px) {
+      padding-top: 2em;
+    }
     .how-it-works {
       padding-top: 4em;
       padding-bottom: 8em;
