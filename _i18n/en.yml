@@ -505,6 +505,11 @@ press:
   title: Press
   full_style_guide_link: Read our style guide in more detail here (english only).
   press_pack_zip: Press pack (zip)
+  read_article_link: Read the article
+  press_kit:
+    title: Press kit
+  press_clips:
+    title: In the press
   logos:
     title: Logos
     on_dark: Logos on dark

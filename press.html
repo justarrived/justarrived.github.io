@@ -4,6 +4,35 @@ title: Press
 no_meta_section: true
 ---
 
+<ul>
+  <li>
+    <a href="#in-the-press">{% t press.press_clips.title %}</a>
+  </li>
+  <li>
+    <a href="#press-kit">{% t press.press_kit.title %}</a>
+  </li>
+</ul>
+
+<hr>
+
+<h4 id="in-the-press">{% t press.press_clips.title %}</h4>
+<ul class="press-clip-list">
+{% for press_clip in site.data.press_clips %}
+  <li>
+    {{press_clip.media}} - {{press_clip.date}}<br>
+    <strong>{{ press_clip.title }}</strong><br>
+    <a href="{{press_clip.url}}">
+      {% t press.read_article_link %}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<hr>
+
+<div id="press-kit"></div>
+<h2>Just Arrived</h2>
+<h4>{% t press.press_kit.title %}</h4>
 <p>
   <a href="{{ site.full_style_guide_url }}">
     <em>{% t press.full_style_guide_link %}</em>

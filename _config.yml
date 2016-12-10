@@ -81,6 +81,11 @@ pagination:
   per_page: 3
   title_suffix: " (page :num)"
 
+# collections
+collections:
+  press_clips:
+    output: false
+
 # I18n
 rtl_languages: ["ar"]
 default_language: 'sv'
