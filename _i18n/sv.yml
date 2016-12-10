@@ -506,6 +506,8 @@ hourly_pay_calculator:
   rate_including_vat: Inclusive moms
 careers:
   title: Jobba hos oss
+job_card:
+  gross_salary: "Bruttolön:"
 job_card_popup:
   title: Vad roligt att du är intresserad av våra jobbtillfällen!
   subtitle: För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du

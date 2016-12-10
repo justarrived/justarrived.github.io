@@ -488,6 +488,9 @@ hourly_pay_calculator:
 careers:
   title: Careers
 
+job_card:
+  gross_salary: "Total gross salary:"
+
 job_card_popup:
   title: We're happy to see that you're interested in or job opportunities!
   subtitle: To read more and apply to a job or post a job you need to have an account.
