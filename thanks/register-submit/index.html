@@ -551,12 +551,12 @@ module--white-bg
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 6;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 15;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'rc1-xmas-campaign',
+      id: 'live1-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -573,7 +573,7 @@ module--white-bg
       }
 
       var supporterList = [];
-      for (var i = 0; i < result.length; i++) {
+      for (var i = result.length - 1; i >= 0; i--) {
         var name = result[i][0];
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }

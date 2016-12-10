@@ -261,24 +261,21 @@
     <section id="supporters" class="supporters">
       <h2 class="secondary-color">Senaste supportrar</h2>
       <ul class="js-supporter-list">
-        <li>
-          <span class="primary-color supporter-name">Johan Ramsten, VD, Hallvarsson &amp; Halvarsson</span>
-        </li>
-        <li>
-          <span class="primary-color supporter-name">Erik Hammarström, Grundare, Antrop</span>
-        </li>
-        <li>
-          <span class="primary-color supporter-name">Johnny Warström, VD &amp; Grundare, Mentimeter</span>
-        </li>
-        <li>
-          <span class="primary-color supporter-name">Jan Elofsson, VD &amp; Grundare, @wrk</span>
-        </li>
-        <li>
-          <span class="primary-color supporter-name">Anna Omstedt Lindgren, VD &amp; Grundare, MedUniverse</span>
-        </li>
-        <li>
-          <span class="primary-color supporter-name">Ishtar Touliat, VD &amp; Grundare, Women in Business</span>
-        </li>
+        <li><span class="primary-color supporter-name">Ida Östensson, Ordförande, Make Equal</span></li>
+        <li><span class="primary-color supporter-name">Johannes Schildt, CEO &amp; Co-founder, KRY</span></li>
+        <li><span class="primary-color supporter-name">Rasmus Thomsen, VD, Adviser försäljning ab</span></li>
+        <li><span class="primary-color supporter-name">Amir Mofidi, VD, Glamma.se</span></li>
+        <li><span class="primary-color supporter-name">Karl Gip, Special Projects, Avito AB</span></li>
+        <li><span class="primary-color supporter-name">Stephanie Linder, Employer Branding Manager, Klarna</span></li>
+        <li><span class="primary-color supporter-name">Ati Serpoushan, Försäljningschef - Europa, Livearena TV</span></li>
+        <li><span class="primary-color supporter-name">Stefan Lundell, Innehållschef, Breakit</span></li>
+        <li><span class="primary-color supporter-name">Jonas Barck, CMO, Universum</span></li>
+        <li><span class="primary-color supporter-name">Johan Ramsten, VD, Hallvarsson &amp; Halvarsson</span></li>
+        <li><span class="primary-color supporter-name">Erik Hammarström, Grundare, Antrop</span></li>
+        <li><span class="primary-color supporter-name">Johnny Warström, VD &amp; Grundare, Mentimeter</span></li>
+        <li><span class="primary-color supporter-name">Jan Elofsson, VD &amp; Grundare, @wrk</span></li>
+        <li><span class="primary-color supporter-name">Anna Omstedt Lindgren, VD &amp; Grundare, MedUniverse</span></li>
+        <li><span class="primary-color supporter-name">Ishtar Touliat, VD &amp; Grundare, Women in Business</span></li>
       </ul>
     </section>
 
@@ -681,12 +678,12 @@
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 6;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 15;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'rc1-xmas-campaign',
+      id: 'live1-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -703,7 +700,7 @@
       }
 
       var supporterList = [];
-      for (var i = 0; i < result.length; i++) {
+      for (var i = result.length - 1; i >= 0; i--) {
         var name = result[i][0];
         supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
       }
