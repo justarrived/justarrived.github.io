@@ -19,6 +19,12 @@ global:
   more_company_info: Företagsinfo
   apply: Registrera ansökan
   or: eller
+page_not_found:
+  title: Vi kunde tyvärr inte hitta den här sidan
+  body: Vi gjorde så gott vi kunde, men vi hittade inte den här sidan. Du är varmt
+    välkommen att kontakta oss ifall du tror att det är något vi gjort fel, vilket
+    vi mycket väl kan ha. Kontakta isåfall oss på  <a href="mailto:hej@justarrived.se">hej@justarrived.se</a>.
+  link_line: Du kan alltid gå till vår <a href="http://justarrived.se/">startsida</a>.
 form:
   submit: Spara
   email: Email adress
@@ -589,6 +595,6 @@ xmas:
       matchar nyanlända med företag som behöver få jobb utförda. Vi tillhandahåller
       validering, matchning och tar hand om all administration. Vi tar även fullt
       arbetsgivaransvar.
-    learn_more: Frågor eller funderingar? <br> Läs vår <a href="/faq/company/">FAQ</a> eller
-      kontakta vår VD Andreas König, <a href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>.
+    learn_more: Frågor eller feedback? <br> Läs vår <a href="/faq/company/">FAQ</a>
+      eller kontakta vår VD Andreas König, <a href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>.
     blogpost: Läs vårt blogginlägg om Decemberutmaningen.
