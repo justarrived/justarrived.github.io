@@ -703,8 +703,6 @@
   }
 
   function updateXmasSupporters() {
-    gaTrack(GA_XMAS_CATEGORY, 'submit', 'submit supporter form');
-
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
       var counterElements = document.querySelectorAll('.js-current-count');
@@ -740,6 +738,8 @@
     var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
 
     getXmasPoller().submit({x: fullName, y: 1}, function() {
+      gaTrack(GA_XMAS_CATEGORY, 'submit', 'submit supporter form (fixed)');
+
       updateXmasSupporters();
     });
 
