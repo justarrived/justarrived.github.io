@@ -547,7 +547,7 @@ xmas:
   top_banner:
     title: Just Arrived's Julkampanj
   company_section:
-    title: Välkommen och God Jul!
+    title: Välkommen och<br>God Jul!
     body: Kul att du vill hjälpa oss sänka trösklarna för nyanlända in på arbetsmarknaden!
     body1: 'Sverige har idag tusentals nyanlända som är drivna och motiverade till
       att få en fot in på arbetsmarknaden. Utmaningarna är många, men vi är beslutna

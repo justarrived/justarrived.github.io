@@ -528,7 +528,7 @@ xmas:
   top_banner:
     title: Just Arriveds Xmas Campaign
   company_section:
-    title: Welcome and Merry Xmas!
+    title: Welcome and<br>Merry Xmas!
     body: Thank you for helping us to lower the thresholds for newcomers to enter the Swedish labour market.
     body1: "Today Sweden has thousands of newcomers who are driven and motivated to get a foot in the Swedish labour market. The challenges are many but we're determined to, together with you, make sure that many more get #enfotin."
     body2: "We have at Just Arrived built a service that makes this process trivial. For each company that users the service more newcomers get #enfotin."
