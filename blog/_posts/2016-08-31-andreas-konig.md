@@ -2,6 +2,7 @@
 layout: post
 title: Meet the team - Andreas König
 locale: en
+og_image: /assets/images/blog/andreas-konig.jpg
 tags:
   - meet the team
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Idag lanserar vi Decemberutmaningen!
 draft: false
 locale: sv
+og_image: /assets/images/blog/xmas/enfotin.png
 tags:
   - decemberutmaningen
 ---

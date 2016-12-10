@@ -2,6 +2,7 @@
 layout: post
 title: 1x3x3x3 - 1 feature, 3 people, 3 hours, 3 languages
 author: buren
+og_image: /assets/images/blog/1x3x3x3/desktop-ar.png
 locale: en
 tags:
   - engineering

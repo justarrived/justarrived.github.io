@@ -11,6 +11,17 @@
 	</script>
 
 	<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta property="og:site_name" content="Just Arrived" />
+  <meta property="og:type" content="website" />
+  {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
+  {% if page.og_image %}<meta property="og:image" content="http://justarrived.se{{ page.og_image }}" />{% endif %}
+  <meta property="og:locale" content="{{ site.lang }}" />
+
+  {% unless site.lang == 'sv' %}<meta property="og:locale:alternate" content="sv" />{% endunless %}
+  {% unless site.lang == 'en' %}<meta property="og:locale:alternate" content="en" />{% endunless %}
+  {% unless site.lang == 'ar' %}<meta property="og:locale:alternate" content="ar" />{% endunless %}
+
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
 	{% if page.canonical_url == nil %}
 	{% capture canonical %}{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}{% endcapture %}

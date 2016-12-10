@@ -2,6 +2,7 @@
 layout: post
 title: Väsbyhem hjälper och får hjälp av nyanlända
 locale: sv
+og_image: /assets/images/blog/zaher-foto-johan-falk.jpg
 ---
 
 ![Zaher]({{ "/assets/images/blog/zaher-foto-johan-falk.jpg" | prepend: site.github.url }})
