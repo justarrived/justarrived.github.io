@@ -538,7 +538,7 @@ xmas:
     role: Position
     city: Stad
   counter:
-    registrered: registrerad
+    registrered: registrerade
   latest_supporters:
     title: Senaste supportrar
   startpage:
