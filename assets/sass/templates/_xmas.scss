@@ -54,14 +54,12 @@
       padding-top: 2em;
       padding-bottom: 2em;
       p {
-        width: 75%;
       }
     }
     .how-it-works {
       margin-top: 6em;
       padding-top: 6em;
       padding-bottom: 6em;
-      padding: 6em;
       background-color: #D8E6F7;
       .how-it-works-steps {
         text-align: left;
@@ -81,10 +79,16 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
-    width: 50%;
+    max-width: 710px;
     min-width: 250px;
+    &.text {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      @media(max-width: 650px) {
+      }
+    }
+
     @media(max-width: $mobile) {
-      width: 75%;
     }
   }
 
