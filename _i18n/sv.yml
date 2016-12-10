@@ -507,7 +507,7 @@ hourly_pay_calculator:
 careers:
   title: Jobba hos oss
 job_card:
-  gross_salary: "Bruttolön:"
+  gross_salary: 'Bruttolön:'
 job_card_popup:
   title: Vad roligt att du är intresserad av våra jobbtillfällen!
   subtitle: För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du
@@ -526,6 +526,11 @@ press:
   title: Press
   full_style_guide_link: Se hela vår style guide (på engelska).
   press_pack_zip: Presspaket (zip)
+  read_article_link: Läs hela artikeln
+  press_kit:
+    title: Presskit
+  press_clips:
+    title: I pressen
   logos:
     title: Loggor
     on_dark: Loggor på mörk bakgrund
@@ -559,11 +564,6 @@ xmas:
     body3: 'Det här är vår Decemberutmaning till dig - att hjälpa nyanlända få #enfotin.'
   how_it_works_section:
     title: Hur funkar det?
-    body: Just nu finns det tusentals nyanlända som bara väntar på att få ett jobb.
-      Vi har en lösning på problemet. För varje företag som registreras hos oss, så
-      får fler nyanlända jobb. Enkelt va? Nu lanserar vi Decemberutmaningen där vi
-      vill ha din hjälp att utmana företag att registrera sig för att erbjuda fler
-      jobbmöjligheter för nyanlända.
     first:
       title: Registrera
       body: Du tillhandahåller namn och kontaktuppgifter till dig och ditt företag.
