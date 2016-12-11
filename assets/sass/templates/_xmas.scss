@@ -10,6 +10,12 @@
     text-align: center;
   }
 
+  .supporter-list {
+    max-height: 650px;
+    overflow-y: scroll;
+    display: inline-block;
+  }
+
   .header-bg-ext {
     display: none;
     @media(max-width: 650px) {
