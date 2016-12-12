@@ -3,4 +3,6 @@ layout: careers
 title: Careers
 ---
 
-{% translate_file careers/index.md %}
+Inga positioner öppna, för nu..
+
+No open positions at this time, but stay tuned..
