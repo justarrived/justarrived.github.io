@@ -98,8 +98,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
+  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
   cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived Gör Det Enkelt För Företag Att Engagera Eller Anställa en Nyanländ
@@ -174,7 +174,7 @@ our_product:
       att faktura skickas
     fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
       kostnader)
-    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
+    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
 say_hej:
   title: Säg Hej
   enquiries: Generella frågor
@@ -231,11 +231,11 @@ faq:
   newcomer:
     what:
       question: Vad behöver jag för att arbeta genom Just Arrived?
-      answer: "<b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
+      answer: <b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
         bankkonto. <br><b>Om du är asylsökande</b> då behöver du AT-UND under punkt
         7 på ditt LMA-kort, ett samordningsnummer från Skatteverket, och tillgång
         till ett svenskt bankkonto. <br><b> Om du är medborgare inom EU,</b> då behöver
-        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer."
+        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer.
     at_und:
       question: Vad är AT-UND?
       answer: AT-UND är ett undantag från lagen som säger att du behöver ett arbetstillstånd
@@ -570,7 +570,6 @@ xmas:
     body3: 'Det här är vår Decemberutmaning till dig - att hjälpa nyanlända få #enfotin.'
   how_it_works_section:
     title: Hur funkar det?
-    company_subtitle: För dig som företag
     first:
       title: Registrera
       body: Du tillhandahåller namn och kontaktuppgifter till dig och ditt företag.
@@ -582,14 +581,9 @@ xmas:
       title: Vi hör av oss
       body: 'Vi kommer kontakta dig i början av nästa år för att prata vidare om hur
         vi tillsammans kan hjälpa nyanlända få #enfotin.'
-    newcomer_subtitle: För dig som privatperson
-    newcomer_first: Ta en bild på din fot med sko på
-    newcomer_second: Skicka den till hej@justarrived.se
-    newcomer_third: "Du får tillbaka den redigerad och med en instruktion om hur du postar den under hashtaggen #enfotin i sociala medier och skickar vidare Decemberutmaningen."
   register_section:
     title: Vad väntar du på?
-    cta: Registrera intresse
-    clarify: "Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin."
+    cta: Registrera dig nu
   thanks:
     title: Tack!
     description: 'Tack för att du bidrar till att ge nyanlända #enfotin på arbetsmarknaden.
