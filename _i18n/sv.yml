@@ -67,7 +67,7 @@ nav:
   promo_code_signin: Logga in med promokod
   about_us: Om oss
   login: Logga in
-  companies: För Företag
+  companies: För företag
   newcomers: För nyanlända
   blog: Blogg
   faq: FAQ
@@ -76,10 +76,10 @@ top_banner:
   subtitle: Vi sammanför nyanlända med svenska företag som behöver hjälp med dagliga
     aktiviteter. Vår digitala plattform gör det enkelt för företag att lägga upp enkla
     uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
-  signup_for_job: Sätt igång
+  signup_for_job: Kom igång
   newcomer_cta: Jag vill söka jobb
 promo_code:
-  title: Skriv din promokod
+  title: Skriv in din promokod
   description: Om du har fått en promokod, var vänlig skriv den här
   submit: Ta mig till tjänsten
   placeholder: Promokod
@@ -102,7 +102,7 @@ be_the_change:
     med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
   cta: Jag vill lägga upp ett jobb
 companies_engage:
-  title: Just Arrived Gör Det Enkelt För Företag Att Engagera Eller Anställa en Nyanländ
+  title: Just Arrived gör det enkelt för företag att engagera och anställa nyanlända.
   responsibility_description: Vi betalar de skatter, sociala avgifter och försäkringar
     som hör ihop med en anställning.
   low_administration_description: Vi minskar företags administrativa arbete genom
@@ -123,7 +123,7 @@ job_opportunities:
     Arrived.
   cta: Registrera dig för att hitta ett jobb
 contribute:
-  title: Bidra till projektet
+  title: Bidra till Just Arrived
   cta: Jag vill bidra
 enablers:
   title: Bidrag från
@@ -131,7 +131,7 @@ partners:
   title: Partners och hjältar
   cta: Mer om oss
 join_us:
-  title: Gå med
+  title: Gå med oss
   first_paragraph: Just Arrived är drivet av ett team av frivilliga som vill göra
     skillnad. Om du tror att du på något sätt kan hjälpa till, registrera ditt intresse
     nedan.
@@ -149,7 +149,7 @@ join_us:
     fifth: Optimera applikationen för datorer
     sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
 meet_the_team:
-  title: Teamet
+  title: Vårt team
   description: Vi är en grupp av 150 volontärer som har jobbat kvällar och helger
     sedan 2015 för att göra Just Arrived möjligt. Vi representerar en mängd kompetenser,
     bakgrunder och organisationer, men alla delar det gemensamma målet att göra det
@@ -180,17 +180,17 @@ say_hej:
   enquiries: Generella frågor
 company_form:
   job_form_link_name: Redan registrerat ditt företag? Registrera ett nytt jobb.
-  title: Registrera Företag
+  title: Registrera ditt företag
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
 job_form:
-  title: Skapa Nytt Jobb
+  title: Skapa nytt jobb
   description: Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.
 register_submit:
   title: Tack för din registrering!
   description: Vi jobbar riktigt hårt för att hjälpa så många vi kan. Vi kommer kontakta
     dig när vi har något till dig, var vänlig att notera att det här kan ta ett tag.
 company_register_submit:
-  title: Tack för att du Registrerat dig!
+  title: Tack för din registrering!
   description: Vi kommer kontakta dig så snart vi kan. Vi hörs snart! Var vänlig kontakta
     support@justarrived.se om du har några frågor.
 job_submit_thanks:
@@ -198,7 +198,7 @@ job_submit_thanks:
   description: Din information har lämnats in och kommer inom kort vara online på
     vår plattform. Var vänlig kontakta support@justarrived.se om du har några frågor.
 about_cookies:
-  title: Om Cookies
+  title: Om cookies
   description: Vi använder cookies av tekniska skäl, för att underlätta användningen
     av våra tjänster och för att ge dig som användare relevant information när du
     besöker vår webbplats. Om du har några frågor hör av dig till hej@justarrived.se.
@@ -208,7 +208,7 @@ vasbyhem_testimonial:
   first_body: Just Arrived tar bort alla trösklar för att jobba med nyanlända.
 footer:
   get_started:
-    title: Sätt igång
+    title: Kom igång
     login: Logga in
     candidate_registration: Registrering för nyanlända
     post_job: Lägg upp jobb
@@ -217,7 +217,7 @@ footer:
     about: Om Just Arrived
     faq: FAQ
     careers: Jobba hos oss
-    team: Teamet
+    team: Vårt team
     press: Press
   follow_us:
     title: Följ oss
@@ -374,7 +374,7 @@ faq:
 cta_bar:
   company_title: För företag
   company_cta_text: Lär dig hur enkelt det är att anställa genom Just Arrived
-  company_cta_link_text: Sätt igång
+  company_cta_link_text: Kom igång
   newcomer_title: För nyanlända
   newcomer_cta_text: Vad kan Just Arrived göra för dig som letar jobb i Sverige?
   newcomer_cta_link_text: Läs mer
@@ -412,7 +412,7 @@ companies_why_us:
     Arriveds antagningsprocess. '
   service: Vi är flexibla, responsiva och personliga.
 company_what_we_offer:
-  title: Vår erbjudande
+  title: Vårt erbjudande
   signoff:
     title: 'Och bäst av allt:'
     body: Du blir en del av lösningen för en hållbar integration.
@@ -426,15 +426,15 @@ company_what_we_offer:
       body: Är det bråttom? Behöver du snabbt fylla en position? Vi kan tillhanda
         hålla rätt kandidat på 36 timmar.
     simplicity:
-      title: Enkelt
+      title: Det är enkelt
       body: Vi tar hand om all administration och arbetsgivaransvar. Skatt, socialaavgifter
         och försärkingar tas om hand av oss. Vi skickar bara en faktura till er.
     sustainability:
-      title: Säkert
+      title: Det är säkert
       body: Vi vill att ni som bolag bara ska behöva tänka på era behov. Administration,
         lagar och regler tar vi hand om.
     prices:
-      title: Pris
+      title: Och priset är..
       body: Anställ någon från 149 SEK i timmen. Beställningen måste minst vara 4
         timmar.
 company_faq_nudge:
@@ -468,7 +468,7 @@ newcomer_howto:
     first: Du får tillgång till Just Arriveds tjänst
     second: Skapa en profil och börja söka jobb!
 newcomer_howto_section:
-  title: Hur funkar det
+  title: Hur funkar det?
   apply_cta: Ansök
   register:
     title: 1. Registrera din ansökan
