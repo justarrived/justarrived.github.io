@@ -1,3 +1,10 @@
 .faq-qa {
   margin: 30px 0;
 }
+
+.faq-section {
+  .rtl-locale-direction & {
+    text-align: right;
+    direction: rtl;
+  }
+}
