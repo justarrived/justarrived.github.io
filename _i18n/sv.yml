@@ -588,6 +588,7 @@ xmas:
     newcomer_third: "Du får tillbaka den redigerad och med en instruktion om hur du postar den under hashtaggen #enfotin i sociala medier och skickar vidare Decemberutmaningen."
   register_section:
     title: Vad väntar du på?
+    clarify: "Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin."
     cta: Registrera dig nu
   thanks:
     title: Tack!
