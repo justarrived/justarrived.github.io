@@ -552,7 +552,7 @@ xmas:
   counter:
     registrered: registrerade
   latest_supporters:
-    title: Senaste supportrar
+    title: Senaste supporters
   startpage:
     description: Under december så har vi en julkampanj där vi utmanar dig att verkligen
       göra en skillnad.
@@ -583,9 +583,9 @@ xmas:
       title: Vi hör av oss
       body: 'Vi kommer kontakta dig i början av nästa år för att prata vidare om hur
         vi tillsammans kan hjälpa nyanlända få #enfotin.'
-    newcomer_first: Ta en bild på din fot med sko på
-    newcomer_second: Skicka den till hej@justarrived.se
-    newcomer_third: "Du får tillbaka den redigerad och med en instruktion om hur du postar den under hashtaggen #enfotin i sociala medier och skickar vidare Decemberutmaningen."
+    newcomer_first: "<b>Ta en bild</b> - Du tar en bild med din smartphone på din fot med sko på (gärna vid en tröskel)."
+    newcomer_second: "<b>Få bilden redigerad</b> - Du emailar bilden till hej@justarrived.se."
+    newcomer_third: "<b>Lägg upp i sociala medier</b> - Du får tillbaka den redigerad och med en instruktion om hur du postar den under hashtaggen #enfotin i sociala medier och skickar vidare Decemberutmaningen."
   register_section:
     title: Vad väntar du på?
     clarify: "Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin."
