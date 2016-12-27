@@ -13,10 +13,14 @@
   var progressTemplate = '<div class="counter-bg-base"> <div class="counter-bg-overlay"></div><div class="counter-bg-ring"> <p class="counter-number-large js-current-progress">0</p></div></div><p class="counter-summary"> <span class="primary-color js-current-progress">0</span>/<span id="js-counter-target"></span> <span id="js-counter-text"></span></p>';
 
   function calculateFillHeight(count, targetCount) {
+    var pixelsPerPercentHeight = 2.61;
+    var pixelOffsetBottom = 15;
+    var maxHeight = 285;
+
     var percentFilled = (count / targetCount) * 100;
-    var fillHeight = (percentFilled * 2.61) + 15;
-    if (fillHeight > 285 || percentFilled >= 100) {
-      fillHeight = 285;
+    var fillHeight = (percentFilled * pixelsPerPercentHeight) + pixelOffsetBottom;
+    if (fillHeight > maxHeight || percentFilled >= 100) {
+      return maxHeight;
     }
     return fillHeight;
   }
