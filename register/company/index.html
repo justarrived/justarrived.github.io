@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Register company" />
-  
+  <meta property="og:image" content="/assets/images/justarrived-logo.png" />
   <meta property="og:locale" content="sv" />
 
   
@@ -169,7 +169,7 @@
 		</li>
 		<li class="show-on-tablet">
 			<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-				<span>För Företag</span>
+				<span>För företag</span>
 			</a>
 		</li>
 		<li class="show-on-tablet">
@@ -190,7 +190,7 @@
 			</li>
 			<li>
 				<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-					<span>För Företag</span>
+					<span>För företag</span>
 				</a>
 			</li>
 			<li>
@@ -229,7 +229,7 @@ module-content--centered
 module--black
 ">
 
-    <h2 class="bordered bordered--primary bordered--centered module--txt-c">Registrera Företag</h2>
+    <h2 class="bordered bordered--primary bordered--centered module--txt-c">Registrera ditt företag</h2>
     <p>Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.</p>
     <p>
       <a href="/register/job">Redan registrerat ditt företag? Registrera ett nytt jobb.</a>
@@ -361,7 +361,7 @@ module--black
 
     <div class="wrap">
       <div class="footer-col">
-        <h3>Sätt igång</h3>
+        <h3>Kom igång</h3>
         <ul class="footer-link-list">
           <li><a href="https://app.justarrived.se/#/user/signin">Logga in</a></li>
           <li><a href="#" class="cd-popup-trigger-newcomer-signup">Registrering för nyanlända</a></li>
@@ -373,7 +373,7 @@ module--black
         <ul class="footer-link-list">
           <li><a href="/about-us/">Om Just Arrived</a></li>
           <li><a href="/careers/">Jobba hos oss</a></li>
-          <li><a href="/about-us/">Teamet</a></li>
+          <li><a href="/about-us/">Vårt team</a></li>
           <li><a href="/press/">Press</a></li>
           <li><a href="/faq/">FAQ</a></li>
         </ul>
@@ -536,7 +536,7 @@ module--black
     module--txt-c
     module--black
     ">
-        <h2 class="bordered bordered--secondary bordered--centered">Skriv din promokod</h2>
+        <h2 class="bordered bordered--secondary bordered--centered">Skriv in din promokod</h2>
         <p class="module--txt-l">Om du har fått en promokod, var vänlig skriv den här</p>
         <form class="promo-form" onsubmit="return submitPromoCode()">
           <div class="form-col form-col--full-width">
@@ -642,6 +642,7 @@ module--black
 <script charset="utf-8" src="/assets/js/popups.js" ></script>
 <script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
 <script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
@@ -652,12 +653,12 @@ module--black
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 20;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 110;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'live4-xmas-campaign',
+      id: 'live5-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -666,10 +667,7 @@ module--black
   function updateXmasSupporters() {
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
-      var counterElements = document.querySelectorAll('.js-current-count');
-      for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-      }
+      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
 
       var supporterList = [];
       for (var i = result.length - 1; i >= 0; i--) {
@@ -678,15 +676,12 @@ module--black
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
 
-      var calculateFillHeight = function(count) {
-        var percentFilled = (count / 150) * 100;
-        var fillHeight = (percentFilled * 2.65) + 24;
-        if (fillHeight > 285) {
-          fillHeight = 285;
-        }
-        return fillHeight;
-      }
-      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
+      new ProgressWidget({
+        selector: '#xmas-signups',
+        current: totalCount,
+        target: 150,
+        text: 'registrerade'
+      });
     });
   }
 

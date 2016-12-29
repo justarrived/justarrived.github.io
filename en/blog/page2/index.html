@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Blog (page 2)" />
-  
+  <meta property="og:image" content="/assets/images/justarrived-logo.png" />
   <meta property="og:locale" content="en" />
 
   <meta property="og:locale:alternate" content="sv" />
@@ -253,6 +253,26 @@ module--white-bg
   <div class="post-excerpt-list">
 
     
+      <article class="post-content" lang="sv">
+        
+
+        <h2>
+           <a class="post-link" href="/en/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/">Väsbyhem hjälper och får hjälp av nyanlända</a>
+        </h2>
+        <span class="post-meta">Nov 8, 2016 • sv</span>
+        <div>
+          <!-- 
+Foto: Johan Falk
+
+ -->
+          <p><img src="/assets/images/blog/zaher-foto-johan-falk.jpg" alt="Zaher" />
+<em>Foto: Johan Falk</em></p>
+
+<p><strong>Väsbyhem har sedan i våras ett samarbete med organisationen Just Arrived. Just Arrived har tagit fram en webapplikation som underlättar för nyanlända och företag att få kontakt med...
+          <a class="post-link" href="/en/blog/2016/11/08/vasbyhem-far-hjalp-av-nyanlanda/">More...</a>
+        </div>
+      </article>
+    
       <article class="post-content" lang="en">
         
 
@@ -289,24 +309,6 @@ module--white-bg
         </div>
       </article>
     
-      <article class="post-content" lang="en">
-        
-
-        <h2>
-           <a class="post-link" href="/en/blog/2016/09/29/a-story-from-our-community-meetup/">A story from our Community Meetup</a>
-        </h2>
-        <span class="post-meta">Sep 29, 2016 • en</span>
-        <div>
-          <!-- 
-
- -->
-          <p><img src="/assets/images/blog/team-picture.jpg" alt="The team" /></p>
-
-<p>During Wednesday evening, <a href="http://antrop.se/" title="Antrop - Design Agency">Antrop</a> welcomed Just Arrived together with the community of contributors for a launch of the new website. The office was transforme...
-          <a class="post-link" href="/en/blog/2016/09/29/a-story-from-our-community-meetup/">More...</a>
-        </div>
-      </article>
-    
 
   </div>
 
@@ -315,7 +317,7 @@ module--white-bg
     
       <a href="/blog/" class="previous">Previous</a>
      |
-    <span class="page_number ">Page: 2 of 4</span> |
+    <span class="page_number ">Page: 2 of 5</span> |
     
       <a href="/blog/page3/" class="next">Next</a>
     
@@ -380,6 +382,8 @@ module--white-bg
               <li><a href="" class="post-link"></a></li>
             
           
+            
+              <li><a href="/blog/2016/12/27/progress-widget/" class="post-link">Deconstructing Our Progress Widget</a></li>
             
               <li><a href="/blog/2016/10/11/moving-fast-in-three-languages/" class="post-link">1x3x3x3 - 1 feature, 3 people, 3 hours, 3 languages</a></li>
             
@@ -720,6 +724,7 @@ module--white-bg
 <script charset="utf-8" src="/assets/js/popups.js" ></script>
 <script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
 <script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
@@ -730,12 +735,12 @@ module--white-bg
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 20;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 110;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'live4-xmas-campaign',
+      id: 'live5-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -744,10 +749,7 @@ module--white-bg
   function updateXmasSupporters() {
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
-      var counterElements = document.querySelectorAll('.js-current-count');
-      for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-      }
+      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
 
       var supporterList = [];
       for (var i = result.length - 1; i >= 0; i--) {
@@ -756,15 +758,12 @@ module--white-bg
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
 
-      var calculateFillHeight = function(count) {
-        var percentFilled = (count / 150) * 100;
-        var fillHeight = (percentFilled * 2.65) + 24;
-        if (fillHeight > 285) {
-          fillHeight = 285;
-        }
-        return fillHeight;
-      }
-      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
+      new ProgressWidget({
+        selector: '#xmas-signups',
+        current: totalCount,
+        target: 150,
+        text: 'registered'
+      });
     });
   }
 

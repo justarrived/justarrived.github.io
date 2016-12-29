@@ -6,9 +6,91 @@
 </description>
     <link>http://justarrived.se//link>
     <atom:link href="http://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Dec 2016 18:36:14 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 18:36:14 +0100</lastBuildDate>
+    <pubDate>Thu, 29 Dec 2016 19:49:36 +0100</pubDate>
+    <lastBuildDate>Thu, 29 Dec 2016 19:49:36 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Deconstructing Our Progress Widget</title>
+        <description>&lt;p&gt;As a part of our xmas campaign, Decemberutmaningen, we wanted to display a nice progress widget to show how the campaign was doing, &lt;a href=&quot;/en/decemberutmaningen&quot;&gt;see the campaign here&lt;/a&gt;.
+‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌&lt;/p&gt;
+
+&lt;p&gt;The final widget looks like this:&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;
+  &lt;img style=&quot;max-width: 280px&quot; src=&quot;/assets/images/blog/progress-widget.png&quot; alt=&quot;Progress Widget&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Specification&lt;/em&gt;: The pink color should “fill” the appropriate amount of space to indicate the progress.&lt;/p&gt;
+
+&lt;p&gt;In order to achieve this we needed three “layers” to work with:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The background image, the “circle” like shape.&lt;/li&gt;
+  &lt;li&gt;The blue background color in the middle of the circle.&lt;/li&gt;
+  &lt;li&gt;The pink fill color that indicates the progress.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here is the background image (transparent png, on grey background for contrast):&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;background-color: #e7e7e7;padding: 0&quot;&gt;
+  &lt;img style=&quot;max-width: 280px&quot; src=&quot;/assets/images/xmas/counter_transparent.png&quot; alt=&quot;Progress Widget&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks Emma @ Antrop for design it and thanks Sasha for some last second Sketch-foo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We also need some JavaScript in order to fetch display the current progress (thats fetched for an API).&lt;/p&gt;
+
+&lt;p&gt;Calculating the fill height&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fillHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;targetCount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;percent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;targetCount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fillHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;percent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.61&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fillHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;285&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;fillHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;285&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fillHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We normalize the &lt;code class=&quot;highlighter-rouge&quot;&gt;target&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;current&lt;/code&gt; values to percent and then we have 2 “magic” numbers. &lt;code class=&quot;highlighter-rouge&quot;&gt;2.61&lt;/code&gt; is the number of pixels equal to 1% of the widget height. &lt;code class=&quot;highlighter-rouge&quot;&gt;15&lt;/code&gt; is offset required for the circle edge and finally we make sure that if we don’t allow the fill height to grow too large.&lt;/p&gt;
+
+&lt;p&gt;After that its just a matter of updating the values in the HTML template and add it to the DOM.&lt;/p&gt;
+
+&lt;p&gt;To create a new Progress widget we ended up with this:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;HTML&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;foo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;progress-widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;JS&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ProgressWidget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'#foo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;690&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'registered'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Making it really easy to create a new progress widget. Both the background, fill and text colors are configurable.&lt;/p&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://github.com/justarrived/justarrived.github.io/pull/156&quot;&gt;PR @ GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://justarrived.se/blog/2016/12/27/progress-widget/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/12/27/progress-widget/</guid>
+        
+        <category>engineering</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Logo animation</title>
@@ -292,27 +374,6 @@ We’re constantly looking for passionate and driven contributors, so if you wan
         <pubDate>Tue, 06 Sep 2016 00:00:00 +0200</pubDate>
         <link>http://justarrived.se/blog/2016/09/06/per-clingweld/</link>
         <guid isPermaLink="true">http://justarrived.se/blog/2016/09/06/per-clingweld/</guid>
-        
-        <category>meet the team</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Meet the team - Andreas König</title>
-        <description>&lt;p&gt;My name is Andreas König and am 29 years old. People say I am driven and action oriented, perhaps that’s why I’m here. I have a bachelor’s degree in Media &amp;amp; Communication and Master in Entrepreneurship and Business Design from Chalmers University of Technology. Besides that, I have several years of experience from sales and project management.&lt;/p&gt;
-
-&lt;p&gt;In september 2015 I started looking into the viability of the idea that eventually would become to be the Just Arrived app. Together with over 150 pro-bono contributors, representing 30 different companies, we over 8 months built the concept and product that is now running in closed beta. Today I am Co-Founder and CEO of Just Arrived. My main focus right now is supporting the team in getting new jobs on the platform and making sure we help newcomers get connected to those jobs. I am also constantly looking into new ways of developing our value proposition and organization. As soon as we are up and running with sales, I will move over to nurturing and activating the amazing pro-bono community that are supporting our cause.&lt;/p&gt;
-
-&lt;p&gt;There are several reasons why I decided to invest the early days of my career in Just Arrived. 1) I get to work with real issues and make a tangible impact. 2) I get to work with new technological solutions. 3) I get to be part of developing the platform economy. Hope it all makes sense to you as much as it does to me!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/andreas-konig.jpg&quot; alt=&quot;Andreas König&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://justarrived.se/blog/2016/08/31/andreas-konig/</link>
-        <guid isPermaLink="true">http://justarrived.se/blog/2016/08/31/andreas-konig/</guid>
         
         <category>meet the team</category>
         

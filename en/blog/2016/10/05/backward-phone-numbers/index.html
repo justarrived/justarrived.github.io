@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Backward phone numbers" />
-  
+  <meta property="og:image" content="/assets/images/justarrived-logo.png" />
   <meta property="og:locale" content="en" />
 
   <meta property="og:locale:alternate" content="sv" />
@@ -574,6 +574,7 @@ One, seemingly small, thing that we did was to design a “contact us” section
 <script charset="utf-8" src="/assets/js/popups.js" ></script>
 <script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
 <script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
@@ -584,12 +585,12 @@ One, seemingly small, thing that we did was to design a “contact us” section
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 20;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 110;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'live4-xmas-campaign',
+      id: 'live5-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -598,10 +599,7 @@ One, seemingly small, thing that we did was to design a “contact us” section
   function updateXmasSupporters() {
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
-      var counterElements = document.querySelectorAll('.js-current-count');
-      for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-      }
+      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
 
       var supporterList = [];
       for (var i = result.length - 1; i >= 0; i--) {
@@ -610,15 +608,12 @@ One, seemingly small, thing that we did was to design a “contact us” section
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
 
-      var calculateFillHeight = function(count) {
-        var percentFilled = (count / 150) * 100;
-        var fillHeight = (percentFilled * 2.65) + 24;
-        if (fillHeight > 285) {
-          fillHeight = 285;
-        }
-        return fillHeight;
-      }
-      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
+      new ProgressWidget({
+        selector: '#xmas-signups',
+        current: totalCount,
+        target: 150,
+        text: 'registered'
+      });
     });
   }
 

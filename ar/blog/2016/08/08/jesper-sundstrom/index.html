@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Meet the team - Jesper Sundström" />
-  <meta property="og:image" content="http://justarrived.se/assets/images/blog/jesper-sundstrom.jpg" />
+  <meta property="og:image" content="/assets/images/justarrived-logo.png" />
   <meta property="og:locale" content="ar" />
 
   <meta property="og:locale:alternate" content="sv" />
@@ -378,7 +378,7 @@ module--white-bg
             <div id="mc_embed_signup_scroll">
 
               <div class="form-col mc-field-group">
-                <label>البريد الإلكتروني للشركة <span class="asterisk">*</span></label>
+                <label>Företagsemail <span class="asterisk">*</span></label>
                 <input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
               </div>
               <div class="form-col mc-field-group">
@@ -501,7 +501,7 @@ module--white-bg
         <h2 class="bordered bordered--primary bordered--centered">نحن سعيدون لأنك مهتم بفرص الوظائف لدينا!</h2>
         <p>لتقرأ المزيد والتقدم لوظيفة أو للإعلان عن وظيفة عليك بأن تكون عضواً.</p>
         <br>
-        <h3>هل أنت عضو؟</h3>
+        <h3>Redan medlem?</h3>
         <p>
           <a href="https://app.justarrived.se/#/user/signin" class="border-btn btn-large border-btn--pink" data-action="click" data-action-label="Navigated to App Login" category="Newcomer">
             تسجيل الدخول
@@ -517,7 +517,7 @@ module--white-bg
         <br>
         <h3>هل تمثل شركة؟</h3>
         <p>
-          .لمعرفة المزيد حول كيفية الإعلان عن وظيفة يمكنك الإتصال بنا أو ارسال بريد الكتروني <br>
+          تواصل معنا لمعرفة المزيد حول كيفية الإعلان عن وظيفة. <br>
           <br>
           <a href="#" class="primary-btn btn-large cd-popup-trigger-signin">تواصل معنا</a>
         </p>
@@ -550,6 +550,7 @@ module--white-bg
 <script charset="utf-8" src="/assets/js/popups.js" ></script>
 <script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
 <script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
@@ -560,12 +561,12 @@ module--white-bg
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 20;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 110;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'live4-xmas-campaign',
+      id: 'live5-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -574,10 +575,7 @@ module--white-bg
   function updateXmasSupporters() {
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
-      var counterElements = document.querySelectorAll('.js-current-count');
-      for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-      }
+      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
 
       var supporterList = [];
       for (var i = result.length - 1; i >= 0; i--) {
@@ -586,15 +584,12 @@ module--white-bg
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
 
-      var calculateFillHeight = function(count) {
-        var percentFilled = (count / 150) * 100;
-        var fillHeight = (percentFilled * 2.65) + 24;
-        if (fillHeight > 285) {
-          fillHeight = 285;
-        }
-        return fillHeight;
-      }
-      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
+      new ProgressWidget({
+        selector: '#xmas-signups',
+        current: totalCount,
+        target: 150,
+        text: 'registrerade'
+      });
     });
   }
 

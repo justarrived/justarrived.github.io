@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Meet the team - Andreas König" />
-  <meta property="og:image" content="http://justarrived.se/assets/images/blog/andreas-konig.jpg" />
+  <meta property="og:image" content="/assets/images/justarrived-logo.png" />
   <meta property="og:locale" content="en" />
 
   <meta property="og:locale:alternate" content="sv" />
@@ -246,7 +246,7 @@ module--white-bg
 
           <p>My name is Andreas König and am 29 years old. People say I am driven and action oriented, perhaps that’s why I’m here. I have a bachelor’s degree in Media &amp; Communication and Master in Entrepreneurship and Business Design from Chalmers University of Technology. Besides that, I have several years of experience from sales and project management.</p>
 
-<p>In september 2015 I started looking into the viability of the idea that eventually would become to be the Just Arrived app. Together with over 150 pro-bono contributors, representing 30 different companies, we over 8 months built the concept and product that is now running in closed beta. Today I am Co-Founder and CEO of Just Arrived. My main focus right now is supporting the team in getting new jobs on the platform and making sure we help newcomers get connected to those jobs. I am also constantly looking into new ways of developing our value proposition and organization. As soon as we are up and running with sales, I will move over to nurturing and activating the amazing pro-bono community that are supporting our cause.</p>
+<p>In September 2015 I started looking into the viability of the idea that eventually would become to be the Just Arrived app. Together with over 150 pro-bono contributors, representing 30 different companies, we over 8 months built the concept and product that is now running in closed beta. Today I am Co-Founder and CEO of Just Arrived. My main focus right now is supporting the team in getting new jobs on the platform and making sure we help newcomers get connected to those jobs. I am also constantly looking into new ways of developing our value proposition and organization. As soon as we are up and running with sales, I will move over to nurturing and activating the amazing pro-bono community that are supporting our cause.</p>
 
 <p>There are several reasons why I decided to invest the early days of my career in Just Arrived. 1) I get to work with real issues and make a tangible impact. 2) I get to work with new technological solutions. 3) I get to be part of developing the platform economy. Hope it all makes sense to you as much as it does to me!</p>
 
@@ -550,6 +550,7 @@ module--white-bg
 <script charset="utf-8" src="/assets/js/popups.js" ></script>
 <script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
 <script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
 <script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
   Site.init(); // Init site JavaScript
@@ -560,12 +561,12 @@ module--white-bg
 </script>
 <script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
 <script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 20;
+  ALLREADY_SUBMITTED_XMAS_COUNT = 110;
   GA_XMAS_CATEGORY = 'Christmas';
 
   function getXmasPoller() {
     var opts = {
-      id: 'live4-xmas-campaign',
+      id: 'live5-xmas-campaign',
       points: true
     };
     return new Poller(opts);
@@ -574,10 +575,7 @@ module--white-bg
   function updateXmasSupporters() {
     getXmasPoller().result(function(result) {
       var submitCount = result.length;
-      var counterElements = document.querySelectorAll('.js-current-count');
-      for (var i = 0; i < counterElements.length; i++) {
-        counterElements[i].innerText = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-      }
+      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
 
       var supporterList = [];
       for (var i = result.length - 1; i >= 0; i--) {
@@ -586,15 +584,12 @@ module--white-bg
       }
       $('.js-supporter-list').prepend(supporterList.join(''));
 
-      var calculateFillHeight = function(count) {
-        var percentFilled = (count / 150) * 100;
-        var fillHeight = (percentFilled * 2.65) + 24;
-        if (fillHeight > 285) {
-          fillHeight = 285;
-        }
-        return fillHeight;
-      }
-      $('.counter-bg-overlay').css('height', calculateFillHeight(submitCount) + 'px');
+      new ProgressWidget({
+        selector: '#xmas-signups',
+        current: totalCount,
+        target: 150,
+        text: 'registered'
+      });
     });
   }
 
