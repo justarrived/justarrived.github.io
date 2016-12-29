@@ -14,7 +14,7 @@ post_to_slack() {
     local data='{"text": "A new version of <http://justarrived.se|justarrived.se> has been deployed.", "channel": "#website", "username": "just-bot", "icon_emoji": ":shipit:"}'
 
     echo 'Posting deploy to Slack..'
-    curl -X POST -H 'Content-type: application/json' --data $data $slack_webhook_url &
+    curl -X POST -H 'Content-type: application/json' --data $data $slack_webhook_url > /dev/null 2>&1 &
   fi
 }
 
