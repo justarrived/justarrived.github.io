@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Just Arrived" />
   <meta property="og:type" content="website" />
   {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
-  <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}/assets/images/justarrived-logo.png{% endif %}" />
+  <meta property="og:image" content="{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}/assets/images/justarrived-logo.png{% endif %}" />
   <meta property="og:locale" content="{{ site.lang }}" />
 
   {% unless site.lang == 'sv' %}<meta property="og:locale:alternate" content="sv" />{% endunless %}
