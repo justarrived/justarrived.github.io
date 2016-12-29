@@ -79,6 +79,15 @@
     });
   }
 
+  function trackCookieAcceptClicks() {
+    $(document).on('click', '.js-cookie-accept-btn', function() {
+      gaTrack(
+        'cookie',
+        'click',
+        'Cookie accept');
+    });
+  }
+
   function initTrackOfDOMElements() {
     $('[data-action]').each(function() {
       var $element = $(this);
@@ -111,6 +120,7 @@
 
   var JustTrack = {
     init: function() {
+      trackCookieAcceptClicks();
       trackCompanySignup();
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
