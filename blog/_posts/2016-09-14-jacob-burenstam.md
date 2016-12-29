@@ -3,6 +3,7 @@ layout: post
 title: Meet the team - Jacob Burenstam
 author: buren
 locale: en
+list_cover: jacob-burenstam.jpg
 og_image: /assets/images/blog/jacob-burenstam.jpg
 tags:
   - meet the team

@@ -17,7 +17,9 @@ paginate: true
     {% for post in paginator.posts %}
       <article class="post-content" lang="{{ post.locale }}">
         {% if post.list_cover %}
-          <div class="post-list-cover" style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});"></div>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="post-list-cover" style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});"></div>
+          </a>
         {% endif %}
 
         <h2>

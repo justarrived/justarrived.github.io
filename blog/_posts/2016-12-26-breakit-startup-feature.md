@@ -3,6 +3,7 @@ layout: post
 title: Breakit feature
 author: per
 locale: sv
+list_cover: breakit-starup-feature.png
 og_image: /assets/images/blog/breakit-starup-feature.png
 tags:
   - press

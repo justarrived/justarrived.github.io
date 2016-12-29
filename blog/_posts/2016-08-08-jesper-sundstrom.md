@@ -2,6 +2,7 @@
 layout: post
 title: Meet the team - Jesper Sundström
 locale: en
+list_cover: jesper-sundstrom.jpg
 og_image: /assets/images/blog/jesper-sundstrom.jpg
 tags:
   - meet the team

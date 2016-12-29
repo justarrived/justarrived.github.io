@@ -3,6 +3,7 @@ layout: post
 title: Meet the team - Lova Westlund
 author: lova
 locale: en
+list_cover: lova-westlund.jpg
 og_image: /assets/images/blog/lova-westlund.jpg
 tags:
   - meet the team

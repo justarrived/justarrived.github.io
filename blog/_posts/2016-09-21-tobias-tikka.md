@@ -2,6 +2,7 @@
 layout: post
 title: Meet the team - Tobias Tikka
 locale: en
+list_cover: tobias-tikka.jpg
 og_image: /assets/images/blog/tobias-tikka.jpg
 tags:
   - meet the team

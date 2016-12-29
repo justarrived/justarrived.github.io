@@ -3,6 +3,7 @@ layout: post
 title: Meet the team - Neven Jugo
 author: neven
 locale: en
+list_cover: neven-jugo.jpg
 og_image: /assets/images/blog/neven-jugo.jpg
 tags:
   - meet the team

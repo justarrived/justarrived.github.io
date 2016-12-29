@@ -3,6 +3,7 @@ layout: post
 title: Slutspurt Decemberutmaningen
 author: per
 locale: sv
+list_cover: slutspurten-enfotin.png
 og_image: /assets/images/blog/slutspurten-enfotin.png
 tags:
   - enfotin

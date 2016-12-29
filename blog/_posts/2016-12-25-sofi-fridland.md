@@ -2,6 +2,7 @@
 layout: post
 title: Meet the team - Sofi Fridland
 locale: en
+list_cover: sofi-fridland.jpg
 og_image: /assets/images/blog/sofi-fridland.jpg
 tags:
   - meet the team
