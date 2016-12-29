@@ -6,6 +6,7 @@ locale: sv
 og_image: /assets/images/blog/xmas/enfotin.png
 tags:
   - decemberutmaningen
+  - enfotin
 ---
 
 ![Idag lanserar vi Decemberutmaningen]({{ "/assets/images/blog/xmas/enfotin.png" | prepend: site.github.url }})
@@ -56,3 +57,5 @@ _Just Arrived är ett icke-vinstdrivande företag och en digital tjänst som mat
 _Frågor eller funderingar?_
 
 _Läs vår FAQ eller kontakta vår VD Andreas König, [andreas@justarrived.se](mailto:andreas@justarrived.se)._
+
+<video width="100%" controls src="/assets/videos/enfotin-launch.mp4"></video>

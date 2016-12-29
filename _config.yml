@@ -102,6 +102,27 @@ authors:
     web: http://jacobburenstam.com/
     twitter: jacobburenstam
     github: buren
+    profile_pic: /assets/images/blog/jacob-burenstam.jpg
+  neven:
+    display_name: Neven Jugo
+    email: neven.jugo@justarrived.se
+    profile_pic: /assets/images/blog/neven-jugo.jpg
+  lova:
+    display_name: Lova Westlund
+    email: lova.westlund@justarrived.se
+    profile_pic: /assets/images/blog/lova-westlund.jpg
+  anna:
+    display_name: Anna Hörnmark
+    email: anna.hornmark@justarrived.se
+    profile_pic: /assets/images/blog/anna-hornmark.jpg
+  per:
+    display_name: Per Clingweld
+    email: anna.hornmark@justarrived.se
+    profile_pic: /assets/images/blog/per-clingweld.jpg
+  andreas:
+    display_name: Andreas König
+    email: andreas.konig@justarrived.se
+    profile_pic: /assets/images/blog/andreas-konig.jpg
 
 # xmas campaign
 xmas_poller_id: live5-xmas-campaign

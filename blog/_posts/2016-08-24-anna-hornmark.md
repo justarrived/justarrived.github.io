@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Anna Hörnmark
+author: anna
 locale: en
 og_image: /assets/images/blog/anna-hornmark.jpg
 tags:
