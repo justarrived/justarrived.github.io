@@ -130,3 +130,8 @@ table.boring-table {
 .animated-background {
 	animation: animatedBackground 1s cubic-bezier(0.18, 0.89, 0.32, 1.28) 4;
 }
+
+
+img.filter--black-and-white {
+	filter: grayscale(100%);
+}
