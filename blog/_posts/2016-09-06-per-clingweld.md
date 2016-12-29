@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet the team - Per Clingweld
+author: per
 locale: en
 og_image: /assets/images/blog/per-clingweld.jpg
 tags:
