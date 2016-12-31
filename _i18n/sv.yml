@@ -584,8 +584,7 @@ xmas:
       body: 'Vi kommer kontakta dig i början av nästa år för att prata vidare om hur
         vi tillsammans kan hjälpa nyanlända få #enfotin.'
     newcomer_first: "<b>Ta en bild</b> - Du tar en bild med din smartphone på din fot med sko på (gärna vid en tröskel)."
-    newcomer_second: "<b>Få bilden redigerad</b> - Du emailar bilden till hej@justarrived.se."
-    newcomer_third: "<b>Lägg upp i sociala medier</b> - Du får tillbaka den redigerad och med en instruktion om hur du postar den under hashtaggen #enfotin i sociala medier och skickar vidare Decemberutmaningen."
+    newcomer_second: "<b>Lägg upp bilden i sociala medier</b> - Skriv en liten text om varför du tycker att det är viktigt att nyanlända får en fot in på arbetsmarknaden. Glöm ej tagga med #enfotin!"
   register_section:
     title: Vad väntar du på?
     clarify: "Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin."

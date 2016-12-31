@@ -557,6 +557,8 @@ xmas:
     third:
       title: We'll be in touch
       body: "We will contact you in the beginning of next year, to talk more about how we together can help newcomers get #enfotin."
+    newcomer_first: "<b>Take a photo</b> - Take a picture of your foot (with shoes on), with your smartphone."
+    newcomer_second: "<b>Post the photo to social media</b> - Write a short text of why you think its important that newcomers get a chance to enter the Swedish labour market. Don't forget to use the hashtag #enfotin!"
   register_section:
     title: What are you waiting for?
     cta: Register now
