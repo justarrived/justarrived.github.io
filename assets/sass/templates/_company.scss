@@ -16,13 +16,21 @@
 		position: relative;
 		top: 1em;
     max-width: 130px;
+    margin: 10px 0;
+    @include tablet {
+      margin: 0;
+    }
   }
   & ul {
     color: $black;
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    margin-bottom: 0;
+    @include tablet {
+      justify-content: space-around;
+      display: flex;
+    }
     & li {
-      display: inline-block;
+      display: block;
     }
   }
 }
