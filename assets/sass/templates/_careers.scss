@@ -1,7 +1,10 @@
 .section--career-hero {
   & h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 25px;
+    @include mobile {
+      font-size: 4em;
+    }
   }
 }
 
