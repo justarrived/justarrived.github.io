@@ -187,6 +187,13 @@ about_cookies:
 vasbyhem_testimonial:
   first_body: Just Arrived removes all barriers working with newcomers.
 
+testimonials:
+  utbudet:
+    first: För oss var det otroligt bra att anställa via Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i samhället.
+  mentimeter:
+    first: Att anställa via Just Arrived visade sig vara otroligt enkelt och snabbt. Personen som utförde uppdraget var både artig, nyfiken och öppen. Att få sitta tillsammans och njuta av mat från Aleppo och träffa en nysvensk fick effekten att vi reflekterade om vår omvärld och fick en varm stund tillsammans.
+    second: Det bästa med Just Arriveds tjänst är att man kan hjälpa människor, ha en positiv effekt på samhället samtidigt som man får väldigt mycket tillbaka. Jag vill uppmana andra företag att bara göra något. Ingen kan göra allt, men alla kan göra något.
+
 footer:
   get_started:
     title: Get started
