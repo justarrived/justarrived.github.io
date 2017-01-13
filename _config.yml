@@ -114,6 +114,14 @@ authors:
     display_name: Lova Westlund
     email: lova.westlund@justarrived.se
     profile_pic: /assets/images/blog/lova-westlund.jpg
+  salam:
+    display_name: Salam Al Hennawi
+    email: salam.alhennawi@justarrived.se
+    profile_pic: /assets/images/blog/salam-al-hennawi.jpg
+  strangberg:
+    display_name: Per Strängberg
+    email: per.strangberg@justarrived.se
+    profile_pic: /assets/images/blog/per-strangberg.jpg
   anna:
     display_name: Anna Hörnmark
     email: anna.hornmark@justarrived.se
@@ -126,7 +134,3 @@ authors:
     display_name: Andreas König
     email: andreas.konig@justarrived.se
     profile_pic: /assets/images/blog/andreas-konig.jpg
-
-# xmas campaign
-xmas_poller_id: live6-xmas-campaign
-xmas_already_submitted_count: 121
