@@ -569,6 +569,7 @@ xmas:
     newcomer_first: "<b>Take a photo</b> - Take a picture of your foot (with shoes on), with your smartphone."
     newcomer_second: "<b>Post the photo to social media</b> - Write a short text of why you think its important that newcomers get a chance to enter the Swedish labour market. Don't forget to use the hashtag #enfotin!"
   register_section:
+    campaign_closed: This campaign has been completed.
     title: What are you waiting for?
     cta: Register now
   thanks:
