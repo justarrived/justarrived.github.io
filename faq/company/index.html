@@ -262,7 +262,7 @@ Just Arrived erhåller en kopia på handlingar och uppfyllnaden av krav gälland
     <h3 id="vem-är-arbetsgivare">Vem är arbetsgivare?</h3>
     <p>Just Arrived är en matchningsservice mellan nyanländ och företag. När uppdraget utförs görs detta med vår samarbetspartner Frilans Finans som formellt är arbetsgivare enligt frilansmodellen.</p>
   
-    <h3 id="Är-arbetstagarna-försäkrade-under-jobbet-och-betalas-sociala-avgifter">Är arbetstagarna försäkrade under jobbet, och betalas sociala avgifter?</h3>
+    <h3 id="är-arbetstagarna-försäkrade-under-jobbet-och-betalas-sociala-avgifter">Är arbetstagarna försäkrade under jobbet, och betalas sociala avgifter?</h3>
     <p>Ja, samtliga som utför uppdrag genom Just Arrived är försäkrade under hela uppdraget och sociala avgifter betalas genom Frilans Finans tillsammans med lönen för uppdraget.</p>
   
     <h3 id="hur-betalar-jag-för-jobbet">Hur betalar jag för jobbet?</h3>
@@ -271,7 +271,7 @@ Just Arrived erhåller en kopia på handlingar och uppfyllnaden av krav gälland
     <h3 id="vad-tjänar-just-arrived-på-att-förmedla-uppdrag">Vad tjänar Just Arrived på att förmedla uppdrag?</h3>
     <p>Just Arrived tar ut en avgift för att förmedla jobben. Intäkten återinvesteras i företaget för att förbättra verksamheten. Avgiften är fast och påverkas inte av lönen till arbetaren.</p>
   
-    <h3 id="Är-uppdragen-genom-just-arrived-statligt-subventionerade">Är uppdragen genom Just Arrived statligt subventionerade?</h3>
+    <h3 id="är-uppdragen-genom-just-arrived-statligt-subventionerade">Är uppdragen genom Just Arrived statligt subventionerade?</h3>
     <p>Nej, Just Arrived tar inte emot bidrag i form av statliga subventioner för uppdragen.</p>
   
     <h3 id="vad-innebär-enkla-jobb">Vad innebär enkla jobb?</h3>
@@ -592,62 +592,14 @@ Just Arrived erhåller en kopia på handlingar och uppfyllnaden av krav gälland
 </script>
 
 <script type="text/javascript">
-  PollerConfig = { url: 'https://throwawaypoll.herokuapp.com' };
-</script>
-<script charset="utf-8" src="/assets/js/xmas/poller.js" ></script>
-<script type="text/javascript">
-  ALLREADY_SUBMITTED_XMAS_COUNT = 121;
-  GA_XMAS_CATEGORY = 'Christmas';
-
-  function getXmasPoller() {
-    var opts = {
-      id: 'live6-xmas-campaign',
-      points: true
-    };
-    return new Poller(opts);
-  }
-
-  function updateXmasSupporters() {
-    getXmasPoller().result(function(result) {
-      var submitCount = result.length;
-      var totalCount = ALLREADY_SUBMITTED_XMAS_COUNT + submitCount;
-
-      var supporterList = [];
-      for (var i = result.length - 1; i >= 0; i--) {
-        var name = result[i][0];
-        supporterList.push('<li><span class="primary-color supporter-name">' + name + '</span></li>')
-      }
-      $('.js-supporter-list').prepend(supporterList.join(''));
-
-      new ProgressWidget({
-        selector: '#xmas-signups',
-        current: totalCount,
-        target: 150,
-        text: 'registrerade'
-      });
+  if (location.pathname.indexOf('/decemberutmaningen') !== -1) {
+    new ProgressWidget({
+      selector: '#xmas-signups',
+      current: 133,
+      target: 150,
+      text: 'registrerade'
     });
   }
-
-  function submitXmas() {
-    var firstName = document.getElementById('first_name').value;
-    var lastName = document.getElementById('last_name').value;
-    var company = document.getElementById('company').value;
-    var role = document.getElementById('role').value;
-
-    var fullName = firstName + ' ' + lastName + ', ' + role + ', ' + company;
-
-    getXmasPoller().submit({x: fullName, y: 1}, function() {
-      gaTrack(GA_XMAS_CATEGORY, 'submit', 'submit supporter form (fixed)');
-
-      updateXmasSupporters();
-    });
-
-    // Let the form be submitted
-    return true;
-  }
-
-  // MAIN
-  updateXmasSupporters();
 </script>
 
 <script type="text/javascript">
