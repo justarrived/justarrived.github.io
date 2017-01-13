@@ -6,8 +6,8 @@
 </description>
     <link>http://justarrived.se//link>
     <atom:link href="http://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Jan 2017 10:47:14 +0100</pubDate>
-    <lastBuildDate>Fri, 13 Jan 2017 10:47:14 +0100</lastBuildDate>
+    <pubDate>Fri, 13 Jan 2017 11:55:28 +0100</pubDate>
+    <lastBuildDate>Fri, 13 Jan 2017 11:55:28 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -57,6 +57,27 @@
         <pubDate>Thu, 05 Jan 2017 00:00:00 +0100</pubDate>
         <link>http://justarrived.se/blog/2017/01/05/jag-ar-med-och-bygger-samhallet/</link>
         <guid isPermaLink="true">http://justarrived.se/blog/2017/01/05/jag-ar-med-och-bygger-samhallet/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet the team - Per Strängberg</title>
+        <description>&lt;p&gt;My name is Per Strängberg and I’m 29 years old. As Customer Success Manager I work with building and developing long term relationships between Just Arrived and forward thinking companies in Sweden who want to get things done in their business at the same time as they are making our society a better place. I’ve always been engaged with making people, initiatives and companies come together for making good things happen and I was just blown away when I first heard about Just Arrived at their concept launch in &lt;a href=&quot;http://justarrived.se/almedalen&quot;&gt;Almedalen&lt;/a&gt;, summer of 2016.&lt;/p&gt;
+
+&lt;p&gt;The last ten years I’ve been working around the world with two main projects: the world’s largest &lt;a href=&quot;http://www.soic.se/&quot;&gt;sailing ship ‘Götheborg’&lt;/a&gt; and a music production company together with fellow musicians in a Swedish band called &lt;a href=&quot;http://www.immanu-el.com/&quot;&gt;Immanu El&lt;/a&gt;. Both have been extremely challenging and developing in countless ways, both professionally and personally. I’m also engaged in Swedish politics and have always had a great interest in how we can make our society come more together, become better and move forward as a whole.&lt;/p&gt;
+
+&lt;p&gt;To me it’s very important to work with something meaningful, something I truly believe in, and this is really the case with Just Arrived. To get the opportunity to work for something you think is important, developing and groundbreaking while doing good things for others is just spot on, and one of the privileges of working here. I also love all the positive energy and the great spirit I see in this work, in meetings with companies and entrepreneurs as well as in our newcomers but also among politicians, partners and colleagues. I believe Just Arrived has just set sail on an amazing journey and I’m very happy to be a part of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/per-strangberg.jpg&quot; alt=&quot;Per Strängberg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://justarrived.se/blog/2016/12/30/per-strangberg/</link>
+        <guid isPermaLink="true">http://justarrived.se/blog/2016/12/30/per-strangberg/</guid>
+        
+        <category>meet the team</category>
         
         
         <category>blog</category>
@@ -307,23 +328,6 @@ I think Just Arrived is of the most interesting initiatives on this topic right 
         <category>enfotin</category>
         
         <category>decemberutmaningen</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Neven Says Hi</title>
-        <description>&lt;p&gt;Our amazing new team member and Customer Success Manager, Neven Bakka, hit the ground running with this short and emotional video to all his friends (in Swedish). Have a great weekend everyone!&lt;/p&gt;
-
-&lt;video width=&quot;100%&quot; controls=&quot;&quot; src=&quot;/assets/videos/neven-clip.mp4&quot;&gt;&lt;/video&gt;
-</description>
-        <pubDate>Fri, 16 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://justarrived.se/blog/2016/12/16/neven-says-hi/</link>
-        <guid isPermaLink="true">http://justarrived.se/blog/2016/12/16/neven-says-hi/</guid>
-        
-        <category>misc</category>
         
         
         <category>blog</category>
