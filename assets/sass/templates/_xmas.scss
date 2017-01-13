@@ -187,6 +187,11 @@
     &:active {
       background-color: $dark-cerise;
     }
+
+    &:disabled {
+      background-color: $dark-cerise;
+      cursor: not-allowed;
+    }
   }
 
   .register {

@@ -597,6 +597,7 @@ xmas:
   register_section:
     title: Vad väntar du på?
     clarify: 'Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin.'
+    campaign_closed: Den här kampanjen är avslutad.
     cta: Registrera dig nu
   thanks:
     title: Tack!
