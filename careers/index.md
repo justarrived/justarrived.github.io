@@ -49,3 +49,5 @@ Stämmer ovanstående in på dig? Då vill vi träffa dig så fort som möjligt.
 <div id="developer"></div>
 
 Vi letar alltid efter duktiga utvecklare/programmerare, speciellt inom JavaScript och Ruby.
+
+Mer information kommer snart!
