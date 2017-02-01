@@ -19,6 +19,11 @@ global:
   more_company_info: Företagsinfo
   apply: Registrera ansökan
   or: eller
+
+time_report:
+  title: Tidrapportera
+  description: "Den är väldigt viktigt att du rapporterar din tid korrekt för att du ska få din lön i tid."
+  link_title: Tidrapportera nu
 page_not_found:
   title: Vi kunde tyvärr inte hitta den här sidan
   body: Vi gjorde så gott vi kunde, men vi hittade inte den här sidan. Du är varmt
