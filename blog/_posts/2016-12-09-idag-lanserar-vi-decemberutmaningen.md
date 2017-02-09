@@ -23,13 +23,13 @@ Vi har döpt utmaningen till #enfotin, för att adressera det faktum att det ida
 
 ### Bidra som företag
 
-_Gör så här:_ Signa upp på [Decemberutmaningen](http://justarrived.se/decemberutmaningen), och visa att du vill vara med, så kontaktar vi dig under det nya året.
+_Gör så här:_ Signa upp på [Decemberutmaningen](https://justarrived.se/decemberutmaningen), och visa att du vill vara med, så kontaktar vi dig under det nya året.
 
-Det här är vår Decemberutmaning: hjälp nyanlända att få in en fot på arbetsmarknaden! Signa upp på [Decemberutmaningen](http://justarrived.se/decemberutmaningen) så kontaktar vi dig under det nya året. Stort tack för ditt engagemang.
+Det här är vår Decemberutmaning: hjälp nyanlända att få in en fot på arbetsmarknaden! Signa upp på [Decemberutmaningen](https://justarrived.se/decemberutmaningen) så kontaktar vi dig under det nya året. Stort tack för ditt engagemang.
 
 När du signat upp - utmana dina branschkollegor att göra detsamma genom att **ta en svartvit bild på din fot med sko på** och posta den tillsammans med följande status i dina sociala medier:
 
-> Min önskan inför jul är att fler nyanlända ska få in en fot på arbetsmarknaden. @företagX: hjälp till ni också! Anmäl er på [http://justarrived.se/decemberutmaningen](http://justarrived.se/decemberutmaningen) så låter vi fler få #enfotin.
+> Min önskan inför jul är att fler nyanlända ska få in en fot på arbetsmarknaden. @företagX: hjälp till ni också! Anmäl er på [https://justarrived.se/decemberutmaningen](https://justarrived.se/decemberutmaningen) så låter vi fler få #enfotin.
 >
 > Jag utmanar härmed @personX @personY och @personZ att lägga upp en bild på sin fot, utmana varsitt företag, och därefter skicka vidare Decemberutmaningen.
 
@@ -40,7 +40,7 @@ Just nu finns det tusentals motiverade nyanlända som bara väntar på att få e
 
 _Gör så här_: Ta fram din telefon, ta en **svartvit bild på din fot med sko på**, kopiera statusen nedan, berätta vilket företag du vill utmana att registrera sig hos oss och tagga slutligen med #enfotin.
 
-> Min önskan inför jul är att fler nyanlända ska få in en fot på arbetsmarknaden. @företagX: hjälp till ni också! Anmäl er på [http://justarrived.se/decemberutmaningen](http://justarrived.se/decemberutmaningen) så låter vi fler få #enfotin.
+> Min önskan inför jul är att fler nyanlända ska få in en fot på arbetsmarknaden. @företagX: hjälp till ni också! Anmäl er på [https://justarrived.se/decemberutmaningen](https://justarrived.se/decemberutmaningen) så låter vi fler få #enfotin.
 >
 > Jag utmanar härmed @personX @personY och @personZ att lägga upp en svartvit bild på sin fot, utmana varsitt företag, och därefter skicka vidare Decemberutmaningen.
 

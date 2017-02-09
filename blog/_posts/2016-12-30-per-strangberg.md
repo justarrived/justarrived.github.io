@@ -9,7 +9,7 @@ tags:
   - meet the team
 ---
 
-My name is Per Strängberg and I’m 29 years old. As Customer Success Manager I work with building and developing long term relationships between Just Arrived and forward thinking companies in Sweden who want to get things done in their business at the same time as they are making our society a better place. I’ve always been engaged with making people, initiatives and companies come together for making good things happen and I was just blown away when I first heard about Just Arrived at their concept launch in [Almedalen](http://justarrived.se/almedalen), summer of 2016.
+My name is Per Strängberg and I’m 29 years old. As Customer Success Manager I work with building and developing long term relationships between Just Arrived and forward thinking companies in Sweden who want to get things done in their business at the same time as they are making our society a better place. I’ve always been engaged with making people, initiatives and companies come together for making good things happen and I was just blown away when I first heard about Just Arrived at their concept launch in [Almedalen](https://justarrived.se/almedalen), summer of 2016.
 
 The last ten years I’ve been working around the world with two main projects: the world’s largest [sailing ship ‘Götheborg’](http://www.soic.se/) and a music production company together with fellow musicians in a Swedish band called [Immanu El](http://www.immanu-el.com/). Both have been extremely challenging and developing in countless ways, both professionally and personally. I’m also engaged in Swedish politics and have always had a great interest in how we can make our society come more together, become better and move forward as a whole.
 
