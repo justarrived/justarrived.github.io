@@ -11,7 +11,7 @@ post_to_slack() {
   if [[ -z $slack_webhook_url ]]; then
     echo '[WARNING] JUST_ARRIVED_SE_SLACK_DEPLOY_HOOK_URL not set! Please set in order to post to Slack on deploy.'
   else
-    local data='{"text": "A new version of <http://justarrived.se|justarrived.se> has been deployed.", "channel": "#website", "username": "just-bot", "icon_emoji": ":shipit:"}'
+    local data='{"text": "A new version of <https://justarrived.se|justarrived.se> has been deployed.", "channel": "#website", "username": "just-bot", "icon_emoji": ":shipit:"}'
 
     echo 'Posting deploy to Slack..'
     curl -X POST -H 'Content-type: application/json' --data $data $slack_webhook_url > /dev/null 2>&1 &
@@ -45,4 +45,4 @@ else
   post_to_slack
   __exe_cmd "git checkout $main_branch"
 fi
-echo 'deployed: http://justarrived.se'
+echo 'deployed: https://justarrived.se'

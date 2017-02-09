@@ -13,7 +13,7 @@ There are many things that make Just Arrived unique as a startup. One of those t
 
 I've been developing for the web for more than 5 years and I recently encountered something new, namely the css property `unicode-bidi` (heard of it before?).
 
-Recently we did a major upgrade of our website. We moved [justarrived.se](http://justarrived.se) from Wordpress to Jekyll as well as restructured and rewrote a lot of the content for the site.
+Recently we did a major upgrade of our website. We moved [justarrived.se](https://justarrived.se) from Wordpress to Jekyll as well as restructured and rewrote a lot of the content for the site.
 One, seemingly small, thing that we did was to design a "contact us" section where the names, roles, email and phone numbers for each of our team members where to be displayed. It got built real fast and everything seemed to have worked up until we tested the site in Arabic.
 
 > Houston we have a problem...

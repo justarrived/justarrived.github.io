@@ -24,7 +24,7 @@ page_not_found:
   body: Vi gjorde så gott vi kunde, men vi hittade inte den här sidan. Du är varmt
     välkommen att kontakta oss ifall du tror att det är något vi gjort fel, vilket
     vi mycket väl kan ha. Kontakta isåfall oss på  <a href="mailto:hej@justarrived.se">hej@justarrived.se</a>.
-  link_line: Du kan alltid gå till vår <a href="http://justarrived.se/">startsida</a>.
+  link_line: Du kan alltid gå till vår <a href="https://justarrived.se/">startsida</a>.
 form:
   submit: Spara
   email: Email adress

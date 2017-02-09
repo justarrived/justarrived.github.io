@@ -22,7 +22,7 @@ global:
 page_not_found:
   title: We're sorry we couldn't find this page
   body: We tried our hardest but we couldn't find this page. You're more than welcome to contact us if you believe this is an error on our part, which it definitely can be, please contact us on <a href="mailto:hej@justarrived.se">hej@justarrived.se</a>.
-  link_line: You can always go to our <a href="http://justarrived.se/">startpage</a>.
+  link_line: You can always go to our <a href="https://justarrived.se/">startpage</a>.
 
 form:
   submit: Submit
