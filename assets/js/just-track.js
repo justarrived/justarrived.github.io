@@ -50,12 +50,12 @@
     });
   }
 
-  function trackNewcomerRegPopupOpen() {
-    $('.cd-popup-trigger-newcomer-signup').on('click', function() {
+  function trackNewcomerGotoJobsList() {
+    $('.js-goto-app-jobs').on('click', function() {
       gaTrack(
         newcomerCategory,
         'click',
-        'Registration popup open');
+        'Goto app jobs list');
     });
   }
 
@@ -122,7 +122,7 @@
       trackCompanySignup();
       trackNewcomerSignupStart();
       trackNewcomerSignupDone();
-      trackNewcomerRegPopupOpen();
+      trackNewcomerGotoJobsList();
       trackXmasRegPopupOpen();
       trackCompanyRegPopupOpen();
       initTrackOfDOMElements();

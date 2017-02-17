@@ -5,12 +5,6 @@
   };
 
   function initPopups() {
-    // Open newcomer signup popup
-    $('.cd-popup-trigger-newcomer-signup').on('click', function(event){
-      event.preventDefault();
-      openPopup('.cd-popup-newcomer-signup');
-    });
-
     //open signup popup
     $('.cd-popup-trigger-signin').on('click', function(event){
       event.preventDefault();
@@ -27,19 +21,6 @@
     $(document).on('click', '.cd-popup-trigger-job-card', function(event){
       event.preventDefault();
       openPopup('.cd-popup-job-card-popup');
-    });
-
-    //open promo popup
-    $('.cd-popup-trigger-promo').on('click', function(event){
-      event.preventDefault();
-      openPopup('.cd-popup-promo');
-
-      // Remove previously entered promo code when
-      // reopening the popup
-      var hello = document.getElementById("promo-code-input");
-      var hi = document.getElementById("promo-error");
-      hello.value = "";
-      hi.innerHTML = "";
     });
 
     //close popup
