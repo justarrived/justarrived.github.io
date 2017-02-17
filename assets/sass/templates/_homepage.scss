@@ -258,6 +258,23 @@
 	}
 }
 
+.section--tipsfabriken {
+
+	& .wrap {
+		max-width: 700px;
+	}
+	& .contribute-btn {
+		margin-top: 1em;
+	}
+
+	.btn-centered {
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+
 .module--checklist {
 	@include tablet-small {
 		padding-top: 1.5em;
