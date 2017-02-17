@@ -79,12 +79,6 @@ top_banner:
   signup_for_job: Get started
   newcomer_cta: I want a job
 
-promo_code:
-  title: Enter your promo code
-  description: If you've received a promo code, please provide it here.
-  submit: Take me to the app
-  placeholder: Promo code
-
 signup_modal:
   title: Indicate interest
   description: We're currently available in Stockholm, Gothenburg and Malmö. Please fill out the form to register your company's interest to learn more about what we can do for you. Thank you!
