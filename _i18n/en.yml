@@ -465,18 +465,16 @@ newcomer_howto:
 newcomer_howto_section:
   title: How it works
   jobs_cta: See our jobs
+  register_cta: Create an account
   register:
-    title: 1. Register
-    body: '<a href="#" class="cd-popup-trigger-newcomer-signup">Apply</a> or by clicking the "Apply" button. The registration form takes a few minutes to complete and is open for all newcomers and asylum seekers. You will also receive news and updates from Just Arrived after registration. Please note that this is an application, and does not give you automatic access to Just Arrived’s service.'
-  requirements:
-    title: 2. Requirements
-    body: 'When the registration is done you will need to make sure you have all the relevant documents to be able to apply for jobs through Just Arrived’s service. You can update your application at anytime by sending an email to support@justarrived.se.'
-  interview:
-    title: 3. Interview
-    body: 'When you have fulfilled the requirements, the next step is a short interview. When and how you will be contacted for an interview depends on where you live and what kinds of jobs are available in your area.'
-  access:
-    title: 4. Access
-    body: If you pass the interview you will get access to our service. There you can create a profile and apply for all the jobs that are available at Just Arrived.
+    title: 1. Get started
+    body: '<p><a href="{{ site.app_register_link }}">Create your account</a> at Just Arrived. The registration form takes one minute to complete and is open for all newcomers and asylum seekers. You will also receive news and updates from Just Arrived after registration.</p>'
+  profile:
+    title: 2. Profile
+    body: '<p>This is the most important thing to increase your chances of getting any job through Just Arrived!</p><p>Make sure to fill in every relevant piece of information and all your skills. If your profile is empty you won’t be matched with any jobs.</p>'
+  apply:
+    title: 3. Apply for job
+    body: '<p>Now it is time to begin job searching!</p><p>Apply for any and as many jobs you want! Don’t forget to sign in often to see if we have posted any new jobs!</p>'
 
 newcomer_faq_nudge:
   title: Want to learn more?

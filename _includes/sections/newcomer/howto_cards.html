@@ -11,56 +11,47 @@
 
     <div class="columns simple-card-container">
 
-      <div class="column-1-4 equal-height">
+      <div class="column-1-3 equal-height">
         <div class="simple-card flex-grid-twos">
           <div class="large-icon first-col">
             <img src="{{ "/assets/images/icons/how-to-register.png" || prepend: site.github.url }}" alt="">
           </div>
           <div class="card-body second-col">
             <h3 class="card-title">{% t newcomer_howto_section.register.title %}</h3>
-            <p class="card-content">{% t newcomer_howto_section.register.body %}</p>
+            {% t newcomer_howto_section.register.body %}
           </div>
         </div>
       </div>
-      <div class="column-1-4 equal-height">
+      <div class="column-1-3 equal-height">
         <div class="simple-card flex-grid-twos">
           <div class="large-icon first-col">
             <img src="{{ "/assets/images/icons/how-to-requirements.png" || prepend: site.github.url }}" alt="">
           </div>
           <div class="card-body second-col">
-            <h3 class="card-title">{% t newcomer_howto_section.requirements.title %}</h3>
-            <p class="card-content">{% t newcomer_howto_section.requirements.body %}</p>
+            <h3 class="card-title">{% t newcomer_howto_section.profile.title %}</h3>
+            {% t newcomer_howto_section.profile.body %}
           </div>
         </div>
       </div>
-      <div class="column-1-4 equal-height">
+      <div class="column-1-3 equal-height">
         <div class="simple-card flex-grid-twos">
           <div class="large-icon first-col">
             <img src="{{ "/assets/images/icons/how-to-interview.png" || prepend: site.github.url }}" alt="">
           </div>
           <div class="card-body second-col">
-            <h3 class="card-title">{% t newcomer_howto_section.interview.title %}</h3>
-            <p class="card-content">{% t newcomer_howto_section.interview.body %}</p>
+            <h3 class="card-title">{% t newcomer_howto_section.apply.title %}</h3>
+            {% t newcomer_howto_section.apply.body %}
           </div>
         </div>
       </div>
-      <div class="column-1-4 equal-height">
-        <div class="simple-card flex-grid-twos">
-          <div class="large-icon first-col">
-            <img src="{{ "/assets/images/icons/how-to-access.png" || prepend: site.github.url }}" alt="">
-          </div>
-          <div class="card-body second-col">
-            <h3 class="card-title">{% t newcomer_howto_section.access.title %}</h3>
-            <p class="card-content">{% t newcomer_howto_section.access.body %}</p>
-          </div>
-        </div>
-      </div>
-
     </div>
 
     <br><br>
     <p class="module--txt-strong-c">
-      <a href="{{ site.app_jobs_link }}" class="primary-btn btn-large btn-wide module--txt-strong-c js-goto-app-jobs">
+      <a style="margin-top: 10px;" href="{{ site.app_register_link }}" class="border-btn btn-large border-btn--pink btn-wide module--txt-strong-c" data-category="{{ site.analytics.categories.cta }}" data-action="Register in app click">
+        {% t newcomer_howto_section.register_cta %}
+      </a>
+      <a style="margin-top: 10px;" href="{{ site.app_jobs_link }}" class="primary-btn btn-large btn-wide module--txt-strong-c js-goto-app-jobs">
         {% t newcomer_howto_section.jobs_cta %}
       </a>
     </p>
