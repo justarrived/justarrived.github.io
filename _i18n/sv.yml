@@ -377,6 +377,27 @@ faq:
       answer: Efter utfört uppdrag skickas faktura tillsammans med mall för omdöme
         och betyg för tjänsten till företaget. Syftet med betygsättning och omdömet
         är att den nyanlände ska få skapa sig ett levande CV och referenslista i Sverige.
+tipsfabriken:
+  top_banner:
+    title: Tipsa oss
+    subtitle: Dina tips betyder allt för oss. Vi älskar dig.
+    description:
+      first: Att bidra till bättre arbetsklimat kan ske på olika sätt. Ni kanske saknar en möjlighet att anställa. Det förstår vi.
+      second: Varför inte tipsa oss om någon eller några i ditt nätverk som du tror har ett behov? Det kan vara hjälp med vardagliga saker. Allt från flytta kontor till administration, eller annat.
+      third: Uppge ditt namn och din kontakts uppgifter (telefon och email är frivilligt)
+      forth: Vi på Just Arrived är evigt tacksamma.
+  form:
+    title: "Fyll i ditt tips här:"
+    first_name: Förnamn
+    last_name: Efternamn
+    email: Email
+    company: Företag
+    city: Stad
+    feedback: Synpunkt
+  thanks:
+    title: Tack!
+    description: 'Tack för att du tog dig tiden, vi uppskattar din feedback!'
+    back_to_start: Tillbaka till startsidan
 cta_bar:
   company_title: För företag
   company_cta_text: Lär dig hur enkelt det är att anställa genom Just Arrived
