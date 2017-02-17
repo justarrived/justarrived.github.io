@@ -475,7 +475,7 @@ newcomer_howto:
     second: Skapa en profil och börja söka jobb!
 newcomer_howto_section:
   title: Hur funkar det?
-  apply_cta: Ansök
+  jobs_cta: Se våra jobb
   register:
     title: 1. Registrera din ansökan
     body: <a href="#" class="cd-popup-trigger-newcomer-signup">Ansök</a> eller genom

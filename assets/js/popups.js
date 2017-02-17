@@ -5,12 +5,6 @@
   };
 
   function initPopups() {
-    // Open newcomer signup popup
-    $('.cd-popup-trigger-newcomer-signup').on('click', function(event){
-      event.preventDefault();
-      openPopup('.cd-popup-newcomer-signup');
-    });
-
     //open signup popup
     $('.cd-popup-trigger-signin').on('click', function(event){
       event.preventDefault();
