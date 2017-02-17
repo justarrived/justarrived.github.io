@@ -22,6 +22,7 @@ global:
 form:
   submit: ارسال
   email: البريد الالكتروني *
+  company_email: البريد الإلكتروني للشركة
   name: الاسم *
   phone: رقم الهاتف
   company: الشركة
@@ -70,13 +71,8 @@ top_banner:
     الجدد الراغبين في العمل.
   signup_for_job: إبدأ
   newcomer_cta: أريد وظيفة
-promo_code:
-  title: أدخل الرمز الترويجي الخاص بك
-  description: إذا استلمت رمز ترويجي، الرجاء تقديمه هنا.
-  submit: يأخذني إلى تطبيق
-  placeholder: شفرة تخفيض
 signup_modal:
-  title: اظهر اهتمامك
+  title: سجل اهتمامك
   description: نحن متواجدون حاليا في ستوكهولم وغوتنبرغ ومالمو، يرجى ملء استمارة لتسجيل
     شركتك المهتمة لمعرفة المزيد حول ما يمكننا القيام به بالنسبة لك. شكرا!
 be_the_change:
@@ -110,7 +106,7 @@ job_opportunities:
     يساهم في توفير المزيد من المعلومات والمرجعيات التي تساعد الوافد الجديد في الحصول
     على المزيد من فرص العمل. Just Arrived تأخذ على عاتقها مسؤولية الوافد الجديد في
     سوق العمل.
-  emphasis: ' هل أنت من القادمين الجُدد؟ قدم طلبك لكي تتمكن من الإنضمام إلى Just Arrived'
+  emphasis: " هل أنت من القادمين الجُدد؟ قدم طلبك لكي تتمكن من الإنضمام إلى Just Arrived"
   cta: قم بالتسجيل للحصول على عمل
 contribute:
   title: ساهم في المشروع
@@ -138,7 +134,6 @@ join_us:
     fifth: تخصيصات سطح مكتب التطبيق
     sixth: ترجمة التطبيق لالكورمانجية، الداري والباشتو أو التغرينية
 meet_the_team:
-  title: فريق العمل
   description: نحن مجموعة من 150 متطوع الذين قمنا بالعمل في الأمسيات وعطلات نهاية
     الأسبوع منذ مطلع الخريف عام 2015 لجعل Just Arrived حقيقة. ونحن نمثل العديد من
     الاختصاصات والخلفيات والمنظمات، ولكن يتفق الجميع على الهدف الجماعي وهو تسهيل الحصول
@@ -147,32 +142,29 @@ meet_the_team:
     الحالية، انظر الة قسم انضم الينا في الأسفل.
   careers_link_text: وظائف شاغرة
 our_product:
-  title: 'عن التطبيق :'
   description: 'Just Arrived هو تطبيق رقمي يطابق الوافدين الجدد في السويد مع الوظائف
     المحتملة المقدمة من الشركات السويدية. يتم ذلك من خلال واجهة ويب سهلة الاستخدام،
     يمكن الوصول إليها من خلال كافة أنواع الأجهزة ويدعم اللغة والترجمة بشكل واسع. كيفية
     عمل التطبيق كما يلي:'
   feature_list:
-    first: '- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة
-      العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة.'
-    second: '- يمكن للوافد الجديد تسجيل سيرته الذاتية في التطبيق ومن ثم يقوم بالتقديم
-      على الوظيفة.*'
-    third: '- تقوم الشركة السويدية بإختيار المرشح من خلال الإطلاع على سيرتة الذاتية
-      والتقييمات من الوظائف السابقة.'
-    forth: '- تقوم الشركة السويدية والوافد الجديد بالتحقق من أن العمل قد تم وأن الفاتورة
-      قد أرسلت.'
-    fifth: '- يحصل الوافد الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب
-      والتكاليف الإدارية الاخرى)'
+    first: "- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة
+      العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة."
+    second: "- يمكن للوافد الجديد تسجيل سيرته الذاتية في التطبيق ومن ثم يقوم بالتقديم
+      على الوظيفة.*"
+    third: "- تقوم الشركة السويدية بإختيار المرشح من خلال الإطلاع على سيرتة الذاتية
+      والتقييمات من الوظائف السابقة."
+    forth: "- تقوم الشركة السويدية والوافد الجديد بالتحقق من أن العمل قد تم وأن الفاتورة
+      قد أرسلت."
+    fifth: "- يحصل الوافد الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب
+      والتكاليف الإدارية الاخرى)"
     asterix: يتطلب AT-UND، رقم الهوية الشخصية أو رقم التنسيق والحصول على حساب مصرفي
 say_hej:
   title: قل مرحباً
   enquiries: 'للاستفسارات العامة '
 company_form:
   job_form_link_name: هل شركتك مسجلة؟ أعلن عن وظيفة جديدة.
-  title: تسجيل الشركة
   description: عبأ تفاصيل الوظيفة، لنتمكن من نشرها عبر تطبيقنا.
 job_form:
-  title: انشاء وظيفة جديدة
   description: عبأ تفاصيل الوظيفة، لنتمكن من نشرها عبر تطبيقنا.
 register_submit:
   title: شكراً لتسجيلك!
@@ -183,17 +175,30 @@ company_register_submit:
   description: سنتصل بك في أقرب وقت ممكن، سنتحدث قريباً! الرجاء التواصل مع support@justarrived.se
     اذا كان لديك المزيد من الأسئلة.
 job_submit_thanks:
-  title: شكراً لك!
+  title: شكراً جزيلاً
   description: تم ارسال المعلومات الخاصة بك، وسوف تكون قريبا على الانترنت في تطبيقنا.
     يرجى الاتصال على support@justarrived.se إذا كان لديك أي أسئلة.
 about_cookies:
-  title: عن Cookies
+  title: للمزيد عن Cookies الخاصة بنا
   description: باستخدام موقع justarrived.se، فإنك توافق على استخدام Cookies من قبلنا
     وأطراف ثالثة لتعزيز تجربتك. إذا كان لديك أي أسئلة لا تتردد في الاتصال بنا في hej@justarrived.se.
   more_info_link: للمزيد عن Cookies الخاصة بنا
   accept_btn_text: حسناً
 vasbyhem_testimonial:
   first_body: 'Just Arrived يزيل كل العوائق للعمل مع الوافدين الجدد. '
+testimonials:
+  utbudet:
+    first: التوظيف من خلال جست أرايفد كان رائعاً بالنسبة لنا. لقد تواصلنا مع جست أرايفد
+      يوم الخميس وفي يوم الاثنين باشر شخص مختص بالعمل في مكتبنا. الجميع في المكتب
+      اعتقد انه من الجميل ان تفعل شيئاً لمساعدة شخص في المجتمع.
+  mentimeter:
+    first: عملية التوظيف من خلال جست أرايفد أثبتت أنها بسيطة وسريعة. والشخص الذي أدى
+      العمل كان مهذباً ومنفتحاً وفضولياً لتعلم المزيد. لقد حصلنا على فرصة الجلوس سوية
+      والاستمتاع بتذوق الطعام الحلبي ولقاء سويدين جدد مما جعلنا نعكس العالم حولنا
+      ومنحنا أوقات ممتعة سوية.
+    second: 'أكثر ما يميز خدمة جست أرايفد أنها تمكنك من مساعدة الأشخاص وترك أثر إيجابي
+      في المجتمع وفي الوقت نفسه الحصول على الكثير في المقابل. أود أن أشجع الشركات
+      الأخرى على المساهمة. لا أحد يستطيع فعل كل شيئ وإنما كل أحد يستطيع فعل شيئ ما. '
 footer:
   get_started:
     title: إبدأ
@@ -275,6 +280,14 @@ faq:
         تتأثر عبر تقييم فردي عن طريق المعالج الخاص بك في مكتب العمل. في حال وجود فرص
         عمل سوف تحصل على معلومات كافية لتمريرها إلى المعالج الخاص بك للحصول على إجابة
         محددة.
+  company:
+    what_jobs:
+      answer: "في الوقت الحاضر نحن نقدم أنواع مختلفة من الوظائف. للعمل عبر خدماتنا
+        فإنه من الجيد إذا كنت مرناً. الأمر المشترك لجميع وظائفنا هي أنها من طبيعة
+        بسيطة، والتي لا تتطلب أي نوع من التعليم أو الخبرة. معظم فرص العمل لدينا هي
+        في المجالات التالية:\n<br> <br><b>المرافق</b><br> \n<ul>\n<li>أعمال البناء</li>\n<li>الطلاء</li>\n<li>التنظيف</li>\n<li>تجميع
+        الأثاث</li>\n</ul>\n\n<b>الدعم</b>\n<ul>\nإدارة المكاتب \nالإنتاج\nالتصمبم\n</ul>\n\n<b>الفعاليات\n</b>\n<ul>\nالتوزيع\nالتجميع
+        / التركيب\nالإستضافة و التوجيه\n</ul>\n\n<b>الخدمات</b>\n<ul>\nطهي الطعام\nالأطباق\nالتقديم\n</ul>\n\n<b>التجارة</b>\n<ul>\nالمخازن\nالمستودعات\nالجرد\n</ul>"
 cta_bar:
   company_title: للشركات
   company_cta_text: تعلم كم هو من السهل التوظيف عبر Just Arrived
@@ -297,23 +310,20 @@ company_howto:
     second: املأ معلومات شركتك
     third: سوف نتواصل معكم ومعا سنقوم بإنشاء اعلان الوظيفة المخصصة الخاصة بكم.
   second:
-    title: 2. Just Arrived يقوم بالمطابقة.
     first: يتم البدأ بعملية المطابقة.
     second: نقوم بإجراء مقابلات مع المتقدمين المحتملين.
     third: يمكت اختيار اجراء المزيد من المقابلات.
     forth: يمكنك اختيار المتقدم الذي تود أن تيدأ معه.
   third:
-    title: 3. نقوم سوية بالتنفيذ.
     first: المتقدم المختار سيتقوم بالبدأ من التاريخ المحدد.
     second: سيتم ارسال فاتورة حال تنفيذ الوظيفة.
     third: نحن نتولى أمر الراتب، والرسوم الاجتماعية والضرائب والتأمين.
     forth: قم بالتقييم وتوفير ملاحظاتك القيمة للمتقدم.
 companies_why_us:
-  title: هذا هو Just Arrived
   administration: يتم التعامل مع جميع البيروقراطية والإدارة من قبلنا، مما يجعل من
     السهل بالنسبة لك التوظيف.
   responsibility: نحن نأخذ مسؤولية التوظيف عن المتقدمين.
-  validation: ' كافة المتقدين قد مروا من خلال عملية إعداد Just Arrived  لضمان الجودة.'
+  validation: " كافة المتقدين قد مروا من خلال عملية إعداد Just Arrived  لضمان الجودة."
   service: نحن مرنون ونستجيب وعاملون.
 company_what_we_offer:
   title: عروضنا
@@ -341,7 +351,7 @@ company_what_we_offer:
       body: عين شخص يمعدل منخفض يصل الى 149 كرونة سويدية للساعة الواحدة. بدءا  عنما
         لا يقل عن 4 ساعات.
 company_faq_nudge:
-  title: تريد أن تعرف أكثر؟
+  title: تريد معرفة المزيد؟
 company_contact_us:
   title: اتصل بنا
 newcomer_contact_us:
@@ -372,38 +382,25 @@ newcomer_howto:
     second: قم بانشاء ملفك الشخصي وتقدم للوظائف!
 newcomer_howto_section:
   title: كيف تعمل
-  apply_cta: التقدم
+  jobs_cta: 'أنظر الى الوظائف لدينا '
+  register_cta: أنشئ حساباً
   register:
-    title: 1. التسحيل
-    body: <a href="#" class="cd-popup-trigger-newcomer-signup">سجل هنا</a> أو قم بالضغط
-      على زر إبدأ،  يستغرق اكمال استمارة التسجيل بضع دقائق فقط ومفتوح لجميع القادمين
-      الجدد وطالبي اللجوء. سوف تتلقى أيضا الأخبار والتحديثات من Just Arrived بعد التسجيل.
-      يرجى ملاحظة أن هذا مجرد طلب فقط، ولا يمكنك من الوصول التلقائي لخدمات Just Arrived.
-  requirements:
-    title: 2. المتطلبات
-    body: عند اتمام التسجيل ستحتاج للتأكد من أن لديك كل الوثائق ذات الصلة لتكون قادراً
-      على التقديم للوظائف من خلال خدمة Just Arrived. يمكنك تحديث الطلب الخاص بك في
-      أي وقت عن طريق إرسال بريد إلكتروني إلى support@justarrived.se.
-  interview:
-    title: 3. المقابلة
-    body: عند استيفائك لكافة المتطلبات، فإن الخطوة التالية هي مقابلة قصيرة، متى وكيف
-      سيتم الاتصال بك لإجراء المقابلة يعتمد على المكان الذي تعيش فيه وأنواع الوظائف
-      المتاحة في منطقتك.
-  access:
-    title: 4. الوصول للخدمة
-    body: إذا قمت بإجتياز المقابلة سوف تحصل على خدماتنا، هناك يمكنك إنشاء ملف تعريف
-      شخصي والتقدم لجميع الوظائف المتوفرة في Just Arrived.
+    title: 1.إبدأ
+    body: <p><a href="{{ site.app_register_link }}"> أنشئ حسابك </a>في جست أرايفد.
+      اكمال طلب التسجيل يستغرق دقيقة واحدة وهو متاح لجميع القادمين الجدد و طالبي اللجوء.
+      سوف يصلك أيضا أخبار و تحديثات من جست أرايفد بعد التسجيل معنا. </p>
+  profile:
+    title: '2.الملف الشخصي '
+    body: "<p>هذا الشيء الأكثر أهمية لزيادة فرصك في الحصول على عمل من خلال جست أرايفد
+      !</p><p>تأكد من أنك أدخلت جميع المعلومات المطابقة والمهارات التي تمتلكها. إذا
+      كان ملفك الشخصي فارغا لن نتمكن من مطابقتك مع أي وظيفة.</p>"
+  apply:
+    title: '3.تقدم للوظيفة '
+    body: "<p> الآن حان الوقت لتبدأ بالبحث عن عمل!</p><p> تقدم الي اي عمل والى أي
+      عدد ترغب به من الأعمال ! لاتنسى أن تزور الصفحة غالباً لترى إذا كان لدينا وظائف
+      جديدة! </p>"
 newcomer_faq_nudge:
   title: تريد معرفة المزيد؟
-our_customers:
-  title: بدعم من
-newcomer_signup_modal:
-  title: تقدم الى Just Arrived
-  description: 'وهذا التسجيل يستغرق بضع دقائق. والغرض منه أن يوفر لنا  كل المعلومات
-    التي نحتاجها ليتسنى لنا معرفة أفضل السبل لمساعدتك في طريقك الى سوق العمل السويدية.
-    يرجى ملء المعلومات بأفضل ما لديك. ابدأ باختيار واحد مما يلي:'
-  cta_no_reg: أنا طالب لجووء
-  cta_reg: امتلك تصريح اقامة
 hourly_pay_calculator:
   title: حاسبة الدفع بالساعات
   gross_salary: الراتب الإجمالي
@@ -415,6 +412,7 @@ careers:
 job_card_popup:
   title: نحن سعيدون لأنك مهتم بفرص الوظائف لدينا!
   subtitle: لتقرأ المزيد والتقدم لوظيفة أو للإعلان عن وظيفة عليك بأن تكون عضواً.
+  already_member: هل أنت عضو؟
   login_cta: تسجيل الدخول
   looking_for_work_title: هل تبحث عن عمل؟
   looking_for_work_subtitle: تقدم للحصول على حساب عبر تسجيل طلبك أدناه.
@@ -423,14 +421,69 @@ job_card_popup:
   company_title: هل تمثل شركة؟
   company_subtitle: تواصل معنا لمعرفة المزيد حول كيفية الإعلان عن وظيفة.
   company_cta: تواصل معنا
+press:
+  contact:
+    title: إتصال
 xmas:
   form:
     title: سجل اهتمامك
+    first_name: الاسم الصغير
+    last_name: Last name
+    email: بريد إلكتروني
     company: الشركة
+    role: Role
     city: 'مدينة '
+  counter:
+    registrered: " التسحيل"
+  latest_supporters:
+    title: Latest supporters
+  startpage:
+    description: During December we running a xmas campaign where we challenge you
+      to really make a difference.
+    more_info_link: Take me to the campaign page!
+  top_banner:
+    title: Just Arriveds Xmas Campaign
+  company_section:
+    title: Welcome and<br>Happy New Year!
+    body: Thank you for helping us to lower the thresholds for newcomers to enter
+      the Swedish labour market.
+    body1: 'Today Sweden has thousands of newcomers who are driven and motivated to
+      get a foot in the Swedish labour market. The challenges are many but we''re
+      determined to, together with you, make sure that many more get #enfotin.'
+    body2: 'We have at Just Arrived built a service that makes this process trivial.
+      For each company that users the service more newcomers get #enfotin.'
+    body3: 'This is our December-challenge for you - helping newcomers to get #enfotin.'
   how_it_works_section:
     title: كيف تعمل
+    first:
+      title: Registrer
+      body: You provide the name and contact details for you and your company.
+    second:
+      title: Confirmation
+      body: You will get a thank you and your name will appear under the "Latest supporters"
+        section on this page.
+    third:
+      title: We'll be in touch
+      body: 'We will contact you in the beginning of next year, to talk more about
+        how we together can help newcomers get #enfotin.'
+    newcomer_first: "<b>Take a photo</b> - Take a picture of your foot (with shoes
+      on), with your smartphone."
+    newcomer_second: "<b>Post the photo to social media</b> - Write a short text of
+      why you think its important that newcomers get a chance to enter the Swedish
+      labour market. Don't forget to use the hashtag #enfotin!"
+  register_section:
+    campaign_closed: This campaign has been completed.
+    title: What are you waiting for?
+    cta: Register now
   thanks:
     title: شكراً جزيلاً
+    description: 'Thank you for your part in giving newcomers #enfotin to the Swedish
+      labour market. We will be in touch in the beginning of the new year to talk
+      more.'
+    back_to_campaign: Back to the campaign page
   about:
     title: عن Just Arrived
+    body: Just Arrived is a non-profit company and digital service that match newcomers
+      and companies that need help. We provide the validation, matching and take care
+      of all the paperwork so you don't have to administrate anything. Also we take
+      full employer responsibilities.

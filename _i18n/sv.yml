@@ -24,7 +24,7 @@ page_not_found:
   body: Vi gjorde så gott vi kunde, men vi hittade inte den här sidan. Du är varmt
     välkommen att kontakta oss ifall du tror att det är något vi gjort fel, vilket
     vi mycket väl kan ha. Kontakta isåfall oss på  <a href="mailto:hej@justarrived.se">hej@justarrived.se</a>.
-  link_line: Du kan alltid gå till vår <a href="https://justarrived.se/">startsida</a>.
+  link_line: Du kan alltid besöka vår <a href="https://justarrived.se/">startsida</a>.
 form:
   submit: Spara
   email: Email adress
@@ -78,11 +78,6 @@ top_banner:
     uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
   signup_for_job: Kom igång
   newcomer_cta: Jag vill söka jobb
-promo_code:
-  title: Skriv in din promokod
-  description: Om du har fått en promokod, var vänlig skriv den här
-  submit: Ta mig till tjänsten
-  placeholder: Promokod
 signup_modal:
   title: Indikera intresse
   description: Vi är för tillfället tillgängliga i Stockholm, Göteborg och Malmö.
@@ -143,7 +138,7 @@ join_us:
     title: Checklista
     contribution_by: Bidrag av
     first: Bygga landningssida
-    second: Översätta landningssida
+    second: Översätta landingssida
     third: Redovisningsstöd
     forth: Utveckling av säljmaterial
     fifth: Optimera applikationen för datorer
@@ -208,10 +203,19 @@ vasbyhem_testimonial:
   first_body: Just Arrived tar bort alla trösklar för att jobba med nyanlända.
 testimonials:
   utbudet:
-    first: För oss var det otroligt bra att anställa via Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i samhället.
+    first: För oss var det otroligt bra att anställa via Just Arrived. Vi kontaktade
+      Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person
+      som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra
+      att vi kunde hjälpa någon att komma in i samhället.
   mentimeter:
-    first: Att anställa via Just Arrived visade sig vara otroligt enkelt och snabbt. Personen som utförde uppdraget var både artig, nyfiken och öppen. Att få sitta tillsammans och njuta av mat från Aleppo och träffa en nysvensk fick effekten att vi reflekterade om vår omvärld och fick en varm stund tillsammans.
-    second: Det bästa med Just Arriveds tjänst är att man kan hjälpa människor, ha en positiv effekt på samhället samtidigt som man får väldigt mycket tillbaka. Jag vill uppmana andra företag att bara göra något. Ingen kan göra allt, men alla kan göra något.
+    first: Att anställa via Just Arrived visade sig vara otroligt enkelt och snabbt.
+      Personen som utförde uppdraget var både artig, nyfiken och öppen. Att få sitta
+      tillsammans och njuta av mat från Aleppo och träffa en nysvensk fick effekten
+      att vi reflekterade om vår omvärld och fick en varm stund tillsammans.
+    second: Det bästa med Just Arriveds tjänst är att man kan hjälpa människor, ha
+      en positiv effekt på samhället samtidigt som man får väldigt mycket tillbaka.
+      Jag vill uppmana andra företag att bara göra något. Ingen kan göra allt, men
+      alla kan göra något.
 footer:
   get_started:
     title: Kom igång
@@ -496,41 +500,29 @@ newcomer_howto:
     second: Skapa en profil och börja söka jobb!
 newcomer_howto_section:
   title: Hur funkar det?
-  apply_cta: Ansök
+  jobs_cta: Kolla in våra jobb
+  register_cta: Skapa ett konto
   register:
-    title: 1. Registrera din ansökan
-    body: <a href="#" class="cd-popup-trigger-newcomer-signup">Ansök</a> eller genom
-      att klicka på knappen "Ansök". Registreringsformuläret tar några minuter och
-      är öppet för alla nyanlända och asylsökande. Du kommer också få nyheter och
-      uppdateringar från Just Arrived efter registrering. Var vänlig notera att detta
-      är en ansökan, och ger dig inte automatiskt tillgång till Just Arrived's tjänst.
-  requirements:
-    title: 2. Förbered dina handlingar
-    body: Efter att du har registrerat dig behöver du se till att du har alla relevanta
-      handlingar för att kunna söka jobb via Just Arrived. Om du behöver uppdatera
-      din ansökan gör du det enklast genom att maila till support@justarrived.se.
-  interview:
-    title: 3. Gå på intervju
-    body: När du uppnått förutsättningarna för att söka jobb är nästa steg att bli
-      kallad till en intervju. När och hur du blir kontaktad beror på vilken stad
-      du bor i samt hur många och vilka typer av jobb som är tillgängliga i ditt område.
-  access:
-    title: 4. Tillgång till tjänsten
-    body: Om du går vidare från intervjun får du därefter tillgång till tjänsten.
-      Du kan då logga in här på sidan, skapa en profil och söka alla våra tillgängliga
-      jobb.
+    title: 1. Kom igång
+    body: <p><a href="{{ site.app_register_link }}">Skapa ditt konto</a> på Just Arrived.
+      Registreringen tar en minut att göra färdigt och kan göras av alla nyanlända
+      och asylsökande. Efter registreringen kommer du också få nyheter och uppdateringar
+      från Just Arrived.</p>
+  profile:
+    title: 2. Profil
+    body: "<p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
+      via Just Arrived!</p><p>Se till att du fyller i all relevant information och
+      alla dina olika kompetenser. Om din profil är tom så kommer du inte matchas
+      med några jobb.</p>"
+  apply:
+    title: 3. Sök jobb
+    body: "<p>Nu är det dags att börja söka jobb!</p><p>Sök till varje, och alla jobb
+      du vill ha. Glöm inte att logga in ofta för att se om vi har lagt upp några
+      nya jobb!</p>"
 newcomer_faq_nudge:
   title: Vill du veta mer?
 our_customers:
   title: Utvalda kunder
-newcomer_signup_modal:
-  title: Ansök till Just Arrived
-  description: 'Registreringen kommer ta några minter. Syfter är att ge oss all den
-    information vi behöver för att bäst kunna hjälpa dig in i den svenska arbetsmarknaden.
-    Var god fyll i all information så gott du kan. Börja med att välja ett av följande
-    alternativ:'
-  cta_no_reg: Jag är asylsökande
-  cta_reg: Jag har uppehållstillstånd
 hourly_pay_calculator:
   title: Beräkna timlön
   gross_salary: bruttolön
@@ -616,9 +608,8 @@ xmas:
       om varför du tycker att det är viktigt att nyanlända får en fot in på arbetsmarknaden.
       Glöm ej tagga med #enfotin!"
   register_section:
-    title: Vad väntar du på?
-    clarify: 'Du förbinder dig inte till något, utan visar för allmänheten att ni är redo att ta ett samtal med oss om hur vi tillsammans kan hjälpa fler nyanlända få #enfotin.'
     campaign_closed: Den här kampanjen är avslutad.
+    title: Vad väntar du på?
     cta: Registrera dig nu
   thanks:
     title: Tack!
