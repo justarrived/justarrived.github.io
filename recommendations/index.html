@@ -27,7 +27,7 @@
 
 	<meta name="description" content="">
 	
-	<link rel="canonical" href="https://justarrived.se/about-us/">
+	<link rel="canonical" href="https://justarrived.se/recommendations/">
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -131,13 +131,13 @@
   
   
 
-  <a href="/about-us/" data-action="click" data-action-label="Language switch (sv)" category="Language">
+  <a href="/recommendations/" data-action="click" data-action-label="Language switch (sv)" category="Language">
     <span class="lang-sv ">Svenska</span>
   </a>
-  <a href="/en/about-us/" data-action="click" data-action-label="Language switch (en)" category="Language">
+  <a href="/en/recommendations/" data-action="click" data-action-label="Language switch (en)" category="Language">
     <span class="lang-en inactive">English</span>
   </a>
-  <a href="/ar/about-us/" data-action="click" data-action-label="Language switch (ar)" category="Language">
+  <a href="/ar/recommendations/" data-action="click" data-action-label="Language switch (ar)" category="Language">
     <span class="lang-ar inactive">العربية</span>
   </a>
   <div class="pulsate-element"></div>
@@ -210,342 +210,53 @@
 </nav>
 
 
-    <div class="about-us">
-  <div id="content">
     <section class="
-  module
-  module--padding-half
-  module--black
-  module--txt-c">
-  <h2 class="bordered bordered--primary bordered--centered">Vårt team</h2>
-</section>
-
-<section class="
-  section--meet-team
+  section--hero
+  section--hero-flat
   module
   module--padding
   module--white
-  module--bg-cover" style="background-image: url(/assets/images/bgs/team.jpg)">
-</section>
-
-<section class="
-  module--meet-team-text
-  module--padding
-  module--black">
-  <div class="wrap">
-    <div class="
-    module-content
-    module-content--centered
-    module--txt-c
-    ">
-      <div class="module--txt-l">
-        <p>Vi är en grupp av 150 volontärer som har jobbat kvällar och helger sedan 2015 för att göra Just Arrived möjligt. Vi representerar en mängd kompetenser, bakgrunder och organisationer, men alla delar det gemensamma målet att göra det lättare för nyanlända att få ett jobb och chansen att integreras i det svenska samhället. Vi letar alltid efter fler passionerade individer, oavsett ifall de representerar sig själva eller en organisation. För nuvarande behov, se sektionen Gå med nedan.</p>
-        <!-- Uncomment the below if we currently have open positions -->
-        <!-- <p class="module--txt-c">
-          <br>
-          <a href="/careers/" class="primary-btn btn-large">Vi söker medarbetare</a>
-        </p> -->
+  module--bg-cover
+  module--bg-pink">
+  <div class="table">
+    <div class="table-cell">
+      <div class="wrap">
+        <div class="module-content">
+          <h1>Tipsa oss</h1>
+          <p>Att bidra till bättre arbetsklimat kan ske på olika sätt. Ni kanske saknar en möjlighet att anställa. Det förstår vi.</p>
+          <p>Varför inte tipsa oss om någon eller några i ditt nätverk som du tror har ett behov? Det kan vara hjälp med vardagliga saker. Allt från flytta kontor till administration, eller annat.</p>
+          <p>Uppge ditt namn och din kontakts uppgifter (telefon och email är frivilligt)</p>
+          <p>Vi på Just Arrived är evigt tacksamma.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-    <section class="
-  section--joinus
+<section class="
+  section--tipsfabriken
   module
   module--white-bg
   module--padding
   module--black">
   <div class="wrap">
-    <div class="module-content module-content--left">
-      <h2 class="bordered bordered--secondary bordered--left">Gå med oss</h2>
-      <p>Just Arrived är drivet av ett team av frivilliga som vill göra skillnad. Om du tror att du på något sätt kan hjälpa till, registrera ditt intresse nedan.</p>
-      <p>Vi letar just nu efter programmerare (AngularJs, Ruby on Rails), översättare och sponsorer. Om du är utvecklare, får du jättegärna bidra till våra GitHub repon.</p>
-    </div>
+    <div class="form module-content">
+      <h3>Fyll i ditt tips här:</h3>
+      <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        <input type=hidden name="oid" value="00D58000000cNvl">
+        <input type=hidden name="retURL" value="http://justarrived.se/thanks/recommendations">
+        <label for="first_name">Förnamn</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+        <label for="last_name">Efternamn</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+        <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+        <label for="city">Stad</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+        <label for="company">Företag</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-    <div class="module--checklist module-content module-content--right">
-      <h4>Checklista</h4>
-      <ul class="checklist">
-        <li class="complete">Bygga landningssida</li>
-        <li class="complete">Översätta landingssida</li>
-        <li class="complete">Redovisningsstöd</li>
-        <li class="complete">Utveckling av säljmaterial</li>
-        <li class="incomplete">Optimera applikationen för datorer</li>
-        <li class="incomplete">Översätta applikationen till kurmanki, dari, pashto och tigrinya</li>
-      </ul>
-    </div>
-    <div class="module-content module-content--left">
-      <p>
-        <a href="mailto:hej@justarrived.se" class="contribute-btn border-btn border-btn--blue btn-large">Kontakta oss</a>
-      </p>
+        <input class="btn-centered primary-btn btn-large" type="submit" name="submit" id="lead_source" name="lead_source" value="Tips">
+      </form>
     </div>
   </div>
 </section>
 
-    <section class="
-  section--mailinglist
-  module
-  module--padding
-  module--white
-  module--secondary-bg">
-  <div class="wrap">
-    <div class="
-    module-content
-    module-content--centered
-    module--txt-c
-    ">
-      <h2 class="bordered bordered--white bordered--centered">Bidra till Just Arrived</h2>
-      <p>
-        <a href="mailto:hej@justarrived.se" class="contribute-btn border-btn btn-large border-btn--white border-btn--white-blue">Jag vill bidra</a>
-      </p>
-    </div>
-  </div>
-</section>
-
-    <section class="
-  section--say-hej
-  module
-  module--txt-c
-  module--padding
-  module--white
-  module--black-bg">
-  <div class="wrap">
-    <div class="module-content">
-      <h2 class="bordered bordered--secondary bordered--centered">Säg Hej</h2>
-
-      <div class="columns columns--inline" dir="ltr">
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic profile-pic--no-border" src="/assets/images/profile-pictures/general.png">
-          <p>
-            <strong>Generella frågor</strong>
-            <br>
-            <a class="txt-link" href="mailto:hej@justarrived.se">hej@justarrived.se</a>
-            <br>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic" src="/assets/images/profile-pictures/andreas_konig.jpg">
-          <p>
-            <strong>Andreas König</strong>
-            <br> CEO
-            <br>
-            <a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46733868656">+46 73 386 86 56</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic" src="/assets/images/profile-pictures/jacob_burenstam.jpg">
-          <p>
-            <strong>Jacob Burenstam</strong>
-            <br> CTO
-            <br>
-            <a class="txt-link" href="mailto:jacob@justarrived.se">jacob@justarrived.se</a>
-            <br>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic" src="/assets/images/profile-pictures/per_clingweld.jpg">
-          <p>
-            <strong>Per Clingweld</strong>
-            <br> CMO
-            <br>
-            <a class="txt-link" href="mailto:per@justarrived.se">per.clingweld@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46723019191">+46 72 301 91 91</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic" src="/assets/images/profile-pictures/yazan_al_rayyes.jpg">
-          <p>
-            <strong>Yazan Al Rayyes</strong>
-            <br> Business Development Manager
-            <br>
-            <a class="txt-link" href="mailto:yazan.alrayyes@justarrived.se">yazan.alrayyes@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46768002780">+46 76 800 27 80</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic" src="/assets/images/profile-pictures/anna_hornmark.jpg">
-          <p>
-            <strong>Anna Hörnmark</strong>
-            <br> Operations Manager
-            <br>
-            <a class="txt-link" href="mailto:anna.hornmark@justarrived.se">anna.hornmark@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46768025997">+46 76 802 59 97</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/lova_westlund.jpg">
-          <p>
-            <strong>Lova Westlund</strong>
-            <br> Operations Manager
-            <br>
-            <a class="txt-link" href="mailto:lova.westlund@justarrived.se">lova.westlund@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="#">+46 79 538 33 86</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/neven_jugo.jpg">
-          <p>
-            <strong>Neven Jugo</strong>
-            <br> Head of Sales
-            <br>
-            <a class="txt-link" href="mailto:neven.jugo@justarrived.se">neven.jugo@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46709329962">+46 70 932 99 62</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/per_strangberg.jpg">
-          <p>
-            <strong>Per Strängberg</strong>
-            <br> Customer Success Manager
-            <br>
-            <a class="txt-link" href="mailto:per.strangberg@justarrived.se">per.strangberg@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46734348359">+46 73 434 83 59</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/salam_alhennawi.jpg">
-          <p class="hack--salam-name">
-            <strong>Salam Alhennawi</strong>
-            <br> Financial Administrator
-            <br>
-            <a class="txt-link" href="mailto:salam.alhennawi@justarrived.se">salam.alhennawi@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="#">+46 73 632 72 06</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/tobias_tikka.jpg">
-          <p>
-            <strong>Tobias Tikka</strong>
-            <br> Product Owner
-            <br>
-            <a class="txt-link" href="mailto:tobias.tikka@justarrived.se">tobias.tikka@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="#">+46 70 629 79 31</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/henrik_tengberg.jpg">
-          <p>
-            <strong>Henrik Tengberg</strong>
-            <br> Business Developer
-            <br>
-            <a class="txt-link" href="mailto:henrik.tengberg@justarrived.se">henrik.tengberg@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="#">+46 73 546 64 90</a>
-          </p>
-        </div>
-        <div class="column-1-3 profile-card">
-          <img class="profile-pic filter--black-and-white" src="/assets/images/profile-pictures/andrew_alhawari.jpg">
-          <p>
-            <strong>Andrew Alhawari</strong>
-            <br> Graphic Designer
-            <br>
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-    <section class="
-  section--companies
-  module
-  module--white-bg
-  module--padding
-  module--black">
-  <div class="wrap">
-    <div class="
-    module-content
-    module--txt-c
-    ">
-      <h2 class="bordered bordered--primary bordered--centered">Partners och hjältar</h2>
-      <div class="companies">
-        <div class="company">
-          <img src="/assets/images/logos/antrop.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/hallvarsson.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/janssonnorin.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/frilansfinans.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/universum.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/nova.png">
-        </div>
-      </div>
-      <h4><br>Yuliya Bilinskaya, Carolin He, Mattias Bengtsson</h4>
-
-      
-    </div>
-  </div>
-</section>
-
-    <section class="
-  section--companies
-  module
-  module--padding
-  module--black">
-  <div class="wrap">
-    <div class="
-    module-content
-    module--txt-c
-    ">
-      <h2 class="bordered bordered--secondary bordered--centered">Bidrag från</h2>
-      <div class="companies">
-        <div class="company">
-          <img src="/assets/images/logos/semantix.png">
-        </div>
-        <div class="company company--eins" style="position: relative; top: -7px">
-          <img src="/assets/images/logos/eins.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/sparta.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/migrationsverket.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/hero.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/rodakorset.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/skrivbyra.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/wintrgarden.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/skeppsbron.png">
-        </div>
-        <div class="company">
-          <img src="/assets/images/logos/frontify.png">
-        </div>
-      </div>
-      <h4>Caroline Olsson, Elena Rahimova, Olle Norgren</h4>
-    </div>
-  </div>
-</section>
-
-  </div>
-</div>
 
 
     <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
