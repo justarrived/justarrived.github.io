@@ -395,9 +395,8 @@ tipsfabriken:
     first_name: Förnamn
     last_name: Efternamn
     email: Email
-    company: Företag
     city: Stad
-    feedback: Synpunkt
+    company: Företag
   thanks:
     title: Tack!
     description: 'Tack för att du tog dig tiden, vi uppskattar din feedback!'
