@@ -70,10 +70,10 @@
     var company = getCompanyName(includedData, companyId);
     var category = getCategoryName(includedData, categoryId);
     var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
-    var grossSalary = Math.round(hourlyPay['gross-salary']);
+    var grossSalary = hourlyPay['gross-salary-with-unit'];
 
     var hours = jobAtrs.hours;
-    var amount = hours * grossSalary;
+    var amount = jobAtrs['gross-amount-delimited'];
     var maxDescriptionLength = 100;
     var shortDesc = jobAtrs['translated-text']['short-description'] || jobAtrs['short-description'];
     var description = shortDesc || (jobAtrs['translated-text']['description'] || jobAtrs['description']);
