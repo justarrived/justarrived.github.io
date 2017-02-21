@@ -395,6 +395,27 @@ company_howto:
     third: We take care of salary, social fees, taxes and insurance.
     forth: Rate and provide valuable feedback to the candidate.
 
+tipsfabriken:
+  top_banner:
+    title: Recommend someone
+    subtitle: Your recommendations mean the world to us.
+    description:
+      first: To contribute to better work place can be done in many different ways. You may miss an opportunity to hire. That we understand.
+      second: Why not recommend us someone in your network that you think need some extra help? It can be ordinary things. From help moving offices to administration, or somethinf else.
+      third: Give your name and your contact details (phone and email are optional)
+      forth: We at Just Arrived are forever grateful.
+  form:
+    title: "Send your recommendation:"
+    first_name: First name
+    last_name: Last name
+    email: Email
+    city: City
+    company: Company
+  thanks:
+    title: Thanks!
+    description: 'Thank you for taking the time, we really appreciate it!'
+    back_to_start: Back to start page
+
 companies_why_us:
   title: This is Just Arrived
   administration: All bureaucracy and adminstration is handled by us, making it simple for you to hire.
