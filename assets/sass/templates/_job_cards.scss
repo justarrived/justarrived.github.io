@@ -113,6 +113,8 @@ $job-card-padding: 15px;
         font-size: 24px;
       }
       .details {
+        .left { float: left; }
+        .right { float: right; }
         font-weight: bold;
         text-transform: uppercase;
         font-size: 12px;
