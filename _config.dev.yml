@@ -1,0 +1,3 @@
+default_language: "en"
+# I18n plugin: jekyll-multiple-languages-plugin
+languages: ["en"]

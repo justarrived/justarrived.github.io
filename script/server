@@ -6,4 +6,4 @@ cd "$(dirname "$0")/.."
 
 script/bootstrap
 
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --config=_config.yml,_config.dev.yml --watch

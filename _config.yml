@@ -117,6 +117,9 @@ authors:
     display_name: Salam Al Hennawi
     email: salam.alhennawi@justarrived.se
     profile_pic: /assets/images/blog/salam-al-hennawi.jpg
+  abed:
+    display_name: Abed Qaisi
+    profile_pic: /assets/images/blog/abed-qaisi.jpg
   strangberg:
     display_name: Per Strängberg
     email: per.strangberg@justarrived.se
