@@ -7,7 +7,7 @@ list_cover: norrsken-house-facade.jpg
 og_image: /assets/images/blog/norrsken-house-facade.jpg
 ---
 
-Som vi väntat! På måndag tar vi vårt pick och pack och promenerar bort till vårt nya hem [Norrsken House](http://www.norrskenfoundation.org/norrskenhouse/) som slår upp dörrarna för första gången. I och med detta tackar vi [Universum Group](http://universumglobal.com) för att vi fått sitta i 6 månader på ert inspirerande kontor på Jakobsbergsgatan 22 i Stockholms absoluta mittpunkt. Tack för alla hejarop, kaffestunder och härliga kalas - och inte minst för att ni varit så bra ambassadörer för vår verksamhet!
+Som vi väntat! På måndag tar vi vårt pick och pack och promenerar bort till vårt nya hem [Norrsken House](https://www.norrskenfoundation.org/#norrskenhouse) som slår upp dörrarna för första gången. I och med detta tackar vi [Universum Group](http://universumglobal.com) för att vi fått sitta i 6 månader på ert inspirerande kontor på Jakobsbergsgatan 22 i Stockholms absoluta mittpunkt. Tack för alla hejarop, kaffestunder och härliga kalas - och inte minst för att ni varit så bra ambassadörer för vår verksamhet!
 
 
 ![Norrsken House](/assets/images/blog/norrsken-house-facade.jpg)
