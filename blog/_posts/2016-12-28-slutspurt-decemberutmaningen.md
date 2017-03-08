@@ -26,3 +26,6 @@ Gör så här:
 [Se kampanjen](https://justarrived.se/decemberutmaningen).
 
 [![Slutspurt Decemberutmaningen]({{ "/assets/images/blog/slutspurten-enfotin.png" | prepend: site.github.url }})](https://justarrived.se/decemberutmaningen)
+
+
+{% include blog/post_footer.html %}

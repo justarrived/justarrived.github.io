@@ -37,3 +37,5 @@ The solution was to add (we use SASS):
 You can read more about `unicode-bidi` [over at w3schools](http://www.w3schools.com/cssref/pr_text_unicode-bidi.asp).
 
 Just one of those things that you usually don't have to think about when building websites and applications. This is just one example of what unique challenges we at Just Arrived face on a day to day basis.
+
+{% include blog/post_footer.html %}

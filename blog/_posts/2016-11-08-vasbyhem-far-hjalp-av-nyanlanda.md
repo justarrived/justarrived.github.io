@@ -23,3 +23,5 @@ Den första att bli erbjuden jobbuppdrag hos Väsbyhem under sommaren var Zaher,
 – Fokus på integration och att få fler personer i arbete har hög prioritet i Upplands Väsby kommun. Därför är det glädjande att Väsbyhem i samarbete med den ideella organisationen Just Arrived kliver fram ytterligare och tar ett ännu större ansvar än tidigare, säger Mathias Bohman (S) kommunstyrelsens ordförande.
 
 [Läs orginalet på SABO.](http://www.sabo.se/aktuellt/nyheter_m/2016/nov/Sidor/Vasbyhem-hjalper-och-far-hjalp-av-nyanlanda.aspx)
+
+{% include blog/post_footer.html %}

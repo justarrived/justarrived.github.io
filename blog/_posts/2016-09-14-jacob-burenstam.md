@@ -20,3 +20,5 @@ My very first software project, outside of school, was for a charity a friend of
 We’re constantly looking for passionate and driven contributors, so if you want to contribute don’t hesitate to reach out to us!
 
 ![Jacob Burenstam]({{ "/assets/images/blog/jacob-burenstam.jpg" | prepend: site.github.url }})
+
+{% include blog/post_footer.html %}

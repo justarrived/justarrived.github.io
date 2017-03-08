@@ -46,3 +46,7 @@ När han är klar med SFI och komvux är den nya drömmen att läsa till sociono
 ---
 
 Den här artikeln postades ursprungligen på stockholmdirekt.se och [här kan du läsa orginal artikeln](http://www.stockholmdirekt.se/nyheter/jag-ar-med-och-bygger-samhallet/repdpnpls!1rOV9ve@zTt29u1FgbyBCg/) skriven av Charlotte Årling.
+
+---
+
+{% include blog/post_footer.html %}

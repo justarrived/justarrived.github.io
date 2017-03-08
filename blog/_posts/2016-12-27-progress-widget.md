@@ -74,3 +74,5 @@ new ProgressWidget({
 Making it really easy to create a new progress widget. Both the background, fill and text colors are configurable.
 
 Here is the [PR @ GitHub](https://github.com/justarrived/justarrived.github.io/pull/156).
+
+{% include blog/post_footer.html %}

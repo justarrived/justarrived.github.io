@@ -45,3 +45,5 @@ __Tablet__
 ![Tablet screenshot Arabic]({{ "/assets/images/blog/1x3x3x3/tablet-ar.png" | prepend: site.github.url }})
 
 Thank you Ahmed and Emma! A real pleasure to work with you :)
+
+{% include blog/post_footer.html %}
