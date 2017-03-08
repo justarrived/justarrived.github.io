@@ -1,3 +1,50 @@
+.section--hero.section--hero-v2 {
+  min-height: 450px;
+
+  h1 {
+    font-size: 24px;
+    max-width: 700px;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+  }
+  p {
+    padding: 5px;
+    font-size: 14px;
+    max-width: 700px;
+    text-align: left;
+  }
+
+  .bottom-section {
+    margin-top: 8em;
+
+    @include tablet {
+      margin-top: 8em;
+    }
+
+    @include tablet-small {
+      margin-top: 16em;
+    }
+  }
+
+  .tag-line {
+    float: left;
+    margin-left: 8%;
+  }
+
+  .action-buttons {
+    float: right;
+    margin-right: 8%;
+  }
+
+  // Extend .action-cta
+  .action-cta {
+    margin-top: 4.4em;
+    margin-right: 2em;
+  }
+}
+
+// v1
 .section--hero {
 	text-align: center;
 	background-position: left center;
@@ -590,4 +637,36 @@
 	    position: relative;
 	    top: 2px;
 	}
+}
+
+// Action links
+.action-cta {
+  margin-right: 5px;
+  text-align: left;
+  display: inline-block;
+
+  .action-icon {
+    display: inline-block;
+    width: 34px;
+    margin-top: 12px;
+    vertical-align: top;
+  }
+
+  .action-link {
+    display: inline-block;
+    width: 113px;
+
+    .title {
+      font-size: 22px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      margin-top: -5px;
+    }
+  }
 }

@@ -6,64 +6,10 @@ description: We give newcomers in Sweden a chance to enter the labor market
 
 <div class="home">
   <div id="content">
-    {% include sections/top_banner.html %}
-    <!-- {% include sections/in_the_press.html %} -->
-    {% include sections/cta_bar.html %}
+    {% include sections/top_banner_v2.html %}
     {% capture job_cards_title %}{% t global.example_jobs %}{% endcapture %}
     {% include sections/job_cards.html title=job_cards_title %}
-
-    {% capture quote_body %}{% t vasbyhem_testimonial.first_body %}{% endcapture %}
-    {%
-      include sections/testimonial.html
-      background="blue"
-      author="Sara Brandt, Väsbyhem"
-      profile_image_class="sara-brandt"
-      body=quote_body
-    %}
-
-    {% capture quote_body %}{% t testimonials.utbudet.first %}{% endcapture %}
-    {%
-      include sections/testimonial.html
-      background="white"
-      author="Fredrik Skytt, VD, Utbudet"
-      profile_image_class="fredrik-skytt"
-      body=quote_body
-    %}
-
-    {% capture quote_body %}{% t testimonials.mentimeter.first %}{% endcapture %}
-    {%
-      include sections/testimonial.html
-      background="blue"
-      author="Johnny Warström, VD, Mentimeter"
-      profile_image_class="johnny-warstrom"
-      body=quote_body
-    %}
-
-    <!-- <section class="
-      module
-      module--padding
-      module--white
-      module--secondary-bg">
-      <div class="wrap">
-        <div class="
-        module-content
-        module-content--centered
-        module--txt-c
-        ">
-          <h2 class="bordered bordered--white">{% t company_faq_nudge.title %}</h2>
-          <p>
-            <a href="/company/" class="border-btn btn-large border-btn--white border-btn--white-blue">
-              {% t global.more_company_info %}
-            </a>
-            <a href="#" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
-              {% t global.contact_us %}
-            </a>
-          </p>
-        </div>
-      </div>
-    </section> -->
-
-    {% include sections/companies_engage.html %}
-    {% include sections/partners.html with_cta="true" %}
+    {% include sections/home_how_we_match.html %}
+    {% include sections/home_newcomer_register.html %}
   </div>
 </div>

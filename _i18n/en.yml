@@ -68,8 +68,8 @@ nav:
   promo_code_signin: Sign in with promo code
   about_us: About us
   login: Login
-  companies: For companies
-  newcomers: For newcomers
+  companies: Companies
+  newcomers: Newcomers
   blog: Blog
   faq: FAQ
 
@@ -81,6 +81,13 @@ top_banner:
   subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
   signup_for_job: Get started
   newcomer_cta: I want a job
+
+tob_banner_v2:
+  tag_line: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
+  tag_line_description: "
+    Vi sammanför nyanlända med svenska företag som behöver hjälp med dagliga aktiviter.
+    Vår digitala plattform gör det enkelt för företag att lägga upp enkla uppdrag och tjänster
+    som sedan matchas med nyanlända som söker jobb."
 
 signup_modal:
   title: Indicate interest
