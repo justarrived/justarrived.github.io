@@ -23,3 +23,5 @@ I could go on about forever why Just Arrived is important and brilliant, but som
 I think Just Arrived is of the most interesting initiatives on this topic right now and I’m extremely proud to have contributed even just a tiny bit to making Just Arrived into what it is all about – to give newcomers in Sweden a chance to enter the labor market.
 
 ![Sofi Fridland]({{ "/assets/images/blog/sofi-fridland.jpg" | prepend: site.github.url }})
+
+{% include blog/post_footer.html %}

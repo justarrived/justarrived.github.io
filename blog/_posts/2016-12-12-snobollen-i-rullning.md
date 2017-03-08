@@ -14,3 +14,5 @@ I Sverige finns det just nu över 1 088 310 företag - utmana något av dem du o
 För att delta i Decemberutmaningen tar du på enklaste sätt en bild på din fot med sko på och skickar till oss här på Facebook eller till [hej@justarrived.se](mailto:hej@justarrived.se). Du får efter en stund tillbaka en redigerad bild med instruktioner om hur du utmanar.
 
 [![Decemberutmaningen]({{ "/assets/images/blog/enfotin-square.png" | prepend: site.github.url }})](https://justarrived.se/decemberutmaningen)
+
+{% include blog/post_footer.html %}

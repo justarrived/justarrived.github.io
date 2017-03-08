@@ -16,3 +16,5 @@ The last ten years I’ve been working around the world with two main projects: 
 To me it’s very important to work with something meaningful, something I truly believe in, and this is really the case with Just Arrived. To get the opportunity to work for something you think is important, developing and groundbreaking while doing good things for others is just spot on, and one of the privileges of working here. I also love all the positive energy and the great spirit I see in this work, in meetings with companies and entrepreneurs as well as in our newcomers but also among politicians, partners and colleagues. I believe Just Arrived has just set sail on an amazing journey and I’m very happy to be a part of it.
 
 ![Per Strängberg]({{ "/assets/images/blog/per-strangberg.jpg" | prepend: site.github.url }})
+
+{% include blog/post_footer.html %}

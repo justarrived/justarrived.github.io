@@ -59,3 +59,5 @@ _Frågor eller funderingar?_
 _Läs vår FAQ eller kontakta vår VD Andreas König, [andreas@justarrived.se](mailto:andreas@justarrived.se)._
 
 <video width="100%" controls src="/assets/videos/enfotin-launch.mp4"></video>
+
+{% include blog/post_footer.html %}

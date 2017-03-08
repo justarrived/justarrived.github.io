@@ -16,3 +16,5 @@ In September 2015 I started looking into the viability of the idea that eventual
 There are several reasons why I decided to invest the early days of my career in Just Arrived. 1) I get to work with real issues and make a tangible impact. 2) I get to work with new technological solutions. 3) I get to be part of developing the platform economy. Hope it all makes sense to you as much as it does to me!
 
 ![Andreas König]({{ "/assets/images/blog/andreas-konig.jpg" | prepend: site.github.url }})
+
+{% include blog/post_footer.html %}
