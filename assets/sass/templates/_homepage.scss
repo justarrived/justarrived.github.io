@@ -1,9 +1,13 @@
-.section--hero.section--hero-v2 {
-  min-height: 450px;
+.section--hero-v2 {
+  height: calc(100vh - 62px);
+  height: 600px;
+  background-image:    url("/assets/images/v2/top-banner-bg.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 
   h1 {
     font-size: 24px;
-    max-width: 700px;
     text-align: left;
     margin: 0;
     padding: 5px;
@@ -11,36 +15,62 @@
   p {
     padding: 5px;
     font-size: 14px;
-    max-width: 700px;
     text-align: left;
   }
 
   .bottom-section {
-    margin-top: 8em;
-
-    @include tablet {
-      margin-top: 8em;
-    }
-
-    @include tablet-small {
-      margin-top: 16em;
-    }
+    width: 50%;
   }
 
   .tag-line {
-    float: left;
-    margin-left: 8%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 6%;
   }
 
   .action-buttons {
-    float: right;
-    margin-right: 8%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
   }
 
-  // Extend .action-cta
-  .action-cta {
-    margin-top: 4.4em;
-    margin-right: 2em;
+  @media (max-width: 1000px) {
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin: 0;
+      padding-top: 30%;
+    }
+    p {
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .tag-line {
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .bottom-section {
+      width: 100%;
+    }
+
+    .action-buttons {
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      text-align: right;
+      padding: 0;
+    }
   }
 }
 
@@ -641,32 +671,31 @@
 
 // Action links
 .action-cta {
-  margin-right: 5px;
-  text-align: left;
+  text-align: center;
   display: inline-block;
+  padding-bottom: 6%;
+  width: 49%;
 
   .action-icon {
     display: inline-block;
-    width: 34px;
     margin-top: 12px;
     vertical-align: top;
   }
 
   .action-link {
+    padding-left: 20px;
     display: inline-block;
-    width: 113px;
 
     .title {
-      font-size: 22px;
+      font-size: 26px;
       margin: 0;
       padding: 0;
     }
 
     .subtitle {
-      font-size: 14px;
+      font-size: 18px;
       margin: 0;
       padding: 0;
-      margin-top: -5px;
     }
   }
 }
