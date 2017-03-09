@@ -1,5 +1,5 @@
 (function(window) {
-  var numberOfJobs = 4;
+  var numberOfJobs = 3;
   var path = '/jobs?include=company,category,hourly-pay'
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
   // var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
@@ -78,7 +78,7 @@
     var shortDesc = jobAtrs['translated-text']['short-description'] || jobAtrs['short-description'];
     var description = shortDesc || (jobAtrs['translated-text']['description'] || jobAtrs['description']);
     var name = jobAtrs['translated-text'].name || jobAtrs.name;
-    // description = truncate(description, maxDescriptionLength);
+    description = truncate(description, maxDescriptionLength);
 
     innerHTML = formatTemplate(template, '%job_company%', company.name);
     innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
@@ -88,6 +88,12 @@
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
     innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', grossSalary);
     return formatTemplate(innerHTML, '%job_description%', description);
+  }
+
+  function truncate(text) {
+    var truncationLength = 90;
+    var truncatedText = text.substring(0, truncationLength) + '...';
+    return truncatedText;
   }
 
   function createCards(targetSelector, templateSelector) {
