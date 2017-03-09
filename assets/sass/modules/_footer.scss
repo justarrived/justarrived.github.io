@@ -102,6 +102,10 @@
       padding: 0 0.5em;
     }
 
+    @media(max-width: 600px) {
+      text-align: center;
+    }
+
     .fa {
       font-size: 1.8em;
     }
