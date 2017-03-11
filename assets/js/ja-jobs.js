@@ -62,6 +62,7 @@
   function formatJobTemplate(template, jobData, includedData) {
     var innerHTML = '';
     var jobAtrs = jobData.attributes;
+    var jobID = jobData.id;
 
     var companyId = relationId('company', jobData);
     var categoryId = relationId('category', jobData);
@@ -80,7 +81,8 @@
     var name = jobAtrs['translated-text'].name || jobAtrs.name;
     // description = truncate(description, maxDescriptionLength);
 
-    innerHTML = formatTemplate(template, '%job_company%', company.name);
+    innerHTML = formatTemplate(template, '%job_id%', jobID);
+    innerHTML = formatTemplate(innerHTML, '%job_company%', company.name);
     innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
     innerHTML = formatTemplate(innerHTML, '%job_category%', category.name);
     innerHTML = formatTemplate(innerHTML, '%job_name%', name);

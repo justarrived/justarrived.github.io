@@ -325,30 +325,32 @@
     <!-- START: HTML TEMPLATE -->
 <div id="js-job-cards-template" style="display:none;">
   <li class="cd-popup-trigger-job-card">
-    <div class="job-card" dir="ltr">
-        <div class="job-header">
-        <h4>%job_name%</h4>
+    <a href="https://app.justarrived.se/job/%job_id%?locale=sv">
+      <div class="job-card" dir="ltr">
+          <div class="job-header">
+          <h4>%job_name%</h4>
+          </div>
+        <div class="company-name">
+          <span>%job_company%</span>
         </div>
-      <div class="company-name">
-        <span>%job_company%</span>
-      </div>
-      <span class="emphasize-title city-name">%job_city%</span>
-      <span class="job-description">%job_description%</span>
+        <span class="emphasize-title city-name">%job_city%</span>
+        <span class="job-description">%job_description%</span>
 
-       <div class="job-meta-info">
-        <hr>
-        <div class="total-amount">
-          <span class="emphasize-title">Bruttolön:</span>
-          <span class="amount">%job_amount%</span>
-          <span class="currency">SEK</span>
+         <div class="job-meta-info">
+          <hr>
+          <div class="total-amount">
+            <span class="emphasize-title">Bruttolön:</span>
+            <span class="amount">%job_amount%</span>
+            <span class="currency">SEK</span>
 
-           <div class="details">
-            <span class="left">%job_hours% Timmar</span>
-            <span class="right">%job_hourly_pay%</span>
+             <div class="details">
+              <span class="left">%job_hours% Timmar</span>
+              <span class="right">%job_hourly_pay%</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </a>
   </li>
 </div>
 <!-- END: HTML TEMPLATE -->
@@ -722,46 +724,6 @@
             </div>
           </form>
         </div>
-      </div>
-      <a href="#0" class="cd-popup-close img-replace"></a>
-    </section>
-  </div>
-  <!-- cd-popup-container -->
-</div>
-<!-- cd-popup -->
-
-<div class="cd-popup cd-popup-job-card-popup">
-  <div class="cd-popup-container">
-    <section class="section--signup-popup">
-      <div class="
-        module-content
-        module-content--centered
-        module--txt-c
-        module--black
-        ">
-        <h2 class="bordered bordered--primary bordered--centered">Vad roligt att du är intresserad av våra jobbtillfällen!</h2>
-        <p>För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du ha ett konto.</p>
-        <br>
-        <h3>Redan medlem?</h3>
-        <p>
-          <a href="https://app.justarrived.se/login" class="border-btn btn-large border-btn--pink" data-action="click" data-action-label="Navigated to App Login" category="Newcomer">
-            Logga in
-          </a>
-        </p>
-        <br>
-        <h3>Söker du jobb?</h3>
-        <p>
-          Ansök om ett konto genom att registrera din ansökan nedan. <br>
-          <br>
-          <a href="#" class="primary-btn btn-large cd-popup-trigger-newcomer-signup">Registrera ansökan</a>
-        </p>
-        <br>
-        <h3>Representerar du ett företag?</h3>
-        <p>
-          För att veta mer om hur du lägger upp ett jobberbjudande så kan du ringa oss eller skicka ett mail. <br>
-          <br>
-          <a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Kontakta oss</a>
-        </p>
       </div>
       <a href="#0" class="cd-popup-close img-replace"></a>
     </section>
