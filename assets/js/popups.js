@@ -17,12 +17,6 @@
       openPopup('.cd-popup-xmas');
     });
 
-    //open job card popup
-    $(document).on('click', '.cd-popup-trigger-job-card', function(event){
-      event.preventDefault();
-      openPopup('.cd-popup-job-card-popup');
-    });
-
     //close popup
     $('.cd-popup').on('click', function(event){
       if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
