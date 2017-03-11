@@ -410,18 +410,6 @@ hourly_pay_calculator:
   rate_including_vat: متضمناً ضريبة القيمة المضافة
 careers:
   title: الوظائف
-job_card_popup:
-  title: نحن سعيدون لأنك مهتم بفرص الوظائف لدينا!
-  subtitle: لتقرأ المزيد والتقدم لوظيفة أو للإعلان عن وظيفة عليك بأن تكون عضواً.
-  already_member: هل أنت عضو؟
-  login_cta: تسجيل الدخول
-  looking_for_work_title: هل تبحث عن عمل؟
-  looking_for_work_subtitle: تقدم للحصول على حساب عبر تسجيل طلبك أدناه.
-  are_company_subtitle: تواصل معنا لمعرفة المزيد حول كيفية الإعلان عن وظيفة.
-  looking_for_work_cta: تسجيل الطلب
-  company_title: هل تمثل شركة؟
-  company_subtitle: تواصل معنا لمعرفة المزيد حول كيفية الإعلان عن وظيفة.
-  company_cta: تواصل معنا
 press:
   contact:
     title: إتصال

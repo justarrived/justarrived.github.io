@@ -535,20 +535,6 @@ careers:
   title: Jobba hos oss
 job_card:
   gross_salary: 'Bruttolön:'
-job_card_popup:
-  title: Vad roligt att du är intresserad av våra jobbtillfällen!
-  subtitle: För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du
-    ha ett konto.
-  already_member: Redan medlem?
-  login_cta: Logga in
-  looking_for_work_title: Söker du jobb?
-  looking_for_work_subtitle: Ansök om ett konto genom att registrera din ansökan nedan.
-  are_company_subtitle: För att veta mer om hur du lägger upp ett jobberbjudande så
-    kan du ringa oss eller skicka ett mail.
-  looking_for_work_cta: Registrera ansökan
-  company_title: Representerar du ett företag?
-  company_subtitle: Kontakta oss för att ta reda på mer om hur du lägger upp ett jobb.
-  company_cta: Kontakta oss
 press:
   title: Press
   full_style_guide_link: Se hela vår style guide (på engelska).
