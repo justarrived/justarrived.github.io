@@ -22,6 +22,7 @@ $job-card-padding: 15px;
 }
 
 .job-card {
+  color: $black;
   text-align: left;
   height: 350px;
   cursor: pointer;
@@ -72,8 +73,9 @@ $job-card-padding: 15px;
     }
   }
   .emphasize-title {
-    text-transform: uppercase;
     display: block;
+    font-weight: 400;
+    text-transform: uppercase;
   }
   .city-name {
     position: absolute;
@@ -84,6 +86,7 @@ $job-card-padding: 15px;
     font-size: 12px;
   }
   .job-description {
+    font-weight: 400;
     font-size: 14px;
     color: $black;
     position: absolute;
@@ -104,17 +107,21 @@ $job-card-padding: 15px;
       }
     }
     .total-amount {
+      font-weight: 400;
       .amount {
         color: $dark-hot-pink;
         font-size: 48px;
+        font-weight: 400;
         margin-right: 5px;
       }
       .currency {
         font-size: 24px;
+        color: $stone-dark;
       }
       .details {
         .left { float: left; }
         .right { float: right; }
+        color: $stone-dark;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 12px;
