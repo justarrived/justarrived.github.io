@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog
+title: Just Arrived - Blog
 description: Our blog
 excerpt_separator: More...
 paginate: true
@@ -22,7 +22,7 @@ paginate: true
           </a>
         {% endif %}
 
-        <h2>
+        <h2 class="post-title">
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale }}{% endif %}</span>
