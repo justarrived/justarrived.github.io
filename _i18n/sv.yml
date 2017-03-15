@@ -71,6 +71,21 @@ nav:
   newcomers: För nyanlända
   blog: Blogg
   faq: FAQ
+blog:
+  pagination:
+    prev: Föregående
+    next: Nästa
+    current_page: 'Sida:'
+  excerpt_separator: Mer..
+  post_by_tag_title: Kategorier
+  about_us_post_footer: <strong>Just Arrived</strong> erbjuder företag en tjänst som
+    gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod
+    som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade
+    snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag
+    är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och
+    har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av
+    fyra icke-vinstdrivande stiftelser, däribland <a href="http://norrskenfoundation.org">Norrsken
+    Foundation</a>. Läs mer om <a href="https://justarrived.se">Just Arrived</a> här!
 top_banner:
   title: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
   subtitle: Vi sammanför nyanlända med svenska företag som behöver hjälp med dagliga
