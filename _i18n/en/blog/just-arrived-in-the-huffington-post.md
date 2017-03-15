@@ -2,7 +2,7 @@ Not only are we thrilled to [see Huffington post](http://www.huffingtonpost.com/
 
 > ”His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off.”
 >
-> /Huffington Post
+> __Huffington Post__
 
 [Read the full article](http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef).
 

@@ -4,7 +4,7 @@
 	}
 
   h1.post-title {
-    font-size: 3.6em;
+    font-size: 3.2em;
   }
 
   .post-title {
@@ -54,13 +54,16 @@
   }
 
   .blog-categories-item {
-    min-height: 200px;
-    // Prevent column break within an sub-list element
-    display: inline-block;
+    margin-top: 30px;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   li {
     margin: 15px 0;
+    // Prevent column break within an sub-list element
+    break-inside: avoid-column;
   }
 }
 
