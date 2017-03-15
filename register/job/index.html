@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
 	<meta charset="utf-8">
@@ -8,9 +8,9 @@
 	<meta name="google-site-verification" content="0rBZYZXWRw45Ksm_sbK7h5HbTgw7bOpDwOVK9GxvISU" />
 
 	<script type="text/javascript">
-		CURRENT_LOCALE = 'en';
-		DEFAULT_LOCALE = 'en';
-		AVAILABLE_LOCALES =  ["en"];
+		CURRENT_LOCALE = 'sv';
+		DEFAULT_LOCALE = 'sv';
+		AVAILABLE_LOCALES =  ["sv", "en", "ar"];
 	</script>
 
 	<title>Just Arrived - Register job</title>
@@ -19,15 +19,15 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Register job" />
   <meta property="og:image" content="/assets/images/justarrived-logo.png" />
-  <meta property="og:locale" content="en" />
+  <meta property="og:locale" content="sv" />
 
-  <meta property="og:locale:alternate" content="sv" />
   
+  <meta property="og:locale:alternate" content="en" />
   <meta property="og:locale:alternate" content="ar" />
 
 	<meta name="description" content="Register your job with Just Arrived">
 	
-	<link rel="canonical" href="http://localhost:4000/register/job/">
+	<link rel="canonical" href="https://justarrived.se/register/job/">
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -109,7 +109,7 @@
 
 
 
-<body data-lang="en" class="en-locale ltr-locale-direction" dir="ltr" itemscope="" itemtype="http://schema.org/WebPage">
+<body data-lang="sv" class="sv-locale ltr-locale-direction" dir="ltr" itemscope="" itemtype="http://schema.org/WebPage">
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -132,10 +132,10 @@
   
 
   <a href="/register/job/" data-action="click" data-action-label="Language switch (sv)" category="Language">
-    <span class="lang-sv inactive">Svenska</span>
+    <span class="lang-sv ">Svenska</span>
   </a>
   <a href="/en/register/job/" data-action="click" data-action-label="Language switch (en)" category="Language">
-    <span class="lang-en ">English</span>
+    <span class="lang-en inactive">English</span>
   </a>
   <a href="/ar/register/job/" data-action="click" data-action-label="Language switch (ar)" category="Language">
     <span class="lang-ar inactive">العربية</span>
@@ -151,27 +151,27 @@
 
 		<li>
 			<a href="https://app.justarrived.se/login" data-action="click" data-action-label="Nav to app login" category="Navigation">
-				<span>Login</span>
+				<span>Logga in</span>
 			</a>
 		</li>
 		<li>
 			<a href="/about-us/" data-action="click" data-action-label="Nav to about us page" category="Navigation">
-				<span>About us</span>
+				<span>Om oss</span>
 			</a>
 		</li>
 		<li>
 			<a href="/blog/" data-action="click" data-action-label="Nav to blog page" category="Navigation">
-				<span>Blog</span>
+				<span>Blogg</span>
 			</a>
 		</li>
 		<li class="show-on-tablet">
 			<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-				<span>For companies</span>
+				<span>För företag</span>
 			</a>
 		</li>
 		<li class="show-on-tablet">
 			<a href="/newcomer/" data-action="click" data-action-label="Nav to newcomers page" category="Navigation">
-				<span>For newcomers</span>
+				<span>För nyanlända</span>
 			</a>
 		</li>
 	</ul>
@@ -182,27 +182,27 @@
     <ul>
 			<li>
 				<a href="/newcomer/" data-action="click" data-action-label="Nav to newcomers page" category="Navigation">
-					<span>For newcomers</span>
+					<span>För nyanlända</span>
 				</a>
 			</li>
 			<li>
 				<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-					<span>For companies</span>
+					<span>För företag</span>
 				</a>
 			</li>
 			<li>
 				<a href="/blog/" data-action="click" data-action-label="Nav to blog page" category="Navigation">
-					<span>Blog</span>
+					<span>Blogg</span>
 				</a>
 			</li>
 			<li>
 				<a href="/about-us/" data-action="click" data-action-label="Nav to about us page" category="Navigation">
-					<span>About us</span>
+					<span>Om oss</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://app.justarrived.se/login" data-action="click" data-action-label="Nav to app login" category="Navigation">
-					<span>Login</span>
+					<span>Logga in</span>
 				</a>
 			</li>
     </ul>
@@ -225,50 +225,50 @@ module-content
 module-content--centered
 module--black
 ">
-    <h2 class="bordered bordered--primary bordered--centered module--txt-c">Create new job</h2>
-    <p>Fill in the details about the job, so we can publish it on our platform.</p>
+    <h2 class="bordered bordered--primary bordered--centered module--txt-c">Skapa nytt jobb</h2>
+    <p>Fyll in jobbuppgifterna, så vi kan publicera det på våran plattform.</p>
 
     <form action="https://formspree.io/anna.hornmark+company-forms@justarrived.se" method="POST" class="signup-form">
       <div class="form-col form-col--full-width">
-        <label for="company_name">Company name <span class="asterisk">*</span></label>
+        <label for="company_name">Företagsnamn <span class="asterisk">*</span></label>
         <input type="text" value="" name="company_name" class="required" id="company_name" required>
       </div>
 
-      <h3>Employee</h3>
+      <h3>Anställd</h3>
       <div class="form-col form-col--full-width">
-  <label>Languages <span class="asterisk">*</span></label>
-  <input type="text" value="" placeholder="Example: Swedish or English" name="languages" class="required" id="languages" required>
+  <label>Språk <span class="asterisk">*</span></label>
+  <input type="text" value="" placeholder="Exempel: Svenska eller engelska" name="languages" class="required" id="languages" required>
 </div>
 
 <div class="form-col form-col--full-width">
-  <label>Competencies <span class="asterisk">*</span></label>
-  <input type="text" value="" placeholder="Example: MS Office experience, Economic background or None" name="competencies" class="required" id="competencies">
+  <label>Kompetenser <span class="asterisk">*</span></label>
+  <input type="text" value="" placeholder="Exempel: MS Office erfarenhet, Ekonomiskbakgrund eller Ingen" name="competencies" class="required" id="competencies">
 </div>
 
 
-      <h3>Job</h3>
+      <h3>Jobb</h3>
       <div class="form-col">
-  <label>Hours <span class="asterisk">*</span></label>
+  <label>Timmar <span class="asterisk">*</span></label>
   <input type="number" value="" placeholder="1...&#x221e;" name="job_hours" class="required" id="job_hours" min="1" required>
 </div>
 
 <div class="form-col">
-  <label>Number of people <span class="asterisk">*</span></label>
+  <label>Antal personer <span class="asterisk">*</span></label>
   <input type="number" value="" placeholder="" name="job_no_of_people" class="required" id="job_no_of_people" min="1" required>
 </div>
 
 <div class="form-col">
-  <label>Start date <span class="asterisk">*</span></label>
+  <label>Startdatum <span class="asterisk">*</span></label>
   <input type="text" value="" placeholder="YYYY-MM-DD" name="job_start_date" class="required" id="job_start_date" required>
 </div>
 
 <div class="form-col">
-  <label>End date <span class="asterisk">*</span></label>
+  <label>Slutdatum <span class="asterisk">*</span></label>
   <input type="text" value="" placeholder="YYYY-MM-DD" name="job_end_date" class="required" id="job_end_date" required>
 </div>
 
 <div class="form-col form-col--full-width">
-  <label>Description <span class="asterisk">*</span></label>
+  <label>Beskrivning <span class="asterisk">*</span></label>
   <textarea name="job_description" rows="8" cols="40" class="required" id="job_description" required></textarea>
 </div>
 
@@ -282,7 +282,7 @@ module--black
 
 <!-- Submit Button -->
 <div class="clear">
-  <input type="submit" value="Submit" name="submit" class="button border-btn btn-large border-btn--pink">
+  <input type="submit" value="Spara" name="submit" class="button border-btn btn-large border-btn--pink">
 </div>
 
     </form>
@@ -303,25 +303,25 @@ module--black
 
     <div class="wrap">
       <div class="footer-col">
-        <h3>Get started</h3>
+        <h3>Kom igång</h3>
         <ul class="footer-link-list">
-          <li><a href="https://app.justarrived.se/login">Login</a></li>
-          <li><a href="#" class="cd-popup-trigger-newcomer-signup">Newcomer registration</a></li>
-          <li><a href="#" class="cd-popup-trigger-signin">Post job</a></li>
+          <li><a href="https://app.justarrived.se/login">Logga in</a></li>
+          <li><a href="#" class="cd-popup-trigger-newcomer-signup">Registrering för nyanlända</a></li>
+          <li><a href="#" class="cd-popup-trigger-signin">Lägg upp jobb</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h3>About us</h3>
+        <h3>Om oss</h3>
         <ul class="footer-link-list">
-          <li><a href="/about-us/">About Just Arrived</a></li>
-          <li><a href="/careers/">Careers</a></li>
-          <li><a href="/about-us/">The team</a></li>
+          <li><a href="/about-us/">Om Just Arrived</a></li>
+          <li><a href="/careers/">Jobba hos oss</a></li>
+          <li><a href="/about-us/">Vårt team</a></li>
           <li><a href="/press/">Press</a></li>
           <li><a href="/faq/">FAQ</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h3>Follow us</h3>
+        <h3>Följ oss</h3>
         <div class="social-links">
           <a
             href="https://www.facebook.com/JustArrivedSE"
@@ -351,7 +351,7 @@ module--black
         </div>
       </div>
       <div class="footer-col">
-        <h3>Contact</h3>
+        <h3>Kontakt</h3>
         <ul class="footer-link-list">
           <li><a href="mailto:hej@justarrived.se">hej@justarrived.se</a></li>
           <li>Just Arrived</li>
@@ -382,8 +382,8 @@ module--black
     module-content--centered
     module--black
     ">
-        <h2 class="bordered bordered--primary bordered--centered module--txt-c">Indicate interest</h2>
-        <p>We're currently available in Stockholm, Gothenburg and Malmö. Please fill out the form to register your company's interest to learn more about what we can do for you. Thank you!</p>
+        <h2 class="bordered bordered--primary bordered--centered module--txt-c">Indikera intresse</h2>
+        <p>Vi är för tillfället tillgängliga i Stockholm, Göteborg och Malmö. Var vänlig fyll i formuläret för att registrera ditt företags intresse och få veta mer om vad vi kan göra för dig. Tack!</p>
 
         <p dir="rtl" lang="ar">
           <a href="#" class="cd-popup-trigger-newcomer-signup discrete-link">
@@ -406,30 +406,30 @@ module--black
             <!--  ----------------------------------------------------------------------  -->
 
             <div class="signup-error module--txt-c">
-              <label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
+              <label for="mce-EMAIL" class="mailchimp-error">Email adress</label>
             </div>
 
             <div id="mc_embed_signup_scroll">
 
               <div class="form-col mc-field-group">
-                <label>Company Email <span class="asterisk">*</span></label>
+                <label>Företagsemail <span class="asterisk">*</span></label>
                 <input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
               </div>
               <div class="form-col mc-field-group">
-                <label for="mce-NAME">Name <span class="asterisk">*</span>
+                <label for="mce-NAME">Namn <span class="asterisk">*</span>
                 </label>
                 <input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required>
               </div>
               <div class="form-col mc-field-group size1of2">
-                <label for="mce-PHONE">Phone number <span class="asterisk">*</span></label>
+                <label for="mce-PHONE">Telefonnummer <span class="asterisk">*</span></label>
                 <input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE" required>
               </div>
               <div class="form-col mc-field-group">
-                <label for="mce-COMPANY">Company <span class="asterisk">*</span></label>
+                <label for="mce-COMPANY">Företag <span class="asterisk">*</span></label>
                 <input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required>
               </div>
               <div class="form-col form-col--full-width mc-field-group">
-                <label for="mce-CITY">City <span class="asterisk">*</span></label>
+                <label for="mce-CITY">Stad <span class="asterisk">*</span></label>
                 <input type="text" value="" name="00N580000088gDR" class="" id="mce-CITY" required>
               </div>
               <div id="mce-responses" class="clear">
@@ -438,15 +438,15 @@ module--black
               </div>
               <div class="mc-field-group input-group">
                 <div class="input-group-content">
-                  <p>I'm interested in... <span class="asterisk">*</span></p>
+                  <p>Jag är intresserad av... <span class="asterisk">*</span></p>
                   <ul>
                     <li>
                       <input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0">
-                      <label for="mce-MMERGE5-0">Posting jobs</label>
+                      <label for="mce-MMERGE5-0">Lägga upp jobb</label>
                     </li>
                     <li>
                       <input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4">
-                      <label for="mce-MMERGE5-4">Knowning more</label>
+                      <label for="mce-MMERGE5-4">Veta mer</label>
                     </li>
                   </ul>
                 </div>
@@ -456,7 +456,7 @@ module--black
                 <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
               </div>
               <div class="clear company-submit-interest-button">
-                <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+                <input type="submit" value="Spara" name="submit" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
               </div>
             </div>
           </form>
@@ -501,7 +501,7 @@ module--black
       selector: '#xmas-signups',
       current: 133,
       target: 150,
-      text: 'registered'
+      text: 'registrerade'
     });
   }
 </script>
