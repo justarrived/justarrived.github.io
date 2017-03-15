@@ -4,23 +4,23 @@
     <title>Just Arrived</title>
     <description>Helping newcomers in Sweden enter the labor market.
 </description>
-    <link>https://justarrived.se//link>
-    <atom:link href="https://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Mar 2017 13:41:54 +0100</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 13:41:54 +0100</lastBuildDate>
+    <link>http://localhost:4000//link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Mar 2017 23:46:49 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 23:46:49 +0100</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Just Arrived in The Huffington Post</title>
-        <description>&lt;p&gt;Peppande att se Huffington Post nämna Just Arrived som ett framgångsrikt initiativ för integration. Men framför allt värmer det att se Zaher, som var en av våra första arbetstagare, lyckas så otroligt bra på svenska arbetsmarknaden. &lt;/p&gt;
+        <description>&lt;p&gt;Not only are we thrilled to &lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;see Huffington post&lt;/a&gt; make Just Arrived a great example of start-ups working for integration, we are also heart warmed to see Zaher thrive as one of our first candidates receiving a job through Just Arrived.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off.”&lt;/p&gt;
+  &lt;p&gt;”His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off.”&lt;/p&gt;
 
-  &lt;p&gt;/Huffington Post&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Huffington Post&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;Läs hela artikeln&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;Read the full article&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/stockholm-huff-overview.jpg&quot; alt=&quot;Stockholm Overview&quot; /&gt;&lt;/p&gt;
 
@@ -46,14 +46,14 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Tue, 14 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/14/just-arrived-in-the-huffington-post/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/14/just-arrived-in-the-huffington-post/</guid>
+        <link>http://localhost:4000/blog/2017/03/14/just-arrived-in-the-huffington-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/14/just-arrived-in-the-huffington-post/</guid>
         
         <category>press</category>
         
@@ -96,14 +96,14 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Fri, 10 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/10/working-with-justarrived/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/10/working-with-justarrived/</guid>
+        <link>http://localhost:4000/blog/2017/03/10/working-with-justarrived/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/10/working-with-justarrived/</guid>
         
         
         <category>blog</category>
@@ -138,14 +138,14 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Wed, 08 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/08/this-is-salam/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/08/this-is-salam/</guid>
+        <link>http://localhost:4000/blog/2017/03/08/this-is-salam/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/08/this-is-salam/</guid>
         
         
         <category>blog</category>
@@ -180,16 +180,16 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Mon, 06 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/06/newcomers-are-changing-their-names/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/06/newcomers-are-changing-their-names/</guid>
+        <link>http://localhost:4000/blog/2017/03/06/newcomers-are-changing-their-names/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/06/newcomers-are-changing-their-names/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -200,7 +200,7 @@
         <title>Our first job</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/our-first-job.jpg&quot; alt=&quot;Our first job&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Do you remember? We sure do. The first job via Just Arrived during our test phase was for &lt;a href=&quot;www.carlsberg.se&quot;&gt;Carlsberg Sverige&lt;/a&gt; during &lt;a href=&quot;http://www.almedalsveckan.info/&quot;&gt;Almedalsveckan&lt;/a&gt;. It has been quite a journey since then. Happy Friday ya’ll!&lt;/p&gt;
+&lt;p&gt;Do you remember? We sure do. The first job via Just Arrived during our test phase was for &lt;a href=&quot;http://www.carlsberg.se&quot;&gt;Carlsberg Sverige&lt;/a&gt; during &lt;a href=&quot;http://www.almedalsveckan.info/&quot;&gt;Almedalsveckan&lt;/a&gt;. It has been quite a journey since then. Happy Friday ya’ll!&lt;/p&gt;
 
 &lt;div style=&quot;display:inline-block;&quot;&gt;
   &lt;div class=&quot;fb-share-button&quot; data-href=&quot;/blog/2017/03/03/do-you-remember-almedalen-our-first-job/&quot; data-layout=&quot;button&quot; data-mobile_iframe=&quot;true&quot; data-size=&quot;large&quot;&gt;
@@ -224,16 +224,16 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Fri, 03 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</guid>
+        <link>http://localhost:4000/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -269,16 +269,16 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Thu, 02 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/02/new-jobs/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/02/new-jobs/</guid>
+        <link>http://localhost:4000/blog/2017/03/02/new-jobs/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/02/new-jobs/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -313,16 +313,16 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/03/01/looking-for-waiters/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/03/01/looking-for-waiters/</guid>
+        <link>http://localhost:4000/blog/2017/03/01/looking-for-waiters/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/01/looking-for-waiters/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -360,14 +360,14 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Tue, 28 Feb 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/02/28/this-is-wessam/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/02/28/this-is-wessam/</guid>
+        <link>http://localhost:4000/blog/2017/02/28/this-is-wessam/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/28/this-is-wessam/</guid>
         
         
         <category>blog</category>
@@ -402,14 +402,14 @@
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Wed, 15 Feb 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/02/15/first-company-visit/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/02/15/first-company-visit/</guid>
+        <link>http://localhost:4000/blog/2017/02/15/first-company-visit/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/15/first-company-visit/</guid>
         
         
         <category>blog</category>
@@ -447,16 +447,16 @@ First step: hire three(!) new account managers to our amazing team. Please sprea
 
 &lt;p&gt;
   &lt;em&gt;
-    
+    &lt;strong&gt;Just Arrived&lt;/strong&gt; erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland &lt;a href=&quot;http://norrskenfoundation.org&quot;&gt;Norrsken Foundation&lt;/a&gt;. Läs mer om &lt;a href=&quot;https://justarrived.se&quot;&gt;Just Arrived&lt;/a&gt; här!
   &lt;/em&gt;
 &lt;/p&gt;
 
 </description>
         <pubDate>Tue, 14 Feb 2017 00:00:00 +0100</pubDate>
-        <link>https://justarrived.se/blog/2017/02/14/looking-for-swedens-best-operations-manager/</link>
-        <guid isPermaLink="true">https://justarrived.se/blog/2017/02/14/looking-for-swedens-best-operations-manager/</guid>
+        <link>http://localhost:4000/blog/2017/02/14/looking-for-swedens-best-operations-manager/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/14/looking-for-swedens-best-operations-manager/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>

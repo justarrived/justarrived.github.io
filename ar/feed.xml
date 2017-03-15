@@ -6,16 +6,21 @@
 </description>
     <link>https://justarrived.se//link>
     <atom:link href="https://justarrived.se/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Mar 2017 13:42:04 +0100</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 13:42:04 +0100</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 23:46:53 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 23:46:53 +0100</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Just Arrived in The Huffington Post</title>
-        <description>&lt;p&gt;Not only are we thrilled to &lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;see Huffington post&lt;/a&gt; make Just Arrived a great example of start-ups working for integration, we are also heart warmed to see Zaher thrive as one of our first candidates receiving a job through Just Arrived.
-”His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off.” - Huffington Post&lt;/p&gt;
+        <description>&lt;p&gt;Not only are we thrilled to &lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;see Huffington post&lt;/a&gt; make Just Arrived a great example of start-ups working for integration, we are also heart warmed to see Zaher thrive as one of our first candidates receiving a job through Just Arrived.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;”His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Huffington Post&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef&quot;&gt;Read the full article&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/stockholm-huff-overview.jpg&quot; alt=&quot;Stockholm Overview&quot; /&gt;&lt;/p&gt;
 
@@ -184,7 +189,7 @@
         <link>https://justarrived.se/blog/2017/03/06/newcomers-are-changing-their-names/</link>
         <guid isPermaLink="true">https://justarrived.se/blog/2017/03/06/newcomers-are-changing-their-names/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -195,7 +200,7 @@
         <title>Our first job</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/our-first-job.jpg&quot; alt=&quot;Our first job&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Do you remember? We sure do. The first job via Just Arrived during our test phase was for &lt;a href=&quot;www.carlsberg.se&quot;&gt;Carlsberg Sverige&lt;/a&gt; during &lt;a href=&quot;http://www.almedalsveckan.info/&quot;&gt;Almedalsveckan&lt;/a&gt;. It has been quite a journey since then. Happy Friday ya’ll!&lt;/p&gt;
+&lt;p&gt;Do you remember? We sure do. The first job via Just Arrived during our test phase was for &lt;a href=&quot;http://www.carlsberg.se&quot;&gt;Carlsberg Sverige&lt;/a&gt; during &lt;a href=&quot;http://www.almedalsveckan.info/&quot;&gt;Almedalsveckan&lt;/a&gt;. It has been quite a journey since then. Happy Friday ya’ll!&lt;/p&gt;
 
 &lt;div style=&quot;display:inline-block;&quot;&gt;
   &lt;div class=&quot;fb-share-button&quot; data-href=&quot;/blog/2017/03/03/do-you-remember-almedalen-our-first-job/&quot; data-layout=&quot;button&quot; data-mobile_iframe=&quot;true&quot; data-size=&quot;large&quot;&gt;
@@ -228,7 +233,7 @@
         <link>https://justarrived.se/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</link>
         <guid isPermaLink="true">https://justarrived.se/blog/2017/03/03/do-you-remember-almedalen-our-first-job/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -273,7 +278,7 @@
         <link>https://justarrived.se/blog/2017/03/02/new-jobs/</link>
         <guid isPermaLink="true">https://justarrived.se/blog/2017/03/02/new-jobs/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -317,7 +322,7 @@
         <link>https://justarrived.se/blog/2017/03/01/looking-for-waiters/</link>
         <guid isPermaLink="true">https://justarrived.se/blog/2017/03/01/looking-for-waiters/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
@@ -451,7 +456,7 @@ First step: hire three(!) new account managers to our amazing team. Please sprea
         <link>https://justarrived.se/blog/2017/02/14/looking-for-swedens-best-operations-manager/</link>
         <guid isPermaLink="true">https://justarrived.se/blog/2017/02/14/looking-for-swedens-best-operations-manager/</guid>
         
-        <category>Job ad</category>
+        <category>jobs</category>
         
         
         <category>blog</category>
