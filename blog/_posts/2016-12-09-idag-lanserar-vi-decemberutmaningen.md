@@ -5,8 +5,8 @@ draft: false
 locale: sv
 og_image: /assets/images/blog/xmas/enfotin.png
 tags:
-  - decemberutmaningen
   - enfotin
+  - decemberutmaningen
 ---
 
 ![Idag lanserar vi Decemberutmaningen]({{ "/assets/images/blog/xmas/enfotin.png" | prepend: site.github.url }})

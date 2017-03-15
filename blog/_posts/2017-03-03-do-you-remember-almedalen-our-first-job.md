@@ -4,7 +4,7 @@ title: Our first job
 author: andreas
 locale: sv
 tags:
-  - Job ad
+  - jobs
 ---
 
 ![Our first job]({{ "/assets/images/blog/our-first-job.jpg" | prepend: site.github.url }})

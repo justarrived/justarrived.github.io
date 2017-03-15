@@ -58,7 +58,7 @@ paginate: true
         <li class="blog-categories-item"><a class="blog-categories-title" name="{{ tag | first }}"><strong>{{ tag | first }}</strong></a>
           <ul>
           {% for posts in tag %}
-            {% for post in posts limit: 4 %}
+            {% for post in posts limit: 10 %}
               <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
             {% endfor %}
           {% endfor %}

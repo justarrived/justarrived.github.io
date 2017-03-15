@@ -4,7 +4,6 @@ title: A story from our Community Meetup
 locale: en
 og_image: /assets/images/blog/team-picture.jpg
 tags:
-  - meetup
   - community
 ---
 

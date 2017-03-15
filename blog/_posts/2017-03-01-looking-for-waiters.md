@@ -4,7 +4,7 @@ title: Vi söker restaurang personal
 author: andreas
 locale: sv
 tags:
-  - Job ad
+  - jobs
 ---
 
 ![Waiters ad]({{ "/assets/images/blog/resturant-waiter-ad.png" | prepend: site.github.url }})
