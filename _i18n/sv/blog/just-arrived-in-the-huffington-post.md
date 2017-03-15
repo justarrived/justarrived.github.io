@@ -2,7 +2,7 @@ Peppande att se Huffington Post nämna Just Arrived som ett framgångsrikt initi
 
 > "His current employer, Väsby hem, is eager to extend his employment. Proof enough for him that the platform take on immigration is paying off."
 >
-> /Huffington Post
+> __Huffington Post__
 
 [Läs hela artikeln](http://www.huffingtonpost.com/entry/58c0210fe4b070e55af9e9ef).
 

@@ -6,7 +6,7 @@ list_cover: /team-picture.jpg
 og_image: /assets/images/blog/team-picture.jpg
 locale: en
 tags:
-  - Job ad
+  - jobs
 ---
 
 We're going into a new phase where we are intensifying our work to connect newcomers with job opportunities.

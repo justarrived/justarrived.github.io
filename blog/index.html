@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog
+title: Just Arrived - Blog
 description: Our blog
 excerpt_separator: More...
 paginate: true
@@ -22,14 +22,14 @@ paginate: true
           </a>
         {% endif %}
 
-        <h2>
+        <h2 class="post-title">
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale }}{% endif %}</span>
         <div>
           <!-- {{ post.excerpt | strip_html }} -->
           {{ post.content | truncate: 300 }}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">More...</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t blog.pagination.excerpt_separator %}</a>
         </div>
       </article>
     {% endfor %}
@@ -39,26 +39,26 @@ paginate: true
   <!-- Pagination links -->
   <div class="post-pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      <a href="{{ paginator.previous_page_path }}" class="previous">{% t blog.pagination.prev %}</a>
     {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous">{% t blog.pagination.prev %}</span>
     {% endif %} |
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> |
+    <span class="page_number ">{% t blog.pagination.current_page %} {{ paginator.page }}/{{ paginator.total_pages }}</span> |
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      <a href="{{ paginator.next_page_path }}" class="next">{% t blog.pagination.next %}</a>
     {% else %}
-      <span class="next ">Next</span>
+      <span class="next ">{% t blog.pagination.next %}</span>
     {% endif %}
   </div>
 
   <div class="blog-categories-container">
-    <h3>By tags</h3>
+    <h3>{% t blog.post_by_tag_title %}</h3>
     <ul class="blog-categories-links blog-categories-medium">
-      {% for tag in site.tags limit: 8 %}
+      {% for tag in site.tags limit: 20 %}
         <li class="blog-categories-item"><a class="blog-categories-title" name="{{ tag | first }}"><strong>{{ tag | first }}</strong></a>
           <ul>
           {% for posts in tag %}
-            {% for post in posts limit: 4 %}
+            {% for post in posts limit: 10 %}
               <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
             {% endfor %}
           {% endfor %}
