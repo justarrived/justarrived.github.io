@@ -2,7 +2,9 @@
 layout: post
 title: Just Arrived in The Huffington Post
 draft: false
-locale: en
+locale:
+  - en
+  - sv
 list_cover: stockholm-huff-overview.jpg
 tags:
   - press
