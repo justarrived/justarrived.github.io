@@ -25,7 +25,7 @@ paginate: true
         <h2 class="post-title">
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale }}{% endif %}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>
         <div>
           <!-- {{ post.excerpt | strip_html }} -->
           {{ post.content | truncate: 300 }}
