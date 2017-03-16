@@ -7,6 +7,171 @@
 	}
 }
 
+.section--company-recommendation {
+  background-color: $background-color;
+
+  .section-title-container {
+    text-align: center;
+    margin-top: 50px;
+
+    .section-title {
+      color: $cerise;
+    }
+  }
+
+  .name-cell {
+    border-color: $cerise;
+    text-align: center;
+
+    .title-cell {
+      width: 100%;
+
+      h4 {
+        color: $black;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+    }
+
+    .left-border-title-cell {
+      border-left: 1px solid $cerise;
+    }
+
+    .right-border-title-cell {
+      border-right: 1px solid $cerise;
+    }
+  }
+
+  .section-footer {
+    text-align: center;
+    color: $black;
+    margin-bottom: 50px;
+  }
+}
+
+.section--companies-information {
+  background: url(/assets/images/v2/company-information-section-bg.jpg) no-repeat;
+  background-size: cover;
+  color: $white;
+
+  .title-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .information-text-container {
+    text-align: center;
+  }
+}
+
+.section--companies-grid {
+  text-align: center;
+  color: $cerise;
+
+  .company-grid-cell {
+    height: 400px;
+
+    .company-grid-cell-overlay {
+      position: relative;
+      display: block;
+      float: left;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      vertical-align: middle;
+
+      .company-grid-cell-overlay-container {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 85%;
+        width: 85%;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+
+        .company-grid-cell-overlay-content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .company-grid-cell-one {
+    background: url(/assets/images/v2/company-grid-1-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .company-grid-cell-two {
+    background: url(/assets/images/v2/company-grid-2-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .company-grid-cell-three {
+    background: url(/assets/images/v2/company-grid-3-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .company-grid-cell-four {
+    background: url(/assets/images/v2/company-grid-4-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .company-grid-cell-five {
+    background: url(/assets/images/v2/company-grid-5-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .company-grid-cell-six {
+    background: url(/assets/images/v2/company-grid-6-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+.section--what-we-offer {
+  background-color: $white;
+
+  .section-title {
+    color: $cerise;
+    margin-top: 50px;
+  }
+
+  .section-subtitle {
+    color: $black;
+  }
+}
+
+.section--company-faq {
+  background-color: $gray700;
+  color: $white;
+
+  .section-title {
+    color: $cerise;
+    margin-top: 50px;
+  }
+
+  .section-text {
+    margin-bottom: 100px;
+  }
+
+  .section-button {
+    margin-bottom: 50px;
+  }
+
+  .section-image {
+    background: url(/assets/images/v2/company-faq-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+}
 
 .section--our-customers {
   & .title {
@@ -33,6 +198,15 @@
       display: block;
     }
   }
+}
+
+.company-small-bottom-border {
+  margin-top: 20px;
+  width: 40px;
+  height: 1px;
+  background-color: $cerise;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .company-submit-interest-button {
