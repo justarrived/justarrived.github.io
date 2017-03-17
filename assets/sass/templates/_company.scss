@@ -164,6 +164,104 @@
   }
 }
 
+.section--company-post-job-container {
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+	margin-top: 0 !important;
+	padding-top: 100px !important;
+	padding-bottom: 60px !important;
+
+	background-image:    url("/assets/images/v2/company-form-background.jpg");
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+
+	.post-job-image {
+		height: 200px;
+		width: 300px;
+		background-image:    url("/assets/images/v2/company-create-job.png");
+		background-repeat:   no-repeat;
+		background-position: center center;
+	}
+
+	.single-input-container {
+		.double-input-left {
+			width: 47%;
+			display:inline-block;
+			float: left;
+		}
+		.double-input-right {
+			width: 47%;
+			display:inline-block;
+			float: right;
+		}
+	}
+
+	input {
+		margin-bottom: 40px;
+		background-color: $gray700;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+
+	textarea {
+		padding-top: 4px;
+		resize: none;
+		min-height: 200px;
+		background-color: $gray700;
+		border: 1px solid white;
+		border-radius: 10px;
+		// a focused input (or hovered on)
+	  &:focus,
+	  &:active {
+	    background-color: lighten($gray, 4%);
+	    outline: none;
+	  } // end hover or focus
+
+	  // error notification
+	  &.error,
+	  &.is-invalid {
+	    background-position: 99% center;
+	    background-repeat: no-repeat;
+	    outline-color: $alert-red;
+	  } // end invalid input
+
+	  // success notification
+	  &.success,
+	  &.is-valid {
+	    color: $alert-green;
+	    border-color: $alert-green;
+	    background-color: $white;
+	    background-position: 99% center;
+	    background-repeat: no-repeat;
+	    outline-color: $alert-green;
+	  } // end valid input
+
+	  // a disabled input
+	  &[disabled],
+	  &.is-disabled {
+	    cursor: not-allowed;
+	    border-color: $disabled-gray;
+	    opacity: 0.6;
+
+	    &:focus,
+	    &:active {
+	      background-color: $alert-blue;
+	    } // end disabled focus
+
+	  }
+	}
+
+	.form-post-now-button-container {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		.post-now-button {
+			float: right;
+		}
+	}
+
+}
+
 .section--what-we-offer {
   background-color: $white;
 
