@@ -10,6 +10,29 @@
 .section--company-recommendation {
   background-color: $background-color;
 
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
+	.profile-circle {
+    height: 135px;
+    width: 135px;
+    background-size: cover;
+    border-radius: 500px;
+    margin: 0 auto;
+  }
+
+  .sara-brandt {
+    background-image: url(../images/profile-pictures/sara-brandt.jpg);
+  }
+
+  .johnny-warstrom {
+    background-image: url(../images/profile-pictures/johnny-warstrom.jpg);
+  }
+
+  .fredrik-skytt {
+    background-image: url(../images/profile-pictures/fredrik-skytt.png);
+  }
+
   .section-title-container {
     text-align: center;
     margin-top: 50px;
@@ -54,6 +77,9 @@
   background-size: cover;
   color: $white;
 
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
   .title-container {
     text-align: center;
     margin-top: 50px;
@@ -75,6 +101,7 @@
 
   .company-grid-cell {
     height: 400px;
+		padding: 0 !important;
 
     .company-grid-cell-overlay {
       position: relative;
@@ -140,6 +167,9 @@
 .section--what-we-offer {
   background-color: $white;
 
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
   .section-title {
     color: $cerise;
     margin-top: 50px;
@@ -148,15 +178,25 @@
   .section-subtitle {
     color: $black;
   }
+	.what_we_offer_info_text {
+		margin-bottom: 50px;
+	}
+
 }
 
 .section--company-faq {
   background-color: $gray700;
   color: $white;
 
+	.section--company-faq-left {
+		padding-left: 8% !important;
+		padding-right: 8% !important;
+	}
+
   .section-title {
     color: $cerise;
     margin-top: 50px;
+
   }
 
   .section-text {
@@ -168,8 +208,10 @@
   }
 
   .section-image {
-    background: url(/assets/images/v2/company-faq-bg.jpg) no-repeat;
-    background-size: cover;
+		background-image:    url("/assets/images/v2/company-faq-bg.jpg");
+	  background-size:     cover;
+	  background-repeat:   no-repeat;
+	  background-position: center center;
   }
 }
 
