@@ -5,6 +5,27 @@
 	background-size:     cover;
 	background-repeat:   no-repeat;
 	background-position: center center;
+
+	.section--top_banner_v2-form-wrapper {
+		margin-left: 8%;
+		margin-right: 8%;
+		max-width: 450px;
+		height: 100%;
+		padding-top: 100px;
+
+		h2 {
+			color: white;
+		}
+
+		input {
+			margin-bottom: 40px;
+			background-color: rgba(0, 0, 0, 0.5);
+			border: 1px solid white;
+			border-radius: 20px;
+		}
+
+	}
+
 }
 
 .section--top_banner_v2_bottom_container {
