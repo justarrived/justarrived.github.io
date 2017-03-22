@@ -11,7 +11,8 @@
 .section--hero-v2 {
   //width: 100%; 16:9 ratio
   //padding-bottom: 56.25%;
-  height: calc(100vh - 62px);
+  width: 100%;
+  height: calc((100vw - 200px) * 0.5625);
   background-image:    url("/assets/videos/JA_banner_video_first_frame.png");
   background-size:     cover;
   background-repeat:   no-repeat;
