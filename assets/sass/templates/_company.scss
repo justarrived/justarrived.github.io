@@ -45,6 +45,7 @@
   .name-cell {
     border-color: $cerise;
     text-align: center;
+    opacity: 0.5;
 
     .title-cell {
       width: 100%;
@@ -56,13 +57,16 @@
       }
     }
 
-    .left-border-title-cell {
-      border-left: 1px solid $cerise;
+    .center-border-title-cell {
+      @media(min-width: 768px) {
+        border-left: 1px solid $cerise;
+        border-right: 1px solid $cerise;
+      }
     }
+  }
 
-    .right-border-title-cell {
-      border-right: 1px solid $cerise;
-    }
+  .name-cell-active {
+    opacity: 1;
   }
 
   .section-footer {
@@ -176,13 +180,16 @@
 	background-repeat:   no-repeat;
 	background-position: center center;
 
-	.post-job-image {
-		height: 200px;
-		width: 300px;
-		background-image:    url("/assets/images/v2/company-create-job.png");
-		background-repeat:   no-repeat;
-		background-position: center center;
-	}
+  .post-job-image-container {
+    margin-bottom: 20px;
+
+    .post-job-image {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+
+  	}
+  }
 
 	.single-input-container {
 		.double-input-left {
