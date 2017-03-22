@@ -94,10 +94,11 @@
     }
   }
 
-  .name-cell {
+  .company-recomendation-name-cell {
     border-color: $cerise;
     text-align: center;
     opacity: 0.5;
+    cursor: pointer;
 
     .title-cell {
       width: 100%;
@@ -117,7 +118,7 @@
     }
   }
 
-  .name-cell-active {
+  .company-recomendation-name-cell-active {
     opacity: 1;
   }
 
