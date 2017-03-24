@@ -65,3 +65,43 @@
     }
   }
 }
+
+.section--newcomer-contact-us {
+  background-color: $white;
+  text-align: center;
+
+	padding-left: 16% !important;
+	padding-right: 16% !important;
+  padding-bottom: 50px !important;
+
+  .section-title {
+    color: $black;
+    margin-top: 50px;
+  }
+
+  .section-subtitle {
+    color: $cerise;
+  }
+
+  .profile-image {
+    height: 161px;
+    width: 141px;
+    margin: auto;
+  }
+
+  .profile-title {
+    color: $cerise;
+    margin-bottom: 0px;
+  }
+
+  .profile-subtitle {
+    color: $cerise;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .profile-text {
+    color: $gray300;
+    text-decoration: none;
+  }
+}
