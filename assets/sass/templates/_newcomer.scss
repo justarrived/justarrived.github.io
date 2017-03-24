@@ -30,6 +30,8 @@
 	}
 }
 
+
+
 .section--newcomer-faq {
   background-color: $gray700;
   color: $white;
@@ -72,7 +74,6 @@
 
 	padding-left: 16% !important;
 	padding-right: 16% !important;
-  padding-bottom: 50px !important;
 
   .section-title {
     color: $black;
@@ -83,26 +84,30 @@
     color: $cerise;
   }
 
-  .profile-image {
-    height: 161px;
-    width: 141px;
-    margin: auto;
-  }
+  .profile-container {
+    padding-bottom: 50px !important;
 
-  .profile-title {
-    color: $cerise;
-    margin-bottom: 0px;
-  }
+    .profile-image {
+      height: 161px;
+      width: 141px;
+      margin: auto;
+    }
 
-  .profile-subtitle {
-    color: $cerise;
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
+    .profile-title {
+      color: $cerise;
+      margin-bottom: 0px;
+    }
 
-  .profile-text {
-    color: $gray300;
-    text-decoration: none;
+    .profile-subtitle {
+      color: $cerise;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+    .profile-text {
+      color: $gray300;
+      text-decoration: none;
+    }
   }
 }
 
