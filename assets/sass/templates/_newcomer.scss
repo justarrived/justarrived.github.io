@@ -61,7 +61,6 @@
   	  background-size:     cover;
   	  background-repeat:   no-repeat;
   	  background-position: center center;
-      margin-top: 1rem !important;
     }
   }
 }
@@ -104,4 +103,36 @@
     color: $gray300;
     text-decoration: none;
   }
+}
+
+.section--newcomer-how_it_works {
+	background-color: white;
+	text-align: center;
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+
+	.how_it_works_header {
+		color: $black;
+	}
+
+	.how_it_works_img_header {
+		color: $black;
+	}
+
+	.how_it_works_icon {
+		margin-left: 20px;
+		width: 100px;
+		height: auto;
+	}
+
+	.left-button {
+		float: right;
+		margin-right: 10px;
+	}
+
+	.right-button {
+		float: left;
+		margin-left: 10px;
+	}
+
 }
