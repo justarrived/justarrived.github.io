@@ -46,8 +46,14 @@ jQuery(document).ready(function($) {
     $('#p' + index).addClass('company-recomendation-name-cell-active');
 
     $('#profile-image').css('background-image', 'url(../assets/images/profile-pictures/' + people[index].img + ')')
+    $('#profile-image').toggleClass('profile-circle-animation');
+
+    setTimeout(function(){
+      $('#profile-image').toggleClass('profile-circle-animation');
+    }, 1500);
 
     $('#company-recommendation-current-text').text(people[index].text)
     $('#company-recommendation-current-name').text(people[index].title)
+
   }
 });
