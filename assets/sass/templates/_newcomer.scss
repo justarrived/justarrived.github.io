@@ -29,3 +29,38 @@
 		}
 	}
 }
+
+.section--newcomer-faq {
+  background-color: $gray700;
+  color: $white;
+
+  .newcomer-faq-container {
+    padding-top:0 !important;
+
+    .section--newcomer-faq-left {
+  		padding-left: 8% !important;
+  		padding-right: 8% !important;
+  	}
+
+    .section-title {
+      color: $cerise;
+      margin-top: 50px;
+
+    }
+
+    .section-text {
+      margin-bottom: 100px;
+    }
+
+    .section-button {
+      margin-bottom: 50px;
+    }
+
+    .section-image {
+  		background-image:    url("/assets/images/v2/company-faq-bg.jpg");
+  	  background-size:     cover;
+  	  background-repeat:   no-repeat;
+  	  background-position: center center;
+    }
+  }
+}
