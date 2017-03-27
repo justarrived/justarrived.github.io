@@ -83,7 +83,7 @@ blog:
     som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade
     snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag
     är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och
-    har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av
+    har fler än 100 företag som använder vår tjänst kontinuerligt. Företaget ägs av
     fyra icke-vinstdrivande stiftelser, däribland <a href="http://norrskenfoundation.org">Norrsken
     Foundation</a>. Läs mer om <a href="https://justarrived.se">Just Arrived</a> här!
 top_banner:
@@ -108,8 +108,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
+  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
   cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived gör det enkelt för företag att engagera och anställa nyanlända.
@@ -184,7 +184,7 @@ our_product:
       att faktura skickas
     fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
       kostnader)
-    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
+    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
 say_hej:
   title: Säg Hej
   enquiries: Generella frågor
@@ -256,11 +256,11 @@ faq:
   newcomer:
     what:
       question: Vad behöver jag för att arbeta genom Just Arrived?
-      answer: "<b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
+      answer: <b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
         bankkonto. <br><b>Om du är asylsökande</b> då behöver du AT-UND under punkt
         7 på ditt LMA-kort, ett samordningsnummer från Skatteverket, och tillgång
         till ett svenskt bankkonto. <br><b> Om du är medborgare inom EU,</b> då behöver
-        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer."
+        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer.
     at_und:
       question: Vad är AT-UND?
       answer: AT-UND är ett undantag från lagen som säger att du behöver ett arbetstillstånd
@@ -527,15 +527,15 @@ newcomer_howto_section:
       och uppdateringar från Just Arrived.</p>
   profile:
     title: 2. Profil
-    body: "<p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
+    body: <p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
       via Just Arrived!</p><p>Se till att du fyller i all relevant information och
       alla dina olika kompetenser. Om din profil är tom så kommer du inte matchas
-      med några jobb.</p>"
+      med några jobb.</p>
   apply:
     title: 3. Sök jobb
-    body: "<p>Nu är det dags att börja söka jobb!</p><p>Sök till varje, och alla jobb
+    body: <p>Nu är det dags att börja söka jobb!</p><p>Sök till varje, och alla jobb
       du vill ha. Glöm inte att logga in ofta för att se om vi har lagt upp några
-      nya jobb!</p>"
+      nya jobb!</p>
 newcomer_faq_nudge:
   title: Vill du veta mer?
 our_customers:
@@ -605,11 +605,11 @@ xmas:
       title: Vi hör av oss
       body: 'Vi kommer kontakta dig i början av nästa år för att prata vidare om hur
         vi tillsammans kan hjälpa nyanlända få #enfotin.'
-    newcomer_first: "<b>Ta en bild</b> - Du tar en bild med din smartphone på din
-      fot med sko på (gärna vid en tröskel)."
-    newcomer_second: "<b>Lägg upp bilden i sociala medier</b> - Skriv en liten text
+    newcomer_first: <b>Ta en bild</b> - Du tar en bild med din smartphone på din fot
+      med sko på (gärna vid en tröskel).
+    newcomer_second: '<b>Lägg upp bilden i sociala medier</b> - Skriv en liten text
       om varför du tycker att det är viktigt att nyanlända får en fot in på arbetsmarknaden.
-      Glöm ej tagga med #enfotin!"
+      Glöm ej tagga med #enfotin!'
   register_section:
     campaign_closed: Den här kampanjen är avslutad.
     title: Vad väntar du på?
