@@ -5,10 +5,17 @@
     <p style="color: white;">
       Matcha med rätt medarbetare idag. Fyll i dina uppgifter så tar vi kontakt
     </p>
-    <input style="width: 100%;" type="text" name="" placeholder="Kontorsassistent">
-    <input style="width: 48%; display: inline-block; float: left;" type="text" name="" placeholder="Andreas König">
-    <input style="width: 48%; display: inline-block; float: right;" type="text" name="" placeholder="Just Arrived">
-    <a style="float: right;" class="primary-btn btn-large post-now-button">Post now</a>
+    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+      <input type=hidden name="oid" value="00D58000000cNvl">
+      <input type=hidden name="retURL" value="{{ site.company_submission_redirect_url }}" id="salesforce_retURL">
+      <input type=hidden name="lead_source" value="Web">
+
+      <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-post">
+      <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Namn">
+      <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Företagsnamn">
+      <submit style="float: right;" class="primary-btn btn-large post-now-button">Post now</submit>
+    </form>
   </div>
 
 </div>
