@@ -710,3 +710,28 @@
     }
   }
 }
+
+// Design of newcomer section in startpage
+.startpage-newcomer {
+  min-height: 760px;
+  background-image:    url("/assets/images/bgs/startpage-newcomer.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  padding-right: 8%   !important;
+  padding-left:  8%   !important;
+  padding-top:   8em  !important;
+  color: black        !important;
+
+  .newcomer-description {
+    max-width: 760px;
+  }
+
+  h2 {
+    color: $cerise;
+  }
+
+  @media(max-width: 500px) {
+    text-align: center;
+  }
+}
