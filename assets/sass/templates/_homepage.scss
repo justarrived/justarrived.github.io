@@ -735,3 +735,25 @@
     text-align: center;
   }
 }
+
+// design for the company section in the startpage
+.startpage-company {
+  text-align: right;
+  min-height: 760px;
+  background-image:    url("/assets/images/bgs/startpage-company.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  padding-right: 8%   !important;
+  padding-left:  8%   !important;
+  padding-top:   8em  !important;
+  color: black        !important;
+
+  h2 {
+    color: $cerise;
+  }
+
+  @media(max-width: 500px) {
+    text-align: center;
+  }
+}
