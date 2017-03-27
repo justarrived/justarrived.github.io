@@ -28,17 +28,17 @@
       outline: 0;
       white-space: nowrap;
       & .inactive {
-        color: $white;
+        color: $stone-dark;
       }
     }
 
     & span {
       border-radius: 6px;
-      color: $stone-dark;
+      color: $white;
       cursor: pointer;
       padding: 0.5em;
       &:hover {
-        color: #fff;
+        color: $white;
       }
     }
   }
