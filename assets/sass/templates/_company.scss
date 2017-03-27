@@ -11,7 +11,7 @@
 		margin-right: 8%;
 		max-width: 450px;
 		height: 100%;
-		padding-top: 80px;
+		padding-top: 15px;
 
 		h2 {
 			color: white;
@@ -222,10 +222,11 @@
 .section--companies-grid {
   text-align: center;
   color: $cerise;
+	background-color: $white;
 
   .company-grid-container {
     .company-grid-cell {
-      height: 400px;
+      height: 200px;
   		padding: 0 !important;
 
       .company-grid-cell-overlay {
@@ -472,6 +473,12 @@
       display: block;
     }
   }
+}
+
+.mobile-hidden {
+	@media (max-width: 500px) {
+		display: none !important;
+	}
 }
 
 .company-small-bottom-border {
