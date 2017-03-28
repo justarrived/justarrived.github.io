@@ -2,11 +2,10 @@
   <div class="ui grid two column equal width stackable homepage_top_banner_v2_bottom_container">
     <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_left">
       <h2>
-        Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
+        {% t top_banner.tag_line %}
       </h2>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        {% t top_banner.tag_line_description %}
       </p>
     </div>
 
@@ -15,15 +14,15 @@
         <div class="column cta-wrapper">
           <img class="cta-img" src="{{ "/assets/images/social-media/twitter.png" | prepend: site.github.url }}">
           <div class="cta-text">
-            <h4>Nyanländ</h4>
-            <p>Registrera</p>
+            <h4>{% t top_banner.newcomer %}</h4>
+            <p>{% t top_banner.register %}</p>
           </div>
         </div>
         <div class="column cta-wrapper">
           <img class="cta-img" src="{{ "/assets/images/social-media/twitter.png" | prepend: site.github.url }}">
           <div class="cta-text">
-            <h4>Företag</h4>
-            <p>Skapa jobb</p>
+            <h4>{% t top_banner.company %}</h4>
+            <p>{% t top_banner.create_job %}</p>
           </div>
         </div>
       </div>

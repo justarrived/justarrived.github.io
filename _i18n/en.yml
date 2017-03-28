@@ -77,17 +77,12 @@ blog:
   about_us_post_footer: <strong>Just Arrived</strong> erbjuder företag en tjänst som gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av fyra icke-vinstdrivande stiftelser, däribland <a href="http://norrskenfoundation.org">Norrsken Foundation</a>. Läs mer om <a href="https://justarrived.se">Just Arrived</a> här!
 
 top_banner:
-  title: We give newcomers in Sweden a chance to enter the labor market
-  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
-  signup_for_job: Get started
-  newcomer_cta: I want a job
-
-tob_banner_v2:
-  tag_line: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
-  tag_line_description: "
-    Vi sammanför nyanlända med svenska företag som behöver hjälp med dagliga aktiviter.
-    Vår digitala plattform gör det enkelt för företag att lägga upp enkla uppdrag och tjänster
-    som sedan matchas med nyanlända som söker jobb."
+  tag_line: We give newcomers in Sweden a chance to enter the labor market
+  tag_line_description: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
+  newcomer: Newcomer
+  register: Register
+  company: Company
+  create_job: Create job
 
 signup_modal:
   title: Indicate interest
@@ -371,19 +366,11 @@ faq:
       question: What happens after a job is completed?
       answer: After a job is completed, an invoice is sent together with a template for reference and rating of the service to the company. The purpose with the rating and reference is to allow the newcomer to create a new resume and reference list in Sweden.
 
-cta_bar:
-  company_title: For companies
-  company_cta_text: Learn how easy it is to hire through Just Arrived
-  company_cta_link_text: Get started
-  newcomer_title: For newcomers
-  newcomer_cta_text: Find out how Just Arrived can help you get a job in Sweden
-  newcomer_cta_link_text: Read more
-
-top_banner_company:
+startpage_company_section:
   title: We Match You With Newcomers Who Are Eager to Work
   subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
   subsubtitle: Why not hire through Just Arrived?
-
+  cta: Get started
 
 company_howto:
   cta: Register interest
