@@ -10,17 +10,17 @@ jQuery(document).ready(function($) {
 
   var people = [{
                   'title': 'Sara Brandt, Västbyhem',
-                  'text': 'First: För oss var det otroligt bra att anställa visa Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i sammhället.',
+                  'text': '{% t vasbyhem_testimonial.first_body %}',
                   'img': 'sara-brandt.jpg'
                 },
                 {
                   'title': 'Johnny Warström, VD, Mentimeter',
-                  'text': 'Second: För oss var det otroligt bra att anställa visa Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i sammhället.',
+                  'text': '{% t testimonials.mentimeter.first %}',
                   'img': 'johnny-warstrom.jpg'
                 },
                 {
                   'title': 'Fredrik Skytt, VD, Utbudet',
-                  'text': 'Third: För oss var det otroligt bra att anställa visa Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i sammhället.',
+                  'text': '{% t testimonials.utbudet.first %}',
                   'img': 'fredrik-skytt.png'
                 }]
 
