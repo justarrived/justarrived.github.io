@@ -134,11 +134,23 @@
 	.left-button {
 		float: right;
 		margin-right: 10px;
+		@media (max-width: 767px) {
+			float: none;
+			margin-right: 0px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	}
 
 	.right-button {
 		float: left;
 		margin-left: 10px;
+		@media (max-width: 767px) {
+			float: none;
+			margin-left: 0px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	}
 
 }
