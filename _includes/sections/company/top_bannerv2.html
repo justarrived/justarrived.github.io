@@ -1,9 +1,9 @@
 <div class="section--top_banner_v2">
 
   <div class="section--top_banner_v2-form-wrapper">
-    <h2>Skapa jobb och nå över 80 000 kandidater</h2>
+    <h2>{% t company_page.top_banner.title %}</h2>
     <p style="color: white;">
-      Matcha med rätt medarbetare idag. Fyll i dina uppgifter så tar vi kontakt
+      {% t company_page.top_banner.body %}
     </p>
     <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
@@ -11,10 +11,10 @@
       <input type=hidden name="retURL" value="{{ site.company_submission_redirect_url }}" id="salesforce_retURL">
       <input type=hidden name="lead_source" value="Web">
 
-      <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-post">
-      <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Namn">
-      <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Företagsnamn">
-      <submit style="float: right;" class="primary-btn btn-large post-now-button">Post now</submit>
+      <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-mail">
+      <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Name">
+      <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Company name">
+      <submit style="float: right;" class="primary-btn btn-large post-now-button">{% t company_page.top_banner.post_form %}</submit>
     </form>
   </div>
 
@@ -23,8 +23,8 @@
 <div class="section--top_banner_v2_bottom_container">
 
   <div class="button-text-wrapper">
-    <p class="mobile-hidden">Rätt medarbetare för era behov</p>
-    <a class="primary-btn btn-large post-now-button">Get in touch</a>
+    <p class="mobile-hidden">{% t company_page.top_banner.get_in_touch_text %}</p>
+    <a class="primary-btn btn-large post-now-button">{% t company_page.top_banner.get_in_touch_cta %}</a>
   </div>
 
 </div>

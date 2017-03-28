@@ -372,25 +372,36 @@ startpage_company_section:
   subsubtitle: Why not hire through Just Arrived?
   cta: Get started
 
-company_howto:
-  cta: Register interest
-  first:
-    title: 1. Register
-    first: Register your interest.
-    second: Fill out your company information.
-    third: We will get in touch with you and together we will create your customized job post.
-  second:
-    title: 2. Just Arrived matches
-    first: A matching process is initiated.
-    second: We conduct the interviews with potential candidates.
-    third: You can choose to conduct further interviews.
-    forth: You choose the candidate you want to proceed with.
-  third:
-    title: 3. Together we fulfill
-    first: The chosen candidate will start at the set date.
-    second: An invoice will be sent once the job has been completed.
-    third: We take care of salary, social fees, taxes and insurance.
-    forth: Rate and provide valuable feedback to the candidate.
+company_page:
+  top_banner:
+    title: Create jobs and reach over 80 000 candidates
+    body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
+    post_form: Post now
+    get_in_touch_text: The right competence for your needs
+    get_in_touch_cta: Get in touch
+  recommendations:
+    title: Recommendation
+  companies_information:
+    title: This is Just Arrived
+    cta: Create job now
+    first:
+      title: 1. Post Job
+      body: Lägg upp en uppdragsbeskrivning samt den kravprofil som krävs för jobbet. Därefter läggs uppdraget ut på vår plattform och ansökningarna kan börja. 
+    second:
+      title: 2. Accept candidate
+      body: De uppdrag som postas på vår plattform får ett högt antal sökande. Just Arrived tar fram de mest relevanta kandidaterna och utför intervjuer. Dessa kandidater presenteras sedan för uppdragsgivaren som får välja vem, eller vilka, kandidater som ska få uppdraget. 
+    third:
+      title: 3. Job gets performed
+      body: Efter en lyckad matchning utförs uppdraget. Just Arrived följer kontinuerligt upp utgången av uppdraget och våra erfarna konsultchefer finns med under hela processen. Allt för ett lyckat uppdrag!
+  common_jobs:
+    title: Our most common jobs
+    first: Support
+    second: Facility
+    third: Event
+    forth: Service
+    fifth: Commerce
+    sixth: And much more!
+
 
 tipsfabriken:
   top_banner:

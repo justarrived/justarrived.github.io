@@ -1,26 +1,26 @@
 <div class="ui grid section--companies-information">
   <div class="sixteen wide column title-container">
-    <h2>Det här är Just Arrived</h2>
+    <h2>{% t company_page.companies_information.title %}</h2>
     <div class="company-small-bottom-border"></div>
   </div>
 
 
   <div class="sixteen wide column stackable equal width row">
     <div class="column information-text-container">
-      <h3>1. Posta jobb</h3>
-      <p>Lägg upp en uppdragsbeskrivning samt den kravprofil som krävs för jobbet. Därefter läggs uppdraget ut på vår plattform och ansökningarna kan börja. </p>
+      <h3>{% t company_page.companies_information.first.title %}</h3>
+      <p>{% t company_page.companies_information.first.body %}</p>
     </div>
     <div class="column information-text-container">
-      <h3>2. Godkänn kandidat</h3>
-      <p> De uppdrag som postas på vår plattform får ett högt antal sökande. Just Arrived tar fram de mest relevanta kandidaterna och utför intervjuer. Dessa kandidater presenteras sedan för uppdragsgivaren som får välja vem, eller vilka, kandidater som ska få uppdraget. </p>
+      <h3>{% t company_page.companies_information.second.title %}</h3>
+      <p>{% t company_page.companies_information.second.body %}</p>
     </div>
     <div class="column information-text-container">
-      <h3>3. Uppdraget utförs</h3>
-      <p> Efter en lyckad matchning utförs uppdraget. Just Arrived följer kontinuerligt upp utgången av uppdraget och våra erfarna konsultchefer finns med under hela processen. Allt för ett lyckat uppdrag!z</p>
+      <h3>{% t company_page.companies_information.third.title %}</h3>
+      <p>{% t company_page.companies_information.third.body %}</p>
     </div>
   </div>
 
   <div class="sixteen wide column button-container">
-    <p class="border-btn border-btn--white-pink">Skapa jobb nu</p>
+    <p class="border-btn border-btn--white-pink">{% t company_page.companies_information.cta %}</p>
   </div>
 </div>
