@@ -387,13 +387,13 @@ company_page:
     cta: Create job now
     first:
       title: 1. Post Job
-      body: Lägg upp en uppdragsbeskrivning samt den kravprofil som krävs för jobbet. Därefter läggs uppdraget ut på vår plattform och ansökningarna kan börja. 
+      body: Upload a job description and the required profile for the job. The job is then added to our platform so the candidates can start applying for the job.
     second:
       title: 2. Accept candidate
-      body: De uppdrag som postas på vår plattform får ett högt antal sökande. Just Arrived tar fram de mest relevanta kandidaterna och utför intervjuer. Dessa kandidater presenteras sedan för uppdragsgivaren som får välja vem, eller vilka, kandidater som ska få uppdraget. 
+      body: The jobs that gets posted on our platform generally have a high application rate. Just Arrived sources the most suitable candidates for the job and perform interviews. These candidates are later presented to the job provider who gets to choose who will be offered the job.
     third:
       title: 3. Job gets performed
-      body: Efter en lyckad matchning utförs uppdraget. Just Arrived följer kontinuerligt upp utgången av uppdraget och våra erfarna konsultchefer finns med under hela processen. Allt för ett lyckat uppdrag!
+      body: After a successful matching the job is performed. Just Arrived monitors the process continuously during the job and our experienced staffing managers are there during the full process. Everything for a job performed successfully!
   common_jobs:
     title: Our most common jobs
     first: Support
