@@ -1,41 +1,32 @@
-<section class="
-  section--hero-v2
-  module
-  module--white
-  module--bg-gradient
-  module--bg-cover"
-  >
-
-  <video loop muted autoplay class="fullscreen-bg_video">
-      <!--<source src="video/big_buck_bunny.webm" type="video/webm">-->
-      <source src="../../assets/videos/JA_banner_video.mp4" type="video/mp4">
-      <!--<source src="video/big_buck_bunny.ogv" type="video/ogg">-->
-  </video>
-
-  <div class="bottom-section tag-line">
-    <h1>{% t tob_banner_v2.tag_line %}</h1>
-    <p>{% t tob_banner_v2.tag_line_description %}</p>
-  </div>
-
-  <div class="bottom-section action-buttons">
-    <div class="action-cta">
-      <div class="action-icon">
-        <i class="fa fa-users fa-2x"></i>
-      </div>
-      <div class="action-link">
-        <h3 class="title">Nyanlända</h3>
-        <p class="subtitle">Registrera</p>
-      </div>
+<div class="content section--top_banner_v2">
+  <div class="ui grid two column equal width stackable homepage_top_banner_v2_bottom_container">
+    <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_left">
+      <h2>
+        Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
+      </h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      </p>
     </div>
 
-    <div class="action-cta">
-      <div class="action-icon">
-        <i class="fa fa-briefcase fa-2x"></i>
-      </div>
-      <div class="action-link">
-        <h3 class="title">Företag</h3>
-        <p class="subtitle">Skapa job</p>
+    <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_right">
+      <div class="ui grid row two equal width stackable" style="text-align: center;">
+        <div class="column cta-wrapper">
+          <img class="cta-img" src="{{ "/assets/images/social-media/twitter.png" | prepend: site.github.url }}">
+          <div class="cta-text">
+            <h4>Nyanländ</h4>
+            <p>Registrera</p>
+          </div>
+        </div>
+        <div class="column cta-wrapper">
+          <img class="cta-img" src="{{ "/assets/images/social-media/twitter.png" | prepend: site.github.url }}">
+          <div class="cta-text">
+            <h4>Företag</h4>
+            <p>Skapa jobb</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
+</div>
