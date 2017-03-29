@@ -119,7 +119,7 @@ $job-card-padding: 15px;
       width: $job-card-width - 2 * $job-card-padding;
       font-weight: lighter;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 14px !important;
       color: $dark-hot-pink;
 
       .left { float: left; }
