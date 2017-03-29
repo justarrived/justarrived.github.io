@@ -25,11 +25,18 @@
       height: 80px;
       margin-bottom: 80px;
       cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
     }
 
     .cta-img {
+      position: relative;
+      top: 1em;
       width: 30%;
-      max-width: 40px;
+      max-width: 60px;
       height: auto;
       display: inline-block;
       text-align: center;
