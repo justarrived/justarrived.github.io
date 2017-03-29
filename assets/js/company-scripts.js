@@ -53,7 +53,6 @@ jQuery(document).ready(function($) {
     }, 1500);
 
     $('#company-recommendation-current-text').text(people[index].text)
-    $('#company-recommendation-current-name').text(people[index].title)
 
   }
 });
