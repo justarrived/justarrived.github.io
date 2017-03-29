@@ -1,5 +1,4 @@
 <div class="section--top_banner_v2">
-
   <div class="section--top_banner_v2-form-wrapper">
     <h2>{% t company_page.top_banner.title %}</h2>
     <p style="color: white;">
@@ -12,19 +11,10 @@
       <input type=hidden name="lead_source" value="Web">
 
       <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-mail">
+      <input style="width:100%;" type="number" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
       <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Name">
       <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Company name">
-      <submit style="float: right;" class="primary-btn btn-large post-now-button">{% t company_page.top_banner.post_form %}</submit>
+      <submit class="primary-btn btn-large post-now-button">{% t company_page.top_banner.post_form %}</submit>
     </form>
   </div>
-
-</div>
-
-<div class="section--top_banner_v2_bottom_container">
-
-  <div class="button-text-wrapper">
-    <p class="mobile-hidden">{% t company_page.top_banner.get_in_touch_text %}</p>
-    <a class="primary-btn btn-large post-now-button">{% t company_page.top_banner.get_in_touch_cta %}</a>
-  </div>
-
 </div>

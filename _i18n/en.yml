@@ -377,9 +377,8 @@ company_page:
   top_banner:
     title: Create jobs and reach over 80 000 candidates
     body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
-    post_form: Post now
-    get_in_touch_text: The right competence for your needs
     get_in_touch_cta: Get in touch
+    get_in_touch_text: The right competence for your needs
   recommendations:
     title: Recommendation
   companies_information:
