@@ -187,7 +187,21 @@
   }
 
   .company-recomendation-name-cell-active {
-    opacity: 1;
+		position: relative;
+		opacity: 1;
+
+		.triangle {
+			position: absolute;
+			bottom: 4.5em;
+			left: 50%;
+			margin-left: -15px;
+			transform: rotate(180deg);
+			border-color: transparent transparent $black transparent;
+	    border-style: solid;
+	    border-width: 0px 8px 8px 8px;
+	    height: 0px;
+	    width: 0px;
+		}
   }
 
   .section-footer {
