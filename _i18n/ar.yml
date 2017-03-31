@@ -395,7 +395,7 @@ newcomer_howto_section:
   register_cta: أنشئ حساباً
   register:
     title: 1.إبدأ
-    body: <p><a href="https://app.justarrived.se/user/register"> أنشئ حسابك </a>في
+    body: <p><a href="https://app.justarrived.se/register"> أنشئ حسابك </a>في
       جست أرايفد. اكمال طلب التسجيل يستغرق دقيقة واحدة وهو متاح لجميع القادمين الجدد
       و طالبي اللجوء. سوف يصلك أيضا أخبار و تحديثات من جست أرايفد بعد التسجيل معنا.
       </p>

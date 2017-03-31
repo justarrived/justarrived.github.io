@@ -521,7 +521,7 @@ newcomer_howto_section:
   register_cta: Skapa ett konto
   register:
     title: 1. Kom igång
-    body: <p><a href="https://app.justarrived.se/user/register">Skapa ditt konto</a>
+    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a>
       på Just Arrived. Registreringen tar en minut att göra färdigt och kan göras
       av alla nyanlända och asylsökande. Efter registreringen kommer du också få nyheter
       och uppdateringar från Just Arrived.</p>
