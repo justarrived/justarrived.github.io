@@ -8,7 +8,7 @@
     <p>{% t startpage_company_section.subtitle %}</p>
     <p>{% t startpage_company_section.subsubtitle %}</p>
 
-    <a href="https://justarrived.se/company/" class="primary-btn btn-large">
+    <a href="{{ "/company/" | prepend: site.baseurl }}"" class="primary-btn btn-large">
       {% t startpage_company_section.cta %}
     </a>
 
