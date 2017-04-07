@@ -44,11 +44,19 @@ $on-laptop:        800px;
 // Import site styles
 @import "style";
 
-blockquote {
-  background-color: #f5f5f5;
+blockquote,
+.module--black blockquote p,
+.module--black blockquote p ol,
+.module--black blockquote p ul {
+  color: #E5007D;
+  font-weight: 200;
   margin: 0;
-  padding: 16px 20px;
+  padding: 10px 35px;
   margin: 10px 0;
+  font-family: $museo;
+  strong {
+    font-weight: 400;
+  }
 }
 
 // Force formatted numbers to be displayed left-to-right
