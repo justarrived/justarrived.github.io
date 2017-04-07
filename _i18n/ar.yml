@@ -12,7 +12,7 @@ global:
   thank_you: شكراً جزيلاً
   company_faq: الأسئلة الشائعة للشركات
   newcomer_faq: الأسئلة الشائعة للوافدين الجدد
-  read_more: اقرأ المزيد
+  read_more: إقرأ المزيد في التعليمات
   contact_us: اتصل بنا
   example_jobs: مختارات من وظائفنا الحالية
   example_company_jobs: مختارات من وظائفنا الحالية
@@ -20,6 +20,12 @@ global:
   more_company_info: معلومات عن الشركة
   apply: تسجيل الطلب
   or: أو
+page_not_found:
+  title: نعتذر لم نجد هذه الصفحة
+  body: 'لقد حاولنا جاهدين ولكن لم نجد هذه الصغحة. إذا كنت تعتقد أنه خطأ من جانبنا،
+    الذي من الممكن أنه قد يكون كذلك، الرجاء التواصل معنا عبر البريد الإلكتروني: <a
+    href="mailto:hej@justarrived.se">hej@justarrived.se</a>.'
+  link_line: يمكنك الذهاب دائماً إلى الصفحة الرئيسية <a href="https://justarrived.se/">startpage</a>.
 form:
   submit: ارسال
   email: البريد الالكتروني *
@@ -32,6 +38,7 @@ form:
   company_org_number: رقم الشركة
   company_logo_link: رابط شعار الشركة
   address: العنوان
+  zip: الرمز البريدي
   ssn: الرقم الشخصي
   languages: اللغة
   competencies: الإختصاصات
@@ -61,6 +68,8 @@ nav:
   promo_code_signin: تسجيل الدخول مع الرمز الترويجي
   about_us: عن الشركة
   login: تسجيل الدخول
+  companies: الشركات
+  newcomers: الوافدين
   blog: المدونة
   faq: الأسئلة الشائعة
 top_banner:
@@ -292,7 +301,6 @@ startpage_company_section:
     في حاجة إلى مساعدين أو أشخاص للفعاليات أو أي شخص يمكن أن يساعدك في الاحتياجات
     المحددة الخاصة بك؟
   subsubtitle: لما لا توظف من خلال Just Arrived؟
-  cta: إبدأ
 tipsfabriken:
   form:
     first_name: الاسم الصغير
@@ -369,10 +377,6 @@ newcomer_howto_section:
   register_cta: أنشئ حساباً
   register:
     title: 1.إبدأ
-    body: <p><a href="https://app.justarrived.se/user/register"> أنشئ حسابك </a>في
-      جست أرايفد. اكمال طلب التسجيل يستغرق دقيقة واحدة وهو متاح لجميع القادمين الجدد
-      و طالبي اللجوء. سوف يصلك أيضا أخبار و تحديثات من جست أرايفد بعد التسجيل معنا.
-      </p>
   profile:
     title: '2.الملف الشخصي '
     body: <p>هذا الشيء الأكثر أهمية لزيادة فرصك في الحصول على عمل من خلال جست أرايفد

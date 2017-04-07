@@ -12,7 +12,7 @@ global:
   thank_you: Tack!
   company_faq: FöretagsFAQ
   newcomer_faq: FAQ för nyanlända
-  read_more: Läs mer
+  read_more: Läs mer på FAQ
   contact_us: Kontakta oss
   example_jobs: Aktuella jobb
   example_company_jobs: Aktuella jobb
@@ -400,14 +400,13 @@ startpage_company_section:
     ditt (eller andras) jobb? Är du i behov av assistans, hjälp till event eller någon
     som kan hjälpa er?
   subsubtitle: Varför inte anställa genom Just Arrived?
-  cta: Kom igång
+  cta: Mer information
 company_page:
   top_banner:
     title: Skapa ett jobb och nå över 80 000 kandidater
     body: "Matcha med rätt medarbetare. Fyll i dina uppgifter så tar vi kontakt \L"
-    post_form: Posta nu
-    get_in_touch_text: Rätt medarbetare för era behov
     get_in_touch_cta: Kom i kontakt
+    get_in_touch_text: Rätt medarbetare för era behov
   recommendations:
     title: Rekommendation
   companies_information:
@@ -530,10 +529,10 @@ newcomer_howto_section:
   register_cta: Skapa ett konto
   register:
     title: 1. Kom igång
-    body: <p><a href="https://app.justarrived.se/user/register">Skapa ditt konto</a>
-      på Just Arrived. Registreringen tar en minut att göra färdigt och kan göras
-      av alla nyanlända och asylsökande. Efter registreringen kommer du också få nyheter
-      och uppdateringar från Just Arrived.</p>
+    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a> på
+      Just Arrived. Registreringen tar en minut att fullfölja och är öppen för alla
+      nyanlända och asylsökande. Du kommer också få nyheter och uppdateringar från
+      Just Arrived efter din registrering.</p>
   profile:
     title: 2. Profil
     body: <p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
