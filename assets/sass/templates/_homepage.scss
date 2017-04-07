@@ -785,7 +785,11 @@
   color: black        !important;
 
   .newcomer-description {
-    max-width: 760px;
+    word-wrap: break-word;
+    padding-right: 20%;
+    @media(max-width: 768px) {
+      padding-right: 0px;
+    }
   }
 
   h2 {
@@ -809,6 +813,16 @@
   padding-left:  8%   !important;
   padding-top:   8em  !important;
   color: black        !important;
+
+  .company-description {
+    word-wrap: break-word;
+    padding-left: 20%;
+
+    @media(max-width: 768px) {
+      padding-left: 0px;
+    }
+
+  }
 
   h2 {
     color: $cerise;
