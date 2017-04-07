@@ -6,19 +6,27 @@
 .homepage_top_banner_v2_bottom_container {
   min-height: 450px;
   height: 100%;
-  padding-left: 8% !important;
-  padding-right: 8% !important;
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
   color: $white;
 
   .homepage_top_banner_v2_bottom_container_left {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+
+    text-align: left;
+
+    @media(max-width: 768px) {
+      text-align: center;
+    }
   }
 
   .homepage_top_banner_v2_bottom_container_right {
-
-    padding-top: 40px !important;
     padding-bottom: 40px !important;
+
+    @media(max-width: 768px) {
+      padding-bottom: 80px !important;
+    }
 
     .cta-wrapper {
       width: 200px;
