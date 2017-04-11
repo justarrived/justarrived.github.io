@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
     $('.company-recomendation-name-cell').removeClass('company-recomendation-name-cell-active');
     $('#p' + index).addClass('company-recomendation-name-cell-active');
 
-    $('#profile-image').css('background-image', 'url(../assets/images/profile-pictures/' + people[index].img + ')')
+    $('#profile-image').css('background-image', 'url(/assets/images/profile-pictures/' + people[index].img + ')')
     $('#profile-image').toggleClass('profile-circle-animation');
 
     setTimeout(function(){
