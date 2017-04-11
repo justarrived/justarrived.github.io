@@ -1,0 +1,35 @@
+<div class="ui grid section--newcomer-how_it_works">
+  <div class="sixteen wide column how_it_works_header">
+    <h2>{% t newcomer_howto_section.title %}</h2>
+    <div class="company-small-bottom-border"></div>
+  </div>
+
+  <div class="equal width stackable row">
+    <div class="column">
+      <img class="how_it_works_icon" src="{{ "/assets/images/v2/how_it_works_icon-1.png" | prepend: site.github.url }}">
+      <h3 class="how_it_works_img_header">{% t newcomer_howto_section.register.title %}</h3>
+      {% t newcomer_howto_section.register.body %}
+    </div>
+    <div class="column">
+      <img class="how_it_works_icon" src="{{ "/assets/images/v2/how_it_works_icon-2.png" | prepend: site.github.url }}">
+      <h3 class="how_it_works_img_header">{% t newcomer_howto_section.profile.title %}</h3>
+      {% t newcomer_howto_section.profile.body %}
+    </div>
+    <div class="column">
+      <img class="how_it_works_icon" src="{{ "/assets/images/v2/how_it_works_icon-3.png" | prepend: site.github.url }}">
+      <h3 class="how_it_works_img_header">{% t newcomer_howto_section.apply.title %}</h3>
+      {% t newcomer_howto_section.apply.body %}
+    </div>
+  </div>
+
+  <div class="equal width row stackable">
+    <div class="column">
+      <a class="primary-btn btn-large left-button" href="https://app.justarrived.se/jobs">{% t newcomer_howto_section.jobs_cta %}</a>
+    </div>
+
+    <div class="column">
+      <a class="primary-btn btn-large right-button" href="https://app.justarrived.se/register">{% t newcomer_howto_section.register_cta %}</a>
+    </div>
+  </div>
+
+</div>

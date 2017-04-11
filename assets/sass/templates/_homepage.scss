@@ -1,3 +1,152 @@
+.section--home_page_top_banner_v2 {
+
+
+}
+
+.homepage_top_banner_v2_bottom_container {
+  min-height: 450px;
+  height: 100%;
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  color: $white;
+
+  .homepage_top_banner_v2_bottom_container_left {
+
+    text-align: left;
+
+    @media(max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  .homepage_top_banner_v2_bottom_container_right {
+    padding-bottom: 40px !important;
+
+    @media(max-width: 768px) {
+      padding-bottom: 80px !important;
+    }
+
+    .cta-wrapper {
+      width: 200px;
+      height: 80px;
+      margin-bottom: 80px;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    .cta-img {
+      position: relative;
+      top: 1em;
+      width: 30%;
+      max-width: 60px;
+      height: auto;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .cta-text {
+      width: 60%;
+      height: auto;
+      max-width: 120px;
+      display: inline-block;
+      text-align: left;
+
+      h4 {
+        margin: 0px;
+      }
+
+      p {
+        margin: 0px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.section--hero-v2 {
+  width: 100%;
+  height: calc((100vw - 200px) * 0.5625);
+  background-image:    url("/assets/videos/JA_banner_video_first_frame.png");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+
+  h1 {
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+  }
+  p {
+    padding: 5px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .bottom-section {
+    width: 50%;
+  }
+
+  .tag-line {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 6%;
+  }
+
+  .action-buttons {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+  }
+
+  @media (max-width: 1000px) {
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin: 0;
+      padding-top: 30%;
+    }
+    p {
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .tag-line {
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .bottom-section {
+      width: 100%;
+    }
+
+    .action-buttons {
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      text-align: right;
+      padding: 0;
+    }
+  }
+}
+
+// v1
 .section--hero {
 	text-align: center;
 	background-position: left center;
@@ -590,4 +739,96 @@
 	    position: relative;
 	    top: 2px;
 	}
+}
+
+// Action links
+.action-cta {
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 6%;
+  width: 49%;
+
+  .action-icon {
+    display: inline-block;
+    margin-top: 12px;
+    vertical-align: top;
+  }
+
+  .action-link {
+    padding-left: 20px;
+    display: inline-block;
+
+    .title {
+      font-size: 26px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+// Design of newcomer section in startpage
+.startpage-newcomer {
+  min-height: 760px;
+  background-image:    url("/assets/images/bgs/startpage-newcomer.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  padding-right: 8%   !important;
+  padding-left:  8%   !important;
+  padding-top:   8em  !important;
+  color: black        !important;
+
+  .newcomer-description {
+    word-wrap: break-word;
+    padding-right: 20%;
+    @media(max-width: 768px) {
+      padding-right: 0px;
+    }
+  }
+
+  h2 {
+    color: $cerise;
+  }
+
+  @media(max-width: 500px) {
+    text-align: center;
+  }
+}
+
+// design for the company section in the startpage
+.startpage-company {
+  text-align: right;
+  min-height: 760px;
+  background-image:    url("/assets/images/bgs/startpage-company.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  padding-right: 8%   !important;
+  padding-left:  8%   !important;
+  padding-top:   8em  !important;
+  color: black        !important;
+
+  .company-description {
+    word-wrap: break-word;
+    padding-left: 20%;
+
+    @media(max-width: 768px) {
+      padding-left: 0px;
+    }
+
+  }
+
+  h2 {
+    color: $cerise;
+  }
+
+  @media(max-width: 500px) {
+    text-align: center;
+  }
 }

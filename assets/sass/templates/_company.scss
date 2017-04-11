@@ -1,3 +1,56 @@
+.section--top_banner_v2 {
+	min-height: 450px;
+
+	background-image:    url("/assets/images/v2/top-banner-bg.jpg");
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+
+	.section--top_banner_v2-form-wrapper {
+		margin-left: 8%;
+		margin-right: 8%;
+		max-width: 450px;
+		height: 100%;
+		padding-top: 30px;
+
+		h2 {
+			color: white;
+		}
+
+		input {
+			margin-bottom: 20px;
+			background-color: rgba(0, 0, 0, 0.5);
+			border: 1px solid white;
+			border-radius: 20px;
+			display: inline-block !important;
+		}
+
+	}
+
+}
+
+.section--top_banner_v2_bottom_container {
+	height: 80px;
+	margin-top: -80px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	.button-text-wrapper {
+		text-align: center;
+		padding-top: 15px;
+
+		p {
+			color: white;
+			display:inline-block;
+			margin-right: 10px;
+		}
+
+		a {
+			display:inline-block;
+			margin-left: 10px;
+		}
+	}
+}
+
 .section--company-banner {
 	& .wrap {
 		max-width: 700px;
@@ -7,6 +60,410 @@
 	}
 }
 
+.section--company-recommendation {
+  background-color: $background-color;
+
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
+	#company-recommendation-current-text {
+			padding-bottom: 4em;
+			max-width: 860px;
+			text-align: center;
+			margin: 0 auto;
+	}
+
+	.profile-circle {
+    height: 135px;
+    width: 135px;
+    background-size: cover;
+    border-radius: 500px;
+    margin: 0 auto;
+    background-image: url(../images/profile-pictures/sara-brandt.jpg);
+  }
+
+	.profile-circle-animation {
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: animationFrames ease 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: animationFrames ease 1s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: animationFrames ease 1s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes animationFrames{
+  0% {
+    opacity:0;
+    transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -o-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -ms-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
+  .section-title-container {
+    text-align: center;
+    margin-top: 50px;
+
+    .section-title {
+      color: $cerise;
+    }
+  }
+
+  .company-recomendation-name-cell {
+    border-color: $cerise;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+
+    .title-cell {
+      width: 100%;
+
+      h4 {
+        color: $black;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+    }
+
+    .center-border-title-cell {
+      @media(min-width: 768px) {
+        border-left: 1px solid $cerise;
+        border-right: 1px solid $cerise;
+      }
+    }
+  }
+
+  .company-recomendation-name-cell-active {
+		position: relative;
+		opacity: 1;
+
+		.triangle {
+			position: absolute;
+			bottom: 4.5em;
+			left: 50%;
+			margin-left: -15px;
+			transform: rotate(180deg);
+			border-color: transparent transparent $black transparent;
+	    border-style: solid;
+	    border-width: 0px 8px 8px 8px;
+	    height: 0px;
+	    width: 0px;
+		}
+  }
+
+  .section-footer {
+    text-align: center;
+    color: $black;
+    margin-bottom: 50px;
+  }
+}
+
+.section--companies-information {
+  background: url(/assets/images/v2/company-information-section-bg.jpg) no-repeat;
+  background-size: cover;
+  color: $white;
+
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
+  .title-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .information-text-container {
+    text-align: center;
+  }
+}
+
+.section--companies-grid {
+  text-align: center;
+  color: $cerise;
+	background-color: $white;
+
+  .company-grid-container {
+    .company-grid-cell {
+      height: 200px;
+  		padding: 0 !important;
+
+      .company-grid-cell-overlay {
+        position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        vertical-align: middle;
+
+        .company-grid-cell-overlay-container {
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 85%;
+          width: 85%;
+          border: 2px solid rgba(255, 255, 255, 0.8);
+
+          .company-grid-cell-overlay-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .company-grid-cell-one {
+      background: url(/assets/images/v2/company-grid-1-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .company-grid-cell-two {
+      background: url(/assets/images/v2/company-grid-2-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .company-grid-cell-three {
+      background: url(/assets/images/v2/company-grid-3-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .company-grid-cell-four {
+      background: url(/assets/images/v2/company-grid-4-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .company-grid-cell-five {
+      background: url(/assets/images/v2/company-grid-5-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .company-grid-cell-six {
+      background: url(/assets/images/v2/company-grid-6-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.section--company-post-job-container {
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+	margin-top: 0 !important;
+	padding-top: 100px !important;
+	padding-bottom: 60px !important;
+
+	background-image:    url("/assets/images/v2/company-form-background.jpg");
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+
+  .post-job-image-container {
+    margin-bottom: 20px;
+
+    .post-job-image {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+
+  	}
+  }
+
+	.single-input-container {
+		.double-input-left {
+			width: 47%;
+			display:inline-block;
+			float: left;
+		}
+		.double-input-right {
+			width: 47%;
+			display:inline-block;
+			float: right;
+		}
+	}
+
+	input {
+		margin-bottom: 40px;
+		background-color: $gray700;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+
+	textarea {
+		padding-top: 4px;
+		resize: none;
+		min-height: 200px;
+		background-color: $gray700;
+		border: 1px solid white;
+		border-radius: 10px;
+		// a focused input (or hovered on)
+	  &:focus,
+	  &:active {
+	    background-color: lighten($gray, 4%);
+	    outline: none;
+	  } // end hover or focus
+
+	  // error notification
+	  &.error,
+	  &.is-invalid {
+	    background-position: 99% center;
+	    background-repeat: no-repeat;
+	    outline-color: $alert-red;
+	  } // end invalid input
+
+	  // success notification
+	  &.success,
+	  &.is-valid {
+	    color: $alert-green;
+	    border-color: $alert-green;
+	    background-color: $white;
+	    background-position: 99% center;
+	    background-repeat: no-repeat;
+	    outline-color: $alert-green;
+	  } // end valid input
+
+	  // a disabled input
+	  &[disabled],
+	  &.is-disabled {
+	    cursor: not-allowed;
+	    border-color: $disabled-gray;
+	    opacity: 0.6;
+
+	    &:focus,
+	    &:active {
+	      background-color: $alert-blue;
+	    } // end disabled focus
+
+	  }
+	}
+
+	.form-post-now-button-container {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+}
+
+.section--what-we-offer {
+  background-color: $white;
+  text-align: center;
+
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+
+  .section-title {
+    color: $cerise;
+    margin-top: 50px;
+  }
+
+  .section-subtitle {
+    color: $black;
+  }
+	.what_we_offer_info_text {
+		margin-bottom: 50px;
+	}
+
+}
+
+.section--company-faq {
+  background-color: $gray700;
+  color: $white;
+
+  .company-faq-container {
+    padding-top:0 !important;
+
+    .section--company-faq-left {
+  		padding-left: 8% !important;
+  		padding-right: 8% !important;
+  	}
+
+    .section-subtitle {
+      margin-top: 70px;
+    }
+
+    .section-text {
+      margin-bottom: 100px;
+    }
+
+    .section-button {
+      margin-bottom: 50px;
+    }
+
+    .section-image {
+  		background-image:    url("/assets/images/v2/company-faq-bg.jpg");
+  	  background-size:     cover;
+  	  background-repeat:   no-repeat;
+  	  background-position: center center;
+    }
+  }
+}
 
 .section--our-customers {
   & .title {
@@ -33,6 +490,21 @@
       display: block;
     }
   }
+}
+
+.mobile-hidden {
+	@media (max-width: 500px) {
+		display: none !important;
+	}
+}
+
+.company-small-bottom-border {
+  margin-top: 20px;
+  width: 40px;
+  height: 1px;
+  background-color: $cerise;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .company-submit-interest-button {

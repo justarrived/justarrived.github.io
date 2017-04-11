@@ -169,6 +169,10 @@
   background-color: $charcoal;
 }
 
+.section--hero.module--bg-gradient, .module--bg-gradient {
+  background: linear-gradient(141deg, #E5007D 0%, #E5007D 51%, #CE0070 75%);
+}
+
 .module__overlay {
   position: absolute;
   width: 100%;

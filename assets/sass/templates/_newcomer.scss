@@ -6,3 +6,149 @@
 		margin-top: 1em;
 	}
 }
+
+.newcommer--top_banner_text {
+	max-width: 900px;
+	height: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+	position: relative;
+
+	.newcommer--top_banner_text_wrapper {
+		min-height: 100px;
+		margin-bottom: 20px;
+		position: absolute;
+		bottom: 0;
+
+		h2 {
+			color: white;
+		}
+
+		p {
+			color: white;
+		}
+	}
+}
+
+
+
+.section--newcomer-faq {
+  background-color: $gray700;
+  color: $white;
+
+  .newcomer-faq-container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    .section--newcomer-faq-left {
+  		padding-left: 8% !important;
+  		padding-right: 8% !important;
+  	}
+
+    .section-subtitle {
+      margin-top: 70px;
+    }
+
+    .section-text {
+      margin-bottom: 100px;
+    }
+
+    .section-button {
+      margin-bottom: 50px;
+    }
+
+    .section-image {
+  		background-image:    url("/assets/images/v2/company-faq-bg.jpg");
+  	  background-size:     cover;
+  	  background-repeat:   no-repeat;
+  	  background-position: center center;
+    }
+  }
+}
+
+.section--newcomer-contact-us {
+  background-color: $white;
+  text-align: center;
+
+	padding-left: 16% !important;
+	padding-right: 16% !important;
+
+  .section-title {
+    color: $black;
+    margin-top: 50px;
+  }
+
+  .section-subtitle {
+    color: $cerise;
+  }
+
+  .profile-container {
+    padding-bottom: 50px !important;
+
+    .profile-image {
+      height: 161px;
+      width: 141px;
+      margin: auto;
+    }
+
+    .profile-title {
+      color: $cerise;
+      margin-bottom: 0px;
+    }
+
+    .profile-subtitle {
+      color: $cerise;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+    .profile-text {
+      color: $gray300;
+      text-decoration: none;
+    }
+  }
+}
+
+.section--newcomer-how_it_works {
+	background-color: white;
+	text-align: center;
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+
+	.how_it_works_header {
+		color: $black;
+	}
+
+	.how_it_works_img_header {
+		color: $black;
+	}
+
+	.how_it_works_icon {
+		margin-left: 20px;
+		width: 100px;
+		height: auto;
+	}
+
+	.left-button {
+		float: right;
+		margin-right: 10px;
+		@media (max-width: 767px) {
+			float: none;
+			margin-right: 0px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.right-button {
+		float: left;
+		margin-left: 10px;
+		@media (max-width: 767px) {
+			float: none;
+			margin-left: 0px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+
+}

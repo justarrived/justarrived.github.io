@@ -2,47 +2,10 @@
 layout: default
 ---
 
-{% include sections/company/top_banner.html %}
-{% include sections/our_customers.html %}
-{% include sections/company/howto.html %}
-{% include sections/company/why_us.html %}
-{% include sections/company/what_we_offer.html %}
-
-{% capture quote_body %}{% t vasbyhem_testimonial.first_body %}{% endcapture %}
-{%
-  include sections/testimonial.html
-  background="blue"
-  author="Sara Brandt, Väsbyhem"
-  profile_image_class="sara-brandt"
-  body=quote_body
-%}
-{% include sections/geo_availability.html %}
-
-
-<!-- <section class="
-  module
-  module--padding
-  module--white
-  module--secondary-bg">
-  <div class="wrap">
-    <div class="
-    module-content
-    module-content--centered
-    module--txt-c
-    ">
-      <h2 class="bordered bordered--white">{% t company_faq_nudge.title %}</h2>
-      <p>
-        <a href="/faq/company" class="border-btn btn-large border-btn--white border-btn--white-blue">
-          {% t global.company_faq %}
-        </a>
-        <a href="#" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
-          {% t global.contact_us %}
-        </a>
-      </p>
-    </div>
-  </div>
-</section> -->
-
-{% capture job_cards_title %}{% t global.example_company_jobs %}{% endcapture %}
-{% include sections/job_cards.html title=job_cards_title %}
-{% include sections/company/contact_us.html %}
+{% include sections/company/top_bannerv2.html %}
+{% include sections/company/recommendations.html %}
+{% include sections/company/companies_information.html %}
+{% include sections/company/company_grid.html %}
+{% include sections/company/post_job_form.html %}
+{% include sections/company/what_we_offerv2.html %}
+{% include sections/company/company_faq.html %}

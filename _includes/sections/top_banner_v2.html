@@ -1,0 +1,35 @@
+<div class="content section--top_banner_v2">
+  <div class="ui grid two column equal width stackable homepage_top_banner_v2_bottom_container">
+    <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_left">
+      <h2>
+        {% t top_banner.tag_line %}
+      </h2>
+      <p>
+        {% t top_banner.tag_line_description %}
+      </p>
+    </div>
+
+    <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_right">
+      <div class="ui grid row two equal width stackable" style="text-align: center;">
+        <div class="column cta-wrapper">
+          <a href="https://app.justarrived.se/register?utm_source=justarrivedse&utm_medium=startpage">
+            <img class="cta-img" src="{{ "/assets/images/icons/newcomer-icon.png" | prepend: site.github.url }}">
+            <div class="cta-text">
+              <h4>{% t top_banner.newcomer %}</h4>
+              <p>{% t top_banner.register %}</p>
+            </div>
+          </a>
+        </div>
+        <div class="column cta-wrapper">
+          <a href="{{ "/company/" | prepend: site.baseurl }}"">
+            <img class="cta-img" src="{{ "/assets/images/icons/company-icon.png" | prepend: site.github.url }}">
+            <div class="cta-text">
+              <h4>{% t top_banner.company %}</h4>
+              <p>{% t top_banner.create_job %}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

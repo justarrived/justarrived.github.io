@@ -1,6 +1,6 @@
 $job-card-width: 280px;
-$job-card-desktop-width: 240px;
-$job-card-tablet-width: 212px;
+$job-card-desktop-width: 360px;
+$job-card-tablet-width: 280px;
 $job-card-padding: 15px;
 
 .job-cards-list {
@@ -14,9 +14,29 @@ $job-card-padding: 15px;
   max-width: $job-card-width * 4 + 60;
   text-align: center;
 
-  @media (min-width: 768px) and (max-width: 1125px) {
+  @media (max-width: 1125px) {
     .job-cards-list li:last-child .job-card {
       display: none;
+    }
+    .job-card {
+      border: none !important;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .job-cards-list {
+      .job-card {
+
+        margin: 0 auto;
+
+        &:first-child {
+          margin-bottom: 3em;
+          // border-bottom: 1px solid $gray !important;
+        }
+      }
+      & li {
+        display: inline;
+      }
     }
   }
 }
@@ -24,17 +44,17 @@ $job-card-padding: 15px;
 .job-card {
   color: $black;
   text-align: left;
-  height: 350px;
+  height: 250px;
   cursor: pointer;
-  width: $job-card-width;
   padding: $job-card-padding;
   margin: 10px 5px;
+  width: $job-card-tablet-width;
   position: relative;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  border-right: 1px solid $gray !important;
+
   vertical-align: top;
   @include tablet {
     display: inline-block;
-    width: $job-card-tablet-width;
     .job-header {
       h4 {
         font-size: 18px;
@@ -46,9 +66,9 @@ $job-card-padding: 15px;
   }
   .job-header {
     h4 {
-      font-size: 20px;
+      font-size: 24px;
       line-height: 23px;
-      color: $black;
+      color: $dark-hot-pink;
       //Constrain the hight and number of rows
       @include giveMeEllipsis(22px, 3);
     }
@@ -60,19 +80,21 @@ $job-card-padding: 15px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
-    @include tablet {
-      max-width: $job-card-tablet-width - 30px;
-    }
+
     @include desktop {
       max-width: $job-card-desktop-width - 30px;
     }
     span {
-      color: $dark-hot-pink;
-      font-weight: bold;
+      font-size: 16px;
+      color: $black;
+      font-weight: lighter;
       letter-spacing: normal;
     }
   }
   .emphasize-title {
+    text-transform: uppercase;
+    font-size: 16px;
+
     display: block;
     font-weight: 400;
     text-transform: uppercase;
@@ -86,51 +108,35 @@ $job-card-padding: 15px;
     font-size: 12px;
   }
   .job-description {
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: $black;
     position: absolute;
-    top: 10em;
+    top: 12em;
     margin-right: 10px;
   }
   .job-meta-info {
     position: absolute;
     top: 13em;
-    hr {
+
+    .details {
+      position: relative;
+      top: 1.5em;
       width: $job-card-width - 2 * $job-card-padding;
-      border: 1px solid $gray;
+      font-weight: lighter;
+      text-transform: uppercase;
+      font-size: 14px !important;
+      color: $dark-hot-pink;
+
+      .left { float: left; }
+      .right { float: right; }
+
       @include tablet {
+        font-size: 11px;
         width: $job-card-tablet-width - 2 * $job-card-padding;
       }
       @include desktop {
-        width: $job-card-desktop-width - 2 * $job-card-padding;
-      }
-    }
-    .total-amount {
-      font-weight: 400;
-      .amount {
-        color: $dark-hot-pink;
-        font-size: 48px;
-        font-weight: 400;
-        margin-right: 5px;
-      }
-      .currency {
-        font-size: 24px;
-        color: $stone-dark;
-      }
-      .details {
-        .left { float: left; }
-        .right { float: right; }
-        color: $stone-dark;
-        font-weight: bold;
-        text-transform: uppercase;
         font-size: 12px;
-        @include tablet {
-          font-size: 11px;
-        }
-        @include desktop {
-          font-size: 12px;
-        }
+        width: $job-card-desktop-width - 2 * $job-card-padding;
       }
     }
   }

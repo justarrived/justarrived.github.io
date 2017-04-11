@@ -1,0 +1,31 @@
+<div class="section--top_banner_v2">
+  <div class="section--top_banner_v2-form-wrapper">
+    <h2>{% t company_page.top_banner.title %}</h2>
+    <p style="color: white;">
+      {% t company_page.top_banner.body %}
+    </p>
+    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+      <input type=hidden name="oid" value="00D58000000cNvl">
+      <input type=hidden name="retURL" value="{{ site.company_submission_redirect_url }}" id="salesforce_retURL">
+      <input type=hidden name="lead_source" value="Web">
+
+      <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-mail">
+      <input style="width:100%;" type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
+      <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Name">
+      <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Company name">
+
+      <!-- prevent bot signups -->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
+      </div>
+
+      <div style="float:right;">
+        <input type="submit" value="{% t company_page.top_banner.get_in_touch_cta %}" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large">
+      </div>
+
+      <!-- <input type="submit" value="{% t company_page.top_banner.get_in_touch_cta %}" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large" style="float:right;"> -->
+
+    </form>
+  </div>
+</div>

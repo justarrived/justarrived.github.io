@@ -11,6 +11,7 @@ global:
   thank_you: Thank you!
   company_faq: Company FAQ
   newcomer_faq: Newcomer FAQ
+  read_more: Read more in our FAQ
   contact_us: Contact us
   example_jobs: A selection of our current jobs
   example_company_jobs: A selection of Our current jobs
@@ -68,8 +69,8 @@ nav:
   promo_code_signin: Sign in with promo code
   about_us: About us
   login: Login
-  companies: For companies
-  newcomers: For newcomers
+  companies: Companies
+  newcomers: Newcomers
   blog: Blog
   faq: FAQ
 
@@ -83,10 +84,12 @@ blog:
   about_us_post_footer: <strong>Just Arrived</strong> offers companies a service that makes it easy, fast and safe to hire newcomers. Just Arrived came to existance as a response to the large wave of migrants in 2015. The grassroots initiative rapidly engaged both businesses and individuals who wanted to create a tangible difference. Today we are 15 employees in the fast-growing, non-profit, limited liability company. Just Arrived has more than 100 companies using our service continuously. The company is owned by four non-profit foundations, including the <a href="http://norrskenfoundation.org">Norrsken Foundation</a>. Read more about <a href="https://justarrived.se">Just Arrived</a> here!
 
 top_banner:
-  title: We give newcomers in Sweden a chance to enter the labor market
-  subtitle: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
-  signup_for_job: Get started
-  newcomer_cta: I want a job
+  tag_line: We give newcomers in Sweden a chance to enter the labor market
+  tag_line_description: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
+  newcomer: Newcomer
+  register: Register
+  company: Company
+  create_job: Create job
 
 signup_modal:
   title: Indicate interest
@@ -370,39 +373,41 @@ faq:
       question: What happens after a job is completed?
       answer: After a job is completed, an invoice is sent together with a template for reference and rating of the service to the company. The purpose with the rating and reference is to allow the newcomer to create a new resume and reference list in Sweden.
 
-cta_bar:
-  company_title: For companies
-  company_cta_text: Learn how easy it is to hire through Just Arrived
-  company_cta_link_text: Get started
-  newcomer_title: For newcomers
-  newcomer_cta_text: Find out how Just Arrived can help you get a job in Sweden
-  newcomer_cta_link_text: Read more
-
-top_banner_company:
+startpage_company_section:
   title: We Match You With Newcomers Who Are Eager to Work
   subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
   subsubtitle: Why not hire through Just Arrived?
+  cta: Learn more
 
+company_page:
+  top_banner:
+    title: Create jobs and reach over 80 000 candidates
+    body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
+    get_in_touch_cta: Get in touch
+    get_in_touch_text: The right competence for your needs
+  recommendations:
+    title: Recommendation
+  companies_information:
+    title: This is Just Arrived
+    cta: Create job now
+    first:
+      title: 1. Post Job
+      body: Upload a job description and the required profile for the job. The job is then added to our platform so the candidates can start applying for the job.
+    second:
+      title: 2. Accept candidate
+      body: The jobs that gets posted on our platform generally have a high application rate. Just Arrived sources the most suitable candidates for the job and perform interviews. These candidates are later presented to the job provider who gets to choose who will be offered the job.
+    third:
+      title: 3. Job gets performed
+      body: After a successful matching the job is performed. Just Arrived monitors the process continuously during the job and our experienced staffing managers are there during the full process. Everything for a job performed successfully!
+  common_jobs:
+    title: Our most common jobs
+    first: Support
+    second: Facility
+    third: Event
+    forth: Service
+    fifth: Commerce
+    sixth: And much more!
 
-company_howto:
-  cta: Register interest
-  first:
-    title: 1. Register
-    first: Register your interest.
-    second: Fill out your company information.
-    third: We will get in touch with you and together we will create your customized job post.
-  second:
-    title: 2. Just Arrived matches
-    first: A matching process is initiated.
-    second: We conduct the interviews with potential candidates.
-    third: You can choose to conduct further interviews.
-    forth: You choose the candidate you want to proceed with.
-  third:
-    title: 3. Together we fulfill
-    first: The chosen candidate will start at the set date.
-    second: An invoice will be sent once the job has been completed.
-    third: We take care of salary, social fees, taxes and insurance.
-    forth: Rate and provide valuable feedback to the candidate.
 
 tipsfabriken:
   top_banner:
