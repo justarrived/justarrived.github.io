@@ -29,7 +29,7 @@ paginate: true
         <div>
           <!-- {{ post.excerpt | strip_html }} -->
           {{ post.content | truncate: 300 }}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t blog.pagination.excerpt_separator %}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
         </div>
       </article>
     {% endfor %}
