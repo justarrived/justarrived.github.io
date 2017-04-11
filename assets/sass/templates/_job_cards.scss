@@ -1,6 +1,6 @@
 $job-card-width: 280px;
 $job-card-desktop-width: 360px;
-$job-card-tablet-width: 212px;
+$job-card-tablet-width: 280px;
 $job-card-padding: 15px;
 
 .job-cards-list {
@@ -31,7 +31,7 @@ $job-card-padding: 15px;
 
         &:first-child {
           margin-bottom: 3em;
-          border-bottom: 1px solid $gray !important;
+          // border-bottom: 1px solid $gray !important;
         }
       }
       & li {

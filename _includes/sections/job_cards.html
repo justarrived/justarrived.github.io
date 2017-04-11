@@ -1,25 +1,25 @@
 <!-- START: HTML TEMPLATE -->
 <div id="js-job-cards-template" style="display:none;">
-  <li class="cd-popup-trigger-job-card">
-    <a href="{{site.app_job_link}}%job_id%?locale={{site.lang}}">
-      <div class="job-card" dir="ltr">
-          <div class="job-header">
+  <li>
+    <div class="job-card" dir="ltr">
+      <a href="{{site.app_job_link}}%job_id%?locale={{site.lang}}" class="card-link">
+        <div class="job-header">
           <h4>%job_name%</h4>
-          </div>
+        </div>
         <div class="company-name">
           <span>%job_company%</span>
         </div>
         <span class="emphasize-title city-name">%job_city%</span>
         <span class="job-description">%job_description%</span>
 
-       <div class="job-meta-info">
-         <div class="details">
-          <span class="left">%job_hours% {% t form.job_hours %}</span>
-          <span class="right">%job_hourly_pay%</span>
+        <div class="job-meta-info">
+          <div class="details">
+            <span class="left">%job_hours% {% t form.job_hours %}</span>
+            <span class="right">%job_hourly_pay%</span>
+          </div>
         </div>
-
-      </div>
-    </a>
+      </a>
+    </div>
   </li>
 </div>
 <!-- END: HTML TEMPLATE -->
