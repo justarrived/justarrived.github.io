@@ -44,6 +44,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/assets/sass/main.css">
+	<link rel="stylesheet" href="/assets/semantic-ui/grid.css">
 
 	<!-- Google Analytics -->
 	<script>
@@ -165,13 +166,13 @@
 			</a>
 		</li>
 		<li class="show-on-tablet">
-			<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-				<span>För företag</span>
+			<a " href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
+				<span>Företag</span>
 			</a>
 		</li>
 		<li class="show-on-tablet">
 			<a href="/newcomer/" data-action="click" data-action-label="Nav to newcomers page" category="Navigation">
-				<span>För nyanlända</span>
+				<span>Nyanlända</span>
 			</a>
 		</li>
 	</ul>
@@ -182,12 +183,12 @@
     <ul>
 			<li>
 				<a href="/newcomer/" data-action="click" data-action-label="Nav to newcomers page" category="Navigation">
-					<span>För nyanlända</span>
+					<span>Nyanlända</span>
 				</a>
 			</li>
 			<li>
 				<a href="/company/" data-action="click" data-action-label="Nav to company page" category="Navigation">
-					<span>För företag</span>
+					<span>Företag</span>
 				</a>
 			</li>
 			<li>
@@ -210,392 +211,309 @@
 </nav>
 
 
-    <section class="
-  section--hero
-  section--hero-flat
-  module
-  module--padding
-  module--white
-  module--bg-cover
-  module--bg-pink
-  module--bg-charcoal">
-  <div class="table">
-    <div class="table-cell">
-      <div class="wrap">
-        <div class="module-content">
-          <h1>Vi matchar dig med nyanlända som vill jobba</h1>
-          <p class="hero-text-wide">Är det stressigt på kontoret med många uppgifter som inte är en del av ditt (eller andras) jobb? Är du i behov av assistans, hjälp till event eller någon som kan hjälpa er?</p>
-          <p class="hero-text-wide">Varför inte anställa genom Just Arrived?</p>
+    <div class="section--top_banner_v2">
+  <div class="section--top_banner_v2-form-wrapper">
+    <h2>Skapa ett jobb och nå över 80 000 kandidater</h2>
+    <p style="color: white;">
+      Matcha med rätt medarbetare. Fyll i dina uppgifter så tar vi kontakt  
+    </p>
+    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-          <a href="#company-howto" class="border-btn border-btn--white-pink btn-large">
-            Kom igång
-          </a>
+      <input type=hidden name="oid" value="00D58000000cNvl">
+      <input type=hidden name="retURL" value="https://justarrived.se/thanks/company-register-submit" id="salesforce_retURL">
+      <input type=hidden name="lead_source" value="Web">
+
+      <input style="width:100%;" type="email" value="" name="email" class="required email" id="mce-EMAIL" required placeholder="E-mail">
+      <input style="width:100%;" type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
+      <input style="width: 48%; float: left;" type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required placeholder="Name">
+      <input style="width: 48%; float: right;" type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required placeholder="Company name">
+
+      <!-- prevent bot signups -->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
+      </div>
+
+      <div style="float:right;">
+        <input type="submit" value="Kom i kontakt" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large">
+      </div>
+
+      <!-- <input type="submit" value="Kom i kontakt" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large" style="float:right;"> -->
+
+    </form>
+  </div>
+</div>
+
+<div class="ui grid section--company-recommendation">
+  <div class="sixteen wide column section-title-container">
+    <h2 class="section-title">Rekommendation</h2>
+  </div>
+
+  <div class="equal width stackable row">
+    <div id="p0" class="column company-recomendation-name-cell">
+      <div class="triangle"></div>
+      <div class="title-cell"><h4>Sara Brandt</h4></div>
+      <p>Väsbyhem</p>
+    </div>
+    <div id="p1" class="column company-recomendation-name-cell">
+      <div class="triangle"></div>
+      <div class="title-cell center-border-title-cell"><h4>Johnny Warström, VD</h4></div>
+      <p>Mentimeter</p>
+    </div>
+    <div id="p2" class="column company-recomendation-name-cell company-recomendation-name-cell-active">
+      <div class="triangle"></div>
+      <div class="title-cell"><h4>Fredrik Skytt, VD</h4></div>
+      <p>Utbudet</p>
+    </div>
+  </div>
+
+  <div class="sixteen wide column">
+    <div id="profile-image" class="profile-circle">
+    </div>
+  </div>
+
+  <div id="company-recommendation-current-text" class="sixteen wide column">
+  </div>
+
+</div>
+
+<div class="ui grid section--companies-information">
+  <div class="sixteen wide column title-container">
+    <h2>Det här är Just Arrived</h2>
+    <div class="company-small-bottom-border"></div>
+  </div>
+
+
+  <div class="sixteen wide column stackable equal width row">
+    <div class="column information-text-container">
+      <h3>1. Posta jobb</h3>
+      <p> Tillsammans med Just Arrived tas en uppdragsbeskrivning fram samt den kravprofil som krävs för att kunna utföra jobbet. Därefter läggs jobbet ut på vår plattform och ansökningarna kan börja.</p>
+    </div>
+    <div class="column information-text-container">
+      <h3>2. Godkänn kandidat</h3>
+      <p>De uppdrag som postas på vår plattform får ett högt antal sökande. Just Arrived tar fram de mest relevanta kandidaterna och utför intervjuer. Dessa kandidater presenteras sedan för uppdragsgivaren som får välja vem, eller vilka, kandidater som ska få uppdraget.</p>
+    </div>
+    <div class="column information-text-container">
+      <h3>3. Uppdraget utförs</h3>
+      <p>Efter en lyckad matchning utförs uppdraget. Just Arrived följer kontinuerligt upp utgången av uppdraget och våra erfarna konsultchefer finns med under hela processen. Allt för ett lyckat uppdrag!</p>
+    </div>
+  </div>
+
+  <div class="sixteen wide column button-container">
+    <a href="#post-job-now" class="border-btn border-btn--white-pink">Skapa jobb nu</a>
+  </div>
+</div>
+
+<div class="ui grid section--companies-grid">
+  <h2 style=" width: 100%; text-align: center; padding: 1em 0 0 0;">Våra vanligaste jobb</h2>
+  <div class="company-small-bottom-border"></div>
+  <div class="doubling three column stackable row company-grid-container">
+    <div class="column company-grid-cell company-grid-cell-one"> <!-- column padding overrides anything I do to padding-top or padding-bottom -->
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Support</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column company-grid-cell company-grid-cell-two">
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Anläggning</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column company-grid-cell company-grid-cell-three">
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Event</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column company-grid-cell company-grid-cell-four">
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Service</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column company-grid-cell company-grid-cell-five">
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Handel</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column company-grid-cell company-grid-cell-six">
+      <div class="company-grid-cell-overlay">
+        <div class="company-grid-cell-overlay-container">
+          <div class="company-grid-cell-overlay-content">
+            <h3>Och mycket mer!</h3>
+            <div class="company-small-bottom-border"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="
-  section--our-customers
-  module
-  module--padding-half
-  module--black
-  module--white-bg
-  module--txt-c">
+<div class="ui grid section--company-post-job-container" id="post-job-now">
 
-  <h2 class="title bordered bordered--primary bordered--centered hidden-tablet">Utvalda kunder</h2>
-  <ul>
-    <li class="visible-tablet">
-      <h2 class="bordered bordered--primary bordered--centered" style="white-space: nowrap;">Utvalda kunder</h2>
-    </li>
-    <li>
-      <img style="max-width: 105px;margin-top:5px;" alt="Hemsö" class="company-logo" src="/assets/images/client-logos/hemso.png">
-    </li>
-    <li>
-      <img alt="Utbudet" class="company-logo" src="/assets/images/client-logos/utbudet.png">
-    </li>
-    <li>
-      <img alt="Väsbyhem" class="company-logo" src="/assets/images/client-logos/vasbyhem.png">
-    </li>
-    <li>
-      <img alt="Norrsken" class="company-logo" src="/assets/images/client-logos/norrsken.png">
-    </li>
-    <li>
-      <img alt="Universum" class="company-logo" src="/assets/images/client-logos/universum.png">
-    </li>
-    <li>
-      <img alt="Mentimeter" class="company-logo" src="/assets/images/client-logos/mentimeter.png">
-    </li>
-  </ul>
-
-</section>
-
-<section
-  id="company-howto"
-  class="
-  module-howto
-  module
-  module--white">
-
-  <div class="module-content">
-    <div class="columns">
-      <div class="column-1-3 column--padding column-secondary column-company">
-        <div class="wrap">
-          <div class="js-match-height">
-            <h2 class="module--txt-c">1. Registrera</h2>
-
-            <div class="module--checklist module-content module-content--half-padding">
-              <ul class="checklist">
-                <li class="incomplete">Registrera ditt intresse.</li>
-                <li class="incomplete">Fyll i er företagsinformation</li>
-                <li class="incomplete">Vi kontaktar dig och tillsammans skapar vi ett skräddarsytt jobb.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column-1-3 column--padding column-secondary column-company">
-        <div class="wrap">
-          <div class="js-match-height">
-            <h2 class="module--txt-c">2. Just Arrived matchar</h2>
-
-            <div class="module--checklist module-content">
-              <ul class="checklist">
-                <li class="incomplete">En matchningsprocess initieras.</li>
-                <li class="incomplete">Vi utför intervjuer med potentiella kandidater.</li>
-                <li class="incomplete">Du kan välja att genomföra ytterligare intervjuer.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <p class="howto-cta module--txt-c company-register-button">
-          <a href="#" class="cd-popup-trigger-signin border-btn border-btn--white-pink btn-large">
-            Anmäl intresse
-          </a>
-        </p>
-      </div>
-
-      <div class="column-1-3 column--padding column-secondary column-company">
-        <div class="wrap">
-          <div class="js-match-height">
-            <h2 class="module--txt-c">3. Tillsammans slutför vi</h2>
-
-            <div class="module--checklist module-content">
-              <ul class="checklist">
-                <li class="incomplete">Den utvalda kandidaten startar på överenskommet startdatum.</li>
-                <li class="incomplete">En faktura skickas när jobbet har genomförts.</li>
-                <li class="incomplete">Vi tar hand om löner, sociala avgifter, skatt och försäkringar.</li>
-                <li class="incomplete">Rejta och ge värdefull feedback till kandidaten.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <p class="howto-cta module--txt-c mobile-company-register-button">
-          <a href="#" class="cd-popup-trigger-signin border-btn border-btn--white-pink btn-large">
-            Anmäl intresse
-          </a>
-        </p>
-      </div>
+  <div class="three column stackable equal width row">
+    <div class="column">
+      <div class="post-job-image-container"><img class="post-job-image" src="/assets/images/v2/company-create-job.png"></img></div>
     </div>
+    <div class="column">
+      <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
+        <input type=hidden name="oid" value="00D58000000cNvl">
+        <input type=hidden name="retURL" value="https://justarrived.se/thanks/company-register-submit" id="salesforce_retURL">
+        <input type=hidden name="lead_source" value="Web">
+
+        <div class="sixteen wide column single-input-container">
+            <input type="text" value="" name="name" class="required" id="mce-NAME" required placeholder="Name">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <div class="column">
+              <input class="double-input-left" type="text" value="" maxlength="40" name="company" id="mce-COMPANY" required placeholder="Company">
+              <input class="double-input-right" type="text" value="" maxlength="40" name="city" id="mce-CITY" required placeholder="City">
+          </div>
+        </div>
+        <div class="sixteen wide column single-input-container">
+            <input type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
+        </div>
+        </div>
+        <div class="column">
+          <textarea type="text" value="" name="description" id="mce-DESCRIPTION" required placeholder="What do you need help with?"></textarea>
+        </div>
+      </div>
+      <!-- prevent bot signups -->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
+      </div>
+
+      <div class="sixteen wide column form-post-now-button-container">
+        <input type="submit" value="Kom i kontakt" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
+      </div>
+    </form>
+</div>
+
+<div class="ui grid section--what-we-offer">
+
+  <div class="sixteen wide column title-container">
+    <h2 class="section-title">Vårt erbjudande</h2>
+    <div class="company-small-bottom-border"></div>
   </div>
 
-</section>
+  <div class="five column stackable equal width row what_we_offer_info_text">
 
-<section class="
-  section--how-to
-  module
-  module--padding
-  module--black
-  module--gray-bg
-  module--txt-weak-c">
-  <div class="wrap">
-    <div class="module-content">
-      <h2 class="bordered bordered--primary bordered--weak-centered">Det här är Just Arrived</h2>
-
-      <div class="columns">
-        <div class="column-1-4">
-          <div class="icon icon--tick">
-            <p>Vi tar hand om all byråkrati och administration, för att göra det enkelt för dig att anställa.</p>
-          </div>
-        </div>
-        <div class="column-1-4">
-          <div class="icon icon--pen">
-            <p>Vi tar arbetsgivaransvar för kandidaterna.</p>
-          </div>
-        </div>
-        <div class="column-1-4">
-          <div class="icon icon--profile">
-            <p>För att försäkra en lyckad matchning går alla kandidater igenom Just Arriveds antagningsprocess. </p>
-          </div>
-        </div>
-        <div class="column-1-4">
-          <div class="icon icon--info">
-            <p>Vi är flexibla, responsiva och personliga.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="
-    module--what-we-offer
-    module
-    module--padding
-    module--txt-img
-    module--white
-    module--charcoal-bg">
-  <div class="wrap">
-    <div class="module-content module-content--right">
-      <img src="/assets/images/inline/ja-model.png">
-      <br><br>
-    </div>
-    <div class="module-content module-content--left">
-      <h2 class="bordered bordered--white bordered--left">Vårt erbjudande</h2>
-      <p>
-        <strong>Vi är flexibla</strong> <br>
-      </p>
+    <div class="column">
+      <h4>
+        Vi är flexibla
+      </h4>
       <p>
         Vi tillhandahåller rätt kandidat för rätt position och skräddarsyr våran tjänst efter era behov.
       </p>
-      <p>
-        <strong>Vi är snabba</strong> <br>
-      </p>
+    </div>
+
+    <div class="column">
+      <h4>
+        Vi är snabba
+      </h4>
       <p>
         Är det bråttom? Behöver du snabbt fylla en position? Vi kan tillhanda hålla rätt kandidat på 36 timmar.
       </p>
-      <p>
-        <strong>Det är enkelt</strong> <br>
-      </p>
+    </div>
+
+    <div class="column">
+      <h4>
+        Det är enkelt
+      </h4>
       <p>
         Vi tar hand om all administration och arbetsgivaransvar. Skatt, socialaavgifter och försärkingar tas om hand av oss. Vi skickar bara en faktura till er.
       </p>
-      <p>
-        <strong>Det är säkert</strong> <br>
-      </p>
+    </div>
+
+    <div class="column">
+      <h4>
+        Det är säkert
+      </h4>
       <p>
         Vi vill att ni som bolag bara ska behöva tänka på era behov. Administration, lagar och regler tar vi hand om.
       </p>
+    </div>
 
+    <div class="column">
+      <h4>
+        Och bäst av allt:
+      </h4>
       <p>
-        <strong>Och bäst av allt:</strong> <br>
         Du blir en del av lösningen för en hållbar integration.
       </p>
     </div>
+
   </div>
-</section>
 
-
-
-<section class="
-  section--testimonial
-  module
-  module--padding-half
-  
-    module--white
-    module--secondary-bg
-  ">
-  <div class="wrap">
-    <div class="module-content module-content--right">
-      <div class="profile-circle sara-brandt"></div>
-    </div>
-
-    <div class="module-content module-content--left">
-      <p class="testimonial-body">
-        <span class="testimonial-quote-icon">"</span>
-        Just Arrived tar bort alla trösklar för att jobba med nyanlända.
-      </p>
-      <p class="testimonial-meta-author">Sara Brandt, Väsbyhem</p>
-    </div>
-  </div>
-</section>
-
-<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1m3sp_Pud8UCLsC8y1B0PAGvoL3E"
-  frameborder="0"
-  style="border:0"
-  width="100%"
-  height="480">
-</iframe> -->
-
-
-
-<!-- <section class="
-  module
-  module--padding
-  module--white
-  module--secondary-bg">
-  <div class="wrap">
-    <div class="
-    module-content
-    module-content--centered
-    module--txt-c
-    ">
-      <h2 class="bordered bordered--white">Vill du veta mer?</h2>
-      <p>
-        <a href="/faq/company" class="border-btn btn-large border-btn--white border-btn--white-blue">
-          FöretagsFAQ
-        </a>
-        <a href="#" class="cd-popup-trigger-signin border-btn btn-large border-btn--white border-btn--white-blue">
-          Kontakta oss
-        </a>
-      </p>
-    </div>
-  </div>
-</section> -->
-
-
-<!-- START: HTML TEMPLATE -->
-<div id="js-job-cards-template" style="display:none;">
-  <li class="cd-popup-trigger-job-card">
-    <a href="https://app.justarrived.se/job/%job_id%?locale=sv">
-      <div class="job-card" dir="ltr">
-          <div class="job-header">
-          <h4>%job_name%</h4>
-          </div>
-        <div class="company-name">
-          <span>%job_company%</span>
-        </div>
-        <span class="emphasize-title city-name">%job_city%</span>
-        <span class="job-description">%job_description%</span>
-
-         <div class="job-meta-info">
-          <hr>
-          <div class="total-amount">
-            <span class="emphasize-title">Bruttolön:</span>
-            <span class="amount">%job_amount%</span>
-            <span class="currency">SEK</span>
-
-             <div class="details">
-              <span class="left">%job_hours% Timmar</span>
-              <span class="right">%job_hourly_pay%</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </a>
-  </li>
 </div>
-<!-- END: HTML TEMPLATE -->
 
-<section class="
-  module
-  module--padding-half
-  module--black
-  module--white-bg">
-
-  <div class="section-divider"></div>
-  <div class="job-cards-wrapper">
-    <div class="job-cards-container">
-      
-        <h2 class="title bordered bordered--secondary bordered--centered">Aktuella jobb</h2>
-      
-
-      <ul id="js-job-cards" class="job-cards-list">
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="
-  section--say-hej
-  module
-  module--txt-c
-  module--padding
-  module--white
-  module--black-bg">
-  <div class="wrap">
-    <div class="module-content">
-      <h2 class="bordered bordered--secondary bordered--centered">Kontakta oss</h2>
-
-      <div class="columns columns--inline">
-        <div class="column-1-2">
-          <img class="profile-pic" src="/assets/images/profile-pictures/neven_jugo.jpg">
-          <p>
-            <strong>Neven Jugo</strong>
-            <br> Head of Sales
-            <br>
-            <a class="txt-link" href="mailto:neven.jugo@justarrived.se">neven.jugo@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46709329962">+46 70 932 99 62</a>
-          </p>
-        </div>
-        <div class="column-1-2">
-          <img class="profile-pic" src="/assets/images/profile-pictures/per_strangberg.jpg">
-          <p>
-            <strong>Per Strängberg</strong>
-            <br> Customer Success Manager
-            <br>
-            <a class="txt-link" href="mailto:per.strangberg@justarrived.se">per.strangberg@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46734348359">+46 73 434 83 59</a>
-          </p>
-        </div>
+<div class="ui grid section--company-faq">
+  <div class="two column stackable equal width row company-faq-container">
+    <div class="column section--company-faq-left">
+      <div class="row">
+        <h3 class="section-subtitle">Varför ska jag anställa via Just Arrived?</h3>
       </div>
-
+      <div class="row">
+        <p class="section-text">Genom att anlita en person genom Just Arrived, kommer du att få förstärkning i din verksamhet av validerade och kvalificerade personer. Du kommer även hjälpa till med att integrera motiverade, ambitiösa individer som brinner för att ta steget in i det svenska samhället och arbeta för svenska företag.</p>
+      </div>
+      <div class="row section-button-wrapper">
+        <a href="/faq/company/" class="primary-btn border-btn--pink section-button">
+          Läs mer på FAQ
+        </a>
+      </div>
     </div>
+    <div class="column computer tablet only section-image"></div>
   </div>
-</section>
+</div>
 
 
 
     <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
   <section class="
-    module--padding
+    module--padding-half
     module--txt-img
     module--white
-    module--charcoal-bg">
+    module--charcoal-bg
+    footer-bg-image">
+
+    <div class="title-footer module">
+      <img class="footer-image" src="/assets/images/logos/ja_logo_vertical_white.png">
+    </div>
 
     <div class="wrap">
       <div class="footer-col">
         <h3>Kom igång</h3>
         <ul class="footer-link-list">
           <li><a href="https://app.justarrived.se/login">Logga in</a></li>
-          <li><a href="#" class="cd-popup-trigger-newcomer-signup">Registrering för nyanlända</a></li>
-          <li><a href="#" class="cd-popup-trigger-signin">Lägg upp jobb</a></li>
+          <li><a href="https://app.justarrived.se/register?utm_source=justarrivedse&utm_medium=startpage" class="cd-popup-trigger-newcomer-signup">Registrering för nyanlända</a></li>
+          <li><a href="/company/"" class="cd-popup-trigger-signin">Lägg upp jobb</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -609,36 +527,6 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h3>Följ oss</h3>
-        <div class="social-links">
-          <a
-            href="https://www.facebook.com/JustArrivedSE"
-            data-action="click"
-            data-action-label="Footer Facebook click"
-            category="Social Media"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a
-            href="https://twitter.com/justarrivedse"
-            data-action="click"
-            data-action-label="Footer Twitter click"
-            category="Social Media"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-          <a
-            href="https://www.instagram.com/justarrivedse/"
-            data-action="click"
-            data-action-label="Footer Instagram click"
-            category="Social Media"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a
-            href="https://www.linkedin.com/company/just-arrived-sweden"
-            data-action="click"
-            data-action-label="Footer LinkedIn click"
-            category="Social Media"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a
-            href="https://github.com/justarrived"
-            data-action="click"
-            data-action-label="Footer Github click"
-            category="Social Media"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-        </div>
-      </div>
-      <div class="footer-col">
         <h3>Kontakt</h3>
         <ul class="footer-link-list">
           <li><a href="mailto:hej@justarrived.se">hej@justarrived.se</a></li>
@@ -650,16 +538,57 @@
           </li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h3>Följ oss</h3>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/JustArrivedSE"
+            data-action="click"
+            data-action-label="Footer Facebook click"
+            category="Social Media">
+              <img src="/assets/images/social-media/facebook.png" class="social-media-icon">
+          </a>
+          <a
+            href="https://twitter.com/justarrivedse"
+            data-action="click"
+            data-action-label="Footer Twitter click"
+            category="Social Media">
+              <img src="/assets/images/social-media/twitter.png" class="social-media-icon">
+          </a>
+          <a
+            href="https://www.instagram.com/justarrivedse/"
+            data-action="click"
+            data-action-label="Footer Instagram click"
+            category="Social Media">
+              <img src="/assets/images/social-media/instagram.png" class="social-media-icon">
+          </a>
+          <a
+            href="https://www.linkedin.com/company/just-arrived-sweden"
+            data-action="click"
+            data-action-label="Footer LinkedIn click"
+            category="Social Media">
+              <img src="/assets/images/social-media/linkedin.png" class="social-media-icon">
+          </a>
+          <a
+            href="https://github.com/justarrived"
+            data-action="click"
+            data-action-label="Footer Github click"
+            category="Social Media">
+              <img src="/assets/images/social-media/github.png" class="social-media-icon">
+          </a>
+        </div>
+      </div>
     </div>
-  </section>
 
-  <div class="copy-footer module--dark-gray-bg">
-    <div id="inner-footer">
-      <p class="source-org copyright">
-        <span>&copy; 2017 Just Arrived</span>
-      </p>
+    <div class="copy-footer module">
+      <div id="inner-footer">
+        <p class="source-org copyright">
+          &copy; 2017 Just Arrived
+        </p>
+      </div>
     </div>
-  </div>
+
+  </section>
 </footer>
 
 <div class="cd-popup cd-popup-signin">
@@ -768,6 +697,7 @@
 <script charset="utf-8" src="/assets/js/libs/jquery.ajaxchimp.langs.js" ></script>
 <script charset="utf-8" src="/assets/js/libs/modernizr.custom.min.js" ></script>
 <script charset="utf-8" src="/assets/js/libs/cookie-disclaimer.js" ></script>
+<script charset="utf-8" src="/assets/js/company-scripts.js" ></script>
 <script charset="utf-8" src="/assets/js/scripts.js" ></script>
 <script charset="utf-8" src="/assets/js/pay-calculator.js" ></script>
 <script charset="utf-8" src="/assets/js/hourly-pays-input-list.js" ></script>
