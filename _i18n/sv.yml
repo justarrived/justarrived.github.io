@@ -73,12 +73,18 @@ nav:
   blog: Blogg
   faq: FAQ
 blog:
+  pagination:
+    prev: Föregående
+    next: Nästa
+    current_page: 'Sida:'
+  excerpt_separator: Mer..
+  post_by_tag_title: Kategorier
   about_us_post_footer: <strong>Just Arrived</strong> erbjuder företag en tjänst som
     gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod
     som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade
     snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag
     är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och
-    har fler än 80 företag som använder vår tjänst kontinuerligt. Företaget ägs av
+    har fler än 100 företag som använder vår tjänst kontinuerligt. Företaget ägs av
     fyra icke-vinstdrivande stiftelser, däribland <a href="http://norrskenfoundation.org">Norrsken
     Foundation</a>. Läs mer om <a href="https://justarrived.se">Just Arrived</a> här!
 top_banner:
@@ -529,10 +535,10 @@ newcomer_howto_section:
   register_cta: Skapa ett konto
   register:
     title: 1. Kom igång
-    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a> på
-      Just Arrived. Registreringen tar en minut att fullfölja och är öppen för alla
-      nyanlända och asylsökande. Du kommer också få nyheter och uppdateringar från
-      Just Arrived efter din registrering.</p>
+    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a>
+      på Just Arrived. Registreringen tar en minut att göra färdigt och kan göras
+      av alla nyanlända och asylsökande. Efter registreringen kommer du också få nyheter
+      och uppdateringar från Just Arrived.</p>
   profile:
     title: 2. Profil
     body: <p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
@@ -558,20 +564,6 @@ careers:
   title: Jobba hos oss
 job_card:
   gross_salary: 'Bruttolön:'
-job_card_popup:
-  title: Vad roligt att du är intresserad av våra jobbtillfällen!
-  subtitle: För att läsa mer, söka ett jobb eller lägga upp ett jobb så behöver du
-    ha ett konto.
-  already_member: Redan medlem?
-  login_cta: Logga in
-  looking_for_work_title: Söker du jobb?
-  looking_for_work_subtitle: Ansök om ett konto genom att registrera din ansökan nedan.
-  are_company_subtitle: För att veta mer om hur du lägger upp ett jobberbjudande så
-    kan du ringa oss eller skicka ett mail.
-  looking_for_work_cta: Registrera ansökan
-  company_title: Representerar du ett företag?
-  company_subtitle: Kontakta oss för att ta reda på mer om hur du lägger upp ett jobb.
-  company_cta: Kontakta oss
 press:
   title: Press
   full_style_guide_link: Se hela vår style guide (på engelska).
