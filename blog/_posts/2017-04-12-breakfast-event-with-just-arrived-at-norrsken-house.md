@@ -14,7 +14,7 @@ __19 APRIL 07:00 - 08:00 NORRSKEN HOUSE__
 
 Vi vill bjuda dej på frukost och berätta om våra rekryteringslösningar. Varmt välkomna till Norrsken House, Europas största hub för företag som jobbar med innovativa lösningar för positiv förändring i samhället.
 
-Behöver du extra personal vid enstaka tillfällen eller med uppgifter som ordinarie arbetsstyrkan inte hinner med? Just arrived kopplar samman två grupper som behöver varandra - företag med personalbehov och nyanlända som behöver få in en fot på arbetsmarknaden
+Behöver du extra personal vid enstaka tillfällen eller med uppgifter som ordinarie arbetsstyrkan inte hinner med? Just Arrived kopplar samman två grupper som behöver varandra - företag med personalbehov och nyanlända som behöver få in en fot på arbetsmarknaden
 
 
 Just arrived gör det enkelt för företag att engagera och anställa nyanlända. Bland annat betalar vi de skatter, sociala avgifter och försäkringar som hör ihop med en anställning. Vi minskar företags administrativa arbete genom att ta fullt arbetsgivaransvar. Dessutom är vår databas ett effektivt sätt att lokalisera potentiella nya anställda.
