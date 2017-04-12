@@ -94,7 +94,7 @@ top_banner:
     lägga upp enkla uppdrag och tjänster som sedan matchas med nyanlända som söker
     jobb.
   newcomer: Nyanländ
-  register: Registrera
+  register: 1. Registrera
   company: Företag
   create_job: Skapa jobb
 signup_modal:
@@ -409,7 +409,7 @@ startpage_company_section:
   cta: Mer information
 company_page:
   top_banner:
-    title: Skapa ett jobb och nå över 80 000 kandidater
+    title: Skapa ett jobb idag
     body: "Matcha med rätt medarbetare. Fyll i dina uppgifter så tar vi kontakt \L"
     get_in_touch_cta: Kom i kontakt
     get_in_touch_text: Rätt medarbetare för era behov
@@ -535,10 +535,10 @@ newcomer_howto_section:
   register_cta: Skapa ett konto
   register:
     title: 1. Kom igång
-    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a>
-      på Just Arrived. Registreringen tar en minut att göra färdigt och kan göras
-      av alla nyanlända och asylsökande. Efter registreringen kommer du också få nyheter
-      och uppdateringar från Just Arrived.</p>
+    body: <p><a href="https://app.justarrived.se/register">Skapa ditt konto</a> på
+      Just Arrived. Registreringen tar en minut att fullfölja och är öppen för alla
+      nyanlända och asylsökande. Du kommer också få nyheter och uppdateringar från
+      Just Arrived efter din registrering.</p>
   profile:
     title: 2. Profil
     body: <p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
