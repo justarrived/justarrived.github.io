@@ -7,8 +7,6 @@ locale:
   - sv
 ---
 
-![Hemsida](/assets/images/blog/hemsidascreen.png)
-
 #### [Klicka in och klicka runt](https://justarrived.se/)
 
 
@@ -16,5 +14,6 @@ Nu har vi gräddat färdigt en ny version av vår hemsida och webapplikation. V�
 
 #### [Meddela dina synpunkter](mailto:hej@justarrived.se)
 
+![Hemsida](/assets/images/blog/hemsidascreen.png)
 
 {% include blog/post_footer.html %}
