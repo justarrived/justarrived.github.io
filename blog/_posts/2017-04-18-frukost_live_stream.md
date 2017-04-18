@@ -2,7 +2,7 @@
 layout: post
 title: Delta på vårt frukostmöte på väg till jobbet eller vid frukostbordet!
 draft: false
-list_cover: frukost_live_stream.png
+list_cover:
 locale:
   - sv
 ---
