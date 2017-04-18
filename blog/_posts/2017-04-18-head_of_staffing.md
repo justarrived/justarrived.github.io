@@ -2,12 +2,11 @@
 layout: post
 title: I och med nästa steg på vår resa anställer vi en Head of Staffing med ansvar för arbetarjobb
 draft: false
-list_cover:head_of_staff_1.png
 locale:
   - sv
 ---
 
-![Head_of_staffing](/assets/images/blog/head_of_staff_1.png)
+![Head_of_staffing](/assets/images/blog/staff.png)
 
 #### [Sök idag!](https://careers.justarrived.se/jobs/32414-head-of-staffing-arbetare)
 
