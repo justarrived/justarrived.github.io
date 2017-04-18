@@ -7,7 +7,7 @@ locale:
   - sv
 ---
 
-![Head of staffing](/assets/images/blog/head_of_staff_1.png)
+![Head_of_staffing](/assets/images/blog/head_of_staff_1.png)
 
 #### [Sök idag!](https://careers.justarrived.se/jobs/32414-head-of-staffing-arbetare)
 
