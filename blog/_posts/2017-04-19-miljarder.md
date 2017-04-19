@@ -7,7 +7,7 @@ locale:
   - sv
 ---
 
-
+![miljarder](/assets/images/blog/miljarder.png)
 
 
 
