@@ -2,7 +2,7 @@
 layout: post
 title: Frustrerande läsning
 draft: false
-list_cover: miljarder.png
+list_cover: 
 locale:
   - sv
 ---
