@@ -2,14 +2,15 @@
 layout: post
 title: Frustrerande läsning
 draft: false
-list_cover:
+list_cover: miljarder.png
 locale:
   - sv
 ---
 
 ![miljarder](/assets/images/blog/miljarder.png)
 
-
+> "Invandrade akademiker kan ge staten miljarder". <br>
+> Marianne Björklund, Dagens Nyheter&zwnj;&zwnj;
 
 Det är surt att se så många högutbildade, kompetenta och drivna människor inte få ut sin fulla potential. Det är surt för individen men också surt för samhället i stort som inte tar del av rikedomen. Vi på Just Arrived träffar dagligen människor vars potential går till spillo.
 
