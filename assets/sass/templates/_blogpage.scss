@@ -14,17 +14,22 @@
   margin-top: 32px;
 }
 
-.blog-post-separator {
-  margin-top: 20px;
-  width: 40px;
-  height: 1px;
-  background-color: $cerise;
-  margin-left: auto;
-  margin-right: auto;
+.blog-post-content-container {
+  p {
+    font-size: 0.9em;
+  }
 }
 
-.blog-post-separator:last-child {
-  display: none;
+hr {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0.5px;
+  border-color: $gray50;
+  height: 0px;
 }
 
 .section--blog {
