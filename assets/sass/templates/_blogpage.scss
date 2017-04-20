@@ -1,3 +1,32 @@
+.blog-title-container {
+  text-align: center;
+}
+
+.blog-icon {
+  width: 80px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.read-more-btn {
+  margin-top: 32px;
+}
+
+.blog-post-separator {
+  margin-top: 20px;
+  width: 40px;
+  height: 1px;
+  background-color: $cerise;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-post-separator:last-child {
+  display: none;
+}
+
 .section--blog {
   & .module-content--centered {
 		max-width: 740px;
@@ -5,10 +34,6 @@
 
   h1.post-title {
     font-size: 2.6em;
-  }
-
-  .post-title {
-    font-size: 2.2em;
   }
 }
 
@@ -76,7 +101,7 @@
 
 .blog-page {
   .post-link {
-    color: $black;
+    color: $cerise;
   }
 }
 
