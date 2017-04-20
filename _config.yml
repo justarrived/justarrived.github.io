@@ -94,6 +94,9 @@ default_language: 'sv'
 languages: ["sv", "en", "ar"]
 exclude_from_localizations: ["assets", "favicon.ico", "_posts", "ar/", "sv/", "en/"]
 
+intelliplan:
+  login_link: "https://justarrived-se.web.intelliplan.eu/croupier/login/"
+
 newsletter:
   subscribe_link: http://eepurl.com/cviFlL
 
