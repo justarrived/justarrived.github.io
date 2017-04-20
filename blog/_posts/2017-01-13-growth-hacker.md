@@ -1,16 +1,9 @@
 ---
-layout: careers
-title: Careers
+layout: post
+title: Marketing & Growth Manager
+author: per
+locale: sv
 ---
-
-* [Growth Manager](#growth-manager)
-* [Utvecklare](#developer)
-
----
-
-# Growth Manager
-
-<div id="growth-manager"></div>
 
 [Ansök till Growth Manager tjänsten](https://wgtrm.com/dc/#justarrived.Web).
 
@@ -41,13 +34,3 @@ Om du även kan något av nedanstående är det ett stort plus:
 Stämmer ovanstående in på dig? Då vill vi träffa dig så fort som möjligt.
 
 [Ansök redan idag](https://wgtrm.com/dc/#justarrived.Web).
-
----
-
-# Utvecklare
-
-<div id="developer"></div>
-
-Vi letar alltid efter duktiga utvecklare/programmerare, speciellt inom JavaScript och Ruby.
-
-Mer information kommer snart!
