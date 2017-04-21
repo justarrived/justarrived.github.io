@@ -133,11 +133,11 @@ hr {
 
 .blog-categories-links {
   &.blog-categories-medium {
-    @media only screen and (min-width: 320px) and (max-width : 768px) {
+    @media only screen and (min-width: $mobile-small) and (max-width : $tablet-width) {
       columns: 1;
     }
 
-    @media only screen and (min-width: 786px) {
+    @media only screen and (min-width: $tablet-width) {
       columns: 2;
     }
   }

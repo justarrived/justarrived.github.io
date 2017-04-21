@@ -30,10 +30,8 @@ paginate: true
         <h2>
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <!--<span>{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>-->
         <p class="blog-post-date-text">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</p>
         <div class="blog-post-content-container">
-          <!-- {{ post.excerpt | strip_html }} -->
           {{ post.content | truncate: 300 }}<br/>
         </div>
         <a class="primary-btn border-btn--pink read-more-btn" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
@@ -42,7 +40,6 @@ paginate: true
           <hr>
         {% endif %}
 
-        <!--<div class="blog-post-separator"></div>-->
       </article>
     {% endfor %}
 
