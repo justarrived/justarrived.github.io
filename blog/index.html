@@ -74,7 +74,7 @@ paginate: true
           <ul>
           {% for posts in tag %}
             {% for post in posts limit: 10 %}
-              <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
+              <li><a href="{{ post.url }}" class="blog-tag-link">{{ post.title | truncate: 70 }}</a></li>
             {% endfor %}
           {% endfor %}
           </ul>

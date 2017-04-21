@@ -74,6 +74,11 @@ hr {
   margin-right: auto;
 }
 
+.blog-tag-link {
+  font-size: 0.8em;
+  color: $gray300;
+}
+
 // Blog
 .blog-categories-container {
   h2 {
@@ -96,6 +101,7 @@ hr {
   .blog-categories-title {
     font-size: 1.2rem;
     color: $cerise;
+    text-transform: capitalize;
   }
 
   .blog-categories-item {
@@ -121,7 +127,7 @@ hr {
 
 .blog-page {
   .post-link {
-    color: $gray300;
+    color: $cerise;
     font-size: 0.9em;
   }
 }
