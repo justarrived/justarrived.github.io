@@ -106,6 +106,10 @@ hr {
       .pagination-button-text {
         line-height: 30px;
         color: $gray50;
+
+        &:hover {
+          color: $white;
+        }
       }
 
       .pagination-button-text-active {
