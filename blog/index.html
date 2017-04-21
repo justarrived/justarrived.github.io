@@ -14,7 +14,7 @@ paginate: true
   </div>
 
   <header class="post-header">
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <div class="post-excerpt-list">
@@ -30,8 +30,8 @@ paginate: true
         <h2>
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>-->
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>
+        <!--<span>{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>-->
+        <p class="blog-post-date-text">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</p>
         <div class="blog-post-content-container">
           <!-- {{ post.excerpt | strip_html }} -->
           {{ post.content | truncate: 300 }}<br/>

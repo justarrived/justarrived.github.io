@@ -124,6 +124,11 @@ hr {
   }
 }
 
+.blog-post-date-text {
+  color: $gray700;
+  font-size: 0.9em;
+}
+
 // Blog
 .blog-categories-container {
   h2 {
@@ -132,15 +137,14 @@ hr {
 }
 
 .blog-categories-links {
-  &.blog-categories-large {
-    columns: 2;
-    @include tablet {
-      columns: 4;
-    }
-  }
-
   &.blog-categories-medium {
-    columns: 2;
+    @media only screen and (min-width: 320px) and (max-width : 768px) {
+      columns: 1;
+    }
+
+    @media only screen and (min-width: 786px) {
+      columns: 2;
+    }
   }
 
   .blog-categories-title {
@@ -163,22 +167,9 @@ hr {
   }
 }
 
-.blog-index-latest-post {
-  display: none;
-  @include tablet {
-    display: block;
-  }
-}
-
 .blog-page {
   .post-link {
     color: $cerise;
     font-size: 0.9em;
-  }
-}
-
-.post-meta {
-  a {
-    color: $black;
   }
 }
