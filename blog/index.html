@@ -1,15 +1,20 @@
 ---
 layout: post
-title: Just Arrived - Blog
+title: ""
 description: Our blog
-excerpt_separator: More...
 paginate: true
 ---
 
 <div class="blog-page">
 
+  <div class="blog-title-container">
+    <img class="blog-icon" src="/assets/images/blog/blog-icon.png">
+    <h1>Just Arrived - Blog</h1>
+    <div class="blog-small-bottom-border"></div>
+  </div>
+
   <header class="post-header">
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <div class="post-excerpt-list">
@@ -22,15 +27,19 @@ paginate: true
           </a>
         {% endif %}
 
-        <h2 class="post-title">
+        <h2>
            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</span>
-        <div>
-          <!-- {{ post.excerpt | strip_html }} -->
-          {{ post.content | truncate: 300 }}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
+        <p class="blog-post-date-text">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</p>
+        <div class="blog-post-content-container">
+          {{ post.content | truncate: 300 }}<br/>
         </div>
+        <a class="primary-btn border-btn--pink read-more-btn" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
+
+        {% if forloop.rindex > 1 %}
+          <hr>
+        {% endif %}
+
       </article>
     {% endfor %}
 
@@ -38,28 +47,54 @@ paginate: true
 
   <!-- Pagination links -->
   <div class="post-pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">{% t blog.pagination.prev %}</a>
-    {% else %}
-      <span class="previous">{% t blog.pagination.prev %}</span>
-    {% endif %} |
-    <span class="page_number ">{% t blog.pagination.current_page %} {{ paginator.page }}/{{ paginator.total_pages }}</span> |
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">{% t blog.pagination.next %}</a>
-    {% else %}
-      <span class="next ">{% t blog.pagination.next %}</span>
-    {% endif %}
+
+    {% for p in (1..paginator.total_pages) %}
+
+      {% if p <= 1 %}
+        <a href="{{ '/blog' | prepend: site.url }}" class="blog-pagination-link">
+
+          {% if p == paginator.page %}
+            <div class="blog-pagination-button blog-pagination-button-active">
+              <p class="pagination-button-text pagination-button-text-active">{{ p }}</p>
+            </div>
+          {% else %}
+            <div class="blog-pagination-button">
+              <p class="pagination-button-text">{{ p }}</p>
+            </div>
+          {% endif %}
+
+        </a>
+      {% else %}
+        <a href="{{ p | prepend: '/blog/page' | prepend: site.url }}" class="blog-pagination-link">
+
+          {% if p == paginator.page %}
+            <div class="blog-pagination-button blog-pagination-button-active">
+              <p class="pagination-button-text pagination-button-text-active">{{ p }}</p>
+            </div>
+          {% else %}
+            <div class="blog-pagination-button">
+              <p class="pagination-button-text">{{ p }}</p>
+            </div>
+          {% endif %}
+
+        </a>
+      {% endif %}
+
+    {% endfor %}
   </div>
 
+  <div class="blog-separator"></div>
+
   <div class="blog-categories-container">
-    <h3>{% t blog.post_by_tag_title %}</h3>
+    <h2>{% t blog.post_by_tag_title %}</h2>
+    <div class="blog-small-bottom-border"></div>
     <ul class="blog-categories-links blog-categories-medium">
       {% for tag in site.tags limit: 20 %}
         <li class="blog-categories-item"><a class="blog-categories-title" name="{{ tag | first }}"><strong>{{ tag | first }}</strong></a>
           <ul>
           {% for posts in tag %}
             {% for post in posts limit: 10 %}
-              <li><a href="{{ post.url }}" class="post-link">{{ post.title | truncate: 70 }}</a></li>
+              <li><a href="{{ post.url }}" class="blog-tag-link">{{ post.title | truncate: 70 }}</a></li>
             {% endfor %}
           {% endfor %}
           </ul>
