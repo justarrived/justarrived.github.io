@@ -54,16 +54,32 @@ paginate: true
     {% for p in (1..paginator.total_pages) %}
 
       {% if p <= 1 %}
-        <a href="{{ '/blog' | prepend: site.url }}" style="text-decoration: none; display: inline-block;">
-          <div style="border-width: 1px; border-style: solid; border-color: black; border-radius: 50%; width: 32px; height: 32px; text-align: center;">
-           <p style="line-height: 30px;">{{ p }}</p>
-          </div>
+        <a href="{{ '/blog' | prepend: site.url }}" class="blog-pagination-link">
+
+          {% if p == paginator.page %}
+            <div class="blog-pagination-button blog-pagination-button-active">
+              <p class="pagination-button-text pagination-button-text-active">{{ p }}</p>
+            </div>
+          {% else %}
+            <div class="blog-pagination-button">
+              <p class="pagination-button-text">{{ p }}</p>
+            </div>
+          {% endif %}
+
         </a>
       {% else %}
-        <a href="{{ p | prepend: '/blog/page' | prepend: site.url }}" style="text-decoration: none; display: inline-block;">
-          <div style="border-width: 1px; border-style: solid; border-color: black; border-radius: 50%; width: 32px; height: 32px; text-align: center;">
-           <p style="line-height: 30px;">{{ p }}</p>
-          </div>
+        <a href="{{ p | prepend: '/blog/page' | prepend: site.url }}" class="blog-pagination-link">
+
+          {% if p == paginator.page %}
+            <div class="blog-pagination-button blog-pagination-button-active">
+              <p class="pagination-button-text pagination-button-text-active">{{ p }}</p>
+            </div>
+          {% else %}
+            <div class="blog-pagination-button">
+              <p class="pagination-button-text">{{ p }}</p>
+            </div>
+          {% endif %}
+
         </a>
       {% endif %}
 

@@ -79,6 +79,47 @@ hr {
   color: $gray300;
 }
 
+.post-pagination {
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
+
+  .blog-pagination-link {
+    display: inline-block;
+
+    .blog-pagination-button {
+      border-width: 1px;
+      border-style: solid;
+      border-color: $gray50;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      margin-left: 3px;
+      margin-right: 3px;
+
+      &:hover {
+        border-color: $cerise;
+        background-color: $cerise;
+      }
+
+      .pagination-button-text {
+        line-height: 30px;
+        color: $gray50;
+      }
+
+      .pagination-button-text-active {
+        color: $white !important;
+      }
+    }
+
+    .blog-pagination-button-active {
+      border-color: $cerise;
+      background-color: $cerise;
+    }
+  }
+}
+
 // Blog
 .blog-categories-container {
   h2 {
