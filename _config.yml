@@ -74,6 +74,7 @@ sass:
 gems:
   - jekyll-multiple-languages-plugin
   - octopress-paginate
+  - jekyll-feed
 
 # octopress-paginate config
 pagination:
