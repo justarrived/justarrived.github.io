@@ -7,7 +7,7 @@ locale:
   - sv
 ---
 
-![livestream](/assets/images/blog/frukostmötetack-01.png)
+![Frukostmöte](/assets/images/blog/frukostmotetack-01.png)
 
 Frukostmötet var väldigt uppskattat och inte minst från vår sida. Det är så viktigt för oss att få träffa er alla, både arbetsgivare och kandidater, och höra framgångarna, utmaningarna vår gemensamma passion att lyfta Sverige.
 
