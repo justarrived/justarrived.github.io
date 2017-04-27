@@ -15,8 +15,7 @@ Vår grafiska designer Andrew Harari har designat den arabiska versionen av Boke
 - Tack vare ett superbra jobb från översättaren och Andrew som jag kom i kontakt med via Just Arrived, finns e-boken nu att ladda ner gratis för den som ännu inte lärt sig svenska, men ändå vill lära sig sina egna och andras mest grundläggande rättigheter och skyldigheter i Sverige.
 
 
-##### [Här kan du ladda ner e-boken.](https://sowl.co/M5nFT/)
-
+##### [Här kan du ladda ner e-boken.](https://sowl.co/M5nFT)
 
 
 
