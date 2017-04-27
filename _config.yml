@@ -74,12 +74,13 @@ sass:
 gems:
   - jekyll-multiple-languages-plugin
   - octopress-paginate
+  - jekyll-feed
 
 # octopress-paginate config
 pagination:
   limit: false
   per_page: 10
-  title_suffix: " (page :num)"
+  title_suffix: ""
 
 # collections
 collections:
