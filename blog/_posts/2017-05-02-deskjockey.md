@@ -21,7 +21,7 @@ Vi är riktigt stolta och glada för Wessams skull! Vi är dessutom glada för J
 Läs vidare om Wessams erfarenhet och ta del av Jonnys tips om effektiv rekrytering!
 
 
-##### [Läs artikeln här](https://sowl.co/M5nFT)
+##### [Läs artikeln här](https://www.paperton.com/shelf/reader/magazine_id/39501/whitelabel/balans-2/uid/1343316/token/1f6eb275e1e884988ca1a6178a3d899dfef5d6d1#page/12)
 
 
 
