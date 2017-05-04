@@ -28,6 +28,6 @@ group :jekyll_plugins do
   # gem "jekyll-github-metadata", "~> 1.0"
   gem 'jekyll-multiple-languages-plugin', '~> 1.5'
   gem 'octopress-paginate', '~> 1.1'
-  gem 'jekyll-admin', '~> 0.4'
+  # gem 'jekyll-admin', '~> 0.4'
   gem 'jekyll-feed', '~> 0.9'
 end
