@@ -17,7 +17,7 @@ no_meta_section: true
 
 <h4 id="in-the-press">{% t press.press_clips.title %}</h4>
 <ul class="press-clip-list">
-{% for press_clip in site.data.press_clips %}
+{% for press_clip in site.data.press_clips reversed %}
   <li>
     {{press_clip.media}} - {{press_clip.date}}<br>
     <strong>{{ press_clip.title }}</strong><br>
