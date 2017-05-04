@@ -1,0 +1,10 @@
+.covered-by-section {
+  padding-top: 2rem;
+  .image {
+    padding: 30px;
+
+    @media(max-width: 1200px) {
+      padding: 0px;
+    }
+  }
+}
