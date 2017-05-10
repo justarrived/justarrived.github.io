@@ -562,6 +562,7 @@ hourly_pay_calculator:
   rate_including_vat: Inclusive moms
 careers:
   title: Jobba hos oss
+  cta: Se möjligheterna att jobba för Just Arrived
 job_card:
   gross_salary: 'Bruttolön:'
 press:

@@ -523,6 +523,7 @@ hourly_pay_calculator:
 
 careers:
   title: Careers
+  cta: Goto our job opportunities
 
 job_card:
   gross_salary: "Total gross salary:"
