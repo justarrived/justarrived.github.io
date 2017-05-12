@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Starta sommaren med en peppande after work hos Just Arrived!
-draft: true
 list_cover:
 locale:
   - sv

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lagar och regler som inte hjälper
-draft: true
 list_cover:
 locale:
   - sv
