@@ -8,8 +8,9 @@
   <p class="newcomer-description">{% t top_banner_newcomer.subtitle %}</p>
 
   <div class="ui two column stackable equal width">
-      <a href="https://app.justarrived.se/register?utm_source=justarrivedse&utm_medium=startpage" class="btn-large primary-btn border-btn--white-pink">{% t newcomer_howto_section.register_cta %}</a>
-      <a href="https://app.justarrived.se/jobs?utm_source=justarrivedse&utm_medium=startpage" class="btn-large border-btn border-btn--pink">{% t newcomer_howto_section.jobs_cta %}</a>
+      <a href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=startpage" class="btn-large primary-btn border-btn--white-pink">{% t newcomer_howto_section.register_cta %}</a>
+      <a href="{{ site.app_jobs_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=startpage" class="btn-large border-btn border-btn--pink">{% t newcomer_howto_section.jobs_cta %}</a>
+
   </div>
 
 </section>

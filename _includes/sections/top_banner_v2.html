@@ -12,7 +12,7 @@
     <div class="column bottom aligned content homepage_top_banner_v2_bottom_container_right">
       <div class="ui grid row two equal width stackable" style="text-align: center;">
         <div class="column cta-wrapper">
-          <a href="https://app.justarrived.se/register?utm_source=justarrivedse&utm_medium=startpage">
+          <a href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=start_top_banner">
             <img class="cta-img" src="{{ "/assets/images/icons/newcomer-icon.png" | prepend: site.github.url }}">
             <div class="cta-text">
               <h4>{% t top_banner.newcomer %}</h4>
