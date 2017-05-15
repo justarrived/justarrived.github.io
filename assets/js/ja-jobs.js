@@ -1,13 +1,12 @@
 (function(window) {
   var numberOfJobs = 3;
-  var path = '/jobs?include=company,category,hourly-pay'
+  var path = '/jobs?include=company,category,hourly_pay'
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
   // var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
   var filterParam = '';
-  var sortParam = '&sort=-featured,filled,-job-date';
+  var sortParam = '&sort=-featured,filled,-job_date';
 
   var baseURL = 'https://api.justarrived.se/api/v1';
-  // var baseURL = 'https://just-match-api-staging.herokuapp.com/api/v1';
   JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam;
 
   function getJobs(callback) {
@@ -22,6 +21,7 @@
         console.error('ja-jobs.js: API Request failed!');
       },
       beforeSend: function(xhr) {
+        xhr.setRequestHeader('X-API-KEY-TRANSFORM', 'underscore');
         xhr.setRequestHeader('X-API-LOCALE', CURRENT_LOCALE);
         xhr.setRequestHeader('Content-Type', 'application/vnd.api+json');
       }
@@ -52,7 +52,7 @@
   }
 
   function getHourlyPayValue(includedData, id) {
-    return getIncludedResource('hourly-pays', id, includedData);
+    return getIncludedResource('hourly_pays', id, includedData);
   }
 
   function relationId(type, data) {
@@ -66,19 +66,19 @@
 
     var companyId = relationId('company', jobData);
     var categoryId = relationId('category', jobData);
-    var hourlyPayId = relationId('hourly-pay', jobData);
+    var hourlyPayId = relationId('hourly_pay', jobData);
 
     var company = getCompanyName(includedData, companyId);
     var category = getCategoryName(includedData, categoryId);
     var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
-    var grossSalary = hourlyPay['gross-salary-with-unit'];
+    var grossSalary = hourlyPay['gross_salary_with_unit'];
 
     var hours = jobAtrs.hours;
-    var amount = jobAtrs['gross-amount-delimited'];
+    var amount = jobAtrs['gross_amount_delimited'];
     var maxDescriptionLength = 100;
-    var shortDesc = jobAtrs['translated-text']['short-description'] || jobAtrs['short-description'];
-    var description = shortDesc || (jobAtrs['translated-text']['description'] || jobAtrs['description']);
-    var name = jobAtrs['translated-text'].name || jobAtrs.name;
+    var shortDesc = jobAtrs['translated_text']['short_description'] || jobAtrs['short_description'];
+    var description = shortDesc || (jobAtrs['translated_text']['description'] || jobAtrs['description']);
+    var name = jobAtrs['translated_text'].name || jobAtrs.name;
     description = truncate(description, maxDescriptionLength);
 
     innerHTML = formatTemplate(template, '%job_id%', jobID);
