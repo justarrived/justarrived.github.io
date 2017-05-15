@@ -48,10 +48,10 @@
 
     <br><br>
     <p class="module--txt-strong-c">
-      <a style="margin-top: 10px;" href="{{ site.app_register_link }}" class="border-btn btn-large border-btn--pink btn-wide module--txt-strong-c" data-category="{{ site.analytics.categories.cta }}" data-action="Register in app click">
+      <a style="margin-top: 10px;" href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=register_cta" class="border-btn btn-large border-btn--pink btn-wide module--txt-strong-c" data-category="{{ site.analytics.categories.cta }}" data-action="Register in app click">
         {% t newcomer_howto_section.register_cta %}
       </a>
-      <a style="margin-top: 10px;" href="{{ site.app_jobs_link }}" class="primary-btn btn-large btn-wide module--txt-strong-c js-goto-app-jobs">
+      <a style="margin-top: 10px;" href="{{ site.app_jobs_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=jobs_cta" class="primary-btn btn-large btn-wide module--txt-strong-c js-goto-app-jobs">
         {% t newcomer_howto_section.jobs_cta %}
       </a>
     </p>

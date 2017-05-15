@@ -11,7 +11,7 @@
 		</li>
 
 		<li>
-			<a href="{{ site.app_signin_link }}" data-action="click" data-action-label="Nav to app login" category="{{site.analytics.categories.navigation}}">
+			<a href="{{ site.app_signin_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=nav_login" data-action="click" data-action-label="Nav to app login" category="{{site.analytics.categories.navigation}}">
 				<span>{% t nav.login %}</span>
 			</a>
 		</li>
@@ -26,7 +26,7 @@
 			</a>
 		</li>
 		<li class="show-on-tablet">
-			<a " href="{{ "/company/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to company page" category="{{site.analytics.categories.navigation}}">
+			<a href="{{ "/company/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to company page" category="{{site.analytics.categories.navigation}}">
 				<span>{% t nav.companies %}</span>
 			</a>
 		</li>
@@ -62,7 +62,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="{{ site.app_signin_link }}" data-action="click" data-action-label="Nav to app login" category="{{site.analytics.categories.navigation}}">
+				<a href="{{ site.app_signin_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=nav_login" data-action="click" data-action-label="Nav to app login" category="{{site.analytics.categories.navigation}}">
 					<span>{% t nav.login %}</span>
 				</a>
 			</li>
