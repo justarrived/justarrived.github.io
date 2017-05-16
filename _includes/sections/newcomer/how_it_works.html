@@ -24,11 +24,15 @@
 
   <div class="equal width row stackable">
     <div class="column">
-      <a class="primary-btn btn-large left-button" href="https://app.justarrived.se/jobs">{% t newcomer_howto_section.jobs_cta %}</a>
+      <a class="primary-btn btn-large left-button" href="{{ site.app_jobs_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=howitworks">
+        {% t newcomer_howto_section.jobs_cta %}
+      </a>
     </div>
 
     <div class="column">
-      <a class="primary-btn btn-large right-button" href="https://app.justarrived.se/register">{% t newcomer_howto_section.register_cta %}</a>
+      <a class="primary-btn btn-large right-button" href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=howitworks">
+        {% t newcomer_howto_section.register_cta %}
+      </a>
     </div>
   </div>
 

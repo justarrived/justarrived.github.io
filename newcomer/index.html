@@ -7,4 +7,15 @@ layout: default
 <!-- {% include sections/newcomer/testimonial.html %} -->
 {% include sections/geo_availability.html %}
 {% include sections/newcomer/newcomer_faq.html %}
+{% include sections/job_cards.html %}
+
+<p style="text-align:center;background-color:white;padding-bottom:65px;border-bottom: 1px solid #e8e8e8;">
+  <a class="primary-btn btn-large" href="{{ site.app_jobs_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}">
+    {% t newcomer_howto_section.jobs_cta %}
+  </a>
+  <a class="primary-btn btn-large" href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}">
+    {% t newcomer_howto_section.register_cta %}
+  </a>
+</p>
+
 {% include sections/newcomer/contact_us.html %}
