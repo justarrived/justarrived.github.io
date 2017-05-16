@@ -250,11 +250,15 @@
 
   <div class="equal width row stackable">
     <div class="column">
-      <a class="primary-btn btn-large left-button" href="https://app.justarrived.se/jobs">أنظر الى الوظائف لدينا </a>
+      <a class="primary-btn btn-large left-button" href="https://app.justarrived.se/jobs/?locale=ar&utm_source=justarrived&utm_medium=web&utm_content=howitworks">
+        أنظر الى الوظائف لدينا 
+      </a>
     </div>
 
     <div class="column">
-      <a class="primary-btn btn-large right-button" href="https://app.justarrived.se/register">أنشئ حساباً</a>
+      <a class="primary-btn btn-large right-button" href="https://app.justarrived.se/register?locale=ar&utm_source=justarrived&utm_medium=web&utm_content=howitworks">
+        أنشئ حساباً
+      </a>
     </div>
   </div>
 
@@ -349,6 +353,59 @@
     <div class="column computer tablet only section-image"></div>
   </div>
 </div>
+
+<!-- START: HTML TEMPLATE -->
+<div id="js-job-cards-template" style="display:none;">
+  <li>
+    <div class="job-card" dir="ltr">
+      <a href="https://app.justarrived.se/job/%job_id%?locale=ar&utm_source=justarrived&utm_medium=web&utm_content=card" class="card-link">
+        <div class="job-header">
+          <h4>%job_name%</h4>
+        </div>
+        <div class="company-name">
+          <span>%job_company%</span>
+        </div>
+        <span class="emphasize-title city-name">%job_city%</span>
+        <span class="job-description">%job_description%</span>
+
+        <div class="job-meta-info">
+          <div class="details">
+            <span class="left">%job_hours% الساعات</span>
+            <span class="right">%job_hourly_pay%</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </li>
+</div>
+<!-- END: HTML TEMPLATE -->
+
+<section class="
+  module
+  module--padding-half
+  module--black
+  module--white-bg">
+
+  <div class="section-divider"></div>
+  <div class="job-cards-wrapper">
+    <div class="job-cards-container">
+      
+
+      <ul id="js-job-cards" class="job-cards-list">
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<p style="text-align:center;background-color:white;padding-bottom:65px;border-bottom: 1px solid #e8e8e8;">
+  <a class="primary-btn btn-large" href="https://app.justarrived.se/jobs/?locale=ar&utm_source=justarrived&utm_medium=web">
+    أنظر الى الوظائف لدينا 
+  </a>
+  <a class="primary-btn btn-large" href="https://app.justarrived.se/register?locale=ar&utm_source=justarrived&utm_medium=web">
+    أنشئ حساباً
+  </a>
+</p>
 
 <div class="ui grid section--newcomer-contact-us class">
 
