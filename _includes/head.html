@@ -25,12 +25,14 @@
 	<meta property="og:url" content="{{ canonical }}" />
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
   {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
-  <meta property="og:image" content="{{ site.url }}{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}/assets/images/press/just-arrived-logo-long.png{% endif %}" />
-  <meta property="og:locale" content="{{ site.lang }}" />
+  <meta property="og:image" content="{{ site.url }}{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}/assets/images/press/just-arrived-logo-square-with-name-as-text.png{% endif %}" />
 
-  {% unless site.lang == 'sv' %}<meta property="og:locale:alternate" content="sv" />{% endunless %}
-  {% unless site.lang == 'en' %}<meta property="og:locale:alternate" content="en" />{% endunless %}
-  {% unless site.lang == 'ar' %}<meta property="og:locale:alternate" content="ar" />{% endunless %}
+  {% if site.lang == 'sv' %}<meta property="og:locale" content="sv_SE" />{% endif %}
+	{% if site.lang == 'en' %}<meta property="og:locale" content="en_US" />{% endif %}
+	{% if site.lang == 'ar' %}<meta property="og:locale" content="ar_SY" />{% endif %}
+  {% unless site.lang == 'sv' %}<meta property="og:locale:alternate" content="sv_SE" />{% endunless %}
+  {% unless site.lang == 'en' %}<meta property="og:locale:alternate" content="en_US" />{% endunless %}
+  {% unless site.lang == 'ar' %}<meta property="og:locale:alternate" content="ar_SY" />{% endunless %}
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
