@@ -26,6 +26,7 @@
   {% if page.title %}<meta property="og:title" content="Just Arrived - {{ page.title }}" />{% endif %}
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}" />
 	<meta property="og:image" content="{{ site.url }}{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}/assets/images/just-arrived-open-graph-logo.png{% endif %}" />
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
 
   {% if site.lang == 'sv' %}<meta property="og:locale" content="sv_SE" />{% endif %}
 	{% if site.lang == 'en' %}<meta property="og:locale" content="en_US" />{% endif %}
