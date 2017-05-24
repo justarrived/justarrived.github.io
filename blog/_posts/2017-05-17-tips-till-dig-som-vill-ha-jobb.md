@@ -13,7 +13,7 @@ I en ny serie av filmer kommer vi att dela med oss av nyttiga och inspirerande t
 
 Vi tror på potentialen i dig som nyanländ!
 
-##### [Sök jobb här](https://justarrived.se/newcomer/?utm_source=newcomer page&utm_medium=blogg)
+##### [Sök jobb här](https://justarrived.se/newcomer/?utm_source=justarrived&utm_medium=blog)
 
 
 {% include blog/post_footer.html %}
