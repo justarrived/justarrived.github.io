@@ -84,7 +84,7 @@ blog:
   about_us_post_footer: <strong>Just Arrived</strong> offers companies a service that makes it easy, fast and safe to hire newcomers. Just Arrived came to existance as a response to the large wave of migrants in 2015. The grassroots initiative rapidly engaged both businesses and individuals who wanted to create a tangible difference. Today we are 15 employees in the fast-growing, non-profit, limited liability company. Just Arrived has more than 100 companies using our service continuously. The company is owned by four non-profit foundations, including the <a href="http://norrskenfoundation.org">Norrsken Foundation</a>. Read more about <a href="https://justarrived.se">Just Arrived</a> here!
 
 top_banner:
-  tag_line: We give newcomers in Sweden a chance to enter the labor market
+  tag_line: We give newcomers in Sweden a chance to enter the labour market
   tag_line_description: We connect newly-arrived immigrants with Swedish companies. Our digital platform enables companies to post simple tasks and services and match them with newcomers looking for work.
   newcomer: Newcomer
   register: Register
@@ -473,8 +473,8 @@ newcomer_contact_us:
   subtitle: Psst.. check out our FAQ
 
 top_banner_newcomer:
-  title: Get the experience you need to enter the Swedish labor market
-  subtitle: By matching you with Swedish companies Just Arrived helps you get the credentials you need to enter the Swedish labor market.
+  title: Get the experience you need to enter the Swedish labour market
+  subtitle: By matching you with Swedish companies Just Arrived helps you get the credentials you need to enter the Swedish labour market.
   cta: I want a job
 
 newcomer_howto:
@@ -490,7 +490,7 @@ newcomer_howto:
     second: Bank account
     third: Personal id number or a coordination number
   service:
-    title: 3. Enter the labor market
+    title: 3. Enter the labour market
     first: You get access to the Just Arrived service
     second: Create your profile and start applying for jobs!
 
