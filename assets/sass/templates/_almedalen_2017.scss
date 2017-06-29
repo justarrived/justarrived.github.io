@@ -1,0 +1,22 @@
+.almedalen-twitter-feed {
+  margin-top: 40px;
+}
+
+.section--top_banner_v2.almedalen {
+  background-image: url("/assets/images/almedalen-2017/visby.jpg");
+  min-height: 600px;
+
+  @media(max-width: 900px) {
+    min-height: 450px;
+  }
+
+  .main-almedalen-header {
+    text-align: center;
+    color: #fff;
+    margin-top: 45px;
+  }
+}
+
+.justarrived-logo-almedalen-top {
+  margin-top: 40px;
+}

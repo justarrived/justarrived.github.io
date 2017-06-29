@@ -6,6 +6,24 @@ description: We give newcomers in Sweden a chance to enter the labor market
 
 <div class="home">
   <div id="content">
+
+    <div id="almedalen-2017-notice" style="display:none;background: #0069d2;color: #fff;padding: 10px 0;">
+      <h2 style="margin: 0px 0;text-align: center;">
+        Just Arrived är i Almedalen.
+        <a href="/almedalen/" style="color: #E8218D;">
+          Läs mer.
+        </a>
+      </h2>
+    </div>
+    <script type="text/javascript">
+      if (new Date() > new Date(2017, 6, 1) && new Date() < new Date(2017, 6, 7)) {
+        var element = document.getElementById('almedalen-2017-notice');
+        if (element) {
+          element.style.display = 'block';
+        }
+      }
+    </script>
+
     {% include sections/top_banner_v2.html %}
     {% include sections/job_cards.html %}
     {% include sections/home_how_we_match.html %}
