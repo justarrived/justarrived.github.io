@@ -20,9 +20,27 @@
 
 .justarrived-logo-almedalen-top {
   margin-top: 40px;
+  max-width: 550px;
 }
 
 
 .almedalen-small-videos {
+  text-align: center;
+
+  @media(max-width: 650px) {
+    display: none;
+  }
+}
+
+.almedalen-bottom-text {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  color: #000;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  max-width: 750px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   text-align: center;
 }
