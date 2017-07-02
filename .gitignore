@@ -17,3 +17,5 @@ en/
 !_i18n/en
 
 Gemfile.lock
+
+tmp/
