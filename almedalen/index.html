@@ -77,10 +77,10 @@ description: Just Arrived i Almedalen 2017
           </style>
         </div>
 
-        <div class="sixteen wide column" style="display:none;">
+        <div class="sixteen wide column">
           <div class="almedalen-small-videos">
             <iframe
-              src=""
+              src="https://www.youtube.com/embed/_B8EcaTjEXU"
               width="320"
               height="180"
               frameborder="0"
@@ -90,34 +90,55 @@ description: Just Arrived i Almedalen 2017
             </iframe>
 
             <iframe
-              src=""
+              src="https://www.youtube.com/embed/wsf5m_8AC84"
               width="320"
               height="180"
               frameborder="0"
               webkitallowfullscreen
               mozallowfullscreen
-              allowfullscreen>
+              allowfullscreen
+              style="display:none;"
+              id="almedalen-bwb-1">
             </iframe>
 
             <iframe
-              src=""
+              src="https://www.youtube.com/embed/Jey8-3qvErQ"
               width="320"
               height="180"
               frameborder="0"
               webkitallowfullscreen
               mozallowfullscreen
-              allowfullscreen>
+              allowfullscreen
+              style="display:none;"
+              id="almedalen-bwb-2">
             </iframe>
 
             <iframe
-              src=""
+              src="https://www.youtube.com/embed/Fc7xNX8T52w"
               width="320"
               height="180"
               frameborder="0"
               webkitallowfullscreen
               mozallowfullscreen
-              allowfullscreen>
+              allowfullscreen
+              style="display:none;"
+              id="almedalen-bwb-3">
             </iframe>
+
+            <script type="text/javascript">
+              if (new Date() > new Date(2017, 6, 4, 17, 00)) {
+                var tueMov1 = document.getElementById('almedalen-bwb-1');
+                var tueMov2 = document.getElementById('almedalen-bwb-2');
+
+                tueMov1.style.display = 'inline-block';
+                tueMov2.style.display = 'inline-block';
+              }
+
+              if (new Date() > new Date(2017, 6, 5, 17, 00)) {
+                var wedMov = document.getElementById('almedalen-bwb-3');
+                wedMov.style.display = 'inline-block';
+              }
+            </script>
           </div>
         </div>
       </div>
