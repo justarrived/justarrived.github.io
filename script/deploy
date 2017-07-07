@@ -37,7 +37,7 @@ if [ $error_code != 0 ]; then
 else
   ls | grep -v _site | grep -v CNAME | xargs rm -rf
   __exe_cmd "cp -r _site/* ."
-  __exe_cmd "rm -rf _site/"
+  __exe_cmd "rm -rf _site/ ar/ en/"
   __exe_cmd "touch .nojekyll"
   __exe_cmd "git add --all :/"
   __exe_cmd "git commit -m 'compile'"
