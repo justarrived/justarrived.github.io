@@ -131,7 +131,7 @@ job_opportunities:
     يساهم في توفير المزيد من المعلومات والمرجعيات التي تساعد الوافد الجديد في الحصول
     على المزيد من فرص العمل. Just Arrived تأخذ على عاتقها مسؤولية الوافد الجديد في
     سوق العمل.
-  emphasis: " هل أنت من القادمين الجُدد؟ قدم طلبك لكي تتمكن من الإنضمام إلى Just Arrived"
+  emphasis: ' هل أنت من القادمين الجُدد؟ قدم طلبك لكي تتمكن من الإنضمام إلى Just Arrived'
   cta: قم بالتسجيل للحصول على عمل
 contribute:
   title: ساهم في المشروع
@@ -174,16 +174,16 @@ our_product:
     يمكن الوصول إليها من خلال كافة أنواع الأجهزة ويدعم اللغة والترجمة بشكل واسع. كيفية
     عمل التطبيق كما يلي:'
   feature_list:
-    first: "- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة
-      العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة."
-    second: "- يمكن للوافد الجديد تسجيل سيرته الذاتية في التطبيق ومن ثم يقوم بالتقديم
-      على الوظيفة.*"
-    third: "- تقوم الشركة السويدية بإختيار المرشح من خلال الإطلاع على سيرتة الذاتية
-      والتقييمات من الوظائف السابقة."
-    forth: "- تقوم الشركة السويدية والوافد الجديد بالتحقق من أن العمل قد تم وأن الفاتورة
-      قد أرسلت."
-    fifth: "- يحصل الوافد الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب
-      والتكاليف الإدارية الاخرى)"
+    first: '- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة
+      العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة.'
+    second: '- يمكن للوافد الجديد تسجيل سيرته الذاتية في التطبيق ومن ثم يقوم بالتقديم
+      على الوظيفة.*'
+    third: '- تقوم الشركة السويدية بإختيار المرشح من خلال الإطلاع على سيرتة الذاتية
+      والتقييمات من الوظائف السابقة.'
+    forth: '- تقوم الشركة السويدية والوافد الجديد بالتحقق من أن العمل قد تم وأن الفاتورة
+      قد أرسلت.'
+    fifth: '- يحصل الوافد الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب
+      والتكاليف الإدارية الاخرى)'
     asterix: يتطلب AT-UND، رقم الهوية الشخصية أو رقم التنسيق والحصول على حساب مصرفي
 say_hej:
   title: قل مرحباً
@@ -452,7 +452,7 @@ companies_why_us:
   administration: يتم التعامل مع جميع البيروقراطية والإدارة من قبلنا، مما يجعل من
     السهل بالنسبة لك التوظيف.
   responsibility: نحن نأخذ مسؤولية التوظيف عن المتقدمين.
-  validation: " كافة المتقدين قد مروا من خلال عملية إعداد Just Arrived  لضمان الجودة."
+  validation: ' كافة المتقدين قد مروا من خلال عملية إعداد Just Arrived  لضمان الجودة.'
   service: نحن مرنون ونستجيب وعاملون.
 company_what_we_offer:
   title: عروضنا
@@ -521,14 +521,14 @@ newcomer_howto_section:
       </ p>
   profile:
     title: '2.الملف الشخصي '
-    body: "<p>هذا الشيء الأكثر أهمية لزيادة فرصك في الحصول على عمل من خلال جست أرايفد
+    body: <p>هذا الشيء الأكثر أهمية لزيادة فرصك في الحصول على عمل من خلال جست أرايفد
       !</p><p>تأكد من أنك أدخلت جميع المعلومات المطابقة والمهارات التي تمتلكها. إذا
-      كان ملفك الشخصي فارغا لن نتمكن من مطابقتك مع أي وظيفة.</p>"
+      كان ملفك الشخصي فارغا لن نتمكن من مطابقتك مع أي وظيفة.</p>
   apply:
     title: '3.تقدم للوظيفة '
-    body: "<p> الآن حان الوقت لتبدأ بالبحث عن عمل!</p><p> تقدم الي اي عمل والى أي
-      عدد ترغب به من الأعمال ! لاتنسى أن تزور الصفحة غالباً لترى إذا كان لدينا وظائف
-      جديدة! </p>"
+    body: <p> الآن حان الوقت لتبدأ بالبحث عن عمل!</p><p> تقدم الي اي عمل والى أي عدد
+      ترغب به من الأعمال ! لاتنسى أن تزور الصفحة غالباً لترى إذا كان لدينا وظائف جديدة!
+      </p>
 newcomer_faq_nudge:
   title: تريد معرفة المزيد؟
 our_customers:
@@ -567,7 +567,7 @@ xmas:
     role: Role
     city: 'مدينة '
   counter:
-    registrered: " التسحيل"
+    registrered: ' التسحيل'
   latest_supporters:
     title: Latest supporters
   startpage:
@@ -599,11 +599,11 @@ xmas:
       title: We'll be in touch
       body: 'We will contact you in the beginning of next year, to talk more about
         how we together can help newcomers get #enfotin.'
-    newcomer_first: "<b>Take a photo</b> - Take a picture of your foot (with shoes
-      on), with your smartphone."
-    newcomer_second: "<b>Post the photo to social media</b> - Write a short text of
+    newcomer_first: <b>Take a photo</b> - Take a picture of your foot (with shoes
+      on), with your smartphone.
+    newcomer_second: '<b>Post the photo to social media</b> - Write a short text of
       why you think its important that newcomers get a chance to enter the Swedish
-      labour market. Don't forget to use the hashtag #enfotin!"
+      labour market. Don''t forget to use the hashtag #enfotin!'
   register_section:
     campaign_closed: This campaign has been completed.
     title: What are you waiting for?
