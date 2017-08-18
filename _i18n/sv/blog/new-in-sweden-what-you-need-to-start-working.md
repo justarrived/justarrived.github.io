@@ -20,3 +20,6 @@ Du behöver du ett samordningsnummer från Skatteverket.
 
 
 Läs mer på [Migrationsverket](https://www.migrationsverket.se/Privatpersoner/Skydd-och-asyl-i-Sverige/Medan-du-vantar/Arbeta.html)
+
+
+Är du intresserad av att jobba i Sverige. Registrera din profil här: [https://app.justarrived.se/](https://app.justarrived.se/?utm_source={{ site.utm.source }}&utm_medium=blog)

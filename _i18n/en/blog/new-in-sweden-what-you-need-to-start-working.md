@@ -17,6 +17,8 @@ As an asylum seeker, you need the following to be able to work in Sweden:
 
 __For EU citizens__
 
-You need a coordination number (samordningsnummer) from the Swedish Tax Agency (Skatteverket
+You need a coordination number (samordningsnummer) from the Swedish Tax Agency (Skatteverket).
 
 Find more information at [Migrationsverket](https://www.migrationsverket.se/English/Private-individuals/Protection-and-asylum-in-Sweden/While-you-are-waiting-for-a-decision/Working.html)
+
+Do you want to work in Sweden? Register your profile here: [https://app.justarrived.se/](https://app.justarrived.se/?utm_source={{ site.utm.source }}&utm_medium=blog).
