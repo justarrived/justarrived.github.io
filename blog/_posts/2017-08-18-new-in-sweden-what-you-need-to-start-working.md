@@ -2,6 +2,7 @@
 layout: post
 title: New in Sweden? What you need to start working
 draft: false
+author: yvonne
 locale:
   - sv
   - en

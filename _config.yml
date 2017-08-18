@@ -140,5 +140,8 @@ authors:
     profile_pic: /assets/images/blog/per-clingweld.jpg
   andreas:
     display_name: Andreas König
-    email: andreas.konig@justarrived.se
+    email: andreas@justarrived.se
     profile_pic: /assets/images/blog/andreas-konig.jpg
+  yvonne:
+    display_name: Yvonne Dahlberg
+    email: yvonne.dahlberg@justarrived.se
