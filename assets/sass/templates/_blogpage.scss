@@ -132,6 +132,7 @@ hr {
 }
 
 .blog-categories-links {
+  list-style-type: none;
   &.blog-categories-medium {
     @media only screen and (min-width: $mobile-small) and (max-width : $tablet-width) {
       columns: 1;
