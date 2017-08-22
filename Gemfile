@@ -27,7 +27,8 @@ gem 'github-pages', versions['github-pages']
 group :jekyll_plugins do
   # gem "jekyll-github-metadata", "~> 1.0"
   gem 'jekyll-multiple-languages-plugin', '~> 1.5'
-  gem 'octopress-paginate', '~> 1.1'
+  # gem 'octopress-paginate', '~> 1.1'
+  gem 'jekyll-paginate-v2'
   # gem 'jekyll-admin', '~> 0.4'
   gem 'jekyll-feed', '~> 0.9'
 end
