@@ -1,6 +1,6 @@
 ---
-layout: careers
 title: Careers
+layout: careers
 ---
 
 Gå till [vår kärriärsida för att se våra öpnna tjänster](https://careers.justarrived.se).

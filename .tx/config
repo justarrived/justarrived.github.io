@@ -1,8 +1,0 @@
-[main]
-host = https://www.transifex.com
-
-[just-arrived-website.enyml]
-file_filter = _i18n/tx_<lang>.yml
-source_file = _i18n/tx_en.yml
-source_lang = en
-type = YML

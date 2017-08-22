@@ -1,52 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+---
 title: Just Arrived
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  press_clips:
+    title: Press Clips
+    output: false
+  uploads:
+    title: Uploads
+    output: true
 email: hej@justarrived.se
-description: > # this means to ignore newlines until "baseurl:"
-  Helping newcomers in Sweden enter the labor market.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://justarrived.se" # the base hostname & protocol for your site
-twitter_username: justarrivedse
-github_username:  justarrived
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".editorconfig", "script/", "CNAME", "Gruntfile.js", "package.json", "node_modules/", "npm-shrinkwrap.json"]
-permalink: pretty
+description: 'Helping newcomers in Sweden enter the labor market.
 
+'
+baseurl: 
+url: https://justarrived.se
+twitter_username: justarrivedse
+github_username: justarrived
+exclude:
+- LICENSE
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".editorconfig"
+- script/
+- CNAME
+- Gruntfile.js
+- package.json
+- node_modules/
+- npm-shrinkwrap.json
+permalink: pretty
 facebook_url: https://www.facebook.com/JustArrivedSE
 twitter_url: https://twitter.com/justarrivedse
 instagram_url: https://www.instagram.com/justarrivedse/
 linkedin_url: https://www.linkedin.com/company/just-arrived-sweden
 github_url: https://github.com/justarrived
 ja_facebook_group_url: https://www.facebook.com/groups/1757408264512193/
-
 app_register_link: https://app.justarrived.se/register
 app_jobs_link: https://app.justarrived.se/jobs/
 app_job_link: https://app.justarrived.se/job/
 app_signin_link: https://app.justarrived.se/login
-
 full_style_guide_url: https://app.frontify.com/d/qbRkBYTExyiX/just-arrived-style-guide#/basics/brand-logo
-
-# "App" settings
-job_submission_email: 'anna.hornmark+company-forms@justarrived.se'
-job_submission_redirect_url: 'https://justarrived.se/thanks/job-submit'
-
+job_submission_email: anna.hornmark+company-forms@justarrived.se
+job_submission_redirect_url: https://justarrived.se/thanks/job-submit
 company_submission_redirect_url: https://justarrived.se/thanks/company-register-submit
-
 contact_email: hej@justarrived.se
-
-# analytic keys
 segment_key: Im5TEqG2121n8lVHvgwNAW9yQ42j69Nd
 fb_key: 353518471700713
 fb_app_id: 2287595228132792
@@ -64,45 +64,35 @@ analytics:
     newcomer: Newcomer
     company: Company
     xmas: Christmas
-
 google_site_verification: 0rBZYZXWRw45Ksm_sbK7h5HbTgw7bOpDwOVK9GxvISU
-
-# Build settings
 markdown: kramdown
-# theme: minima
 sass:
-    sass_dir: assets/sass
-    style: compressed
-
-# Plugins
+  sass_dir: assets/sass
+  style: compressed
 gems:
-  - jekyll-multiple-languages-plugin
-  - octopress-paginate
-  - jekyll-feed
-
-# octopress-paginate config
+- jekyll-multiple-languages-plugin
+- octopress-paginate
+- jekyll-feed
 pagination:
   limit: false
   per_page: 10
-  title_suffix: ""
-
-# collections
-collections:
-  press_clips:
-    output: false
-
-# I18n
-rtl_languages: ["ar"]
-default_language: 'sv'
-
-# I18n plugin: jekyll-multiple-languages-plugin
-languages: ["sv", "en", "ar"]
-exclude_from_localizations: ["assets", "favicon.ico", "_posts", "ar/", "sv/", "en/"]
-
+  title_suffix: 
+rtl_languages:
+- ar
+default_language: sv
+languages:
+- sv
+- en
+- ar
+exclude_from_localizations:
+- assets
+- favicon.ico
+- _posts
+- ar/
+- sv/
+- en/
 newsletter:
   subscribe_link: http://eepurl.com/cviFlL
-
-# Blog
 authors:
   buren:
     display_name: Jacob Burenstam
@@ -110,38 +100,35 @@ authors:
     web: http://jacobburenstam.com/
     twitter: jacobburenstam
     github: buren
-    profile_pic: /assets/images/blog/jacob-burenstam.jpg
+    profile_pic: "/assets/images/blog/jacob-burenstam.jpg"
   neven:
     display_name: Neven Jugo
     email: neven.jugo@justarrived.se
-    profile_pic: /assets/images/blog/neven-jugo.jpg
+    profile_pic: "/assets/images/blog/neven-jugo.jpg"
   lova:
     display_name: Lova Westlund
     email: lova.westlund@justarrived.se
-    profile_pic: /assets/images/blog/lova-westlund.jpg
+    profile_pic: "/assets/images/blog/lova-westlund.jpg"
   salam:
     display_name: Salam Al Hennawi
     email: salam.alhennawi@justarrived.se
-    profile_pic: /assets/images/blog/salam-al-hennawi.jpg
+    profile_pic: "/assets/images/blog/salam-al-hennawi.jpg"
   abed:
     display_name: Abed Qaisi
-    profile_pic: /assets/images/blog/abed-qaisi.jpg
+    profile_pic: "/assets/images/blog/abed-qaisi.jpg"
   strangberg:
     display_name: Per Strängberg
     email: per.strangberg@justarrived.se
-    profile_pic: /assets/images/blog/per-strangberg.jpg
+    profile_pic: "/assets/images/blog/per-strangberg.jpg"
   anna:
     display_name: Anna Hörnmark
     email: anna.hornmark@justarrived.se
-    profile_pic: /assets/images/blog/anna-hornmark.jpg
+    profile_pic: "/assets/images/blog/anna-hornmark.jpg"
   per:
     display_name: Per Clingweld
     email: anna.hornmark@justarrived.se
-    profile_pic: /assets/images/blog/per-clingweld.jpg
+    profile_pic: "/assets/images/blog/per-clingweld.jpg"
   andreas:
     display_name: Andreas König
-    email: andreas@justarrived.se
-    profile_pic: /assets/images/blog/andreas-konig.jpg
-  yvonne:
-    display_name: Yvonne Dahlberg
-    email: yvonne.dahlberg@justarrived.se
+    email: andreas.konig@justarrived.se
+    profile_pic: "/assets/images/blog/andreas-konig.jpg"
