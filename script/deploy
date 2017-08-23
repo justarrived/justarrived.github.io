@@ -21,7 +21,7 @@ post_to_slack() {
 main_branch=siteleaf
 release_branch=master
 
-__git-current-branch-or-exit $main_branch
+# __git-current-branch-or-exit $main_branch
 
 __exe_cmd "bundle exec jekyll build --config=_config.yml"
 if [ ! -d '_site' ]; then
