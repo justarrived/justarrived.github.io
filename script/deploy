@@ -49,6 +49,7 @@ error_code=$?
   __exe_cmd "touch .nojekyll"
   __exe_cmd "git add --all :/"
   __exe_cmd "git commit -m 'compile'"
+  echo "CI_COMMIT_ID: ${CI_COMMIT_ID}"
   __exe_cmd "git push -f "${REMOTE_REPOSITORY}" "$(git rev-parse HEAD):${REMOTE_BRANCH}""
   # post_to_slack
   # __exe_cmd "git checkout $main_branch"
