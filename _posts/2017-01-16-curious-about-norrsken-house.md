@@ -1,6 +1,6 @@
 ---
 title: Curious about Norrsken House?
-date: 2017-01-16 00:00:00 Z
+date: 2017-01-16 01:00:00 +01:00
 categories:
 - blog
 layout: post

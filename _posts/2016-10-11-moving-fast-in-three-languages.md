@@ -1,6 +1,6 @@
 ---
 title: 1x3x3x3 - 1 feature, 3 people, 3 hours, 3 languages
-date: 2016-10-11 00:00:00 Z
+date: 2016-10-11 02:00:00 +02:00
 categories:
 - blog
 tags:

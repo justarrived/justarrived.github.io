@@ -1,6 +1,6 @@
 ---
 title: Kom på frukostmöte med Just Arrived
-date: 2017-04-12 00:00:00 Z
+date: 2017-04-12 02:00:00 +02:00
 categories:
 - blog
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Väsbyhem hjälper och får hjälp av nyanlända
-date: 2016-11-08 00:00:00 Z
+date: 2016-11-08 01:00:00 +01:00
 categories:
 - blog
 layout: post

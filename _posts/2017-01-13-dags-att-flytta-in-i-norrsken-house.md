@@ -1,6 +1,6 @@
 ---
 title: Dags att flytta in i Norrsken House!
-date: 2017-01-13 00:00:00 Z
+date: 2017-01-13 01:00:00 +01:00
 categories:
 - blog
 layout: post

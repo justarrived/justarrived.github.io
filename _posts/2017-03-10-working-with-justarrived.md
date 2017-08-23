@@ -1,6 +1,6 @@
 ---
 title: Working with Just Arrived
-date: 2017-03-10 00:00:00 Z
+date: 2017-03-10 01:00:00 +01:00
 categories:
 - blog
 layout: post

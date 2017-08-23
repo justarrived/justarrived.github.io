@@ -1,6 +1,6 @@
 ---
 title: Just Arrived in The Huffington Post
-date: 2017-03-14 00:00:00 Z
+date: 2017-03-14 01:00:00 +01:00
 categories:
 - blog
 tags:

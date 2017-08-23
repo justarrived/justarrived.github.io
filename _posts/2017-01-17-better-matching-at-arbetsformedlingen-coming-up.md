@@ -1,6 +1,6 @@
 ---
 title: Better matching at Arbetsförmedlingen coming up
-date: 2017-01-17 00:00:00 Z
+date: 2017-01-17 01:00:00 +01:00
 categories:
 - blog
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Andreas König
-date: 2016-08-31 00:00:00 Z
+date: 2016-08-31 02:00:00 +02:00
 categories:
 - blog
 tags:

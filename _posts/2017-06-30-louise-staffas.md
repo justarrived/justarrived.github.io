@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Louise Staffas
-date: 2017-06-30 00:00:00 Z
+date: 2017-06-30 02:00:00 +02:00
 categories:
 - blog
 tags:

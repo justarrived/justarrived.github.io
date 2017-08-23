@@ -1,6 +1,6 @@
 ---
 title: We're looking for Sweden's best operations manager
-date: 2017-02-14 00:00:00 Z
+date: 2017-02-14 01:00:00 +01:00
 categories:
 - blog
 tags:

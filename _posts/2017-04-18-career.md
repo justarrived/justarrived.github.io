@@ -1,7 +1,7 @@
 ---
 title: I och med nästa steg på vår resa anställer vi en Staffing Manager med ansvar
   för arbetarjobb
-date: 2017-04-18 00:00:00 Z
+date: 2017-04-18 02:00:00 +02:00
 categories:
 - blog
 layout: post

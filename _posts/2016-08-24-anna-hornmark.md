@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Anna Hörnmark
-date: 2016-08-24 00:00:00 Z
+date: 2016-08-24 02:00:00 +02:00
 categories:
 - blog
 tags:

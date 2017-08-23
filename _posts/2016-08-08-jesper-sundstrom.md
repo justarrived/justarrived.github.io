@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Jesper Sundström
-date: 2016-08-08 00:00:00 Z
+date: 2016-08-08 02:00:00 +02:00
 categories:
 - blog
 tags:

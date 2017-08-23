@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Per Strängberg
-date: 2016-12-30 00:00:00 Z
+date: 2016-12-30 01:00:00 +01:00
 categories:
 - blog
 tags:

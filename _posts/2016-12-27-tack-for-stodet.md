@@ -1,6 +1,6 @@
 ---
 title: Tack för stödet
-date: 2016-12-27 00:00:00 Z
+date: 2016-12-27 01:00:00 +01:00
 categories:
 - blog
 tags:

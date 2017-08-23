@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Jacob Burenstam
-date: 2016-09-14 00:00:00 Z
+date: 2016-09-14 02:00:00 +02:00
 categories:
 - blog
 tags:

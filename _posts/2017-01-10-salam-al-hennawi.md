@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Salam Al Hennawi
-date: 2017-01-10 00:00:00 Z
+date: 2017-01-10 01:00:00 +01:00
 categories:
 - blog
 tags:

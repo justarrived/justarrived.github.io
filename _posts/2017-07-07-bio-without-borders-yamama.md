@@ -1,6 +1,6 @@
 ---
 title: Bio Without Borders - Yamama
-date: 2017-07-07 00:00:00 Z
+date: 2017-07-07 02:00:00 +02:00
 categories:
 - blog
 layout: post

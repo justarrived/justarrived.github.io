@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Nils Nordström
-date: 2017-06-20 00:00:00 Z
+date: 2017-06-20 02:00:00 +02:00
 categories:
 - blog
 tags:

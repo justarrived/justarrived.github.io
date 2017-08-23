@@ -1,6 +1,6 @@
 ---
 title: Career and education fair Bazaren
-date: 2017-02-10 00:00:00 Z
+date: 2017-02-10 01:00:00 +01:00
 categories:
 - blog
 layout: post

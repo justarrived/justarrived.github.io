@@ -1,6 +1,6 @@
 ---
 title: Starta sommaren med en peppande after work hos Just Arrived!
-date: 2017-05-12 00:00:00 Z
+date: 2017-05-12 02:00:00 +02:00
 categories:
 - blog
 layout: post

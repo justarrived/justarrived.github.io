@@ -1,6 +1,6 @@
 ---
 title: Yvonne Dahlberg - Är det dags att sluta tycka synd om nyanlända?
-date: 2017-07-06 00:00:00 Z
+date: 2017-07-06 02:00:00 +02:00
 categories:
 - blog
 layout: post

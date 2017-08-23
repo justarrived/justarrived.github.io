@@ -1,6 +1,6 @@
 ---
 title: Jag är med och bygger samhället
-date: 2017-01-05 00:00:00 Z
+date: 2017-01-05 01:00:00 +01:00
 categories:
 - blog
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Lagar och regler som inte hjälper
-date: 2017-05-10 00:00:00 Z
+date: 2017-05-10 02:00:00 +02:00
 categories:
 - blog
 layout: post

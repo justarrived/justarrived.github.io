@@ -1,6 +1,6 @@
 ---
 title: First company visit video teaser
-date: 2017-01-25 00:00:00 Z
+date: 2017-01-25 01:00:00 +01:00
 categories:
 - blog
 layout: post

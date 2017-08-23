@@ -1,6 +1,6 @@
 ---
 title: Kamals tips för att få drömjobbet
-date: 2017-05-23 00:00:00 Z
+date: 2017-05-23 02:00:00 +02:00
 categories:
 - blog
 layout: post

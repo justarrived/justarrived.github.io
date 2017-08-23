@@ -1,6 +1,6 @@
 ---
 title: Tack för ett fantastiskt fint frukostmöte
-date: 2017-04-21 00:00:00 Z
+date: 2017-04-21 02:00:00 +02:00
 categories:
 - blog
 layout: post

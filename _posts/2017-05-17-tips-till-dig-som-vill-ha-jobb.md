@@ -1,6 +1,6 @@
 ---
 title: Tips till dig som vill ha jobb
-date: 2017-05-17 00:00:00 Z
+date: 2017-05-17 02:00:00 +02:00
 categories:
 - blog
 layout: post

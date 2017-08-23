@@ -1,6 +1,6 @@
 ---
 title: Temporary refugee law shortcomings
-date: 2017-01-19 00:00:00 Z
+date: 2017-01-19 01:00:00 +01:00
 categories:
 - blog
 layout: post

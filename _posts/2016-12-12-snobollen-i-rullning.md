@@ -1,6 +1,6 @@
 ---
 title: Snöbollen i rullning
-date: 2016-12-12 00:00:00 Z
+date: 2016-12-12 01:00:00 +01:00
 categories:
 - blog
 tags:

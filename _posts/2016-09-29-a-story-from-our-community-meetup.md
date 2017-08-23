@@ -1,6 +1,6 @@
 ---
 title: A story from our Community Meetup
-date: 2016-09-29 00:00:00 Z
+date: 2016-09-29 02:00:00 +02:00
 categories:
 - blog
 tags:

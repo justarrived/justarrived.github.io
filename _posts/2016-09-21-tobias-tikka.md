@@ -1,6 +1,6 @@
 ---
 title: Meet the team - Tobias Tikka
-date: 2016-09-21 00:00:00 Z
+date: 2016-09-21 02:00:00 +02:00
 categories:
 - blog
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Tusen tack till alla som stödde #enfotin'
-date: 2017-01-04 00:00:00 Z
+date: 2017-01-04 01:00:00 +01:00
 categories:
 - blog
 tags:

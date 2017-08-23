@@ -1,7 +1,7 @@
 ---
 title: Varm berättelse om mötet mellan Marcus Örnstedt, IT-manager på Etteplan, och
   en nyanländ tonåring
-date: 2017-04-04 00:00:00 Z
+date: 2017-04-04 02:00:00 +02:00
 categories:
 - blog
 layout: post
