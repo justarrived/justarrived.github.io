@@ -1,5 +1,5 @@
 ---
-title: Siteleaf seems to be working
+title: Siteleaf seems to be working!
 date: 2017-08-23 11:11:00 +02:00
 categories:
 - test
@@ -10,7 +10,7 @@ locale: en
 layout: post
 ---
 
-## Hi I'm testing siteleaf! Perhaps this one will work?
+## YAY! Now it seems to be fucking working!
 
 Today I'm trying to deploy Siteleaf (online CMS).
 
