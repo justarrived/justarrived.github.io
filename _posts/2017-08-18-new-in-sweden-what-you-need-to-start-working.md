@@ -1,6 +1,6 @@
 ---
 title: New in Sweden? What you need to start working
-date: 2017-08-18 00:00:00 Z
+date: 2017-08-18 02:00:00 +02:00
 categories:
 - blog
 tags:
@@ -12,8 +12,6 @@ locale:
 - en
 layout: post
 ---
-
-Triying out an edit
 
 {% translate_file blog/new-in-sweden-what-you-need-to-start-working.md %}
 
