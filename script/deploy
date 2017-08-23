@@ -38,7 +38,7 @@ git config --global user.email "$GIT_USER_EMAIL"
 git config --global user.name "$GIT_USER_NAME"
 
 __exe_cmd "git fetch --unshallow || true"
-__exe_cmd 'git fetch origin "+refs/heads/*:refs/remotes/origin/*' # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
+__exe_cmd 'git fetch origin "+refs/heads/*:refs/remotes/origin/*"' # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
 # __exe_cmd "git checkout $release_branch"
 error_code=$?
 # if [ $error_code != 0 ]; then
