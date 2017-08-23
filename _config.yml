@@ -13,7 +13,7 @@ collections:
     output: true
 email: hej@justarrived.se
 description: Helping newcomers in Sweden enter the labor market.
-baseurl: ''
+baseurl: 
 url: https://justarrived.se
 twitter_username: justarrivedse
 github_username: justarrived
