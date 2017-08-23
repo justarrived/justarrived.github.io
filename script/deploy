@@ -19,9 +19,9 @@ post_to_slack() {
 }
 
 main_branch=siteleaf
-release_branch=master
+release_branch=live
 
-# __git-current-branch-or-exit $main_branch
+__git-current-branch-or-exit $main_branch
 
 __exe_cmd "bundle exec jekyll build --config=_config.yml"
 if [ ! -d '_site' ]; then
@@ -29,6 +29,7 @@ if [ ! -d '_site' ]; then
   exit 1
 fi
 
+__exe_cmd "git fetch origin $release_branch"
 __exe_cmd "git checkout $release_branch"
 error_code=$?
 if [ $error_code != 0 ]; then
