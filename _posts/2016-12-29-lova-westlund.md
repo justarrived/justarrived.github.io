@@ -8,7 +8,7 @@ tags:
 layout: post
 author: lova
 locale: en
-list_cover: /assets/images/blog/lova-westlund.jpg
+list_cover: "/assets/images/blog/lova-westlund.jpg"
 og_image: "/assets/images/blog/lova-westlund.jpg"
 ---
 

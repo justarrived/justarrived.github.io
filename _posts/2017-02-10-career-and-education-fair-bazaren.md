@@ -5,7 +5,7 @@ categories:
 - blog
 layout: post
 author: per
-list_cover: /assets/images/blog/bazaren/popular.jpg
+list_cover: "/assets/images/blog/bazaren/popular.jpg"
 locale: en
 ---
 

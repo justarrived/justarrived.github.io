@@ -5,7 +5,7 @@ date: 2017-03-28 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: /assets/images/blog/dagenssamhalle-win-win.jpg
+list_cover: "/assets/images/blog/dagenssamhalle-win-win.jpg"
 locale:
 - sv
 ---

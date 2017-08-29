@@ -4,7 +4,7 @@ date: 2017-05-10 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: /assets/images/blog/straffainte2.jpg
+list_cover: "/assets/images/blog/straffainte2.jpg"
 locale:
 - sv
 ---

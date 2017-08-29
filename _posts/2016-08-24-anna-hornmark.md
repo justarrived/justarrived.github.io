@@ -8,7 +8,7 @@ tags:
 layout: post
 author: anna
 locale: en
-list_cover: /assets/images/blog/anna-hornmark.jpg
+list_cover: "/assets/images/blog/anna-hornmark.jpg"
 og_image: "/assets/images/blog/anna-hornmark.jpg"
 ---
 

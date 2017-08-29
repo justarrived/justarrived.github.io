@@ -7,7 +7,7 @@ tags:
 - jobs
 layout: post
 author: per
-list_cover: /assets/images/blog/team-picture.jpg
+list_cover: "/assets/images/blog/team-picture.jpg"
 og_image: "/assets/images/blog/team-picture.jpg"
 locale: en
 ---

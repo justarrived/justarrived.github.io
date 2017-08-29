@@ -40,7 +40,7 @@ pagination:
         </h2>
         <p class="blog-post-date-text">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</p>
         <div class="blog-post-content-container">
-          {{ post.content | strip_html | truncate: 300 }}<br/>
+          {{ post.content | truncate: 300 }}<br/>
         </div>
         <a class="primary-btn border-btn--pink read-more-btn" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
 

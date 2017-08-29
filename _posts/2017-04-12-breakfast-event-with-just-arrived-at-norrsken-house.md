@@ -4,7 +4,7 @@ date: 2017-04-12 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: /assets/images/blog/norrsken-house-facade.jpg
+list_cover: "/assets/images/blog/norrsken-house-facade.jpg"
 locale:
 - sv
 ---

@@ -9,7 +9,7 @@ tags:
 layout: post
 author: per
 locale: sv
-list_cover: /assets/images/blog/slutspurten-enfotin.png
+list_cover: "/assets/images/blog/slutspurten-enfotin.png"
 og_image: "/assets/images/blog/slutspurten-enfotin.png"
 ---
 

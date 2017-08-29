@@ -7,7 +7,7 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: /assets/images/blog/louise-staffas.jpg
+list_cover: "/assets/images/blog/louise-staffas.jpg"
 list_cover_height: 365px
 ---
 

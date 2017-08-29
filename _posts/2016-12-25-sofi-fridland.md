@@ -7,7 +7,7 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: /assets/images/blog/sofi-fridland.jpg
+list_cover: "/assets/images/blog/sofi-fridland.jpg"
 og_image: "/assets/images/blog/sofi-fridland.jpg"
 ---
 

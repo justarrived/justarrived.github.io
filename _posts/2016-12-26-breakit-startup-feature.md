@@ -8,7 +8,7 @@ tags:
 layout: post
 author: per
 locale: sv
-list_cover: /assets/images/blog/breakit-starup-feature.png
+list_cover: "/assets/images/blog/breakit-starup-feature.png"
 og_image: "/assets/images/blog/breakit-starup-feature.png"
 ---
 

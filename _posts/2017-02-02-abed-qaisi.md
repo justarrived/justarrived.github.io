@@ -8,7 +8,7 @@ tags:
 layout: post
 author: abed
 locale: en
-list_cover: /assets/images/blog/abed-qaisi.jpg
+list_cover: "/assets/images/blog/abed-qaisi.jpg"
 og_image: "/assets/images/blog/jacob-burenstam.jpg"
 ---
 

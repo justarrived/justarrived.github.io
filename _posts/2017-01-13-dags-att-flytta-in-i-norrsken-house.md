@@ -6,7 +6,7 @@ categories:
 layout: post
 author: per
 locale: sv
-list_cover: /assets/images/blog/norrsken-house-facade.jpg
+list_cover: "/assets/images/blog/norrsken-house-facade.jpg"
 og_image: "/assets/images/blog/norrsken-house-facade.jpg"
 ---
 

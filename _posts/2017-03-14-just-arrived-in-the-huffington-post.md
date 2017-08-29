@@ -9,7 +9,7 @@ layout: post
 locale:
 - en
 - sv
-list_cover: /assets/images/blog/stockholm-huff-overview.jpg
+list_cover: "/assets/images/blog/stockholm-huff-overview.jpg"
 ---
 
 {% translate_file blog/just-arrived-in-the-huffington-post.md %}

@@ -4,7 +4,7 @@ date: 2017-04-18 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: /assets/images/blog/frukost_live_stream.png
+list_cover: "/assets/images/blog/frukost_live_stream.png"
 locale:
 - sv
 ---

@@ -7,7 +7,7 @@ tags:
 - engineering
 layout: post
 author: buren
-list_cover: /assets/images/blog/1x3x3x3/desktop-ar.png
+list_cover: "/assets/images/blog/1x3x3x3/desktop-ar.png"
 og_image: "/assets/images/blog/1x3x3x3/desktop-ar.png"
 locale: en
 ---

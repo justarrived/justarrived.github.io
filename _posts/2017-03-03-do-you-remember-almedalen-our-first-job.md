@@ -7,7 +7,7 @@ tags:
 - jobs
 layout: post
 author: andreas
-list_cover: /assets/images/blog/our-first-job.jpg
+list_cover: "/assets/images/blog/our-first-job.jpg"
 locale: sv
 ---
 

@@ -7,7 +7,7 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: /assets/images/blog/andrew-hawari.jpg
+list_cover: "/assets/images/blog/andrew-hawari.jpg"
 og_image: "/assets/images/blog/andrew-hawari.jpg"
 ---
 

@@ -8,7 +8,7 @@ tags:
 layout: post
 author: andreas
 locale: en
-list_cover: /assets/images/blog/andreas-konig.jpg
+list_cover: "/assets/images/blog/andreas-konig.jpg"
 og_image: "/assets/images/blog/andreas-konig.jpg"
 ---
 

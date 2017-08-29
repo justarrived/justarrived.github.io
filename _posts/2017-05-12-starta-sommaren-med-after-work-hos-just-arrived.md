@@ -4,7 +4,7 @@ date: 2017-05-12 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: /assets/images/blog/jaaw.jpg
+list_cover: "/assets/images/blog/jaaw.jpg"
 locale:
 - sv
 ---

@@ -8,7 +8,7 @@ tags:
 layout: post
 author: buren
 locale: en
-list_cover: /assets/images/blog/jacob-burenstam.jpg
+list_cover: "/assets/images/blog/jacob-burenstam.jpg"
 og_image: "/assets/images/blog/jacob-burenstam.jpg"
 ---
 

@@ -8,7 +8,7 @@ tags:
 layout: post
 author: strangberg
 locale: en
-list_cover: /assets/images/blog/per-strangberg.jpg
+list_cover: "/assets/images/blog/per-strangberg.jpg"
 og_image: "/assets/images/blog/per-strangberg.jpg"
 ---
 

@@ -7,7 +7,7 @@ tags:
 - jobs
 layout: post
 author: andreas
-list_cover: /assets/images/blog/resturant-waiter-ad.png
+list_cover: "/assets/images/blog/resturant-waiter-ad.png"
 locale: sv
 ---
 
