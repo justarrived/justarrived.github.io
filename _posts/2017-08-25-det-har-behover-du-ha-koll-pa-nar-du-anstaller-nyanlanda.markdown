@@ -6,6 +6,7 @@ categories:
 tags:
 - arbetsgivare
 - nyanländ
+list_cover: "/uploads/lova_westlund2.jpg"
 layout: post
 ---
 
