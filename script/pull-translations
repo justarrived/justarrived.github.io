@@ -1,13 +1,14 @@
 #!/usr/bin/env ruby
 
-
 require 'yaml'
+require_relative 'helper'
+
+write_transifex_config!
 
 puts '=== Pulling from Transifex ==='
-puts `tx pull -a -f`
+system_command `tx pull -a -f`
 puts '=== Transifex Done ==='
 
-root_path = "#{__dir__}/.."
 i18n_path = "#{root_path}/_i18n"
 
 available_locales = YAML.load_file("#{root_path}/_config.yml").fetch('languages')

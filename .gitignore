@@ -19,3 +19,5 @@ en/
 Gemfile.lock
 
 tmp/
+
+.tx/
