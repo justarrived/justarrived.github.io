@@ -29,6 +29,7 @@ if [ ! -d '_site' ]; then
   exit 1
 fi
 
+built_sha=$(git rev-parse HEAD)
 __exe_cmd "git checkout $release_branch"
 error_code=$?
 if [ $error_code != 0 ]; then
@@ -40,7 +41,7 @@ else
   __exe_cmd "rm -rf _site/"
   __exe_cmd "touch .nojekyll"
   __exe_cmd "git add --all :/"
-  __exe_cmd "git commit --message 'compile'"
+  __exe_cmd "git commit --message \"compiled $built_sha\""
   __exe_cmd "git push -f origin $release_branch"
   post_to_slack
   __exe_cmd "git checkout $main_branch"
