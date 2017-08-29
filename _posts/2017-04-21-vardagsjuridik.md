@@ -4,6 +4,7 @@ date: 2017-04-21 02:00:00 +02:00
 categories:
 - blog
 layout: post
+list_cover: /assets/images/blog/vardagsjuridikarabiska.png
 locale:
 - sv
 ---
