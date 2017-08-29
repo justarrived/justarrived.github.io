@@ -1,13 +1,18 @@
 (function(window) {
   var numberOfJobs = 3;
-  var path = '/jobs?include=company,category,hourly_pay'
+  var path = '/jobs?include=company,hourly_pay'
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
-  // var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
+  var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
   var filterParam = '';
   var sortParam = '&sort=-featured,filled,-job_date';
+  var fieldsParam = [
+    'fields' + encodeURIComponent('[') + 'company' + encodeURIComponent(']') + '=id,name,city',
+    'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,hourly_pay,id,name,city,short_description,description,translated_text,gross_amount_delimited',
+    'fields' + encodeURIComponent('[') + 'hourly_pay' + encodeURIComponent(']') + '=id,gross_salary_with_unit'
+  ].join('&');
 
   var baseURL = 'https://api.justarrived.se/api/v1';
-  JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam;
+  JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam + fieldsParam;
 
   function getJobs(callback) {
   $.ajax({
@@ -65,11 +70,9 @@
     var jobID = jobData.id;
 
     var companyId = relationId('company', jobData);
-    var categoryId = relationId('category', jobData);
     var hourlyPayId = relationId('hourly_pay', jobData);
 
     var company = getCompanyName(includedData, companyId);
-    var category = getCategoryName(includedData, categoryId);
     var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
     var grossSalary = hourlyPay['gross_salary_with_unit'];
 
@@ -84,7 +87,6 @@
     innerHTML = formatTemplate(template, '%job_id%', jobID);
     innerHTML = formatTemplate(innerHTML, '%job_company%', company.name);
     innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
-    innerHTML = formatTemplate(innerHTML, '%job_category%', category.name);
     innerHTML = formatTemplate(innerHTML, '%job_name%', name);
     innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
