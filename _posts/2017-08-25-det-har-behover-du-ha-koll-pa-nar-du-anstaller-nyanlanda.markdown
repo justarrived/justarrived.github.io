@@ -24,4 +24,4 @@ Samordningsnummer fås  från Skatteverket och används istället för personumm
 \
 Tillgång till ett bankkonto. Det är ibland svårt för asylsökande att öppna bankkonto. Tänk då på att bankkontot inte måste vara i arbetstagarens namn. Det kan också vara en släktings konto.
 \
-Vill du anställa nyanländ kompetens? \[Kontakta oss gärna\](https://justarrived.se/company/#post-job-now).
+Vill du anställa nyanländ kompetens? [Kontakta oss gärna](https://justarrived.se/company/#post-job-now).
