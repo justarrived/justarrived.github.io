@@ -18,4 +18,4 @@ För att delta i Decemberutmaningen tar du på enklaste sätt en bild på din fo
 
 [![Decemberutmaningen]({{ "/assets/images/blog/enfotin-square.png" | prepend: site.github.url }})](https://justarrived.se/decemberutmaningen)
 
-{% include blog/post_footer.html %}
+

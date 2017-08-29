@@ -14,4 +14,4 @@ list_cover: stockholm-huff-overview.jpg
 
 {% translate_file blog/just-arrived-in-the-huffington-post.md %}
 
-{% include blog/post_footer.html %}
+

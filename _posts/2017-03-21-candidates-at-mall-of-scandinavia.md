@@ -14,4 +14,4 @@ locale:
 
 {% translate_file blog/mall-of-scandinavia-candidates.md %}
 
-{% include blog/post_footer.html %}
+

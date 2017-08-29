@@ -22,4 +22,4 @@ Johanna Jönsson (C), skriver om Syed, men även andras dystra öden i en debatt
 ##### [Läs hela artikeln](http://www.gp.se/nyheter/debatt/straffa-inte-arbetande-nyanl%C3%A4nda-m%C3%A4nniskor-1.884686)
 
 
-{% include blog/post_footer.html %}
+

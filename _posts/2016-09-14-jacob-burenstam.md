@@ -24,4 +24,4 @@ We’re constantly looking for passionate and driven contributors, so if you wan
 
 ![Jacob Burenstam]({{ "/assets/images/blog/jacob-burenstam.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

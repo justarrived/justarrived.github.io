@@ -12,4 +12,4 @@ Today we're extremely proud of our CEO Andreas König who is [#4 on business wee
 
 Congrats also to our friends and society builders Åsa Sandberg at [A Win Win World](http://www.awinwinworld.com/), Simon Flato at [Sustainergies](http://www.sustainergies.se/), Kristoffer Hanson at [Klarity.org](http://klarity.org/), Louise Meijer at [JUSTITIAPRISET](http://justitiapriset.se/) and John Eskilsson at [Skyltmax.se](http://skyltmax.se/)!
 
-{% include blog/post_footer.html %}
+

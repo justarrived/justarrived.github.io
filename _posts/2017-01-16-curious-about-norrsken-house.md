@@ -19,4 +19,4 @@ said Erik Engellau-Nilsson, newly appointed CEO of Norrsken Foundation.
 
 Also read an article about Norrsken House over at Dagens Nyheter [http://digital.di.se/artikel/nu-oppnar-norrsken-dorrarna-for-startupbolagen](http://digital.di.se/artikel/nu-oppnar-norrsken-dorrarna-for-startupbolagen).
 
-{% include blog/post_footer.html %}
+

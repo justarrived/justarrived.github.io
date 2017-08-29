@@ -27,4 +27,4 @@ Olle på Just Arrived
 ##### [Registrera dej här](https://jaaw.confetti.events/)
 
 
-{% include blog/post_footer.html %}
+

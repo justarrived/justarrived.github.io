@@ -20,4 +20,4 @@ Connecting newly arrived immigrants to the labour market is currently one of the
 
 ![Nils Nordström](/assets/images/blog/nils-nordstrom.jpg)
 
-{% include blog/post_footer.html %}
+

@@ -19,4 +19,4 @@ The reason why I want to be a part of the Just Arrived team is because I believe
 
 ![Tobias Tikka]({{ "/assets/images/blog/tobias-tikka.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

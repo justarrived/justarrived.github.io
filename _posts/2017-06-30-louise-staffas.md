@@ -23,4 +23,4 @@ I am really enjoying working for Just Arrived, being surrounded by so many inspi
 
 ![Louise Staffas](/assets/images/blog/louise-staffas.jpg)
 
-{% include blog/post_footer.html %}
+

@@ -22,4 +22,4 @@ I believe Just Arrived is an amazing and much needed initiative that can make tr
 
 ![Neven Jugo]({{ "/assets/images/blog/neven-jugo.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

@@ -31,4 +31,4 @@ Being forced to leave your own country and create a new life somewhere else is o
 
 ![Abed Qaisi]({{ "/assets/images/blog/abed-qaisi.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

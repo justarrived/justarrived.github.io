@@ -31,4 +31,4 @@ Gör så här:
 [![Slutspurt Decemberutmaningen]({{ "/assets/images/blog/slutspurten-enfotin.png" | prepend: site.github.url }})](https://justarrived.se/decemberutmaningen)
 
 
-{% include blog/post_footer.html %}
+

@@ -18,4 +18,4 @@ After a while when everyone had food in their stomachs, and drinks in their hand
 
 The website launch together with the rest of the evening turned out to be as successful as we were hoping. The joyful evening gave us the extra energy, making the cleaning afterwards seem like a walk in the park with the smile on everyone's face!
 
-{% include blog/post_footer.html %}
+

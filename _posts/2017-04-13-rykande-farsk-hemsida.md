@@ -18,4 +18,4 @@ Nu har vi gräddat färdigt en ny version av vår hemsida och webapplikation. V�
 
 ![Hemsida](/assets/images/blog/hemsidascreen.png)
 
-{% include blog/post_footer.html %}
+

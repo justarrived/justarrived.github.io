@@ -19,4 +19,4 @@ Läsa hela
 
 ![Vårt krav: Underlätta för nyanländas etablering]({{ "/assets/images/blog/dagenssamhalle-win-win.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

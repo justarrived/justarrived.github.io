@@ -20,4 +20,4 @@ When I grew up the simple motto “No one can do everything, but everyone can do
 
 ![Anna Hörnmark]({{ "/assets/images/blog/anna-hornmark.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

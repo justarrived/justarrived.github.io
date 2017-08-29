@@ -18,4 +18,4 @@ Generellt pratar man om problemen med så många nyanlända i Sverige. Att hon o
 ##### [Läs hela artikeln](https://www.metro.se/artikel/yvonne-dahlberg-%C3%A4r-det-dags-att-sluta-tycka-synd-om-nyanl%C3%A4nda).
 
 
-{% include blog/post_footer.html %}
+

@@ -20,4 +20,4 @@ To me it’s very important to work with something meaningful, something I truly
 
 ![Per Strängberg]({{ "/assets/images/blog/per-strangberg.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

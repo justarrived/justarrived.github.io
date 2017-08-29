@@ -20,4 +20,4 @@ I have always had a strong commitment for helping people, especially people who 
 
 ![Lova Westlund]({{ "/assets/images/blog/lova-westlund.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

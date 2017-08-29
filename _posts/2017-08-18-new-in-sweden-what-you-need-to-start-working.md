@@ -17,4 +17,3 @@ layout: post
 
 ![Kinan](/assets/images/blog/kinan1.jpg)
 
-{% include blog/post_footer.html %}

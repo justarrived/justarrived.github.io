@@ -21,4 +21,4 @@ To our great joy he concluded:
 > - Ibrahim Baylan
 
 
-{% include blog/post_footer.html %}
+

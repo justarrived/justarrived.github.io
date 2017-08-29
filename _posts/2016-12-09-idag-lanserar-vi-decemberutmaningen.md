@@ -62,4 +62,4 @@ _Läs vår FAQ eller kontakta vår VD Andreas König, [andreas@justarrived.se](m
 
 <video width="100%" controls src="/assets/videos/enfotin-launch.mp4"></video>
 
-{% include blog/post_footer.html %}
+

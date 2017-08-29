@@ -30,4 +30,4 @@ Den som vill läsa boken på svenska hittar den på Akademibokhandeln, Bokus och
 
 
 
-{% include blog/post_footer.html %}
+

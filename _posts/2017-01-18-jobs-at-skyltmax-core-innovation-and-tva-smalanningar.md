@@ -12,4 +12,4 @@ locale: en
 
 Many new companies are coming onboard every week to tap in to the talent pool of newcomers. Here are three of the jobs currently available to candidates in our platform from [skyltmax.se](http://skyltmax.se/), [Core Innovation](http://coreinnovation.se/) and [Två Smålänningar AB](tvasmalanningar.se)!
 
-{% include blog/post_footer.html %}
+

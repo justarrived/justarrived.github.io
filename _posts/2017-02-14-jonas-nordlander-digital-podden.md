@@ -12,4 +12,4 @@ Why not start this day by investing 2 minutes in listening to when one of our in
 
 Listen to the podcast here: [http://aca.st/142e40](http://aca.st/142e40).
 
-{% include blog/post_footer.html %}
+

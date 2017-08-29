@@ -12,4 +12,4 @@ Better matching coming up! The partnership between our friends at [Iteam](https:
 
 What feels extra good about this is that it is the result of the non-profit project [Competency](https://competency.se/), initialized at a hackathon with [Refugee Tech](http://refugeetech.com/) spring 2016!
 
-{% include blog/post_footer.html %}
+

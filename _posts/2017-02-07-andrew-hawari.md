@@ -31,4 +31,4 @@ As a graphic designer I send a message with each design that I do, and I really 
 
 ![Andrew Hawari]({{ "/assets/images/blog/andrew-hawari.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

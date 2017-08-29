@@ -19,4 +19,4 @@ locale:
 ##### [Vill du söka jobb?](https://justarrived.se/newcomer/)
 
 
-{% include blog/post_footer.html %}
+

@@ -49,4 +49,4 @@ __Tablet__
 
 Thank you Ahmed and Emma! A real pleasure to work with you :)
 
-{% include blog/post_footer.html %}
+

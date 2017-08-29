@@ -20,4 +20,4 @@ So why do I do what I do? Well, over the past few years I’ve been part of grow
 
 ![Per Clingweld]({{ "/assets/images/blog/per-clingweld.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

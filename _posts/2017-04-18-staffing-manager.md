@@ -18,4 +18,4 @@ Vi söker dig som vill arbeta som vill bygga upp ett av Sveriges bästa konsultc
 
 
 
-{% include blog/post_footer.html %}
+

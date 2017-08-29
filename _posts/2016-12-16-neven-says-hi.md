@@ -14,4 +14,4 @@ Our amazing new team member and Customer Success Manager, Neven Bakka, hit the g
 
 <video width="100%" controls src="/assets/videos/neven-clip.mp4"></video>
 
-{% include blog/post_footer.html %}
+

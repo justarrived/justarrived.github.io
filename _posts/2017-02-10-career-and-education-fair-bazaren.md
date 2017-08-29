@@ -19,4 +19,4 @@ Yesterday Anna and Lova represented us at the career/education fair Bazaren. The
 ![Lova Westlund - Operations Manager at Just Arrived]({{ "/assets/images/blog/bazaren/lova-westlund.jpg" | prepend: site.github.url }})
 ![Queue to Bazaren]({{ "/assets/images/blog/bazaren/queue.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

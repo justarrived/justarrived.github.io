@@ -41,4 +41,4 @@ Vi avslutar 08.00 men vi finns kvar efteråt om du har frågor och funderingar
 
 ![Norrsken House](/assets/images/blog/norrsken-house-facade.jpg)
 
-{% include blog/post_footer.html %}
+

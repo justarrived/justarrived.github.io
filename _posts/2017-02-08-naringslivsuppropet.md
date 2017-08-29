@@ -14,4 +14,4 @@ The concept Näringslivsuppropet that has been running in both Malmö, Helsingbo
 
 [Facebook event](https://www.facebook.com/events/854675958006560/).
 
-{% include blog/post_footer.html %}
+

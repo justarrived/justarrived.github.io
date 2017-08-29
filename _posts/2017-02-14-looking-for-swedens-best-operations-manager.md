@@ -19,4 +19,4 @@ First step: hire three(!) new account managers to our amazing team. Please sprea
 
 [http://careers.justarrived.se/ (in Swedish)](http://careers.justarrived.se/jobs/26965-sveriges-basta-account-manager)
 
-{% include blog/post_footer.html %}
+

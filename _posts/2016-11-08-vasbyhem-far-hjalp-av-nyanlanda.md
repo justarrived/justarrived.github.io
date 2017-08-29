@@ -27,4 +27,4 @@ Den första att bli erbjuden jobbuppdrag hos Väsbyhem under sommaren var Zaher,
 
 [Läs orginalet på SABO.](http://www.sabo.se/aktuellt/nyheter_m/2016/nov/Sidor/Vasbyhem-hjalper-och-far-hjalp-av-nyanlanda.aspx)
 
-{% include blog/post_footer.html %}
+

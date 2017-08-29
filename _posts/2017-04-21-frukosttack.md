@@ -18,4 +18,4 @@ Nu planerar vi nästa event där vi kommer att bjuda in 200 personer till en aft
 ##### [Titta på direktsändningen](https://www.facebook.com/pg/JustArrivedSE/videos/?ref=page_internal)
 
 
-{% include blog/post_footer.html %}
+

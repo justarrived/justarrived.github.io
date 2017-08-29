@@ -15,4 +15,4 @@ locale: sv
 Nyanländ med erfarenhet som servitris eller servitör? Vi har ett jobb för dig. Du kan söka jobbet direkt på [app.justarrived.se](https://app.justarrived.se).
 
 
-{% include blog/post_footer.html %}
+

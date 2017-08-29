@@ -14,4 +14,4 @@ Today's read!
 
 Read the article (in Swedish) here: [http://www.dn.se/debatt/flyktingar-som-tar-jobb-med-statligt-stod-riskerar-utvisning/](http://www.dn.se/debatt/flyktingar-som-tar-jobb-med-statligt-stod-riskerar-utvisning/).
 
-{% include blog/post_footer.html %}
+

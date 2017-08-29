@@ -18,4 +18,4 @@ Follow us and our mission on [justarrived.se](https://justarrived.se).
   Signup to our newsletter
 </a>
 
-{% include blog/post_footer.html %}
+

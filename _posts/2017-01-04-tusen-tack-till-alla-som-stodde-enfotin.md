@@ -26,4 +26,4 @@ Har du tankar eller idéer på hur vi kan locka fler företag eller andra sätt 
 
 ![133 company signups]({{ "/assets/images/blog/133-company-signups.png" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

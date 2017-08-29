@@ -21,4 +21,4 @@ Väl mött!
 
 
 
-{% include blog/post_footer.html %}
+

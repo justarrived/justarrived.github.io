@@ -18,4 +18,4 @@ locale:
 [Mentor](http://mentor.se/) är en ideell organisation som jobbar med mentorskap för unga mellan 13 och 17 år. Marcus Örnstedt berättar sin gripande historia i mötet med en nyanländ tonåring.
 
 
-{% include blog/post_footer.html %}
+

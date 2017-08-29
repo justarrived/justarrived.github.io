@@ -52,4 +52,4 @@ Den här artikeln postades ursprungligen på stockholmdirekt.se och [här kan du
 
 ---
 
-{% include blog/post_footer.html %}
+

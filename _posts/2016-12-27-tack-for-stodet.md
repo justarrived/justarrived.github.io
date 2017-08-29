@@ -19,4 +19,4 @@ Vill du också få nyheter från Just Arrived i din inbox?
 
 [Prenumerera här](http://eepurl.com/cviFlL), [http://eepurl.com/cviFlL](http://eepurl.com/cviFlL)
 
-{% include blog/post_footer.html %}
+

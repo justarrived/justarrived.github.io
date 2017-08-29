@@ -27,4 +27,4 @@ I think Just Arrived is of the most interesting initiatives on this topic right 
 
 ![Sofi Fridland]({{ "/assets/images/blog/sofi-fridland.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

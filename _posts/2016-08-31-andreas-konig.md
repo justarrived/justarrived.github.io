@@ -20,4 +20,4 @@ There are several reasons why I decided to invest the early days of my career in
 
 ![Andreas König]({{ "/assets/images/blog/andreas-konig.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

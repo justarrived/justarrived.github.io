@@ -21,4 +21,4 @@ Det är surt att se så många högutbildade, kompetenta och drivna människor i
 
 
 
-{% include blog/post_footer.html %}
+

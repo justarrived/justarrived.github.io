@@ -15,4 +15,3 @@ layout: post
 
 {% translate_file blog/deskjockey.md %}
 
-{% include blog/post_footer.html %}

@@ -29,4 +29,4 @@ Just Arrived's platform is one of the best ways to spot the newcomer’s abiliti
 
 ![Salam Al Hennawi]({{ "/assets/images/blog/salam-al-hennawi.jpg" | prepend: site.github.url }})
 
-{% include blog/post_footer.html %}
+

@@ -20,4 +20,4 @@ It might not come as a surprise when we tell you; we've just got started!
 
 [![Breakit Feature]({{ "/assets/images/blog/breakit-starup-feature.png" | prepend: site.github.url }})](http://www.breakit.se/artikel/5926/har-ar-startup-profilerna-som-forsoker-gora-varlden-lite-battre)
 
-{% include blog/post_footer.html %}
+

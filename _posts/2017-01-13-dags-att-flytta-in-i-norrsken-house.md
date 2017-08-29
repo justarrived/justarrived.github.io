@@ -19,4 +19,4 @@ För er som är nyfikna på vårt nya hem kan vi berätta att Norrsken House är
 
 Vi ser fram emot att dagligen dela kunskap, inspireras av och skapa synergier med de andra organisationer och individer som från och med måndag kallar det sitt hem. Med 15 anställda är Just Arrived ett av de största teamen som kommer husera i Norrsken House.
 
-{% include blog/post_footer.html %}
+

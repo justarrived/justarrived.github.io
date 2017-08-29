@@ -22,4 +22,4 @@ Nyanlända är inte en enhetlig grupp. De är personer med historier att berätt
 ##### [Läs mer om Just Arrived här](https://justarrived.se/?utm_source=justarrived_blog&utm_medium=blog)
 
 
-{% include blog/post_footer.html %}
+
