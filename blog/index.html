@@ -29,7 +29,7 @@ pagination:
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div
               class="post-list-cover"
-              style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}">
+              style="background-image: url({{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}">
 
               </div>
           </a>
