@@ -6,6 +6,9 @@ cd "$(dirname "$0")/.."
 
 source script/_common
 
+rvm use 2.4.1 --install
+script/bootstrap
+
 __exe_cmd "bundle exec jekyll build --config=_config.yml --trace"
 if [ ! -d '_site' ]; then
   echo "Jekyll build failed. Missing _site directory (no content to publish)"
@@ -18,14 +21,15 @@ REMOTE_BRANCH=${REMOTE_BRANCH:?'You need to configure the REMOTE_BRANCH environm
 git config --global user.email "$GIT_USER_EMAIL"
 git config --global user.name "$GIT_USER_NAME"
 
-__exe_cmd "git fetch --unshallow || true"
-__exe_cmd "git fetch \"${REMOTE_REPOSITORY}\" \"+refs/heads/*:refs/remotes/origin/*\"" # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
-ls | grep -v _site | grep -v CNAME | xargs rm -rf
+__exe_cmd "ls | grep -v _site | grep -v CNAME | xargs rm -rf" # Remove all files except _site and CNAME
 __exe_cmd "cp -r _site/* ."
 __exe_cmd "rm -rf _site/"
 __exe_cmd "touch .nojekyll"
 __exe_cmd "git add --all :/"
 __exe_cmd "git commit -m 'compile'"
-echo "CI_COMMIT_ID: ${CI_COMMIT_ID}"
-__exe_cmd "git push -f "${REMOTE_REPOSITORY}" "$(git rev-parse HEAD):${REMOTE_BRANCH}""
+__exe_cmd "git fetch --unshallow || true" # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
+__exe_cmd "git fetch \"${REMOTE_REPOSITORY}\" \"+refs/heads/*:refs/remotes/origin/*\"" # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
+__exe_cmd "git push -f "${REMOTE_REPOSITORY}" "$(git rev-parse HEAD):${REMOTE_BRANCH}"" # force push the latest commit
+
+echo "Deployed commit: ${CI_COMMIT_ID}"
 echo 'deployed: https://justarrived.se'
