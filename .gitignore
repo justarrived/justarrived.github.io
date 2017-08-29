@@ -21,3 +21,5 @@ Gemfile.lock
 tmp/
 
 .tx/
+
+.bundle/

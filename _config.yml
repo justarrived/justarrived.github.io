@@ -23,6 +23,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - ".editorconfig"
+- ".bundle/"
 - script/
 - CNAME
 - Gruntfile.js
@@ -87,6 +88,7 @@ languages:
 exclude_from_localizations:
 - assets
 - ".tx"
+- ".bundle"
 - uploads
 - favicon.ico
 - _posts
