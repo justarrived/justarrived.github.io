@@ -86,7 +86,7 @@ languages:
 - ar
 exclude_from_localizations:
 - assets
-- .tx
+- ".tx"
 - uploads
 - favicon.ico
 - _posts
