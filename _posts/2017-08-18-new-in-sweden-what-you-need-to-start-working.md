@@ -6,7 +6,7 @@ categories:
 tags:
 - jobs
 author: yvonne
-list_cover: kinan1.jpg
+list_cover: /assets/images/blog/kinan1.jpg
 locale:
 - sv
 - en

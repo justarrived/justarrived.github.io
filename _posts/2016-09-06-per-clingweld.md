@@ -8,7 +8,7 @@ tags:
 layout: post
 author: per
 locale: en
-list_cover: per-clingweld.jpg
+list_cover: /assets/images/blog/per-clingweld.jpg
 og_image: "/assets/images/blog/per-clingweld.jpg"
 ---
 

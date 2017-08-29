@@ -7,7 +7,7 @@ tags:
 - engineering
 layout: post
 author: buren
-list_cover: "/1x3x3x3/desktop-ar.png"
+list_cover: /assets/images/blog/1x3x3x3/desktop-ar.png
 og_image: "/assets/images/blog/1x3x3x3/desktop-ar.png"
 locale: en
 ---
@@ -48,5 +48,3 @@ __Tablet__
 ![Tablet screenshot Arabic]({{ "/assets/images/blog/1x3x3x3/tablet-ar.png" | prepend: site.github.url }})
 
 Thank you Ahmed and Emma! A real pleasure to work with you :)
-
-

@@ -6,7 +6,7 @@ categories:
 tags:
 - jobs
 layout: post
-list_cover: mall-of-scandinavia/candidates.jpg
+list_cover: /assets/images/blog/mall-of-scandinavia/candidates.jpg
 locale:
 - sv
 - en

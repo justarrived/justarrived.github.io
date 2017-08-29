@@ -4,7 +4,6 @@ date: 2017-05-23 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -18,6 +17,3 @@ I en ny serie av filmer kommer vi att dela med oss av nyttiga och inspirerande t
 Vi tror på potentialen i dig som nyanländ!
 
 ##### [Sök jobb här](https://justarrived.se/newcomer/?utm_source=justarrived&utm_medium=blog)
-
-
-

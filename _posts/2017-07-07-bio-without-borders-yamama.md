@@ -4,7 +4,6 @@ date: 2017-07-07 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -20,6 +19,3 @@ Nyanlända är inte en enhetlig grupp. De är personer med historier att berätt
 
 
 ##### [Läs mer om Just Arrived här](https://justarrived.se/?utm_source=justarrived_blog&utm_medium=blog)
-
-
-

@@ -7,9 +7,8 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: louise-staffas.jpg
+list_cover: /assets/images/blog/louise-staffas.jpg
 list_cover_height: 365px
-og_image: 
 ---
 
 My name is Louise and I am 27 years old. I just moved to Stockholm from Gothenburg. Two years ago I graduated from the master program International Administration and Global Governance at University of Gothenburg.
@@ -22,5 +21,3 @@ As an Account Manager at Just Arrived I am trying to make as many companies as p
 I am really enjoying working for Just Arrived, being surrounded by so many inspiring people every day pushes you to keep fighting for everyone's right to get into the Swedish labor market.
 
 ![Louise Staffas](/assets/images/blog/louise-staffas.jpg)
-
-

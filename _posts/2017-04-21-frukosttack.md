@@ -4,7 +4,6 @@ date: 2017-04-21 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -16,6 +15,3 @@ Frukostmötet var väldigt uppskattat och inte minst från vår sida. Det är s�
 Nu planerar vi nästa event där vi kommer att bjuda in 200 personer till en after work på Norrsken house. Mer info om det kommer snart!
 
 ##### [Titta på direktsändningen](https://www.facebook.com/pg/JustArrivedSE/videos/?ref=page_internal)
-
-
-

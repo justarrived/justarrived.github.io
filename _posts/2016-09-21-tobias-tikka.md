@@ -7,7 +7,7 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: tobias-tikka.jpg
+list_cover: /assets/images/blog/tobias-tikka.jpg
 og_image: "/assets/images/blog/tobias-tikka.jpg"
 ---
 

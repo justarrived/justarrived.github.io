@@ -8,7 +8,7 @@ tags:
 layout: post
 author: neven
 locale: en
-list_cover: neven-jugo.jpg
+list_cover: /assets/images/blog/neven-jugo.jpg
 og_image: "/assets/images/blog/neven-jugo.jpg"
 ---
 

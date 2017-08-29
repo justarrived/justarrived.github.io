@@ -4,7 +4,6 @@ date: 2017-05-11 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -17,6 +16,3 @@ locale:
 ##### [Vill du posta ett jobb?](https://justarrived.se/company/)
 
 ##### [Vill du söka jobb?](https://justarrived.se/newcomer/)
-
-
-

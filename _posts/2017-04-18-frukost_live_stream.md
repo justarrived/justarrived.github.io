@@ -4,7 +4,6 @@ date: 2017-04-18 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -17,8 +16,3 @@ Det är många som har visat intresse för frukostmötet men som inte kan vara m
 Direktsändingen startar *07.15*.
 
 Väl mött!
-
-
-
-
-

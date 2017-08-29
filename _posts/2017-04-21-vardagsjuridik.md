@@ -4,7 +4,6 @@ date: 2017-04-21 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -24,10 +23,3 @@ Vår grafiska designer Andrew Harari har designat den arabiska versionen av Boke
 
 
 Den som vill läsa boken på svenska hittar den på Akademibokhandeln, Bokus och Adlibris från den 27 april.
-
-
-
-
-
-
-

@@ -4,7 +4,6 @@ date: 2017-05-10 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -20,6 +19,3 @@ locale:
 Johanna Jönsson (C), skriver om Syed, men även andras dystra öden i en debattartikel i GP. Hon kritiserar svensk byråkrati och stela regler, och hur de i många fall stjälper snarare en hjälper.
 
 ##### [Läs hela artikeln](http://www.gp.se/nyheter/debatt/straffa-inte-arbetande-nyanl%C3%A4nda-m%C3%A4nniskor-1.884686)
-
-
-

@@ -4,7 +4,7 @@ date: 2017-04-13 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: hemsidascreen.png
+list_cover: /assets/images/blog/hemsidascreen.png
 locale:
 - sv
 ---

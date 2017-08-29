@@ -4,7 +4,6 @@ date: 2017-07-06 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -16,6 +15,3 @@ locale:
 Generellt pratar man om problemen med så många nyanlända i Sverige. Att hon också är vår nya marknadschef här på Just Arrived gör oss minst sagt lyriska!
 
 ##### [Läs hela artikeln](https://www.metro.se/artikel/yvonne-dahlberg-%C3%A4r-det-dags-att-sluta-tycka-synd-om-nyanl%C3%A4nda).
-
-
-

@@ -8,7 +8,7 @@ tags:
 layout: post
 author: abed
 locale: en
-list_cover: "/abed-qaisi.jpg"
+list_cover: /assets/images/blog/abed-qaisi.jpg
 og_image: "/assets/images/blog/jacob-burenstam.jpg"
 ---
 
@@ -30,5 +30,3 @@ __Why do you do what you do? How does your involvement with Just Arrived correla
 Being forced to leave your own country and create a new life somewhere else is one of the hardest things our users will ever do. At Just Arrived, I get to be part of a network that makes the whole process easier. The first steps of finding internships, networking and eventually nailing down a job are the foundations of creating a new life in a foreign country, and Just Arrived assists the most vulnerable in our society to do just that. I absolutely love making videos, but making videos for a cause I believe in is more than I ever expected to get a chance to do, so I'm super grateful for my coworkers and the work we get to do everyday.
 
 ![Abed Qaisi]({{ "/assets/images/blog/abed-qaisi.jpg" | prepend: site.github.url }})
-
-

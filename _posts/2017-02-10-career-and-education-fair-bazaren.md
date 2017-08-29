@@ -5,7 +5,7 @@ categories:
 - blog
 layout: post
 author: per
-list_cover: "/bazaren/popular.jpg"
+list_cover: /assets/images/blog/bazaren/popular.jpg
 locale: en
 ---
 
@@ -18,5 +18,3 @@ Yesterday Anna and Lova represented us at the career/education fair Bazaren. The
 ![Just Arrived popular at Bazaren]({{ "/assets/images/blog/bazaren/popular.jpg" | prepend: site.github.url }})
 ![Lova Westlund - Operations Manager at Just Arrived]({{ "/assets/images/blog/bazaren/lova-westlund.jpg" | prepend: site.github.url }})
 ![Queue to Bazaren]({{ "/assets/images/blog/bazaren/queue.jpg" | prepend: site.github.url }})
-
-

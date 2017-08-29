@@ -4,7 +4,6 @@ date: 2017-05-12 02:00:00 +02:00
 categories:
 - blog
 layout: post
-list_cover: 
 locale:
 - sv
 ---
@@ -25,6 +24,3 @@ Du är varmt välkommen och jag hoppas att vi ses!
 Olle på Just Arrived
 
 ##### [Registrera dej här](https://jaaw.confetti.events/)
-
-
-

@@ -8,7 +8,7 @@ tags:
 layout: post
 author: salam
 locale: en
-list_cover: salam-al-hennawi.jpg
+list_cover: /assets/images/blog/salam-al-hennawi.jpg
 og_image: "/assets/images/blog/salam-al-hennawi.jpg"
 ---
 

@@ -7,7 +7,7 @@ tags:
 - meet the team
 layout: post
 locale: en
-list_cover: jesper-sundstrom.jpg
+list_cover: /assets/images/blog/jesper-sundstrom.jpg
 og_image: "/assets/images/blog/jesper-sundstrom.jpg"
 ---
 
