@@ -27,7 +27,7 @@ __exe_cmd "rm -rf _site/"
 __exe_cmd "touch .nojekyll"
 __exe_cmd "git fetch --unshallow || true" # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
 __exe_cmd "git fetch \"${REMOTE_REPOSITORY}\" \"+refs/heads/*:refs/remotes/origin/*\"" # see https://documentation.codeship.com/general/projects/push-to-remote-repositories/
-__exe_cmd "git checkout release"
+__exe_cmd "git checkout origin/release"
 __exe_cmd "git add --all :/"
 __exe_cmd "git commit -m 'compile'"
 __exe_cmd "git push -f "${REMOTE_REPOSITORY}" "$(git rev-parse HEAD):${REMOTE_BRANCH}"" # force push the latest commit
