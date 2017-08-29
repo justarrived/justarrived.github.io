@@ -18,5 +18,3 @@ I have had the opportunity to join the Just Arrived team during this very exciti
 I am a very business-oriented individual that thrives when I can contribute with, and also develop my competence in long-term strategic thinking to progress projects and businesses. Being able to align this with helping people is incredible and this is why I enjoy working with Just Arrived. We have addressed a well-known problem where society seems to be stuck in old ways of operating and found a solution where entrepreneurial thinking and energy is the engine.
 
 ![Jesper Sundström]({{ "/assets/images/blog/jesper-sundstrom.jpg" | prepend: site.github.url }})
-
-{% include blog/post_footer.html %}
