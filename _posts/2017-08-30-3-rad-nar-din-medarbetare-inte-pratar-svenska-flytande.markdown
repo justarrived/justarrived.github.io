@@ -1,13 +1,13 @@
 ---
 title: 3 råd när din medarbetare inte pratar svenska flytande
 date: 2017-08-30 08:34:00 +02:00
-layout: post
 tags:
 - arbetsgivare
 - nyanländ
+layout: post
 locale:
 - sv
-list_cover: /uploads/salam_anna_600.jpg
+list_cover: "/uploads/salam_anna_600.jpg"
 ---
 
 ![salam_anna_600.jpg](/uploads/salam_anna_600.jpg)**Anna Hörnmark är Operations Manager på Just Arrived. Här delar hon med sig av sina tankar kring något som våra kunder ofta frågar om: Hur funkar det på jobbet när en medarbetare inte pratar flytande svenska?**
