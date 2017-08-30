@@ -6,11 +6,13 @@ categories:
 tags:
 - arbetsgivare
 - nyanländ
-list_cover: "/uploads/lova_westlund2.jpg"
+list_cover: 
 layout: post
 ---
 
-![lova_westlund2.jpg](/uploads/lova_westlund2.jpg)Enligt en rapport från PWC (Företagarens vardag 2016) tycker 50% av Sveriges smågföretagare att det är viktigt att anställa nyanlända, men en dryg tredjedel 36% saknar kunskap och kontakter för ta det vidare. En fråga som vi på Just Arrived ofta möter är vilken dokumentation man som arbetsgivare ska fråga efter. Beroende på under vilka villkor den nyanlände befinner sig i Sverige gäller finns olika förutsättningar. Lova Westlund  är ansvarig för Just Arriveds bemanningsverksamhet och anställer många nyanlända. Nedan ger hon en överblick på det viktigaste att hålla koll på:
+![lova_westlund600.jpg](/uploads/lova_westlund600.jpg)
+
+Enligt en rapport från PWC (Företagarens vardag 2016) tycker 50% av Sveriges smågföretagare att det är viktigt att anställa nyanlända, men en dryg tredjedel 36% saknar kunskap och kontakter för ta det vidare. En fråga som vi på Just Arrived ofta möter är vilken dokumentation man som arbetsgivare ska fråga efter. Beroende på under vilka villkor den nyanlände befinner sig i Sverige gäller finns olika förutsättningar. Lova Westlund  är ansvarig för Just Arriveds bemanningsverksamhet och anställer många nyanlända. Nedan ger hon en överblick på det viktigaste att hålla koll på:
 \
 **EU-medborgare**
 EU-medborgare behöver ett samordningsnummer som används istället för personnummer. Det får man från Skatteverket
