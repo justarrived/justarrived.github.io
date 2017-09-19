@@ -611,12 +611,6 @@ jQuery(document).ready(function($) {
     $(this).addClass('current-lang');
   });
 
-  // Mailchimp
-  $('#mc-embedded-subscribe-form').ajaxChimp({
-    // url: 'http://justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5',
-    language: 'en'
-  });
-
   $(function() {
       $('.equal-height').matchHeight();
   });
