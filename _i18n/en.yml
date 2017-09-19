@@ -27,7 +27,7 @@ page_not_found:
 
 form:
   submit: Submit
-  email: Email Address
+  email: Email
   company_email: Company Email
   name: Name
   phone: Phone number
@@ -81,7 +81,15 @@ blog:
     current_page: 'Page:'
   excerpt_separator: Read more
   post_by_tag_title: By tags
-  about_us_post_footer: <strong>Just Arrived</strong> offers companies a service that makes it easy, fast and safe to hire newcomers. Just Arrived came to existance as a response to the large wave of migrants in 2015. The grassroots initiative rapidly engaged both businesses and individuals who wanted to create a tangible difference. Today we are 15 employees in the fast-growing, non-profit, limited liability company. Just Arrived has more than 100 companies using our service continuously. The company is owned by four non-profit foundations, including the <a href="http://norrskenfoundation.org">Norrsken Foundation</a>. Read more about <a href="https://justarrived.se">Just Arrived</a> here!
+  footer:
+    newsletter_header: Newsletter
+    newsletter_body: Learn how to build a better business with the help of employees that are new in Sweden. You can of course unsubscribe anytime.
+    newsletter_subscribe: Subscribe
+
+company_newsletter:
+  header: Newsletter
+  body: Learn how to build a better business with the help of employees that are new in Sweden. You can of course unsubscribe anytime.
+  subscribe: Subscribe
 
 top_banner:
   tag_line: We give newcomers in Sweden a chance to enter the labour market
