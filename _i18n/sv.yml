@@ -424,7 +424,7 @@ company_page:
     title: 'Så här jobbar du med Just Arrived '
     cta: Skapa jobb nu
     first:
-      title: 1. Posta jobb
+      title: 1. Beskriv vem du behöver
       body: 'Tillsammans tar vi fram en uppdragsbeskrivning och en kravprofil för
         jobbet. Därefter läggs jobbet ut på vår plattform så att matchning kan börja. '
     second:
