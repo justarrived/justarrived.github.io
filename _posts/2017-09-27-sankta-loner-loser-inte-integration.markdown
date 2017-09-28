@@ -1,10 +1,6 @@
 ---
 title: Sänkta löner löser inte integrationen
 date: 2017-09-28 12:34:00 +02:00
-categories:
-- nyanland
-tags:
-- nyanländ
 locale:
 - en
 layout: post
