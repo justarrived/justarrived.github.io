@@ -11,7 +11,7 @@ layout: post
 list_cover: "/uploads/where-to-find-jobs-post.jpg"
 ---
 
-![lova_westlund2.jpg](/uploads/where-to-find-jobs-post.jpg)
+![Where to find jobs](/uploads/where-to-find-jobs-post.jpg)
 
 There are many ways to find jobs in Sweden. As a newcomer, a natural first step is often to contact the Employment Service (Arbetsförmedlingen), which among other things has been commissioned to help newcomers to the labor market. Good to know is that there is much more work in Sweden than reported to the Employment Service (Arbetsförmedlingen), therefore it's important to look broader. Below are some common ways to find work that may be good to keep track of.
 
