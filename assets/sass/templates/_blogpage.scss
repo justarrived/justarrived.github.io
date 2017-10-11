@@ -179,3 +179,15 @@ hr {
   padding-left: 20px;
   list-style-type: circle;
 }
+
+.post ol {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+.post .blog-categories-links {
+  ol, ul {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+}

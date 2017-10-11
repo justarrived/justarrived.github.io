@@ -1,5 +1,6 @@
 ---
 ---
+
 /*In order to access variables from _config.yml we are allowing this here,
 * this so we only specify the categories in one location.
 */

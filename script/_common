@@ -9,15 +9,15 @@ __git-current-branch() {
 
 __git-current-branch-or-exit() {
   local current_branch="$(__git-current-branch)"
-  if [[ $current_branch != "dev" ]]; then
-    echo "You have to be on the 'dev' branch"
+  if [[ $current_branch != "$1" ]]; then
+    echo "You have to be on the '$1' branch"
     exit 1
   fi
 }
 
 # bash utils
 function __exe_cmd() {
-  echo $1
+  echo "$ $1"
   eval $1
 }
 

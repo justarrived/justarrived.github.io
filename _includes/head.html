@@ -26,7 +26,7 @@
 	<meta property="og:url" content="{{ canonical }}" />
   {% if page.title %}<meta property="og:title" content="Just Arrived - {{ page.title }}" />{% endif %}
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}" />
-	<meta property="og:image" content="{{ site.url }}{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}/assets/images/just-arrived-open-graph-logo.png{% endif %}" />
+	<meta property="og:image" content="{{ site.url }}{% if page.og_image %}{{ page.og_image }}{% elsif page.list_cover %}{{ page.list_cover }}{% else %}/assets/images/just-arrived-open-graph-logo.png{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
 
   {% if site.lang == 'sv' %}<meta property="og:locale" content="sv_SE" />{% endif %}
@@ -47,7 +47,7 @@
 	<![endif]-->
 	<meta name="msapplication-TileColor" content="#f01d4f">
 	<meta name="msapplication-TileImage" content="{{ "/assets/images/win8-tile-icon.png" | prepend: site.github.url }}">
-	<meta name="theme-color" content="#121212">
+	<meta name="theme-color" content="#222531">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ "/assets/sass/main.css" | prepend: site.github.url }}?{{site.time | date: '%s%N'}}">

@@ -1,4 +1,3 @@
----
 global:
   app_name: Just Arrived
   swedish: Svenska
@@ -28,7 +27,7 @@ page_not_found:
   link_line: Du kan alltid besöka vår <a href="https://justarrived.se/">startsida</a>.
 form:
   submit: Spara
-  email: Email adress
+  email: Epost
   company_email: Företagsemail
   name: Namn
   phone: Telefonnummer
@@ -77,22 +76,19 @@ blog:
     prev: Föregående
     next: Nästa
     current_page: 'Sida:'
-  excerpt_separator: Mer..
+  excerpt_separator: Läs mer
   post_by_tag_title: Kategorier
-  about_us_post_footer: <strong>Just Arrived</strong> erbjuder företag en tjänst som
-    gör det enkelt, snabbt och säkert att kunna anlita nyanlända. Just Arrived uppstod
-    som ett resultat av den stora migrantvågen under 2015. Gräsrotsinitiativet engagerade
-    snabbt både företag och privatpersoner som ville skapa en konkret skillnad. Idag
-    är vi 15 anställda i det snabbt växande, icke vinstdrivande, aktiebolaget och
-    har fler än 100 företag som använder vår tjänst kontinuerligt. Företaget ägs av
-    fyra icke-vinstdrivande stiftelser, däribland <a href="http://norrskenfoundation.org">Norrsken
-    Foundation</a>. Läs mer om <a href="https://justarrived.se">Just Arrived</a> här!
+  footer:
+    newsletter_header: Nyhetsbrev
+    newsletter_body: |-
+      Kunskap och inspiration kring hur du kan bygga bättre affärer med hjälp av medarbetare som är nya i Sverige.
+      Du kan så klart när som helst avregistrera dig för fler utskick.
+    newsletter_subscribe: Registrera
 top_banner:
   tag_line: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
-  tag_line_description: Vi sammanför nyanlända med svenska företag som behöver hjälp
-    med dagliga aktiviteter. Vår digitala plattform gör det enkelt för företag att
-    lägga upp enkla uppdrag och tjänster som sedan matchas med nyanlända som söker
-    jobb.
+  tag_line_description: Det ska vara enkelt för nyanlända och arbetsgivare i Sverige
+    att möta varandra. Vi är övertygade om att det bidrar till bättre affärer, bättre
+    organisationer och ett bättre samhälle.
   newcomer: Nyanländ
   register: Registrera
   company: Företag
@@ -112,8 +108,8 @@ be_the_change:
   description_end: Just Arrived finns för att göra det enkelt för företag att hjälpa
     till. Att skapa en känsla av att höra till och av gemenskap genom att lägga ut
     enkla uppgifter och jobb.
-  description_asterix: '* Efter tio år, har endast 60% av alla immigranter ett jobb
-    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.'
+  description_asterix: "* Efter tio år, har endast 60% av alla immigranter ett jobb
+    med vilket de kan försörja sig själva. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda."
   cta: Jag vill lägga upp ett jobb
 companies_engage:
   title: Just Arrived gör det enkelt för företag att engagera och anställa nyanlända.
@@ -126,9 +122,9 @@ companies_engage:
   cta: Läs mer
 job_opportunities:
   title: Jobbmöjligheter för nyanlända
-  first_paragraph: Vi sammanför nyanlända med svenska företag som behöver hjälp med
-    dagliga aktiviteter. Vår digitala plattform gör det enkelt för företag att lägga
-    upp enkla uppdrag och tjänster som sedan matchas med nyanlända som söker jobb.
+  first_paragraph: Det ska vara enkelt för nyanlända och arbetsgivare i Sverige att
+    möta varandra. Vi är övertygade om att det bidrar till bättre affärer, bättre
+    organisationer och ett bättre samhälle.
   second_paragraph: Just Arrived översätter uppdrag till de nyanländas lokala språk.
     Vi tillåter företaget och den nyanlända att recensera varandra, vilket ger references
     som gör det möjligt för nyanlända att få ytterligare anställningar. Just Arrived
@@ -144,6 +140,8 @@ enablers:
 partners:
   title: Partners och hjältar
   cta: Mer om oss
+covered_by:
+  title: Skrivet om oss
 join_us:
   title: Gå med oss
   first_paragraph: Just Arrived är drivet av ett team av frivilliga som vill göra
@@ -163,14 +161,19 @@ join_us:
     fifth: Optimera applikationen för datorer
     sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
 meet_the_team:
-  title: Vårt team
-  description: Vi är en grupp av 150 volontärer som har jobbat kvällar och helger
-    sedan 2015 för att göra Just Arrived möjligt. Vi representerar en mängd kompetenser,
-    bakgrunder och organisationer, men alla delar det gemensamma målet att göra det
-    lättare för nyanlända att få ett jobb och chansen att integreras i det svenska
-    samhället. Vi letar alltid efter fler passionerade individer, oavsett ifall de
-    representerar sig själva eller en organisation. För nuvarande behov, se sektionen
-    Gå med nedan.
+  title: Vi vill förändra arbetsmarknaden
+  description: "Vi har bestämt oss. Vi vill förändra arbetsmarknaden. Genom att ta
+    tillvara på all den kompetens och erfarenhet som nyanlända och utrikesfödda kommer
+    med till Sverige är vi övertygade om att vi bygger bättre affärer, bättre organisationer
+    och ett bättre samhälle. Det ska vara enkelt för nyanlända och svenska arbetsgivare
+    att möta varandra. Det är där Just Arrived kommer in. Vi matchar nyanlända kandidater
+    med uppdrag hos arbetsgivare i Sverige. Naturligtvis med schyssta villkor för
+    alla parter. \n\nAtt jobba via Just Arrived ger nyanlända en fot in på arbetsmarknaden
+    och en möjlighet att bygga nätverk för ett arbetsliv i Sverige. Att anställa via
+    Just Arrived ger arbetsgivare en chans att enkelt få in den kompetens och de resurser
+    som behövs. Win-win har sällan varit enklare!\n\nJust Arrived startade 2016 och
+    drivs som aktiebolag där huvudparten av ägarna är stiftelser, bland annat Norrsken
+    Foundation och Diversify Foundation."
   careers_link_text: Vi söker medarbetare
 our_product:
   title: Vår produkt
@@ -188,7 +191,7 @@ our_product:
       att faktura skickas
     fifth: Nyanlända får de fulla faktura beloppet (efter skatt och andra administrativa
       kostnader)
-    asterix: '* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto.'
+    asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
   title: Säg Hej
   enquiries: Generella frågor
@@ -260,11 +263,11 @@ faq:
   newcomer:
     what:
       question: Vad behöver jag för att arbeta genom Just Arrived?
-      answer: <b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
+      answer: "<b>Om du har uppehållstillstånd,</b> då är allt du behöver ett svenskt
         bankkonto. <br><b>Om du är asylsökande</b> då behöver du AT-UND under punkt
         7 på ditt LMA-kort, ett samordningsnummer från Skatteverket, och tillgång
         till ett svenskt bankkonto. <br><b> Om du är medborgare inom EU,</b> då behöver
-        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer.
+        du ett samordningsnummer från Skatteverket och tillgång till ett svenskt personnummer."
     at_und:
       question: Vad är AT-UND?
       answer: AT-UND är ett undantag från lagen som säger att du behöver ett arbetstillstånd
@@ -325,7 +328,7 @@ faq:
         för ett exakt svar.
   company:
     why:
-      question: Varför ska jag anställa via Just Arrived?
+      question: Därför ska du anställa via Just Arrived
       answer: Genom att anlita en person genom Just Arrived, kommer du att få förstärkning
         i din verksamhet av validerade och kvalificerade personer. Du kommer även
         hjälpa till med att integrera motiverade, ambitiösa individer som brinner
@@ -401,41 +404,43 @@ faq:
         och betyg för tjänsten till företaget. Syftet med betygsättning och omdömet
         är att den nyanlände ska få skapa sig ett levande CV och referenslista i Sverige.
 startpage_company_section:
-  title: Vi matchar dig med nyanlända som vill jobba
-  subtitle: Är det stressigt på kontoret med många uppgifter som inte är en del av
-    ditt (eller andras) jobb? Är du i behov av assistans, hjälp till event eller någon
-    som kan hjälpa er?
+  title: Vi hjälper dig att hitta ny(anländ) kompetens
+  subtitle: Snabbt, enkelt och tryggt. Hos oss får du snabb hjälp med att hitta personer
+    som kan arbeta hos dig, för kortare eller längre uppdrag. Vi har ett stort nätverk
+    av nyanlända kandidater där vi aktivt validerar deras kompetens, erfarenhet och
+    språkkunskaper för en bra matchning.
   subsubtitle: Varför inte anställa genom Just Arrived?
   cta: Mer information
 company_page:
+  contact_form:
+    job_description_placeholder: Beskriv gärna kort ditt personalbehov
   top_banner:
-    title: Skapa ett jobb idag
-    body: "Matcha med rätt medarbetare. Fyll i dina uppgifter så tar vi kontakt \L"
-    get_in_touch_cta: Kom i kontakt
+    title: Offertförfrågan
+    body: Är du arbetsgivare och vill veta mer om oss? Fyll i dina uppgifter så tar
+      vi snart kontakt med dig.
+    get_in_touch_cta: Skicka
     get_in_touch_text: Rätt medarbetare för era behov
   recommendations:
     title: Rekommendation
   companies_information:
-    title: Det här är Just Arrived
+    title: 'Så här jobbar du med Just Arrived '
     cta: Skapa jobb nu
     first:
-      title: 1. Posta jobb
-      body: '         Tillsammans med Just Arrived tas en uppdragsbeskrivning fram samt den kravprofil
-        som krävs för att kunna utföra jobbet. Därefter läggs jobbet ut på vår plattform
-        och ansökningarna kan börja.'
+      title: 1. Beskriv vem du behöver
+      body: 'Tillsammans tar vi fram en uppdragsbeskrivning och en kravprofil för
+        jobbet. Därefter läggs jobbet ut på vår plattform så att matchning kan börja. '
     second:
       title: 2. Godkänn kandidat
-      body: De uppdrag som postas på vår plattform får ett högt antal sökande. Just
-        Arrived tar fram de mest relevanta kandidaterna och utför intervjuer. Dessa
-        kandidater presenteras sedan för uppdragsgivaren som får välja vem, eller
-        vilka, kandidater som ska få uppdraget.
+      body: De uppdrag som postas på vår plattform får ofta många sökande. Just Arrived
+        tar fram de mest relevanta kandidaterna utifrån kravprofilen och presenterar
+        för dig. Du väljer vilken, eller vilka kandidater som ska utföra uppdraget.
     third:
       title: 3. Uppdraget utförs
-      body: Efter en lyckad matchning utförs uppdraget. Just Arrived följer kontinuerligt
-        upp utgången av uppdraget och våra erfarna konsultchefer finns med under hela
-        processen. Allt för ett lyckat uppdrag!
+      body: Uppdraget utförs under den tidsperiod som bestämts. Just Arrived följer
+        kontinuerligt upp hur det går och finns med som stöd, för både våra kunder
+        och kandidater.
   common_jobs:
-    title: Våra vanligaste jobb
+    title: Vanliga uppdrag
     first: Support
     second: Anläggning
     third: Event
@@ -477,25 +482,24 @@ company_what_we_offer:
   title: Vårt erbjudande
   signoff:
     title: 'Och bäst av allt:'
-    body: Du blir en del av lösningen för en hållbar integration.
+    body: Du blir en del av lösningen för en både hållbar och lönsam integration.
   feature_list:
     flexibility:
       title: Vi är flexibla
-      body: Vi tillhandahåller rätt kandidat för rätt position och skräddarsyr våran
-        tjänst efter era behov.
+      body: Korta uppdrag, långa uppdrag, heltid, eller deltid. Du får alltid en lösning
+        som passar dig.
     speed:
       title: Vi är snabba
-      body: Är det bråttom? Behöver du snabbt fylla en position? Vi kan tillhanda
-        hålla rätt kandidat på 36 timmar.
+      body: Är det bråttom? Vi är effektiva och ser till att du har rätt person på
+        plats i tid.
     simplicity:
       title: Det är enkelt
-      body: Vi tar hand om all administration och arbetsgivaransvar. Skatt, sociala
-        avgifter och försäkringar tas om hand av oss. Vi skickar bara en faktura till
-        er.
+      body: Vi säkerställer att våra kandidater har korrekta handlingar och har rätt
+        att att arbeta i Sverige. Alla dokument sparas hos oss.
     sustainability:
-      title: Det är säkert
-      body: Vi vill att ni som bolag bara ska behöva tänka på era behov. Administration,
-        lagar och regler tar vi hand om.
+      title: Det är tryggt - för alla
+      body: Vi säkerställer att våra kandidater har korrekta handlingar och har rätt
+        att att arbeta i Sverige. Alla dokument sparas hos oss.
     prices:
       title: Och priset är..
       body: Anställ någon från 149 SEK i timmen. Beställningen måste minst vara 4
@@ -542,15 +546,15 @@ newcomer_howto_section:
       Just Arrived efter din registrering.</p>
   profile:
     title: 2. Profil
-    body: <p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
+    body: "<p>Detta är det allra viktigaste för att öka dina chanser att få ett jobb
       via Just Arrived!</p><p>Se till att du fyller i all relevant information och
       alla dina olika kompetenser. Om din profil är tom så kommer du inte matchas
-      med några jobb.</p>
+      med några jobb.</p>"
   apply:
     title: 3. Sök jobb
-    body: <p>Nu är det dags att börja söka jobb!</p><p>Sök till varje, och alla jobb
+    body: "<p>Nu är det dags att börja söka jobb!</p><p>Sök till varje, och alla jobb
       du vill ha. Glöm inte att logga in ofta för att se om vi har lagt upp några
-      nya jobb!</p>
+      nya jobb!</p>"
 newcomer_faq_nudge:
   title: Vill du veta mer?
 our_customers:
@@ -563,6 +567,7 @@ hourly_pay_calculator:
   rate_including_vat: Inclusive moms
 careers:
   title: Jobba hos oss
+  cta: Se jobb möjligheter
 job_card:
   gross_salary: 'Bruttolön:'
 press:
@@ -620,11 +625,11 @@ xmas:
       title: Vi hör av oss
       body: 'Vi kommer kontakta dig i början av nästa år för att prata vidare om hur
         vi tillsammans kan hjälpa nyanlända få #enfotin.'
-    newcomer_first: <b>Ta en bild</b> - Du tar en bild med din smartphone på din fot
-      med sko på (gärna vid en tröskel).
-    newcomer_second: '<b>Lägg upp bilden i sociala medier</b> - Skriv en liten text
+    newcomer_first: "<b>Ta en bild</b> - Du tar en bild med din smartphone på din
+      fot med sko på (gärna vid en tröskel)."
+    newcomer_second: "<b>Lägg upp bilden i sociala medier</b> - Skriv en liten text
       om varför du tycker att det är viktigt att nyanlända får en fot in på arbetsmarknaden.
-      Glöm ej tagga med #enfotin!'
+      Glöm ej tagga med #enfotin!"
   register_section:
     campaign_closed: Den här kampanjen är avslutad.
     title: Vad väntar du på?

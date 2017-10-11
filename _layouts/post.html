@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign author = site.authors[page.author] %}
 
 <section class="
@@ -31,6 +32,8 @@ module--white-bg
 
         <article class="post-content" lang="{{ post.locale }}">
           {{ content }}
+
+          {% include blog/post_footer.html %}
         </article>
 
       </div>

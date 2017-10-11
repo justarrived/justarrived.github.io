@@ -1,8 +1,12 @@
 ---
+title: Blog
 layout: post
-title: "Blog"
 description: Our blog
-paginate: true
+pagination:
+  enabled: true
+  sort_reverse: true
+  collection: posts
+  per_page: 10
 ---
 
 <div class="blog-page">
@@ -25,7 +29,7 @@ paginate: true
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div
               class="post-list-cover"
-              style="background-image: url(/assets/images/blog/{{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}">
+              style="background-image: url({{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}">
 
               </div>
           </a>
@@ -36,7 +40,7 @@ paginate: true
         </h2>
         <p class="blog-post-date-text">{{ post.date | date: "%b %-d, %Y" }}{% if post.locale %} • {{ post.locale | join: ', ' }}{% endif %}</p>
         <div class="blog-post-content-container">
-          {{ post.content | truncate: 300 }}<br/>
+          {{ post.content | strip_html | truncate: 300 }}<br/>
         </div>
         <a class="primary-btn border-btn--pink read-more-btn" href="{{ post.url | prepend: site.baseurl }}">{% t blog.excerpt_separator %}</a>
 
