@@ -1,40 +1,41 @@
-<div class="ui grid section--company-post-job-container" id="post-job-now">
+<form name="form_9084u3086368d810f43a0955c5bd000afc267" action="https://power.upsales.com/api/external/formSubmit" method="POST">
+  <div class="ui grid section--company-post-job-container" id="post-job-now">
+    <div class="three column stackable equal width row">
+      <div class="column">
+        <div class="post-job-image-container">
+          <img class="post-job-image" src="/assets/images/v2/company-create-job.png" />
+        </div>
+      </div>
 
-  <div class="three column stackable equal width row">
-    <div class="column">
-      <div class="post-job-image-container"><img class="post-job-image" src="/assets/images/v2/company-create-job.png"></img></div>
+      <div class="column">
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Contact.name" value="" required="required" placeholder="{% t form.name %}">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.name" value="" required="required" placeholder="{% t form.company %}">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="email" name="Contact.email" value="" required="required" placeholder="{% t form.email %}">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.phone" required="required" placeholder="{% t form.phone %}">
+        </div>
+        <!-- REQUIRED FIELDS -->
+        <input type="hidden" name="formCid" value="9084">
+        <input type="hidden" name="formId" value="9084u3086368d810f43a0955c5bd000afc267">
+        <input type="hidden" name="isFrame" value="false">
+        <input type="text" value="" name="validation" style="display: none;">
+        <!-- END OF REQUIRED FIELDS -->
+        <div class="sixteen wide column form-post-now-button-container">
+        </div>
+      </div>
+
+      <div class="column">
+        <textarea maxlength="512" type="text" name="Extra.1506948557152" placeholder="{% t company_page.contact_form.job_description_placeholder %}"></textarea>
+        <div class="form-post-now-button-container">
+          <input type="submit" value="{% t company_page.top_banner.get_in_touch_cta %}" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
-        <input type=hidden name="oid" value="00D58000000cNvl">
-        <input type=hidden name="retURL" value="{{ site.company_submission_redirect_url }}" id="salesforce_retURL">
-        <input type=hidden name="lead_source" value="Web">
-
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="name" class="required" id="mce-NAME" required placeholder="Name">
-        </div>
-        <div class="sixteen wide column single-input-container">
-          <div class="column">
-              <input class="double-input-left" type="text" value="" maxlength="40" name="company" id="mce-COMPANY" required placeholder="Company">
-              <input class="double-input-right" type="text" value="" maxlength="40" name="city" id="mce-CITY" required placeholder="City">
-          </div>
-        </div>
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
-        </div>
-        </div>
-        <div class="column">
-          <textarea type="text" value="" name="description" id="mce-DESCRIPTION" required placeholder="What do you need help with?"></textarea>
-        </div>
-      </div>
-      <!-- prevent bot signups -->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
-      </div>
-
-      <div class="sixteen wide column form-post-now-button-container">
-        <input type="submit" value="{% t company_page.top_banner.get_in_touch_cta %}" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
-      </div>
-    </form>
-</div>
+  </div>
+</form>

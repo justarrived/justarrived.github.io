@@ -391,10 +391,12 @@ startpage_company_section:
   cta: Learn more
 
 company_page:
+  contact_form:
+    job_description_placeholder: Please describe your staffing needs
   top_banner:
     title: Create a job today
     body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
-    get_in_touch_cta: Get in touch
+    get_in_touch_cta: Submit
     get_in_touch_text: The right competence for your needs
   recommendations:
     title: Recommendation

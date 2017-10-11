@@ -359,7 +359,7 @@
 	textarea {
 		padding-top: 4px;
 		resize: none;
-		min-height: 200px;
+		min-height: 280px;
 		background-color: $gray700;
 		border: 1px solid white;
 		border-radius: 10px;
@@ -407,6 +407,9 @@
 	.form-post-now-button-container {
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
+		.post-now-button {
+			float: right;
+		}
 	}
 
 }

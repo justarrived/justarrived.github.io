@@ -412,11 +412,13 @@ startpage_company_section:
   subsubtitle: Varför inte anställa genom Just Arrived?
   cta: Mer information
 company_page:
+  contact_form:
+    job_description_placeholder: Beskriv gärna kort ditt personalbehov
   top_banner:
     title: Offertförfrågan
     body: Är du arbetsgivare och vill veta mer om oss? Fyll i dina uppgifter så tar
       vi snart kontakt med dig.
-    get_in_touch_cta: Kom i kontakt
+    get_in_touch_cta: Skicka
     get_in_touch_text: Rätt medarbetare för era behov
   recommendations:
     title: Rekommendation
