@@ -16,7 +16,7 @@ yaml_string = { 'en' => i18n_hash }.to_yaml
 File.write(tx_source_lang_path, yaml_string)
 
 puts '=== Pushing to Transifex ==='
-system_command `tx push -s`
+system_command "tx push -s"
 puts '=== Transifex Done ==='
 
 puts 'Cleaning up..'

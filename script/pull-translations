@@ -6,7 +6,7 @@ require_relative 'helper'
 write_transifex_config!
 
 puts '=== Pulling from Transifex ==='
-system_command `tx pull -a -f`
+system_command "tx pull -a -f"
 puts '=== Transifex Done ==='
 
 i18n_path = "#{root_path}/_i18n"
