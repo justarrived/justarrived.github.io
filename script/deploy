@@ -19,7 +19,7 @@ post_to_slack() {
 }
 
 main_branch=siteleaf
-release_branch=releasesiteleaf
+release_branch=master
 
 __git-current-branch-or-exit $main_branch
 
