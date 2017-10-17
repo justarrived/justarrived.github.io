@@ -46,11 +46,15 @@
 	<![endif]-->
 	<meta name="msapplication-TileColor" content="#f01d4f">
 	<meta name="msapplication-TileImage" content="/assets/images/win8-tile-icon.png">
-	<meta name="theme-color" content="#121212">
+	<meta name="theme-color" content="#222531">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/assets/sass/main.css?1506606493005577000">
-	<link rel="stylesheet" href="/assets/semantic-ui/grid.css?1506606493005577000">
+	<link rel="stylesheet" href="/assets/sass/main.css?1508219990236537000">
+	<link rel="stylesheet" href="/assets/semantic-ui/grid.css?1508219990236537000">
+
+	<!-- Upsales -->
+	<script src="https://img.upsales.com/p55vt9o4U6773y8nAlJxmw==/visit/v.js"></script>
+	<!-- End Upsales -->
 
 	<!-- Google Analytics -->
 	<script>
@@ -240,10 +244,10 @@
       </div>
 
       <div style="float:right;">
-        <input type="submit" value="تواصل معنا" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large">
+        <input type="submit" value="ارسال" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large">
       </div>
 
-      <!-- <input type="submit" value="تواصل معنا" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large" style="float:right;"> -->
+      <!-- <input type="submit" value="ارسال" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large" style="float:right;"> -->
 
     </form>
   </div>
@@ -381,46 +385,47 @@
   </div>
 </div>
 
-<div class="ui grid section--company-post-job-container" id="post-job-now">
+<form name="form_9084u3086368d810f43a0955c5bd000afc267" action="https://power.upsales.com/api/external/formSubmit" method="POST">
+  <div class="ui grid section--company-post-job-container" id="post-job-now">
+    <div class="three column stackable equal width row">
+      <div class="column">
+        <div class="post-job-image-container">
+          <img class="post-job-image" src="/assets/images/v2/company-create-job.png" />
+        </div>
+      </div>
 
-  <div class="three column stackable equal width row">
-    <div class="column">
-      <div class="post-job-image-container"><img class="post-job-image" src="/assets/images/v2/company-create-job.png"></img></div>
+      <div class="column">
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Contact.name" value="" required="required" placeholder="الاسم *">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.name" value="" required="required" placeholder="الشركة">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="email" name="Contact.email" value="" required="required" placeholder="بريد إلكتروني">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.phone" required="required" placeholder="رقم الهاتف">
+        </div>
+        <!-- REQUIRED FIELDS -->
+        <input type="hidden" name="formCid" value="9084">
+        <input type="hidden" name="formId" value="9084u3086368d810f43a0955c5bd000afc267">
+        <input type="hidden" name="isFrame" value="false">
+        <input type="text" value="" name="validation" style="display: none;">
+        <!-- END OF REQUIRED FIELDS -->
+        <div class="sixteen wide column form-post-now-button-container">
+        </div>
+      </div>
+
+      <div class="column">
+        <textarea maxlength="512" type="text" name="Extra.1506948557152" placeholder="Beskriv gärna kort ditt personalbehov"></textarea>
+        <div class="form-post-now-button-container">
+          <input type="submit" value="ارسال" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
-        <input type=hidden name="oid" value="00D58000000cNvl">
-        <input type=hidden name="retURL" value="https://justarrived.se/thanks/company-register-submit" id="salesforce_retURL">
-        <input type=hidden name="lead_source" value="Web">
-
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="name" class="required" id="mce-NAME" required placeholder="Name">
-        </div>
-        <div class="sixteen wide column single-input-container">
-          <div class="column">
-              <input class="double-input-left" type="text" value="" maxlength="40" name="company" id="mce-COMPANY" required placeholder="Company">
-              <input class="double-input-right" type="text" value="" maxlength="40" name="city" id="mce-CITY" required placeholder="City">
-          </div>
-        </div>
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
-        </div>
-        </div>
-        <div class="column">
-          <textarea type="text" value="" name="description" id="mce-DESCRIPTION" required placeholder="What do you need help with?"></textarea>
-        </div>
-      </div>
-      <!-- prevent bot signups -->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
-      </div>
-
-      <div class="sixteen wide column form-post-now-button-container">
-        <input type="submit" value="تواصل معنا" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
-      </div>
-    </form>
-</div>
+  </div>
+</form>
 
 <div class="ui grid section--what-we-offer">
 
@@ -499,46 +504,47 @@
   </div>
 </div>
 
-<div class="ui grid section--company-post-job-container" id="post-job-now">
+<form name="form_9084u3086368d810f43a0955c5bd000afc267" action="https://power.upsales.com/api/external/formSubmit" method="POST">
+  <div class="ui grid section--company-post-job-container" id="post-job-now">
+    <div class="three column stackable equal width row">
+      <div class="column">
+        <div class="post-job-image-container">
+          <img class="post-job-image" src="/assets/images/v2/company-create-job.png" />
+        </div>
+      </div>
 
-  <div class="three column stackable equal width row">
-    <div class="column">
-      <div class="post-job-image-container"><img class="post-job-image" src="/assets/images/v2/company-create-job.png"></img></div>
+      <div class="column">
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Contact.name" value="" required="required" placeholder="الاسم *">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.name" value="" required="required" placeholder="الشركة">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="email" name="Contact.email" value="" required="required" placeholder="بريد إلكتروني">
+        </div>
+        <div class="sixteen wide column single-input-container">
+          <input maxlength="512" type="text" name="Client.phone" required="required" placeholder="رقم الهاتف">
+        </div>
+        <!-- REQUIRED FIELDS -->
+        <input type="hidden" name="formCid" value="9084">
+        <input type="hidden" name="formId" value="9084u3086368d810f43a0955c5bd000afc267">
+        <input type="hidden" name="isFrame" value="false">
+        <input type="text" value="" name="validation" style="display: none;">
+        <!-- END OF REQUIRED FIELDS -->
+        <div class="sixteen wide column form-post-now-button-container">
+        </div>
+      </div>
+
+      <div class="column">
+        <textarea maxlength="512" type="text" name="Extra.1506948557152" placeholder="Beskriv gärna kort ditt personalbehov"></textarea>
+        <div class="form-post-now-button-container">
+          <input type="submit" value="ارسال" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
-        <input type=hidden name="oid" value="00D58000000cNvl">
-        <input type=hidden name="retURL" value="https://justarrived.se/thanks/company-register-submit" id="salesforce_retURL">
-        <input type=hidden name="lead_source" value="Web">
-
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="name" class="required" id="mce-NAME" required placeholder="Name">
-        </div>
-        <div class="sixteen wide column single-input-container">
-          <div class="column">
-              <input class="double-input-left" type="text" value="" maxlength="40" name="company" id="mce-COMPANY" required placeholder="Company">
-              <input class="double-input-right" type="text" value="" maxlength="40" name="city" id="mce-CITY" required placeholder="City">
-          </div>
-        </div>
-        <div class="sixteen wide column single-input-container">
-            <input type="text" value="" name="phone" class="required" id="mce-PHONE" required placeholder="Phone number">
-        </div>
-        </div>
-        <div class="column">
-          <textarea type="text" value="" name="description" id="mce-DESCRIPTION" required placeholder="What do you need help with?"></textarea>
-        </div>
-      </div>
-      <!-- prevent bot signups -->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
-      </div>
-
-      <div class="sixteen wide column form-post-now-button-container">
-        <input type="submit" value="تواصل معنا" name="submit" id="mc-embedded-subscribe" class="primary-btn btn-large post-now-button">
-      </div>
-    </form>
-</div>
+  </div>
+</form>
 
 <div class="covered-by-section">
   <div class="ui grid">
@@ -604,6 +610,56 @@
   </div>
 </div>
 
+<style media="screen">
+  .newsletter-form {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .newsletter-form .email-field {
+    max-width: 485px;
+    display: inline-block;
+  }
+
+  .newsletter-form form {
+    text-align: center;
+  }
+
+  .newsletter-form .email-field input {
+    min-width: 200px;
+  }
+
+  .newsletter-form .submit-field {
+    text-align: left;
+  }
+  .newsletter-form .submit-field input {
+    height: 40px;
+  }
+</style>
+
+<div class="section--company-post-job-container" style="padding-top: 35px !important;">
+  <div class="newsletter-form">
+    <h3>Nyhetsbrev från Just Arrived</h3>
+    <p>تعلم كيفية بناء عمل أفضل بمساعدة موظفين جدد في السويد. 
+يمكنك بالطبع إلغاء الاشتراك في أي وقت.</p>
+
+    <form id="up-form" name="form_9084u720ab9707b654e9cb66d68d085b53e89" action="https://power.upsales.com/api/external/formSubmit" method="POST">
+      <div>
+        <input maxlength="512" type="email" name="Contact.email" required="required" placeholder="بريد إلكتروني" style="margin-bottom: 20px;">
+      </div>
+      <!-- REQUIRED FIELDS -->
+      <input type="hidden" name="formCid" value="9084">
+      <input type="hidden" name="formId" value="9084u720ab9707b654e9cb66d68d085b53e89">
+      <input type="hidden" name="isFrame" value="false">
+      <input type="text" value="" name="validation" style="display: none;">
+      <!-- END OF REQUIRED FIELDS -->
+      <div class="submit-field">
+        <button type="submit" class="primary-btn border-btn--pink section-button">إشتراك</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 
 
     <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
@@ -624,7 +680,6 @@
         <ul class="footer-link-list">
           <li><a href="https://app.justarrived.se/login?locale=ar&utm_source=justarrived&utm_medium=web&utm_content=footer_login">تسجيل الدخول</a></li>
           <li><a href="https://app.justarrived.se/register?locale=ar&utm_source=justarrived&utm_medium=web&utm_content=footer_register" class="cd-popup-trigger-newcomer-signup">تسجيل جديد</a></li>
-          <li><a href="/ar/company/" class="cd-popup-trigger-signin">اعلان وظيفة</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -701,102 +756,6 @@
 
   </section>
 </footer>
-
-<div class="cd-popup cd-popup-signin">
-  <div class="cd-popup-container">
-    <section class="section--signup-popup">
-      <div class="
-    module-content
-    module-content--centered
-    module--black
-    ">
-        <h2 class="bordered bordered--primary bordered--centered module--txt-c">سجل اهتمامك</h2>
-        <p>نحن متواجدون حاليا في ستوكهولم وغوتنبرغ ومالمو، يرجى ملء استمارة لتسجيل شركتك المهتمة لمعرفة المزيد حول ما يمكننا القيام به بالنسبة لك. شكرا!</p>
-
-        <p dir="rtl" lang="ar">
-          <a href="#" class="cd-popup-trigger-newcomer-signup discrete-link">
-          هل تبحث عن عمل؟ اضغط هنا.
-          </a>
-        </p>
-
-        <div id="mc_embed_signup">
-          <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form js-company-signup-form">
-
-            <input type=hidden name="oid" value="00D58000000cNvl">
-            <input type=hidden name="retURL" value="https://justarrived.se/thanks/company-register-submit" id="salesforce_retURL">
-            <input type=hidden name="lead_source" value="Web">
-
-            <!--  ----------------------------------------------------------------------  -->
-            <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-            <!--  these lines if you wish to test in debug mode.                          -->
-            <!--  <input type="hidden" name="debug" value=1>                              -->
-            <!--  <input type="hidden" name="debugEmail" value="richard.dearn@eins.se">   -->
-            <!--  ----------------------------------------------------------------------  -->
-
-            <div class="signup-error module--txt-c">
-              <label for="mce-EMAIL" class="mailchimp-error">بريد إلكتروني</label>
-            </div>
-
-            <div id="mc_embed_signup_scroll">
-
-              <div class="form-col mc-field-group">
-                <label>البريد الإلكتروني للشركة <span class="asterisk">*</span></label>
-                <input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
-              </div>
-              <div class="form-col mc-field-group">
-                <label for="mce-NAME">الاسم * <span class="asterisk">*</span>
-                </label>
-                <input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required>
-              </div>
-              <div class="form-col mc-field-group size1of2">
-                <label for="mce-PHONE">رقم الهاتف <span class="asterisk">*</span></label>
-                <input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE" required>
-              </div>
-              <div class="form-col mc-field-group">
-                <label for="mce-COMPANY">الشركة <span class="asterisk">*</span></label>
-                <input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY" required>
-              </div>
-              <div class="form-col form-col--full-width mc-field-group">
-                <label for="mce-CITY">مدينة  <span class="asterisk">*</span></label>
-                <input type="text" value="" name="00N580000088gDR" class="" id="mce-CITY" required>
-              </div>
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>
-              <div class="mc-field-group input-group">
-                <div class="input-group-content">
-                  <p>أنا مهتم ب... * <span class="asterisk">*</span></p>
-                  <ul>
-                    <li>
-                      <input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0">
-                      <label for="mce-MMERGE5-0">نشر فرص العمل</label>
-                    </li>
-                    <li>
-                      <input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4">
-                      <label for="mce-MMERGE5-4">معرفة المزيد</label>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- prevent bot signups -->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
-              </div>
-              <div class="clear company-submit-interest-button">
-                <input type="submit" value="ارسال" name="submit" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <a href="#0" class="cd-popup-close img-replace"></a>
-    </section>
-  </div>
-  <!-- cd-popup-container -->
-</div>
-<!-- cd-popup -->
-
 
   </div>
 
