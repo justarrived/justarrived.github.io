@@ -87,7 +87,7 @@ blog:
     newsletter_subscribe: Subscribe
 
 company_newsletter:
-  header: Newsletter
+  header: Just Arrived Newsletter
   body: Learn how to build a better business with the help of employees that are new in Sweden. You can of course unsubscribe anytime.
   subscribe: Subscribe
 
@@ -216,7 +216,6 @@ footer:
     title: Get started
     login: Login
     candidate_registration: Newcomer registration
-    post_job: Post job
   about_us:
     title: About us
     about: About Just Arrived
@@ -391,10 +390,12 @@ startpage_company_section:
   cta: Learn more
 
 company_page:
+  contact_form:
+    job_description_placeholder: Please describe your staffing needs
   top_banner:
     title: Create a job today
     body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
-    get_in_touch_cta: Get in touch
+    get_in_touch_cta: Submit
     get_in_touch_text: The right competence for your needs
   recommendations:
     title: Recommendation

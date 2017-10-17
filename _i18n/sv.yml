@@ -1,3 +1,4 @@
+---
 global:
   app_name: Just Arrived
   swedish: Svenska
@@ -84,6 +85,12 @@ blog:
       Kunskap och inspiration kring hur du kan bygga bättre affärer med hjälp av medarbetare som är nya i Sverige.
       Du kan så klart när som helst avregistrera dig för fler utskick.
     newsletter_subscribe: Registrera
+company_newsletter:
+  header: Nyhetsbrev från Just Arrived
+  body: |-
+    Kunskap och inspiration kring hur du kan bygga bättre affärer med hjälp av medarbetare som är nya i Sverige.
+    Du kan så klart när som helst avregistrera dig för fler utskick.
+  subscribe: Registrera
 top_banner:
   tag_line: Vi ger nyanlända i Sverige en chans att komma in på arbetsmarknaden
   tag_line_description: Det ska vara enkelt för nyanlända och arbetsgivare i Sverige
@@ -243,7 +250,6 @@ footer:
     title: Kom igång
     login: Logga in
     candidate_registration: Registrering för nyanlända
-    post_job: Lägg upp jobb
   about_us:
     title: Om oss
     about: Om Just Arrived
@@ -412,11 +418,13 @@ startpage_company_section:
   subsubtitle: Varför inte anställa genom Just Arrived?
   cta: Mer information
 company_page:
+  contact_form:
+    job_description_placeholder: Beskriv gärna kort ditt personalbehov
   top_banner:
     title: Offertförfrågan
     body: Är du arbetsgivare och vill veta mer om oss? Fyll i dina uppgifter så tar
       vi snart kontakt med dig.
-    get_in_touch_cta: Kom i kontakt
+    get_in_touch_cta: Skicka
     get_in_touch_text: Rätt medarbetare för era behov
   recommendations:
     title: Rekommendation

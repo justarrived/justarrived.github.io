@@ -84,6 +84,10 @@ blog:
     newsletter_body: "تعلم كيفية بناء عمل أفضل بمساعدة موظفين جدد في السويد. \nيمكنك
       بالطبع إلغاء الاشتراك في أي وقت."
     newsletter_subscribe: إشتراك
+company_newsletter:
+  body: "تعلم كيفية بناء عمل أفضل بمساعدة موظفين جدد في السويد. \nيمكنك بالطبع إلغاء
+    الاشتراك في أي وقت."
+  subscribe: إشتراك
 top_banner:
   tag_line: نعطي القادمين الجدد في السويد فرصة الدخول إلى سوق العمل.
   tag_line_description: نقوم بالربط بين الوافدين الجدد من اللاجئين مع الشركات السويدية،
@@ -232,7 +236,6 @@ footer:
     title: إبدأ
     login: تسجيل الدخول
     candidate_registration: تسجيل جديد
-    post_job: اعلان وظيفة
   about_us:
     title: عن الشركة
     about: عن Just Arrived
@@ -395,7 +398,7 @@ company_page:
     title: انشاء وظيفة الآن
     body: تطابق مع المرشحين المناسبين اليوم. يرجى ملء التفاصيل الخاصة بك وسوف نقوم
       بالاتصال في وقت قريب
-    get_in_touch_cta: تواصل معنا
+    get_in_touch_cta: ارسال
     get_in_touch_text: الإختصاصات المناسبة لمتطلباتك
   recommendations:
     title: توصية
