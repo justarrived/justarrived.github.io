@@ -49,8 +49,8 @@
 	<meta name="theme-color" content="#222531">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/assets/sass/main.css?1508267216608415000">
-	<link rel="stylesheet" href="/assets/semantic-ui/grid.css?1508267216608415000">
+	<link rel="stylesheet" href="/assets/sass/main.css?1508709217558220000">
+	<link rel="stylesheet" href="/assets/semantic-ui/grid.css?1508709217558220000">
 
 	<!-- Upsales -->
 	<script src="https://img.upsales.com/p55vt9o4U6773y8nAlJxmw==/visit/v.js"></script>
@@ -281,7 +281,7 @@ module--white-bg
 
 <p>Calculating the fill height</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">fillHeight</span><span class="p">(</span><span class="nx">count</span><span class="p">,</span> <span class="nx">targetCount</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">fillHeight</span><span class="p">(</span><span class="nx">count</span><span class="p">,</span> <span class="nx">targetCount</span><span class="p">)</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">percent</span> <span class="o">=</span> <span class="p">(</span><span class="nx">count</span> <span class="o">/</span> <span class="nx">targetCount</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">;</span>
   <span class="kd">var</span> <span class="nx">fillHeight</span> <span class="o">=</span> <span class="p">(</span><span class="nx">percent</span> <span class="o">*</span> <span class="mf">2.61</span><span class="p">)</span> <span class="o">+</span> <span class="mi">15</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="nx">fillHeight</span> <span class="o">&gt;</span> <span class="mi">285</span><span class="p">)</span> <span class="p">{</span>
@@ -289,8 +289,7 @@ module--white-bg
   <span class="p">}</span>
   <span class="k">return</span> <span class="nx">fillHeight</span><span class="p">;</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>We normalize the <code class="highlighter-rouge">target</code> &amp; <code class="highlighter-rouge">current</code> values to percent and then we have 2 “magic” numbers. <code class="highlighter-rouge">2.61</code> is the number of pixels equal to 1% of the widget height. <code class="highlighter-rouge">15</code> is offset required for the circle edge and finally we make sure that if we don’t allow the fill height to grow too large.</p>
 
@@ -300,20 +299,18 @@ module--white-bg
 
 <p><em>HTML</em>:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"foo"</span> <span class="na">class=</span><span class="s">"progress-widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"foo"</span> <span class="na">class=</span><span class="s">"progress-widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
 
 <p><em>JS</em>:</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">new</span> <span class="nx">ProgressWidget</span><span class="p">({</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">ProgressWidget</span><span class="p">({</span>
   <span class="na">selector</span><span class="p">:</span> <span class="s1">'#foo'</span><span class="p">,</span>
   <span class="na">current</span><span class="p">:</span> <span class="mi">690</span><span class="p">,</span>
   <span class="na">target</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>
   <span class="na">text</span><span class="p">:</span> <span class="s1">'registered'</span>
 <span class="p">});</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Making it really easy to create a new progress widget. Both the background, fill and text colors are configurable.</p>
 
