@@ -101,9 +101,8 @@ top_banner:
   company: Företag
   create_job: Skapa jobb
 company_contact_form:
-  title: Contact Sales
-  subtitle: I'm an employer and would like to know more about finding competence through
-    Just Arrived.
+  title: Kontakt med säljare
+  subtitle: Jag är arbetsgivare och vill gärna veta mer om att hitta kompetens via Just Arrived.
 be_the_change:
   title: Var med och förändra
   description_start: Under 2015 ansökte fler än 160,000 personer om asyl i Sverige.

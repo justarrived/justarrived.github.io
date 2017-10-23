@@ -100,8 +100,8 @@ top_banner:
   create_job: Create job
 
 company_contact_form:
-  title: Kontakt med säljare
-  subtitle: Jag är arbetsgivare och vill gärna veta mer om att hitta kompetens via Just Arrived.
+  title: Contact Sales
+  subtitle: I'm an employer and would like to know more about finding competence through Just Arrived.
 
 be_the_change:
   title: Be the change
@@ -189,7 +189,7 @@ register_submit:
 
 company_register_submit:
   title: Thank you for registering!
-  description: We will contact you as soon as we possibly can. We'll talk soon! Please contact support@justarrived.se if you have any questions.
+  description: Feel free to contact us if you have any questions.
 
 job_submit_thanks:
   title: Thank you!
