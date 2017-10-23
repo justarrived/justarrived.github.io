@@ -1,0 +1,21 @@
+<div class="newsletter-form">
+  <h3>{% t blog.footer.newsletter_header %}</h3>
+  <p>
+    {% t blog.footer.newsletter_body %}
+  </p>
+
+  <form id="up-form" name="form_9084u720ab9707b654e9cb66d68d085b53e89" action="https://power.upsales.com/api/external/formSubmit" method="POST">
+    <div>
+      <input maxlength="512" type="email" name="Contact.email" required="required" placeholder="{% t form.email %}" style="margin-bottom: 20px;">
+    </div>
+    <!-- REQUIRED FIELDS -->
+    <input type="hidden" name="formCid" value="9084">
+    <input type="hidden" name="formId" value="9084u720ab9707b654e9cb66d68d085b53e89">
+    <input type="hidden" name="isFrame" value="false">
+    <input type="text" value="" name="validation" style="display: none;">
+    <!-- END OF REQUIRED FIELDS -->
+    <div class="submit-field">
+      <button type="submit" class="primary-btn border-btn--pink section-button">{% t company_newsletter.subscribe %}</button>
+    </div>
+  </form>
+</div>
