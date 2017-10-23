@@ -99,9 +99,9 @@ top_banner:
   company: Company
   create_job: Create job
 
-signup_modal:
-  title: Indicate interest
-  description: We're currently available in Stockholm, Gothenburg and Malmö. Please fill out the form to register your company's interest to learn more about what we can do for you. Thank you!
+company_contact_form:
+  title: Kontakt med säljare
+  subtitle: Jag är arbetsgivare och vill gärna veta mer om att hitta kompetens via Just Arrived.
 
 be_the_change:
   title: Be the change
@@ -393,8 +393,8 @@ company_page:
   contact_form:
     job_description_placeholder: Please describe your staffing needs
   top_banner:
-    title: Create a job today
-    body: Match with the right candidates today. Please fill in your details and we will be in touch shortly
+    title: Need new competence to your team?
+    subtitle: We match you smoothly with newcomers.
     get_in_touch_cta: Submit
     get_in_touch_text: The right competence for your needs
   recommendations:

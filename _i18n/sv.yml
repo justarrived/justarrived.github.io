@@ -100,11 +100,10 @@ top_banner:
   register: Registrera
   company: Företag
   create_job: Skapa jobb
-signup_modal:
-  title: Indikera intresse
-  description: Vi är för tillfället tillgängliga i Stockholm, Göteborg och Malmö.
-    Var vänlig fyll i formuläret för att registrera ditt företags intresse och få
-    veta mer om vad vi kan göra för dig. Tack!
+company_contact_form:
+  title: Contact Sales
+  subtitle: I'm an employer and would like to know more about finding competence through
+    Just Arrived.
 be_the_change:
   title: Var med och förändra
   description_start: Under 2015 ansökte fler än 160,000 personer om asyl i Sverige.
@@ -421,9 +420,8 @@ company_page:
   contact_form:
     job_description_placeholder: Beskriv gärna kort ditt personalbehov
   top_banner:
-    title: Offertförfrågan
-    body: Är du arbetsgivare och vill veta mer om oss? Fyll i dina uppgifter så tar
-      vi snart kontakt med dig.
+    title: Dags att förstärka teamet?
+    subtitle: Vi matchar dig smidigt och tryggt med nyanlända.
     get_in_touch_cta: Skicka
     get_in_touch_text: Rätt medarbetare för era behov
   recommendations:
