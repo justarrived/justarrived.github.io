@@ -188,8 +188,12 @@ register_submit:
   description: We're working really hard to try to help as many as we can. We will contact you when we have something for you, please note that this may take a while.
 
 company_register_submit:
-  title: Thank you for registering!
-  description: Feel free to contact us if you have any questions.
+  title: Thank you!
+  description: We look forward to talk to you about how to best help you. We'll be in touch soon!
+
+newsletter_register_submit:
+  title: Thank you for signing up!
+  description: We'll show up in your inbox every now and then. If you want to have a cup of coffee and talk you're more than welcome to drop us a line!
 
 job_submit_thanks:
   title: Thank you!

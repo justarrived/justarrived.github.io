@@ -33,7 +33,9 @@ module--white-bg
         <article class="post-content" lang="{{ post.locale }}">
           {{ content }}
 
-          {% include blog/post_footer.html %}
+          {% unless page.hide_post_footer %}
+            {% include blog/post_footer.html %}
+          {% endunless %}
         </article>
 
       </div>

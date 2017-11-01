@@ -212,9 +212,11 @@ register_submit:
   description: Vi jobbar riktigt hårt för att hjälpa så många vi kan. Vi kommer kontakta
     dig när vi har något till dig, var vänlig att notera att det här kan ta ett tag.
 company_register_submit:
-  title: Tack för din registrering!
-  description: Vi kommer kontakta dig så snart vi kan. Vi hörs snart! Var vänlig kontakta
-    support@justarrived.se om du har några frågor.
+  title: Tack för din kontaktförfrågan!
+  description: Vi ser fram emot att prata mer om hur vi kan hjälpa dig. Vi kommer snart att höra av oss!
+newsletter_register_submit:
+  title: Vad roligt att du vill höra mer från oss!
+  description: Vi ser fram emot att få dyka upp då och då i din mailkorg. Vill du ta en kaffe och prata är du välkommen att höra av dig. Vi gillar kontakt i alla former!
 job_submit_thanks:
   title: Tack!
   description: Din information har lämnats in och kommer inom kort vara online på
