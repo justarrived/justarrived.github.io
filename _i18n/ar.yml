@@ -85,6 +85,7 @@ blog:
       بالطبع إلغاء الاشتراك في أي وقت."
     newsletter_subscribe: إشتراك
 company_newsletter:
+  header: Just Arrived رسالة إخبارية
   body: "تعلم كيفية بناء عمل أفضل بمساعدة موظفين جدد في السويد. \nيمكنك بالطبع إلغاء
     الاشتراك في أي وقت."
   subscribe: إشتراك
@@ -97,10 +98,9 @@ top_banner:
   register: تسجيل
   company: الشركة
   create_job: إنشاء وظيفة
-signup_modal:
-  title: سجل اهتمامك
-  description: نحن متواجدون حاليا في ستوكهولم وغوتنبرغ ومالمو، يرجى ملء استمارة لتسجيل
-    شركتك المهتمة لمعرفة المزيد حول ما يمكننا القيام به بالنسبة لك. شكرا!
+company_contact_form:
+  title: تواصل مع المبيعات
+  subtitle: أنا صاحب عمل، وأود أن أعرف المزيد عن إيجاد الكفاءات من خلال Just Arrived.
 be_the_change:
   title: إصنع التغيير...
   description_start: في عام 2015، أكثر من 160،000 شخص طلب الحصول على اللجوء في السويد.
@@ -203,9 +203,13 @@ register_submit:
   description: نعمل جاهدين لمشاعدة أكبر عدد ممكن، سنتصل بك في حال كان هناك شيىء لك،
     نرجو الملاحظة بأن هذا قد يستغرق بعض الوقت.
 company_register_submit:
+  title: شكراً
+  description: نحن نتطلع إلى التحدث إليكم حول كيفية مساعدتكم بطريقة أفضل. سنكون على
+    اتصال قريبا!
+newsletter_register_submit:
   title: شكراً لتسجيلك!
-  description: سنتصل بك في أقرب وقت ممكن، سنتحدث قريباً! الرجاء التواصل مع support@justarrived.se
-    اذا كان لديك المزيد من الأسئلة.
+  description: سنظهر في بريدك الوارد من الآن فصاعدا. إذا كنت تريد فنجان من القهوة
+    والتحدث لإأنت أكثر من مرحب بك بالكتابة لنا!
 job_submit_thanks:
   title: شكراً جزيلاً
   description: تم ارسال المعلومات الخاصة بك، وسوف تكون قريبا على الانترنت في تطبيقنا.
@@ -394,10 +398,11 @@ startpage_company_section:
   subsubtitle: لما لا توظف من خلال Just Arrived؟
   cta: تعرف على المزيد
 company_page:
+  contact_form:
+    job_description_placeholder: يرجى وصف احتياجات التوظيف الخاصة بك
   top_banner:
-    title: انشاء وظيفة الآن
-    body: تطابق مع المرشحين المناسبين اليوم. يرجى ملء التفاصيل الخاصة بك وسوف نقوم
-      بالاتصال في وقت قريب
+    title: تحتاج إلى كفاءة جديدة لفريقك؟
+    subtitle: نحن نطابقكم بسلاسة مع القادمين الجدد.
     get_in_touch_cta: ارسال
     get_in_touch_text: الإختصاصات المناسبة لمتطلباتك
   recommendations:

@@ -102,7 +102,8 @@ top_banner:
   create_job: Skapa jobb
 company_contact_form:
   title: Kontakt med säljare
-  subtitle: Jag är arbetsgivare och vill gärna veta mer om att hitta kompetens via Just Arrived.
+  subtitle: Jag är arbetsgivare och vill gärna veta mer om att hitta kompetens via
+    Just Arrived.
 be_the_change:
   title: Var med och förändra
   description_start: Under 2015 ansökte fler än 160,000 personer om asyl i Sverige.
@@ -212,11 +213,14 @@ register_submit:
   description: Vi jobbar riktigt hårt för att hjälpa så många vi kan. Vi kommer kontakta
     dig när vi har något till dig, var vänlig att notera att det här kan ta ett tag.
 company_register_submit:
-  title: Tack för din kontaktförfrågan!
-  description: Vi ser fram emot att prata mer om hur vi kan hjälpa dig. Vi kommer snart att höra av oss!
+  title: Tack!
+  description: Vi ser fram emot att prata mer om hur vi kan hjälpa dig. Vi kommer
+    snart att höra av oss!
 newsletter_register_submit:
-  title: Vad roligt att du vill höra mer från oss!
-  description: Vi ser fram emot att få dyka upp då och då i din mailkorg. Vill du ta en kaffe och prata är du välkommen att höra av dig. Vi gillar kontakt i alla former!
+  title: Tack för din kontaktförfrågan!
+  description: Vi ser fram emot att få dyka upp då och då i din mailkorg. Vill du
+    ta en kaffe och prata är du välkommen att höra av dig. Vi gillar kontakt i alla
+    former!
 job_submit_thanks:
   title: Tack!
   description: Din information har lämnats in och kommer inom kort vara online på
