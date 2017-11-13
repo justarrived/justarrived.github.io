@@ -84,6 +84,9 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 // Language direction ltr/rtl
 @import "modules/language_direction";
 
+// Sections
+@import "templates/sections";
+
 // Templates
 @import "templates/careers";
 @import "templates/homepage";

@@ -1,0 +1,54 @@
+.marketing-section {
+  .section-container {
+    // padding-top: 0 !important;
+    &.primary {
+      background-color: $cerise500;
+      color: $white;
+    }
+
+    &.secondary {
+      background-color: $gray700;
+      color: $white;
+    }
+
+    &.image-left {
+      flex-direction: row !important;
+    }
+
+    &.image-right {
+      flex-direction: row-reverse !important;
+    }
+  }
+
+  .section-content {
+    padding-left: 8% !important;
+		padding-right: 8% !important;
+	}
+
+  .section-title {
+    margin-top: 70px;
+
+    &.large {
+      font-size: 28px;
+    }
+  }
+
+  .section-text {
+    margin-bottom: 100px;
+
+    &.large {
+      font-size: 22px;
+    }
+  }
+
+  .section-button {
+    margin-bottom: 50px;
+  }
+
+  .section-image {
+    // margin: -1rem !important; // counter the column padding
+	  background-size:     cover;
+	  background-repeat:   no-repeat;
+	  background-position: center center;
+  }
+}

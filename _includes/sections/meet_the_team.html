@@ -1,20 +1,4 @@
-<section class="
-  module
-  module--padding-half
-  module--black
-  module--txt-c">
-  <h2 class="bordered bordered--primary bordered--centered">{% t meet_the_team.title %}</h2>
-</section>
-
-<section class="
-  section--meet-team
-  module
-  module--padding
-  module--white
-  module--bg-cover" style="background-image: url({{ "/assets/images/bgs/team.jpg" | prepend: site.github.url }})">
-</section>
-
-<section class="
+<!-- <section class="
   module--meet-team-text
   module--padding
   module--black">
@@ -26,11 +10,18 @@
     ">
       <div class="module--txt-l">
         <p>{% t meet_the_team.description %}</p>
-        <!-- Uncomment the below if we currently have open positions -->
-        <!-- <p class="module--txt-c">
-          <br>
-          <a href="{{ "/careers/" | prepend: site.baseurl }}" class="primary-btn btn-large">{% t meet_the_team.careers_link_text %}</a>
-        </p> -->
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section>
+  <div class="ui grid marketing-section">
+    <div class="two column centered stackable equal width row section-container secondary">
+      <div class="column section-content">
+        <p class="section-text large" style="margin-top: 80px;">
+          {% t meet_the_team.description %}
+        </p>
       </div>
     </div>
   </div>
