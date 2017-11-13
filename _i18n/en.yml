@@ -540,6 +540,7 @@ careers:
 
 job_card:
   gross_salary: "Total gross salary:"
+  all_available_jobs_button: Available jobs
 
 press:
   title: Press
