@@ -399,9 +399,8 @@ faq:
       answer: After a job is completed, an invoice is sent together with a template for reference and rating of the service to the company. The purpose with the rating and reference is to allow the newcomer to create a new resume and reference list in Sweden.
 
 startpage_company_section:
-  title: We Match You With Newcomers Who Are Eager to Work
-  subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
-  subsubtitle: Why not hire through Just Arrived?
+  title: 'Win-win har aldrig varit enklare!'
+  subtitle: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
   cta: Learn more
 
 company_page:
