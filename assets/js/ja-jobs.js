@@ -7,7 +7,7 @@
   var sortParam = '&sort=-featured,filled,-job_date';
   var fieldsParam = [
     'fields' + encodeURIComponent('[') + 'company' + encodeURIComponent(']') + '=id,name,city',
-    'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,hourly_pay,id,name,city,short_description,description,translated_text,gross_amount_delimited',
+    'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,hourly_pay,id,name,hours,city,short_description,description,translated_text,gross_amount_delimited',
     'fields' + encodeURIComponent('[') + 'hourly_pay' + encodeURIComponent(']') + '=id,gross_salary_with_unit'
   ].join('&');
 
