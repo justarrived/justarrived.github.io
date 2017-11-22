@@ -1,0 +1,11 @@
+.ui.grid>.black.column,
+.ui.grid>.black.row,
+.ui.grid>.row>.black.column {
+  background-color: $gray700 !important;
+}
+
+.ui.grid>.pink.column,
+.ui.grid>.pink.row,
+.ui.grid>.row>.pink.column {
+  background-color: $cerise500 !important;
+}

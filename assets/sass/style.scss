@@ -41,6 +41,9 @@ the whole project.
 // the grid
 @import "partials/grid";
 
+@import "semantic-ui-overrides";
+
+
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
@@ -69,6 +72,8 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 @import "modules/cookie_message";
 
 @import "modules/progress_widget";
+
+@import "modules/marketing";
 
 
 /*********************

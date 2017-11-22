@@ -1,0 +1,38 @@
+.ui.grid>.row.mobile-column-reverse {
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.marketing-background {
+  background-image: url(/assets/images/v2/company-faq-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 300px;
+}
+
+.marketing-content {
+  padding: 8rem 4rem;
+  @media (min-width: 768px) and (max-width: 1029px) {
+    padding: 6rem 2rem;
+  }
+
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    padding: 4rem 1.5rem;
+  }
+
+  .section-button {
+    margin-top: 30px;
+  }
+
+  .title + .body {
+    margin-top: 30px;
+  }
+
+  .body {
+    font-size: 18px;
+  }
+}
