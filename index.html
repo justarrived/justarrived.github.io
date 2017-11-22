@@ -10,52 +10,109 @@ description: We give newcomers in Sweden a chance to enter the labor market
     {% include sections/top_banner_v2.html %}
     {% include sections/job_cards.html %}
 
-    <section>
-      <div class="ui grid section--newcomer-faq">
-        <div class="two column stackable equal width row newcomer-faq-container">
-          <div class="column section--newcomer-faq-left">
-            <div class="row">
-              <h3 class="section-subtitle">Ta första steget till ett jobb i Sverige</h3>
-            </div>
-            <div class="row">
-              <p class="section-text">Just Arrived matchar dig som är ny i Sverige med arbetsgivare som behöver din kunskap och erfarenhet.</p>
-            </div>
-            <div class="row section-button-wrapper">
-              <a href="{{site.app_register_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="primary-btn border-btn--pink section-button">
-                Registera profil
-              </a>
-              <a href="{{site.app_jobs_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="primary-btn border-btn--pink section-button">
-                Se aktuella jobb
-              </a>
-            </div>
+    <style media="screen">
+      .column-background-image {
+        background-image: url(/assets/images/v2/company-faq-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 300px;
+      }
+
+      .column-content {
+        padding: 8rem 4rem;
+      }
+
+      @media (min-width: 768px) and (max-width: 1029px) {
+        .column-content {
+          padding: 6rem 2rem;
+        }
+      }
+
+      /* Grid is collapsed */
+      @media (max-width: 768px) {
+        .column-content {
+          padding: 4rem 1.5rem;
+        }
+
+        .ui.grid>.row.mobile-column-reverse {
+          flex-direction: column-reverse;
+        }
+      }
+
+      .column-content .section-button {
+        margin-top: 30px;
+      }
+
+      .column-content .title + .body {
+        margin-top: 30px;
+      }
+
+      .body {
+        font-size: 18px;
+      }
+
+      .ui.grid>.black.column,
+      .ui.grid>.black.row,
+      .ui.grid>.row>.black.column {
+        background-color: #222531 !important;
+      }
+
+      .ui.grid>.pink.column,
+      .ui.grid>.pink.row,
+      .ui.grid>.row>.pink.column {
+        background-color: #E5007D !important;
+      }
+    </style>
+
+    <div class="ui middle equal width aligned padded stackable grid">
+      <div class="row mobile-column-reverse">
+        <div class="black column">
+          <div class="column-content">
+            <h1 class="title">Ta första steget till ett jobb i Sverige</h1>
+            <p class="body">Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.</p>
+
+            <a href="/newcomer" class="primary-btn border-btn--pink section-button">
+              Läs mer
+            </a>
           </div>
-          <div class="column computer tablet only section-image" style="margin-top: 16px;"></div>
+        </div>
+        <div class="black column column-background-image"></div>
+      </div>
+    </div>
+
+    <div class="ui middle equal width aligned padded stackable grid">
+      <div class="row">
+        <div class="black column column-background-image"></div>
+        <div class="pink column">
+          <div class="column-content">
+            <h1 class="title">Vi hjälper dig att hitta medarbetare med stor potential</h1>
+            <p class="body">Snabbt, enkelt och tryggt!</p>
+
+            <a href="/company" class="primary-btn border-btn--pink section-button">
+              Läs mer
+            </a>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section>
-      <div class="ui grid section--newcomer-faq">
-        <div class="two column stackable equal width row newcomer-faq-container">
-          <div class="column computer tablet only section-image" style="margin-top: 16px;"></div>
-          <div class="column section--newcomer-faq-left" style="background-color: #e5007d;">
-            <div class="row">
-              <h3 class="section-subtitle">Vi hjälper dig att hitta medarbetare med stor potential</h3>
-            </div>
-            <div class="row">
-              <p class="section-text">Snabbt, enkelt och tryggt!</p>
-            </div>
-            <div class="row section-button-wrapper">
-              <a href="/company" class="primary-btn border-btn--pink section-button">
-                Läs mer
-              </a>
-            </div>
+    <div class="ui middle equal width aligned padded stackable grid">
+      <div class="row mobile-column-reverse">
+        <div class="column">
+          <div class="column-content">
+            <h1 class="title">Win-win har aldrig varit enklare!</h1>
+            <p class="body">Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas. Det är därför vi finns. </p>
+
+            <a href="/company" class="primary-btn border-btn--pink section-button">
+              Läs mer
+            </a>
           </div>
         </div>
+        <div class="black column column-background-image"></div>
       </div>
-    </section>
+    </div>
 
-    {% include sections/home_how_we_match.html %}
     {% include sections/company/post_job_form.html %}
   </div>
 </div>
