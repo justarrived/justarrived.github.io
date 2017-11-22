@@ -3,18 +3,75 @@ layout: default
 ---
 
 {% include sections/newcomer/top_banner_v2.html %}
-<!-- {% include sections/newcomer/how_it_works.html %} -->
-<!-- {% include sections/newcomer/testimonial.html %} -->
-{% include sections/newcomer/newcomer_faq.html %}
+
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row mobile-column-reverse">
+    <div class="black column">
+      <div class="marketing-content">
+        <h1 class="title">Vi tar tillvara på din potential</h1>
+        <p class="body">Genom oss arbetar du heltid eller deltid  hos någon av alla våra kunder. En bra väg in att till att börja ditt arbetsliv i Sverige.</p>
+
+        <a href="/newcomer" class="primary-btn border-btn--pink section-button">
+          Läs mer
+        </a>
+      </div>
+    </div>
+    <div class="black column marketing-background interviewee"></div>
+  </div>
+</div>
+
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row mobile-column-reverse">
+    <div class="pink column marketing-background people-during-workshop"></div>
+    <div class="pink column">
+      <div class="marketing-content">
+        <h1 class="title">Skapa profil</h1>
+        <p class="body">Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb som passar din profil.</p>
+
+        <a href="{{site.app_register_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="primary-btn border-btn--pink section-button">
+          Registera profil
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include sections/job_cards.html %}
 
-<p style="text-align:center;background-color:white;padding-bottom:65px;border-bottom: 1px solid #e8e8e8;">
-  <a class="primary-btn btn-large" href="{{ site.app_jobs_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}">
-    {% t newcomer_howto_section.jobs_cta %}
-  </a>
-  <a class="primary-btn btn-large" href="{{ site.app_register_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}">
-    {% t newcomer_howto_section.register_cta %}
-  </a>
-</p>
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row mobile-column-reverse">
+    <div class="pink column column-mobile-hide">
+      <div class="marketing-content">
+        <h1 class="jumbotron-icon">@</h1>
+      </div>
+    </div>
+    <div class="pink column">
+      <div class="marketing-content">
+        <h1 class="title">Jobbtips i mejlen</h1>
+        <p class="body">Ge oss din mejladress så skickar tips när vi får in jobb.</p>
+
+        <a href="{{site.app_subscriptions_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="primary-btn border-btn--pink section-button">
+          Skapa jobbmail
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row mobile-column-reverse">
+    <div class="black column">
+      <div class="marketing-content">
+        <h1 class="title">Bra att veta</h1>
+        <p class="body">Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt jobb.</p>
+
+        <a href="{{site.app_guide_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="primary-btn border-btn--pink section-button">
+          Guide
+        </a>
+      </div>
+    </div>
+    <div class="black column marketing-background interviewee"></div>
+  </div>
+</div>
 
 {% include sections/newcomer/contact_us.html %}

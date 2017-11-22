@@ -5,12 +5,34 @@
   }
 }
 
+.column.column-mobile-hide {
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+
 .marketing-background {
-  background-image: url(/assets/images/v2/company-faq-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 300px;
+  &.happy-man-looking-right {
+    background-image: url(/assets/images/sections/happy-man-looking-right.jpg);
+  }
+  &.smiling-man-looking-into-camera {
+    background-image: url(/assets/images/sections/smiling-man-looking-into-camera.jpg);
+  }
+  &.three-people-cooperating-on-computer {
+    background-image: url(/assets/images/sections/three-people-cooperating-on-computer.jpg);
+  }
+  &.interviewee {
+    background-image: url(/assets/images/sections/interviewee.jpg);
+  }
+  &.people-during-workshop {
+    background-image: url(/assets/images/sections/people-during-workshop.jpg);
+  }
 }
 
 .marketing-content {
@@ -22,6 +44,13 @@
   /* Grid is collapsed */
   @media (max-width: 768px) {
     padding: 4rem 1.5rem;
+  }
+
+  .jumbotron-icon {
+    font-size: 200px;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top: -66px;
   }
 
   .section-button {
