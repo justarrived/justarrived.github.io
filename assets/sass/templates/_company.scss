@@ -1,10 +1,20 @@
+.top-banner-wrapper {
+  background-image:    url("/assets/images/sections/top-banner.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
 .section--top_banner_v2 {
 	min-height: 450px;
+  background: url("/assets/images/sections/top-banner-shape.png");
+  background-repeat: no-repeat;
+  background-position: top right;
 
-	background-image:    url("/assets/images/sections/top-banner.jpg");
-	background-size:     cover;
-	background-repeat:   no-repeat;
-	background-position: center center;
+  .top-banner-title {
+    color: #fff;
+    font-size: 50px;
+  }
 
 	.section--top_banner_v2-form-wrapper {
 		margin-left: 8%;
@@ -27,6 +37,30 @@
 
 	}
 
+}
+
+.top_banner_text {
+	max-width: 900px;
+	height: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+	position: relative;
+  left: 60%;
+
+	.top_banner_text_wrapper {
+		min-height: 100px;
+		margin-bottom: 20px;
+		position: absolute;
+		bottom: 0;
+
+		h2 {
+			color: white;
+		}
+
+		p {
+			color: white;
+		}
+	}
 }
 
 .section--top_banner_v2_bottom_container {
@@ -320,7 +354,7 @@
 	padding-top: 100px !important;
 	padding-bottom: 60px !important;
 
-	background-image:    url("/assets/images/v2/company-form-background.jpg");
+  background-color: $gray700;
 	background-size:     cover;
 	background-repeat:   no-repeat;
 	background-position: center center;
