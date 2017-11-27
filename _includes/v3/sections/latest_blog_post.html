@@ -1,15 +1,23 @@
+{% for post in site.posts limit: 1 %}
 <div class="ui middle equal width aligned padded stackable grid">
   <div class="row mobile-column-reverse">
-    <div class="black column marketing-background three-people-cooperating-on-computer"></div>
+    <div
+     class="black column marketing-background"
+     style="background: url({{post.list_cover}})">
+     </div>
     <div class="column">
       <div class="marketing-content">
         <h1 class="title">Nytt från bloggen</h1>
-        <p class="body">3 tips för dig som har medarbetare som inte pratar flytande svenska</p>
+        <p class="body">
+          <a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title | escape }}"</a><br>
+          <em>{{ post.date | date: "%b %-d, %Y" }}</em>
+        </p>
 
-        <a href="/company" class="primary-btn border-btn--pink section-button">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="primary-btn border-btn--pink section-button">
           Läs mer
         </a>
       </div>
     </div>
   </div>
+{% endfor %}
 </div>
