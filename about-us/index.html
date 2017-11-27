@@ -4,38 +4,12 @@ layout: default
 
 <div class="about-us">
   <div id="content">
-
     {% include v3/sections/top_banner.html title="Bemanning<br>med fokus på<br>utrikesfödda" %}
-
-    <div class="ui middle equal width aligned padded stackable grid">
-      <div class="black two column centered stackable equal width row">
-        <div class="column">
-          <div class="marketing-content">
-            <h1 class="title">Vi förändrar arbetsmarknaden</h1>
-            <p class="body">Genom att ta  tillvara på kompetens och erfarenhet som utrikesfödda kommer med  kan vi  bygga bättre affärer, bättre organisationer och ett bättre samhälle.</p>
-
-            <a href="/company" class="white-btn section-button">
-              Läs mer
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    {% include v3/sections/we_disrupt_the_labour_market.html %}
     {% include v3/sections/win_win.html %}
     {% include v3/sections/latest_blog_post.html %}
     {% include v3/sections/yesterday_today_tomorrow.html %}
-
-    <div class="ui middle equal width aligned padded stackable grid">
-      <div class="row mobile-column-reverse">
-        <div class="black column marketing-background three-people-cooperating-on-computer"></div>
-        <div class="black column">
-          <div class="marketing-content">
-            {% include company_newsletter_signup_form.html %}
-          </div>
-        </div>
-      </div>
-    </div>
+    {% include v3/sections/two_column_company_newsletter.html %}
     {% include sections/say_hej.html %}
     {% include sections/covered_by.html %}
   </div>

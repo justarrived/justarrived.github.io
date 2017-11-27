@@ -3,70 +3,9 @@ layout: default
 ---
 
 {% include sections/newcomer/top_banner_v2.html %}
-
-<div class="ui middle equal width aligned padded stackable grid">
-  <div class="black two column centered stackable equal width row">
-    <div class="column">
-      <div class="marketing-content">
-        <h1 class="title">Vi tar tillvara på din potential</h1>
-        <p class="body">Genom oss arbetar du heltid eller deltid hos någon av alla våra kunder. En bra väg in att till att börja ditt arbetsliv i Sverige.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="ui middle equal width aligned padded stackable grid">
-  <div class="row mobile-column-reverse">
-    <div class="pink column marketing-background people-during-workshop"></div>
-    <div class="pink column">
-      <div class="marketing-content">
-        <h1 class="title">Skapa profil</h1>
-        <p class="body">Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb som passar din profil.</p>
-
-        <a href="{{site.app_register_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Registera profil
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
+{% include v3/sections/we_take_care_of_your_potential.html %}
+{% include v3/sections/create_your_profile.html %}
 {% include sections/job_cards.html %}
-
-<div class="ui middle equal width aligned padded stackable grid">
-  <div class="row mobile-column-reverse">
-    <div class="pink column column-mobile-hide">
-      <div class="marketing-content">
-        <h1 class="jumbotron-icon">@</h1>
-      </div>
-    </div>
-    <div class="pink column">
-      <div class="marketing-content">
-        <h1 class="title">Jobbtips i mejlen</h1>
-        <p class="body">Ge oss din mejladress så skickar tips när vi får in jobb.</p>
-
-        <a href="{{site.app_subscriptions_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Skapa jobbmail
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="ui middle equal width aligned padded stackable grid">
-  <div class="row mobile-column-reverse">
-    <div class="black column">
-      <div class="marketing-content">
-        <h1 class="title">Bra att veta</h1>
-        <p class="body">Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt jobb.</p>
-
-        <a href="{{site.app_guide_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Guide
-        </a>
-      </div>
-    </div>
-    <div class="black column marketing-background interviewee"></div>
-  </div>
-</div>
-
+{% include v3/sections/create_a_job_subscription.html %}
+{% include v3/sections/newcomer_good_to_know.html %}
 {% include sections/newcomer/contact_us.html %}
