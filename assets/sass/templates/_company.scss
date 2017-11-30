@@ -9,7 +9,7 @@
   min-height: 500px;
   background: url("/assets/images/sections/top-banner-shape-full.png");
   background-repeat: no-repeat;
-  background-position: calc(100% + 100px) -80px;
+  background-position: calc(100% + 100px) -60px;
   background-size: 600px;
 
   h1 {
@@ -21,10 +21,17 @@
   }
 
   @media (max-width: 900px) {
-    background-position: calc(100% + 220px) -80px;
+    background-position: calc(100% + 220px) 180px;
 
     h1 {
+      top: 400px;
       right: 60px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    h1 {
+      right: 32px;
     }
   }
 
