@@ -12,6 +12,10 @@
   }
 }
 
+.white.column {
+  background-color: white;
+}
+
 .marketing-background {
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,12 +23,14 @@
   min-height: 300px;
   &.happy-man-looking-right {
     background-image: url(/assets/images/sections/happy-man-looking-right.jpg);
+    background-position-y: top;
   }
   &.smiling-man-looking-into-camera {
     background-image: url(/assets/images/sections/smiling-man-looking-into-camera.jpg);
   }
   &.three-people-cooperating-on-computer {
     background-image: url(/assets/images/sections/three-people-cooperating-on-computer.jpg);
+    background-position-y: top;
   }
   &.interviewee {
     background-image: url(/assets/images/sections/interviewee.jpg);
