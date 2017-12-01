@@ -25,3 +25,10 @@
 .centered .column .ui.card {
   margin: 0 auto;
 }
+
+.ui.grid>.row>.white.column {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
