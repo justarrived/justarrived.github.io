@@ -1,10 +1,16 @@
 {% for post in site.posts limit: 1 %}
 <div class="ui middle equal width aligned padded stackable grid">
   <div class="row">
-    <div
-     class="white column marketing-background"
-     style="background: url({{post.list_cover}})">
-     </div>
+    {% if post.square_cover %}
+      <div
+       class="white column marketing-background"
+       style="background: url({{post.list_cover}})">
+      </div>
+    {% else %}
+      <div
+       class="white column marketing-background man-with-beard-smiling-looking-into-camera">
+      </div>
+    {% endif %}
     <div class="white column">
       <div class="marketing-content">
         <h1 class="title">Nytt från bloggen</h1>
