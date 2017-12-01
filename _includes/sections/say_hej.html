@@ -12,6 +12,26 @@
   <br>
 
   <div class="ui padded centered grid">
+    <div class="sixteen wide mobile six wide tablet four wide computer column">
+      <div class="ui card">
+        <div class="image">
+          <img src="/assets/images/profile-pictures/general.png">
+        </div>
+        <div class="content">
+          <a href="mailto:hej@justarrived.se" class="header">Just Arrived</a>
+          <div class="meta">
+            <span class="date">Say hej!</span>
+          </div>
+        </div>
+        <div class="extra content">
+          Vi pratar gärna :)
+        </div>
+        <div class="extra content">
+          <a href="mailto:hej@justarrived.se">hej@justarrived.se</a>
+        </div>
+      </div>
+    </div>
+
     {% for employee in site.data.listed_employees %}
       <div class="sixteen wide mobile six wide tablet four wide computer column">
         <div class="ui card">
@@ -30,7 +50,7 @@
           </div>
           <div class="extra content">
             {% if employee.phone %}
-            <a href="telto:{{employee.phone}}">{{employee.phone}}</a>
+            <a href="tel:{{employee.phone}}">{{employee.phone}}</a>
             {% else %}
               -
             {% endif %}
@@ -41,9 +61,9 @@
             {% else %}
               -
             {% endif %}
-        </div>
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
-</div>
+</section>

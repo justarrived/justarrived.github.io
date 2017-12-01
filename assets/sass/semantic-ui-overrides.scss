@@ -13,8 +13,13 @@
 .ui.card .header {
   background-color: white;
 }
+
 .ui.card a {
   text-decoration: none;
+
+  &:hover {
+    color: $cerise500 !important;
+  }
 }
 
 .centered .column .ui.card {
