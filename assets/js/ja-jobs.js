@@ -86,7 +86,7 @@
 
     innerHTML = formatTemplate(template, '%job_id%', jobID);
     innerHTML = formatTemplate(innerHTML, '%job_company%', company.name);
-    innerHTML = formatTemplate(innerHTML, '%job_city%', company.city);
+    innerHTML = formatTemplate(innerHTML, '%job_city%', jobAtrs.city);
     innerHTML = formatTemplate(innerHTML, '%job_name%', name);
     innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
     innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
