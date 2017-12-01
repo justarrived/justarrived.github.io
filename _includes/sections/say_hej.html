@@ -5,7 +5,7 @@
   module--padding">
   <div class="wrap">
     <div class="module-content">
-      <h2 class="bordered bordered--secondary bordered--centered">{% t say_hej.title %}</h2>
+      <h2 class="bordered bordered--primary bordered--centered">{% t say_hej.title %}</h2>
     </div>
   </div>
 
@@ -15,7 +15,7 @@
     <div class="sixteen wide mobile six wide tablet four wide computer column">
       <div class="ui card">
         <div class="image">
-          <img src="/assets/images/profile-pictures/general.png">
+          <img src="/assets/images/employees/missing.png">
         </div>
         <div class="content">
           <a href="mailto:hej@justarrived.se" class="header">Just Arrived</a>
@@ -37,9 +37,9 @@
         <div class="ui card">
           <div class="image">
             {% if employee.profile_photo_path %}
-            <img src="/assets/images/profile-pictures/{{employee.profile_photo_path}}.jpg">
+            <img src="/assets/images/employees/{{employee.profile_photo_path}}.jpg">
             {% else %}
-            <img src="/assets/images/profile-pictures/general.png">
+            <img src="/assets/images/employees/missing.png">
             {% endif %}
           </div>
           <div class="content">

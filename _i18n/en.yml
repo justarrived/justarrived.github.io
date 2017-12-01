@@ -19,6 +19,7 @@ global:
   more_company_info: Company info
   apply: Register application
   or: or
+  blog: Blog
 
 page_not_found:
   title: We're sorry we couldn't find this page
@@ -181,7 +182,7 @@ our_product:
     asterix: '* Requires AT-UND, personal identity number or co-ordination number and access to bank account.'
 
 say_hej:
-  title: Say Hej
+  title: Team Just Arrived
   enquiries: General enquiries
 
 company_form:
