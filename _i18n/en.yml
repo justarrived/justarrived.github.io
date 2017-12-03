@@ -80,11 +80,33 @@ start:
   top_banner:
     title: Staffing<br>foreign born<br>competence
 
+company:
+  top_banner:
+    title: Staffing<br>foreign born<br>competence
+
 newcomer:
   top_banner:
     title: Hitta ditt<br>jobb<br> i Sverige
 
 section:
+  we_change_the_market:
+    title: Vi vill förändra arbetsmarknaden
+    body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger vi bättre affärer, bättre organisationer och ett bättre samhälle.
+  three_pitch:
+    simple:
+      title: Enkelt
+      item0: Stort nätverk
+      item1: Snabba tillsättningar
+      item2: Kandidater med potential att växa
+    safe:
+      title: Tryggt
+      item0: Schyssta villkor - för alla
+      item1: Medlem i Almega Bemanningsföretagen
+    sustainable:
+      title: Hållbart
+      item0: Affärsnytta
+      item1: Samhällsnytta
+      item2: Gör skillnad för enskilda människor
   find_employees:
     title: Vi hjälper dig att hitta medarbetare med stor potential
     body: Snabbt, enkelt och tryggt!

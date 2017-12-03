@@ -2,35 +2,38 @@
 layout: default
 ---
 
-{% include v3/sections/top_banner.html title="Bemanning<br>med fokus på<br>utrikesfödda" %}
+{% capture top_banner_title %}
+  {% t start.top_banner.title %}
+{% endcapture %}
+{% include v3/sections/top_banner.html title=top_banner_title %}
 
 <div class="ui middle equal width aligned padded centered stackable grid">
   <div class="white three column">
     <div class="marketing-content">
-      <h1 class="title">Enkelt</h1>
+      <h1 class="title">{% t section.three_pitch.simple.title %}</h1>
       <p class="body">
-        Stort nätverk <br>
-        Snabba tillsättningar <br>
-        Kandidater med potential att växa
+        {% t section.three_pitch.simple.item0 %}<br>
+        {% t section.three_pitch.simple.item1 %}<br>
+        {% t section.three_pitch.simple.item2 %}
       </p>
     </div>
   </div>
   <div class="white three column">
     <div class="marketing-content">
-      <h1 class="title">Tryggt</h1>
+      <h1 class="title">{% t section.three_pitch.safe.title %}</h1>
       <p class="body">
-        Schyssta villkor - för alla <br>
-        Medlem i Almega Bemanningsföretagen
+        {% t section.three_pitch.safe.item0 %}<br>
+        {% t section.three_pitch.safe.item1 %}
       </p>
     </div>
   </div>
   <div class="white three column">
     <div class="marketing-content">
-      <h1 class="title">Hållbart</h1>
+      <h1 class="title">{% t section.three_pitch.sustainable.title %}</h1>
       <p class="body">
-        Affärsnytta <br>
-        Samhällsnytta <br>
-        Gör skillnad för enskilda människor
+        {% t section.three_pitch.sustainable.item0 %}<br>
+        {% t section.three_pitch.sustainable.item1 %}<br>
+        {% t section.three_pitch.sustainable.item2 %}
       </p>
     </div>
   </div>
@@ -43,13 +46,11 @@ layout: default
   <div class="row mobile-column-reverse">
     <div class="black column">
       <div class="marketing-content">
-        <h1 class="title">Vi vill förändra arbetsmarknaden</h1>
-        <p class="body">
-          Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger vi bättre affärer, bättre organisationer och ett bättre samhälle.
-        </p>
+        <h1 class="title">{% t section.we_change_the_market.title %}</h1>
+        <p class="body">{% t section.we_change_the_market.body %}</p>
 
         <a href="/about-us" class="white-btn section-button">
-          Om oss
+          {% t nav.about_us %}
         </a>
       </div>
     </div>
