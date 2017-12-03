@@ -5,8 +5,8 @@
   {% else %}
     {% capture sv_root %}{{ site.github.url }}{{ page.url }}{% endcapture %}
   {% endif %}
-  {% if page.permalink %}
-    {% capture en_root %}{{ site.github.url }}/en{{ page.permalink }}{% endcapture %}
+  {% if page.permalink_en %}
+    {% capture en_root %}{{ site.github.url }}/en{{ page.permalink_en }}{% endcapture %}
   {% else %}
     {% capture en_root %}{{ site.github.url }}/en{{ page.url }}{% endcapture %}
   {% endif %}
