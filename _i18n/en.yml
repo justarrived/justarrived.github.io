@@ -94,6 +94,17 @@ section:
     body: Grunden till Just Arrived lades hösten 2015 när flyktingströmmen ökade. 2016 startade Just Arrived Bemanning AB. Vi har idag verksamhet i Stockholm och Göteborg och ser framöver fram emot att hjälpa ännu fler arbetsgivare och kandidater i fler städer att mötas.
   company_newsletter:
     title: Newsletter
+  your_potential:
+    title: Vi tar tillvara på din potential
+    body: Genom oss arbetar du heltid eller deltid hos någon av alla våra kunder. En bra väg in att till att börja ditt arbetsliv i Sverige.
+  create_profile:
+    title: Skapa profil
+    body: Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb som passar din profil.
+    create_profile_cta: Registrera profil
+  newcomer_good_to_know:
+    title: Bra att veta
+    body: Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt jobb.
+    guide_cta: Guide
 
 blog:
   pagination:

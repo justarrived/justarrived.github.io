@@ -2,11 +2,11 @@
   <div class="row mobile-column-reverse">
     <div class="black column">
       <div class="marketing-content">
-        <h1 class="title">Bra att veta</h1>
-        <p class="body">Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt jobb.</p>
+        <h1 class="title">{% t section.newcomer_good_to_know.title %}</h1>
+        <p class="body">{% t section.newcomer_good_to_know.body %}</p>
 
         <a href="{{site.app_guide_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Guide
+          {% t section.newcomer_good_to_know.guide_cta %}
         </a>
       </div>
     </div>

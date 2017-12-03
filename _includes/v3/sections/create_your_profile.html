@@ -3,11 +3,11 @@
     <div class="pink column marketing-background smiling-man-looking-into-camera"></div>
     <div class="pink column">
       <div class="marketing-content">
-        <h1 class="title">Skapa profil</h1>
-        <p class="body">Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb som passar din profil.</p>
+        <h1 class="title">{% t section.create_profile.title %}</h1>
+        <p class="body">{% t section.create_profile.body %}</p>
 
         <a href="{{site.app_register_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Registera profil
+          {% t section.create_profile.create_profile_cta %}
         </a>
       </div>
     </div>
