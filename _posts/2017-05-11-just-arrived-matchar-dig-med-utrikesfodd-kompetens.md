@@ -15,4 +15,4 @@ locale:
 
 ##### [Vill du posta ett jobb?](https://justarrived.se/foretag/)
 
-##### [Vill du söka jobb?](https://justarrived.se/newcomer/)
+##### [Vill du söka jobb?](https://justarrived.se/kandidat/)

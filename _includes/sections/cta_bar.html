@@ -11,7 +11,7 @@
       <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.newcomer_title %}</h3>
       <p class="text">{% t cta_bar.newcomer_cta_text %}</p>
     </div>
-    <a href="{{ "/newcomer/" | prepend: site.baseurl }}"
+    <a href="{% tl newcomer %}"
       class="primary-btn btn-large"
       data-action="click"
       data-action-label="Goto newcomer page click (cta bar)"

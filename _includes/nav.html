@@ -31,7 +31,7 @@
 			</a>
 		</li>
 		<li class="show-on-tablet">
-			<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to newcomers page" category="{{site.analytics.categories.navigation}}">
+			<a href="{% tl newcomer %}" data-action="click" data-action-label="Nav to newcomers page" category="{{site.analytics.categories.navigation}}">
 				<span>{% t nav.newcomers %}</span>
 			</a>
 		</li>
@@ -42,7 +42,7 @@
 	<div class="hide" id="responsive-header">
     <ul>
 			<li>
-				<a href="{{ "/newcomer/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to newcomers page" category="{{site.analytics.categories.navigation}}">
+				<a href="{% tl newcomer %}" data-action="click" data-action-label="Nav to newcomers page" category="{{site.analytics.categories.navigation}}">
 					<span>{% t nav.newcomers %}</span>
 				</a>
 			</li>
