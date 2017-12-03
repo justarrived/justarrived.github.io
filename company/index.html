@@ -15,57 +15,9 @@ permalink_ar:   /صاحب-العمل/
   {% t start.top_banner.title %}
 {% endcapture %}
 {% include v3/sections/top_banner.html title=top_banner_title %}
-
-<div class="ui middle equal width aligned padded centered stackable grid">
-  <div class="white three column">
-    <div class="marketing-content">
-      <h1 class="title">{% t section.three_pitch.simple.title %}</h1>
-      <p class="body">
-        {% t section.three_pitch.simple.item0 %}<br>
-        {% t section.three_pitch.simple.item1 %}<br>
-        {% t section.three_pitch.simple.item2 %}
-      </p>
-    </div>
-  </div>
-  <div class="white three column">
-    <div class="marketing-content">
-      <h1 class="title">{% t section.three_pitch.safe.title %}</h1>
-      <p class="body">
-        {% t section.three_pitch.safe.item0 %}<br>
-        {% t section.three_pitch.safe.item1 %}
-      </p>
-    </div>
-  </div>
-  <div class="white three column">
-    <div class="marketing-content">
-      <h1 class="title">{% t section.three_pitch.sustainable.title %}</h1>
-      <p class="body">
-        {% t section.three_pitch.sustainable.item0 %}<br>
-        {% t section.three_pitch.sustainable.item1 %}<br>
-        {% t section.three_pitch.sustainable.item2 %}
-      </p>
-    </div>
-  </div>
-</div>
-
+{% include v3/sections/company_three_pitch.html %}
 {% include sections/company/post_job_form.html %}
 {% include v3/sections/latest_blog_post.html %}
-
-<div class="ui middle equal width aligned padded stackable grid">
-  <div class="row mobile-column-reverse">
-    <div class="black column">
-      <div class="marketing-content">
-        <h1 class="title">{% t section.we_change_the_market.title %}</h1>
-        <p class="body">{% t section.we_change_the_market.body %}</p>
-
-        <a href="{% tl about_us %}" class="white-btn section-button">
-          {% t nav.about_us %}
-        </a>
-      </div>
-    </div>
-    <div class="pink column marketing-background man-smiling-looing-straight-into-camera"></div>
-  </div>
-</div>
-
+{% include v3/sections/we_change_the_market.html %}
 {% include sections/company/recommendations.html %}
 {% include v3/sections/two_column_company_newsletter.html %}

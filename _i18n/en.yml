@@ -111,7 +111,7 @@ section:
     title: Vi hjälper dig att hitta medarbetare med stor potential
     body: Snabbt, enkelt och tryggt!
   first_step_to_job:
-    title: Ta första steget till ett jobb i Sverige
+    title: Hitta ditt nya jobb i Sverige
     body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
   we_disrupt:
     title: Vi förändrar arbetsmarknaden
@@ -619,7 +619,7 @@ careers:
 
 job_card:
   gross_salary: "Total gross salary:"
-  all_available_jobs_button: Available jobs
+  all_available_jobs_button: All available jobs
 
 press:
   title: Press
