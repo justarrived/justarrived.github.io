@@ -74,6 +74,26 @@ nav:
   newcomers: Newcomers
   blog: Blog
   faq: FAQ
+  read_more: Read more
+
+start:
+  top_banner:
+    title: Staffing<br>foreign born<br>competence
+
+section:
+  we_disrupt:
+    title: Vi förändrar arbetsmarknaden
+    body: Genom att ta  tillvara på kompetens och erfarenhet som utrikesfödda kommer med  kan vi  bygga bättre affärer, bättre organisationer och ett bättre samhälle.
+  win_win:
+    title: Win-win har aldrig varit enklare!
+    body: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas. Det är därför vi finns.
+  latest_blog_post:
+    title: New from our blog
+  past_and_future:
+    title: Igår, idag och imorgon
+    body: Grunden till Just Arrived lades hösten 2015 när flyktingströmmen ökade. 2016 startade Just Arrived Bemanning AB. Vi har idag verksamhet i Stockholm och Göteborg och ser framöver fram emot att hjälpa ännu fler arbetsgivare och kandidater i fler städer att mötas.
+  company_newsletter:
+    title: Newsletter
 
 blog:
   pagination:
@@ -88,6 +108,8 @@ blog:
     newsletter_subscribe: Subscribe
 
 about_us:
+  top_banner:
+    title: Staffing<br>foreign born<br>competence
   simple_match:
     title: Det ska vara enkelt för utrikesfödda och arbetsgivare att mötas.
     body: Det är där Just Arrived kommer in. Vi matchar nyanlända kandidater med uppdrag hos arbetsgivare i Sverige. Naturligtvis med schyssta villkor för alla parter. Vi har kollektivavtal genom Almega Bemanningsföretagen. Trygghet oavsett om du är kund eller kandidat.
@@ -184,6 +206,9 @@ our_product:
 say_hej:
   title: Team Just Arrived
   enquiries: General enquiries
+  general_contact:
+    say_hi: 'Say hi!'
+    drop_us_a_line: 'Vi pratar gärna :)'
 
 company_form:
   job_form_link_name: Already a registered company? Register a new job.

@@ -13,14 +13,14 @@
     {% endif %}
     <div class="white column">
       <div class="marketing-content">
-        <h1 class="title">Nytt från bloggen</h1>
+        <h1 class="title">{% t section.latest_blog_post.title %}</h1>
         <p class="body">
           <a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title | escape }}"</a><br>
           <em>{{ post.date | date: "%b %-d, %Y" }}</em>
         </p>
 
         <a href="{{ post.url | prepend: site.baseurl }}" class="secondary-btn section-button">
-          Läs mer
+          {% t nav.read_more %}
         </a>
       </div>
     </div>

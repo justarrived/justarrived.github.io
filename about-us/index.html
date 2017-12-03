@@ -4,7 +4,10 @@ layout: default
 
 <div class="about-us">
   <div id="content">
-    {% include v3/sections/top_banner.html title="Bemanning<br>med fokus på<br>utrikesfödda" %}
+    {% capture top_banner_title %}
+      {% t about_us.top_banner.title %}
+    {% endcapture %}
+    {% include v3/sections/top_banner.html title=top_banner_title %}
     {% include v3/sections/we_disrupt_the_labour_market.html %}
     {% include v3/sections/win_win.html bg_color="black" %}
     {% include v3/sections/latest_blog_post.html %}
