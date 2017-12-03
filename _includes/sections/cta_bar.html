@@ -25,7 +25,7 @@
       <h3 class="bordered bordered--primary bordered--centered">{% t cta_bar.company_title %}</h3>
       <p class="text">{% t cta_bar.company_cta_text %}</p>
     </div>
-    <a href="{{ "/company/" | prepend: site.baseurl }}"
+    <a href="{% tl company %}"
       class="primary-btn btn-large"
       data-action="click"
       data-action-label="Goto company page click (cta bar)"
