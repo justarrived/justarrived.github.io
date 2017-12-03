@@ -80,7 +80,17 @@ start:
   top_banner:
     title: Staffing<br>foreign born<br>competence
 
+newcomer:
+  top_banner:
+    title: Hitta ditt<br>jobb<br> i Sverige
+
 section:
+  find_employees:
+    title: Vi hjälper dig att hitta medarbetare med stor potential
+    body: Snabbt, enkelt och tryggt!
+  first_step_to_job:
+    title: Ta första steget till ett jobb i Sverige
+    body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
   we_disrupt:
     title: Vi förändrar arbetsmarknaden
     body: Genom att ta  tillvara på kompetens och erfarenhet som utrikesfödda kommer med  kan vi  bygga bättre affärer, bättre organisationer och ett bättre samhälle.

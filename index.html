@@ -6,7 +6,10 @@ description: We give newcomers in Sweden a chance to enter the labor market
 
 <div class="home">
   <div id="content">
-    {% include v3/sections/top_banner.html title="Bemanning<br>med fokus på<br>utrikesfödda" %}
+    {% capture top_banner_title %}
+      {% t start.top_banner.title %}
+    {% endcapture %}
+    {% include v3/sections/top_banner.html title=top_banner_title %}
     {% include sections/job_cards.html %}
     {% include v3/sections/first_step_to_your_new_job.html %}
     {% include v3/sections/find_employees_with_great_potential.html %}

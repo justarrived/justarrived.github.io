@@ -2,7 +2,10 @@
 layout: default
 ---
 
-{% include sections/newcomer/top_banner_v2.html %}
+{% capture top_banner_title %}
+  {% t newcomer.top_banner.title %}
+{% endcapture %}
+{% include v3/sections/top_banner.html title=top_banner_title %}
 {% include v3/sections/we_take_care_of_your_potential.html %}
 {% include v3/sections/create_your_profile.html %}
 {% include sections/job_cards.html %}
