@@ -31,4 +31,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
   # gem 'jekyll-admin', '~> 0.4'
   gem 'jekyll-feed', '~> 0.9'
+  gem 'jekyll-redirect-from', '~> 0.12'
 end

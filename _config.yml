@@ -75,6 +75,7 @@ gems:
 - jekyll-multiple-languages-plugin
 - jekyll-paginate-v2
 - jekyll-feed
+- jekyll-redirect-from
 pagination:
   enabled: true
   limit: false
