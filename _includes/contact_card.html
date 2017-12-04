@@ -12,14 +12,14 @@
       <span class="date">{{include.title}}</span>
     </div>
   </div>
-  <div class="extra content">
+  <div class="extra content truncate">
     {% if include.phone %}
     <a href="tel:{{include.phone}}">{{include.phone}}</a>
     {% else %}
       -
     {% endif %}
   </div>
-  <div class="extra content">
+  <div class="extra content truncate">
     {% if include.email %}
       <a href="mailto:{{include.email}}">{{include.email}}</a>
     {% else %}

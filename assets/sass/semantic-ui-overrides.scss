@@ -10,20 +10,31 @@
   background-color: $cerise500 !important;
 }
 
-.ui.card .header {
-  background-color: white;
-}
-
-.ui.card a {
-  text-decoration: none;
-
-  &:hover {
-    color: $cerise500 !important;
+.ui.card {
+  .centered .column & {
+    margin: 0 auto;
   }
-}
 
-.centered .column .ui.card {
-  margin: 0 auto;
+  .header {
+    background-color: white;
+    font-size: 1.25rem !important; // needed to override Semantic UI
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: $cerise500 !important;
+    }
+  }
+
+  .truncate {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.2s ease 0s;
+    white-space: nowrap;
+  }
 }
 
 .ui.grid>.row>.white.column {
