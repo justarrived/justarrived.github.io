@@ -785,7 +785,7 @@
   color: black        !important;
 
   .newcomer-description {
-    word-wrap: break-word;
+    // word-wrap: break-word;
     padding-right: 20%;
     @media(max-width: 768px) {
       padding-right: 0px;
@@ -815,7 +815,7 @@
   color: black        !important;
 
   .company-description {
-    word-wrap: break-word;
+    // word-wrap: break-word;
     padding-left: 20%;
 
     @media(max-width: 768px) {
