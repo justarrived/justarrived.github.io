@@ -14,9 +14,16 @@
   var baseURL = 'https://api.justarrived.se/api/v1';
   JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam + fieldsParam;
 
+  function getJobsURL(opts) {
+    var pageOffset = opts.pageOffset || 1;
+    var pageOffsetParam = '&page' + encodeURIComponent('[') + 'number' + encodeURIComponent(']') + '=' + pageOffset;
+
+    return JOBS_ENDPOINT +  pageOffsetParam;
+  }
+
   function getJobs(callback) {
   $.ajax({
-      url: JOBS_ENDPOINT,
+      url: getJobsURL({}),
       type: 'GET',
       dataType: 'json',
       success: function(response) {
