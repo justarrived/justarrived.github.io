@@ -5,9 +5,16 @@
   }
 }
 
-.column.column-mobile-hide {
+.tablet-hide {
   /* Grid is collapsed */
   @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.desktop-hide {
+  /* Grid is collapsed */
+  @media (min-width: 768px) {
     display: none !important;
   }
 }

@@ -1,5 +1,8 @@
 <div class="newsletter-form">
-  <h3>{% t blog.footer.newsletter_header %}</h3>
+  {% if include.hide_title_on_desktop %}
+    {% assign title_class = 'desktop-hide' %}
+  {% endif %}
+  <h3 class="{{ title_class }}">{% t blog.footer.newsletter_header %}</h3>
   <p>
     {% t blog.footer.newsletter_body %}
   </p>
