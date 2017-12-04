@@ -77,12 +77,16 @@ nav:
 start:
   top_banner:
     title: Bemanning<br>med fokus<br>på utrikesfödda
+  job_cards:
+    title: Nya jobb
 company:
   top_banner:
     title: Bemanning<br>med fokus<br>på utrikesfödda
 newcomer:
   top_banner:
     title: Hitta ditt<br>jobb<br> i Sverige
+  job_cards:
+    title: Nya jobb
 section:
   we_change_the_market:
     title: Vi vill förändra arbetsmarknaden
@@ -110,9 +114,9 @@ section:
     title: Hitta ditt nya jobb i Sverige
     body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
   we_disrupt:
-    title: Vi förändrar arbetsmarknaden
-    body: Genom att ta tillvara på kompetens och erfarenhet som utrikesfödda kommer
-      med kan vi bygga bättre affärer, bättre organisationer och ett bättre samhälle.
+    title: Vi vill förändra arbetsmarknaden
+    body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger
+      vi bättre affärer, bättre organisationer och ett bättre samhälle.
   win_win:
     title: Win-win har aldrig varit enklare!
     body: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
@@ -135,7 +139,7 @@ section:
     title: Skapa profil
     body: Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb
       som passar din profil.
-    create_profile_cta: Registrera profil
+    create_profile_cta: Skapa profil
   newcomer_good_to_know:
     title: Bra att veta
     body: Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt
@@ -598,8 +602,7 @@ company_faq_nudge:
 company_contact_us:
   title: Kontakta oss
 newcomer_contact_us:
-  title: Har du fortfarande frågor?
-  subtitle: Psst.. check out our Guide
+  title: Kontakta oss
 top_banner_newcomer:
   title: Få erfarenheten du behöver för att komma in på den svenska arbetsmarknaden.
   subtitle: Genom att matcha dig med svenska företag kan Just arrived hjälpa dig få
