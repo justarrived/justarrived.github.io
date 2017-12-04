@@ -2,6 +2,7 @@
 layout: default
 
 redirect_from:  /company/
+redirect_from:  /foretag/
 
 namespace: company
 
@@ -11,9 +12,7 @@ permalink_en:   /employer/
 permalink_ar:   /صاحب-العمل/
 ---
 
-{% capture top_banner_title %}
-  {% t start.top_banner.title %}
-{% endcapture %}
+{% capture top_banner_title %}{% t start.top_banner.title %}{% endcapture %}
 {% include v3/sections/top_banner.html title=top_banner_title %}
 {% include v3/sections/company_three_pitch.html %}
 {% include sections/company/post_job_form.html %}

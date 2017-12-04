@@ -2,18 +2,17 @@
 layout: default
 
 redirect_from:  /newcomer/
+redirect_from:  /kandidat/
 
 namespace: newcomer
 
-permalink:      /kandidat/
-permalink_sv:   /kandidat/
-permalink_en:   /candidate/
+permalink:      /hitta-jobb-i-sverige/
+permalink_sv:   /hitta-jobb-i-sverige/
+permalink_en:   /find-jobs-in-sweden/
 permalink_ar:   /العمال/
 ---
 
-{% capture top_banner_title %}
-  {% t newcomer.top_banner.title %}
-{% endcapture %}
+{% capture top_banner_title %}{% t newcomer.top_banner.title %}{% endcapture %}
 {% include v3/sections/top_banner.html title=top_banner_title %}
 {% include v3/sections/we_take_care_of_your_potential.html %}
 {% include v3/sections/create_your_profile.html %}
