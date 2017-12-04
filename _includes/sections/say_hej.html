@@ -34,35 +34,15 @@
 
     {% for employee in site.data.listed_employees %}
       <div class="sixteen wide mobile six wide tablet four wide computer column">
-        <div class="ui card">
-          <div class="image">
-            {% if employee.profile_photo_path %}
-            <img src="/assets/images/employees/{{employee.profile_photo_path}}.jpg">
-            {% else %}
-            <img src="/assets/images/employees/missing.png">
-            {% endif %}
-          </div>
-          <div class="content">
-            <a href="mailto:{{employee.email}}" class="header">{{employee.name}}</a>
-            <div class="meta">
-              <span class="date">{{employee.title}}</span>
-            </div>
-          </div>
-          <div class="extra content">
-            {% if employee.phone %}
-            <a href="tel:{{employee.phone}}">{{employee.phone}}</a>
-            {% else %}
-              -
-            {% endif %}
-          </div>
-          <div class="extra content">
-            {% if employee.email %}
-              <a href="mailto:{{employee.email}}">{{employee.email}}</a>
-            {% else %}
-              -
-            {% endif %}
-          </div>
-        </div>
+        {%
+          include
+          contact_card.html
+          profile_photo_path=employee.profile_photo_path
+          name=employee.name
+          title=employee.title
+          email=employee.email
+          phone=employee.phone
+        %}
       </div>
     {% endfor %}
   </div>
