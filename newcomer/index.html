@@ -17,7 +17,8 @@ permalink_ar:   /العمال/
 {% include v3/sections/top_banner.html title=top_banner_title %}
 {% include v3/sections/we_take_care_of_your_potential.html %}
 {% include v3/sections/create_your_profile.html %}
-{% include sections/job_cards.html %}
+{% capture job_cards_title %}{% t newcomer.job_cards.title %}{% endcapture %}
+{% include sections/job_cards.html title=job_cards_title %}
 {% include v3/sections/create_a_job_subscription.html %}
 {% include v3/sections/newcomer_good_to_know.html %}
 {% include sections/newcomer/contact_us.html %}

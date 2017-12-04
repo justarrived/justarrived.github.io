@@ -79,6 +79,8 @@ nav:
 start:
   top_banner:
     title: Staffing<br>foreign born<br>competence
+  job_cards:
+    title: New jobs
 
 company:
   top_banner:
@@ -87,6 +89,8 @@ company:
 newcomer:
   top_banner:
     title: Find your<br>next job<br> in Sweden
+  job_cards:
+    title: New jobs
 
 section:
   we_change_the_market:
