@@ -20,6 +20,7 @@ global:
   more_company_info: Företagsinfo
   apply: Registrera ansökan
   or: eller
+  blog: Blogg
 page_not_found:
   title: Vi kunde tyvärr inte hitta den här sidan
   body: Vi gjorde så gott vi kunde, men vi hittade inte den här sidan. Du är varmt
@@ -72,6 +73,74 @@ nav:
   newcomers: Nyanlända
   blog: Blogg
   faq: FAQ
+  read_more: Läs mer
+start:
+  top_banner:
+    title: Bemanning<br>med fokus<br>på utrikesfödda
+company:
+  top_banner:
+    title: Bemanning<br>med fokus<br>på utrikesfödda
+newcomer:
+  top_banner:
+    title: Hitta ditt<br>jobb<br> i Sverige
+section:
+  we_change_the_market:
+    title: Vi vill förändra arbetsmarknaden
+    body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger
+      vi bättre affärer, bättre organisationer och ett bättre samhälle.
+  three_pitch:
+    simple:
+      title: Enkelt
+      item0: Stort nätverk
+      item1: Snabba tillsättningar
+      item2: Kandidater med potential att växa
+    safe:
+      title: Tryggt
+      item0: Schyssta villkor - för alla
+      item1: Medlem i Almega Bemanningsföretagen
+    sustainable:
+      title: Hållbart
+      item0: Affärsnytta
+      item1: Samhällsnytta
+      item2: Gör skillnad för enskilda människor
+  find_employees:
+    title: Vi hjälper dig att hitta medarbetare med stor potential
+    body: Snabbt, enkelt och tryggt!
+  first_step_to_job:
+    title: Hitta ditt nya jobb i Sverige
+    body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
+  we_disrupt:
+    title: Vi förändrar arbetsmarknaden
+    body: Genom att ta tillvara på kompetens och erfarenhet som utrikesfödda kommer
+      med kan vi bygga bättre affärer, bättre organisationer och ett bättre samhälle.
+  win_win:
+    title: Win-win har aldrig varit enklare!
+    body: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
+      Det är därför vi finns.
+  latest_blog_post:
+    title: New from our blog
+  past_and_future:
+    title: Igår, idag och imorgon
+    body: Grunden till Just Arrived lades hösten 2015 när flyktingströmmen ökade.
+      2016 startade Just Arrived Bemanning AB. Vi har idag verksamhet i Stockholm
+      och Göteborg och ser framöver fram emot att hjälpa ännu fler arbetsgivare och
+      kandidater i fler städer att mötas.
+  company_newsletter:
+    title: Nyhetsbrev
+  your_potential:
+    title: Vi tar tillvara på din potential
+    body: Genom oss arbetar du heltid eller deltid hos någon av alla våra kunder.
+      En bra väg in att till att börja ditt arbetsliv i Sverige.
+  create_profile:
+    title: Skapa profil
+    body: Registrera dig hos Just Arrived idag. Då kan vi hitta dig när vi har jobb
+      som passar din profil.
+    create_profile_cta: Registrera profil
+  newcomer_good_to_know:
+    title: Bra att veta
+    body: Läs vår jobbguide. Där hittar du tips kring både att hitta och börja nytt
+      jobb.
+    guide_cta: Guide
 blog:
   pagination:
     prev: Föregående
@@ -85,6 +154,27 @@ blog:
       Kunskap och inspiration kring hur du kan bygga bättre affärer med hjälp av medarbetare som är nya i Sverige.
       Du kan så klart när som helst avregistrera dig för fler utskick.
     newsletter_subscribe: Registrera
+about_us:
+  top_banner:
+    title: Bemanning<br>med fokus<br>på utrikesfödda
+  simple_match:
+    title: Det ska vara enkelt för utrikesfödda och arbetsgivare att mötas.
+    body: Det är där Just Arrived kommer in. Vi matchar nyanlända kandidater med uppdrag
+      hos arbetsgivare i Sverige. Naturligtvis med schyssta villkor för alla parter.
+      Vi har kollektivavtal genom Almega Bemanningsföretagen. Trygghet oavsett om
+      du är kund eller kandidat.
+  win_win:
+    title: Win-win har sällan varit enklare!
+    body: Du får hjälp utifrån dina behov. Utrikesfödda får möjlighet starta sitt
+      arbetsliv i Sverige.
+  today_tomorrow:
+    title: Igår, idag och imorgon
+    body: Grunden till Just Arrived lades hösten 2015 i samband med den ökade flyktingströmmen.
+      Sedan 2016 drivs Just Arrived som ett aktiebolag där huvudparten av ägarna är
+      stiftelser, bland annat Norrsken Foundation och Diversify Foundation. Tillsammans
+      med våra kunder gör vi varje dag skillnad i människors liv genom att erbjuda
+      en väg in till arbetsmarknaden. Vi ser fram emot att fortsätta det arbetet i
+      allt större format.
 company_newsletter:
   header: Nyhetsbrev från Just Arrived
   body: |-
@@ -167,19 +257,9 @@ join_us:
     fifth: Optimera applikationen för datorer
     sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
 meet_the_team:
-  title: Vi vill förändra arbetsmarknaden
-  description: "Vi har bestämt oss. Vi vill förändra arbetsmarknaden. Genom att ta
-    tillvara på all den kompetens och erfarenhet som nyanlända och utrikesfödda kommer
-    med till Sverige är vi övertygade om att vi bygger bättre affärer, bättre organisationer
-    och ett bättre samhälle. Det ska vara enkelt för nyanlända och svenska arbetsgivare
-    att möta varandra. Det är där Just Arrived kommer in. Vi matchar nyanlända kandidater
-    med uppdrag hos arbetsgivare i Sverige. Naturligtvis med schyssta villkor för
-    alla parter. \n\nAtt jobba via Just Arrived ger nyanlända en fot in på arbetsmarknaden
-    och en möjlighet att bygga nätverk för ett arbetsliv i Sverige. Att anställa via
-    Just Arrived ger arbetsgivare en chans att enkelt få in den kompetens och de resurser
-    som behövs. Win-win har sällan varit enklare!\n\nJust Arrived startade 2016 och
-    drivs som aktiebolag där huvudparten av ägarna är stiftelser, bland annat Norrsken
-    Foundation och Diversify Foundation."
+  description: Vi vill ta tillvara på den kompetens och erfarenhet som utrikesfödda
+    kommer med. Vi är övertygade om att det är vägen till att bygga bättre affärer,
+    bättre organisationer och ett bättre samhälle.
   careers_link_text: Vi söker medarbetare
 our_product:
   title: Vår produkt
@@ -199,8 +279,11 @@ our_product:
       kostnader)
     asterix: "* Kräver AT-UND, personnummer eller samordningsnummer och ett bankkonto."
 say_hej:
-  title: Säg Hej
+  title: Team Just Arrived
   enquiries: Generella frågor
+  general_contact:
+    say_hi: Say hej!
+    drop_us_a_line: Vi pratar gärna :)
 company_form:
   job_form_link_name: Redan registrerat ditt företag? Registrera ett nytt jobb.
   title: Registrera ditt företag
@@ -261,6 +344,7 @@ footer:
     careers: Jobba hos oss
     team: Vårt team
     press: Press
+    partners_enablers: Partners and enablers
   follow_us:
     title: Följ oss
   contact_us:
@@ -414,12 +498,8 @@ faq:
         och betyg för tjänsten till företaget. Syftet med betygsättning och omdömet
         är att den nyanlände ska få skapa sig ett levande CV och referenslista i Sverige.
 startpage_company_section:
-  title: Vi hjälper dig att hitta ny(anländ) kompetens
-  subtitle: Snabbt, enkelt och tryggt. Hos oss får du snabb hjälp med att hitta personer
-    som kan arbeta hos dig, för kortare eller längre uppdrag. Vi har ett stort nätverk
-    av nyanlända kandidater där vi aktivt validerar deras kompetens, erfarenhet och
-    språkkunskaper för en bra matchning.
-  subsubtitle: Varför inte anställa genom Just Arrived?
+  title: Win-win har aldrig varit enklare!
+  subtitle: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
   cta: Mer information
 company_page:
   contact_form:
@@ -519,7 +599,7 @@ company_contact_us:
   title: Kontakta oss
 newcomer_contact_us:
   title: Har du fortfarande frågor?
-  subtitle: Psst.. kolla vår FAQ
+  subtitle: Psst.. check out our Guide
 top_banner_newcomer:
   title: Få erfarenheten du behöver för att komma in på den svenska arbetsmarknaden.
   subtitle: Genom att matcha dig med svenska företag kan Just arrived hjälpa dig få
@@ -579,6 +659,7 @@ careers:
   cta: Se jobb möjligheter
 job_card:
   gross_salary: 'Bruttolön:'
+  all_available_jobs_button: All available jobs
 press:
   title: Press
   full_style_guide_link: Se hela vår style guide (på engelska).

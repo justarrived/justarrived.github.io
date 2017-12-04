@@ -86,11 +86,11 @@ company:
 
 newcomer:
   top_banner:
-    title: Hitta ditt<br>jobb<br> i Sverige
+    title: Find your<br>next job<br> in Sweden
 
 section:
   we_change_the_market:
-    title: Vi vill förändra arbetsmarknaden
+    title: We want to change the labour market
     body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger vi bättre affärer, bättre organisationer och ett bättre samhälle.
   three_pitch:
     simple:
@@ -154,7 +154,7 @@ about_us:
   top_banner:
     title: Staffing<br>foreign born<br>competence
   simple_match:
-    title: Det ska vara enkelt för utrikesfödda och arbetsgivare att mötas.
+    title: It should be simple for foreign-born candidates and employers to meet.
     body: Det är där Just Arrived kommer in. Vi matchar nyanlända kandidater med uppdrag hos arbetsgivare i Sverige. Naturligtvis med schyssta villkor för alla parter. Vi har kollektivavtal genom Almega Bemanningsföretagen. Trygghet oavsett om du är kund eller kandidat.
   win_win:
     title: 'Win-win har sällan varit enklare!'
