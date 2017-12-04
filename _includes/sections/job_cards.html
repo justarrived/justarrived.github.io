@@ -1,23 +1,33 @@
+<style media="screen">
+  img.ui.avatar.image {
+    height: 2em;
+    width: auto;
+    border-radius: 2px;
+  }
+</style>
+
 <!-- START: HTML TEMPLATE -->
 <div class="js-job-cards-template" style="display:none;">
   <li>
     <div class="job-card" dir="ltr">
       <a href="{{site.app_job_link}}%job_id%?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=card" class="card-link">
-        <div class="job-header">
-          <h4>%job_name%</h4>
-        </div>
-        <div class="company-name">
-          <span>%job_company%</span>
-        </div>
-        <span class="emphasize-title city-name">%job_city%</span>
-        <span class="job-description">%job_description%</span>
-
-        <!-- <div class="job-meta-info">
-          <div class="details">
-            <span class="left">%job_hours% {% t form.job_hours %}</span>
-            <span class="right">%job_hourly_pay%</span>
+        <div class="ui link card">
+          <div class="content">
+            <span class="header">%job_name%</span>
+            <div class="meta">
+              <span class="date">%job_city% - %job_company%</span>
+            </div>
+            <div class="description" style="min-height:80px;">%job_description%</div>
           </div>
-        </div> -->
+          <div class="extra content truncate">
+            <!-- <div class="left floated author">
+              <img class="ui avatar image" src="%job_company_image_url%">
+            </div> -->
+            <div class="extra content">
+              <p class="text-centered"><img class="ui avatar image" src="%job_company_image_url%"></p>
+            </div>
+          </div>
+        </div>
       </a>
     </div>
   </li>
@@ -40,6 +50,7 @@
       <ul class="js-job-cards job-cards-list">
       </ul>
 
+      <br /><br /><br /><br /><br />
       <a href="{{site.app_jobs_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=card_section" class="primary-btn border-btn--pink section-button">
         {% t job_card.all_available_jobs_button %}
       </a>

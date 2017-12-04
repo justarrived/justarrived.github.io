@@ -10,7 +10,8 @@
   background-color: $cerise500 !important;
 }
 
-.ui.card {
+.ui.card,
+.ui.link.card {
   .centered .column & {
     margin: 0 auto;
   }
