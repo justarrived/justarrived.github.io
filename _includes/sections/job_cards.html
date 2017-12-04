@@ -1,5 +1,5 @@
 <!-- START: HTML TEMPLATE -->
-<div id="js-job-cards-template" style="display:none;">
+<div class="js-job-cards-template" style="display:none;">
   <li>
     <div class="job-card" dir="ltr">
       <a href="{{site.app_job_link}}%job_id%?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=card" class="card-link">
@@ -37,7 +37,7 @@
         <h2 class="title">{{ include.title }}</h2>
       {% endif %}
 
-      <ul id="js-job-cards" class="job-cards-list">
+      <ul class="js-job-cards job-cards-list">
       </ul>
 
       <a href="{{site.app_jobs_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=card_section" class="primary-btn border-btn--pink section-button">
