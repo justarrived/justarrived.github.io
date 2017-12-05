@@ -23,7 +23,7 @@ release_branch=master
 
 __git-current-branch-or-exit $main_branch
 
-__exe_cmd "bundle exec jekyll build --config=_config.yml"
+__exe_cmd "JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml"
 if [ ! -d '_site' ]; then
   echo "Jekyll build failed. Missing _site directory (no content to publish)"
   exit 1
