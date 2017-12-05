@@ -7,11 +7,11 @@
     </div>
     <div class="pink column">
       <div class="marketing-content">
-        <h1 class="title">Jobbtips i mejlen</h1>
-        <p class="body">Ge oss din mejladress så skickar tips när vi får in jobb.</p>
+        <h1 class="title">{% t section.create_job_subscription.title %}</h1>
+        <p class="body">{% t section.create_job_subscription.body %}</p>
 
         <a href="{{site.app_subscriptions_link}}?&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}" class="white-btn section-button">
-          Skapa jobbmail
+          {% t section.create_job_subscription.create_cta %}
         </a>
       </div>
     </div>
