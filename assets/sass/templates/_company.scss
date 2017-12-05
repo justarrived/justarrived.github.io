@@ -10,22 +10,22 @@
   background: url("/assets/images/sections/top-banner-shape-full.png");
   background-repeat: no-repeat;
   background-position: calc(100% + 180px) -60px;
-  background-size: 600px;
+  background-size: 550px;
 
   h1 {
     position: absolute;
-    top: 250px;
-    right: 80px;
+    top: 235px;
+    right: 40px;
     color: white;
     font-size: 40px;
   }
 
   @media (max-width: 900px) {
     background-position: calc(100% + 220px) 180px;
+    background-size: 600px;
 
     h1 {
       top: 400px;
-      right: 60px;
     }
   }
 
