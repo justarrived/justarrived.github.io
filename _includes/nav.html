@@ -16,13 +16,18 @@
 			</a>
 		</li>
 		<li>
-			<a href="{% tl about_us %}" data-action="click" data-action-label="Nav to about us page" category="{{site.analytics.categories.navigation}}">
-				<span>{% t nav.about_us %}</span>
+			<a href="{{ site.app_guide_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=nav" data-action="click" data-action-label="Nav to app guide" category="{{site.analytics.categories.navigation}}">
+				<span>{% t nav.guide %}</span>
 			</a>
 		</li>
 		<li>
 			<a href="{{ "/blog/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to blog page" category="{{site.analytics.categories.navigation}}">
 				<span>{% t nav.blog %}</span>
+			</a>
+		</li>
+		<li>
+			<a href="{% tl about_us %}" data-action="click" data-action-label="Nav to about us page" category="{{site.analytics.categories.navigation}}">
+				<span>{% t nav.about_us %}</span>
 			</a>
 		</li>
 		<li class="show-on-tablet">
@@ -40,7 +45,7 @@
 	<!-- HAMBURGER DROPDOWN -->
 
 	<div class="hide" id="responsive-header">
-    <ul>
+		<ul>
 			<li>
 				<a href="{% tl newcomer %}" data-action="click" data-action-label="Nav to newcomers page" category="{{site.analytics.categories.navigation}}">
 					<span>{% t nav.newcomers %}</span>
@@ -51,14 +56,19 @@
 					<span>{% t nav.companies %}</span>
 				</a>
 			</li>
+      <li>
+				<a href="{% tl about_us %}" data-action="click" data-action-label="Nav to about us page" category="{{site.analytics.categories.navigation}}">
+					<span>{% t nav.about_us %}</span>
+				</a>
+			</li>
 			<li>
 				<a href="{{ "/blog/" | prepend: site.baseurl }}" data-action="click" data-action-label="Nav to blog page" category="{{site.analytics.categories.navigation}}">
 					<span>{% t nav.blog %}</span>
 				</a>
 			</li>
 			<li>
-				<a href="{% tl about_us %}" data-action="click" data-action-label="Nav to about us page" category="{{site.analytics.categories.navigation}}">
-					<span>{% t nav.about_us %}</span>
+				<a href="{{ site.app_guide_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=nav" data-action="click" data-action-label="Nav to app guide" category="{{site.analytics.categories.navigation}}">
+					<span>{% t nav.guide %}</span>
 				</a>
 			</li>
 			<li>
@@ -66,6 +76,6 @@
 					<span>{% t nav.login %}</span>
 				</a>
 			</li>
-    </ul>
-  </div>
+		</ul>
+	</div>
 </nav>

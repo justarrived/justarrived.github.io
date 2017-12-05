@@ -70,8 +70,9 @@ nav:
   promo_code_signin: Sign in with promo code
   about_us: About us
   login: Login
-  companies: Companies
-  newcomers: Newcomers
+  guide: Job guide
+  companies: Employer
+  newcomers: Candidate
   blog: Blog
   faq: FAQ
   read_more: Read more
@@ -80,7 +81,7 @@ start:
   top_banner:
     title: Staffing with<br>foreign-born<br>candidates
   job_cards:
-    title: New jobs
+    title: Latest jobs
 
 company:
   top_banner:
@@ -90,9 +91,12 @@ newcomer:
   top_banner:
     title: Find your<br>next job<br> in Sweden
   job_cards:
-    title: New jobs
+    title: Latest jobs
 
 section:
+  create_job_subscription:
+    title: Job tips straight to your inbox
+    body: Give us your email address and we'll send you an email when we post new jobs.
   we_change_the_market:
     title: We are changing the Swedish labour market
     body: Through a wider network we can use more of the competence arriving to Sweden with newcomers. This is how we will build better organizations, better business and a better society.
@@ -103,7 +107,7 @@ section:
       item1: Fast assignments
       item2: Candidates with great potential
     safe:
-      title: Safe
+      title: Fair
       item0: Fair terms- for everybody
       item1: Member of Almega Bemanningsföretagen, Swedish Employer’s Association for Staffing Industry
     sustainable:
@@ -131,7 +135,7 @@ section:
   company_newsletter:
     title: Newsletter
   your_potential:
-    title: We see you potential
+    title: We see your potential
     body: At Just Arrived you workt part time or full time for one or more of our clients in need for help to carry on their business. You will be able to try different tasks and meed different companies, giving you a good step into the Swedish labour market.
   create_profile:
     title: Create your profile
