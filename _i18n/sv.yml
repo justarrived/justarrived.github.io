@@ -89,9 +89,13 @@ newcomer:
   job_cards:
     title: Senaste jobben
 section:
+  consultant_at_just_arrived:
+    title: Att jobba som konsult hos Just Arrived
+    body: Vad innebär det att jobba som konsult hos ett bemanningsföretag?
   create_job_subscription:
-    title: Jobbtips i mejlen
-    body: Ge oss din mejladress så skickar tips när vi får in jobb.
+    title: Jobbtips i mailen
+    body: Ge oss din mailadress så skickar tips när vi får in jobb.
+    create_cta: Skapa jobbmail
   we_change_the_market:
     title: Vi förändrar arbetsmarknaden
     body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger

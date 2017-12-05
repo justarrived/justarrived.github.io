@@ -94,6 +94,10 @@ newcomer:
     title: Latest jobs
 
 section:
+  consultant_at_just_arrived:
+    title: Working as a consultant at Just Arrived
+    body: What does it mean to work as a consutant at a staffing company?
+    read_more_cta: Read more
   create_job_subscription:
     title: Job tips straight to your inbox
     body: Give us your email address and we'll send you an email when we post new jobs.
