@@ -97,6 +97,7 @@ section:
   create_job_subscription:
     title: Job tips straight to your inbox
     body: Give us your email address and we'll send you an email when we post new jobs.
+    create_cta: Skapa jobbmail
   we_change_the_market:
     title: We are changing the Swedish labour market
     body: Through a wider network we can use more of the competence arriving to Sweden with newcomers. This is how we will build better organizations, better business and a better society.

@@ -69,6 +69,7 @@ nav:
   promo_code_signin: Logga in med promokod
   about_us: Om oss
   login: Logga in
+  guide: Jobbguide
   companies: Arbetsgivare
   newcomers: Kandidat
   blog: Blogg
@@ -78,7 +79,7 @@ start:
   top_banner:
     title: Bemanning<br>med fokus<br>på utrikesfödda
   job_cards:
-    title: Nya jobb
+    title: Senaste jobben
 company:
   top_banner:
     title: Bemanning<br>med fokus<br>på utrikesfödda
@@ -86,10 +87,13 @@ newcomer:
   top_banner:
     title: Hitta ditt<br>jobb<br> i Sverige
   job_cards:
-    title: Nya jobb
+    title: Senaste jobben
 section:
+  create_job_subscription:
+    title: Jobbtips i mejlen
+    body: Ge oss din mejladress så skickar tips när vi får in jobb.
   we_change_the_market:
-    title: Vi vill förändra arbetsmarknaden
+    title: Vi förändrar arbetsmarknaden
     body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger
       vi bättre affärer, bättre organisationer och ett bättre samhälle.
   three_pitch:
@@ -114,7 +118,7 @@ section:
     title: Hitta ditt nya jobb i Sverige
     body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
   we_disrupt:
-    title: Vi vill förändra arbetsmarknaden
+    title: Vi förändrar arbetsmarknaden
     body: Med bredare nätverk tar vi tillvara på mer kompetens i Sverige. Så bygger
       vi bättre affärer, bättre organisationer och ett bättre samhälle.
   win_win:
