@@ -109,8 +109,9 @@ section:
       item2: Kandidater med potential att växa
     safe:
       title: Tryggt
-      item0: Schyssta villkor - för alla
+      item0: Schyssta priser, schyssta löner
       item1: Medlem i Almega Bemanningsföretagen
+      item2: Kollektivavtal
     sustainable:
       title: Hållbart
       item0: Affärsnytta
