@@ -244,10 +244,6 @@ join_us:
     fifth: Desktop optimization of app
     sixth: Translating application to kurmanji, dari, pashto or tigrinya
 
-meet_the_team:
-  description: Vi vill ta tillvara på den kompetens och erfarenhet som utrikesfödda kommer med. Vi är övertygade om att det är vägen till att bygga bättre affärer, bättre organisationer och ett bättre samhälle.
-  careers_link_text: We're hiring
-
 our_product:
   title: Our product
   description: 'Just Arrived is a digital application that matches Newcomers in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:'
@@ -264,7 +260,7 @@ say_hej:
   enquiries: General enquiries
   general_contact:
     say_hi: 'Say hi!'
-    drop_us_a_line: 'Vi pratar gärna :)'
+    drop_us_a_line: 'We'd love to talk :)'
 
 company_form:
   job_form_link_name: Already a registered company? Register a new job.
@@ -479,11 +475,6 @@ faq:
     what_after_completion:
       question: What happens after a job is completed?
       answer: After a job is completed, an invoice is sent together with a template for reference and rating of the service to the company. The purpose with the rating and reference is to allow the newcomer to create a new resume and reference list in Sweden.
-
-startpage_company_section:
-  title: 'Win-win har aldrig varit enklare!'
-  subtitle: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
-  cta: Learn more
 
 company_page:
   contact_form:
