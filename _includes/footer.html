@@ -21,11 +21,12 @@
       <div class="footer-col">
         <h3>{% t footer.about_us.title %}</h3>
         <ul class="footer-link-list">
-          <li><a href="{{ "/about-us/" | prepend: site.baseurl }}">{% t footer.about_us.about %}</a></li>
+          <li><a href="{% tl about_us %}">{% t footer.about_us.about %}</a></li>
           <li><a href="https://careers.justarrived.se">{% t footer.about_us.careers %}</a></li>
-          <li><a href="{{ "/about-us/" | prepend: site.baseurl }}">{% t footer.about_us.team %}</a></li>
+          <li><a href="{% tl about_us %}">{% t footer.about_us.team %}</a></li>
           <li><a href="{{ "/press/" | prepend: site.baseurl }}">{% t footer.about_us.press %}</a></li>
           <li><a href="{{ "/faq/" | prepend: site.baseurl }}">{% t footer.about_us.faq %}</a></li>
+          <li><a href="{{ "/partners-and-enablers/" | prepend: site.baseurl }}">{% t footer.about_us.partners_enablers %}</a></li>
         </ul>
       </div>
       <div class="footer-col">

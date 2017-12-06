@@ -33,8 +33,8 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-size: 14px;
   line-height: 2.3;
   font-weight: normal;
-  padding: 0 18px;
-  border-radius: 30px;
+  padding: 2px 30px;
+  border-radius: 8px;
   border: 0;
   cursor: pointer;
   font-weight: 600;
@@ -93,7 +93,43 @@ and it will create a button dependant on those variables.
     background-color: darken($cerise, 5%);
   }
   &:visited {
-    // color: $white;
+    color: $white;
+  }
+}
+
+.secondary-btn {
+  @extend %btn;
+  background-color: $gray500;
+  border: 1px solid $gray500;
+  color: $white;
+  &:hover {
+    background-color: darken($gray500, 8%);
+    color: darken($white, 8%);
+  }
+  &:active {
+    background-color: darken($gray500, 13%);
+    color: darken($white, 13%);
+  }
+  &:visited {
+    color: $white;
+  }
+}
+
+.white-btn {
+  @extend %btn;
+  background-color: $white;
+  border: 1px solid $white;
+  color: $gray500;
+  &:hover {
+    background-color: darken($white, 8%);
+    color: darken($gray500, 8%);
+  }
+  &:active {
+    background-color: darken($white, 13%);
+    color: darken($gray500, 13%);
+  }
+  &:visited {
+    color: $gray500;
   }
 }
 

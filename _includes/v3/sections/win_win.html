@@ -1,0 +1,28 @@
+{% if include.bg_color %}
+  {% assign bg_color = include.bg_color %}
+{% else %}
+  {% assign bg_color = 'white' %}
+{% endif %}
+
+{% if bg_color == 'white' %}
+  {% assign btn_class = 'secondary-btn' %}
+{% else %}
+  {% assign btn_class = 'white-btn' %}
+{% endif %}
+
+
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row mobile-column-reverse">
+    <div class="{{bg_color}} column">
+      <div class="marketing-content">
+        <h1 class="title">{% t section.win_win.title %}</h1>
+        <p class="body">{% t section.win_win.body %}</p>
+
+        <a href="{% tl company %}" class="{{btn_class}} section-button">
+          {% t nav.read_more %}
+        </a>
+      </div>
+    </div>
+    <div class="{{bg_color}} column marketing-background three-people-cooperating-on-computer"></div>
+  </div>
+</div>

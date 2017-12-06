@@ -1,0 +1,21 @@
+---
+layout: default
+
+redirect_from:
+  - /company/
+
+namespace: company
+
+permalink:      /arbetsgivare/
+permalink_sv:   /arbetsgivare/
+permalink_en:   /employer/
+permalink_ar:   /صاحب-العمل/
+---
+
+{% capture top_banner_title %}{% t start.top_banner.title %}{% endcapture %}
+{% include v3/sections/top_banner.html title=top_banner_title %}
+{% include v3/sections/company_three_pitch.html %}
+{% include sections/company/post_job_form.html %}
+{% include v3/sections/latest_blog_post.html %}
+{% include v3/sections/we_change_the_market.html %}
+{% include v3/sections/two_column_company_newsletter.html %}

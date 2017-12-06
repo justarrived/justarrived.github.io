@@ -1,14 +1,29 @@
 ---
 layout: default
+
+redirect_from:
+  - /about-us/
+
+namespace: about_us
+
+permalink:      /om-oss/
+permalink_sv:   /om-oss/
+permalink_en:   /about/
+permalink_ar:   /عن-الشركة/
 ---
 
 <div class="about-us">
   <div id="content">
-    {% include sections/meet_the_team.html %}
-    {% include sections/join_us.html %}
-    {% include sections/contribute.html %}
+    {% capture top_banner_title %}
+      {% t about_us.top_banner.title %}
+    {% endcapture %}
+    {% include v3/sections/top_banner.html title=top_banner_title %}
+    {% include v3/sections/we_disrupt_the_labour_market.html %}
+    {% include v3/sections/win_win.html bg_color="black" %}
+    {% include v3/sections/latest_blog_post.html %}
+    {% include v3/sections/yesterday_today_tomorrow.html %}
+    {% include v3/sections/two_column_company_newsletter.html %}
     {% include sections/say_hej.html %}
-    {% include sections/partners.html %}
-    {% include sections/enablers.html %}
+    {% include sections/covered_by.html %}
   </div>
 </div>

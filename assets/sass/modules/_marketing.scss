@@ -1,0 +1,126 @@
+.ui.grid>.row.mobile-column-reverse {
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.tablet-hide {
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.desktop-hide {
+  /* Grid is collapsed */
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+
+.white.column {
+  background-color: white;
+}
+
+.marketing-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 300px;
+  &.happy-man-looking-right {
+    background-image: url(/assets/images/sections/happy-man-looking-right.jpg);
+    background-position-y: top;
+  }
+  &.smiling-man-looking-into-camera {
+    background-image: url(/assets/images/sections/smiling-man-looking-into-camera.jpg);
+  }
+  &.three-people-cooperating-on-computer {
+    background-image: url(/assets/images/sections/three-people-cooperating-on-computer.jpg);
+    background-position-y: top;
+  }
+  &.interviewee {
+    background-image: url(/assets/images/sections/interviewee.jpg);
+  }
+  &.people-during-workshop {
+    background-image: url(/assets/images/sections/people-during-workshop.jpg);
+  }
+  &.happy-man-smiling-into-camera {
+    background-image: url(/assets/images/sections/happy-man-smiling-into-camera.jpg);
+  }
+  &.happy-young-man-and-elderly-woman {
+    background-image: url(/assets/images/sections/happy-young-man-and-elderly-woman.jpg);
+  }
+  &.two-women-cooperating-in-front-of-desktop {
+    background-image: url(/assets/images/sections/two-women-cooperating-in-front-of-desktop.jpg);
+  }
+  &.woman-smiling-looking-into-camera {
+    background-image: url(/assets/images/sections/woman-smiling-looking-into-camera.jpg);
+  }
+  &.man-working {
+    background-image: url(/assets/images/sections/man-working.jpg);
+  }
+  &.woman-working-on-computer {
+    background-image: url(/assets/images/sections/woman-working-on-computer.jpg);
+  }
+  &.man-in-office-arm-chair-with-people-in-background {
+    background-image: url(/assets/images/sections/man-in-office-arm-chair-with-people-in-background.jpg);
+  }
+  &.man-smiling-looing-straight-into-camera {
+    background-image: url(/assets/images/sections/man-smiling-looing-straight-into-camera.jpg);
+  }
+  &.man-smiling-looking-slightly-right {
+    background-image: url(/assets/images/sections/man-smiling-looking-slightly-right.jpg);
+  }
+  &.friendly-woman-smiling-looking-into-camera {
+    background-image: url(/assets/images/sections/friendly-woman-smiling-looking-into-camera.jpg);
+  }
+  &.man-with-beard-smiling-looking-into-camera {
+    background-image: url(/assets/images/sections/man-with-beard-smiling-looking-into-camera.jpg);
+  }
+}
+
+.marketing-content {
+  padding: 8rem 4rem;
+
+  &.compact {
+    padding: 4rem 4rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 1029px) {
+    padding: 6rem 2rem;
+
+    .three.column & {
+      padding: 4rem 1rem;
+    }
+  }
+
+  /* Grid is collapsed */
+  @media (max-width: 768px) {
+    padding: 4rem 1.5rem;
+
+    &.compact {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .jumbotron-icon {
+    font-size: 200px;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top: -66px;
+  }
+
+  .section-button {
+    margin-top: 30px;
+  }
+
+  .title + .body {
+    margin-top: 30px;
+  }
+
+  .body {
+    font-size: 18px;
+  }
+}

@@ -16,13 +16,6 @@ http://thesassway.com/advanced/modular-css-naming-conventions
 
 ******************************************************************/
 
-/*********************
-IMPORTING PARTIALS
-These files are needed at the beginning so that we establish all
-our mixins, functions, and variables that we'll be using across
-the whole project.
-*********************/
-
 // normalize: http://necolas.github.io/normalize.css/
 @import "partials/normalize";
 
@@ -38,8 +31,15 @@ the whole project.
 // import mixins
 @import "partials/mixins";
 
+// import Semantic UI
+@import "semantic-ui/grid";
+@import "semantic-ui/card";
+
 // the grid
 @import "partials/grid";
+
+@import "semantic-ui-overrides";
+
 
 /*********************
 IMPORTING MODULES
@@ -70,6 +70,8 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 
 @import "modules/progress_widget";
 
+@import "modules/marketing";
+
 
 /*********************
 BASE (MOBILE) SIZE
@@ -83,6 +85,9 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 
 // Language direction ltr/rtl
 @import "modules/language_direction";
+
+// Sections
+@import "templates/sections";
 
 // Templates
 @import "templates/careers";

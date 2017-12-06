@@ -13,6 +13,7 @@ $job-card-padding: 15px;
   margin: 0 auto;
   max-width: $job-card-width * 4 + 60;
   text-align: center;
+  min-height: 324px; // To avoid re-flow/re-paint issue
 
   @media (max-width: 1125px) {
     .job-cards-list li:last-child .job-card {
@@ -50,7 +51,6 @@ $job-card-padding: 15px;
   margin: 10px 5px;
   width: $job-card-tablet-width;
   position: relative;
-  border-right: 1px solid $gray !important;
 
   vertical-align: top;
   @include tablet {

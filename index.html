@@ -6,29 +6,13 @@ description: We give newcomers in Sweden a chance to enter the labor market
 
 <div class="home">
   <div id="content">
-
-    <div id="almedalen-2017-notice" style="display:none;background: #0069d2;color: #fff;padding: 15px 0;">
-      <h2 style="margin: 0px 0;text-align:center;font-size: 18px;">
-        Just Arrived är i Almedalen.
-        <a href="/almedalen/" style="color: #E8218D;">
-          Läs mer.
-        </a>
-      </h2>
-    </div>
-    <script type="text/javascript">
-      if (new Date() > new Date(2017, 6, 1) && new Date() < new Date(2017, 6, 7)) {
-        var element = document.getElementById('almedalen-2017-notice');
-        if (element) {
-          element.style.display = 'block';
-        }
-      }
-    </script>
-
-    {% include sections/top_banner_v2.html %}
-    {% include sections/job_cards.html %}
-    {% include sections/home_how_we_match.html %}
-    {% include sections/home_newcomer_register.html %}
-    {% include sections/covered_by.html %}
+    {% capture top_banner_title %}{% t start.top_banner.title %}{% endcapture %}
+    {% include v3/sections/top_banner.html title=top_banner_title %}
+    {% capture job_cards_title %}{% t start.job_cards.title %}{% endcapture %}
+    {% include sections/job_cards.html title=job_cards_title %}
+    {% include v3/sections/first_step_to_your_new_job.html %}
+    {% include v3/sections/find_employees_with_great_potential.html %}
+    {% include v3/sections/win_win.html %}
     {% include sections/company/post_job_form.html %}
   </div>
 </div>

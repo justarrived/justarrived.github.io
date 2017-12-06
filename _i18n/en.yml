@@ -19,6 +19,7 @@ global:
   more_company_info: Company info
   apply: Register application
   or: or
+  blog: Blog
 
 page_not_found:
   title: We're sorry we couldn't find this page
@@ -69,10 +70,86 @@ nav:
   promo_code_signin: Sign in with promo code
   about_us: About us
   login: Login
-  companies: Companies
-  newcomers: Newcomers
+  guide: Job guide
+  companies: Employer
+  newcomers: Candidate
   blog: Blog
   faq: FAQ
+  read_more: Read more
+
+start:
+  top_banner:
+    title: Staffing<br>foreign-born<br>competence
+  job_cards:
+    title: Latest jobs
+
+company:
+  top_banner:
+    title: Staffing<br>foreign-born<br>competence
+
+newcomer:
+  top_banner:
+    title: Find your<br>next job<br> in Sweden
+  job_cards:
+    title: Latest jobs
+
+section:
+  consultant_at_just_arrived:
+    title: Working as a consultant at Just Arrived
+    body: What does it mean to work as a consutant at a staffing company?
+    read_more_cta: Read more
+  create_job_subscription:
+    title: Job tips straight to your inbox
+    body: Give us your email address and we'll send you an email when we post new jobs.
+    create_cta: Create subscription
+  we_change_the_market:
+    title: We are changing the Swedish labour market
+    body: Through a wider network we can use more of the new competence arriving to Sweden. This is how we build better organizations, better business and a better society.
+  three_pitch:
+    simple:
+      title: Easy
+      item0: Large network
+      item1: Fast assignments
+      item2: No administration
+    safe:
+      title: Fair
+      item0: Fair prices and fair salaries
+      item1: Member of Almega Bemanningsföretagen, Swedish Employer’s Association for Staffing Industry
+      item2: Collective agreement
+    sustainable:
+      title: Sustainable
+      item0: Good for business
+      item1: Good for society
+      item2: Big impact on individual lifes
+  find_employees:
+    title: Find employees with great potential
+  first_step_to_job:
+    title: Find your next job in Sweden
+    body: We match foreign-born candidates with employers in Sweden.
+  we_disrupt:
+    title: We are changing the Swedish labour market
+    body: Through a wider network we can use more of the new competence arriving to Sweden. This is how we build better organizations, better business and a better society.
+  win_win:
+    title: Win-win has never been easier!
+    body: It should be easy for foreing-born candidates and Swedish employers to meet. This is the reason for why we exist.
+  latest_blog_post:
+    title: New from our blog
+  past_and_future:
+    title: Yesterday, today and tomorrow
+    body: The foundation for Just Arrived was laid the autumn of 2015 with increasing numbers of refugees arriving to Sweden. In 2016 Just Arrived added staffing to our business and Just Arrived Bemanning AB was founded. Today we operate in Stockholm and Göteborg, looking forward to help employers and foregin-born candidates in more cities to meet.
+  company_newsletter:
+    title: Newsletter
+  your_potential:
+    title: We see your potential
+    body: At Just Arrived you work part time or full time for one or more of our clients that need help, providing you with a good step into the Swedish labour market.
+  create_profile:
+    title: Create your profile
+    body: Register today so we can match you with relevant jobs.
+    create_profile_cta: Create your profile
+  newcomer_good_to_know:
+    title: Good to know
+    body: In our Job Guide you will find advice on how to find vacant jobs. Together with a brief overview on how it works when starting a new job.
+    guide_cta: Guide
 
 blog:
   pagination:
@@ -85,6 +162,19 @@ blog:
     newsletter_header: Newsletter
     newsletter_body: Learn how to build a better business with the help of employees that are new in Sweden. You can of course unsubscribe anytime.
     newsletter_subscribe: Subscribe
+
+about_us:
+  top_banner:
+    title: Staffing<br>foreign-born<br>competence
+  simple_match:
+    title: It should be easy for foreign-born candidates and employers to meet.
+    body: That's why we are here. Fair terms for everybody is a essential part of our business. We have collective agreement through Almega Bemanningsföretagen.This mean you can feel safe both as a candidat and as a client.
+  win_win:
+    title: 'Win-win has never been this simple!'
+    body: You will get the help you need in order to carry on your business. At the same time foreign-born candidates will have a chance to start a new working life in Sweden.
+  today_tomorrow:
+    title: Yesterday, today and tomorrow
+    body: The foundatation for Just Arrived was made the autumn of 2015 with increasing numbers of refugees arriving to Sweden. In 2016 Just Arrived added staffing to our business and Just Arrived Bemanning AB was founded. Today we operate in Stockholm and Göteborg, looking forward to help employers and foregin-born candidates in more cities to meet. Just Arrived is a limited company owned by several foundatuions. Together with our clients we make a difference in people's life by offering a first step to start a career in Sweden. We look forward to continue with this work - every day!
 
 company_newsletter:
   header: Just Arrived Newsletter
@@ -154,11 +244,6 @@ join_us:
     fifth: Desktop optimization of app
     sixth: Translating application to kurmanji, dari, pashto or tigrinya
 
-meet_the_team:
-  title: Meet the team
-  description: We're a group of 150 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for Newcomers to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.
-  careers_link_text: We're hiring
-
 our_product:
   title: Our product
   description: 'Just Arrived is a digital application that matches Newcomers in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:'
@@ -171,8 +256,11 @@ our_product:
     asterix: '* Requires AT-UND, personal identity number or co-ordination number and access to bank account.'
 
 say_hej:
-  title: Say Hej
+  title: Team Just Arrived
   enquiries: General enquiries
+  general_contact:
+    say_hi: 'Say hi!'
+    drop_us_a_line: "We'd love to talk :)"
 
 company_form:
   job_form_link_name: Already a registered company? Register a new job.
@@ -227,6 +315,7 @@ footer:
     careers: Careers
     team: The team
     press: Press
+    partners_enablers: Partners and enablers
   follow_us:
     title: Follow us
   contact_us:
@@ -387,12 +476,6 @@ faq:
       question: What happens after a job is completed?
       answer: After a job is completed, an invoice is sent together with a template for reference and rating of the service to the company. The purpose with the rating and reference is to allow the newcomer to create a new resume and reference list in Sweden.
 
-startpage_company_section:
-  title: We Match You With Newcomers Who Are Eager to Work
-  subtitle: Is your office overwhelmed with tasks that is not part of your (or anyones) job? Are you in need of assistants, people for events or someone that can help your specific needs?
-  subsubtitle: Why not hire through Just Arrived?
-  cta: Learn more
-
 company_page:
   contact_form:
     job_description_placeholder: Please describe your staffing needs
@@ -482,8 +565,7 @@ company_contact_us:
   title: Contact us
 
 newcomer_contact_us:
-  title: Still have questions?
-  subtitle: Psst.. check out our FAQ
+  title: Contact us
 
 top_banner_newcomer:
   title: Get the experience you need to enter the Swedish labour market
@@ -540,6 +622,7 @@ careers:
 
 job_card:
   gross_salary: "Total gross salary:"
+  all_available_jobs_button: All available jobs
 
 press:
   title: Press

@@ -1,74 +1,20 @@
-<div class="ui grid section--newcomer-contact-us class">
-
-  <div class="sixteen wide column title-container">
-    <h2 class="section-title">{% t newcomer_contact_us.title %}</h2>
-    <div class="company-small-bottom-border"></div>
-  </div>
-
+<div class="ui padded centered grid newcomer-contact-us">
   <div class="sixteen wide column">
-    <h4 class="section-subtitle">
-      <a href="/faq/newcomer">{% t newcomer_contact_us.subtitle %}</a>
-    </h4>
+    <h2 class="section-title">{% t newcomer_contact_us.title %}</h2>
   </div>
-
-  <div class="two column stackable equal width row">
-    <div class="column profile-container">
-      <img class="profile-image" src="{{ "/assets/images/profile-pictures/Anna-Hornmark.png" | prepend: site.github.url }}"></img>
-      <h3 class="profile-title">Anna Hörnmark</h3>
-      <h4 class="profile-subtitle">Operations Manager</h4>
-      <a class="profile-text" href="mailto:anna.hornmark@justarrived.se">anna.hornmark@justarrived.se</a><br/>
-      <a class="profile-text" href="tel:+46768025997">+46 76 802 59 97</a>
-    </div>
-    <div class="column profile-container">
-      <img class="profile-image" src="{{ "/assets/images/profile-pictures/Lova-Westlund.png" | prepend: site.github.url }}"></img>
-      <h3 class="profile-title">Lova Westlund</h3>
-      <h4 class="profile-subtitle">Operations Manager</h4>
-      <a class="profile-text" href="mailto:lova.westlund@justarrived.se">lova.westlund@justarrived.se</a><br/>
-      <a class="profile-text profile-text-bottom" href="tel:+46705383386">+46 70 538 33 86</a>
-    </div>
-  </div>
-
-</div>
-
-<!--<section class="
-  section--say-hej
-  module
-  module--txt-c
-  module--padding
-  module--white
-  module--black-bg">
-  <div class="wrap">
-    <div class="module-content">
-      <h2 class="bordered bordered--secondary bordered--centered">{% t newcomer_contact_us.title %}</h2>
-      <h4>
-        <a href="/faq/newcomer">{% t newcomer_contact_us.subtitle %}</a>
-      </h4>
-
-      <div class="columns columns--inline">
-        <div class="column-1-2">
-          <img class="profile-pic" src="{{ "/assets/images/profile-pictures/anna_hornmark.jpg" | prepend: site.github.url }}">
-          <p>
-            <strong>Anna Hörnmark</strong>
-            <br> Operations Manager
-            <br>
-            <a class="txt-link" href="mailto:anna.hornmark@justarrived.se">anna.hornmark@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="tel:+46768025997">+46 76 802 59 97</a>
-          </p>
-        </div>
-        <div class="column-1-2">
-          <img class="profile-pic filter--black-and-white" src="{{ "/assets/images/profile-pictures/lova_westlund.jpg" | prepend: site.github.url }}">
-          <p>
-            <strong>Lova Westlund</strong>
-            <br> Operations Manager
-            <br>
-            <a class="txt-link" href="mailto:lova.westlund@justarrived.se">lova.westlund@justarrived.se</a>
-            <br>
-            <a class="txt-link formatted-number" href="#">+46 70 538 33 86</a>
-          </p>
-        </div>
+  {% for employee in site.data.listed_employees %}
+    {% if employee.list_on_candidate_page and employee.list_on_candidate_page == 'true' %}
+      <div class="sixteen wide mobile six wide tablet four wide computer column">
+        {%
+          include
+          contact_card.html
+          profile_photo_path=employee.profile_photo_path
+          name=employee.name
+          title=employee.title
+          email=employee.email
+          phone=employee.phone
+        %}
       </div>
-
-    </div>
-  </div>
-</section>-->
+    {% endif %}
+  {% endfor %}
+</div>

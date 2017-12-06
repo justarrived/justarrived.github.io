@@ -42,6 +42,8 @@ app_register_link: https://app.justarrived.se/register
 app_jobs_link: https://app.justarrived.se/jobs/
 app_job_link: https://app.justarrived.se/job/
 app_signin_link: https://app.justarrived.se/login
+app_guide_link: https://app.justarrived.se/guide
+app_subscriptions_link: https://app.justarrived.se/subscriptions
 full_style_guide_url: https://app.frontify.com/d/qbRkBYTExyiX/just-arrived-style-guide#/basics/brand-logo
 job_submission_email: anna.hornmark+company-forms@justarrived.se
 job_submission_redirect_url: https://justarrived.se/thanks/job-submit
@@ -73,11 +75,12 @@ gems:
 - jekyll-multiple-languages-plugin
 - jekyll-paginate-v2
 - jekyll-feed
+- jekyll-redirect-from
 pagination:
   enabled: true
   limit: false
   per_page: 10
-  title_suffix: 
+  title_suffix:
 rtl_languages:
 - ar
 default_language: sv

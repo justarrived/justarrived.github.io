@@ -1,0 +1,29 @@
+<div class="ui card">
+  <div class="image">
+    {% if include.profile_photo_path %}
+    <img src="/assets/images/employees/{{include.profile_photo_path}}.jpg">
+    {% else %}
+    <img src="/assets/images/employees/missing.png">
+    {% endif %}
+  </div>
+  <div class="content">
+    <a href="mailto:{{include.email}}" class="header">{{include.name}}</a>
+    <div class="meta">
+      <span class="date">{{include.title}}</span>
+    </div>
+  </div>
+  <div class="extra content truncate">
+    {% if include.phone %}
+    <a href="tel:{{include.phone}}">{{include.phone}}</a>
+    {% else %}
+      -
+    {% endif %}
+  </div>
+  <div class="extra content truncate">
+    {% if include.email %}
+      <a href="mailto:{{include.email}}">{{include.email}}</a>
+    {% else %}
+      -
+    {% endif %}
+  </div>
+</div>

@@ -1,22 +1,28 @@
 (function(window) {
   var numberOfJobs = 3;
-  var path = '/jobs?include=company,hourly_pay'
+  var path = '/jobs?include=company,company.company_images'
   var pageParam = '&page' + encodeURIComponent('[') + 'size' + encodeURIComponent(']') + '=' + numberOfJobs;
   var filterParam = '&filter' + encodeURIComponent('[') + 'hidden' + encodeURIComponent(']') + '=true';
   var filterParam = '';
   var sortParam = '&sort=-featured,filled,-job_date';
   var fieldsParam = [
     'fields' + encodeURIComponent('[') + 'company' + encodeURIComponent(']') + '=id,name,city',
-    'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,hourly_pay,id,name,hours,city,short_description,description,translated_text,gross_amount_delimited',
-    'fields' + encodeURIComponent('[') + 'hourly_pay' + encodeURIComponent(']') + '=id,gross_salary_with_unit'
+    'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,id,name,hours,city,short_description,description,translated_text,gross_amount_delimited'
   ].join('&');
 
   var baseURL = 'https://api.justarrived.se/api/v1';
   JOBS_ENDPOINT = baseURL + path + pageParam + filterParam + sortParam + fieldsParam;
 
+  function getJobsURL(opts) {
+    var pageOffset = opts.pageOffset || 1;
+    var pageOffsetParam = '&page' + encodeURIComponent('[') + 'number' + encodeURIComponent(']') + '=' + pageOffset;
+
+    return JOBS_ENDPOINT +  pageOffsetParam;
+  }
+
   function getJobs(callback) {
   $.ajax({
-      url: JOBS_ENDPOINT,
+      url: getJobsURL({}),
       type: 'GET',
       dataType: 'json',
       success: function(response) {
@@ -43,25 +49,30 @@
     includedData.forEach(function(resource) {
       if (resource.type === type && resource.id === id) {
         attributes = resource.attributes;
+        attributes['relationships'] = resource.relationships;
       }
     });
     return attributes;
   }
 
-  function getCompanyName(includedData, id) {
+  function getCompany(includedData, id) {
     return getIncludedResource('companies', id, includedData);
   }
 
-  function getCategoryName(includedData, id) {
-    return getIncludedResource('categories', id, includedData);
-  }
-
-  function getHourlyPayValue(includedData, id) {
-    return getIncludedResource('hourly_pays', id, includedData);
+  function getCompanyImage(includedData, id) {
+    return getIncludedResource('company_images', id, includedData);
   }
 
   function relationId(type, data) {
     return data.relationships[type].data.id;
+  }
+
+  function lastRelationId(type, data) {
+    var relationData = data.relationships[type].data;
+    if (!relationData) return null;
+
+    var lastId = data.relationships[type].data[relationData.length -1].id;
+    return lastId;
   }
 
   function formatJobTemplate(template, jobData, includedData) {
@@ -70,15 +81,18 @@
     var jobID = jobData.id;
 
     var companyId = relationId('company', jobData);
-    var hourlyPayId = relationId('hourly_pay', jobData);
-
-    var company = getCompanyName(includedData, companyId);
-    var hourlyPay = getHourlyPayValue(includedData, hourlyPayId);
-    var grossSalary = hourlyPay['gross_salary_with_unit'];
+    var company = getCompany(includedData, companyId);
+    var lastImageId = lastRelationId('company_images', company)
+    var companyImage = getCompanyImage(includedData, lastImageId);
+    var companyImageURL;
+    if (companyImage) {
+      companyImageURL = companyImage.image_url_large;
+    } else {
+      companyImageURL = "/assets/images/apple-touch-icon.png"
+    }
 
     var hours = jobAtrs.hours;
-    var amount = jobAtrs['gross_amount_delimited'];
-    var maxDescriptionLength = 100;
+    var maxDescriptionLength = 140;
     var shortDesc = jobAtrs['translated_text']['short_description'] || jobAtrs['short_description'];
     var description = shortDesc || (jobAtrs['translated_text']['description'] || jobAtrs['description']);
     var name = jobAtrs['translated_text'].name || jobAtrs.name;
@@ -88,16 +102,15 @@
     innerHTML = formatTemplate(innerHTML, '%job_company%', company.name);
     innerHTML = formatTemplate(innerHTML, '%job_city%', jobAtrs.city);
     innerHTML = formatTemplate(innerHTML, '%job_name%', name);
-    innerHTML = formatTemplate(innerHTML, '%job_amount%', amount);
-    innerHTML = formatTemplate(innerHTML, '%job_hours%', hours);
-    innerHTML = formatTemplate(innerHTML, '%job_hourly_pay%', grossSalary);
+    innerHTML = formatTemplate(innerHTML, '%job_company_image_url%', companyImageURL);
     return formatTemplate(innerHTML, '%job_description%', description);
   }
 
-  function truncate(text) {
-    var truncationLength = 90;
-    var truncatedText = text.substring(0, truncationLength) + '...';
-    return truncatedText;
+  function truncate(text, maxLength) {
+    if (text.length > maxLength) {
+      return text.substring(0, maxLength - 3) + '...';
+    }
+    return text;
   }
 
   function createCards(targetSelector, templateSelector) {

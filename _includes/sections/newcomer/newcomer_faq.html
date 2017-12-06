@@ -2,14 +2,20 @@
   <div class="two column stackable equal width row newcomer-faq-container">
     <div class="column section--newcomer-faq-left">
       <div class="row">
-        <h3 class="section-subtitle">{% t faq.newcomer.what.question %}</h3>
+        <h3 class="section-subtitle">Vad behöver jag veta?</h3>
       </div>
       <div class="row">
-        <p class="section-text">{% t faq.newcomer.what.answer %}</p>
+        <p class="section-text">
+          <strong>I vår guide samlar vi tips och råd för dig som vill veta mer om:</strong><br>
+
+          <br>Vad du behöver för att kunna jobba i Sverige.
+          <br>Hur du söker jobb
+          <br>Hur arbetslivet funkar
+        </p>
       </div>
       <div class="row section-button-wrapper">
-        <a href="{{ "/faq/newcomer/" | prepend: site.baseurl }}" class="primary-btn border-btn--pink section-button">
-          {% t global.read_more %}
+        <a href="{{ site.app_guide_link }}?locale={{site.lang}}&utm_source={{site.utm.source}}&utm_medium={{site.utm.medium}}&utm_content=footer_login" class="primary-btn border-btn--pink section-button">
+          Gå till jobbguide
         </a>
       </div>
     </div>

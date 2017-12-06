@@ -1,0 +1,29 @@
+{% for post in site.posts limit: 1 %}
+<div class="ui middle equal width aligned padded stackable grid">
+  <div class="row">
+    {% if post.square_cover %}
+      <div
+       class="white column marketing-background"
+       style="background: url({{post.list_cover}})">
+      </div>
+    {% else %}
+      <div
+       class="white column marketing-background man-with-beard-smiling-looking-into-camera">
+      </div>
+    {% endif %}
+    <div class="white column">
+      <div class="marketing-content">
+        <h1 class="title">{% t section.latest_blog_post.title %}</h1>
+        <p class="body">
+          <a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title | escape }}"</a><br>
+          <em>{{ post.date | date: "%b %-d, %Y" }}</em>
+        </p>
+
+        <a href="{{ post.url | prepend: site.baseurl }}" class="secondary-btn section-button">
+          {% t nav.read_more %}
+        </a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>

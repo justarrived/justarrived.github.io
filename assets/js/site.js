@@ -8,8 +8,8 @@
   }
 
   function initJobCards() {
-    var template = '#js-job-cards-template';
-    var target = '#js-job-cards';
+    var template = '.js-job-cards-template';
+    var target = '.js-job-cards';
     window.JAJobs.createCards(target, template);
   }
 
