@@ -92,6 +92,7 @@ section:
   consultant_at_just_arrived:
     title: Att jobba som konsult hos Just Arrived
     body: Vad innebär det att jobba som konsult hos ett bemanningsföretag?
+    read_more_cta: Läs mer
   create_job_subscription:
     title: Jobbtips i mailen
     body: Ge oss din mailadress så skickar tips när vi får in jobb.
@@ -117,7 +118,6 @@ section:
       item2: Gör skillnad för enskilda människor
   find_employees:
     title: Vi hjälper dig att hitta medarbetare med stor potential
-    body: Snabbt, enkelt och tryggt!
   first_step_to_job:
     title: Hitta ditt nya jobb i Sverige
     body: Vi matchar dig som är utrikesfödd med arbetsgivare i Sverige.
@@ -268,11 +268,6 @@ join_us:
     forth: Utveckling av säljmaterial
     fifth: Optimera applikationen för datorer
     sixth: Översätta applikationen till kurmanki, dari, pashto och tigrinya
-meet_the_team:
-  description: Vi vill ta tillvara på den kompetens och erfarenhet som utrikesfödda
-    kommer med. Vi är övertygade om att det är vägen till att bygga bättre affärer,
-    bättre organisationer och ett bättre samhälle.
-  careers_link_text: Vi söker medarbetare
 our_product:
   title: Vår produkt
   description: 'Just Arrived är en digital platform som matchar nyanlända i Sverige
@@ -509,10 +504,6 @@ faq:
       answer: Efter utfört uppdrag skickas faktura tillsammans med mall för omdöme
         och betyg för tjänsten till företaget. Syftet med betygsättning och omdömet
         är att den nyanlände ska få skapa sig ett levande CV och referenslista i Sverige.
-startpage_company_section:
-  title: Win-win har aldrig varit enklare!
-  subtitle: Det ska vara enkelt för arbetsgivare och utrikesfödda kandidater att mötas.
-  cta: Mer information
 company_page:
   contact_form:
     job_description_placeholder: Beskriv gärna kort ditt personalbehov

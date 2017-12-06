@@ -4,7 +4,9 @@
     <div class="pink column">
       <div class="marketing-content">
         <h1 class="title">{% t section.find_employees.title %}</h1>
-        <p class="body">{% t section.find_employees.body %}</p>
+        {% if site.lang == 'sv' %}
+          <p class="body">Snabbt, enkelt och tryggt!</p>
+        {% endif %}
 
         <a href="{% tl company %}" class="white-btn section-button">
           {% t nav.read_more %}
