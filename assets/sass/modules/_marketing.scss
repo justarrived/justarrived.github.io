@@ -83,6 +83,10 @@
 .marketing-content {
   padding: 8rem 4rem;
 
+  &.compact {
+    padding: 4rem 4rem;
+  }
+
   @media (min-width: 768px) and (max-width: 1029px) {
     padding: 6rem 2rem;
 
@@ -95,7 +99,7 @@
   @media (max-width: 768px) {
     padding: 4rem 1.5rem;
 
-    &.compact-tablet {
+    &.compact {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
     }

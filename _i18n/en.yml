@@ -79,13 +79,13 @@ nav:
 
 start:
   top_banner:
-    title: Staffing with<br>foreign-born<br>candidates
+    title: Staffing<br>foreign-born<br>competence
   job_cards:
     title: Latest jobs
 
 company:
   top_banner:
-    title: Staffing with<br>foreign-born<br>candidates
+    title: Staffing<br>foreign-born<br>competence
 
 newcomer:
   top_banner:
@@ -104,16 +104,16 @@ section:
     create_cta: Create subscription
   we_change_the_market:
     title: We are changing the Swedish labour market
-    body: Through a wider network we can use more of the competence arriving to Sweden with newcomers. This is how we will build better organizations, better business and a better society.
+    body: Through a wider network we can use more of the new competence arriving to Sweden. This is how we build better organizations, better business and a better society.
   three_pitch:
     simple:
       title: Easy
       item0: Large network
       item1: Fast assignments
-      item2: Candidates with great potential
+      item2: No administration
     safe:
       title: Fair
-      item0: Fair terms- for everybody
+      item0: Fair terms for everybody
       item1: Member of Almega Bemanningsföretagen, Swedish Employer’s Association for Staffing Industry
     sustainable:
       title: Sustainable
@@ -121,17 +121,17 @@ section:
       item1: Good for society
       item2: Big impact on individual lifes
   find_employees:
-    title: We help you to find employees with great potential
-    body: Fast, easy and safe!
+    title: Find employees with great potential
+    body: ''
   first_step_to_job:
     title: Find your next job in Sweden
     body: We match foreign-born candidates with employers in Sweden.
   we_disrupt:
     title: We are changing the Swedish labour market
-    body: Through a wider network we can use more of the competence arriving to Sweden with newcomers. This is how we will build better organizations, better business and a better society.
+    body: Through a wider network we can use more of the new competence arriving to Sweden. This is how we build better organizations, better business and a better society.
   win_win:
     title: Win-win has never been easier!
-    body: It should be easy for foreing-born candidates and Swedish employers to meet. That's why we are here.
+    body: It should be easy for foreing-born candidates and Swedish employers to meet. This our reason to exist.
   latest_blog_post:
     title: New from our blog
   past_and_future:
@@ -165,7 +165,7 @@ blog:
 
 about_us:
   top_banner:
-    title: Staffing with<br>foreign-born<br>candidates
+    title: Staffing<br>foreign-born<br>competence
   simple_match:
     title: It should be easy for foreign-born candidates and employers to meet.
     body: That's why we are here. Fair terms for everybody is a essential part of our business. We have collective agreement through Almega Bemanningsföretagen.This mean you can feel safe both as a candidat and as a client.
