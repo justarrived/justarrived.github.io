@@ -260,7 +260,7 @@ say_hej:
   enquiries: General enquiries
   general_contact:
     say_hi: 'Say hi!'
-    drop_us_a_line: 'We'd love to talk :)'
+    drop_us_a_line: "We'd love to talk :)"
 
 company_form:
   job_form_link_name: Already a registered company? Register a new job.
