@@ -49,7 +49,7 @@
 	<meta name="theme-color" content="#222531">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/assets/sass/main.css?1512628940329303000">
+	<link rel="stylesheet" href="/assets/sass/main.css?1512629968937515000">
 
 	<!-- Upsales -->
 	<script src="https://img.upsales.com/p55vt9o4U6773y8nAlJxmw==/visit/v.js"></script>
@@ -119,7 +119,7 @@
 
 
 
-<body data-lang="en" class="en-locale ltr-locale-direction" dir="ltr" itemscope="" itemtype="http://schema.org/WebPage">
+<body id="body" data-lang="en" class="en-locale ltr-locale-direction" dir="ltr" itemscope="" itemtype="http://schema.org/WebPage">
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -1107,11 +1107,15 @@ twq('track','PageView');
 <script>
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
   function toggleHamburger() {
-    var x = document.getElementById("responsive-header");
-    if (x.className === "hide") {
-        x.className = "responsive";
+    var body = document.getElementById("body");
+    var header = document.getElementById("responsive-header");
+
+    if (header.className === "hide") {
+      header.className = "responsive";
+      body.className = body.className + " mobile-menu-open";
     } else {
-        x.className = "hide";
+      header.className = "hide";
+      body.className = body.className.replace(/mobile-menu-open/g, '')
     }
   }
 </script>
