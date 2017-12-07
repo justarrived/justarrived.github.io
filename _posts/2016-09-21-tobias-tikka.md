@@ -3,8 +3,6 @@ title: Meet the team - Tobias Tikka
 date: 2016-09-21 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/tobias-tikka.jpg"
@@ -18,5 +16,3 @@ Besides my studies within business design I have been working in the field of so
 The reason why I want to be a part of the Just Arrived team is because I believe that this initiative is a great way to make a positive impact in the Swedish society. Since the service is provided through a technical platform this aligns well with my big interest for software development. The fact that the Just Arrived team consists of high-performing individuals who I can learn from and have fun together with makes me even more motivated to work here!
 
 ![Tobias Tikka]({{ "/assets/images/blog/tobias-tikka.jpg" | prepend: site.github.url }})
-
-

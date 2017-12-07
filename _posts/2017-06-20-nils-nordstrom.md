@@ -3,8 +3,6 @@ title: Meet the team - Nils Nordström
 date: 2017-06-20 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/nils-nordstrom.jpg"

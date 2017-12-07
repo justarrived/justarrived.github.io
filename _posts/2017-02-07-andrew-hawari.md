@@ -3,8 +3,6 @@ title: Meet the team - Andrew Hawari
 date: 2017-02-07 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/andrew-hawari.jpg"
@@ -30,5 +28,3 @@ __Why do you do what you do? How does your involvement with Just Arrived correla
 As a graphic designer I send a message with each design that I do, and I really like the message that I got from Just Arrived's logo; giving the helping hand to the newcomers to get into the labour market. Now I'm one of many in the amazing core team at Just Arrived, and I work to give the creativity to each message or helping hand that Just Arrived wants to give, whomever the audience may be.
 
 ![Andrew Hawari]({{ "/assets/images/blog/andrew-hawari.jpg" | prepend: site.github.url }})
-
-

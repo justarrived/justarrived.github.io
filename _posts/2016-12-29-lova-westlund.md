@@ -3,8 +3,6 @@ title: Meet the team - Lova Westlund
 date: 2016-12-29 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: lova
 locale: en
@@ -19,5 +17,3 @@ In my role as Operations Manager at Just Arrived my main responsibility is to be
 I have always had a strong commitment for helping people, especially people who are in a vulnerable situation. The situation we have today in Sweden regarding handling newcomers and helping them get into the labour market is not working the way it should. Just Arrived offers an easy way for companies to hire newcomers, and by doing so getting motivated people into their organizations. Furthermore, it will give newcomers a more fair chance to integrate into the Swedish society by getting a foot in to the labour market. In other words, Just arrived offers a win-win situation, it couldn’t be better! I'm so glad that I'm part of this driven and dedicated team at Just Arrived, who together are determined to make a real difference and to make Sweden a better and more welcoming place.
 
 ![Lova Westlund]({{ "/assets/images/blog/lova-westlund.jpg" | prepend: site.github.url }})
-
-

@@ -3,8 +3,6 @@ title: Meet the team - Louise Staffas
 date: 2017-06-30 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/louise-staffas.jpg"

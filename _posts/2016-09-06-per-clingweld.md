@@ -3,8 +3,6 @@ title: Meet the team - Per Clingweld
 date: 2016-09-06 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: per
 locale: en
@@ -19,5 +17,3 @@ I’ve been part of the Just Arrived journey from the idea stage in October last
 So why do I do what I do? Well, over the past few years I’ve been part of growing the startup community in Sweden, following the creativity and tremendous speed at which ideas are being realised thanks to design and technology. Right now, 33 investments are being made in Swedish startups every month compared to only 3 a few years ago, proving that this little country in the north has become a melting pot for innovation. At the same time, through my key role in the top talent network Nova, I realize how many talented individuals are just waiting to contribute with their skills, social capital and time to do good. I am a big fan for building financially sustainable companies and products, strategically designed to make an impact. Up until today, the Just Arrived project has had more than 150 contributors from 25 different organisations, making it the coolest project I’ve ever been part of. This form of collaboration enabled by technology, and also how we’ve teamed up with other initiatives within the space, makes me very hopeful for the future.
 
 ![Per Clingweld]({{ "/assets/images/blog/per-clingweld.jpg" | prepend: site.github.url }})
-
-

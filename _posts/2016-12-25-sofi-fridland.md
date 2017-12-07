@@ -3,8 +3,6 @@ title: Meet the team - Sofi Fridland
 date: 2016-12-25 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/sofi-fridland.jpg"
@@ -26,5 +24,3 @@ I could go on about forever why Just Arrived is important and brilliant, but som
 I think Just Arrived is of the most interesting initiatives on this topic right now and I’m extremely proud to have contributed even just a tiny bit to making Just Arrived into what it is all about – to give newcomers in Sweden a chance to enter the labor market.
 
 ![Sofi Fridland]({{ "/assets/images/blog/sofi-fridland.jpg" | prepend: site.github.url }})
-
-

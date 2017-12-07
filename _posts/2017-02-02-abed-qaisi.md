@@ -3,8 +3,6 @@ title: Meet the team - Abed Qaisi
 date: 2017-02-02 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: abed
 locale: en

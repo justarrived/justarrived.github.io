@@ -3,8 +3,6 @@ title: Meet the team - Jesper Sundström
 date: 2016-08-08 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 locale: en
 list_cover: "/assets/images/blog/jesper-sundstrom.jpg"

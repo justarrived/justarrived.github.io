@@ -3,8 +3,6 @@ title: Meet the team - Salam Al Hennawi
 date: 2017-01-10 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: salam
 locale: en
@@ -28,5 +26,3 @@ I was so excited and keen to start my career here in Stockholm and I couldn’t 
 Just Arrived's platform is one of the best ways to spot the newcomer’s abilities and qualifications, to integrate them in the Swedish labor market, at the same time to give the employers a trustful resource to reach the right person, through Just Arrived dedicated team which I’m proud to be part of it.
 
 ![Salam Al Hennawi]({{ "/assets/images/blog/salam-al-hennawi.jpg" | prepend: site.github.url }})
-
-

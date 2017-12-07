@@ -3,8 +3,6 @@ title: Meet the team - Anna Hörnmark
 date: 2016-08-24 02:00:00 +02:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: anna
 locale: en
@@ -19,5 +17,3 @@ As Operations Manager at Just Arrived my main responsibility is being the contac
 When I grew up the simple motto “No one can do everything, but everyone can do something” was beaten into my brain. And I guess this is me trying to do something. During my studies, the last three years I watched the situation with immigrants in Sweden develop rapidly. My understanding of some of the cultures that are enriching Sweden grew next to my wish to contribute, and when I was given a chance to join the highly driven and motivated team at Just Arrived I didn't hesitate. We want to do something to help make at least one step into Swedish society easier.
 
 ![Anna Hörnmark]({{ "/assets/images/blog/anna-hornmark.jpg" | prepend: site.github.url }})
-
-

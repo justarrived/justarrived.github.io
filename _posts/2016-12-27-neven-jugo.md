@@ -3,8 +3,6 @@ title: Meet the team - Neven Jugo
 date: 2016-12-27 01:00:00 +01:00
 categories:
 - blog
-tags:
-- meet the team
 layout: post
 author: neven
 locale: en
@@ -21,5 +19,3 @@ That’s why I choose to work at Just Arrived. I want to do my best to help othe
 I believe Just Arrived is an amazing and much needed initiative that can make true change for many people and the community as a whole. It’s also a great platform for me to use my experiences and skills to contribute to this change.
 
 ![Neven Jugo]({{ "/assets/images/blog/neven-jugo.jpg" | prepend: site.github.url }})
-
-
