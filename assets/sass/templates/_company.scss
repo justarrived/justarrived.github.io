@@ -34,6 +34,11 @@
 
     h1 {
       top: 400px;
+
+      .mobile-menu-open & {
+        // 292px is the total height of the responsive mobile menu
+        top: (400px + 292px);
+      }
     }
   }
 
