@@ -56,11 +56,15 @@ twq('track','PageView');
 <script>
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
   function toggleHamburger() {
-    var x = document.getElementById("responsive-header");
-    if (x.className === "hide") {
-        x.className = "responsive";
+    var body = document.getElementById("body");
+    var header = document.getElementById("responsive-header");
+
+    if (header.className === "hide") {
+      header.className = "responsive";
+      body.className = body.className + " mobile-menu-open";
     } else {
-        x.className = "hide";
+      header.className = "hide";
+      body.className = body.className.replace(/mobile-menu-open/g, '')
     }
   }
 </script>
