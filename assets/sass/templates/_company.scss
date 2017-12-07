@@ -18,6 +18,14 @@
     right: 40px;
     color: white;
     font-size: 40px;
+
+    @media (min-width: 371px)  and (max-width: 450px) {
+      right: 32px;
+    }
+
+    @media (max-width: 370px) {
+      font-size: 32px;
+    }
   }
 
   @media (max-width: 900px) {
@@ -26,12 +34,6 @@
 
     h1 {
       top: 400px;
-    }
-  }
-
-  @media (max-width: 450px) {
-    h1 {
-      right: 32px;
     }
   }
 
