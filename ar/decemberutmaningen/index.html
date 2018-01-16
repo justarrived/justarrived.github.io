@@ -49,7 +49,7 @@
 	<meta name="theme-color" content="#222531">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/assets/sass/main.css?1516010425073691000">
+	<link rel="stylesheet" href="/assets/sass/main.css?1516117630483977000">
 
 	<!-- Upsales -->
 	<script src="https://img.upsales.com/p55vt9o4U6773y8nAlJxmw==/visit/v.js"></script>
@@ -574,279 +574,18 @@
 <script charset="utf-8" src="/assets/js/libs/cookie-disclaimer.js" ></script>
 <script charset="utf-8" src="/assets/js/company-scripts.js" ></script>
 <script charset="utf-8" src="/assets/js/scripts.js" ></script>
+<script charset="utf-8" src="/assets/js/pay-calculator.js" ></script>
+<script charset="utf-8" src="/assets/js/hourly-pays-input-list.js" ></script>
 <script charset="utf-8" src="/assets/js/ja-jobs.js" ></script>
+<script charset="utf-8" src="/assets/js/cookie-notice.js" ></script>
 <script charset="utf-8" src="/assets/js/just-track.js" ></script>
-
+<script charset="utf-8" src="/assets/js/popups.js" ></script>
+<script charset="utf-8" src="/assets/js/just-i18n.js" ></script>
+<script charset="utf-8" src="/assets/js/utm-builder.js" ></script>
+<script charset="utf-8" src="/assets/js/progress-widget.js" ></script>
+<script charset="utf-8" src="/assets/js/site.js" ></script>
 <script type="text/javascript">
-  // JustI18n
-  (function(window) {
-    function isCurrentLocale(locale) {
-      return CURRENT_LOCALE == locale;
-    }
-
-    function isAvailableLocale(locale) {
-      return AVAILABLE_LOCALES.indexOf(locale) !== -1;
-    }
-
-    function getBrowserLocale() {
-      return navigator.language.substring(0, 2);
-    }
-
-    function getBrowserLocales() {
-      return navigator.languages.map(function(language) {
-        return language.substring(0, 2)
-      });
-    }
-
-    function isInBrowserLocale(locale) {
-      return getBrowserLocales().indexOf(locale) !== -1;
-    }
-
-    function isPrimaryLocale(locale) {
-      return locale === getBrowserLocale();
-    }
-
-    function isLocaleCookie(locale) {
-      return false;
-    }
-
-    function arLocaleNudge() {
-      var promptLocale = 'ar';
-      if (!isCurrentLocale(promptLocale) && isInBrowserLocale(promptLocale)) {
-        var $arLocale = $('.js-locale-choser .lang-ar');
-        $arLocale.addClass('animated-background');
-      }
-    }
-
-    function init() {
-      // arLocaleNudge();
-    }
-
-    var I18n = {
-      init: function() {
-        init();
-      }
-    }
-
-    window.JustI18n = I18n;
-  })(window);
-</script>
-
-<script type="text/javascript">
-  // Cookie notice
-  var body = document.getElementsByTagName('body')[0];
-  var locale = body.getAttribute('data-lang');
-
-  // var message = document.getElementById('cookie-banner-message').innerHTML;
-  var templateName = '/cookie-banner/';
-  // en locale has no path prefix
-  if (locale !== DEFAULT_LOCALE) {
-    templateName = locale + '/' + templateName;
-  }
-
-  CookieDisclaimer.init({
-    name: 'JustArrivedCookieAccept',
-    message: false,
-    template: templateName,
-    duration: 365 // Save the accept for a year
-  });
-</script>
-
-<script type="text/javascript">
-  // ProgressWidget
-  /*
-    new ProgressWidget({
-      selector: '#test-counter',
-      current: 690,
-      target: 1000,
-      text: 'registered',
-      bgColor: 'pink',     // optional
-      fillColor: 'black',  // optional
-      textColor: 'green'   // optional
-    });
-  */
-  (function(window) {
-    var progressTemplate = '<div class="counter-bg-base"> <div class="counter-bg-overlay"></div><div class="counter-bg-ring"> <p class="counter-number-large js-current-progress">0</p></div></div><p class="counter-summary"> <span class="primary-color js-current-progress">0</span>/<span id="js-counter-target"></span> <span id="js-counter-text"></span></p>';
-
-    function calculateFillHeight(count, targetCount) {
-      var pixelsPerPercentHeight = 2.61;
-      var pixelOffsetBottom = 15;
-      var maxHeight = 285;
-
-      var percentFilled = (count / targetCount) * 100;
-      var fillHeight = (percentFilled * pixelsPerPercentHeight) + pixelOffsetBottom;
-      if (fillHeight > maxHeight || percentFilled >= 100) {
-        return maxHeight;
-      }
-      return fillHeight;
-    }
-
-    function buildProgressWidget(selector, current, target, text, bgColor, fillColor, textColor) {
-      var progressFillElement = document.querySelector(selector);
-      if (progressFillElement === null) {
-        console.log('[ProgressWidget] No element found for selector ', selector);
-        return;
-      }
-      progressFillElement.innerHTML = progressTemplate;
-
-      var backgroundElement = progressFillElement.querySelector('.counter-bg-base');
-      var counterOverlayElement = progressFillElement.querySelector('.counter-bg-overlay');
-      var counterElements = progressFillElement.querySelectorAll('.js-current-progress');
-      var targetElement = progressFillElement.querySelector('#js-counter-target');
-      var counterTextElement = progressFillElement.querySelector('#js-counter-text');
-      var largeCounterElement = progressFillElement.querySelector('.counter-number-large');
-
-      targetElement.innerText = target;
-      counterTextElement.innerText = text;
-
-      if (textColor) {
-        largeCounterElement.style.color = textColor;
-      }
-
-      if (bgColor) {
-        backgroundElement.style.backgroundColor = bgColor;
-      }
-
-      if (fillColor) {
-        counterOverlayElement.style.backgroundColor = fillColor;
-      }
-      counterOverlayElement.style.height = calculateFillHeight(current, target) + 'px';
-
-      counterElements.forEach(function(element) {
-        element.innerText = current;
-      });
-    };
-
-    window.ProgressWidget = function(options) {
-      var selector = options.selector;
-      var current = options.current;
-      var target = options.target;
-      var text = options.text;
-      var bgColor = options.bgColor;
-      var fillColor = options.fillColor;
-      var textColor = options.textColor;
-
-      buildProgressWidget(selector, current, target, text, bgColor, fillColor, textColor);
-    }
-  })(window);
-</script>
-
-<script type="text/javascript">
-  // UTM-builder
-  (function(window) {
-    function insertSearchPartsToHref(href, searchParts) {
-      var extraSearch = searchParts.join('&');
-      var parser = document.createElement('a');
-      parser.href = href;
-
-      var search;
-      if (parser.search.length > 0) {
-        search = [parser.search, extraSearch].join('&');
-      } else {
-        search = '?' + extraSearch;
-      }
-
-      return [
-        parser.protocol + '//', // => "http:"
-        parser.hostname,        // => "example.com"
-        parser.pathname,        // => "/pathname/"
-        search,                 // => "?search=test"
-        parser.hash             // => "#hash"
-      ].join('');
-    }
-
-    function buildUTMHref(website, source, medium, campaign, term, content) {
-      var searchParts = [
-        'utm_source=' + source,
-        'utm_medium=' + medium
-      ];
-
-      if (campaign) {
-        searchParts.push('utm_campaign=' + campaign);
-      }
-      if (term) {
-        searchParts.push('utm_term=' + term);
-      }
-      if (content) {
-        searchParts.push('utm_content=' + content);
-      }
-
-      return insertSearchPartsToHref(website, searchParts);
-    }
-
-    function utmBuilerFormSubmit() {
-      var $form = $('.js-utm-builder-form');
-      var $resultArea = $('.js-utm-result');
-
-      var $url = $('#url');
-      var $campaignSource = $('#campaign_source');
-      var $campaignMedium = $('#campaign_medium');
-
-      // Optional
-      var $campaignName = $('#campaign_name');
-      var $campaignTerm = $('#campaign_term');
-      var $campaignContent = $('#campaign_content');
-
-      var website = $url.val();
-      if (website.indexOf('http:') === -1 && website.indexOf('https:') === -1) {
-        website = 'http://' + website;
-      }
-      var href = buildUTMHref(
-        website,
-        $campaignSource.val(),
-        $campaignMedium.val(),
-        $campaignName.val(),
-        $campaignTerm.val(),
-        $campaignContent.val()
-      );
-      $resultArea.html('<code>' + href + '</code>');
-
-      return false;
-    }
-
-    window.utmBuilerFormSubmit = utmBuilerFormSubmit;
-  })(window);
-</script>
-
-<script type="text/javascript">
-  // Popups
-  (function(window) {
-    function openPopup(selector) {
-      $('.cd-popup').removeClass('is-visible');
-      $(selector).addClass('is-visible');
-    };
-
-    function initPopups() {
-      //open signup popup
-      $('.cd-popup-trigger-signin').on('click', function(event){
-        event.preventDefault();
-        openPopup('.cd-popup-signin');
-      });
-
-      //open xmas popup
-      $('.cd-popup-trigger-xmas').on('click', function(event){
-        event.preventDefault();
-        openPopup('.cd-popup-xmas');
-      });
-
-      //close popup
-      $('.cd-popup').on('click', function(event){
-        if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
-          event.preventDefault();
-          $(this).removeClass('is-visible');
-        };
-      });
-
-      //close popup when clicking the esc keyboard button
-      $(document).keyup(function(event){
-        if(event.which == '27'){
-          $('.cd-popup').removeClass('is-visible');
-        }
-      });
-    };
-
-    window.Popups = { init: initPopups };
-  })(window);
+  Site.init(); // Init site JavaScript
 </script>
 
 <script type="text/javascript">
@@ -896,11 +635,6 @@ twq('track','PageView');
       body.className = body.className.replace(/mobile-menu-open/g, '')
     }
   }
-</script>
-
-<script charset="utf-8" src="/assets/js/site.js" ></script>
-<script type="text/javascript">
-  Site.init(); // Init site JavaScript
 </script>
 
 
