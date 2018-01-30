@@ -38,7 +38,6 @@ Tänk på att om man är ny i Sverige är det inte säkert att man har koll på 
 
 #### Ditt nätverk
 
-Ditt nätverk
 Att använda sig av kontakter är en vanlig väg för arbetsgivare att hitta nya medarbetare. För att inte riskera att rekrytera personer som är en kopia av dig själv är det bra att fundera över hur ditt nätverk ser ut. Är det väldigt homogent kanske det är en idé att se hur du själv kan fler nyanlända och utrikesfödda. Det finns flera organisationer som underlättar enkla möten. Till exempelvis [Welcome Movement](http://welcomemovement.se/?utm_source=justarrived&utm_medium=blog), [Öppna Dörren](http://www.oppnadorren.se/?utm_source=justarrived&utm_medium=blog) och [Kompis Sverige](http://kompissverige.se/?utm_source=justarrived&utm_medium=blog). Förhoppningsvis får du både vänskap och ett bredare nätverk när du ska rekrytera.
 
 Lycka till!
