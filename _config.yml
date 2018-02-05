@@ -131,6 +131,10 @@ authors:
     display_name: Anna Hörnmark
     email: anna.hornmark@justarrived.se
     profile_pic: "/assets/images/blog/anna-hornmark.jpg"
+  yvonne:
+    display_name: Yvonne Dahlberg
+    email: yvonne.dahlberg@justarrived.se
+    profile_pic: "/assets/images/blog/yvonne-dahlberg.jpg"
   per:
     display_name: Per Clingweld
     email: anna.hornmark@justarrived.se
