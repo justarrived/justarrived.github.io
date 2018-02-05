@@ -9,7 +9,10 @@ tags:
 locale:
 - sv
 layout: post
+list_cover: "/uploads/amro-sharaf-aldin.jpg"
 ---
+
+![Amro Sharaf Aldin](/uploads/amro-sharaf-aldin.jpg)
 
 Amro Sharaf Aldin är 22 år. Sommaren 2015 kom han till Syrien från Sverige. Där läste han engelska och marknadsföring på Universitetet i Homs innan han blev tvungen att lämna landet.
 
