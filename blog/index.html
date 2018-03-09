@@ -33,7 +33,7 @@ redirect_from:
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div
               class="post-list-cover"
-              style="background-image: url({{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}">
+              style="background-image: url({{ post.list_cover | prepend: site.github.url }});{% if post.list_cover_height %}height:{{ post.list_cover_height }};{% endif %}{% if post.list_cover_bg_pos %}background-position:{{ post.list_cover_bg_pos }};{% endif %}">
 
               </div>
           </a>
