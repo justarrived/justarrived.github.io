@@ -71,7 +71,9 @@
     var relationData = data.relationships[type].data;
     if (!relationData) return null;
 
-    var lastId = data.relationships[type].data[relationData.length -1].id;
+    var lastRelation = data.relationships[type].data[relationData.length -1];
+    if (!lastRelation) return null;
+    var lastId = lastRelation.id;
     return lastId;
   }
 
@@ -83,8 +85,11 @@
     var companyId = relationId('company', jobData);
     var company = getCompany(includedData, companyId);
     var lastImageId = lastRelationId('company_images', company)
-    var companyImage = getCompanyImage(includedData, lastImageId);
+    var companyImage;
     var companyImageURL;
+    if (lastImageId) {
+      companyImage  = getCompanyImage(includedData, lastImageId);
+    }
     if (companyImage) {
       companyImageURL = companyImage.image_url_large;
     } else {
