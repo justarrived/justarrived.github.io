@@ -1,3 +1,47 @@
+.post-content {
+  blockquote,
+  blockquote p,
+  .module--black blockquote p,
+  .module--black blockquote p ol,
+  .module--black blockquote p ul {
+    color: $stone-dark !important;
+    padding: 0 !important;
+  }
+
+  // h3 should be used for in-blog-post headlines
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "museo","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  p,
+  strong,
+  i,
+  em,
+  b,
+  blockquote,
+  blockquote p,
+  blockquote i,
+  blockquote em,
+  blockquote strong {
+    font-family: "museo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+  }
+
+  strong, b {
+    font-weight: 700;
+  }
+}
+
 .blog-title-container {
   text-align: center;
 

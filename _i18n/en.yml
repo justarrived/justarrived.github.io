@@ -155,6 +155,7 @@ section:
     guide_cta: Guide
 
 blog:
+  index_subtitle: ''
   pagination:
     prev: Previous
     next: Next

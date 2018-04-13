@@ -4,6 +4,13 @@ layout: default
 
 {% assign author = site.authors[page.author] %}
 
+{%- if page.show_cover_full_width -%}
+  <div
+    class=""
+    style="background-image: url({{ page.show_cover_full_width | prepend: site.github.url }});height: 600px">
+  </div>
+{%- endif -%}
+
 <section class="
 section--blog
 module
@@ -16,11 +23,19 @@ module--white-bg
   module-content--centered
   module--black
   ">
-
   <div class="wrap">
     <div class="post">
+        {%- if page.show_cover -%}
+          <img src="{{ page.show_cover }}" alt="{{ post.title }}">
+        {%- endif -%}
+
         <header class="post-header">
           {% if page.hide_post_title != true %}<h1 class="post-title">{{ page.title }}</h1>{% endif %}
+
+          <div style="margin-top:-20px;margin-bottom:20px;">
+            {% include blog/post_footer.html twitter_left=true %}
+          </div>
+
           {% if page.no_meta_section != true %}
           <p class="post-meta">
             {{ page.date | date: "%b %-d, %Y" }}

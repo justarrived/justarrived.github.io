@@ -11,15 +11,14 @@ locale:
 layout: post
 list_cover: "/uploads/lova-westlund2.jpg"
 list_cover_bg_pos: top center
+show_cover: "/uploads/lova-westlund2.jpg"
 ---
 
-![Lova Westlund](/uploads/lova-westlund2.jpg)
-
-Många som kommer nya till Sverige har med sig både lång erfarenhet och högre utbildning från sina hemländer. Något som faktiskt  ibland kan bli ett hinder i jakten på första jobbet i Sverige. Lova Westlund hos Just Arrived vill gärna utmana fler arbetsgivare att inte sålla bort högutbildade kandidater när det handlar om  jobb som normalt inte kräver högre utbildning.
+__Många som kommer nya till Sverige har med sig både lång erfarenhet och högre utbildning från sina hemländer. Något som faktiskt  ibland kan bli ett hinder i jakten på första jobbet i Sverige. Lova Westlund hos Just Arrived vill gärna utmana fler arbetsgivare att inte sålla bort högutbildade kandidater när det handlar om  jobb som normalt inte kräver högre utbildning.__
 
 > På Just Arrived arbetar vi främst med det vi kallar för entréjobb för nyanlända och utrikesfödda. Vi definierar entréjobb som den första vägen in en bransch. Det är operativa jobb, oftast av assisterande karaktär där man har en möjlighet att växa och utvecklas.  Här finns inga krav på svenska certifikat eller svenska utbildningar. Flytande svenska är inte heller ett krav. Däremot kan viss yrkeserfarenhet efterfrågas.
 
-__Risk för dubbelbestraffning__
+### Risk för dubbelbestraffning
 
 När det gäller utrikes födda pratar vi ofta om problematiken med  att vi inte lyckas ta  tillvara på kompetensen hos de som har högre utbildning när de inte får jobb som matchar deras utbildning. Men det finns också en risk för att högre utbildning kan göra det svårare att hitta ett jobb överhuvudtaget.
 
@@ -27,7 +26,7 @@ När det gäller utrikes födda pratar vi ofta om problematiken med  att vi inte
 
 > Tyvärr märker vi att en högre utbildning ibland kan vara ett hinder när man söker jobb som inte kräver det. Flera av våra kandidater berättar att de sällan eller aldrig blir kallade till intervjuer trots att de har full kapacitet att klara jobbet. När de följer upp får de höra att de har för för mycket erfarenhet eller är för välutbildade. Men de seniora tjänsterna får de inte heller. Det blir en dubbelbestraffning som kan bli tuff.  Visst ska vi sträva  efter att människor ska få jobb som matchar deras utbildning. Men ibland kan det ta tid att få utbildning och certifikat validerade. Ibland måste man komplettera med svensk utbildning. Och ibland vill man bara komma igång att jobba. Något som inte alltid är helt enkelt.
 
-__Lita på kandidaten vill jobba hos dig__
+### Lita på kandidaten vill jobba hos dig
 
 _Vad tror du orsaken är?_
 
