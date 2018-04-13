@@ -9,11 +9,11 @@ tags:
 locale:
 - sv
 layout: post
-list_cover: "/uploads/lova_westlund600.jpg"
-list_cover_bg_pos: center center
+list_cover: "/uploads/lova-westlund2.jpg"
+list_cover_bg_pos: top center
 ---
 
-![Lova Westlund](/uploads/lova_westlund2.jpg)
+![Lova Westlund](/uploads/lova-westlund2.jpg)
 
 Många som kommer nya till Sverige har med sig både lång erfarenhet och högre utbildning från sina hemländer. Något som faktiskt  ibland kan bli ett hinder i jakten på första jobbet i Sverige. Lova Westlund hos Just Arrived vill gärna utmana fler arbetsgivare att inte sålla bort högutbildade kandidater när det handlar om  jobb som normalt inte kräver högre utbildning.
 
