@@ -80,6 +80,9 @@ nav:
 start:
   top_banner:
     title: Staffing<br>foreign-born<br>competence
+  top_banner_v2:
+    title: We challenge the<br>labour market
+    subtitle: Staffing and recruiting foreign-born competence
   job_cards:
     title: Latest jobs
 

@@ -5,6 +5,34 @@
   background-position: center center;
 }
 
+.top-banner-wrapper-v2 {
+  background-image:    url("/assets/images/sections/top-banner-v2.jpg");
+  padding: 80px;
+
+  .content-container {
+    padding: 150px 0;
+    color: #101010;
+    h1 {
+      font-size: 3.5em;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 1.15em;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    background-position-x: -380px;
+    padding: 100px 20px;
+
+    .content-container {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
 .section--top_banner_v2 {
   min-height: 500px;
   background: url("/assets/images/sections/top-banner-shape-full.png");

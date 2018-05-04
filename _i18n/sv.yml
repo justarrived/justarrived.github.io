@@ -78,6 +78,9 @@ nav:
 start:
   top_banner:
     title: Bemanning<br>med fokus<br>på utrikesfödda
+  top_banner_v2:
+    title: Vi förändrar <br>arbetsmarknaden
+    subtitle: Bemanning och rekrytering med fokus på utrikesfödda
   job_cards:
     title: Senaste jobben
 company:
