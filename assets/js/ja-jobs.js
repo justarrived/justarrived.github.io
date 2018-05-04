@@ -6,7 +6,7 @@
   var filterParam = '';
   var sortParam = '&sort=-featured,filled,-job_date';
   var fieldsParam = [
-    'fields' + encodeURIComponent('[') + 'company' + encodeURIComponent(']') + '=id,name,city',
+    '&fields' + encodeURIComponent('[') + 'company' + encodeURIComponent(']') + '=id,name,city',
     'fields' + encodeURIComponent('[') + 'jobs' + encodeURIComponent(']') + '=company,id,name,hours,city,short_description,description,translated_text,gross_amount_delimited'
   ].join('&');
 
@@ -63,15 +63,25 @@
     return getIncludedResource('company_images', id, includedData);
   }
 
+  function getRelation(type, data) {
+    if (!data.relationships) return null;
+    var relation = data.relationships[type]
+    if (relation) return relation
+    return null
+  }
+
   function relationId(type, data) {
-    return data.relationships[type].data.id;
+    return getRelation(type, data).data.id;
   }
 
   function lastRelationId(type, data) {
-    var relationData = data.relationships[type].data;
+    var relation = getRelation(type, data)
+    if (!relation) return null
+
+    var relationData = relation.data;
     if (!relationData) return null;
 
-    var lastRelation = data.relationships[type].data[relationData.length -1];
+    var lastRelation = relation.data[relationData.length -1];
     if (!lastRelation) return null;
     var lastId = lastRelation.id;
     return lastId;
