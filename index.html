@@ -7,21 +7,8 @@ description: We give newcomers in Sweden a chance to enter the labor market
 <div class="home">
   <div id="content">
     {% include v3/sections/top_banner_v2.html %}
-
-    <!-- TEMP remove after tcentralen event :) -->
-    <div class="container">
-      <div class="cookie-message">
-        <div class="cookie-message-inner">
-          <p class="text">
-            {% t section.central_station_event.temp_banner %}, <a href="http://go.upsales.com/wf/click?upn=CKE-2B7OzPSLpUlPPXfX584C6I9n0e2mr4btgihP1ziYov1IGWLXFp1QDXLqbm5T0UXSZ1Dy4myiED2N8wcSXFB7bF3kjLGIw7-2B3oIjd7ZFpzlX8NCBkhUQtCBdu-2BXX60Kfyv14eqBBxRG4f0BLhurWw-3D-3D_EewvicOlyuKQdTY-2FN1EhW-2FCfRZm1GLPWXktaaYLEOhgeKmG8cKDyKY8RyEVH-2FrowCpI76S3t6nSicf1oNHtHdD1KWpHzpXiwD9C9nvKrRquH1WPYMHLIDwLuryf0FyQf1MshbmnHNR4p7GJeLy4PN4JMV5AjIgpjwlHCQN-2BZmVkfyv1AVrCz2NeoSUaZOf9emlC-2FDq1A0J9xXn6ELo0TsW2Vg3kfC-2BZoHfjKX-2Bx2J3W6Uy83-2F9FKYWc4tiEQwy-2BAV-2B0irLnlJIdqPNpr49WWNJZ8eNbb5HQtazrrGxgZ3GI-3D" style="color:#fff;font-weight:700">{% t section.central_station_event.temp_banner_cta %}</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-
     {% capture job_cards_title %}{% t start.job_cards.title %}{% endcapture %}
     {% include sections/job_cards.html title=job_cards_title %}
-    {% include v3/sections/central_station_event.html %}
     {% include v3/sections/first_step_to_your_new_job.html %}
     {% include v3/sections/win_win.html %}
     {% include v3/sections/find_employees_with_great_potential.html %}
