@@ -60,7 +60,7 @@ redirect_from:
     {% for p in (1..paginator.total_pages) %}
 
       {% if p <= 1 %}
-        <a href="{{ '/blog' | prepend: site.url }}" class="blog-pagination-link">
+        <a href="{{ '/blog' | prepend: site.url }}/" class="blog-pagination-link">
 
           {% if p == paginator.page %}
             <div class="blog-pagination-button blog-pagination-button-active">
@@ -74,7 +74,7 @@ redirect_from:
 
         </a>
       {% else %}
-        <a href="{{ p | prepend: '/blog/page' | prepend: site.url }}" class="blog-pagination-link">
+        <a href="{{ p | prepend: '/blog/page' | prepend: site.url }}/" class="blog-pagination-link">
 
           {% if p == paginator.page %}
             <div class="blog-pagination-button blog-pagination-button-active">
