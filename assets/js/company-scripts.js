@@ -8,17 +8,17 @@ jQuery(document).ready(function($) {
 
   var people = [{
                   'title': 'Sara Brandt, Västbyhem',
-                  'text': 'Just Arrived removes all barriers working with newcomers.',
+                  'text': 'Just Arrived tar bort alla trösklar för att jobba med nyanlända.',
                   'img': 'sara-brandt.jpg'
                 },
                 {
                   'title': 'Johnny Warström, VD, Mentimeter',
-                  'text': 'To hire through Just Arrived proved to be very simple and fast. The person who performed the task was both polite, curious and open. To get the chance to sit down together, enjoy food from Aleppo and to meet a new Swede made us reflect on the world around us, and gave us the chance at a warm moment together.',
+                  'text': 'Att anställa via Just Arrived visade sig vara otroligt enkelt och snabbt. Personen som utförde uppdraget var både artig, nyfiken och öppen. Att få sitta tillsammans och njuta av mat från Aleppo och träffa en nysvensk fick effekten att vi reflekterade om vår omvärld och fick en varm stund tillsammans.',
                   'img': 'johnny-warstrom.jpg'
                 },
                 {
                   'title': 'Fredrik Skytt, VD, Utbudet',
-                  'text': 'For us it was great to hire through Just Arrived. We contacted Just Arrived on Thursday and already on Monday we had a very competent person who started in our office. Everyone in the office thought it was amazing that we could do something to help a person into the society.',
+                  'text': 'För oss var det otroligt bra att anställa via Just Arrived. Vi kontaktade Just Arrived på torsdagen och redan på måndagen hade vi en mycket duktig person som började på vårt kontor. Alla på kontoret tyckte det var fantastiskt bra att vi kunde hjälpa någon att komma in i samhället.',
                   'img': 'fredrik-skytt.png'
                 }]
 
