@@ -1,14 +1,12 @@
 name,title,email,phone,profile_photo_path,list_on_candidate_page
-Kelly Miller,Försäljningschef,kelly.miller@justarrived.se,+46768574316,kelly_miller,false
-Louise Staffas,Kundansvarig Göteborg,louise.staffas@justarrived.se,+46767855866,louise_staffas,false
-Gabriella Ohlzon,Kundansvarig,gabriella.ohlzon@justarrived.se,+46720211077,gabriella_ohlzon,false
-Per Strängberg,Kundansvarig,per.strangberg@justarrived.se,+46734348359,per_strangberg,false
-Lova Westlund,Rekryteringsansvarig,lova.westlund@justarrived.se,+46705383386,lova_westlund,true
-Fritjof Sewring,Konsultchef,fritjof.sewring@justarrived.se,+46708385326,fritjof_sewring,true
-Fanny Horal,Konsultchef,fanny.horal@justarrived.se,+46720181149,fanny_horal,true
-Anna Hörnmark,Mammaledig,anna.hornmark@justarrived.se,+46768025997,anna_hornmark,true
-Salam Alhennawi,Mammaledig,salam.alhennawi@justarrived.se,,salam_alhennawi,true
-Charlene Trowell,Mammaledig,charlene.trowell@justarrived.se,,charlene_trowell,true
-Madeleine Körössy,Ekonomichef,madeleine.korossy@justarrived.se,+46731517800,madeleine_korossy,false
-Andreas König,VD & Grundare,andreas@justarrived.se,+46733868656,andreas_konig,false
-Jacob Burenstam,Teknikchef & Grundare,jacob@justarrived.se,,jacob_burenstam,false
+Sofi Fridland,Säljchef,sofi.fridland@justarrived.se,+46763404480,sofi,false
+Lova Westlund,Verksamhetschef,lova.westlund@justarrived.se,+46705383386,lova,true
+Clara Bisander,Kundansvarig Stockholm,clara.bisander@justarrived.se,+46704266959,clara,true
+Kinan Aljundi,Konsultchef Stockholm,kinan.aljundi@justarrived.se,+46704641076,kinan,true
+Louise Staffas,Kundansvarig Göteborg,louise.staffas@justarrived.se,+46767855866,louise,false
+Anna Barkenbom,Konsultchef Göteborg,anna.barkenbom@justarrived.se,+46768574316,anna,true
+Cecilia Tran,Business Development Intern,cecilia@justarrived.se,,cecilia,false
+Ida Beckman,Marketing,ida@justarrived.se,,ida,false
+Pharman Nigere,Marketing,pharman@justarrived.se,,pharman,false
+Andreas König,Co-founder/Marketing,andreas@justarrived.se,+46733868656,andreas,false
+Jacob Burenstam,Co-founder,jacob@justarrived.se,,jacob,false
